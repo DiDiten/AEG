@@ -106,7 +106,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
-                "🇺🇸 US | 🟢 | ss | @connect_sho | 27",
+                "🇺🇸 US | 🟢 | ss | @connect_sho | 25",
+                "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",
                 "🇸🇪 SE | 🟢 | ss | @summertimeus | 13",
                 "🇺🇸 US | 🟢 | ss | @v2aryng_vpn | 6"
             ]
@@ -116,7 +117,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
-                "🇺🇸 US | 🟢 | ss | @connect_sho | 27",
+                "🇺🇸 US | 🟢 | ss | @connect_sho | 25",
+                "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",
                 "🇸🇪 SE | 🟢 | ss | @summertimeus | 13",
                 "🇺🇸 US | 🟢 | ss | @v2aryng_vpn | 6"
             ],
@@ -149,12 +151,20 @@
             "password": "WstuSnlu4ieA9M0L"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | ss | @connect_sho | 27",
+            "tag": "🇺🇸 US | 🟢 | ss | @connect_sho | 25",
             "type": "shadowsocks",
-            "server": "45.87.175.181",
+            "server": "45.87.175.10",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "1RWwXhwfAB5gAEozU4G2Pg"
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",
+            "type": "shadowsocks",
+            "server": "45.144.54.33",
+            "server_port": 34803,
+            "method": "chacha20-ietf-poly1305",
+            "password": "LiHQX9cDbdooBHlIg0eiqQ"
         },
         {
             "tag": "🇸🇪 SE | 🟢 | ss | @summertimeus | 13",
