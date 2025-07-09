@@ -105,15 +105,15 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+                "🇩🇪 DE | 🟢 | trojan | @directvpn | 15",
                 "🇸🇬 SG | 🟢 | trojan | @filter_breaker | 95",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
+                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 15",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
-                "🇩🇪 DE | 🟢 | trojan | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2ray_team | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
+                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
+                "🇨🇳 CN | 🟢 | trojan | @vaslvip | 14",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4",
                 "🇫🇷 FR | 🔴 | trojan | @yxjnode | 23"
             ]
@@ -122,15 +122,15 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+                "🇩🇪 DE | 🟢 | trojan | @directvpn | 15",
                 "🇸🇬 SG | 🟢 | trojan | @filter_breaker | 95",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
+                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 15",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
-                "🇩🇪 DE | 🟢 | trojan | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2ray_team | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
+                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
+                "🇨🇳 CN | 🟢 | trojan | @vaslvip | 14",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4",
                 "🇫🇷 FR | 🔴 | trojan | @yxjnode | 23"
             ],
@@ -155,9 +155,9 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+            "tag": "🇩🇪 DE | 🟢 | trojan | @directvpn | 15",
             "type": "trojan",
-            "server": "15.188.93.104",
+            "server": "63.178.255.89",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
@@ -210,9 +210,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
+            "tag": "🇩🇪 DE | 🟢 | trojan | @privatevpns | 15",
             "type": "trojan",
-            "server": "15.188.93.104",
+            "server": "63.178.255.89",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -234,22 +234,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @v2ray_free_conf | 19",
-            "type": "trojan",
-            "server": "18.195.157.38",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -297,14 +281,30 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
+            "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
             "type": "trojan",
-            "server": "15.188.93.104",
+            "server": "63.178.255.89",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳 CN | 🟢 | trojan | @vaslvip | 14",
+            "type": "trojan",
+            "server": "36.151.192.27",
+            "server_port": 444,
+            "password": "d0d08cddacc3190ea81b1b792e1b5fde",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.baidu.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
