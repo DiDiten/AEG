@@ -121,13 +121,13 @@
                 "❔ XX | 🟢 | vless | @tehron98 | 13",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "🇨🇦 CA | 🟢 | vless | @v2ray_melli | 5",
-                "🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 17",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 13",
                 "🇩🇪 DE | 🟢 | vless | @vaynora | 8",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
-                "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 15",
+                "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 16",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "❔ XX | 🟢 | vless | @xsv2ray | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
@@ -153,13 +153,13 @@
                 "❔ XX | 🟢 | vless | @tehron98 | 13",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "🇨🇦 CA | 🟢 | vless | @v2ray_melli | 5",
-                "🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 17",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 13",
                 "🇩🇪 DE | 🟢 | vless | @vaynora | 8",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
-                "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 15",
+                "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 16",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "❔ XX | 🟢 | vless | @xsv2ray | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
@@ -577,29 +577,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 17",
-            "type": "vless",
-            "server": "de1.serverfreedom.com",
-            "server_port": 3030,
-            "uuid": "a0a3e34d-87e4-4ff3-b04a-875c85325d62",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
             "type": "vless",
             "server": "site.felinefreedom.site",
@@ -650,10 +627,33 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vaynora | 8",
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 13",
             "type": "vless",
             "server": "fi.panelmarzban.com",
             "server_port": 3031,
+            "uuid": "a0a3e34d-87e4-4ff3-b04a-875c85325d62",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @vaynora | 8",
+            "type": "vless",
+            "server": "uk.panelmarzban.com",
+            "server_port": 3033,
             "uuid": "a0a3e34d-87e4-4ff3-b04a-875c85325d62",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
@@ -719,7 +719,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 15",
+            "tag": "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 16",
             "type": "vless",
             "server": "iran.mr-cloud.ir",
             "server_port": 443,
