@@ -121,9 +121,9 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "🇨🇦 CA | 🟢 | vless | @v2ray_melli | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2rayng_fast | 1",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
+                "🇩🇪 DE | 🟢 | vless | @vmesskhodam | 8",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 15",
@@ -152,9 +152,9 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "🇨🇦 CA | 🟢 | vless | @v2ray_melli | 5",
                 "🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2rayng_fast | 1",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
+                "🇩🇪 DE | 🟢 | vless | @vmesskhodam | 8",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 15",
@@ -575,29 +575,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayng_fast | 1",
-            "type": "vless",
-            "server": "bestai.dissertationhelpspecialist.com",
-            "server_port": 443,
-            "uuid": "7ef630db-a774-4c84-9940-2d7e3d1a6e37",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "docker.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "randomized"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "XaJZaD5yhaf1MSPhsKEYog1bwaCe0-yRK3nBdjwOgT8",
-                    "short_id": "ad48819bbaef"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
             "type": "vless",
             "server": "site.felinefreedom.site",
@@ -645,6 +622,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@LIGHTNING6"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @vmesskhodam | 8",
+            "type": "vless",
+            "server": "uk.panelmarzban.com",
+            "server_port": 3033,
+            "uuid": "a0a3e34d-87e4-4ff3-b04a-875c85325d62",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
+                    "short_id": ""
+                }
             }
         },
         {
