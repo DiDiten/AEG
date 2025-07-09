@@ -120,7 +120,6 @@
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
                 "🇺🇸 US | 🟢 | vmess | @freevpnatm | 19",
                 "🇳🇱 NL | 🔴 | vmess | @info_2it_channel | 11",
-                "🇺🇸 US | 🔴 | vmess | @ip_cf_config | 16",
                 "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13",
                 "🇺🇸 US | 🔴 | vmess | @iran_mehr_vpn | 17",
                 "🇺🇸 US | 🟢 | vmess | @iranvpnet | 0",
@@ -135,6 +134,7 @@
                 "🇨🇳 CN | 🔴 | vmess | @mftizi | 19",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2",
                 "🇺🇸 US | 🟢 | vmess | @minovpnch | 12",
+                "🇳🇱 NL | 🔴 | vmess | @mowjproxy | 5",
                 "❔ XX | 🔴 | vmess | @net_azad_1 | 12",
                 "🇮🇷 IR | 🔴 | vmess | @pistachiovpn | 1",
                 "🇮🇷 IR | 🔴 | vmess | @pro_chaneel | 1",
@@ -156,6 +156,7 @@
                 "🇺🇸 US | 🟢 | vmess | @v2ray_fd | 0",
                 "❔ XX | 🔴 | vmess | @v2ray_n | 19",
                 "🇺🇸 US | 🟢 | vmess | @v2ray_vmess_free | 12",
+                "🇩🇪 DE | 🔴 | vmess | @v2raych | 19",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayng_v2_ray | 3",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
@@ -194,7 +195,6 @@
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
                 "🇺🇸 US | 🟢 | vmess | @freevpnatm | 19",
                 "🇳🇱 NL | 🔴 | vmess | @info_2it_channel | 11",
-                "🇺🇸 US | 🔴 | vmess | @ip_cf_config | 16",
                 "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13",
                 "🇺🇸 US | 🔴 | vmess | @iran_mehr_vpn | 17",
                 "🇺🇸 US | 🟢 | vmess | @iranvpnet | 0",
@@ -209,6 +209,7 @@
                 "🇨🇳 CN | 🔴 | vmess | @mftizi | 19",
                 "🇺🇸 US | 🟢 | vmess | @mi_pn_official | 2",
                 "🇺🇸 US | 🟢 | vmess | @minovpnch | 12",
+                "🇳🇱 NL | 🔴 | vmess | @mowjproxy | 5",
                 "❔ XX | 🔴 | vmess | @net_azad_1 | 12",
                 "🇮🇷 IR | 🔴 | vmess | @pistachiovpn | 1",
                 "🇮🇷 IR | 🔴 | vmess | @pro_chaneel | 1",
@@ -230,6 +231,7 @@
                 "🇺🇸 US | 🟢 | vmess | @v2ray_fd | 0",
                 "❔ XX | 🔴 | vmess | @v2ray_n | 19",
                 "🇺🇸 US | 🟢 | vmess | @v2ray_vmess_free | 12",
+                "🇩🇪 DE | 🔴 | vmess | @v2raych | 19",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayng_v2_ray | 3",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
@@ -503,31 +505,6 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @ip_cf_config | 16",
-            "type": "vmess",
-            "server": "1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top",
-            "server_port": 443,
-            "uuid": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/azumase.ren",
-                "headers": {
-                    "Host": "1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top"
-                }
-            }
-        },
-        {
             "tag": "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13",
             "type": "vmess",
             "server": "89.116.38.184",
@@ -741,6 +718,15 @@
                     "Host": "speedtest.net"
                 }
             }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔴 | vmess | @mowjproxy | 5",
+            "type": "vmess",
+            "server": "bokolafas.attarisamadi.ir",
+            "server_port": 8090,
+            "uuid": "54904713-b611-4e8e-be77-a01d820b9c1b",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "❔ XX | 🔴 | vmess | @net_azad_1 | 12",
@@ -1042,6 +1028,15 @@
                     "Host": "bitter-boat-6004.samineh-sfri-95.workers.dev"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vmess | @v2raych | 19",
+            "type": "vmess",
+            "server": "pro2.prgame.xyz",
+            "server_port": 59442,
+            "uuid": "03547ff5-c16f-4b5f-b75c-48e9e0685716",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
