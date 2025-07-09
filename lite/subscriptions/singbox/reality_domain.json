@@ -113,7 +113,6 @@
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
-                "🇩🇪 DE | 🟢 | vless | @netmellianti | 16",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
@@ -122,6 +121,7 @@
                 "🇨🇦 CA | 🟢 | vless | @v2ray_melli | 5",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 13",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 16",
@@ -142,7 +142,6 @@
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
-                "🇩🇪 DE | 🟢 | vless | @netmellianti | 16",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
@@ -151,6 +150,7 @@
                 "🇨🇦 CA | 🟢 | vless | @v2ray_melli | 5",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 13",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 16",
@@ -379,29 +379,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @netmellianti | 16",
-            "type": "vless",
-            "server": "it.panelmarzban.com",
-            "server_port": 3037,
-            "uuid": "a0a3e34d-87e4-4ff3-b04a-875c85325d62",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
             "type": "vless",
             "server": "Sadaf.Melorin.mehrdadsadaf.com",
@@ -595,6 +572,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@LIGHTNING6"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 13",
+            "type": "vless",
+            "server": "it.panelmarzban.com",
+            "server_port": 3037,
+            "uuid": "a0a3e34d-87e4-4ff3-b04a-875c85325d62",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
+                    "short_id": ""
+                }
             }
         },
         {
