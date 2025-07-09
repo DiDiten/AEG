@@ -112,16 +112,15 @@
                 "🇦🇲 AM | 🔴 | vless | @getconfigir | 16",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
-                "🇮🇷 IR | 🔴 | vless | @noviin_tel | 16",
+                "🇮🇷 IR | 🔴 | vless | @noviin_tel | 15",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 14",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🟢 | vless | @telmavpn | 25",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
-                "🇨🇦 CA | 🟢 | vless | @v2ang | 5",
-                "🇺🇸 US | 🔴 | vless | @v2ray_extractor | 19",
+                "🇺🇸 US | 🟢 | vless | @v2ang | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
-                "🇺🇸 US | 🔴 | vless | @v2raych | 19",
+                "🇺🇸 US | 🟢 | vless | @v2raych | 19",
                 "🇺🇸 US | 🟢 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🟢 | vless | @v2rayng_1378 | 11",
                 "🇺🇸 US | 🔴 | vless | @v2rayngcloud | 4",
@@ -142,16 +141,15 @@
                 "🇦🇲 AM | 🔴 | vless | @getconfigir | 16",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
-                "🇮🇷 IR | 🔴 | vless | @noviin_tel | 16",
+                "🇮🇷 IR | 🔴 | vless | @noviin_tel | 15",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 14",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🟢 | vless | @telmavpn | 25",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
-                "🇨🇦 CA | 🟢 | vless | @v2ang | 5",
-                "🇺🇸 US | 🔴 | vless | @v2ray_extractor | 19",
+                "🇺🇸 US | 🟢 | vless | @v2ang | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
-                "🇺🇸 US | 🔴 | vless | @v2raych | 19",
+                "🇺🇸 US | 🟢 | vless | @v2raych | 19",
                 "🇺🇸 US | 🟢 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🟢 | vless | @v2rayng_1378 | 11",
                 "🇺🇸 US | 🔴 | vless | @v2rayngcloud | 4",
@@ -297,7 +295,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @noviin_tel | 16",
+            "tag": "🇮🇷 IR | 🔴 | vless | @noviin_tel | 15",
             "type": "vless",
             "server": "31.47.45.96",
             "server_port": 29968,
@@ -388,7 +386,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @v2ang | 5",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2ang | 5",
             "type": "vless",
             "server": "104.31.16.36",
             "server_port": 443,
@@ -413,15 +411,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2ray_extractor | 19",
-            "type": "vless",
-            "server": "162.159.129.200",
-            "server_port": 80,
-            "uuid": "ebab8eed-707e-4f0b-91ed-e83259d7167d",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
             "type": "vless",
             "server": "104.26.1.212",
@@ -438,13 +427,27 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2raych | 19",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2raych | 19",
             "type": "vless",
-            "server": "3.138.199.36",
-            "server_port": 2222,
+            "server": "3.15.212.160",
+            "server_port": 4433,
             "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
+                    "short_id": "f785b38130e64177"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @v2raymelliii | 6",
