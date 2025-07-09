@@ -105,6 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸 US | 🟢 | vless | @config_proxy | 85",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇩🇪 DE | 🟢 | vless | @custom_config | 0",
                 "🇦🇪 AE | 🟢 | vless | @darkfiilter | 2",
@@ -141,6 +142,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸 US | 🟢 | vless | @config_proxy | 85",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇩🇪 DE | 🟢 | vless | @custom_config | 0",
                 "🇦🇪 AE | 🟢 | vless | @darkfiilter | 2",
@@ -191,6 +193,29 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @config_proxy | 85",
+            "type": "vless",
+            "server": "3.133.104.191",
+            "server_port": 4433,
+            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
+                    "short_id": "f785b38130e64177"
+                }
+            }
         },
         {
             "tag": "🇫🇷 FR | 🟢 | vless | @configasli | 6",
