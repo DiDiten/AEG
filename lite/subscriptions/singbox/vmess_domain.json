@@ -164,12 +164,13 @@
                 "🇺🇸 US | 🟢 | vmess | @vein_vpn | 4",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
                 "🇫🇷 FR | 🟢 | vmess | @vmessprotocol | 3",
-                "🇺🇸 US | 🔴 | vmess | @vpnfail_v2ray | 16",
+                "🇩🇪 DE | 🟢 | vmess | @vpnfail_v2ray | 16",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3",
                 "❔ XX | 🔴 | vmess | @vpray3 | 3",
-                "🇮🇷 IR | 🔴 | vmess | @yejoriconfig | 3"
+                "🇮🇷 IR | 🔴 | vmess | @yejoriconfig | 3",
+                "🇨🇳 CN | 🔴 | vmess | @zerobaipiao | 42"
             ]
         },
         {
@@ -235,12 +236,13 @@
                 "🇺🇸 US | 🟢 | vmess | @vein_vpn | 4",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
                 "🇫🇷 FR | 🟢 | vmess | @vmessprotocol | 3",
-                "🇺🇸 US | 🔴 | vmess | @vpnfail_v2ray | 16",
+                "🇩🇪 DE | 🟢 | vmess | @vpnfail_v2ray | 16",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3",
                 "❔ XX | 🔴 | vmess | @vpray3 | 3",
-                "🇮🇷 IR | 🔴 | vmess | @yejoriconfig | 3"
+                "🇮🇷 IR | 🔴 | vmess | @yejoriconfig | 3",
+                "🇨🇳 CN | 🔴 | vmess | @zerobaipiao | 42"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -1124,13 +1126,29 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @vpnfail_v2ray | 16",
+            "tag": "🇩🇪 DE | 🟢 | vmess | @vpnfail_v2ray | 16",
             "type": "vmess",
-            "server": "66.94.114.122",
-            "server_port": 53503,
-            "uuid": "c9b9dea3-5868-477f-e54d-2c8f124f647d",
+            "server": "57.129.25.25",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
@@ -1199,6 +1217,22 @@
             "uuid": "4465948c-ea8b-4df8-b59a-279b12d2ae41",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇨🇳 CN | 🔴 | vmess | @zerobaipiao | 42",
+            "type": "vmess",
+            "server": "v25.heduian.link",
+            "server_port": 30825,
+            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+            "security": "auto",
+            "alter_id": 2,
+            "transport": {
+                "type": "ws",
+                "path": "/oooo",
+                "headers": {
+                    "Host": "v25.heduian.link"
+                }
+            }
         }
     ],
     "route": {

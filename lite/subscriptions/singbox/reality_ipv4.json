@@ -106,6 +106,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
+                "🇺🇸 US | 🟢 | vless | @configshubplus | 18",
                 "🇩🇪 DE | 🟢 | vless | @custom_config | 0",
                 "🇦🇪 AE | 🟢 | vless | @darkfiilter | 2",
                 "🇺🇸 US | 🟢 | vless | @deamnet_proxy | 19",
@@ -118,13 +119,11 @@
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
-                "🇮🇷 IR | 🟢 | vless | @proxy_hiddfy | 2",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇫🇮 FI | 🟢 | vless | @qeshmserver | 13",
                 "🇫🇮 FI | 🟢 | vless | @sezar_sec | 4",
                 "🇩🇪 DE | 🟢 | vless | @srcvpn | 32",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
-                "🇺🇸 US | 🟢 | vless | @v2raych | 19",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
                 "🇩🇪 DE | 🟢 | vless | @v2rayo7ybv67i76 | 13",
                 "🇩🇪 DE | 🟢 | vless | @v2rayxservers | 13",
@@ -143,6 +142,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
+                "🇺🇸 US | 🟢 | vless | @configshubplus | 18",
                 "🇩🇪 DE | 🟢 | vless | @custom_config | 0",
                 "🇦🇪 AE | 🟢 | vless | @darkfiilter | 2",
                 "🇺🇸 US | 🟢 | vless | @deamnet_proxy | 19",
@@ -155,13 +155,11 @@
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
-                "🇮🇷 IR | 🟢 | vless | @proxy_hiddfy | 2",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇫🇮 FI | 🟢 | vless | @qeshmserver | 13",
                 "🇫🇮 FI | 🟢 | vless | @sezar_sec | 4",
                 "🇩🇪 DE | 🟢 | vless | @srcvpn | 32",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
-                "🇺🇸 US | 🟢 | vless | @v2raych | 19",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
                 "🇩🇪 DE | 🟢 | vless | @v2rayo7ybv67i76 | 13",
                 "🇩🇪 DE | 🟢 | vless | @v2rayxservers | 13",
@@ -214,6 +212,29 @@
                     "enabled": true,
                     "public_key": "PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o",
                     "short_id": "b5ecd44d"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @configshubplus | 18",
+            "type": "vless",
+            "server": "3.237.50.216",
+            "server_port": 4433,
+            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
+                    "short_id": "f785b38130e64177"
                 }
             }
         },
@@ -502,29 +523,6 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vless | @proxy_hiddfy | 2",
-            "type": "vless",
-            "server": "185.97.116.191",
-            "server_port": 2053,
-            "uuid": "187e1e4f-b5da-413d-b171-8defd44b729a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "DgOVxpq6G4qlgTqpCoCCPa-VeMTWadSGmyyKvXg0CXI",
-                    "short_id": "95e5b87d1d9f"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
             "type": "vless",
             "server": "147.182.183.207",
@@ -641,29 +639,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2raych | 19",
-            "type": "vless",
-            "server": "44.200.234.39",
-            "server_port": 4433,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
-                    "short_id": "f785b38130e64177"
-                }
             }
         },
         {

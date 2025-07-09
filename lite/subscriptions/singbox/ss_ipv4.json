@@ -105,13 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 4",
+                "🇵🇱 PL | 🟢 | ss | @argo_vpn1 | 5",
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇸🇪 SE | 🟢 | ss | @connect_sho | 21",
-                "🇩🇪 DE | 🟢 | ss | @free1ss | 17",
+                "🇵🇱 PL | 🟢 | ss | @free1ss | 16",
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
+                "🇩🇪 DE | 🟢 | ss | @ip_cf_config | 15",
                 "🇩🇪 DE | 🟢 | ss | @jiedianf | 10",
                 "🇫🇷 FR | 🟢 | ss | @key_outline | 19",
                 "🇩🇪 DE | 🟢 | ss | @m_android | 2",
@@ -136,21 +137,21 @@
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
                 "🇺🇸 US | 🟢 | ss | @vmessiranproxy | 19",
                 "🇸🇪 SE | 🟢 | ss | @vmessx | 4",
-                "🇫🇷 FR | 🟢 | ss | @vpnfreeaccounts | 15",
-                "🇺🇸 US | 🟢 | ss | @zerobaipiao | 42"
+                "🇫🇷 FR | 🟢 | ss | @vpnfreeaccounts | 15"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 4",
+                "🇵🇱 PL | 🟢 | ss | @argo_vpn1 | 5",
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇸🇪 SE | 🟢 | ss | @connect_sho | 21",
-                "🇩🇪 DE | 🟢 | ss | @free1ss | 17",
+                "🇵🇱 PL | 🟢 | ss | @free1ss | 16",
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
+                "🇩🇪 DE | 🟢 | ss | @ip_cf_config | 15",
                 "🇩🇪 DE | 🟢 | ss | @jiedianf | 10",
                 "🇫🇷 FR | 🟢 | ss | @key_outline | 19",
                 "🇩🇪 DE | 🟢 | ss | @m_android | 2",
@@ -175,8 +176,7 @@
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
                 "🇺🇸 US | 🟢 | ss | @vmessiranproxy | 19",
                 "🇸🇪 SE | 🟢 | ss | @vmessx | 4",
-                "🇫🇷 FR | 🟢 | ss | @vpnfreeaccounts | 15",
-                "🇺🇸 US | 🟢 | ss | @zerobaipiao | 42"
+                "🇫🇷 FR | 🟢 | ss | @vpnfreeaccounts | 15"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -199,12 +199,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | ss | @argo_vpn1 | 4",
+            "tag": "🇵🇱 PL | 🟢 | ss | @argo_vpn1 | 5",
             "type": "shadowsocks",
-            "server": "104.167.197.25",
-            "server_port": 57456,
+            "server": "91.108.248.10",
+            "server_port": 8388,
             "method": "chacha20-ietf-poly1305",
-            "password": "360e21d21977dc11"
+            "password": "ODhmY"
         },
         {
             "tag": "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
@@ -231,12 +231,12 @@
             "password": "jGIXGK0Q7CQSU3d_JKOGHQ"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | ss | @free1ss | 17",
+            "tag": "🇵🇱 PL | 🟢 | ss | @free1ss | 16",
             "type": "shadowsocks",
-            "server": "51.195.103.227",
-            "server_port": 8443,
-            "method": "aes-256-gcm",
-            "password": "5bda2736-81e7-43b4-86fc-286f8f8e6578"
+            "server": "45.144.49.140",
+            "server_port": 57456,
+            "method": "chacha20-ietf-poly1305",
+            "password": "a58fa62b4944ddbf"
         },
         {
             "tag": "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
@@ -253,6 +253,14 @@
             "server_port": 49499,
             "method": "chacha20-ietf-poly1305",
             "password": "kTjlLxrncKx4i2HIjxfA3M"
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | ss | @ip_cf_config | 15",
+            "type": "shadowsocks",
+            "server": "195.7.6.214",
+            "server_port": 47598,
+            "method": "chacha20-ietf-poly1305",
+            "password": "985e9a1fcf81bcda"
         },
         {
             "tag": "🇩🇪 DE | 🟢 | ss | @jiedianf | 10",
@@ -453,14 +461,6 @@
             "server_port": 80,
             "method": "chacha20-ietf-poly1305",
             "password": "t9tgJFwwla72eL9W61t8yB"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | ss | @zerobaipiao | 42",
-            "type": "shadowsocks",
-            "server": "45.87.175.35",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         }
     ],
     "route": {
