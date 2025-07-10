@@ -121,6 +121,7 @@
                 "🇺🇸 US | 🔴 | vless | @proxycrone | 11",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
+                "🇺🇸 US | 🔴 | vless | @v2raych | 19",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
@@ -150,6 +151,7 @@
                 "🇺🇸 US | 🔴 | vless | @proxycrone | 11",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
+                "🇺🇸 US | 🔴 | vless | @v2raych | 19",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
@@ -400,6 +402,22 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2raych | 19",
+            "type": "vless",
+            "server": "chat.deepseek.com",
+            "server_port": 80,
+            "uuid": "a9c9c197-c626-4667-f219-1575f26715ac",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/olem/ws?ed=1024",
+                "headers": {
+                    "Host": "chat.deepseek.com"
+                }
             }
         },
         {
