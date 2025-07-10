@@ -130,7 +130,7 @@
                 "🇺🇸 US | 🔴 | vless | @noviin_tel | 1",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 14",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
-                "🇹🇷 TR | 🔴 | vless | @proxycrone | 9",
+                "🇺🇸 US | 🟢 | vless | @proxycrone | 10",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4",
@@ -191,7 +191,7 @@
                 "🇺🇸 US | 🔴 | vless | @noviin_tel | 1",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 14",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
-                "🇹🇷 TR | 🔴 | vless | @proxycrone | 9",
+                "🇺🇸 US | 🟢 | vless | @proxycrone | 10",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4",
@@ -587,13 +587,29 @@
             "password": "NTdkZ"
         },
         {
-            "tag": "🇹🇷 TR | 🔴 | vless | @proxycrone | 9",
+            "tag": "🇺🇸 US | 🟢 | vless | @proxycrone | 10",
             "type": "vless",
-            "server": "ir01.oghabvps.com",
-            "server_port": 2022,
-            "uuid": "9f4b9d0e-a0c7-4f38-a8e8-471c74e4eadb",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "6bcb4f37-bba7-4ae0-afac-d43195c72c12",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "my.digikala.dynv6.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/--------v2rayNGcloud-----?ed=2560",
+                "headers": {
+                    "Host": "my.digikala.dynv6.net"
+                }
+            }
         },
         {
             "tag": "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
@@ -951,7 +967,7 @@
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @vlessconfig | 15",
             "type": "vless",
-            "server": "3.78.152.130",
+            "server": "3.70.33.164",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",

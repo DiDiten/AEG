@@ -118,7 +118,7 @@
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
-                "🇹🇷 TR | 🔴 | vless | @proxycrone | 9",
+                "🇺🇸 US | 🟢 | vless | @proxycrone | 10",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
@@ -147,7 +147,7 @@
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
-                "🇹🇷 TR | 🔴 | vless | @proxycrone | 9",
+                "🇺🇸 US | 🟢 | vless | @proxycrone | 10",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
@@ -372,13 +372,29 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇹🇷 TR | 🔴 | vless | @proxycrone | 9",
+            "tag": "🇺🇸 US | 🟢 | vless | @proxycrone | 10",
             "type": "vless",
-            "server": "ir01.oghabvps.com",
-            "server_port": 2022,
-            "uuid": "9f4b9d0e-a0c7-4f38-a8e8-471c74e4eadb",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "6bcb4f37-bba7-4ae0-afac-d43195c72c12",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "my.digikala.dynv6.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/--------v2rayNGcloud-----?ed=2560",
+                "headers": {
+                    "Host": "my.digikala.dynv6.net"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
