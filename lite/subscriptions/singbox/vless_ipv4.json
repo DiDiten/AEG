@@ -106,7 +106,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 6",
-                "🇸🇬 SG | 🟢 | vless | @dailyv2ry | 172",
+                "🇺🇸 US | 🟢 | vless | @dailyv2ry | 187",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 2",
                 "🇦🇲 AM | 🔴 | vless | @getconfigir | 16",
@@ -120,7 +120,7 @@
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
-                "🇺🇸 US | 🟢 | vless | @v2raych | 19",
+                "🇺🇸 US | 🔴 | vless | @v2raych | 19",
                 "🇺🇸 US | 🟢 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🟢 | vless | @v2rayng_1378 | 11",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngcloud | 5",
@@ -135,7 +135,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 6",
-                "🇸🇬 SG | 🟢 | vless | @dailyv2ry | 172",
+                "🇺🇸 US | 🟢 | vless | @dailyv2ry | 187",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 2",
                 "🇦🇲 AM | 🔴 | vless | @getconfigir | 16",
@@ -149,7 +149,7 @@
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
-                "🇺🇸 US | 🟢 | vless | @v2raych | 19",
+                "🇺🇸 US | 🔴 | vless | @v2raych | 19",
                 "🇺🇸 US | 🟢 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🟢 | vless | @v2rayng_1378 | 11",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngcloud | 5",
@@ -188,25 +188,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | vless | @dailyv2ry | 172",
+            "tag": "🇺🇸 US | 🟢 | vless | @dailyv2ry | 187",
             "type": "vless",
-            "server": "54.179.21.212",
+            "server": "104.17.148.22",
             "server_port": 443,
-            "uuid": "cd54a584-2aeb-4a81-8558-84822c5e60d1",
-            "flow": "xtls-rprx-vision",
+            "uuid": "518d0495-2139-4bfd-94df-2a029108f1af",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "chatgpt.com",
+                "server_name": "nextMusIcHAMraH.Site",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J2bRPBQbUXzfoe-sch7fxMlzKqaX2L0kEm4Rcly6Kgo",
-                    "short_id": "d0c43a7737"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/1E6TZkrhu3EWOwlQ?ed",
+                "headers": {
+                    "Host": "nextMusIcHAMraH.Site"
                 }
             }
         },
@@ -427,27 +429,13 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2raych | 19",
+            "tag": "🇺🇸 US | 🔴 | vless | @v2raych | 19",
             "type": "vless",
-            "server": "35.94.218.40",
-            "server_port": 4433,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
-                    "short_id": "f785b38130e64177"
-                }
-            }
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "550b91ff-2327-4378-a6f2-843bd208df60",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @v2raymelliii | 6",
