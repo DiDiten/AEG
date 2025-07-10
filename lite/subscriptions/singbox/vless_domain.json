@@ -125,7 +125,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
-                "🇫🇷 FR | 🔴 | vless | @vmesskhodam | 10",
+                "🇩🇪 DE | 🟢 | vless | @vmesskhodam | 9",
                 "❔ XX | 🔴 | vless | @vpntwitt | 7",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10"
             ]
@@ -154,7 +154,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
-                "🇫🇷 FR | 🔴 | vless | @vmesskhodam | 10",
+                "🇩🇪 DE | 🟢 | vless | @vmesskhodam | 9",
                 "❔ XX | 🔴 | vless | @vpntwitt | 7",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10"
             ],
@@ -494,13 +494,27 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @vmesskhodam | 10",
+            "tag": "🇩🇪 DE | 🟢 | vless | @vmesskhodam | 9",
             "type": "vless",
-            "server": "seif.ichimokutrader.org",
-            "server_port": 38324,
-            "uuid": "d76db768-0a25-49a2-94d6-4801159fd124",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "test-lets-wildcard.spotifycdn.org",
+            "server_port": 443,
+            "uuid": "06f5a7cb-3842-49d0-a498-d4165c0eb956",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk",
+                    "short_id": "7f2798f9"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔴 | vless | @vpntwitt | 7",
