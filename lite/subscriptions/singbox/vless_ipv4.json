@@ -120,12 +120,12 @@
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
+                "🇩🇪 DE | 🟢 | vless | @v2raych | 19",
                 "🇺🇸 US | 🟢 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🟢 | vless | @v2rayng_1378 | 11",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngcloud | 5",
-                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 15",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
-                "🇺🇸 US | 🟢 | vless | @wedbazvpn | 10",
+                "🇺🇸 US | 🟢 | vless | @wedbazvpn | 11",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
             ]
         },
@@ -148,12 +148,12 @@
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
+                "🇩🇪 DE | 🟢 | vless | @v2raych | 19",
                 "🇺🇸 US | 🟢 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🟢 | vless | @v2rayng_1378 | 11",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngcloud | 5",
-                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 15",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
-                "🇺🇸 US | 🟢 | vless | @wedbazvpn | 10",
+                "🇺🇸 US | 🟢 | vless | @wedbazvpn | 11",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -427,6 +427,31 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2raych | 19",
+            "type": "vless",
+            "server": "3.73.26.188",
+            "server_port": 22224,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-channel-vlessconfig",
+                "headers": {
+                    "Host": "trojan.burgerip.co.uk"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | vless | @v2raymelliii | 6",
             "type": "vless",
             "server": "104.18.26.90",
@@ -486,31 +511,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vlessconfig | 15",
-            "type": "vless",
-            "server": "3.124.76.127",
-            "server_port": 22224,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-channel-vlessconfig",
-                "headers": {
-                    "Host": "trojan.burgerip.co.uk"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
             "type": "vless",
             "server": "185.146.173.158",
@@ -527,7 +527,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @wedbazvpn | 10",
+            "tag": "🇺🇸 US | 🟢 | vless | @wedbazvpn | 11",
             "type": "vless",
             "server": "104.18.26.90",
             "server_port": 443,
