@@ -112,13 +112,13 @@
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
                 "🇺🇸 US | 🟢 | vless | @outline_vpn | 13",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
+                "🇳🇱 NL | 🟢 | vless | @summertimeus | 14",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🟢 | vless | @telmavpn | 25",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
                 "🇺🇸 US | 🟢 | vless | @v2raymelliii | 5",
-                "🇳🇱 NL | 🔴 | vless | @v2rayng_1378 | 11",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngcloud | 5",
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
@@ -137,13 +137,13 @@
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
                 "🇺🇸 US | 🟢 | vless | @outline_vpn | 13",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
+                "🇳🇱 NL | 🟢 | vless | @summertimeus | 14",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🟢 | vless | @telmavpn | 25",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
                 "🇺🇸 US | 🟢 | vless | @v2raymelliii | 5",
-                "🇳🇱 NL | 🔴 | vless | @v2rayng_1378 | 11",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngcloud | 5",
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
@@ -287,6 +287,31 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🟢 | vless | @summertimeus | 14",
+            "type": "vless",
+            "server": "185.176.24.159",
+            "server_port": 443,
+            "uuid": "0a506a60-ae3e-499d-9cbd-ab003f9f3f3b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "FREEDOm.ZiStarvInbioTeCh.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram@V2ray_Alpha/?ed=2560",
+                "headers": {
+                    "Host": "FREEDOm.ZiStarvInbioTeCh.ir"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
             "type": "vless",
             "server": "87.236.208.21",
@@ -399,22 +424,6 @@
                 "path": "/?ed=2560",
                 "headers": {
                     "Host": "barayeiranmahsang.mahmoodchitooz.dpdns.org"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔴 | vless | @v2rayng_1378 | 11",
-            "type": "vless",
-            "server": "45.131.4.147",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram:@Selinc/?ed=2560",
-                "headers": {
-                    "Host": "45.131.4.147"
                 }
             }
         },

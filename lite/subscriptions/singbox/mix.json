@@ -134,7 +134,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4",
-                "🇬🇧 GB | 🟢 | ss | @summertimeus | 14",
+                "🇳🇱 NL | 🟢 | vless | @summertimeus | 14",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🟢 | vless | @telmavpn | 25",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
@@ -145,7 +145,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
                 "🇺🇸 US | 🟢 | vless | @v2raymelliii | 5",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
-                "🇳🇱 NL | 🔴 | vless | @v2rayng_1378 | 11",
+                "🇬🇧 GB | 🟢 | ss | @v2rayng_1378 | 11",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngcloud | 5",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
@@ -195,7 +195,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4",
-                "🇬🇧 GB | 🟢 | ss | @summertimeus | 14",
+                "🇳🇱 NL | 🟢 | vless | @summertimeus | 14",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🟢 | vless | @telmavpn | 25",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
@@ -206,7 +206,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
                 "🇺🇸 US | 🟢 | vless | @v2raymelliii | 5",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
-                "🇳🇱 NL | 🔴 | vless | @v2rayng_1378 | 11",
+                "🇬🇧 GB | 🟢 | ss | @v2rayng_1378 | 11",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngcloud | 5",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
@@ -652,12 +652,29 @@
             "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | ss | @summertimeus | 14",
-            "type": "shadowsocks",
-            "server": "74.177.199.135",
+            "tag": "🇳🇱 NL | 🟢 | vless | @summertimeus | 14",
+            "type": "vless",
+            "server": "185.176.24.159",
             "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c"
+            "uuid": "0a506a60-ae3e-499d-9cbd-ab003f9f3f3b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "FREEDOm.ZiStarvInbioTeCh.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram@V2ray_Alpha/?ed=2560",
+                "headers": {
+                    "Host": "FREEDOm.ZiStarvInbioTeCh.ir"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
@@ -816,20 +833,12 @@
             "alter_id": 0
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vless | @v2rayng_1378 | 11",
-            "type": "vless",
-            "server": "45.131.4.147",
-            "server_port": 80,
-            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram:@Selinc/?ed=2560",
-                "headers": {
-                    "Host": "45.131.4.147"
-                }
-            }
+            "tag": "🇬🇧 GB | 🟢 | ss | @v2rayng_1378 | 11",
+            "type": "shadowsocks",
+            "server": "74.177.199.135",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "WstuSnlu4ieA9M0L"
         },
         {
             "tag": "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
