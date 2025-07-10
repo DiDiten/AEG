@@ -139,7 +139,7 @@
                 "🇺🇸 US | 🟢 | vless | @telmavpn | 25",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
-                "🇺🇸 US | 🟢 | ss | @v2aryng_vpn | 6",
+                "🇺🇸 US | 🟢 | vless | @v2aryng_vpn | 7",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
@@ -152,7 +152,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayngvpnn | 18",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
-                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
+                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
                 "🇩🇪 DE | 🟢 | vless | @vmesskhodam | 9",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
                 "❔ XX | 🔴 | vless | @vpntwitt | 7",
@@ -200,7 +200,7 @@
                 "🇺🇸 US | 🟢 | vless | @telmavpn | 25",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
-                "🇺🇸 US | 🟢 | ss | @v2aryng_vpn | 6",
+                "🇺🇸 US | 🟢 | vless | @v2aryng_vpn | 7",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
@@ -213,7 +213,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayngvpnn | 18",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
-                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
+                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
                 "🇩🇪 DE | 🟢 | vless | @vmesskhodam | 9",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
                 "❔ XX | 🔴 | vless | @vpntwitt | 7",
@@ -720,12 +720,29 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | ss | @v2aryng_vpn | 6",
-            "type": "shadowsocks",
-            "server": "45.87.175.199",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "1RWwXhwfAB5gAEozU4G2Pg"
+            "tag": "🇺🇸 US | 🟢 | vless | @v2aryng_vpn | 7",
+            "type": "vless",
+            "server": "104.16.243.59",
+            "server_port": 443,
+            "uuid": "75fde681-ec64-4654-86fa-30732e8e179c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "NGINX.NSCl.IR",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/assets",
+                "headers": {
+                    "Host": "NGINX.NSCl.IR"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
@@ -941,9 +958,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
+            "tag": "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
             "type": "vless",
-            "server": "3.73.26.188",
+            "server": "35.181.25.106",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
