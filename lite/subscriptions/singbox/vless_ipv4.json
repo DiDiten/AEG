@@ -107,12 +107,10 @@
                 "URL-TEST",
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 6",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
-                "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 2",
                 "🇦🇲 AM | 🔴 | vless | @getconfigir | 16",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
-                "🇺🇸 US | 🔴 | vless | @noviin_tel | 1",
-                "🇺🇸 US | 🔴 | vless | @outline_vpn | 14",
+                "🇺🇸 US | 🟢 | vless | @outline_vpn | 14",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🟢 | vless | @telmavpn | 25",
@@ -135,12 +133,10 @@
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 6",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
-                "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 2",
                 "🇦🇲 AM | 🔴 | vless | @getconfigir | 16",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
-                "🇺🇸 US | 🔴 | vless | @noviin_tel | 1",
-                "🇺🇸 US | 🔴 | vless | @outline_vpn | 14",
+                "🇺🇸 US | 🟢 | vless | @outline_vpn | 14",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🟢 | vless | @telmavpn | 25",
@@ -202,24 +198,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 2",
-            "type": "vless",
-            "server": "91.99.122.102",
-            "server_port": 443,
-            "uuid": "7b6eca4c-44ae-40c6-973a-4e3b29d30803",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.99.122.102",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇦🇲 AM | 🔴 | vless | @getconfigir | 16",
             "type": "vless",
             "server": "5.10.214.123",
@@ -270,27 +248,27 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @noviin_tel | 1",
+            "tag": "🇺🇸 US | 🟢 | vless | @outline_vpn | 14",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "50eefafc-ac7f-4890-9435-063d9911dda3",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @outline_vpn | 14",
-            "type": "vless",
-            "server": "172.67.186.221",
-            "server_port": 80,
-            "uuid": "d1237c01-58b5-48f9-8a27-8a396b7f5422",
+            "server": "104.18.29.253",
+            "server_port": 443,
+            "uuid": "9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "kawaiifreevpn-7ds.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "/?ed=2560",
                 "headers": {
-                    "Host": "172.67.186.221"
+                    "Host": "kawaiifreevpn-7ds.pages.dev"
                 }
             }
         },
