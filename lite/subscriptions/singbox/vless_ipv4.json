@@ -106,7 +106,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 6",
-                "🇺🇸 US | 🟢 | vless | @dailyv2ry | 172",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 2",
                 "🇦🇲 AM | 🔴 | vless | @getconfigir | 16",
@@ -134,7 +133,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 6",
-                "🇺🇸 US | 🟢 | vless | @dailyv2ry | 172",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 2",
                 "🇦🇲 AM | 🔴 | vless | @getconfigir | 16",
@@ -184,31 +182,6 @@
             "uuid": "1dd65630-29e2-4333-9b92-43ea8ca7f4ce",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @dailyv2ry | 172",
-            "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 443,
-            "uuid": "518d0495-2139-4bfd-94df-2a029108f1af",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nextMusIcHAMraH.Site",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/1E6TZkrhu3EWOwlQ?ed",
-                "headers": {
-                    "Host": "nextMusIcHAMraH.Site"
-                }
-            }
         },
         {
             "tag": "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
