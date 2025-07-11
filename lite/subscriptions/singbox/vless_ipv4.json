@@ -107,11 +107,10 @@
                 "URL-TEST",
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 6",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
-                "🇱🇻 LV | 🟢 | vless | @getconfigir | 19",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 18",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
-                "🇨🇾 CY | 🟢 | vless | @noviin_tel | 3",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 15",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇳🇱 NL | 🟢 | vless | @summertimeus | 14",
@@ -123,9 +122,8 @@
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 6",
                 "🇬🇧 GB | 🔴 | vless | @v2rayng_1378 | 11",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngcloud | 5",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 13",
+                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
-                "🇺🇸 US | 🟢 | vless | @wedbazvpn | 15",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
             ]
         },
@@ -135,11 +133,10 @@
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 6",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
-                "🇱🇻 LV | 🟢 | vless | @getconfigir | 19",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 18",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
-                "🇨🇾 CY | 🟢 | vless | @noviin_tel | 3",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 15",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇳🇱 NL | 🟢 | vless | @summertimeus | 14",
@@ -151,9 +148,8 @@
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 6",
                 "🇬🇧 GB | 🔴 | vless | @v2rayng_1378 | 11",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngcloud | 5",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 13",
+                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
-                "🇺🇸 US | 🟢 | vless | @wedbazvpn | 15",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -202,25 +198,27 @@
             }
         },
         {
-            "tag": "🇱🇻 LV | 🟢 | vless | @getconfigir | 19",
+            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 18",
             "type": "vless",
-            "server": "213.21.222.172",
+            "server": "104.16.34.128",
             "server_port": 443,
-            "uuid": "00e92112-b43b-4757-a56a-fa7b53ad3419",
-            "flow": "xtls-rprx-vision",
+            "uuid": "267613d7-f53f-4005-b642-d6f1f687b7cf",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cdnjs.com",
+                "server_name": "ensHOLP-91s.pageS.DEv",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg",
-                    "short_id": "19aa22f681923dc8"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/dQMN2VQLkaE52qWD?ed=2560",
+                "headers": {
+                    "Host": "ensHOLP-91s.pageS.DEv"
                 }
             }
         },
@@ -264,31 +262,6 @@
                 "path": "/?ed=2048",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇾 CY | 🟢 | vless | @noviin_tel | 3",
-            "type": "vless",
-            "server": "154.92.9.46",
-            "server_port": 443,
-            "uuid": "ec8a65ad-aafc-4095-9b8c-ea10890ca629",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "simorgh.hpcode.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Javid-SHAH-KingRezaPahlavi/?ed=2560",
-                "headers": {
-                    "Host": "simorgh.hpcode.ir"
                 }
             }
         },
@@ -475,7 +448,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @vlessconfig | 13",
+            "tag": "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
             "type": "vless",
             "server": "35.181.247.254",
             "server_port": 22224,
@@ -512,31 +485,6 @@
                 "path": "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048",
                 "headers": {
                     "Host": "185.146.173.158"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @wedbazvpn | 15",
-            "type": "vless",
-            "server": "104.16.34.128",
-            "server_port": 443,
-            "uuid": "267613d7-f53f-4005-b642-d6f1f687b7cf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ensHOLP-91s.pageS.DEv",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/dQMN2VQLkaE52qWD?ed=2560",
-                "headers": {
-                    "Host": "ensHOLP-91s.pageS.DEv"
                 }
             }
         },
