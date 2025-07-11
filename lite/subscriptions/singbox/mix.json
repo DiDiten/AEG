@@ -146,14 +146,14 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 6",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
-                "🇬🇧 GB | 🟢 | ss | @v2rayng_1378 | 11",
+                "🇬🇧 GB | 🔴 | vless | @v2rayng_1378 | 11",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngcloud | 5",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayngvpnn | 18",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
-                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
+                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
                 "🇩🇪 DE | 🔴 | vless | @vmesskhodam | 7",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
@@ -207,14 +207,14 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 6",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
-                "🇬🇧 GB | 🟢 | ss | @v2rayng_1378 | 11",
+                "🇬🇧 GB | 🔴 | vless | @v2rayng_1378 | 11",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇮🇷 IR | 🔴 | vless | @v2rayngcloud | 5",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayngvpnn | 18",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
-                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
+                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
                 "🇩🇪 DE | 🔴 | vless | @vmesskhodam | 7",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
@@ -833,12 +833,20 @@
             "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | ss | @v2rayng_1378 | 11",
-            "type": "shadowsocks",
-            "server": "74.177.199.135",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "WstuSnlu4ieA9M0L"
+            "tag": "🇬🇧 GB | 🔴 | vless | @v2rayng_1378 | 11",
+            "type": "vless",
+            "server": "194.36.55.123",
+            "server_port": 80,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "194.36.55.123"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
@@ -957,9 +965,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
+            "tag": "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
             "type": "vless",
-            "server": "3.69.141.184",
+            "server": "13.39.183.85",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
