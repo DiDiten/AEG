@@ -142,6 +142,7 @@
                 "🇮🇷 IR | 🔴 | vless | @v2aryng_vpn | 7",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
+                "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
                 "🇺🇸 US | 🟢 | vless | @v2raymelliii | 5",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
@@ -203,6 +204,7 @@
                 "🇮🇷 IR | 🔴 | vless | @v2aryng_vpn | 7",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
+                "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
                 "🇺🇸 US | 🟢 | vless | @v2raymelliii | 5",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
@@ -780,6 +782,22 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX"
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
+            "type": "trojan",
+            "server": "13.36.29.194",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
