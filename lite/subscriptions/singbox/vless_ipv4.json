@@ -111,6 +111,7 @@
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
+                "🇨🇾 CY | 🟢 | vless | @noviin_tel | 3",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 14",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇳🇱 NL | 🟢 | vless | @summertimeus | 14",
@@ -138,6 +139,7 @@
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
+                "🇨🇾 CY | 🟢 | vless | @noviin_tel | 3",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 14",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇳🇱 NL | 🟢 | vless | @summertimeus | 14",
@@ -255,6 +257,31 @@
                 "path": "/?ed=2048",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇾 CY | 🟢 | vless | @noviin_tel | 3",
+            "type": "vless",
+            "server": "154.92.9.46",
+            "server_port": 443,
+            "uuid": "ec8a65ad-aafc-4095-9b8c-ea10890ca629",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "simorgh.hpcode.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Javid-SHAH-KingRezaPahlavi/?ed=2560",
+                "headers": {
+                    "Host": "simorgh.hpcode.ir"
                 }
             }
         },

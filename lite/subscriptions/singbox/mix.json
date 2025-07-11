@@ -127,7 +127,7 @@
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
-                "🇱🇻 LV | 🟢 | ss | @noviin_tel | 2",
+                "🇨🇾 CY | 🟢 | vless | @noviin_tel | 3",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 14",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
                 "🇺🇸 US | 🟢 | vless | @proxycrone | 10",
@@ -187,7 +187,7 @@
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
-                "🇱🇻 LV | 🟢 | ss | @noviin_tel | 2",
+                "🇨🇾 CY | 🟢 | vless | @noviin_tel | 3",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 14",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
                 "🇺🇸 US | 🟢 | vless | @proxycrone | 10",
@@ -543,12 +543,29 @@
             }
         },
         {
-            "tag": "🇱🇻 LV | 🟢 | ss | @noviin_tel | 2",
-            "type": "shadowsocks",
-            "server": "216.173.70.187",
-            "server_port": 57456,
-            "method": "chacha20-ietf-poly1305",
-            "password": "a58fa62b4944ddbf"
+            "tag": "🇨🇾 CY | 🟢 | vless | @noviin_tel | 3",
+            "type": "vless",
+            "server": "154.92.9.46",
+            "server_port": 443,
+            "uuid": "ec8a65ad-aafc-4095-9b8c-ea10890ca629",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "simorgh.hpcode.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Javid-SHAH-KingRezaPahlavi/?ed=2560",
+                "headers": {
+                    "Host": "simorgh.hpcode.ir"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @outline_vpn | 14",
