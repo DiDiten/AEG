@@ -104,13 +104,16 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST"
+                "URL-TEST",
+                "🇱🇻 LV | 🟢 | vless | @getconfigir | 19"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [],
+            "outbounds": [
+                "🇱🇻 LV | 🟢 | vless | @getconfigir | 19"
+            ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -130,6 +133,29 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇱🇻 LV | 🟢 | vless | @getconfigir | 19",
+            "type": "vless",
+            "server": "213.21.222.172",
+            "server_port": 443,
+            "uuid": "00e92112-b43b-4757-a56a-fa7b53ad3419",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnjs.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg",
+                    "short_id": "19aa22f681923dc8"
+                }
+            }
         }
     ],
     "route": {
