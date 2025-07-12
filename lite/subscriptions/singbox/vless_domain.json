@@ -118,6 +118,7 @@
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
+                "🇮🇷 IR | 🔴 | vless | @noviin_tel | 2",
                 "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
@@ -145,6 +146,7 @@
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
+                "🇮🇷 IR | 🔴 | vless | @noviin_tel | 2",
                 "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
@@ -366,6 +368,22 @@
             "uuid": "46c2465a-d99b-43f5-a127-a529cd3838b7",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇷 IR | 🔴 | vless | @noviin_tel | 2",
+            "type": "vless",
+            "server": "hf.tin9.ir",
+            "server_port": 2052,
+            "uuid": "f3242907-f8e4-4166-8156-c773430bd8a4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "hf.tin9.ir"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",

@@ -127,7 +127,7 @@
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
-                "🇺🇸 US | 🔴 | vless | @noviin_tel | 1",
+                "🇮🇷 IR | 🔴 | vless | @noviin_tel | 2",
                 "🇺🇸 US | 🟢 | vless | @outline_vpn | 16",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
                 "🇦🇲 AM | 🔴 | vless | @proxycrone | 9",
@@ -186,7 +186,7 @@
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
-                "🇺🇸 US | 🔴 | vless | @noviin_tel | 1",
+                "🇮🇷 IR | 🔴 | vless | @noviin_tel | 2",
                 "🇺🇸 US | 🟢 | vless | @outline_vpn | 16",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
                 "🇦🇲 AM | 🔴 | vless | @proxycrone | 9",
@@ -550,13 +550,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @noviin_tel | 1",
+            "tag": "🇮🇷 IR | 🔴 | vless | @noviin_tel | 2",
             "type": "vless",
-            "server": "172.234.150.158",
-            "server_port": 2321,
-            "uuid": "029254f9-05e8-47b2-a9a9-6e62e84aeb92",
+            "server": "hf.tin9.ir",
+            "server_port": 2052,
+            "uuid": "f3242907-f8e4-4166-8156-c773430bd8a4",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "hf.tin9.ir"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @outline_vpn | 16",
