@@ -106,7 +106,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
-                "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12"
+                "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",
+                "🇬🇧 GB | 🟢 | ss | @proxycrone | 9"
             ]
         },
         {
@@ -114,7 +115,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
-                "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12"
+                "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",
+                "🇬🇧 GB | 🟢 | ss | @proxycrone | 9"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -151,6 +153,14 @@
             "server_port": 34803,
             "method": "chacha20-ietf-poly1305",
             "password": "LiHQX9cDbdooBHlIg0eiqQ"
+        },
+        {
+            "tag": "🇬🇧 GB | 🟢 | ss | @proxycrone | 9",
+            "type": "shadowsocks",
+            "server": "131.145.33.92",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "W74XFALLLuw6m5IA"
         }
     ],
     "route": {
