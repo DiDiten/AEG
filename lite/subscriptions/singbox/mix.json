@@ -142,7 +142,7 @@
                 "🇮🇷 IR | 🔴 | vless | @v2aryng_vpn | 7",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
-                "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
+                "🇺🇸 US | 🔴 | vless | @v2ray_extractor | 19",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 6",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
@@ -201,7 +201,7 @@
                 "🇮🇷 IR | 🔴 | vless | @v2aryng_vpn | 7",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
-                "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
+                "🇺🇸 US | 🔴 | vless | @v2ray_extractor | 19",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 4",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 6",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
@@ -780,18 +780,18 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
-            "type": "trojan",
-            "server": "13.36.29.194",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "tag": "🇺🇸 US | 🔴 | vless | @v2ray_extractor | 19",
+            "type": "vless",
+            "server": "162.159.1.120",
+            "server_port": 80,
+            "uuid": "fabeaf8f-decc-403a-a3a7-b6efd8700373",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80",
+                "headers": {
+                    "Host": "162.159.1.120"
                 }
             }
         },
