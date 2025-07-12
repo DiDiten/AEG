@@ -123,7 +123,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_extractor | 19",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 3",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 6",
-                "🇺🇸 US | 🟢 | vless | @v2rayng_1378 | 11",
+                "🇩🇪 DE | 🔴 | vless | @v2rayng_1378 | 10",
                 "🇳🇱 NL | 🔴 | vless | @v2rayngcloud | 5",
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
@@ -152,7 +152,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_extractor | 19",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 3",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 6",
-                "🇺🇸 US | 🟢 | vless | @v2rayng_1378 | 11",
+                "🇩🇪 DE | 🔴 | vless | @v2rayng_1378 | 10",
                 "🇳🇱 NL | 🔴 | vless | @v2rayngcloud | 5",
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
@@ -463,27 +463,18 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayng_1378 | 11",
+            "tag": "🇩🇪 DE | 🔴 | vless | @v2rayng_1378 | 10",
             "type": "vless",
-            "server": "198.62.62.4",
-            "server_port": 443,
-            "uuid": "d0298536-d670-4045-bbb1-ddd5ea68683e",
+            "server": "45.80.111.147",
+            "server_port": 80,
+            "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "azadnet-7py.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/azadnet-7py.pages.dev/?ed=2560",
+                "path": "/Telegram:@V2RAYNG_1378/?ed=2560",
                 "headers": {
-                    "Host": "azadnet-7py.pages.dev"
+                    "Host": "45.80.111.147"
                 }
             }
         },
@@ -499,7 +490,7 @@
         {
             "tag": "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
             "type": "vless",
-            "server": "13.37.112.18",
+            "server": "35.181.246.153",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",

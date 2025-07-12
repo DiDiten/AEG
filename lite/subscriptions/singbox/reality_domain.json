@@ -106,6 +106,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
+                "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10"
@@ -116,6 +117,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
+                "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10"
@@ -165,6 +167,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "1300vless"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
+            "type": "vless",
+            "server": "parrot-love.ir",
+            "server_port": 2025,
+            "uuid": "417e0f23-34b1-45c6-803d-4b596c502672",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fhNhrO00QDSDI1CBmJY8RwK9t-zFmTjERgbgqcj8NTI",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "sadf2341sad"
             }
         },
         {
