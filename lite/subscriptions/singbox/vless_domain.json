@@ -114,12 +114,12 @@
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 9",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇬🇧 GB | 🔴 | vless | @getconfigir | 16",
+                "🇦🇪 AE | 🟢 | vless | @getconfigir | 18",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
-                "🇺🇸 US | 🔴 | vless | @noviin_tel | 3",
+                "🇺🇸 US | 🟢 | vless | @noviin_tel | 4",
                 "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 8",
@@ -143,12 +143,12 @@
                 "🇺🇸 US | 🔴 | vless | @elitevpnv2 | 9",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇬🇧 GB | 🔴 | vless | @getconfigir | 16",
+                "🇦🇪 AE | 🟢 | vless | @getconfigir | 18",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
-                "🇺🇸 US | 🔴 | vless | @noviin_tel | 3",
+                "🇺🇸 US | 🟢 | vless | @noviin_tel | 4",
                 "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 8",
@@ -295,18 +295,25 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @getconfigir | 16",
+            "tag": "🇦🇪 AE | 🟢 | vless | @getconfigir | 18",
             "type": "vless",
-            "server": "bd.iranlit.ir",
-            "server_port": 14569,
-            "uuid": "f54940c3-4e20-4d84-97f0-7ead2958fec5",
-            "flow": "",
+            "server": "uae.momashost.ir",
+            "server_port": 8028,
+            "uuid": "36995721-8b3c-442d-a945-02da2daab83c",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/www.fastvpn.com.live.skornorth.com.zula.ir?ed=2048",
-                "headers": {
-                    "Host": "bd.iranlit.ir"
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QHg_sq-uc2VPgb4qOTORPT2WFwnsEBmAdmFfywhBhVs",
+                    "short_id": "0ae86db71378173b"
                 }
             }
         },
@@ -388,18 +395,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @noviin_tel | 3",
+            "tag": "🇺🇸 US | 🟢 | vless | @noviin_tel | 4",
             "type": "vless",
-            "server": "cloud.sarasimano.com",
-            "server_port": 80,
-            "uuid": "b360267f-81aa-4740-a9c0-9a64fe7f9775",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "38046915-6d82-4d86-8510-b5bcc569d0ea",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "PaGes.deV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/?ed=2560",
                 "headers": {
-                    "Host": "cloud.sarasimano.com"
+                    "Host": "PaGes.deV"
                 }
             }
         },
