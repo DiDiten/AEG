@@ -107,6 +107,7 @@
                 "URL-TEST",
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 18",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -114,7 +115,6 @@
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇺🇸 US | 🟢 | vless | @summertimeus | 15",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
-                "🇺🇸 US | 🟢 | vless | @telmavpn | 25",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_extractor | 19",
@@ -133,6 +133,7 @@
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 18",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -140,7 +141,6 @@
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇺🇸 US | 🟢 | vless | @summertimeus | 15",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
-                "🇺🇸 US | 🟢 | vless | @telmavpn | 25",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
                 "🇺🇸 US | 🔴 | vless | @v2ray_extractor | 19",
@@ -196,6 +196,15 @@
                     "Host": "185.146.173.59"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @getconfigir | 18",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "4eab40da-ff08-40bb-9d8a-e059a2a6da0d",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
@@ -305,31 +314,6 @@
             "uuid": "6e9b86ec-3bb8-4faf-9509-b445e8ede4fe",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @telmavpn | 25",
-            "type": "vless",
-            "server": "104.21.69.44",
-            "server_port": 8443,
-            "uuid": "17fafaf9-7402-40eb-87ae-a75944c84c52",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ggho.pages.dev.",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram-@V2ray_Alpha/?ed=2048",
-                "headers": {
-                    "Host": "ggho.pages.dev."
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",

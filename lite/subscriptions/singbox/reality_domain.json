@@ -105,11 +105,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇦🇪 AE | 🟢 | vless | @getconfigir | 18",
-                "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
-                "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10"
             ]
         },
@@ -117,11 +114,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇦🇪 AE | 🟢 | vless | @getconfigir | 18",
-                "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
-                "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -143,56 +137,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇦🇪 AE | 🟢 | vless | @getconfigir | 18",
-            "type": "vless",
-            "server": "uae.momashost.ir",
-            "server_port": 8028,
-            "uuid": "36995721-8b3c-442d-a945-02da2daab83c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "QHg_sq-uc2VPgb4qOTORPT2WFwnsEBmAdmFfywhBhVs",
-                    "short_id": "0ae86db71378173b"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
-            "type": "vless",
-            "server": "Swedeeen.mehrdadsadaf.com",
-            "server_port": 1300,
-            "uuid": "b69f3e77-cdf1-4b84-851a-4b7ebede5433",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "rosbalt.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AZSptdvlWvvmKWEDTY56UsIcnTP8nGCafvPEQOozrxw",
-                    "short_id": "765e8e700426816c"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "1300vless"
-            }
         },
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
@@ -242,33 +186,6 @@
                     "public_key": "It8T_WWejuo-QOwZsYWbe5gRBDQOLXp9wfnWDo_FIFQ",
                     "short_id": "4e69ed37"
                 }
-            }
-        },
-        {
-            "tag": "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-            "type": "vless",
-            "server": "618-Join.V2RayTz.sbs",
-            "server_port": 8080,
-            "uuid": "42873f71-9718-4f3d-9907-de43001e2284",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4OTfR6IQ_6Z-5EiAi08sSfUjZtC30c2x6jl9BE9KFwg",
-                    "short_id": "356dc0"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@LIGHTNING6"
             }
         },
         {
