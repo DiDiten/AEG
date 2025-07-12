@@ -107,7 +107,6 @@
                 "URL-TEST",
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 17",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -125,6 +124,7 @@
                 "🇰🇿 KZ | 🔴 | vless | @v2rayngcloud | 4",
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
+                "🇺🇸 US | 🟢 | vless | @wedbazvpn | 14",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
             ]
         },
@@ -134,7 +134,6 @@
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 17",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -152,6 +151,7 @@
                 "🇰🇿 KZ | 🔴 | vless | @v2rayngcloud | 4",
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
+                "🇺🇸 US | 🟢 | vless | @wedbazvpn | 14",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -196,31 +196,6 @@
                 "path": "/tel : deli_servers tel : deli_servers tel : deli_servers tel : deli_servers tel : deli_servers tel : deli_servers?ed=2048",
                 "headers": {
                     "Host": "185.146.173.59"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 17",
-            "type": "vless",
-            "server": "104.16.34.128",
-            "server_port": 443,
-            "uuid": "267613d7-f53f-4005-b642-d6f1f687b7cf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ensHOLP-91s.pageS.DEv",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/dQMN2VQLkaE52qWD?ed=2560",
-                "headers": {
-                    "Host": "ensHOLP-91s.pageS.DEv"
                 }
             }
         },
@@ -512,6 +487,31 @@
                 "path": "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048",
                 "headers": {
                     "Host": "185.146.173.158"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @wedbazvpn | 14",
+            "type": "vless",
+            "server": "104.16.34.128",
+            "server_port": 443,
+            "uuid": "267613d7-f53f-4005-b642-d6f1f687b7cf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ensHOLP-91s.pageS.DEv",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/dQMN2VQLkaE52qWD?ed=2560",
+                "headers": {
+                    "Host": "ensHOLP-91s.pageS.DEv"
                 }
             }
         },
