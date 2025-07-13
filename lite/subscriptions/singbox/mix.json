@@ -113,7 +113,7 @@
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇮🇹 IT | 🔴 | vless | @getconfigir | 18",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇮🇷 IR | 🔴 | vmess | @komail315 | 3",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
@@ -161,7 +161,7 @@
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇮🇹 IT | 🔴 | vless | @getconfigir | 18",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇮🇷 IR | 🔴 | vmess | @komail315 | 3",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
@@ -316,13 +316,29 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔴 | vless | @getconfigir | 18",
+            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
             "type": "vless",
-            "server": "151.101.242.172",
-            "server_port": 80,
-            "uuid": "c3cbc7f0-4775-4493-a15e-1c3e7dbe07d5",
+            "server": "172.67.92.147",
+            "server_port": 443,
+            "uuid": "75fde681-ec64-4654-86fa-30732e8e179c",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "NGINX.NSCl.IR",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "NGINX.NSCl.IR"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
