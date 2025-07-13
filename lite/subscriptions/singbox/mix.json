@@ -113,7 +113,7 @@
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
+                "🇩🇪 DE | 🔴 | vless | @getconfigir | 18",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇮🇷 IR | 🔴 | vmess | @komail315 | 3",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
@@ -124,7 +124,7 @@
                 "🇺🇸 US | 🔴 | trojan | @noviin_tel | 5",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 16",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
-                "🇮🇷 IR | 🔴 | vless | @proxycrone | 9",
+                "🇮🇷 IR | 🔴 | vless | @proxycrone | 8",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4",
@@ -146,7 +146,6 @@
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
-                "🇺🇸 US | 🟢 | ss | @wedbazvpn | 15",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
             ]
         },
@@ -162,7 +161,7 @@
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
+                "🇩🇪 DE | 🔴 | vless | @getconfigir | 18",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇮🇷 IR | 🔴 | vmess | @komail315 | 3",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
@@ -173,7 +172,7 @@
                 "🇺🇸 US | 🔴 | trojan | @noviin_tel | 5",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 16",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
-                "🇮🇷 IR | 🔴 | vless | @proxycrone | 9",
+                "🇮🇷 IR | 🔴 | vless | @proxycrone | 8",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4",
@@ -195,7 +194,6 @@
                 "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
-                "🇺🇸 US | 🟢 | ss | @wedbazvpn | 15",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -318,20 +316,13 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
+            "tag": "🇩🇪 DE | 🔴 | vless | @getconfigir | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "a9c9c197-c626-4667-f219-1575f26715ac",
+            "server": "194.87.148.104",
+            "server_port": 39914,
+            "uuid": "15ce70b5-3f28-409a-9626-288cc5b869a4",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/olem/ws?ed=1024",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
@@ -459,7 +450,7 @@
             "password": "NTdkZ"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @proxycrone | 9",
+            "tag": "🇮🇷 IR | 🔴 | vless | @proxycrone | 8",
             "type": "vless",
             "server": "world1.royalping.org",
             "server_port": 44283,
@@ -834,14 +825,6 @@
                     "short_id": "6bb85179e30d4fc2"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | ss | @wedbazvpn | 15",
-            "type": "shadowsocks",
-            "server": "45.87.175.188",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "1RWwXhwfAB5gAEozU4G2Pg"
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @zed_vpn | 15",
