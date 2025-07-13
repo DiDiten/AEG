@@ -107,7 +107,7 @@
                 "URL-TEST",
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
-                "🇮🇷 IR | 🔴 | vless | @getconfigir | 19",
+                "🇫🇮 FI | 🔴 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -129,7 +129,7 @@
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
-                "🇮🇷 IR | 🔴 | vless | @getconfigir | 19",
+                "🇫🇮 FI | 🔴 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -190,20 +190,13 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @getconfigir | 19",
+            "tag": "🇫🇮 FI | 🔴 | vless | @getconfigir | 19",
             "type": "vless",
-            "server": "185.208.77.113",
-            "server_port": 14040,
-            "uuid": "a2691bdd-7989-4e7e-9c44-302e360c021f",
+            "server": "65.109.203.70",
+            "server_port": 2096,
+            "uuid": "feea904b-d443-43e1-beaa-621ef7a3de3f",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "185.208.77.113"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
