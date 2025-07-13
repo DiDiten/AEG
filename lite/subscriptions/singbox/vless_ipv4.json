@@ -107,12 +107,12 @@
                 "URL-TEST",
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
+                "🇮🇷 IR | 🔴 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 16",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
-                "🇺🇸 US | 🔴 | vless | @summertimeus | 15",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
@@ -129,12 +129,12 @@
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
+                "🇮🇷 IR | 🔴 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 16",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
-                "🇺🇸 US | 🔴 | vless | @summertimeus | 15",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
@@ -186,6 +186,22 @@
                 "path": "/tel : deli_servers tel : deli_servers tel : deli_servers tel : deli_servers tel : deli_servers tel : deli_servers?ed=2048",
                 "headers": {
                     "Host": "185.146.173.59"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔴 | vless | @getconfigir | 19",
+            "type": "vless",
+            "server": "185.208.77.113",
+            "server_port": 14040,
+            "uuid": "a2691bdd-7989-4e7e-9c44-302e360c021f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "185.208.77.113"
                 }
             }
         },
@@ -263,15 +279,6 @@
                     "Host": "104.18.26.90"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @summertimeus | 15",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "01c83d31-8215-4f85-b94b-8c64a92a040a",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",

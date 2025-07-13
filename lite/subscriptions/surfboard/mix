@@ -16,12 +16,12 @@ DIRECT = direct
 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18 = trojan, 51.91.11.29, 80, password = 598c19f3-a48e-47cd-8451-1ba04ea094d0, skip-cert-verify = false
 🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4 = vmess, 120.233.248.133, 30514, username = 02f0d2ec-086c-4ca2-a229-7ee75e9a73b6, ws = false, tls = false
 🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6 = vmess, 5.180.30.85, 18598, username = bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9, ws = false, tls = false
-🇺🇸 US | 🟢 | ss | @v2rayng_1378 | 11 = ss, 45.87.175.35, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇺🇸 US | 🟢 | ss | @v2rayng_1378 | 10 = ss, 45.87.175.35, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇩🇪 DE | 🟢 | ss | @msv2flyng | 12, 🇮🇷 IR | 🔴 | vmess | @noviin_tel | 6, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4, 🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6, 🇺🇸 US | 🟢 | ss | @v2rayng_1378 | 11
-PSG-AUTO = url-test, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇩🇪 DE | 🟢 | ss | @msv2flyng | 12, 🇮🇷 IR | 🔴 | vmess | @noviin_tel | 6, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4, 🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6, 🇺🇸 US | 🟢 | ss | @v2rayng_1378 | 11
-PSG-FALLBACK = fallback, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇩🇪 DE | 🟢 | ss | @msv2flyng | 12, 🇮🇷 IR | 🔴 | vmess | @noviin_tel | 6, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4, 🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6, 🇺🇸 US | 🟢 | ss | @v2rayng_1378 | 11
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇩🇪 DE | 🟢 | ss | @msv2flyng | 12, 🇮🇷 IR | 🔴 | vmess | @noviin_tel | 6, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4, 🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6, 🇺🇸 US | 🟢 | ss | @v2rayng_1378 | 10
+PSG-AUTO = url-test, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇩🇪 DE | 🟢 | ss | @msv2flyng | 12, 🇮🇷 IR | 🔴 | vmess | @noviin_tel | 6, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4, 🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6, 🇺🇸 US | 🟢 | ss | @v2rayng_1378 | 10
+PSG-FALLBACK = fallback, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇩🇪 DE | 🟢 | ss | @msv2flyng | 12, 🇮🇷 IR | 🔴 | vmess | @noviin_tel | 6, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4, 🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6, 🇺🇸 US | 🟢 | ss | @v2rayng_1378 | 10
 
 [Rule]
 GEOIP,IR,DIRECT

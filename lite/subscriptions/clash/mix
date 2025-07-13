@@ -24,7 +24,7 @@ proxies:
   - {"name":"🇫🇷 FR | 🟢 | trojan | @proxyfn | 18","type":"trojan","server":"51.91.11.29","port":80,"password":"598c19f3-a48e-47cd-8451-1ba04ea094d0","skip-cert-verify":false}
   - {"name":"🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4","type":"vmess","server":"120.233.248.133","port":30514,"cipher":"auto","uuid":"02f0d2ec-086c-4ca2-a229-7ee75e9a73b6","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6","type":"vmess","server":"5.180.30.85","port":18598,"cipher":"auto","uuid":"bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @v2rayng_1378 | 11","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @v2rayng_1378 | 10","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -62,7 +62,7 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | trojan | @proxyfn | 18'
       - '🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4'
       - '🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6'
-      - '🇺🇸 US | 🟢 | ss | @v2rayng_1378 | 11'
+      - '🇺🇸 US | 🟢 | ss | @v2rayng_1378 | 10'
 
   - name: 📉 Fallback
     type: fallback
@@ -76,7 +76,7 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | trojan | @proxyfn | 18'
       - '🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4'
       - '🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6'
-      - '🇺🇸 US | 🟢 | ss | @v2rayng_1378 | 11'
+      - '🇺🇸 US | 🟢 | ss | @v2rayng_1378 | 10'
       
   - name: All-Proxies
     type: select
@@ -88,7 +88,7 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | trojan | @proxyfn | 18'
       - '🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4'
       - '🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6'
-      - '🇺🇸 US | 🟢 | ss | @v2rayng_1378 | 11'
+      - '🇺🇸 US | 🟢 | ss | @v2rayng_1378 | 10'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
