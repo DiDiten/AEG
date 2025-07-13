@@ -110,12 +110,13 @@
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @noviin_tel | 4",
                 "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
-                "❔ XX | 🔴 | vless | @v2raxx | 8",
+                "❔ XX | 🔴 | vless | @v2raxx | 10",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
@@ -131,12 +132,13 @@
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @noviin_tel | 4",
                 "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
-                "❔ XX | 🔴 | vless | @v2raxx | 8",
+                "❔ XX | 🔴 | vless | @v2raxx | 10",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
@@ -225,6 +227,31 @@
                 "path": "/",
                 "headers": {
                     "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 2087,
+            "uuid": "554e89e9-5d47-408a-ee92-2fa8506bc78c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Hopev2.hopebook75zulawu.online",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
+                "headers": {
+                    "Host": "Hopev2.hopebook75zulawu.online"
                 }
             }
         },
@@ -324,7 +351,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @v2raxx | 8",
+            "tag": "❔ XX | 🔴 | vless | @v2raxx | 10",
             "type": "vless",
             "server": "V2RAXX-channel.cataba.ir",
             "server_port": 6666,
