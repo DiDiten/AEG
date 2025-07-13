@@ -113,7 +113,7 @@
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇨🇿 CZ | 🟢 | vless | @getconfigir | 16",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 16",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇮🇷 IR | 🔴 | vmess | @komail315 | 3",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
@@ -147,7 +147,6 @@
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @wedbazvpn | 14",
-                "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
             ]
         },
@@ -163,7 +162,7 @@
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇨🇿 CZ | 🟢 | vless | @getconfigir | 16",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 16",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇮🇷 IR | 🔴 | vmess | @komail315 | 3",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
@@ -197,7 +196,6 @@
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @wedbazvpn | 14",
-                "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -320,30 +318,28 @@
             }
         },
         {
-            "tag": "🇨🇿 CZ | 🟢 | vless | @getconfigir | 16",
+            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 16",
             "type": "vless",
-            "server": "194.182.79.163",
-            "server_port": 10108,
-            "uuid": "edeffe9e-4725-428e-a1c0-7b6a96124f8d",
-            "flow": "xtls-rprx-vision",
+            "server": "172.66.47.15",
+            "server_port": 443,
+            "uuid": "9368b093-d790-4096-9d8a-1265e82f9e2f",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
+                "server_name": "GgGgr.PaGES.dEV",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wGHsRP4taNR7OgyRPba24krQVhH9ZRbR7pvDxVsGjj0",
-                    "short_id": "ed"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+                "type": "ws",
+                "path": "/telegram@v2ray_alpha/?ed=2560",
+                "headers": {
+                    "Host": "GgGgr.PaGES.dEV"
+                }
             }
         },
         {
@@ -896,22 +892,6 @@
                 "path": "/dQMN2VQLkaE52qWD?ed=2560",
                 "headers": {
                     "Host": "ensHOLP-91s.pageS.DEv"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12",
-            "type": "trojan",
-            "server": "f10011.flyflylflyflysbs.sbs",
-            "server_port": 19949,
-            "password": "9c3c38d0-8637-4c94-a790-61f3202a943a",
-            "tls": {
-                "enabled": true,
-                "server_name": "tw01.ckcloud.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },

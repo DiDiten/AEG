@@ -107,7 +107,7 @@
                 "URL-TEST",
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
-                "🇨🇿 CZ | 🟢 | vless | @getconfigir | 16",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 16",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -133,7 +133,7 @@
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
-                "🇨🇿 CZ | 🟢 | vless | @getconfigir | 16",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 16",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -198,30 +198,28 @@
             }
         },
         {
-            "tag": "🇨🇿 CZ | 🟢 | vless | @getconfigir | 16",
+            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 16",
             "type": "vless",
-            "server": "194.182.79.163",
-            "server_port": 10108,
-            "uuid": "edeffe9e-4725-428e-a1c0-7b6a96124f8d",
-            "flow": "xtls-rprx-vision",
+            "server": "172.66.47.15",
+            "server_port": 443,
+            "uuid": "9368b093-d790-4096-9d8a-1265e82f9e2f",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
+                "server_name": "GgGgr.PaGES.dEV",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wGHsRP4taNR7OgyRPba24krQVhH9ZRbR7pvDxVsGjj0",
-                    "short_id": "ed"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+                "type": "ws",
+                "path": "/telegram@v2ray_alpha/?ed=2560",
+                "headers": {
+                    "Host": "GgGgr.PaGES.dEV"
+                }
             }
         },
         {
