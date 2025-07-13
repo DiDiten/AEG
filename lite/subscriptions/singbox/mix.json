@@ -113,7 +113,7 @@
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇮🇷 IR | 🔴 | vless | @getconfigir | 18",
+                "🇩🇪 DE | 🟢 | vless | @getconfigir | 16",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇮🇷 IR | 🔴 | vmess | @komail315 | 3",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
@@ -121,7 +121,7 @@
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
-                "🇺🇸 US | 🟢 | vless | @noviin_tel | 4",
+                "🇺🇸 US | 🔴 | trojan | @noviin_tel | 5",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 16",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
                 "🇫🇮 FI | 🔴 | vmess | @proxycrone | 10",
@@ -141,6 +141,7 @@
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "🇺🇸 US | 🟢 | vless | @v2rayng_1378 | 10",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
+                "🇺🇸 US | 🟢 | vless | @v2rayngcloud | 5",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
                 "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
@@ -162,7 +163,7 @@
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇮🇷 IR | 🔴 | vless | @getconfigir | 18",
+                "🇩🇪 DE | 🟢 | vless | @getconfigir | 16",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇮🇷 IR | 🔴 | vmess | @komail315 | 3",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
@@ -170,7 +171,7 @@
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
-                "🇺🇸 US | 🟢 | vless | @noviin_tel | 4",
+                "🇺🇸 US | 🔴 | trojan | @noviin_tel | 5",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 16",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
                 "🇫🇮 FI | 🔴 | vmess | @proxycrone | 10",
@@ -190,6 +191,7 @@
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "🇺🇸 US | 🟢 | vless | @v2rayng_1378 | 10",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
+                "🇺🇸 US | 🟢 | vless | @v2rayngcloud | 5",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
                 "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
@@ -318,21 +320,30 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @getconfigir | 18",
+            "tag": "🇩🇪 DE | 🟢 | vless | @getconfigir | 16",
             "type": "vless",
-            "server": "irc.testvp2.sbs",
-            "server_port": 443,
-            "uuid": "3faff5e5-89ef-4835-879d-0d8281235cc1",
-            "flow": "",
+            "server": "new.amoosias.site",
+            "server_port": 58435,
+            "uuid": "97c4e3db-7835-45c2-ef88-946ca39feb23",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "irc.testvp2.sbs",
+                "server_name": "sain.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "M5Tspmlf2U1KKCFR5KlO5-hUlsRuOpa6q6CeZO9zGSs",
+                    "short_id": "5c727ea917"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "new.amoosias.site"
             }
         },
         {
@@ -430,29 +441,11 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @noviin_tel | 4",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "38046915-6d82-4d86-8510-b5bcc569d0ea",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "PaGes.deV",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "PaGes.deV"
-                }
-            }
+            "tag": "🇺🇸 US | 🔴 | trojan | @noviin_tel | 5",
+            "type": "trojan",
+            "server": "www.chatgameone.ir",
+            "server_port": 36557,
+            "password": "K7N8flfyok"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @outline_vpn | 16",
@@ -730,6 +723,31 @@
                     "enabled": true,
                     "public_key": "It8T_WWejuo-QOwZsYWbe5gRBDQOLXp9wfnWDo_FIFQ",
                     "short_id": "4e69ed37"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngcloud | 5",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "38046915-6d82-4d86-8510-b5bcc569d0ea",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "PaGes.deV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "PaGes.deV"
                 }
             }
         },

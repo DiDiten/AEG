@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12"
+                "🇺🇸 US | 🔴 | trojan | @noviin_tel | 5"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12"
+                "🇺🇸 US | 🔴 | trojan | @noviin_tel | 5"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,20 +135,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12",
+            "tag": "🇺🇸 US | 🔴 | trojan | @noviin_tel | 5",
             "type": "trojan",
-            "server": "f10011.flyflylflyflysbs.sbs",
-            "server_port": 19949,
-            "password": "9c3c38d0-8637-4c94-a790-61f3202a943a",
-            "tls": {
-                "enabled": true,
-                "server_name": "tw01.ckcloud.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "server": "www.chatgameone.ir",
+            "server_port": 36557,
+            "password": "K7N8flfyok"
         }
     ],
     "route": {
