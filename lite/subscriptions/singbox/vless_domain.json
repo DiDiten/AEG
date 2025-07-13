@@ -113,9 +113,11 @@
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @noviin_tel | 4",
+                "🇺🇸 US | 🟢 | vless | @proxycrone | 9",
                 "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
+                "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
@@ -134,9 +136,11 @@
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @noviin_tel | 4",
+                "🇺🇸 US | 🟢 | vless | @proxycrone | 9",
                 "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
+                "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
@@ -288,6 +292,31 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🟢 | vless | @proxycrone | 9",
+            "type": "vless",
+            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+            "server_port": 2096,
+            "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Ft77Ta8Q1m.EmShAbKhObE.oRg",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "Ft77Ta8Q1m.EmShAbKhObE.oRg"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
             "type": "vless",
             "server": "parrot-love.ir",
@@ -334,6 +363,24 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
