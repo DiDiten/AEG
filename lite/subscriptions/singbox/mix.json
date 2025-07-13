@@ -113,7 +113,7 @@
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇫🇮 FI | 🔴 | vless | @getconfigir | 19",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇮🇷 IR | 🔴 | vmess | @komail315 | 3",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
@@ -142,7 +142,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayngcloud | 5",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
+                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 15",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
@@ -160,7 +160,7 @@
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇫🇮 FI | 🔴 | vless | @getconfigir | 19",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇮🇷 IR | 🔴 | vmess | @komail315 | 3",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
@@ -189,7 +189,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2rayngcloud | 5",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
+                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 15",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
@@ -314,13 +314,29 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔴 | vless | @getconfigir | 19",
+            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
             "type": "vless",
-            "server": "65.109.203.70",
-            "server_port": 2096,
-            "uuid": "feea904b-d443-43e1-beaa-621ef7a3de3f",
+            "server": "188.114.99.16",
+            "server_port": 2053,
+            "uuid": "54f6e78c-b497-4db7-ba48-38c4cf81d5ef",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "019309B7.XyZ0.PaGeS.dEV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram@V2ray_Alpha/?ed=2560",
+                "headers": {
+                    "Host": "019309B7.XyZ0.PaGeS.dEV"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
@@ -744,9 +760,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
+            "tag": "🇩🇪 DE | 🟢 | vless | @vlessconfig | 15",
             "type": "vless",
-            "server": "13.37.30.32",
+            "server": "52.58.208.200",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
