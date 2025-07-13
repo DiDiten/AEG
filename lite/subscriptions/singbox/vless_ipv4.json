@@ -107,7 +107,7 @@
                 "URL-TEST",
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
-                "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -120,7 +120,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2ray_extractor | 19",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 3",
                 "🇺🇸 US | 🟢 | vless | @v2rayng_1378 | 10",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
+                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
             ]
@@ -131,7 +131,7 @@
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
-                "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -144,7 +144,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2ray_extractor | 19",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 3",
                 "🇺🇸 US | 🟢 | vless | @v2rayng_1378 | 10",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
+                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
             ],
@@ -194,18 +194,27 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
+            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
             "type": "vless",
-            "server": "104.26.6.89",
-            "server_port": 80,
-            "uuid": "b360267f-81aa-4740-a9c0-9a64fe7f9775",
+            "server": "104.16.34.128",
+            "server_port": 443,
+            "uuid": "267613d7-f53f-4005-b642-d6f1f687b7cf",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ensHOLP-91s.pageS.DEv",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/dQMN2VQLkaE52qWD?ed=2560",
                 "headers": {
-                    "Host": "104.26.6.89"
+                    "Host": "ensHOLP-91s.pageS.DEv"
                 }
             }
         },
@@ -426,9 +435,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @vlessconfig | 15",
+            "tag": "🇩🇪 DE | 🟢 | vless | @vlessconfig | 13",
             "type": "vless",
-            "server": "35.181.182.19",
+            "server": "3.74.100.225",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
