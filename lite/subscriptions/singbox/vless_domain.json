@@ -110,9 +110,11 @@
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
+                "🇩🇪 DE | 🔴 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
                 "🇺🇸 US | 🔴 | vless | @proxycrone | 9",
+                "🇺🇸 US | 🔴 | vless | @summertimeus | 15",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
@@ -132,9 +134,11 @@
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
+                "🇩🇪 DE | 🔴 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
                 "🇺🇸 US | 🔴 | vless | @proxycrone | 9",
+                "🇺🇸 US | 🔴 | vless | @summertimeus | 15",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
@@ -231,6 +235,22 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔴 | vless | @getconfigir | 19",
+            "type": "vless",
+            "server": "freeconfig.fergalvpnmod.com",
+            "server_port": 12765,
+            "uuid": "f503c72d-485e-4091-9d0c-9ad34d61c914",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/telegram@FergalVpnMod",
+                "headers": {
+                    "Host": "freeconfig.fergalvpnmod.com"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
             "type": "vless",
             "server": "s19.speedyconnect.pro",
@@ -277,6 +297,22 @@
                 "path": "/@VpnHubMaRKeT - @VpnHubMaRKeT - @VpnHubMaRKeT?ed=2056",
                 "headers": {
                     "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @summertimeus | 15",
+            "type": "vless",
+            "server": "cloud.sarasimano.com",
+            "server_port": 80,
+            "uuid": "b360267f-81aa-4740-a9c0-9a64fe7f9775",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "cloud.sarasimano.com"
                 }
             }
         },

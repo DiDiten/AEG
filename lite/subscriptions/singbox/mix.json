@@ -113,7 +113,7 @@
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
+                "🇩🇪 DE | 🔴 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇮🇷 IR | 🔴 | vmess | @komail315 | 3",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
@@ -128,6 +128,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4",
+                "🇺🇸 US | 🔴 | vless | @summertimeus | 15",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
@@ -160,7 +161,7 @@
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
+                "🇩🇪 DE | 🔴 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇮🇷 IR | 🔴 | vmess | @komail315 | 3",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
@@ -175,6 +176,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4",
+                "🇺🇸 US | 🔴 | vless | @summertimeus | 15",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
@@ -314,27 +316,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
+            "tag": "🇩🇪 DE | 🔴 | vless | @getconfigir | 19",
             "type": "vless",
-            "server": "188.114.99.16",
-            "server_port": 2053,
-            "uuid": "54f6e78c-b497-4db7-ba48-38c4cf81d5ef",
+            "server": "freeconfig.fergalvpnmod.com",
+            "server_port": 12765,
+            "uuid": "f503c72d-485e-4091-9d0c-9ad34d61c914",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "019309B7.XyZ0.PaGeS.dEV",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/Telegram@V2ray_Alpha/?ed=2560",
+                "path": "/telegram@FergalVpnMod",
                 "headers": {
-                    "Host": "019309B7.XyZ0.PaGeS.dEV"
+                    "Host": "freeconfig.fergalvpnmod.com"
                 }
             }
         },
@@ -521,6 +514,22 @@
             "uuid": "02f0d2ec-086c-4ca2-a229-7ee75e9a73b6",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @summertimeus | 15",
+            "type": "vless",
+            "server": "cloud.sarasimano.com",
+            "server_port": 80,
+            "uuid": "b360267f-81aa-4740-a9c0-9a64fe7f9775",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "cloud.sarasimano.com"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
