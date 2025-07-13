@@ -107,13 +107,12 @@
                 "URL-TEST",
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 16",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
-                "🇺🇸 US | 🟢 | vless | @summertimeus | 15",
+                "🇺🇸 US | 🔴 | vless | @summertimeus | 15",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
@@ -131,13 +130,12 @@
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 16",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
-                "🇺🇸 US | 🟢 | vless | @summertimeus | 15",
+                "🇺🇸 US | 🔴 | vless | @summertimeus | 15",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
@@ -190,31 +188,6 @@
                 "path": "/tel : deli_servers tel : deli_servers tel : deli_servers tel : deli_servers tel : deli_servers tel : deli_servers?ed=2048",
                 "headers": {
                     "Host": "185.146.173.59"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
-            "type": "vless",
-            "server": "104.16.34.128",
-            "server_port": 443,
-            "uuid": "267613d7-f53f-4005-b642-d6f1f687b7cf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ensHOLP-91s.pageS.DEv",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/dQMN2VQLkaE52qWD?ed=2560",
-                "headers": {
-                    "Host": "ensHOLP-91s.pageS.DEv"
                 }
             }
         },
@@ -294,29 +267,13 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @summertimeus | 15",
+            "tag": "🇺🇸 US | 🔴 | vless | @summertimeus | 15",
             "type": "vless",
-            "server": "104.22.22.237",
-            "server_port": 443,
-            "uuid": "9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "01c83d31-8215-4f85-b94b-8c64a92a040a",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "kawaiifreevpn-7ds.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "kawaiifreevpn-7ds.pages.dev"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",

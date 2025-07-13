@@ -113,7 +113,7 @@
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
+                "🇮🇷 IR | 🔴 | vless | @getconfigir | 18",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇮🇷 IR | 🔴 | vmess | @komail315 | 3",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
@@ -124,15 +124,15 @@
                 "🇺🇸 US | 🟢 | vless | @noviin_tel | 4",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 16",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
-                "🇺🇸 US | 🟢 | vless | @proxycrone | 9",
+                "🇫🇮 FI | 🔴 | vmess | @proxycrone | 10",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4",
-                "🇺🇸 US | 🟢 | vless | @summertimeus | 15",
+                "🇺🇸 US | 🔴 | vless | @summertimeus | 15",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
-                "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
+                "🇺🇸 US | 🟢 | ss | @v2aryng_vpn | 8",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
                 "🇺🇸 US | 🟢 | vless | @v2ray_extractor | 19",
@@ -162,7 +162,7 @@
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
+                "🇮🇷 IR | 🔴 | vless | @getconfigir | 18",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇮🇷 IR | 🔴 | vmess | @komail315 | 3",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
@@ -173,15 +173,15 @@
                 "🇺🇸 US | 🟢 | vless | @noviin_tel | 4",
                 "🇺🇸 US | 🔴 | vless | @outline_vpn | 16",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
-                "🇺🇸 US | 🟢 | vless | @proxycrone | 9",
+                "🇫🇮 FI | 🔴 | vmess | @proxycrone | 10",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🔴 | vless | @proxyfull | 14",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4",
-                "🇺🇸 US | 🟢 | vless | @summertimeus | 15",
+                "🇺🇸 US | 🔴 | vless | @summertimeus | 15",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
                 "🇺🇸 US | 🟢 | vless | @v2ang | 5",
-                "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
+                "🇺🇸 US | 🟢 | ss | @v2aryng_vpn | 8",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
                 "🇺🇸 US | 🟢 | vless | @v2ray_extractor | 19",
@@ -318,27 +318,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
+            "tag": "🇮🇷 IR | 🔴 | vless | @getconfigir | 18",
             "type": "vless",
-            "server": "104.16.34.128",
+            "server": "irc.testvp2.sbs",
             "server_port": 443,
-            "uuid": "267613d7-f53f-4005-b642-d6f1f687b7cf",
+            "uuid": "3faff5e5-89ef-4835-879d-0d8281235cc1",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ensHOLP-91s.pageS.DEv",
+                "server_name": "irc.testvp2.sbs",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/dQMN2VQLkaE52qWD?ed=2560",
-                "headers": {
-                    "Host": "ensHOLP-91s.pageS.DEv"
                 }
             }
         },
@@ -486,29 +479,13 @@
             "password": "NTdkZ"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @proxycrone | 9",
-            "type": "vless",
-            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-            "server_port": 2096,
-            "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Ft77Ta8Q1m.EmShAbKhObE.oRg",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "Ft77Ta8Q1m.EmShAbKhObE.oRg"
-                }
-            }
+            "tag": "🇫🇮 FI | 🔴 | vmess | @proxycrone | 10",
+            "type": "vmess",
+            "server": "panel3.ipyar.org",
+            "server_port": 32017,
+            "uuid": "c0ccdeb9-784c-4d67-b904-20dcaac9902a",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
@@ -552,29 +529,13 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @summertimeus | 15",
+            "tag": "🇺🇸 US | 🔴 | vless | @summertimeus | 15",
             "type": "vless",
-            "server": "104.22.22.237",
-            "server_port": 443,
-            "uuid": "9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "01c83d31-8215-4f85-b94b-8c64a92a040a",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "kawaiifreevpn-7ds.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "kawaiifreevpn-7ds.pages.dev"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
@@ -627,31 +588,12 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
-            "type": "vless",
-            "server": "parrot-love.ir",
-            "server_port": 2025,
-            "uuid": "417e0f23-34b1-45c6-803d-4b596c502672",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fhNhrO00QDSDI1CBmJY8RwK9t-zFmTjERgbgqcj8NTI",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "sadf2341sad"
-            }
+            "tag": "🇺🇸 US | 🟢 | ss | @v2aryng_vpn | 8",
+            "type": "shadowsocks",
+            "server": "45.87.175.167",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "QCXDxuDlTTMD7jtgHUjIoj"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @v2graphy | 10",

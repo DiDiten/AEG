@@ -110,11 +110,10 @@
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
+                "🇮🇷 IR | 🔴 | vless | @getconfigir | 18",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @noviin_tel | 4",
-                "🇺🇸 US | 🟢 | vless | @proxycrone | 9",
-                "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
@@ -133,11 +132,10 @@
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
+                "🇮🇷 IR | 🔴 | vless | @getconfigir | 18",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @noviin_tel | 4",
-                "🇺🇸 US | 🟢 | vless | @proxycrone | 9",
-                "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
@@ -233,6 +231,24 @@
             }
         },
         {
+            "tag": "🇮🇷 IR | 🔴 | vless | @getconfigir | 18",
+            "type": "vless",
+            "server": "irc.testvp2.sbs",
+            "server_port": 443,
+            "uuid": "3faff5e5-89ef-4835-879d-0d8281235cc1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "irc.testvp2.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
             "type": "vless",
             "server": "s19.speedyconnect.pro",
@@ -289,58 +305,6 @@
                 "headers": {
                     "Host": "PaGes.deV"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @proxycrone | 9",
-            "type": "vless",
-            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-            "server_port": 2096,
-            "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Ft77Ta8Q1m.EmShAbKhObE.oRg",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "Ft77Ta8Q1m.EmShAbKhObE.oRg"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
-            "type": "vless",
-            "server": "parrot-love.ir",
-            "server_port": 2025,
-            "uuid": "417e0f23-34b1-45c6-803d-4b596c502672",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fhNhrO00QDSDI1CBmJY8RwK9t-zFmTjERgbgqcj8NTI",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "sadf2341sad"
             }
         },
         {
