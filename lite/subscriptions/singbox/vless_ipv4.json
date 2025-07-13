@@ -107,7 +107,7 @@
                 "URL-TEST",
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 17",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -129,7 +129,7 @@
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 17",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -190,27 +190,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
+            "tag": "🇺🇸 US | 🔴 | vless | @getconfigir | 17",
             "type": "vless",
-            "server": "172.67.92.147",
-            "server_port": 443,
-            "uuid": "75fde681-ec64-4654-86fa-30732e8e179c",
+            "server": "141.101.120.38",
+            "server_port": 8080,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "NGINX.NSCl.IR",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/Telegram@Filter_breaker/?ed=2048",
                 "headers": {
-                    "Host": "NGINX.NSCl.IR"
+                    "Host": "141.101.120.38"
                 }
             }
         },
