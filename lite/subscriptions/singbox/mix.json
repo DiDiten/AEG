@@ -132,7 +132,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2aryng_vpn | 9",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
-                "🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19",
+                "🇺🇸 US | 🟢 | vless | @v2ray_extractor | 19",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 3",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
@@ -178,7 +178,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2aryng_vpn | 9",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
-                "🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19",
+                "🇺🇸 US | 🟢 | vless | @v2ray_extractor | 19",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 3",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
@@ -570,18 +570,27 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19",
-            "type": "trojan",
-            "server": "3.73.54.252",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2ray_extractor | 19",
+            "type": "vless",
+            "server": "104.18.26.90",
+            "server_port": 443,
+            "uuid": "5879d109-8c92-448a-801b-3f3989019934",
+            "flow": "",
+            "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
+                "server_name": "pages.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048",
+                "headers": {
+                    "Host": "pages.dev"
                 }
             }
         },

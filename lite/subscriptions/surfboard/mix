@@ -14,13 +14,12 @@ DIRECT = direct
 ❔ XX | 🟢 | ss | @outlines_vpn | 5 = ss, www.outline.network.ak1915.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 8388, encrypt-method = chacha20-ietf-poly1305, password = NTdkZ
 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18 = trojan, 51.91.11.29, 80, password = 598c19f3-a48e-47cd-8451-1ba04ea094d0, skip-cert-verify = false
 🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3 = vmess, 120.233.248.133, 30514, username = 02f0d2ec-086c-4ca2-a229-7ee75e9a73b6, ws = false, tls = false
-🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19 = trojan, 3.73.54.252, 22223, password = telegram-id-directvpn, skip-cert-verify = false
 🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6 = vmess, 5.180.30.85, 18598, username = bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇩🇪 DE | 🟢 | ss | @msv2flyng | 12, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3, 🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19, 🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6
-PSG-AUTO = url-test, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇩🇪 DE | 🟢 | ss | @msv2flyng | 12, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3, 🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19, 🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6
-PSG-FALLBACK = fallback, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇩🇪 DE | 🟢 | ss | @msv2flyng | 12, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3, 🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19, 🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇩🇪 DE | 🟢 | ss | @msv2flyng | 12, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3, 🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6
+PSG-AUTO = url-test, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇩🇪 DE | 🟢 | ss | @msv2flyng | 12, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3, 🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6
+PSG-FALLBACK = fallback, 🇬🇧 GB | 🟢 | ss | @bislullproxy | 18, 🇩🇪 DE | 🟢 | ss | @msv2flyng | 12, ❔ XX | 🟢 | ss | @outlines_vpn | 5, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3, 🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6
 
 [Rule]
 GEOIP,IR,DIRECT
