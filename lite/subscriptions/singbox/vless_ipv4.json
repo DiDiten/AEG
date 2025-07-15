@@ -110,7 +110,6 @@
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 2",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
-                "🇩🇪 DE | 🟢 | vless | @noviin_tel | 0",
                 "🇺🇸 US | 🔴 | vless | @proxycrone | 10",
                 "🇺🇸 US | 🟢 | vless | @summertimeus | 15",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
@@ -133,7 +132,6 @@
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 2",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
-                "🇩🇪 DE | 🟢 | vless | @noviin_tel | 0",
                 "🇺🇸 US | 🔴 | vless | @proxycrone | 10",
                 "🇺🇸 US | 🟢 | vless | @summertimeus | 15",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
@@ -232,33 +230,6 @@
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @noviin_tel | 0",
-            "type": "vless",
-            "server": "91.107.180.100",
-            "server_port": 443,
-            "uuid": "01763caa-bd69-47f8-89c4-031b2f0bd8ff",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eZs1Yn6wbXV2RPT47_szgepN6lNKseOb9nprDMrpNmE",
-                    "short_id": "f3"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@SobyV2ray"
             }
         },
         {

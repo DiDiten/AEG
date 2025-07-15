@@ -104,16 +104,13 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST",
-                "🇩🇪 DE | 🟢 | vless | @noviin_tel | 0"
+                "URL-TEST"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @noviin_tel | 0"
-            ],
+            "outbounds": [],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -133,33 +130,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @noviin_tel | 0",
-            "type": "vless",
-            "server": "91.107.180.100",
-            "server_port": 443,
-            "uuid": "01763caa-bd69-47f8-89c4-031b2f0bd8ff",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eZs1Yn6wbXV2RPT47_szgepN6lNKseOb9nprDMrpNmE",
-                    "short_id": "f3"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@SobyV2ray"
-            }
         }
     ],
     "route": {
