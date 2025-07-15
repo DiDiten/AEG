@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | vless | @noviin_tel | 1"
+                "🇩🇪 DE | 🟢 | vless | @noviin_tel | 0"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @noviin_tel | 1"
+                "🇩🇪 DE | 🟢 | vless | @noviin_tel | 0"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,7 +135,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @noviin_tel | 1",
+            "tag": "🇩🇪 DE | 🟢 | vless | @noviin_tel | 0",
             "type": "vless",
             "server": "91.107.180.100",
             "server_port": 443,
