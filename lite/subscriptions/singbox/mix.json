@@ -123,7 +123,7 @@
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
                 "🇩🇪 DE | 🟢 | vless | @noviin_tel | 1",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
-                "🇫🇮 FI | 🔴 | vless | @proxycrone | 9",
+                "🇺🇸 US | 🔴 | vless | @proxycrone | 10",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3",
                 "🇺🇸 US | 🟢 | vless | @summertimeus | 15",
@@ -144,7 +144,6 @@
                 "🇩🇪 DE | 🟢 | vless | @vlessconfig | 14",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
-                "🇺🇸 US | 🔴 | vless | @wedbazvpn | 16",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
             ]
         },
@@ -170,7 +169,7 @@
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
                 "🇩🇪 DE | 🟢 | vless | @noviin_tel | 1",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
-                "🇫🇮 FI | 🔴 | vless | @proxycrone | 9",
+                "🇺🇸 US | 🔴 | vless | @proxycrone | 10",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 3",
                 "🇺🇸 US | 🟢 | vless | @summertimeus | 15",
@@ -191,7 +190,6 @@
                 "🇩🇪 DE | 🟢 | vless | @vlessconfig | 14",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
-                "🇺🇸 US | 🔴 | vless | @wedbazvpn | 16",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -452,13 +450,20 @@
             "password": "NTdkZ"
         },
         {
-            "tag": "🇫🇮 FI | 🔴 | vless | @proxycrone | 9",
+            "tag": "🇺🇸 US | 🔴 | vless | @proxycrone | 10",
             "type": "vless",
-            "server": "185.92.183.58",
-            "server_port": 17541,
-            "uuid": "2145b240-0c69-4ed3-b363-ea9a5a6da3a4",
+            "server": "104.21.112.1",
+            "server_port": 80,
+            "uuid": "2036e2c3-18a5-4eed-9db4-f91a7f02c7d5",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/193.123.81.105=443",
+                "headers": {
+                    "Host": "104.21.112.1"
+                }
+            }
         },
         {
             "tag": "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
@@ -818,15 +823,6 @@
                     "short_id": "6bb85179e30d4fc2"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @wedbazvpn | 16",
-            "type": "vless",
-            "server": "Speedtest.net",
-            "server_port": 80,
-            "uuid": "e02a83a6-16c9-4eaf-d40e-1387028d93a0",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @zed_vpn | 15",
