@@ -115,10 +115,11 @@
                 "🇺🇸 US | 🟢 | vless | @summertimeus | 15",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
-                "🇺🇸 US | 🟢 | vless | @v2ang | 5",
+                "🇨🇦 CA | 🟢 | vless | @v2ang | 5",
+                "🇺🇸 US | 🟢 | vless | @v2aryng_vpn | 9",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 3",
                 "🇺🇸 US | 🟢 | vless | @v2rayng_1378 | 11",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
+                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 16",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
             ]
@@ -137,10 +138,11 @@
                 "🇺🇸 US | 🟢 | vless | @summertimeus | 15",
                 "🇮🇷 IR | 🔴 | vless | @tc_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @topvpn02 | 0",
-                "🇺🇸 US | 🟢 | vless | @v2ang | 5",
+                "🇨🇦 CA | 🟢 | vless | @v2ang | 5",
+                "🇺🇸 US | 🟢 | vless | @v2aryng_vpn | 9",
                 "🇺🇸 US | 🔴 | vless | @v2ray_god | 3",
                 "🇺🇸 US | 🟢 | vless | @v2rayng_1378 | 11",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
+                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 16",
                 "🇸🇪 SE | 🔴 | vless | @vpn_proxy_v2ry | 5",
                 "🇺🇸 US | 🟢 | vless | @zed_vpn | 15"
             ],
@@ -326,7 +328,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2ang | 5",
+            "tag": "🇨🇦 CA | 🟢 | vless | @v2ang | 5",
             "type": "vless",
             "server": "104.31.16.36",
             "server_port": 443,
@@ -347,6 +349,31 @@
                 "path": "/fflsws",
                 "headers": {
                     "Host": "lmn39.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @v2aryng_vpn | 9",
+            "type": "vless",
+            "server": "172.66.44.253",
+            "server_port": 8443,
+            "uuid": "efed37ed-37e5-4100-a540-049dc7929984",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "net-aCcOUNt02.Pages.DEv",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/dy26vBaDi5RTblzP?ed=2560",
+                "headers": {
+                    "Host": "net-aCcOUNt02.Pages.DEv"
                 }
             }
         },
@@ -392,9 +419,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @vlessconfig | 17",
+            "tag": "🇩🇪 DE | 🟢 | vless | @vlessconfig | 16",
             "type": "vless",
-            "server": "15.236.121.218",
+            "server": "63.176.181.172",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
