@@ -110,12 +110,12 @@
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇩🇪 DE | 🔴 | vless | @getconfigir | 17",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 18",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
+                "🇳🇱 NL | 🟢 | vless | @proxycrone | 9",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
-                "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
@@ -131,12 +131,12 @@
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇩🇪 DE | 🔴 | vless | @getconfigir | 17",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 18",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
+                "🇳🇱 NL | 🟢 | vless | @proxycrone | 9",
                 "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 10",
-                "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayngrr13 | 0",
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
@@ -229,13 +229,29 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @getconfigir | 17",
+            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 18",
             "type": "vless",
-            "server": "mmdamin.2.dragonspeed.top",
-            "server_port": 5701,
-            "uuid": "7c05cbda-3034-4b0d-8e76-eee13986b3de",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "8a009663-9afa-4f0f-aac0-23e743a89e08",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "638879176706396454.amsterdam-prx-dnraaal.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/zwtnbvws",
+                "headers": {
+                    "Host": "638879176706396454.amsterdam-prx-dnraaal.info"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
@@ -272,6 +288,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇳🇱 NL | 🟢 | vless | @proxycrone | 9",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @v2graphy | 10",
             "type": "vless",
             "server": "all2.golnar-clod.ir",
@@ -291,24 +325,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX/@V2RAXX"
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
-            "type": "vless",
-            "server": "statue.lnmarketplace.net",
-            "server_port": 443,
-            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "statue.lnmarketplace.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
