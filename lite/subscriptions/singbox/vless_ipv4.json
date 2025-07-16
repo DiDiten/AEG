@@ -107,6 +107,7 @@
                 "URL-TEST",
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 2",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -129,6 +130,7 @@
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 2",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -186,6 +188,22 @@
                 "path": "/tel : deli_servers tel : deli_servers tel : deli_servers tel : deli_servers tel : deli_servers tel : deli_servers?ed=2048",
                 "headers": {
                     "Host": "185.146.173.59"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
+            "type": "vless",
+            "server": "104.21.112.1",
+            "server_port": 80,
+            "uuid": "2036e2c3-18a5-4eed-9db4-f91a7f02c7d5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/193.123.81.105=443",
+                "headers": {
+                    "Host": "104.21.112.1"
                 }
             }
         },
@@ -397,7 +415,7 @@
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @vlessconfig | 15",
             "type": "vless",
-            "server": "3.68.174.66",
+            "server": "18.156.18.83",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
