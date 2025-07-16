@@ -110,7 +110,6 @@
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 18",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
                 "🇳🇱 NL | 🟢 | vless | @proxycrone | 9",
@@ -131,7 +130,6 @@
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "🇺🇸 US | 🔴 | vless | @freenapsternetv | 5",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 18",
                 "🇮🇷 IR | 🟢 | vless | @lax_vpn | 0",
                 "🇳🇱 NL | 🔴 | vless | @luckyvpn | 0",
                 "🇳🇱 NL | 🟢 | vless | @proxycrone | 9",
@@ -225,31 +223,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 18",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2096,
-            "uuid": "8a009663-9afa-4f0f-aac0-23e743a89e08",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "638879176706396454.amsterdam-prx-dnraaal.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/zwtnbvws",
-                "headers": {
-                    "Host": "638879176706396454.amsterdam-prx-dnraaal.info"
                 }
             }
         },

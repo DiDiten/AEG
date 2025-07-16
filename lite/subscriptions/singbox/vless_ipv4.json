@@ -107,6 +107,7 @@
                 "URL-TEST",
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
+                "🇨🇿 CZ | 🟢 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 2",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -129,6 +130,7 @@
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vless | @avaalvpn | 4",
                 "🇸🇪 SE | 🔴 | vless | @deli_servers | 2",
+                "🇨🇿 CZ | 🟢 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 2",
                 "🇺🇸 US | 🔴 | vless | @manstervpn | 75",
                 "🇺🇸 US | 🟢 | vless | @netspeedservice | 4",
@@ -187,6 +189,33 @@
                 "headers": {
                     "Host": "185.146.173.59"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇿 CZ | 🟢 | vless | @getconfigir | 19",
+            "type": "vless",
+            "server": "194.182.79.64",
+            "server_port": 14073,
+            "uuid": "8b39daa8-01e0-4054-8271-0630cd517f10",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k8x94p4pxXmLjNWkgLRsdi_raiVGIX0EPGyP70CyBVs",
+                    "short_id": "f11c49ff"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
             }
         },
         {
