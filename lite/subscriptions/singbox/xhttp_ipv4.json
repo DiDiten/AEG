@@ -111,8 +111,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [26]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [20]"
+                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -142,8 +143,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [26]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [20]"
+                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesc [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -562,7 +564,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "151.101.67.8",
             "server_port": 80,
@@ -571,7 +573,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [20]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
             "type": "vless",
             "server": "91.99.16.244",
             "server_port": 443,
@@ -590,6 +592,24 @@
                     "enabled": true,
                     "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
                     "short_id": "61e683d41fdb"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "91.107.137.185",
+            "server_port": 443,
+            "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.107.137.185",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
