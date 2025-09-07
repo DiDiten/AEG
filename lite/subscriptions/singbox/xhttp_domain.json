@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [49]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -102,7 +103,6 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [5]",
                 "🚩 CF | 🔒 VLESS | @netmellianti [15]",
                 "🚩 CF | 🔒 VLESS | @netmellianti [16]",
-                "🇺🇸 US | 🔓 VLESS | @outline_ir [18]",
                 "🇩🇪 DE | 🔓 VLESS | @selinc [6]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
@@ -120,6 +120,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [49]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -129,7 +130,6 @@
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [5]",
                 "🚩 CF | 🔒 VLESS | @netmellianti [15]",
                 "🚩 CF | 🔒 VLESS | @netmellianti [16]",
-                "🇺🇸 US | 🔓 VLESS | @outline_ir [18]",
                 "🇩🇪 DE | 🔓 VLESS | @selinc [6]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [12]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
@@ -229,6 +229,24 @@
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [49]",
+            "type": "vless",
+            "server": "sss71534.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "aa077dd1-0a53-4313-8800-c9ac79a97003",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss71534.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [2]",
@@ -337,15 +355,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @outline_ir [18]",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "a98b1a4d-02d5-442b-a80e-928a1f7f81b4",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @selinc [6]",
