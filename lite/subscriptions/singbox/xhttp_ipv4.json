@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔓 VLESS | @dalton_ping [6]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
@@ -114,7 +115,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇳🇱 NL | 🔒 TROJAN | @vmesc [20]",
+                "🇳🇱 NL | 🔒 TROJAN | @vmesc [19]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [16]"
             ],
             "tag": "proxy",
@@ -126,6 +127,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔓 VLESS | @dalton_ping [6]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
@@ -148,7 +150,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇳🇱 NL | 🔒 TROJAN | @vmesc [20]",
+                "🇳🇱 NL | 🔒 TROJAN | @vmesc [19]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [16]"
             ],
             "tag": "auto",
@@ -232,6 +234,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "104.248.137.204",
+            "server_port": 443,
+            "uuid": "3528af1b-878e-407a-b2c0-38643dbb791e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "60vwoYMS62_-PzJunEfDMUNv4zt580Z7L8fCCRcCm0c",
+                    "short_id": ""
                 }
             }
         },
@@ -622,7 +647,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 TROJAN | @vmesc [20]",
+            "tag": "🇳🇱 NL | 🔒 TROJAN | @vmesc [19]",
             "type": "trojan",
             "server": "178.128.138.210",
             "server_port": 443,
