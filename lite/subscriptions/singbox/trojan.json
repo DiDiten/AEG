@@ -93,23 +93,25 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "❔ XX | 🔒 TROJAN | @ip_cf_config [14]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
-                "🇩🇪 DE | 🔒 TROJAN | @directvpn [17]",
+                "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [17]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
-                "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]"
+                "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
+                "🇳🇱 NL | 🔒 TROJAN | @vmesc [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -121,23 +123,25 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "❔ XX | 🔒 TROJAN | @ip_cf_config [14]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
-                "🇩🇪 DE | 🔒 TROJAN | @directvpn [17]",
+                "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [17]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
-                "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]"
+                "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
+                "🇳🇱 NL | 🔒 TROJAN | @vmesc [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -234,6 +238,22 @@
                 "path": "/trojan-ntls",
                 "headers": {
                     "Host": "asia.artunnel57.host"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @ip_cf_config [14]",
+            "type": "trojan",
+            "server": "sp1.shatak.store",
+            "server_port": 49228,
+            "password": "UIVzMnusYd",
+            "tls": {
+                "enabled": true,
+                "server_name": "sp1.shatak.store",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -345,7 +365,7 @@
         {
             "tag": "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
             "type": "trojan",
-            "server": "35.157.114.16",
+            "server": "3.69.74.65",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
@@ -359,9 +379,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @directvpn [17]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
             "type": "trojan",
-            "server": "3.69.74.65",
+            "server": "15.237.73.245",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
@@ -377,7 +397,7 @@
         {
             "tag": "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
             "type": "trojan",
-            "server": "15.237.73.245",
+            "server": "51.44.49.244",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
@@ -432,7 +452,7 @@
         {
             "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
             "type": "trojan",
-            "server": "35.157.114.16",
+            "server": "3.69.74.65",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -446,9 +466,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [17]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
             "type": "trojan",
-            "server": "3.69.74.65",
+            "server": "15.237.73.245",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -464,7 +484,7 @@
         {
             "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
             "type": "trojan",
-            "server": "15.237.73.245",
+            "server": "51.44.49.244",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -534,6 +554,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "vzwzasc.cn",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 TROJAN | @vmesc [20]",
+            "type": "trojan",
+            "server": "178.128.138.210",
+            "server_port": 443,
+            "password": "vBKpLOSYzQ",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
