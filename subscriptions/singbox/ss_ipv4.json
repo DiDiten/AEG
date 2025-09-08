@@ -110,7 +110,6 @@
                 "🇩🇪 DE | 🔒 SS | @freev2raym [9]",
                 "🇳🇱 NL | 🔒 SS | @freevirgoolnet [3]",
                 "🇫🇷 FR | 🔒 SS | @freevirgoolnet [4]",
-                "🇺🇸 US | 🔒 SS | @hope_net [6]",
                 "🇺🇸 US | 🔒 SS | @imhdiyvp [9]",
                 "🇬🇧 GB | 🔒 SS | @ir_netproxy [13]",
                 "🇳🇱 NL | 🔒 SS | @jiedianf [2]",
@@ -184,6 +183,7 @@
                 "🇸🇬 SG | 🔒 SS | @v2ray_free_conf [9]",
                 "🇲🇽 MX | 🔒 SS | @v2ray_free_conf [10]",
                 "🇮🇪 IE | 🔒 SS | @v2ray_free_conf [20]",
+                "🇭🇰 HK | 🔒 SS | @v2raych [18]",
                 "🇷🇺 RU | 🔒 SS | @v2raymelliii [1]",
                 "🇺🇸 US | 🔒 SS | @v2rayngalpha [4]",
                 "🇩🇪 DE | 🔒 SS | @v2rayngalpha [5]",
@@ -193,7 +193,7 @@
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
                 "🇷🇺 RU | 🔒 SS | @vpngate_config [6]",
                 "🇺🇸 US | 🔒 SS | @vpngate_config [18]",
-                "🇦🇹 AT | 🔒 SS | @zerobaipiao [12]"
+                "🇵🇱 PL | 🔒 SS | @zerobaipiao [28]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -222,7 +222,6 @@
                 "🇩🇪 DE | 🔒 SS | @freev2raym [9]",
                 "🇳🇱 NL | 🔒 SS | @freevirgoolnet [3]",
                 "🇫🇷 FR | 🔒 SS | @freevirgoolnet [4]",
-                "🇺🇸 US | 🔒 SS | @hope_net [6]",
                 "🇺🇸 US | 🔒 SS | @imhdiyvp [9]",
                 "🇬🇧 GB | 🔒 SS | @ir_netproxy [13]",
                 "🇳🇱 NL | 🔒 SS | @jiedianf [2]",
@@ -296,6 +295,7 @@
                 "🇸🇬 SG | 🔒 SS | @v2ray_free_conf [9]",
                 "🇲🇽 MX | 🔒 SS | @v2ray_free_conf [10]",
                 "🇮🇪 IE | 🔒 SS | @v2ray_free_conf [20]",
+                "🇭🇰 HK | 🔒 SS | @v2raych [18]",
                 "🇷🇺 RU | 🔒 SS | @v2raymelliii [1]",
                 "🇺🇸 US | 🔒 SS | @v2rayngalpha [4]",
                 "🇩🇪 DE | 🔒 SS | @v2rayngalpha [5]",
@@ -305,7 +305,7 @@
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
                 "🇷🇺 RU | 🔒 SS | @vpngate_config [6]",
                 "🇺🇸 US | 🔒 SS | @vpngate_config [18]",
-                "🇦🇹 AT | 🔒 SS | @zerobaipiao [12]"
+                "🇵🇱 PL | 🔒 SS | @zerobaipiao [28]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -534,14 +534,6 @@
             "server_port": 14255,
             "method": "chacha20-ietf-poly1305",
             "password": "fDDmH4QefmWqMJ8UURZrGh"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 SS | @hope_net [6]",
-            "type": "shadowsocks",
-            "server": "23.157.40.87",
-            "server_port": 7002,
-            "method": "aes-256-gcm",
-            "password": "RexnBgU7EV5ADxG"
         },
         {
             "tag": "🇺🇸 US | 🔒 SS | @imhdiyvp [9]",
@@ -1128,6 +1120,14 @@
             "password": "42000e02-6b4d-46ad-a572-80db7db2a9ce"
         },
         {
+            "tag": "🇭🇰 HK | 🔒 SS | @v2raych [18]",
+            "type": "shadowsocks",
+            "server": "212.192.12.22",
+            "server_port": 30127,
+            "method": "aes-256-gcm",
+            "password": "7e1dd4c55bf85da5"
+        },
+        {
             "tag": "🇷🇺 RU | 🔒 SS | @v2raymelliii [1]",
             "type": "shadowsocks",
             "server": "95.163.221.233",
@@ -1200,12 +1200,12 @@
             "password": "a9dIXhPAuSDCKUPU"
         },
         {
-            "tag": "🇦🇹 AT | 🔒 SS | @zerobaipiao [12]",
+            "tag": "🇵🇱 PL | 🔒 SS | @zerobaipiao [28]",
             "type": "shadowsocks",
-            "server": "77.110.110.117",
-            "server_port": 443,
+            "server": "2.59.163.104",
+            "server_port": 2222,
             "method": "chacha20-ietf-poly1305",
-            "password": "9JeYy8SkViXuSHVs9GFeSe"
+            "password": "qscavF5UviIL-8V-E4raBA"
         }
     ],
     "route": {
