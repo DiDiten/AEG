@@ -83,8 +83,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
-                "🚩 CF | 🔒 TROJAN | @fastfreeconfig [53]",
-                "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [15]",
+                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🚩 CF | 🔒 TROJAN | @outlinev2rayng [12]",
@@ -95,7 +94,7 @@
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
-                "🇳🇱 NL | 🔒 TROJAN | @vmesc [19]"
+                "🇳🇱 NL | 🔒 TROJAN | @vmesc [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -109,8 +108,7 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [18]",
-                "🚩 CF | 🔒 TROJAN | @fastfreeconfig [53]",
-                "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [15]",
+                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🚩 CF | 🔒 TROJAN | @outlinev2rayng [12]",
@@ -121,7 +119,7 @@
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
-                "🇳🇱 NL | 🔒 TROJAN | @vmesc [19]"
+                "🇳🇱 NL | 🔒 TROJAN | @vmesc [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -260,37 +258,14 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @fastfreeconfig [53]",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [13]",
             "type": "trojan",
-            "server": "104.19.174.68",
+            "server": "198.46.152.83",
             "server_port": 443,
-            "password": "auto",
+            "password": "2ee85121-31de-4581-a492-eb00f606e392",
             "tls": {
                 "enabled": true,
-                "server_name": "trojanfree-76s.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "trojanfree-76s.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [15]",
-            "type": "trojan",
-            "server": "13.36.17.197",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
+                "server_name": "sj3.freeguard.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -473,7 +448,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 TROJAN | @vmesc [19]",
+            "tag": "🇳🇱 NL | 🔒 TROJAN | @vmesc [18]",
             "type": "trojan",
             "server": "178.128.138.210",
             "server_port": 443,
