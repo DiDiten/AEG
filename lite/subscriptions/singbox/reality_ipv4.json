@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [52]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [8]",
@@ -135,7 +136,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
-                "🇩🇰 DK | 🔒 VLESS | @v2rayngrit [17]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [8]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -152,6 +152,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [52]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [8]",
@@ -195,7 +196,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
-                "🇩🇰 DK | 🔒 VLESS | @v2rayngrit [17]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [8]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -284,6 +284,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "44.244.186.141",
+            "server_port": 4433,
+            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
+                    "short_id": "f785b38130e64177"
                 }
             }
         },
@@ -1310,29 +1333,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Digiv2ray"
-            }
-        },
-        {
-            "tag": "🇩🇰 DK | 🔒 VLESS | @v2rayngrit [17]",
-            "type": "vless",
-            "server": "95.164.85.109",
-            "server_port": 59374,
-            "uuid": "bfc78cd8-5951-4803-8d6c-4cedef8cd420",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZsswZuBV8bEGQWFrpShCilSytnDUj0kwHFhTSLXzOwc",
-                    "short_id": "d21e7c"
-                }
             }
         },
         {
