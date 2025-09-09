@@ -105,6 +105,7 @@
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [66]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configms [2]",
@@ -146,7 +147,6 @@
                 "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [13]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @free_serverir [25]",
                 "🚩 CF | 🔓 VLESS | @free_serverir [26]",
@@ -221,7 +221,7 @@
                 "❔ XX | 🔓 VLESS | @maxvpnc [10]",
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [2]",
-                "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
+                "❔ XX | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🚩 CF | 🔓 VLESS | @melov2ray [54]",
                 "🚩 CF | 🔓 VLESS | @melov2ray [55]",
@@ -382,6 +382,7 @@
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [66]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configms [2]",
@@ -423,7 +424,6 @@
                 "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [13]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
                 "🇩🇪 DE | 🔓 VLESS | @free1_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @free_serverir [25]",
                 "🚩 CF | 🔓 VLESS | @free_serverir [26]",
@@ -498,7 +498,7 @@
                 "❔ XX | 🔓 VLESS | @maxvpnc [10]",
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [1]",
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [2]",
-                "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
+                "❔ XX | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🚩 CF | 🔓 VLESS | @melov2ray [54]",
                 "🚩 CF | 🔓 VLESS | @melov2ray [55]",
@@ -936,6 +936,31 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [66]",
+            "type": "vless",
+            "server": "nl1.xvless.online",
+            "server_port": 443,
+            "uuid": "94a028e2-b2f8-5019-ade4-5e462ee6ae1e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "nl1.xvless.online",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/vless",
+                "headers": {
+                    "Host": "nl1.xvless.online"
+                }
             }
         },
         {
@@ -1636,15 +1661,6 @@
             "server": "speedtest.net",
             "server_port": 80,
             "uuid": "bf3c99e7-68b4-4bad-b110-ebaf2ecab772",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
-            "type": "vless",
-            "server": "yde2.rayengame.com",
-            "server_port": 625,
-            "uuid": "6529058d-710b-4c77-8d21-9cbfab6511a6",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -2823,7 +2839,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @megavpn_link [10]",
+            "tag": "❔ XX | 🔒 VLESS | @megavpn_link [10]",
             "type": "vless",
             "server": "cleanv2itech1.freesdns.info",
             "server_port": 443,
