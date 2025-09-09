@@ -105,6 +105,8 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [17]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [38]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [40]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configms [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configv2rayforfree [5]",
@@ -124,8 +126,6 @@
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]",
                 "🇺🇸 US | 🔒 VLESS | @f_nirevil [1]",
                 "🇮🇷 IR | 🔓 VLESS | @farstar_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @fastfreeconfig [54]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [55]",
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @filterk0sh [20]",
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [21]",
@@ -169,7 +169,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇺🇸 US | 🔓 VLESS | @injectormconf [39]",
-                "🚩 CF | 🔒 VLESS | @ip_cf_config [14]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
@@ -346,6 +345,8 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "🚩 CF | 🔒 VLESS | @chanel_v2ray_2 [17]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [38]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [40]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🚩 CF | 🔓 VLESS | @configms [2]",
                 "🇩🇪 DE | 🔓 VLESS | @configv2rayforfree [5]",
@@ -365,8 +366,6 @@
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]",
                 "🇺🇸 US | 🔒 VLESS | @f_nirevil [1]",
                 "🇮🇷 IR | 🔓 VLESS | @farstar_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @fastfreeconfig [54]",
-                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [55]",
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
                 "🇩🇪 DE | 🔓 VLESS | @filterk0sh [20]",
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [21]",
@@ -410,7 +409,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [8]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
                 "🇺🇸 US | 🔓 VLESS | @injectormconf [39]",
-                "🚩 CF | 🔒 VLESS | @ip_cf_config [14]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
                 "🇫🇷 FR | 🔓 VLESS | @iranmedicalvpn [1]",
@@ -893,6 +891,56 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "172.66.40.99",
+            "server_port": 2096,
+            "uuid": "502ce704-dcec-4f92-9489-505c99ce6c89",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "d13.aLANHIaho.Com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "d13.aLANHIaho.Com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "216.24.57.171",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "lu.ylks.us.kg",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "lu.ylks.us.kg"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -1225,47 +1273,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "81.12.30.51"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @fastfreeconfig [54]",
-            "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 443,
-            "uuid": "telegram-id-Arfilter",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ers.2SeDkFjEuIxIjD0Ew9DvKcxoisiEk61.BlOg",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
-                "headers": {
-                    "Host": "ers.2SeDkFjEuIxIjD0Ew9DvKcxoisiEk61.BlOg"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [55]",
-            "type": "vless",
-            "server": "151.101.0.223",
-            "server_port": 80,
-            "uuid": "a2514b27-7d60-44b3-b440-e8a9579510fa",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480",
-                "headers": {
-                    "Host": "151.101.0.223"
                 }
             }
         },
@@ -2014,31 +2021,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "104.31.16.98"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @ip_cf_config [14]",
-            "type": "vless",
-            "server": "172.64.154.211",
-            "server_port": 443,
-            "uuid": "101e6a7d-7d10-4859-a626-8a76daab4547",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nkAnG2rEpLACE.airlineSHoma.Com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "nkAnG2rEpLACE.airlineSHoma.Com"
                 }
             }
         },
