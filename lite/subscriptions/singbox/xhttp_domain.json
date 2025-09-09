@@ -93,7 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [57]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -101,7 +101,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [24]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
-                "🇩🇪 DE | 🔓 VLESS | @free1_vpn [5]",
+                "🇩🇪 DE | 🔓 VLESS | @free1_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [20]",
@@ -123,7 +123,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [57]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -131,7 +131,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [24]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
-                "🇩🇪 DE | 🔓 VLESS | @free1_vpn [5]",
+                "🇩🇪 DE | 🔓 VLESS | @free1_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [20]",
@@ -237,13 +237,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
+            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [57]",
             "type": "vless",
-            "server": "sha834ydtrfcvs2020hin3877.global.ssl.fastly.net",
-            "server_port": 80,
-            "uuid": "ff3eda3a-b7a7-4e58-a048-7b6aabf90cb5",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "turkiye.marzxox.shop",
+            "server_port": 210,
+            "uuid": "1711ac7d-a0dc-4d38-acdd-7e428ffa052a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.jsdelivr.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "g23nq_R9TIMbMIGQHB6gjDNewFzrHXPcj72bTS-RtX8",
+                    "short_id": "6ba85179e30d4fc2"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [2]",
@@ -346,7 +360,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @free1_vpn [5]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @free1_vpn [4]",
             "type": "vless",
             "server": "sss25065.tas-bazi.com",
             "server_port": 443,
