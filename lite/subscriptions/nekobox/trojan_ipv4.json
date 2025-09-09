@@ -83,9 +83,10 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
+                "🚩 CF | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
-                "🚩 CF | 🔒 TROJAN | @outlinev2rayng [10]",
+                "🚩 CF | 🔒 TROJAN | @outlinev2rayng [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
@@ -107,9 +108,10 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
+                "🚩 CF | 🔒 TROJAN | @ip_cf_config [13]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
-                "🚩 CF | 🔒 TROJAN | @outlinev2rayng [10]",
+                "🚩 CF | 🔒 TROJAN | @outlinev2rayng [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
@@ -256,6 +258,29 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 TROJAN | @ip_cf_config [13]",
+            "type": "trojan",
+            "server": "172.67.181.173",
+            "server_port": 443,
+            "password": "f282b878-8711-45a1-8c69-5564172123c1",
+            "tls": {
+                "enabled": true,
+                "server_name": "vpn.stupidworld.web.id",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Stupid-World/103.106.228.126-2053",
+                "headers": {
+                    "Host": "vpn.stupidworld.web.id"
+                }
+            }
+        },
+        {
             "tag": "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
             "type": "trojan",
             "server": "146.190.87.238",
@@ -295,14 +320,14 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @outlinev2rayng [10]",
+            "tag": "🚩 CF | 🔒 TROJAN | @outlinev2rayng [12]",
             "type": "trojan",
-            "server": "172.67.181.173",
+            "server": "172.67.156.25",
             "server_port": 443,
             "password": "f282b878-8711-45a1-8c69-5564172123c1",
             "tls": {
                 "enabled": true,
-                "server_name": "vpn.stupidworld.web.id",
+                "server_name": "aio.zipzap.biz.id",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -311,9 +336,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/Stupid-World/103.106.228.126-2053",
+                "path": "/aioproxybot/129.150.49.58-18650",
                 "headers": {
-                    "Host": "vpn.stupidworld.web.id"
+                    "Host": "aio.zipzap.biz.id"
                 }
             }
         },
