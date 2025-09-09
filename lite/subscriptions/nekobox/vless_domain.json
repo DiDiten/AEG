@@ -92,7 +92,6 @@
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configms [2]",
@@ -129,8 +128,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [24]",
                 "🚩 CF | 🔓 VLESS | @falcunargo [12]",
-                "🚩 CF | 🔓 VLESS | @fastshovpn [8]",
-                "🚩 CF | 🔓 VLESS | @fastshovpn [9]",
+                "🚩 CF | 🔓 VLESS | @fastfreeconfig [54]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [10]",
                 "❔ XX | 🔒 VLESS | @flash_proxies [1]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
@@ -330,8 +328,8 @@
                 "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [12]",
                 "🇫🇮 FI | 🔓 VLESS | @vmesskhodam [14]",
-                "🚩 CF | 🔓 VLESS | @vmessorg [9]",
                 "🚩 CF | 🔓 VLESS | @vmessorg [10]",
+                "🚩 CF | 🔓 VLESS | @vmessorg [12]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
@@ -376,7 +374,6 @@
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "❔ XX | 🔒 VLESS | @catvpns [11]",
                 "❔ XX | 🔒 VLESS | @catvpns [12]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configms [2]",
@@ -413,8 +410,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [21]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [24]",
                 "🚩 CF | 🔓 VLESS | @falcunargo [12]",
-                "🚩 CF | 🔓 VLESS | @fastshovpn [8]",
-                "🚩 CF | 🔓 VLESS | @fastshovpn [9]",
+                "🚩 CF | 🔓 VLESS | @fastfreeconfig [54]",
                 "🚩 CF | 🔓 VLESS | @fastshovpn [10]",
                 "❔ XX | 🔒 VLESS | @flash_proxies [1]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
@@ -614,8 +610,8 @@
                 "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [12]",
                 "🇫🇮 FI | 🔓 VLESS | @vmesskhodam [14]",
-                "🚩 CF | 🔓 VLESS | @vmessorg [9]",
                 "🚩 CF | 🔓 VLESS | @vmessorg [10]",
+                "🚩 CF | 🔓 VLESS | @vmessorg [12]",
                 "❔ XX | 🔒 VLESS | @vp22ray [9]",
                 "❔ XX | 🔒 VLESS | @vp22ray [10]",
                 "❔ XX | 🔒 VLESS | @vp22ray [11]",
@@ -933,31 +929,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns@Catvpns"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [51]",
-            "type": "vless",
-            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-            "server_port": 2096,
-            "uuid": "24a4aa9b-b341-4717-9d4a-00d74c2b84e0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "HvA8cReDsX.mYcOmPaNdOmNeW2.iNfO",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "HvA8cReDsX.mYcOmPaNdOmNeW2.iNfO"
-                }
             }
         },
         {
@@ -1569,34 +1540,18 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @fastshovpn [8]",
+            "tag": "🚩 CF | 🔓 VLESS | @fastfreeconfig [54]",
             "type": "vless",
-            "server": "FASTSHOVPNTELEGRAM2.vinamarketcenter.ir",
+            "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "930434ff-33b4-4cf4-d4eb-cfa1e2a5f416",
+            "uuid": "19e427b0-abd4-441b-900f-42af30d04088",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM?ed=2048",
+                "path": "/Join----VPNCUSTOMIZE---Join----VPNCUSTOMIZE",
                 "headers": {
-                    "Host": "FASTSHOVPNTELEGRAM2.vinamarketcenter.ir"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @fastshovpn [9]",
-            "type": "vless",
-            "server": "FASTSHOVPNTELEGRAM2.vinamarketcenter.ir",
-            "server_port": 80,
-            "uuid": "c9bd82f0-bd38-48b3-8ea9-afca79e024e9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM?ed=2048",
-                "headers": {
-                    "Host": "FASTSHOVPNTELEGRAM2.vinamarketcenter.ir"
+                    "Host": "revest.maketunnelim.lat"
                 }
             }
         },
@@ -4937,11 +4892,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vmessorg [9]",
+            "tag": "🚩 CF | 🔓 VLESS | @vmessorg [10]",
             "type": "vless",
             "server": "numberland.ir",
             "server_port": 2052,
-            "uuid": "78e3cff7-75e1-4418-9db0-b3a00aece703",
+            "uuid": "cb5190f9-d041-4699-986d-083387ecc745",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
@@ -4953,11 +4908,11 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @vmessorg [10]",
+            "tag": "🚩 CF | 🔓 VLESS | @vmessorg [12]",
             "type": "vless",
             "server": "numberland.ir",
             "server_port": 2052,
-            "uuid": "cb5190f9-d041-4699-986d-083387ecc745",
+            "uuid": "c319b01e-ac54-4d5c-f8b2-3fb2256c23cc",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
