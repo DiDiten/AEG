@@ -96,6 +96,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [8]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]",
+                "🇷🇺 RU | 🔒 VLESS | @fastfreeconfig [54]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [15]",
                 "🇮🇪 IE | 🔒 VLESS | @free4allvpn [14]",
                 "🇯🇵 JP | 🔒 VLESS | @free4allvpn [15]",
@@ -123,6 +124,8 @@
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [17]",
                 "🇺🇸 US | 🔒 VLESS | @orange_vpns [14]",
+                "🇬🇧 GB | 🔒 VLESS | @orange_vpns [15]",
+                "🇳🇱 NL | 🔒 VLESS | @proxy_mtproto_vpns_free [11]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfull [14]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -158,6 +161,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [8]",
                 "🇬🇧 GB | 🔒 VLESS | @expressvpn_420 [23]",
+                "🇷🇺 RU | 🔒 VLESS | @fastfreeconfig [54]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [15]",
                 "🇮🇪 IE | 🔒 VLESS | @free4allvpn [14]",
                 "🇯🇵 JP | 🔒 VLESS | @free4allvpn [15]",
@@ -185,6 +189,8 @@
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [17]",
                 "🇺🇸 US | 🔒 VLESS | @orange_vpns [14]",
+                "🇬🇧 GB | 🔒 VLESS | @orange_vpns [15]",
+                "🇳🇱 NL | 🔒 VLESS | @proxy_mtproto_vpns_free [11]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfull [14]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -380,6 +386,29 @@
                     "enabled": true,
                     "public_key": "aO2tx4kfUpQWIvT5bO7lH6G1GDfnrThtSFigLJXDens",
                     "short_id": "370dd394052f2386"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @fastfreeconfig [54]",
+            "type": "vless",
+            "server": "138.124.186.202",
+            "server_port": 443,
+            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
                 }
             }
         },
@@ -1008,23 +1037,69 @@
         {
             "tag": "🇺🇸 US | 🔒 VLESS | @orange_vpns [14]",
             "type": "vless",
-            "server": "62.60.176.164",
+            "server": "206.81.6.239",
             "server_port": 443,
-            "uuid": "1ab44c12-1462-422e-aeab-aaa025636f61",
+            "uuid": "c2c5b83f-4892-c49f-b9d1-7af232611820",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "apple.com",
+                "server_name": "androidcentral.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "lIziyIMqT_eVG87EqNB97p9SPiDW4DXIFMm-J0SbAWY",
-                    "short_id": "ed"
+                    "public_key": "7gzxsxnqwoh1HEfp02BQpEmMaIFHqz4RL8h68hZqsjc",
+                    "short_id": "6ea3daaac3d6bede"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @orange_vpns [15]",
+            "type": "vless",
+            "server": "64.227.32.13",
+            "server_port": 443,
+            "uuid": "c2c5b83f-4892-c49f-b9d1-7af232611820",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.latimes.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7gzxsxnqwoh1HEfp02BQpEmMaIFHqz4RL8h68hZqsjc",
+                    "short_id": "6ea3daaac3d6bede"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @proxy_mtproto_vpns_free [11]",
+            "type": "vless",
+            "server": "178.128.138.210",
+            "server_port": 443,
+            "uuid": "c0e0f2b4-0550-49b2-8231-efde819bd8e1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9ikzRJ5rL2e3cErzU03KCM8BkRpgSaWX6bwh9YMCmFY",
+                    "short_id": "a00a4ad4de"
                 }
             }
         },
