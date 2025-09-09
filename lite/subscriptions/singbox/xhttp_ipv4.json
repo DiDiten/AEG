@@ -92,9 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [69]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
-                "🇩🇪 DE | 🔓 VLESS | @free1_vpn [6]",
+                "🇩🇪 DE | 🔓 VLESS | @free1_vpn [5]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -125,9 +125,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [69]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @freakconfig [13]",
-                "🇩🇪 DE | 🔓 VLESS | @free1_vpn [6]",
+                "🇩🇪 DE | 🔓 VLESS | @free1_vpn [5]",
                 "🇩🇪 DE | 🔒 VLESS | @freeiranianv2rey [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -234,20 +234,25 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [69]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
             "type": "vless",
-            "server": "91.99.91.136",
+            "server": "209.38.235.111",
             "server_port": 443,
-            "uuid": "00134d22-e7bc-4690-860a-05d2be0f6f06",
-            "flow": "",
+            "uuid": "3528af1b-878e-407a-b2c0-38643dbb791e",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "91.99.91.136",
+                "server_name": "store.steampowered.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "60vwoYMS62_-PzJunEfDMUNv4zt580Z7L8fCCRcCm0c",
+                    "short_id": ""
                 }
             }
         },
@@ -275,7 +280,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @free1_vpn [6]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @free1_vpn [5]",
             "type": "vless",
             "server": "91.99.122.90",
             "server_port": 443,

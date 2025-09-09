@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [7]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [8]",
@@ -128,6 +129,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
+                "🇨🇿 CZ | 🔒 VLESS | @v2rayopen [13]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [8]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -144,6 +146,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [7]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [8]",
@@ -192,6 +195,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
+                "🇨🇿 CZ | 🔒 VLESS | @v2rayopen [13]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [8]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -284,6 +288,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
+            "type": "vless",
+            "server": "209.38.235.111",
+            "server_port": 443,
+            "uuid": "3528af1b-878e-407a-b2c0-38643dbb791e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "60vwoYMS62_-PzJunEfDMUNv4zt580Z7L8fCCRcCm0c",
+                    "short_id": ""
                 }
             }
         },
@@ -1421,6 +1448,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Digiv2ray"
+            }
+        },
+        {
+            "tag": "🇨🇿 CZ | 🔒 VLESS | @v2rayopen [13]",
+            "type": "vless",
+            "server": "194.87.41.183",
+            "server_port": 8443,
+            "uuid": "507ca490-0a81-4478-9121-7622ac201c0a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7dWEUpwvK1rlH26l32ZN5FdGoeorCb6lE2Us6cm9xwI",
+                    "short_id": "e427a8"
+                }
             }
         },
         {
