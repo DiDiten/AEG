@@ -95,6 +95,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [8]",
+                "🇮🇪 IE | 🔒 VLESS | @fastfreeconfig [54]",
                 "🇯🇵 JP | 🔒 VLESS | @free4allvpn [15]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [16]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -132,7 +133,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
-                "🇨🇿 CZ | 🔒 VLESS | @v2rayopen [12]",
+                "🇨🇿 CZ | 🔒 VLESS | @v2rayopen [11]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [7]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -152,6 +153,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [8]",
+                "🇮🇪 IE | 🔒 VLESS | @fastfreeconfig [54]",
                 "🇯🇵 JP | 🔒 VLESS | @free4allvpn [15]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [16]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -189,7 +191,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngconfings [17]",
-                "🇨🇿 CZ | 🔒 VLESS | @v2rayopen [12]",
+                "🇨🇿 CZ | 🔒 VLESS | @v2rayopen [11]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [7]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -347,6 +349,29 @@
                     "enabled": true,
                     "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇮🇪 IE | 🔒 VLESS | @fastfreeconfig [54]",
+            "type": "vless",
+            "server": "54.154.16.89",
+            "server_port": 443,
+            "uuid": "05b8a85c-544f-4909-b8f4-2aa15bacd6d5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "microsoft.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sjRxGwIkob8VBPJscdmrthnT7m8tvVByJkNJuZhFj2o",
+                    "short_id": "6ac5f147"
                 }
             }
         },
@@ -1234,7 +1259,7 @@
             }
         },
         {
-            "tag": "🇨🇿 CZ | 🔒 VLESS | @v2rayopen [12]",
+            "tag": "🇨🇿 CZ | 🔒 VLESS | @v2rayopen [11]",
             "type": "vless",
             "server": "194.87.41.183",
             "server_port": 8443,

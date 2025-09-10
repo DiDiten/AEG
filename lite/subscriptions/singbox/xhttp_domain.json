@@ -93,16 +93,16 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [64]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [66]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [21]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
+                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [55]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [6]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [7]",
@@ -125,16 +125,16 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [64]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [66]",
                 "🚩 CF | 🔓 VLESS | @configscenter [2]",
                 "❔ XX | 🔓 VLESS | @dgkbza [22]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
                 "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [21]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
+                "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [55]",
                 "🇺🇸 US | 🔓 VLESS | @fnet00 [1]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [6]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [7]",
@@ -241,52 +241,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [64]",
-            "type": "vless",
-            "server": "Evay_vpn.heloisfood.ir",
-            "server_port": 1530,
-            "uuid": "eefe13bb-9f3a-4809-8edd-df455963aa8e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [66]",
-            "type": "vless",
-            "server": "FreakConfig.snapfood.org",
-            "server_port": 443,
-            "uuid": "FreakConfig",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
-                    "short_id": "6993f143e90756"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔓 VLESS | @configscenter [2]",
             "type": "vless",
             "server": "2sudo.winapp3.ir",
@@ -360,6 +314,29 @@
             }
         },
         {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
+            "type": "vless",
+            "server": "Evay_vpn.heloisfood.ir",
+            "server_port": 1530,
+            "uuid": "eefe13bb-9f3a-4809-8edd-df455963aa8e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @expressvpn_420 [21]",
             "type": "vless",
             "server": "sss36322.tas-bazi.com",
@@ -378,11 +355,11 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @fastfreeconfig [55]",
             "type": "vless",
-            "server": "speedtestcustom.com",
+            "server": "test.fast.hosting-ip.com",
             "server_port": 80,
-            "uuid": "db7fe59f-98ff-4c03-a202-51d024b90bf6",
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -394,6 +371,29 @@
             "uuid": "bf3c99e7-68b4-4bad-b110-ebaf2ecab772",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
+            "type": "vless",
+            "server": "FreakConfig.snapfood.org",
+            "server_port": 443,
+            "uuid": "FreakConfig",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
+                    "short_id": "6993f143e90756"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
