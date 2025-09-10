@@ -87,6 +87,7 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [7]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
@@ -98,7 +99,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]"
+                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -116,6 +118,7 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [7]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
@@ -127,7 +130,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]"
+                "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -316,6 +320,29 @@
             "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [7]",
+            "type": "vless",
+            "server": "91.99.115.171",
+            "server_port": 8880,
+            "uuid": "06ece026-e82b-4414-aa4f-1cd52cb5acb6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cp7.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "CqSU_oA9ILgTKXnydoi4Shq2gKbfXxtVh92W0hPsOUo",
+                    "short_id": "e0547f6cc5dd9022"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @proxie [17]",
@@ -553,6 +580,15 @@
                     "short_id": "2cc45a0088671249"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "0c3693b1-4b96-4a6a-b980-a927ae85e025",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
