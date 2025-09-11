@@ -80,8 +80,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [57]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [4]",
@@ -98,6 +96,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [7]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
+                "🇫🇷 FR | 🔒 VLESS | @ip_cf_config [11]",
                 "🇹🇷 TR | 🔒 VLESS | @iseqaro [1]",
                 "🇱🇻 LV | 🔒 VLESS | @iseqaro [2]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
@@ -145,8 +144,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [57]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [8]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [4]",
@@ -163,6 +160,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @grizzlyvpn [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [7]",
                 "🇫🇷 FR | 🔒 VLESS | @injectormconf [38]",
+                "🇫🇷 FR | 🔒 VLESS | @ip_cf_config [11]",
                 "🇹🇷 TR | 🔒 VLESS | @iseqaro [1]",
                 "🇱🇻 LV | 🔒 VLESS | @iseqaro [2]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
@@ -286,52 +284,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [57]",
-            "type": "vless",
-            "server": "103.175.79.2",
-            "server_port": 443,
-            "uuid": "83f60f65-339e-d033-20ea-f81022e4bf57",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
-            "type": "vless",
-            "server": "147.45.178.241",
-            "server_port": 443,
-            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.bing.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
                 }
             }
         },
@@ -712,6 +664,29 @@
                     "enabled": true,
                     "public_key": "JYX6QCdjl0yIzfE_TMjJAnD0zyuroMhT2fj3oAzlTWc",
                     "short_id": "8b62ab46"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @ip_cf_config [11]",
+            "type": "vless",
+            "server": "103.249.133.69",
+            "server_port": 443,
+            "uuid": "1ab44c12-1462-422e-aeab-aaa025636f61",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "eAKw1k-H2cuw0AsjNH-3RG2RBHOZCPz8qQp-i5W-Zkk",
+                    "short_id": "f73895c725c3"
                 }
             }
         },
