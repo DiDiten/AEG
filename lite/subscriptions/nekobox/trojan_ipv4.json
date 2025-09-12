@@ -83,9 +83,9 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [12]",
+                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [18]",
+                "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [19]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
-                "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
@@ -107,9 +107,9 @@
                 "🇩🇪 DE | 🔒 TROJAN | @directvpn [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @directvpn [16]",
-                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [12]",
+                "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [18]",
+                "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [19]",
                 "🇸🇬 SG | 🔒 TROJAN | @mpmehi [1]",
-                "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
@@ -256,7 +256,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [12]",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @ip_cf_config [18]",
             "type": "trojan",
             "server": "193.124.224.195",
             "server_port": 2096,
@@ -275,6 +275,22 @@
                 "path": "/Telegram",
                 "headers": {
                     "Host": "ocost-dy.wmlefl.cc"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @ip_cf_config [19]",
+            "type": "trojan",
+            "server": "13.36.105.165",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -298,22 +314,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "aka.ms"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
-            "type": "trojan",
-            "server": "3.70.33.164",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
