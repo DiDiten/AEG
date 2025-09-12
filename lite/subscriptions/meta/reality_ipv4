@@ -23,12 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [50]","type":"vless","server":"185.231.172.38","port":443,"uuid":"db59a1f9-d2ac-46dc-87a5-ad6010d19914","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"tgju.org","reality-opts":{"public-key":"aO2tx4kfUpQWIvT5bO7lH6G1GDfnrThtSFigLJXDens","short-id":"370dd394052f2386"}}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]","type":"vless","server":"172.104.148.48","port":443,"uuid":"07402610-3f00-4384-b54b-eb8cd5037b4c","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"digg.com","reality-opts":{"public-key":"MFhTxw6M0UU7nAoxP-jAw8szA2vhXy6KYmBCrDwbpRw","short-id":"99d38a68"}}
-  - {"name":"🇷🇺 RU | 🔒 VLESS | @kafing_2 [13]","type":"vless","server":"185.200.240.188","port":443,"uuid":"6fae85ca-395a-4f27-9eb2-75123befc475","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ru.sfasti.ru","flow":"xtls-rprx-vision","reality-opts":{"public-key":"J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8","short-id":"16895459a2c7768d"}}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @netmellianti [14]","type":"vless","server":"193.24.208.231","port":40002,"uuid":"7e40a567-f9c1-44cc-af81-85ac16a9bdf3","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"cafebazaar.ir","reality-opts":{"public-key":"0pgQetxCBR2ueOXv3LEh25yHGYDda6dBGvShz8JTknk","short-id":"4fe6a82ff811fa13"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]","type":"vless","server":"143.244.207.133","port":46217,"uuid":"835607d0-6d60-444e-bc0b-ebc9cd9594ad","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"yahoo.com","reality-opts":{"public-key":"Qdg7LVP5VmLr7xzv556ry5RNc3QaeAj4TwOUxndA23M","short-id":"e3f89b63"}}
-  - {"name":"🇳🇱 NL | 🔒 VLESS | @vpn451 [11]","type":"vless","server":"89.110.104.14","port":4434,"uuid":"280b835e-751c-44d0-ae8d-a17afe3f0978","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"teamdocs.su","flow":"xtls-rprx-vision","reality-opts":{"public-key":"jRReXVS85X0Qm7jovHgNSOyz7BuS7p3iMPE4EfUHRlk","short-id":"1ae2fd1e1ace9935"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -42,12 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | 🔒 VLESS | @fastfreeconfig [50]'
-      - '🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]'
-      - '🇷🇺 RU | 🔒 VLESS | @kafing_2 [13]'
-      - '🇩🇪 DE | 🔒 VLESS | @netmellianti [14]'
       - '🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]'
-      - '🇳🇱 NL | 🔒 VLESS | @vpn451 [11]'
 
   - name: 🌍 Global Media
     type: select

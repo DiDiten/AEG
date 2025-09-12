@@ -23,10 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇬🇧 GB | 🔒 VLESS | @proxycrone [1]","type":"vless","server":"85.239.60.43","port":8443,"uuid":"2fd1b67f-bc9e-4a66-a4c3-73599997d001","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"google.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"qJ_x7_Fz3M4QdnRG8WcqVNpgsHbwWgs_KrdCqr4iclE"}}
-  - {"name":"🇸🇬 SG | 🔒 VLESS | @proxycrone [2]","type":"vless","server":"91.242.241.45","port":8443,"uuid":"bdb50d95-fcd3-451c-9473-466b4529af2c","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"google.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"1-2fy8f8XeOHzmdFmCENHV1mr_tzJX1M9UXp42mUIiM"}}
-  - {"name":"🇳🇱 NL | 🔒 VLESS | @proxycrone [3]","type":"vless","server":"80.74.29.212","port":8443,"uuid":"4808ded8-1646-4c3c-8b4c-6b6fedc3cde9","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"google.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA"}}
-  - {"name":"🇺🇸 US | 🔒 VLESS | @proxycrone [4]","type":"vless","server":"159.203.141.231","port":2053,"uuid":"6d5afbb4-450c-4798-91ab-71a792b487bb","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"openstreetmap.org","reality-opts":{"public-key":"lHqhMsZfvb_xaxQPKOyIDlaSREGM9tFWjVxl4k9aiBg","short-id":"60f78c"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [40]","type":"vless","server":"157.245.24.38","port":2087,"uuid":"f475c570-eba2-4a74-9948-d22ce8492aff","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ame.spsvps.com","reality-opts":{"public-key":"HQdpA2sAkxUHghPtT8EUA1zPqkq_tz8ncwQM2zNkCS4","short-id":"b359bc5c70c21d55"}}
 
 proxy-groups:
@@ -41,10 +37,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇬🇧 GB | 🔒 VLESS | @proxycrone [1]'
-      - '🇸🇬 SG | 🔒 VLESS | @proxycrone [2]'
-      - '🇳🇱 NL | 🔒 VLESS | @proxycrone [3]'
-      - '🇺🇸 US | 🔒 VLESS | @proxycrone [4]'
       - '🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [40]'
 
   - name: 🌍 Global Media

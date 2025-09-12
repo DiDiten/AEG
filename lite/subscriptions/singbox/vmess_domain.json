@@ -92,18 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69]",
-                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]",
-                "❔ XX | 🔓 VMESS | @freev2rays [18]",
-                "🚩 CF | 🔓 VMESS | @freev2rays [19]",
-                "🚩 CF | 🔓 VMESS | @freev2rays [20]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇩🇪 DE | 🔒 VMESS | @orange_vpns [16]",
-                "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
-                "❔ XX | 🔒 VMESS | @v2ray4win [7]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [16]",
-                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [17]"
+                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49]",
+                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [50]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -114,18 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69]",
-                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]",
-                "❔ XX | 🔓 VMESS | @freev2rays [18]",
-                "🚩 CF | 🔓 VMESS | @freev2rays [19]",
-                "🚩 CF | 🔓 VMESS | @freev2rays [20]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🇩🇪 DE | 🔒 VMESS | @orange_vpns [16]",
-                "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
-                "❔ XX | 🔒 VMESS | @v2ray4win [7]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [16]",
-                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [17]"
+                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49]",
+                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [50]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -212,7 +194,16 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69]",
+            "tag": "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
+            "type": "vmess",
+            "server": "mrgold.iranman.shop",
+            "server_port": 52065,
+            "uuid": "f29ea77c-6842-4ee0-9fc1-9c7a871566b2",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49]",
             "type": "vmess",
             "server": "51.79.102.253",
             "server_port": 80,
@@ -228,231 +219,13 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]",
+            "tag": "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [50]",
             "type": "vmess",
             "server": "45.67.230.79",
             "server_port": 11052,
             "uuid": "314185f7-931d-4656-922d-0857e7afd224",
             "security": "auto",
             "alter_id": 0
-        },
-        {
-            "tag": "❔ XX | 🔓 VMESS | @freev2rays [18]",
-            "type": "vmess",
-            "server": "gs03-1.guoshi1520.com",
-            "server_port": 443,
-            "uuid": "82ff6d30-2920-4ebd-b95c-b016ede1a841",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "gs03-1.guoshi1520.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/82ff6d30",
-                "headers": {
-                    "Host": "gs03-1.guoshi1520.com"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VMESS | @freev2rays [19]",
-            "type": "vmess",
-            "server": "time.is",
-            "server_port": 443,
-            "uuid": "b526926d-1474-4f41-985e-8b877cb840cd",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "time.is",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "time.is"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VMESS | @freev2rays [20]",
-            "type": "vmess",
-            "server": "cloudgetservice.mcloudservice.site",
-            "server_port": 443,
-            "uuid": "5428dcc2-9950-4404-b8a5-9dac82acb210",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudgetservice.mcloudservice.site",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkws",
-                "headers": {
-                    "Host": "cloudgetservice.mcloudservice.site"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-            "type": "vmess",
-            "server": "mrgold.iranman.shop",
-            "server_port": 52065,
-            "uuid": "f29ea77c-6842-4ee0-9fc1-9c7a871566b2",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @orange_vpns [16]",
-            "type": "vmess",
-            "server": "lammaland.org",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "lammaland.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "lammaland.org"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "a4df089f-3c1c-4cf7-9a5f-ab6d2212136c",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "v2-kiava.kiava.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/appsvws",
-                "headers": {
-                    "Host": "v2-kiava.kiava.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VMESS | @v2ray4win [7]",
-            "type": "vmess",
-            "server": "cf.sudoer.net",
-            "server_port": 443,
-            "uuid": "c11357eb-a34e-5acb-a309-f8af8082855c",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "801e2436-ae96-11ed-861a-17254ac8cccc.schere.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api05",
-                "headers": {
-                    "Host": "801e2436-ae96-11ed-861a-17254ac8cccc.schere.net"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
-            "type": "vmess",
-            "server": "91.107.160.240",
-            "server_port": 15795,
-            "uuid": "7ca6c13a-e450-49fa-9b9c-b49a6eda5b79",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [16]",
-            "type": "vmess",
-            "server": "57.129.24.124",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [17]",
-            "type": "vmess",
-            "server": "lammaland.org",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
-            "tls": {
-                "enabled": true,
-                "server_name": "lammaland.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "lammaland.org"
-                }
-            }
         }
     ],
     "route": {

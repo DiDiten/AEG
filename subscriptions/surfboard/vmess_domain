@@ -9,22 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🚩 CF | 🔒 VMESS | @kurdistan_vpn_perfectt [3] = vmess, www.speedtest.net, 443, username = b7acf44f-3c3a-430c-8ed0-fb64ccc9a13a, ws = true, tls = true, ws-path = /linkvkwss, ws-headers = Host:"BLaZE-fRA-64.BLaZECLOuD.sitE"
-🇳🇱 NL | 🔒 VMESS | @prooxyk [2] = vmess, 77.v2ray1.xyz, 443, username = 17b2a313-37a0-4945-a8e4-e63375506b4a, ws = true, tls = true, ws-path = /A2DJOPFT, ws-headers = Host:"77.v2ray1.xyz"
-🇩🇪 DE | 🔓 VMESS | @prooxyk [3] = vmess, 49.12.73.179, 443, username = 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147, ws = false, tls = false
-❔ XX | 🔓 VMESS | @prooxyk [4] = vmess, join-bede.vmessorg.fun, 80, username = c62d564e-de30-4fd2-8e2f-5ce544c06465, ws = true, tls = false, ws-path = /, ws-headers = Host:""
-❔ XX | 🔒 VMESS | @prooxyk [5] = vmess, channel.v1-amironetwork.site, 443, username = 5f1bacc3-be67-4480-8f32-7abd0e25894a, ws = true, tls = true, ws-path = /20334, ws-headers = Host:"join.v1-amironetwork.site"
-🇨🇦 CA | 🔓 VMESS | @tobevasl [5] = vmess, netherleindcd.abletodothingsorg.com, 8081, username = cb810065-88b0-4d6a-9d92-67ee32491616, ws = false, tls = false
-❔ XX | 🔒 VMESS | @vpncostume [2] = vmess, id.artunnel57.host, 443, username = ac22c927-f8c1-43b4-88db-60ec7abbf59a, ws = true, tls = true, ws-path = /vmess-tls, ws-headers = Host:"id.artunnel57.host"
-❔ XX | 🔓 VMESS | @vpncostume [5] = vmess, uniquenet2.interstellar2023.site, 80, username = 4d57b46d-cd2f-46fa-89bc-c3acd6e116bf, ws = true, tls = false, ws-path = /, ws-headers = Host:"ger3.khasbox.fun"
-❔ XX | 🔒 VMESS | @vpncostume [6] = vmess, mtn.heydas.store, 443, username = c01a2b0f-0bfe-4ade-858e-6e83b1842ccc, ws = true, tls = true, ws-path = /, ws-headers = Host:"england.heydas.store"
 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49] = vmess, 51.79.102.253, 80, username = 58fe1542-5290-40ad-815a-77707a81afe5, ws = true, tls = false, ws-path = /IOebhLMhl1CTbFHbL95myfRX2, ws-headers = Host:""
 🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [50] = vmess, 45.67.230.79, 11052, username = 314185f7-931d-4656-922d-0857e7afd224, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🚩 CF | 🔒 VMESS | @kurdistan_vpn_perfectt [3], 🇳🇱 NL | 🔒 VMESS | @prooxyk [2], 🇩🇪 DE | 🔓 VMESS | @prooxyk [3], ❔ XX | 🔓 VMESS | @prooxyk [4], ❔ XX | 🔒 VMESS | @prooxyk [5], 🇨🇦 CA | 🔓 VMESS | @tobevasl [5], ❔ XX | 🔒 VMESS | @vpncostume [2], ❔ XX | 🔓 VMESS | @vpncostume [5], ❔ XX | 🔒 VMESS | @vpncostume [6], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49], 🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [50]
-PSG-AUTO = url-test, 🚩 CF | 🔒 VMESS | @kurdistan_vpn_perfectt [3], 🇳🇱 NL | 🔒 VMESS | @prooxyk [2], 🇩🇪 DE | 🔓 VMESS | @prooxyk [3], ❔ XX | 🔓 VMESS | @prooxyk [4], ❔ XX | 🔒 VMESS | @prooxyk [5], 🇨🇦 CA | 🔓 VMESS | @tobevasl [5], ❔ XX | 🔒 VMESS | @vpncostume [2], ❔ XX | 🔓 VMESS | @vpncostume [5], ❔ XX | 🔒 VMESS | @vpncostume [6], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49], 🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [50]
-PSG-FALLBACK = fallback, 🚩 CF | 🔒 VMESS | @kurdistan_vpn_perfectt [3], 🇳🇱 NL | 🔒 VMESS | @prooxyk [2], 🇩🇪 DE | 🔓 VMESS | @prooxyk [3], ❔ XX | 🔓 VMESS | @prooxyk [4], ❔ XX | 🔒 VMESS | @prooxyk [5], 🇨🇦 CA | 🔓 VMESS | @tobevasl [5], ❔ XX | 🔒 VMESS | @vpncostume [2], ❔ XX | 🔓 VMESS | @vpncostume [5], ❔ XX | 🔒 VMESS | @vpncostume [6], 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49], 🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [50]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49], 🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [50]
+PSG-AUTO = url-test, 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49], 🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [50]
+PSG-FALLBACK = fallback, 🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49], 🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [50]
 
 [Rule]
 GEOIP,IR,DIRECT

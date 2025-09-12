@@ -23,21 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69]","type":"vmess","server":"51.79.102.253","port":80,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"Host":""}}}
-  - {"name":"🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]","type":"vmess","server":"45.67.230.79","port":11052,"cipher":"auto","uuid":"314185f7-931d-4656-922d-0857e7afd224","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇦🇹 AT | 🔒 SS | @fastfreeconfig [48]","type":"ss","server":"77.110.110.117","port":443,"password":"9JeYy8SkViXuSHVs9GFeSe","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"❔ XX | 🔓 VMESS | @freev2rays [18]","type":"vmess","server":"gs03-1.guoshi1520.com","port":443,"cipher":"auto","uuid":"82ff6d30-2920-4ebd-b95c-b016ede1a841","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/82ff6d30","headers":{"Host":"gs03-1.guoshi1520.com"}}}
-  - {"name":"🚩 CF | 🔓 VMESS | @freev2rays [19]","type":"vmess","server":"time.is","port":443,"cipher":"auto","uuid":"b526926d-1474-4f41-985e-8b877cb840cd","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"shs111.kejixiaoqi666.store"}}}
-  - {"name":"🚩 CF | 🔓 VMESS | @freev2rays [20]","type":"vmess","server":"cloudgetservice.mcloudservice.site","port":443,"cipher":"auto","uuid":"5428dcc2-9950-4404-b8a5-9dac82acb210","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"Host":"maXNEtVIP-usA-VP3.nETKH3.SiTE"}}}
   - {"name":"🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]","type":"vmess","server":"mrgold.iranman.shop","port":52065,"cipher":"auto","uuid":"f29ea77c-6842-4ee0-9fc1-9c7a871566b2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇳🇱 NL | 🔒 SS | @jiedianssr [5]","type":"ss","server":"194.87.216.121","port":443,"password":"piv97XS1Cval86vfwHPD5j","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🔒 SS | @kafing_2 [11]","type":"ss","server":"45.87.175.22","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]","type":"trojan","server":"de1.test3.net","port":443,"password":"b8841c50-c3ad-11ee-9be0-1239d0255272","skip-cert-verify":false}
-  - {"name":"🚩 CF | 🔒 VMESS | @v2ray4win [6]","type":"vmess","server":"www.speedtest.net","port":443,"cipher":"auto","uuid":"a4df089f-3c1c-4cf7-9a5f-ab6d2212136c","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/appsvws","headers":{"Host":"v2-kiava.kiava.workers.dev"}}}
-  - {"name":"🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]","type":"vmess","server":"91.107.160.240","port":15795,"cipher":"auto","uuid":"7ca6c13a-e450-49fa-9b9c-b49a6eda5b79","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔒 SS | @vmessiranproxy [18]","type":"ss","server":"45.87.175.10","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🔒 SS | @vpn451 [10]","type":"ss","server":"80.71.157.175","port":38211,"password":"eQp7xK1HNhPbRu98ucuCoG","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🔒 SS | @vpn451 [12]","type":"ss","server":"fox-usa.outlinekeys.net","port":34868,"password":"1hw89J8tQYjzm10ywcIEdc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49]","type":"vmess","server":"51.79.102.253","port":80,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"Host":""}}}
+  - {"name":"🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [50]","type":"vmess","server":"45.67.230.79","port":11052,"cipher":"auto","uuid":"314185f7-931d-4656-922d-0857e7afd224","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -51,21 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69]'
-      - '🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]'
-      - '🇦🇹 AT | 🔒 SS | @fastfreeconfig [48]'
-      - '❔ XX | 🔓 VMESS | @freev2rays [18]'
-      - '🚩 CF | 🔓 VMESS | @freev2rays [19]'
-      - '🚩 CF | 🔓 VMESS | @freev2rays [20]'
       - '🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]'
-      - '🇳🇱 NL | 🔒 SS | @jiedianssr [5]'
-      - '🇺🇸 US | 🔒 SS | @kafing_2 [11]'
-      - '🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]'
-      - '🚩 CF | 🔒 VMESS | @v2ray4win [6]'
-      - '🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]'
-      - '🇺🇸 US | 🔒 SS | @vmessiranproxy [18]'
-      - '🇩🇪 DE | 🔒 SS | @vpn451 [10]'
-      - '🇺🇸 US | 🔒 SS | @vpn451 [12]'
+      - '🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49]'
+      - '🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [50]'
 
   - name: 🌍 Global Media
     type: select
