@@ -92,16 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
-                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
-                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
-                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
-                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [147]",
-                "🇩🇪 DE | 🔓 VLESS | @selinc [4]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
-                "🇩🇪 DE | 🔓 VLESS | @v2raytg [69]",
-                "🇩🇪 DE | 🔓 VLESS | @v2rayvpn2 [1]"
+                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [147]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -112,16 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
-                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
-                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
-                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
-                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [147]",
-                "🇩🇪 DE | 🔓 VLESS | @selinc [4]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
-                "🇩🇪 DE | 🔓 VLESS | @v2raytg [69]",
-                "🇩🇪 DE | 🔓 VLESS | @v2rayvpn2 [1]"
+                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [147]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -208,84 +192,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
-            "type": "vless",
-            "server": "Evay_vpn.heloisfood.ir",
-            "server_port": 1530,
-            "uuid": "eefe13bb-9f3a-4809-8edd-df455963aa8e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
-            "type": "vless",
-            "server": "Evay_vpn.heloisfood.ir",
-            "server_port": 1530,
-            "uuid": "a938de6a-7524-40ec-a7a7-b5cc883ff58a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
-            "type": "vless",
-            "server": "Evay_vpn.heloisfood.ir",
-            "server_port": 1530,
-            "uuid": "4fcc456d-de78-417d-97af-898436485c66",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @ghotb_scarf [4]",
             "type": "vless",
             "server": "ips.rainoteam.store",
@@ -302,69 +208,6 @@
             "uuid": "69f6d665-19a8-4a20-93ff-2ff20b8aff7f",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @selinc [4]",
-            "type": "vless",
-            "server": "sss49730.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss49730.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
-            "type": "vless",
-            "server": "viop.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raytg [69]",
-            "type": "vless",
-            "server": "sss1175.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "1f5cfb7a-c03e-4779-b91f-a24e442e2a8f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss1175.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2rayvpn2 [1]",
-            "type": "vless",
-            "server": "sss25065.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "f0015f11-7d11-4a17-a260-dc6ef7b48716",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss25065.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         }
     ],
     "route": {

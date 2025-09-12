@@ -92,8 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "🚩 CF | 🔒 TROJAN | @ip_cf_config [20]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]"
             ],
             "tag": "proxy",
@@ -105,8 +103,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "🚩 CF | 🔒 TROJAN | @ip_cf_config [20]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]"
             ],
             "tag": "auto",
@@ -190,43 +186,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-            "type": "trojan",
-            "server": "asia.artunnel57.host",
-            "server_port": 80,
-            "password": "fa9b326c-ca6f-4bb2-88f5-a163b404fcf8",
-            "transport": {
-                "type": "ws",
-                "path": "/trojan-ntls",
-                "headers": {
-                    "Host": "asia.artunnel57.host"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @ip_cf_config [20]",
-            "type": "trojan",
-            "server": "aio.proxybox.dpdns.org",
-            "server_port": 443,
-            "password": "318cab24-ec99-40a6-a54a-0db9c661a3d0",
-            "tls": {
-                "enabled": true,
-                "server_name": "aio.proxybox.dpdns.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/188.34.160.97-2053",
-                "headers": {
-                    "Host": "aio.proxybox.dpdns.org"
                 }
             }
         },

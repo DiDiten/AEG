@@ -9,14 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔ XX | 🔓 TROJAN | @armodchannel [61] = trojan, asia.artunnel57.host, 80, password = fa9b326c-ca6f-4bb2-88f5-a163b404fcf8, skip-cert-verify = false
-🚩 CF | 🔒 TROJAN | @ip_cf_config [20] = trojan, aio.proxybox.dpdns.org, 443, password = 318cab24-ec99-40a6-a54a-0db9c661a3d0, skip-cert-verify = false
 🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7] = trojan, de1.test3.net, 443, password = b8841c50-c3ad-11ee-9be0-1239d0255272, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔓 TROJAN | @armodchannel [61], 🚩 CF | 🔒 TROJAN | @ip_cf_config [20], 🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]
-PSG-AUTO = url-test, ❔ XX | 🔓 TROJAN | @armodchannel [61], 🚩 CF | 🔒 TROJAN | @ip_cf_config [20], 🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]
-PSG-FALLBACK = fallback, ❔ XX | 🔓 TROJAN | @armodchannel [61], 🚩 CF | 🔒 TROJAN | @ip_cf_config [20], 🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]
+PSG-AUTO = url-test, 🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]
 
 [Rule]
 GEOIP,IR,DIRECT
