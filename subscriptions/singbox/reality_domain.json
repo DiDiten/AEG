@@ -97,8 +97,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "❔ XX | 🔒 VLESS | @config_proxy [46]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -137,7 +135,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @jeyksatan [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [6]",
+                "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [5]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
                 "❔ XX | 🔒 VLESS | @mtpv2ray [1]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
@@ -216,8 +214,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "❔ XX | 🔒 VLESS | @config_proxy [46]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -256,7 +252,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @jeyksatan [4]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [6]",
+                "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [5]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
                 "❔ XX | 🔒 VLESS | @mtpv2ray [1]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
@@ -530,52 +526,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [46]",
-            "type": "vless",
-            "server": "hound.origamimarketings.com",
-            "server_port": 7777,
-            "uuid": "905c78d8-a213-4b15-b4ae-e1b5a8fdde45",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E",
-                    "short_id": "42c0b628ba6a42a9"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [49]",
-            "type": "vless",
-            "server": "zZz.ZzZ.zZz.yasharteam.com",
-            "server_port": 443,
-            "uuid": "9b5cd5eb-e535-4fbe-9cb4-03d10f9ac0cb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
-                }
             }
         },
         {
@@ -1512,7 +1462,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [6]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [5]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
