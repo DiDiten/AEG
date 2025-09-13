@@ -133,12 +133,13 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [20]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [4]",
                 "🇩🇪 DE | 🔒 VLESS | @filterk0sh [27]",
                 "🇰🇿 KZ | 🔒 VLESS | @filterk0sh [28]",
-                "🇷🇺 RU | 🔒 VLESS | @free1_vpn [7]",
+                "🇷🇺 RU | 🔒 VLESS | @free1_vpn [6]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -165,6 +166,7 @@
                 "🇱🇺 LU | 🔒 VLESS | @selinc [4]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [19]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -233,12 +235,13 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [20]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [4]",
                 "🇩🇪 DE | 🔒 VLESS | @filterk0sh [27]",
                 "🇰🇿 KZ | 🔒 VLESS | @filterk0sh [28]",
-                "🇷🇺 RU | 🔒 VLESS | @free1_vpn [7]",
+                "🇷🇺 RU | 🔒 VLESS | @free1_vpn [6]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -265,6 +268,7 @@
                 "🇱🇺 LU | 🔒 VLESS | @selinc [4]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [19]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -1359,6 +1363,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
+            "type": "vless",
+            "server": "95.164.68.37",
+            "server_port": 8443,
+            "uuid": "7c2384b8-71a2-43ec-9214-ff06e476800e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -1474,7 +1501,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @free1_vpn [7]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @free1_vpn [6]",
             "type": "vless",
             "server": "185.200.240.188",
             "server_port": 443,
@@ -2112,6 +2139,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "xyz"
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2raych [19]",
+            "type": "vless",
+            "server": "185.200.240.188",
+            "server_port": 443,
+            "uuid": "6fae85ca-395a-4f27-9eb2-75123befc475",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.sfasti.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
             }
         },
         {
