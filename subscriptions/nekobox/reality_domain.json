@@ -85,6 +85,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -130,7 +131,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇫🇮 FI | 🔒 VLESS | @nofiltering2 [17]",
                 "🇷🇺 RU | 🔒 VLESS | @orange_vpns [12]",
-                "🇫🇷 FR | 🔒 VLESS | @outlinev2rayng [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -176,7 +176,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [18]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [19]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [20]",
-                "❔ XX | 🔒 VLESS | @vpnplusee_free [7]",
+                "❔ XX | 🔒 VLESS | @vpnplusee_free [4]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [3]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [5]",
@@ -202,6 +202,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -247,7 +248,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇫🇮 FI | 🔒 VLESS | @nofiltering2 [17]",
                 "🇷🇺 RU | 🔒 VLESS | @orange_vpns [12]",
-                "🇫🇷 FR | 🔒 VLESS | @outlinev2rayng [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -293,7 +293,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [18]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [19]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [20]",
-                "❔ XX | 🔒 VLESS | @vpnplusee_free [7]",
+                "❔ XX | 🔒 VLESS | @vpnplusee_free [4]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [3]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [5]",
@@ -518,6 +518,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
+            "type": "vless",
+            "server": "deu316.unlocknet.org",
+            "server_port": 443,
+            "uuid": "77b3bda7-4ee3-4c99-bad1-a935f7e027c8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -1627,29 +1650,6 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @outlinev2rayng [1]",
-            "type": "vless",
-            "server": "paisaoutt.outline360bot.com",
-            "server_port": 443,
-            "uuid": "70912dd6-942f-4dba-a85a-63826351724f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fv0Zz9FtroOmuK1Tsn0u98gXSq8XepZKtbdH3lDg9EU",
-                    "short_id": "ad2e"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
             "type": "vless",
             "server": "persian85.iran86.persianmemberiranmember.shop",
@@ -2741,7 +2741,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @vpnplusee_free [7]",
+            "tag": "❔ XX | 🔒 VLESS | @vpnplusee_free [4]",
             "type": "vless",
             "server": "hoho.yakarimmilan.ir",
             "server_port": 16548,

@@ -101,11 +101,12 @@
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇬🇧 GB | 🔒 SS | @serverv2ray00 [14]",
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [13]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [11]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇬🇮 GI | 🔒 SS | @v2raytg [71]",
                 "🇦🇹 AT | 🔒 SS | @vmesc [11]",
-                "🇬🇧 GB | 🔒 SS | @vpn_ioss [12]"
+                "🇬🇧 GB | 🔒 SS | @vpn_ioss [12]",
+                "🇭🇰 HK | 🔒 SS | @zerobaipiao [21]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -137,11 +138,12 @@
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇬🇧 GB | 🔒 SS | @serverv2ray00 [14]",
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [13]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [11]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇬🇮 GI | 🔒 SS | @v2raytg [71]",
                 "🇦🇹 AT | 🔒 SS | @vmesc [11]",
-                "🇬🇧 GB | 🔒 SS | @vpn_ioss [12]"
+                "🇬🇧 GB | 🔒 SS | @vpn_ioss [12]",
+                "🇭🇰 HK | 🔒 SS | @zerobaipiao [21]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -400,7 +402,7 @@
             "password": "W74XFALLLuw6m5IA"
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [13]",
+            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [11]",
             "type": "shadowsocks",
             "server": "ltnl11.saint.ydns.eu",
             "server_port": 8080,
@@ -438,6 +440,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "ksg929BWf1K220dG"
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 SS | @zerobaipiao [21]",
+            "type": "shadowsocks",
+            "server": "ss.026.node-for-bigairport.win",
+            "server_port": 15099,
+            "method": "aes-256-gcm",
+            "password": "c69374da-2208-4cbd-b81e-cdf88b5e7f53"
         }
     ],
     "route": {
