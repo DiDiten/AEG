@@ -102,12 +102,13 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [23]",
-                "🇺🇸 US | 🔒 VLESS | @freakconfig [10]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [11]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [13]",
+                "🇺🇸 US | 🔒 VLESS | @freakconfig [9]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [10]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [12]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [18]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [7]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -221,12 +222,13 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [23]",
-                "🇺🇸 US | 🔒 VLESS | @freakconfig [10]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [11]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [13]",
+                "🇺🇸 US | 🔒 VLESS | @freakconfig [9]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [10]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [12]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [18]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [7]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -936,7 +938,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @freakconfig [10]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @freakconfig [9]",
             "type": "vless",
             "server": "pqh26v7.whatstrue.shop",
             "server_port": 1001,
@@ -959,7 +961,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [11]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [10]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -982,7 +984,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [13]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [12]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -1005,7 +1007,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -1028,7 +1030,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -1051,11 +1053,34 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
             "uuid": "FreakCanfig4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
+                    "short_id": "6993f143e90756"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [18]",
+            "type": "vless",
+            "server": "FreakConfig.snapfood.org",
+            "server_port": 443,
+            "uuid": "FreakConfig5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
