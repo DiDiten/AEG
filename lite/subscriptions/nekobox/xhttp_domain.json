@@ -82,17 +82,18 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [18]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [20]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [52]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
-                "🇺🇸 US | 🔓 VLESS | @ghalagyann [15]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [18]",
+                "🇺🇸 US | 🔓 VLESS | @ghalagyann [16]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [4]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [5]",
-                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [2]",
+                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [1]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [3]",
                 "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [15]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [21]",
                 "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [12]",
@@ -114,17 +115,18 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [18]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [20]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [52]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
-                "🇺🇸 US | 🔓 VLESS | @ghalagyann [15]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [18]",
+                "🇺🇸 US | 🔓 VLESS | @ghalagyann [16]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [4]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [5]",
-                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [2]",
+                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [1]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [3]",
                 "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [15]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [21]",
                 "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [12]",
@@ -242,29 +244,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [52]",
-            "type": "vless",
-            "server": "FreakConfig.snapfood.org",
-            "server_port": 443,
-            "uuid": "FreakConfig5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
-                    "short_id": "6993f143e90756"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
             "type": "vless",
             "server": "germany.fast.hosting-ip.com",
@@ -366,7 +345,30 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @ghalagyann [15]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [18]",
+            "type": "vless",
+            "server": "FreakConfig.snapfood.org",
+            "server_port": 443,
+            "uuid": "FreakConfig5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vrloCSqsCVu25b3CHtyJ5RWo_nsUxp0PK-3LdLaKJFs",
+                    "short_id": "6993f143e90756"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @ghalagyann [16]",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
@@ -402,7 +404,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @lranonline_new [2]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @lranonline_new [1]",
             "type": "vless",
             "server": "sss71706.tas-bazi.com",
             "server_port": 443,
@@ -418,6 +420,15 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [3]",
+            "type": "vless",
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [15]",

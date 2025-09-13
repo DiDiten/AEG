@@ -86,6 +86,7 @@
                 "🇩🇪 DE | 🔒 SS | @freev2raym [9]",
                 "🇳🇱 NL | 🔒 SS | @freevirgoolnet [3]",
                 "🇫🇷 FR | 🔒 SS | @freevirgoolnet [4]",
+                "🇬🇧 GB | 🔒 SS | @hope_net [20]",
                 "🇺🇸 US | 🔒 SS | @imhdiyvp [12]",
                 "🇬🇧 GB | 🔒 SS | @ir_netproxy [13]",
                 "🇳🇱 NL | 🔒 SS | @jiedianf [2]",
@@ -107,14 +108,15 @@
                 "🇫🇷 FR | 🔒 SS | @sobyv2ray [3]",
                 "🇫🇷 FR | 🔒 SS | @sobyv2ray [4]",
                 "🇩🇪 DE | 🔒 SS | @srv2ray [1]",
-                "🇩🇪 DE | 🔒 SS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔒 SS | @v2ray_free_conf [19]",
                 "🇺🇸 US | 🔒 SS | @v2ray_sub [60]",
                 "🇩🇪 DE | 🔒 SS | @v2rayngalpha [5]",
                 "🇳🇱 NL | 🔒 SS | @v2rayngalpha [6]",
                 "🇷🇺 RU | 🔒 SS | @v2rayprotocol [6]",
                 "🇸🇪 SE | 🔒 SS | @v2rayvpn2 [2]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
-                "🇺🇸 US | 🔒 SS | @vpngate_config [18]"
+                "🇺🇸 US | 🔒 SS | @vpngate_config [18]",
+                "🇳🇱 NL | 🔒 SS | @zerobaipiao [21]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -131,6 +133,7 @@
                 "🇩🇪 DE | 🔒 SS | @freev2raym [9]",
                 "🇳🇱 NL | 🔒 SS | @freevirgoolnet [3]",
                 "🇫🇷 FR | 🔒 SS | @freevirgoolnet [4]",
+                "🇬🇧 GB | 🔒 SS | @hope_net [20]",
                 "🇺🇸 US | 🔒 SS | @imhdiyvp [12]",
                 "🇬🇧 GB | 🔒 SS | @ir_netproxy [13]",
                 "🇳🇱 NL | 🔒 SS | @jiedianf [2]",
@@ -152,14 +155,15 @@
                 "🇫🇷 FR | 🔒 SS | @sobyv2ray [3]",
                 "🇫🇷 FR | 🔒 SS | @sobyv2ray [4]",
                 "🇩🇪 DE | 🔒 SS | @srv2ray [1]",
-                "🇩🇪 DE | 🔒 SS | @v2ray_free_conf [20]",
+                "🇩🇪 DE | 🔒 SS | @v2ray_free_conf [19]",
                 "🇺🇸 US | 🔒 SS | @v2ray_sub [60]",
                 "🇩🇪 DE | 🔒 SS | @v2rayngalpha [5]",
                 "🇳🇱 NL | 🔒 SS | @v2rayngalpha [6]",
                 "🇷🇺 RU | 🔒 SS | @v2rayprotocol [6]",
                 "🇸🇪 SE | 🔒 SS | @v2rayvpn2 [2]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
-                "🇺🇸 US | 🔒 SS | @vpngate_config [18]"
+                "🇺🇸 US | 🔒 SS | @vpngate_config [18]",
+                "🇳🇱 NL | 🔒 SS | @zerobaipiao [21]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -296,6 +300,14 @@
             "server_port": 14255,
             "method": "chacha20-ietf-poly1305",
             "password": "fDDmH4QefmWqMJ8UURZrGh"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 SS | @hope_net [20]",
+            "type": "shadowsocks",
+            "server": "18.175.70.111",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg"
         },
         {
             "tag": "🇺🇸 US | 🔒 SS | @imhdiyvp [12]",
@@ -466,7 +478,7 @@
             "password": "wDZtxfIk3UhacKHrho7lxw"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 SS | @v2ray_free_conf [20]",
+            "tag": "🇩🇪 DE | 🔒 SS | @v2ray_free_conf [19]",
             "type": "shadowsocks",
             "server": "51.195.119.47",
             "server_port": 1080,
@@ -528,6 +540,14 @@
             "server_port": 2087,
             "method": "chacha20-ietf-poly1305",
             "password": "a9dIXhPAuSDCKUPU"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 SS | @zerobaipiao [21]",
+            "type": "shadowsocks",
+            "server": "103.104.247.47",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         }
     ],
     "route": {
