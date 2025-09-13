@@ -99,7 +99,6 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇳🇱 NL | 🔒 VLESS | @netmellianti [12]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
@@ -132,7 +131,6 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇳🇱 NL | 🔒 VLESS | @netmellianti [12]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
@@ -332,29 +330,6 @@
             "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @netmellianti [12]",
-            "type": "vless",
-            "server": "83.229.82.75",
-            "server_port": 2053,
-            "uuid": "b14bb583-d086-473e-86ec-0aeccf3f9cb1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "DkxflmXVGtcJg7utwC_ajBsf1hrUr6N7IoIOdy59egs",
-                    "short_id": "0f3f38fee350"
-                }
-            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @outline_ir [19]",
