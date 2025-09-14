@@ -92,7 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇹 IT | 🔒 VLESS | @config_proxy [40]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [4]",
@@ -125,6 +124,7 @@
                 "🇱🇺 LU | 🔒 VLESS | @selinc [4]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -150,7 +150,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇮🇹 IT | 🔒 VLESS | @config_proxy [40]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [4]",
@@ -183,6 +182,7 @@
                 "🇱🇺 LU | 🔒 VLESS | @selinc [4]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -280,29 +280,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @config_proxy [40]",
-            "type": "vless",
-            "server": "38.180.22.152",
-            "server_port": 33000,
-            "uuid": "944476f2-45d5-4a62-a707-e62df5cebdec",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "K0NksAju4WP-RWV_zyE5E6lcOIGTsOnpCVtjFprFHX8",
-                    "short_id": "210fb560"
                 }
             }
         },
@@ -1060,6 +1037,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "xyz"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "172.245.251.10",
+            "server_port": 8443,
+            "uuid": "9b3d65ab-576c-4750-9cb3-bb41c12c085e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.ieee.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XgQPLMVHvbUKTzcAZPBDGZ_mDhaZRiAJEk7c4-7UzR4",
+                    "short_id": ""
+                }
             }
         },
         {

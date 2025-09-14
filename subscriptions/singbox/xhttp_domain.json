@@ -97,6 +97,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [9]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [20]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [1]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [7]",
@@ -116,13 +117,12 @@
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [8]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [1]",
-                "🇺🇸 US | 🔓 VLESS | @freakconfig [1]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [10]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [12]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [9]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [11]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [13]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [18]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [11]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [13]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [15]",
@@ -178,6 +178,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [9]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [20]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [1]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [7]",
@@ -197,13 +198,12 @@
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [8]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [1]",
-                "🇺🇸 US | 🔓 VLESS | @freakconfig [1]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [10]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [12]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [9]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [11]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [13]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [18]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [11]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [13]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [15]",
@@ -373,6 +373,29 @@
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
+            "type": "vless",
+            "server": "v2shop-ger2.bing-net.com",
+            "server_port": 7030,
+            "uuid": "81e7ae1b-90a6-40bc-b95f-9644a96b611c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mdundo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "g23nq_R9TIMbMIGQHB6gjDNewFzrHXPcj72bTS-RtX8",
+                    "short_id": "a1b2c3d4e5f67890"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [1]",
@@ -658,16 +681,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @freakconfig [1]",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "f657d830-b534-4c9e-9987-3e72df22289e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [10]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [9]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -690,7 +704,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [12]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [11]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -713,7 +727,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [13]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -736,7 +750,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -759,7 +773,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [15]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -782,7 +796,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [18]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [17]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,

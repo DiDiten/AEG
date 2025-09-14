@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 HY2 | @v2ray_collector [17]"
+                "🇳🇱 NL | 🔒 HY2 | @v2ray_collector [7]",
+                "🇳🇱 NL | 🔒 HY2 | @v2ray_collector [13]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 HY2 | @v2ray_collector [17]"
+                "🇳🇱 NL | 🔒 HY2 | @v2ray_collector [7]",
+                "🇳🇱 NL | 🔒 HY2 | @v2ray_collector [13]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -190,7 +192,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 HY2 | @v2ray_collector [17]",
+            "tag": "🇳🇱 NL | 🔒 HY2 | @v2ray_collector [7]",
             "type": "hysteria2",
             "server": "net2025.afsharidempire.uk",
             "server_port": 30205,
@@ -203,6 +205,25 @@
                 "enabled": true,
                 "server_name": "net2025.afsharidempire.uk",
                 "insecure": true,
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 HY2 | @v2ray_collector [13]",
+            "type": "hysteria2",
+            "server": "yapc-1.adamhayward.co.uk",
+            "server_port": 35200,
+            "password": "Yet-Another-Public-Config-1",
+            "obfs": {
+                "type": "salamander",
+                "password": "Yet-Another-Public-Config-1"
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "YAPC-1.afshin.ir",
+                "insecure": false,
                 "alpn": [
                     "h3"
                 ]
