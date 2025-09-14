@@ -97,7 +97,6 @@
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [24]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [16]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [3]",
@@ -121,6 +120,7 @@
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [148]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -143,7 +143,6 @@
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [24]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [16]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [16]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [3]",
@@ -167,6 +166,7 @@
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [148]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -315,15 +315,6 @@
             "server": "Evay_vpn.heloisfood.ir",
             "server_port": 8678,
             "uuid": "e9e53a72-2c35-4c00-8d8d-9d176e42332a",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "03c1937a-3ffc-481b-bf61-3189fb34ea03",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -669,6 +660,24 @@
                     "enabled": true,
                     "public_key": "z--KbBlQtkBgTcrtdBJeGeCymIrLdaUDwkb44pAp6nY",
                     "short_id": "4c"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [148]",
+            "type": "vless",
+            "server": "109.120.138.47",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

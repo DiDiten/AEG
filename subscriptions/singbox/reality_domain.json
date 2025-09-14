@@ -97,9 +97,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [34]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [35]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [38]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [59]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -117,6 +116,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [23]",
                 "🇺🇸 US | 🔒 VLESS | @freakconfig [7]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [8]",
@@ -219,9 +219,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [34]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [35]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [38]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [59]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -239,6 +238,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [23]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [23]",
                 "🇺🇸 US | 🔒 VLESS | @freakconfig [7]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [8]",
@@ -539,16 +539,16 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [34]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [59]",
             "type": "vless",
-            "server": "zg1.denaroz.com",
-            "server_port": 48741,
-            "uuid": "e989a6c5-d004-4356-afe1-e065290a6c56",
+            "server": "world-of.ru",
+            "server_port": 443,
+            "uuid": "b8e65f52-a868-49ee-bf9c-ebc48e1c70a2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.speedtest.net",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -556,22 +556,22 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "uzJX2SCrf7udbIPgZ9Pj2It_cxJ-sX-VCPrp6lTukSQ",
-                    "short_id": "86f99c72"
+                    "public_key": "9QOmx7k0-uCbUrgh7ee9x9qtLIOEVyeYiZI2aiimYEs",
+                    "short_id": "71e48a"
                 }
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [35]",
+            "tag": "🇸🇮 SI | 🔒 VLESS | @config_proxy [60]",
             "type": "vless",
-            "server": "zg1kh.denaroz.com",
-            "server_port": 48741,
-            "uuid": "e989a6c5-d004-4356-afe1-e065290a6c56",
+            "server": "tunnyl.ru",
+            "server_port": 443,
+            "uuid": "c7fa4478-dd31-420e-a2aa-9eff95b41b58",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "dash.cloudflare.com",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -579,31 +579,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "uzJX2SCrf7udbIPgZ9Pj2It_cxJ-sX-VCPrp6lTukSQ",
-                    "short_id": "86f99c72"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [38]",
-            "type": "vless",
-            "server": "Evay_vpn.heloisfood.ir",
-            "server_port": 1530,
-            "uuid": "e9e53a72-2c35-4c00-8d8d-9d176e42332a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
+                    "public_key": "suqEZ-Y0ekSa7F_zGFeRhCLIJqZbnmBbnZJ-zYT7iQI",
+                    "short_id": "5c0333ed45b1"
                 }
             }
         },
@@ -1001,6 +978,29 @@
             "server": "Evay_vpn.heloisfood.ir",
             "server_port": 1530,
             "uuid": "41032e76-519f-43d4-8768-603fc7afbb40",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
+            "type": "vless",
+            "server": "Evay_vpn.heloisfood.ir",
+            "server_port": 1530,
+            "uuid": "e9e53a72-2c35-4c00-8d8d-9d176e42332a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
