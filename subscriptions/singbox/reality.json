@@ -95,8 +95,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [3]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [27]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [23]",
+                "🇨🇿 CZ | 🔒 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -357,8 +357,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [3]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [27]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [23]",
+                "🇨🇿 CZ | 🔒 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -761,34 +761,11 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [27]",
+            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [23]",
             "type": "vless",
-            "server": "185.200.240.188",
-            "server_port": 443,
-            "uuid": "6fae85ca-395a-4f27-9eb2-75123befc475",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ru.sfasti.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
-                    "short_id": "16895459a2c7768d"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
-            "type": "vless",
-            "server": "95.164.68.37",
+            "server": "185.239.48.109",
             "server_port": 8443,
-            "uuid": "7c2384b8-71a2-43ec-9214-ff06e476800e",
+            "uuid": "ed49bbf8-4781-4b81-94bc-6e61d31cb237",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -801,9 +778,36 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
+                    "public_key": "wPXyRAB1bVkaTGgO5cHEylVAV8SscUQUPn_ggzx6Vxk",
                     "short_id": ""
                 }
+            }
+        },
+        {
+            "tag": "🇨🇿 CZ | 🔒 VLESS | @config_proxy [32]",
+            "type": "vless",
+            "server": "194.182.79.235",
+            "server_port": 28256,
+            "uuid": "b68ae076-1268-45f0-b82a-813732495724",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JQ9ZfU_CeZbOD-vqkXuTPedLrJedK4h7Jzpffhza3EQ",
+                    "short_id": "70be4a908043"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
             }
         },
         {

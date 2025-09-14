@@ -133,7 +133,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [20]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [36]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [4]",
@@ -166,7 +166,7 @@
                 "🇱🇺 LU | 🔒 VLESS | @selinc [4]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
-                "🇷🇺 RU | 🔒 VLESS | @v2raych [19]",
+                "🇨🇿 CZ | 🔒 VLESS | @v2raych [20]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -235,7 +235,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpnowl [20]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [36]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [4]",
@@ -268,7 +268,7 @@
                 "🇱🇺 LU | 🔒 VLESS | @selinc [4]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
-                "🇷🇺 RU | 🔒 VLESS | @v2raych [19]",
+                "🇨🇿 CZ | 🔒 VLESS | @v2raych [20]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -1363,9 +1363,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [36]",
             "type": "vless",
-            "server": "95.164.68.37",
+            "server": "85.239.60.43",
             "server_port": 8443,
             "uuid": "7c2384b8-71a2-43ec-9214-ff06e476800e",
             "flow": "xtls-rprx-vision",
@@ -1380,7 +1380,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
+                    "public_key": "qJ_x7_Fz3M4QdnRG8WcqVNpgsHbwWgs_KrdCqr4iclE",
                     "short_id": ""
                 }
             }
@@ -2142,16 +2142,16 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @v2raych [19]",
+            "tag": "🇨🇿 CZ | 🔒 VLESS | @v2raych [20]",
             "type": "vless",
-            "server": "185.200.240.188",
-            "server_port": 443,
-            "uuid": "6fae85ca-395a-4f27-9eb2-75123befc475",
+            "server": "194.182.79.235",
+            "server_port": 28256,
+            "uuid": "b68ae076-1268-45f0-b82a-813732495724",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ru.sfasti.ru",
+                "server_name": "sourceforge.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -2159,9 +2159,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
-                    "short_id": "16895459a2c7768d"
+                    "public_key": "JQ9ZfU_CeZbOD-vqkXuTPedLrJedK4h7Jzpffhza3EQ",
+                    "short_id": "70be4a908043"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
             }
         },
         {
