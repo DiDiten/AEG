@@ -80,7 +80,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 VLESS | @config_proxy [58]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
@@ -89,7 +88,7 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "❔ XX | 🔓 VLESS | @lranonline_new [2]"
+                "❔ XX | 🔓 VLESS | @parsashonam [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -100,7 +99,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔓 VLESS | @config_proxy [58]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
@@ -109,7 +107,7 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "❔ XX | 🔓 VLESS | @lranonline_new [2]"
+                "❔ XX | 🔓 VLESS | @parsashonam [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -196,31 +194,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @config_proxy [58]",
-            "type": "vless",
-            "server": "[2606:4700:3035::6815:15b3]",
-            "server_port": 443,
-            "uuid": "f282b878-8711-45a1-8c69-5564172123c1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "[2606:4700:3035::6815:15b3]",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "[2606:4700:3035::6815:15b3]"
                 }
             }
         },
@@ -361,7 +334,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @lranonline_new [2]",
+            "tag": "❔ XX | 🔓 VLESS | @parsashonam [17]",
             "type": "vless",
             "server": "[2a01:4f8:1c1a:dc2b::1]",
             "server_port": 8888,

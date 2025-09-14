@@ -101,7 +101,7 @@
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [4]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [5]",
-                "🇺🇸 US | 🔓 VLESS | @nofiltering2 [21]",
+                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [6]",
                 "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
@@ -127,7 +127,7 @@
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [4]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [5]",
-                "🇺🇸 US | 🔓 VLESS | @nofiltering2 [21]",
+                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [6]",
                 "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
@@ -315,13 +315,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @nofiltering2 [21]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @mowjproxy [6]",
             "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "03c1937a-3ffc-481b-bf61-3189fb34ea03",
+            "server": "sss58186.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "f23b820b-b88f-4c40-8b20-b4b36629f6b1",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss58186.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [9]",
