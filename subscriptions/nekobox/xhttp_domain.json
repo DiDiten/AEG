@@ -85,7 +85,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [9]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [20]",
-                "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [1]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [41]",
+                "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [2]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [9]",
@@ -122,15 +123,14 @@
                 "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [3]",
                 "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [15]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
-                "❔ XX | 🔒 VLESS | @netmellianti [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [13]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [15]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [21]",
-                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [9]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [8]",
                 "🇺🇸 US | 🔓 VLESS | @outline_ir [6]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [10]",
-                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [136]",
+                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [9]",
+                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [130]",
                 "🇩🇪 DE | 🔓 VLESS | @selinc [3]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [7]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
@@ -165,7 +165,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [9]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [20]",
-                "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [1]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [41]",
+                "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [2]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [9]",
@@ -202,15 +203,14 @@
                 "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [3]",
                 "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [15]",
                 "❔ XX | 🔓 VLESS | @megavpn_link [1]",
-                "❔ XX | 🔒 VLESS | @netmellianti [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [13]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [15]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [21]",
-                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [9]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [8]",
                 "🇺🇸 US | 🔓 VLESS | @outline_ir [6]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [10]",
-                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [136]",
+                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [9]",
+                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [130]",
                 "🇩🇪 DE | 🔓 VLESS | @selinc [3]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [7]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
@@ -365,7 +365,30 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [1]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "specxtech.ticketdatabase.info",
+            "server_port": 15416,
+            "uuid": "9c28e484-55ed-4756-a6dc-64a9ec7141da",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xxlEy493Vsha05CKs_07jt2MFaxLejTx4Ab1xFNAlno",
+                    "short_id": "1ed94ed9"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [2]",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -936,24 +959,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @netmellianti [1]",
-            "type": "vless",
-            "server": "d8.mmadcoffee.info",
-            "server_port": 443,
-            "uuid": "4b213611-74ec-4d2e-ae88-8deb082a3630",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "d8.mmadcoffee.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @nofiltering2 [13]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
@@ -990,7 +995,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [9]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [8]",
             "type": "vless",
             "server": "sss4782.tas-bazi.com",
             "server_port": 443,
@@ -1017,7 +1022,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [10]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [9]",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
@@ -1026,7 +1031,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @prrofile_purple [136]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @prrofile_purple [130]",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,

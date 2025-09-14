@@ -85,6 +85,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -132,8 +133,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇫🇮 FI | 🔒 VLESS | @nofiltering2 [17]",
-                "🇷🇺 RU | 🔒 VLESS | @orange_vpns [10]",
-                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [14]",
+                "🇷🇺 RU | 🔒 VLESS | @orange_vpns [9]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [13]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -206,6 +207,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -253,8 +255,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇫🇮 FI | 🔒 VLESS | @nofiltering2 [17]",
-                "🇷🇺 RU | 🔒 VLESS | @orange_vpns [10]",
-                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [14]",
+                "🇷🇺 RU | 🔒 VLESS | @orange_vpns [9]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [13]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -526,6 +528,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "specxtech.ticketdatabase.info",
+            "server_port": 15416,
+            "uuid": "9c28e484-55ed-4756-a6dc-64a9ec7141da",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xxlEy493Vsha05CKs_07jt2MFaxLejTx4Ab1xFNAlno",
+                    "short_id": "1ed94ed9"
+                }
             }
         },
         {
@@ -1681,7 +1706,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @orange_vpns [10]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @orange_vpns [9]",
             "type": "vless",
             "server": "wa.sfasti.ru",
             "server_port": 443,
@@ -1704,7 +1729,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [14]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [13]",
             "type": "vless",
             "server": "deu106.worldunbound.org",
             "server_port": 443,
