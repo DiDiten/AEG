@@ -110,6 +110,8 @@
                 "🇰🇿 KZ | 🔒 TROJAN | @v2aryng_vpn [9]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [14]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [13]",
+                "🇺🇸 US | 🔓 TROJAN | @v2raych [17]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -172,6 +174,8 @@
                 "🇰🇿 KZ | 🔒 TROJAN | @v2aryng_vpn [9]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [14]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [13]",
+                "🇺🇸 US | 🔓 TROJAN | @v2raych [17]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -793,6 +797,45 @@
             "tls": {
                 "enabled": true,
                 "server_name": "xvqn.de",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [13]",
+            "type": "trojan",
+            "server": "104.16.159.7",
+            "server_port": 443,
+            "password": "4732adfa16c6450bbef87264e41332db",
+            "tls": {
+                "enabled": true,
+                "server_name": "bangladeshipatri.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/6b777a91",
+                "headers": {
+                    "Host": "bangladeshipatri.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 TROJAN | @v2raych [17]",
+            "type": "trojan",
+            "server": "54.244.5.189",
+            "server_port": 443,
+            "password": "e3fee3b6-fca1-3985-99dc-da7ca03260ea",
+            "tls": {
+                "enabled": true,
+                "server_name": "steampipe.akamaized.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
