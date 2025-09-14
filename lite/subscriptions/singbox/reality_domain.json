@@ -108,6 +108,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [15]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [6]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -122,7 +123,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @selinc [5]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [10]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [6]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [11]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
@@ -157,6 +159,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @manzariyeh_rasht [15]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [6]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -171,7 +174,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @selinc [5]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [10]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [6]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [11]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
@@ -654,6 +658,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [6]",
+            "type": "vless",
+            "server": "sv2.tsteamu1.top",
+            "server_port": 40002,
+            "uuid": "7738423e-132e-4e2a-bd2c-034b4740ad4d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cafebazaar.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0pgQetxCBR2ueOXv3LEh25yHGYDda6dBGvShz8JTknk",
+                    "short_id": "4fe6a82ff811fa13"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
             "type": "vless",
             "server": "Sadaf.Netherlands.mehrdadsadaf.com",
@@ -992,7 +1019,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [6]",
             "type": "vless",
             "server": "abri.abriabri.ir",
             "server_port": 2233,
@@ -1011,6 +1038,29 @@
                     "enabled": true,
                     "public_key": "XXyGhQ_iIds5fOp-JEq76iPb1heaBCSd7N5cOe9oFlg",
                     "short_id": "e0"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "sv2.tsteamu1.top",
+            "server_port": 40002,
+            "uuid": "7738423e-132e-4e2a-bd2c-034b4740ad4d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cafebazaar.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0pgQetxCBR2ueOXv3LEh25yHGYDda6dBGvShz8JTknk",
+                    "short_id": "4fe6a82ff811fa13"
                 }
             }
         },
