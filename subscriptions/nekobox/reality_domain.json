@@ -85,6 +85,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [22]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [23]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [24]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -138,7 +141,7 @@
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @proxycrone [4]",
+                "🇩🇪 DE | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [2]",
@@ -207,6 +210,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [22]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [23]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [24]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -260,7 +266,7 @@
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @proxycrone [4]",
+                "🇩🇪 DE | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [2]",
@@ -528,6 +534,79 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇸🇮 SI | 🔒 VLESS | @config_proxy [22]",
+            "type": "vless",
+            "server": "tunnyl.ru",
+            "server_port": 443,
+            "uuid": "4f7ce04b-01b5-4307-a626-6e45c64d5d25",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "suqEZ-Y0ekSa7F_zGFeRhCLIJqZbnmBbnZJ-zYT7iQI",
+                    "short_id": "5c0333ed45b1"
+                }
+            }
+        },
+        {
+            "tag": "🇱🇹 LT | 🔒 VLESS | @config_proxy [23]",
+            "type": "vless",
+            "server": "hield.ru",
+            "server_port": 443,
+            "uuid": "05d818e7-c3d0-4e6b-ac0a-43f0e4f6cc1d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JPm5aPILktbakyQ21Q3p4ABm3NHBIVMmaumDveRBGws",
+                    "short_id": "06c6eb7423f24de5"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [24]",
+            "type": "vless",
+            "server": "legendary.zooboming.com",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UrOqDBAvEnjISHdVDzEnJRyb0HUM8xjCIWXZcd8w1CA",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
             }
         },
         {
@@ -1829,7 +1908,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @proxycrone [4]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @proxycrone [3]",
             "type": "vless",
             "server": "abri.abriabri.ir",
             "server_port": 2233,
