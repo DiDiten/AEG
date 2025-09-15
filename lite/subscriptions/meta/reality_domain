@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name":"🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]","type":"vless","server":"qwert.blog","port":443,"uuid":"e0f5135c-b407-4530-baab-be4f51cc6027","tls":true,"network":"tcp","client-fingerprint":"safari","udp":true,"servername":"real.qwert.blog","reality-opts":{"public-key":"GldzvpoHVgXvQQWfUVvipXFo2Jl0uyHz8hDgpikibBQ","short-id":"44baee35266d"}}
+  - {"name":"🇸🇮 SI | 🔒 VLESS | @config_proxy [37]","type":"vless","server":"tunnyl.ru","port":443,"uuid":"4f7ce04b-01b5-4307-a626-6e45c64d5d25","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"suqEZ-Y0ekSa7F_zGFeRhCLIJqZbnmBbnZJ-zYT7iQI","short-id":"5c0333ed45b1"}}
+  - {"name":"🇱🇹 LT | 🔒 VLESS | @config_proxy [38]","type":"vless","server":"hield.ru","port":443,"uuid":"05d818e7-c3d0-4e6b-ac0a-43f0e4f6cc1d","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"JPm5aPILktbakyQ21Q3p4ABm3NHBIVMmaumDveRBGws","short-id":"06c6eb7423f24de5"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @configasli [8]","type":"vless","server":"s1.aparat-movies-download.ir","port":4450,"uuid":"a19f4213-fcb8-4384-9c85-cb51cae8ab8b","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"zhaket.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic"}}
   - {"name":"❔ XX | 🔒 VLESS | @custom_14 [8]","type":"vless","server":"usa-join.outline-vpn.fun","port":443,"uuid":"fc6395b9-8060-41b2-82f1-a55419093fe9","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"grpc-opts":{"grpc-service-name":"Telegram:"},"reality-opts":{"public-key":"U79mwBYXYzaNs1L57EDyJNC5p8HSrQYx1GDnBdttgmw"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @ehsawn8 [11]","type":"vless","server":"zonex.de.zopli.ir","port":33667,"uuid":"7a3d2e42-3823-4b00-9818-293f7c6742ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"store.steampowered.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"urkddCRB1-01SWciigBk31sfccR6KZr4wX_BInUHu3o","short-id":"382874842551202c"}}
@@ -67,6 +69,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]'
+      - '🇸🇮 SI | 🔒 VLESS | @config_proxy [37]'
+      - '🇱🇹 LT | 🔒 VLESS | @config_proxy [38]'
       - '🇩🇪 DE | 🔒 VLESS | @configasli [8]'
       - '❔ XX | 🔒 VLESS | @custom_14 [8]'
       - '🇩🇪 DE | 🔒 VLESS | @ehsawn8 [11]'

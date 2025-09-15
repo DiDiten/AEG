@@ -92,6 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇨🇳 CN | 🔓 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇺🇸 US | 🔒 TROJAN | @outlinev2rayng [15]",
                 "🚩 CF | 🔒 TROJAN | @outlinev2rayng [16]",
@@ -115,6 +117,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇨🇳 CN | 🔓 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇺🇸 US | 🔒 TROJAN | @outlinev2rayng [15]",
                 "🚩 CF | 🔒 TROJAN | @outlinev2rayng [16]",
@@ -210,6 +214,36 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳 CN | 🔓 TROJAN | @hope_net [19]",
+            "type": "trojan",
+            "server": "36.151.192.198",
+            "server_port": 36900,
+            "password": "QwwHvrnN"
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "104.20.18.74",
+            "server_port": 443,
+            "password": "auto",
+            "tls": {
+                "enabled": true,
+                "server_name": "b96ef9ae.trojanfree-76s.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/b96ef9ae.trojanfree-76s.pages.dev/",
+                "headers": {
+                    "Host": "b96ef9ae.trojanfree-76s.pages.dev"
                 }
             }
         },

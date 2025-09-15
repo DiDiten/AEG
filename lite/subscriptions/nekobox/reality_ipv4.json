@@ -80,7 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [4]",
@@ -104,6 +104,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @kingofilter [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
+                "🇺🇸 US | 🔒 VLESS | @mowjproxy [2]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [13]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
@@ -136,7 +137,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [4]",
@@ -160,6 +161,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @kingofilter [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
+                "🇺🇸 US | 🔒 VLESS | @mowjproxy [2]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [13]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
@@ -272,11 +274,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
             "type": "vless",
-            "server": "95.164.68.37",
+            "server": "85.158.110.62",
             "server_port": 8443,
-            "uuid": "b32ec803-0e55-4fe9-b39f-37ab04786f95",
+            "uuid": "d7655ef3-3e7d-48c5-98e0-122aab004ad6",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -289,7 +291,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
+                    "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
                     "short_id": ""
                 }
             }
@@ -831,6 +833,29 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "W0BYEeLEqNRk8Bn2G27x5G9ALICJxePV6hxZG2A4Jmg",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @mowjproxy [2]",
+            "type": "vless",
+            "server": "103.175.79.2",
+            "server_port": 443,
+            "uuid": "8e6acce9-8b56-7190-d491-7d84f8189e26",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI",
                     "short_id": ""
                 }
             }
