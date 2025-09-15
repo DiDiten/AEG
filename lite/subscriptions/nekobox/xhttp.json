@@ -81,15 +81,17 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [56]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [24]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [14]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [4]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [9]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [15]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
@@ -127,15 +129,17 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [56]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [24]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [14]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [4]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [9]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [15]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
-                "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
@@ -261,6 +265,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "sss48716.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "92b022a6-67f3-4406-840b-8fec2f4aace8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss48716.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
             "type": "vless",
             "server": "germany.fast.hosting-ip.com",
@@ -311,11 +333,20 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [14]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
             "uuid": "b00717e8-8249-4e18-b4db-b6ab2b0392a1",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [14]",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "ae5fe1c4-7389-4d43-9142-de672a5c4edb",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -325,6 +356,15 @@
             "server": "speedtestcustom.com",
             "server_port": 80,
             "uuid": "03c1937a-3ffc-481b-bf61-3189fb34ea03",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [9]",
+            "type": "vless",
+            "server": "configline.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE_id",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -343,15 +383,6 @@
             "server": "speedtestcustom.com",
             "server_port": 80,
             "uuid": "ae5fe1c4-7389-4d43-9142-de672a5c4edb",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @proxy_mtproto_vpns_free [11]",
-            "type": "vless",
-            "server": "configline.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE_id",
             "flow": "",
             "packet_encoding": "xudp"
         },
