@@ -128,8 +128,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [20]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [51]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [4]",
@@ -223,8 +222,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [20]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [51]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [4]",
@@ -1238,16 +1236,16 @@
             }
         },
         {
-            "tag": "🇰🇿 KZ | 🔒 VLESS | @config_proxy [51]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
             "type": "vless",
-            "server": "176.120.72.63",
-            "server_port": 38339,
-            "uuid": "481c5606-b586-44d7-bc2e-d8ef30d67f62",
+            "server": "95.164.68.37",
+            "server_port": 8443,
+            "uuid": "b32ec803-0e55-4fe9-b39f-37ab04786f95",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "dl.google.com",
+                "server_name": "google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1255,30 +1253,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "o0MFuznHh_Wztg0FTAMhFXm3hjAqOJAJIIVNn-_A9WA",
-                    "short_id": "e16883e511"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
-            "type": "vless",
-            "server": "77.81.65.10",
-            "server_port": 443,
-            "uuid": "3c7a1227-5383-3a19-7084-76624ec8f84f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SkPIAkSI8R1LY1hynsZZcxKkPmJKU11DAMncccLEdjI",
+                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
                     "short_id": ""
                 }
             }
