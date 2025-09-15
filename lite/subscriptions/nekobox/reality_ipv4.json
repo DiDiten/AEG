@@ -80,11 +80,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [44]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [7]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [2]",
                 "🇰🇿 KZ | 🔒 VLESS | @filterk0sh [27]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [8]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -113,7 +114,6 @@
                 "🇱🇺 LU | 🔒 VLESS | @selinc [4]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -138,11 +138,12 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [44]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [7]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [2]",
                 "🇰🇿 KZ | 🔒 VLESS | @filterk0sh [27]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [8]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [16]",
@@ -171,7 +172,6 @@
                 "🇱🇺 LU | 🔒 VLESS | @selinc [4]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -276,6 +276,29 @@
             }
         },
         {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "91.242.241.45",
+            "server_port": 8443,
+            "uuid": "a2b63b0d-e699-47b3-bc52-431db3b00ebc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1-2fy8f8XeOHzmdFmCENHV1mr_tzJX1M9UXp42mUIiM",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -368,7 +391,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [8]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [7]",
             "type": "vless",
             "server": "91.98.89.62",
             "server_port": 443,
@@ -1048,29 +1071,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "xyz"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [18]",
-            "type": "vless",
-            "server": "91.99.114.3",
-            "server_port": 6005,
-            "uuid": "681ebfec-f66c-4345-9a35-59d9fc55b294",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IjdVNJogofv3zb2AqVEdopDIgy41_OJYLllcTKVLzlM",
-                    "short_id": "a2af5225618fa196"
-                }
             }
         },
         {
