@@ -112,6 +112,7 @@
                 "🇱🇺 LU | 🔒 VLESS | @selinc [4]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -125,7 +126,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇷🇺 RU | 🔒 VLESS | @vmesc [17]",
                 "🇷🇺 RU | 🔒 VLESS | @vmesc [18]",
-                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
+                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [12]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -168,6 +170,7 @@
                 "🇱🇺 LU | 🔒 VLESS | @selinc [4]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -181,7 +184,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇷🇺 RU | 🔒 VLESS | @vmesc [17]",
                 "🇷🇺 RU | 🔒 VLESS | @vmesc [18]",
-                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
+                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [12]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -274,14 +278,14 @@
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
             "type": "vless",
-            "server": "185.250.180.91",
-            "server_port": 443,
-            "uuid": "82306016-bcd5-4f09-8310-198304d8d9e7",
+            "server": "95.164.68.37",
+            "server_port": 8443,
+            "uuid": "c6d757aa-58a5-4927-9b72-c97ab455927b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "duckduckgo.com",
+                "server_name": "google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -289,8 +293,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "IxFbqmfuwejYSKYu69qBnzG9yWSuf7UjHujXWOO_w34",
-                    "short_id": "9137d914cd770b54"
+                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
+                    "short_id": ""
                 }
             }
         },
@@ -1024,6 +1028,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "93.94.52.171",
+            "server_port": 443,
+            "uuid": "b4b8aa1f-77d2-4851-a5a4-f78886f3e997",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
             "type": "vless",
             "server": "199.247.28.17",
@@ -1342,6 +1369,29 @@
                     "enabled": true,
                     "public_key": "RELg-Z1AXhG9945I_8hN884Z5Txd9ZxI92sl4jHzXWU",
                     "short_id": "ec01ceda"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [12]",
+            "type": "vless",
+            "server": "185.138.88.58",
+            "server_port": 443,
+            "uuid": "95bbb722-7641-4247-b795-25a2f540e67b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bol.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
                 }
             }
         }
