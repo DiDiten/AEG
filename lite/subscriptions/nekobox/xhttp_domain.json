@@ -87,6 +87,7 @@
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [27]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [15]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
@@ -108,6 +109,7 @@
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [27]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [15]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
@@ -277,6 +279,29 @@
             "uuid": "f4987502-a2fa-4c6f-a1cc-7801608c32df",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [14]",
+            "type": "vless",
+            "server": "FreakConfig.snapfood.org",
+            "server_port": 443,
+            "uuid": "FreakConfig",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uGKtIaCzqXoH50sIyN9lLXeRut0BwB6ppeaWhzRzH2k",
+                    "short_id": "d6486c8c60d64283"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [15]",
