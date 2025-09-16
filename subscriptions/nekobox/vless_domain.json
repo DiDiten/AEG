@@ -107,8 +107,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [33]",
-                "🇪🇪 EE | 🔒 VLESS | @config_proxy [42]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [34]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -627,6 +627,7 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "🇪🇪 EE | 🔒 VLESS | @v2raych [8]",
                 "🚩 CF | 🔓 VLESS | @v2raying [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [3]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [5]",
@@ -798,8 +799,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [33]",
-                "🇪🇪 EE | 🔒 VLESS | @config_proxy [42]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [34]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1318,6 +1319,7 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "🇪🇪 EE | 🔒 VLESS | @v2raych [8]",
                 "🚩 CF | 🔓 VLESS | @v2raying [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [3]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [5]",
@@ -2023,7 +2025,34 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [33]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [34]",
+            "type": "vless",
+            "server": "t.me",
+            "server_port": 0,
+            "uuid": "fb557b79-8554-40d4-994f-0f4be3ca0cee",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Co_fWsuPQ7frIIzkuH-Y0EjHz5vOSh3ZaWVqg0m0YV0",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [40]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2083,
@@ -2044,29 +2073,6 @@
                 "path": "/free",
                 "headers": {
                     "Host": "khtls.appcity-download.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇪🇪 EE | 🔒 VLESS | @config_proxy [42]",
-            "type": "vless",
-            "server": "ee.staropay.ru",
-            "server_port": 443,
-            "uuid": "f487032e-75d3-4902-9e45-5c5aa3f48e93",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ee.staropay.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Cf9qhV2u44BbyI4nHmOrDWLq9qvj12fESTKCqYEAvzg",
-                    "short_id": "8c860131f34dacc7¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---"
                 }
             }
         },
@@ -10827,6 +10833,29 @@
                 "path": "/?ed=2048",
                 "headers": {
                     "Host": "xjp.caball.link"
+                }
+            }
+        },
+        {
+            "tag": "🇪🇪 EE | 🔒 VLESS | @v2raych [8]",
+            "type": "vless",
+            "server": "ee.staropay.ru",
+            "server_port": 443,
+            "uuid": "f487032e-75d3-4902-9e45-5c5aa3f48e93",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ee.staropay.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Cf9qhV2u44BbyI4nHmOrDWLq9qvj12fESTKCqYEAvzg",
+                    "short_id": "8c860131f34dacc7¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---"
                 }
             }
         },
