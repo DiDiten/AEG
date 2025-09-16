@@ -118,7 +118,7 @@
                 "🚩 CF | 🔓 VLESS | @flyv2ray [11]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [13]",
-                "🚩 CF | 🔒 VLESS | @freeconfigsplus [17]",
+                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [17]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [18]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "❔ XX | 🔓 VLESS | @freev2raym [10]",
@@ -215,7 +215,6 @@
                 "🇫🇮 FI | 🔓 VLESS | @orange_vpns [13]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [17]",
                 "🚩 CF | 🔒 VLESS | @outline_ir [19]",
-                "🚩 CF | 🔒 VLESS | @outlinev2rayng [12]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -276,6 +275,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [12]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "❔ XX | 🔒 VLESS | @v2rayza [20]",
+                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [21]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
@@ -350,7 +350,7 @@
                 "🚩 CF | 🔓 VLESS | @flyv2ray [11]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [13]",
-                "🚩 CF | 🔒 VLESS | @freeconfigsplus [17]",
+                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [17]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [18]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "❔ XX | 🔓 VLESS | @freev2raym [10]",
@@ -447,7 +447,6 @@
                 "🇫🇮 FI | 🔓 VLESS | @orange_vpns [13]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [17]",
                 "🚩 CF | 🔒 VLESS | @outline_ir [19]",
-                "🚩 CF | 🔒 VLESS | @outlinev2rayng [12]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -508,6 +507,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [12]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "❔ XX | 🔒 VLESS | @v2rayza [20]",
+                "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [21]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
@@ -1259,7 +1259,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @freeconfigsplus [17]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [17]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
@@ -2844,31 +2844,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @outlinev2rayng [12]",
-            "type": "vless",
-            "server": "ovhwuxian.pai50288.uk",
-            "server_port": 8443,
-            "uuid": "57ba2ab1-a283-42eb-82ee-dc3561a805b8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ovhwuxian.pai50288.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/57ba2ab1",
-                "headers": {
-                    "Host": "ovhwuxian.pai50288.uk"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
             "type": "vless",
             "server": "iran.nikirani.sfree.persianmemberiranmember.shop",
@@ -3943,6 +3918,15 @@
                     "Host": "baipiao1.curly-train.pages.dev"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [21]",
+            "type": "vless",
+            "server": "m61a.vip784.com",
+            "server_port": 33801,
+            "uuid": "cc3afbee-5a0c-475e-85a0-fcb15236e2f7",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
