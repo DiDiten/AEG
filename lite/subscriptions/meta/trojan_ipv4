@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇭🇰 HK | 🔒 TROJAN | @hope_net [19]","type":"trojan","server":"45.146.232.171","port":27101,"password":"26e159d2-ec3a-4005-97c7-eb480bab096d","skip-cert-verify":false}
-  - {"name":"🚩 CF | 🔒 TROJAN | @hope_net [20]","type":"trojan","server":"172.67.213.48","port":443,"password":"auto","skip-cert-verify":false}
+  - {"name":"🚩 CF | 🔒 TROJAN | @hope_net [18]","type":"trojan","server":"172.67.213.48","port":443,"password":"auto","skip-cert-verify":false}
+  - {"name":"🇮🇪 IE | 🔒 TROJAN | @hope_net [19]","type":"trojan","server":"52.48.220.46","port":22222,"password":"telegram-id-directvpn","skip-cert-verify":false}
+  - {"name":"🚩 CF | 🔒 TROJAN | @hope_net [20]","type":"trojan","server":"104.20.20.111","port":443,"password":"auto","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]","type":"trojan","server":"3.70.33.164","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
   - {"name":"🚩 CF | 🔒 TROJAN | @outline_ir [19]","type":"trojan","server":"172.67.156.25","port":443,"password":"f282b878-8711-45a1-8c69-5564172123c1","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]","type":"trojan","server":"3.64.195.143","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
@@ -50,7 +51,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇭🇰 HK | 🔒 TROJAN | @hope_net [19]'
+      - '🚩 CF | 🔒 TROJAN | @hope_net [18]'
+      - '🇮🇪 IE | 🔒 TROJAN | @hope_net [19]'
       - '🚩 CF | 🔒 TROJAN | @hope_net [20]'
       - '🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]'
       - '🚩 CF | 🔒 TROJAN | @outline_ir [19]'
