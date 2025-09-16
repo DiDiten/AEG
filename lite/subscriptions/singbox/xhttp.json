@@ -97,9 +97,10 @@
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [25]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [27]",
-                "🇳🇱 NL | 🔒 VLESS | @falcunargo [10]",
+                "🇳🇱 NL | 🔒 VLESS | @falcunargo [9]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [15]",
-                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [5]",
+                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [4]",
+                "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [14]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
@@ -138,9 +139,10 @@
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [25]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [27]",
-                "🇳🇱 NL | 🔒 VLESS | @falcunargo [10]",
+                "🇳🇱 NL | 🔒 VLESS | @falcunargo [9]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [15]",
-                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [5]",
+                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [4]",
+                "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [14]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
@@ -309,7 +311,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @falcunargo [10]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @falcunargo [9]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -341,7 +343,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @mowjproxy [5]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @mowjproxy [4]",
             "type": "vless",
             "server": "free1.behnambani.blog",
             "server_port": 8880,
@@ -360,6 +362,24 @@
                     "enabled": true,
                     "public_key": "9s9c-3kWlrWIOlrDzCADQgvoSDxjIM7jALKVSZq8oxA",
                     "short_id": "2db7"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [14]",
+            "type": "vless",
+            "server": "sss86489.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "92b022a6-67f3-4406-840b-8fec2f4aace8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss86489.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
