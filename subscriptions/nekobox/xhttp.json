@@ -85,6 +85,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [10]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [29]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [1]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [7]",
@@ -219,6 +221,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [10]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [29]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [1]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [1]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [7]",
@@ -469,6 +473,38 @@
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [29]",
+            "type": "vless",
+            "server": "david2.lemoex.blog",
+            "server_port": 2053,
+            "uuid": "cc08501f-47b9-4fc8-a1c6-315dc797b21b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "david2.lemoex.blog",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "po5XxOfaSooi7FbECg_rxGIKWpcu1ql2QcglwuJ3MlI",
+                    "short_id": "6bcacd775e"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "e1b03e71-de0e-4b3c-80c1-5b9e2173d6ff",
             "flow": "",
             "packet_encoding": "xudp"
         },

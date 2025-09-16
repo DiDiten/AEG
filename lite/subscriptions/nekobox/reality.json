@@ -116,6 +116,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [20]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [34]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [2]",
@@ -210,6 +211,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [20]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [34]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇷🇺 RU | 🔒 VLESS | @dalton_ping [2]",
@@ -1224,6 +1226,29 @@
                     "enabled": true,
                     "public_key": "277HDYaNIvLYS9CMSr1CbkcTaahPEUCymW_0Ad17p2M",
                     "short_id": "f2"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [34]",
+            "type": "vless",
+            "server": "103.253.43.210",
+            "server_port": 8443,
+            "uuid": "566f9e07-3185-4f5b-9c5c-10caf699dc68",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5hKDqL2dBu7jbCfC_xW5omNEGUzPme8qF4mJOrXuHGY",
+                    "short_id": ""
                 }
             }
         },

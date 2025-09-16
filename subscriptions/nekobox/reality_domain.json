@@ -85,6 +85,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔒 VLESS | @config_proxy [24]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [29]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -142,7 +144,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [143]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [146]",
+                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [146]",
                 "❔ XX | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -210,6 +212,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔒 VLESS | @config_proxy [24]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [29]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -267,7 +271,7 @@
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [143]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [146]",
+                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [146]",
                 "❔ XX | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -534,6 +538,52 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [24]",
+            "type": "vless",
+            "server": "ger.afterhav.ir",
+            "server_port": 8880,
+            "uuid": "de30882a-e276-443c-9abb-09142d1650a7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com.cn",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "i9i0gRbOcihFuDWgbY8fiRO-uYfmkbAixksapkkI_wA",
+                    "short_id": "e5caf4654f"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [29]",
+            "type": "vless",
+            "server": "david2.lemoex.blog",
+            "server_port": 2053,
+            "uuid": "cc08501f-47b9-4fc8-a1c6-315dc797b21b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "david2.lemoex.blog",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "po5XxOfaSooi7FbECg_rxGIKWpcu1ql2QcglwuJ3MlI",
+                    "short_id": "6bcacd775e"
+                }
             }
         },
         {
@@ -1931,7 +1981,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [146]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [146]",
             "type": "vless",
             "server": "deu300.unlocknet.org",
             "server_port": 443,
