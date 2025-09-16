@@ -86,8 +86,8 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
-                "🇺🇸 US | 🔓 TROJAN | @hope_net [18]",
-                "🇨🇦 CA | 🔒 TROJAN | @hope_net [20]",
+                "🇨🇦 CA | 🔒 TROJAN | @hope_net [18]",
+                "🇺🇸 US | 🔒 TROJAN | @hope_net [19]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
@@ -115,8 +115,8 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
-                "🇺🇸 US | 🔓 TROJAN | @hope_net [18]",
-                "🇨🇦 CA | 🔒 TROJAN | @hope_net [20]",
+                "🇨🇦 CA | 🔒 TROJAN | @hope_net [18]",
+                "🇺🇸 US | 🔒 TROJAN | @hope_net [19]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
@@ -337,21 +337,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 TROJAN | @hope_net [18]",
-            "type": "trojan",
-            "server": "151.101.3.10",
-            "server_port": 80,
-            "password": "cefffd1d-cc58-4560-b4d1-44f1af528f30",
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2048",
-                "headers": {
-                    "Host": "151.101.3.10"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔒 TROJAN | @hope_net [20]",
+            "tag": "🇨🇦 CA | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "52.60.170.144",
             "server_port": 22222,
@@ -359,6 +345,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 TROJAN | @hope_net [19]",
+            "type": "trojan",
+            "server": "152.70.115.209",
+            "server_port": 45800,
+            "password": "xjN4xcuPGg55",
+            "tls": {
+                "enabled": true,
+                "server_name": "h.522226.xyz",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

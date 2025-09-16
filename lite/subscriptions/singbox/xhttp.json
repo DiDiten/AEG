@@ -103,7 +103,6 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [37]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [7]",
@@ -146,7 +145,6 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [37]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [7]",
@@ -365,24 +363,6 @@
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [37]",
-            "type": "vless",
-            "server": "172.233.161.133",
-            "server_port": 443,
-            "uuid": "f5237fcf-d238-44bc-8ff2-4f449344394c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "172.233.161.133",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
