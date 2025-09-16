@@ -113,10 +113,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [13]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
-                "🇳🇱 NL | 🔒 VLESS | @netmellianti [16]",
-                "🇩🇪 DE | 🔒 VLESS | @netmellianti [17]",
+                "🇩🇪 DE | 🔒 VLESS | @netmellianti [16]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇱🇺 LU | 🔒 VLESS | @selinc [4]",
@@ -136,7 +136,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vmesc [16]",
                 "🇷🇺 RU | 🔒 VLESS | @vmesc [17]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [12]"
+                "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -168,10 +168,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [13]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
-                "🇳🇱 NL | 🔒 VLESS | @netmellianti [16]",
-                "🇩🇪 DE | 🔒 VLESS | @netmellianti [17]",
+                "🇩🇪 DE | 🔒 VLESS | @netmellianti [16]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇱🇺 LU | 🔒 VLESS | @selinc [4]",
@@ -191,7 +191,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vmesc [16]",
                 "🇷🇺 RU | 🔒 VLESS | @vmesc [17]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [12]"
+                "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -773,6 +773,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+            "type": "vless",
+            "server": "93.94.52.137",
+            "server_port": 443,
+            "uuid": "e43fcf67-4bbd-442b-96a5-cca945049f4e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.t3n.de",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔒 VLESS | @msv2flyng [13]",
             "type": "vless",
             "server": "5.181.171.2",
@@ -819,30 +842,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @netmellianti [16]",
-            "type": "vless",
-            "server": "192.142.18.40",
-            "server_port": 2589,
-            "uuid": "8f0120f1-ba26-e137-5e06-a99b844741aa",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
-                    "short_id": "e41865e506628f44"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @netmellianti [17]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @netmellianti [16]",
             "type": "vless",
             "server": "77.81.65.10",
             "server_port": 443,
@@ -1306,16 +1306,16 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [12]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [14]",
             "type": "vless",
-            "server": "185.138.88.58",
+            "server": "188.225.80.14",
             "server_port": 443,
-            "uuid": "95bbb722-7641-4247-b795-25a2f540e67b",
+            "uuid": "5475990d-e0ce-46ea-95e5-50f9e4879af9",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.bol.com",
+                "server_name": "ru.sfasti.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1323,8 +1323,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
                 }
             }
         }
