@@ -86,6 +86,8 @@
                 "🇫🇷 FR | 🔓 VLESS | @bored_vpn [14]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -236,8 +238,6 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_youtube [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_youtube [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
-                "🇭🇰 HK | 🔒 VLESS | @v2raych [18]",
-                "🇫🇷 FR | 🔓 VLESS | @v2raych [20]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -299,6 +299,8 @@
                 "🇫🇷 FR | 🔓 VLESS | @bored_vpn [14]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -449,8 +451,6 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_youtube [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_youtube [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
-                "🇭🇰 HK | 🔒 VLESS | @v2raych [18]",
-                "🇫🇷 FR | 🔓 VLESS | @v2raych [20]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -687,6 +687,52 @@
                 "path": "/veNbt06rF0tTFtp6/MTcyLjY0LjEzNC41OA==?ed=2560",
                 "headers": {
                     "Host": "SpEedteST.NET"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
+            "type": "vless",
+            "server": "85.158.110.62",
+            "server_port": 8443,
+            "uuid": "c4ab8b78-09e0-4f0b-8524-5f7a76e2edf4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+            "type": "vless",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam-309",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
                 }
             }
         },
@@ -3232,42 +3278,6 @@
             "uuid": "689f682b-7d9a-4967-82fb-775018428644",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @v2raych [18]",
-            "type": "vless",
-            "server": "156.225.23.208",
-            "server_port": 40429,
-            "uuid": "13e0940a-5234-4702-b610-037b1bca9809",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "KkVrTtjrIuF8vXrXAQ-g8I25Fzih4QILMB05ObSnvRo",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @v2raych [20]",
-            "type": "vless",
-            "server": "51.91.141.226",
-            "server_port": 24830,
-            "uuid": "ec6ecb01-c532-4926-81dc-31592ba50c72",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
-            }
         },
         {
             "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",

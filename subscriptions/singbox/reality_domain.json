@@ -97,8 +97,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
-                "🇹🇼 TW | 🔒 VLESS | @config_proxy [41]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
+                "🇹🇼 TW | 🔒 VLESS | @config_proxy [28]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [29]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -224,8 +225,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @ai_duet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
-                "🇹🇼 TW | 🔒 VLESS | @config_proxy [41]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
+                "🇹🇼 TW | 🔒 VLESS | @config_proxy [28]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [29]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -549,7 +551,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
             "type": "vless",
             "server": "deu106.worldunbound.org",
             "server_port": 443,
@@ -572,7 +574,7 @@
             }
         },
         {
-            "tag": "🇹🇼 TW | 🔒 VLESS | @config_proxy [41]",
+            "tag": "🇹🇼 TW | 🔒 VLESS | @config_proxy [28]",
             "type": "vless",
             "server": "tw131.taichu.icu",
             "server_port": 34222,
@@ -592,6 +594,33 @@
                     "public_key": "GAn10y_sUf56QrqXn1-h9uOlfYqVzErtZ-Iv34JRiGg",
                     "short_id": "2dda0691e08f"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [29]",
+            "type": "vless",
+            "server": "ab.iranlit.ir",
+            "server_port": 9520,
+            "uuid": "b8ee2e23-b026-4f40-a036-8b67c6e3c145",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3EWvgfHUv-7aKL47dJL1WiIHY43aeWo8QUZRjzCw0RI",
+                    "short_id": "6f84e8adb893b4bd"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "9520vless"
             }
         },
         {

@@ -107,11 +107,11 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [27]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [33]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [39]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
-                "🇹🇼 TW | 🔒 VLESS | @config_proxy [41]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [26]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
+                "🇹🇼 TW | 🔒 VLESS | @config_proxy [28]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [29]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -801,11 +801,11 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [27]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [33]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [39]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
-                "🇹🇼 TW | 🔒 VLESS | @config_proxy [41]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [26]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
+                "🇹🇼 TW | 🔒 VLESS | @config_proxy [28]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [29]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -2029,34 +2029,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [27]",
-            "type": "vless",
-            "server": "tnl2.tsto.ir",
-            "server_port": 1090,
-            "uuid": "4382c524-7b6f-49fd-9b67-8e12522579a2",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [33]",
-            "type": "vless",
-            "server": "newus-ceg5.555199.xyz",
-            "server_port": 8443,
-            "uuid": "d5a5b3a4-ae52-46cc-bdf6-334146e18f1d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ssl.wsfog.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [39]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [26]",
             "type": "vless",
             "server": "bm.boulvarmoein.shop",
             "server_port": 8080,
@@ -2069,7 +2042,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
             "type": "vless",
             "server": "deu106.worldunbound.org",
             "server_port": 443,
@@ -2092,7 +2065,7 @@
             }
         },
         {
-            "tag": "🇹🇼 TW | 🔒 VLESS | @config_proxy [41]",
+            "tag": "🇹🇼 TW | 🔒 VLESS | @config_proxy [28]",
             "type": "vless",
             "server": "tw131.taichu.icu",
             "server_port": 34222,
@@ -2111,6 +2084,58 @@
                     "enabled": true,
                     "public_key": "GAn10y_sUf56QrqXn1-h9uOlfYqVzErtZ-Iv34JRiGg",
                     "short_id": "2dda0691e08f"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [29]",
+            "type": "vless",
+            "server": "ab.iranlit.ir",
+            "server_port": 9520,
+            "uuid": "b8ee2e23-b026-4f40-a036-8b67c6e3c145",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3EWvgfHUv-7aKL47dJL1WiIHY43aeWo8QUZRjzCw0RI",
+                    "short_id": "6f84e8adb893b4bd"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "9520vless"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [32]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "289a4e03-317f-4bf8-97d3-e33200df6a2b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sImowebSiteSpEEdTeSt.IR",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/0i3sSB43PWBO30wK/ODguMTk4LjgyLjE1MQ",
+                "headers": {
+                    "Host": "sImowebSiteSpEEdTeSt.IR"
                 }
             }
         },
