@@ -91,6 +91,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [8]",
+                "🇩🇪 DE | 🔒 VLESS | @hope_net [19]",
                 "🇹🇷 TR | 🔒 VLESS | @iseqaro [1]",
                 "🇱🇻 LV | 🔒 VLESS | @iseqaro [2]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
@@ -101,7 +102,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [16]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇨🇭 CH | 🔒 VLESS | @mowjproxy [3]",
+                "🇱🇻 LV | 🔒 VLESS | @mowjproxy [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [13]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇬🇧 GB | 🔒 VLESS | @netmellianti [16]",
@@ -125,7 +126,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vmesc [16]",
                 "🇷🇺 RU | 🔒 VLESS | @vmesc [17]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [14]"
+                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [13]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -147,6 +148,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [8]",
+                "🇩🇪 DE | 🔒 VLESS | @hope_net [19]",
                 "🇹🇷 TR | 🔒 VLESS | @iseqaro [1]",
                 "🇱🇻 LV | 🔒 VLESS | @iseqaro [2]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
@@ -157,7 +159,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [16]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇨🇭 CH | 🔒 VLESS | @mowjproxy [3]",
+                "🇱🇻 LV | 🔒 VLESS | @mowjproxy [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [13]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇬🇧 GB | 🔒 VLESS | @netmellianti [16]",
@@ -181,7 +183,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vmesc [16]",
                 "🇷🇺 RU | 🔒 VLESS | @vmesc [17]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [14]"
+                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [13]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -529,6 +531,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "188.245.86.165",
+            "server_port": 1616,
+            "uuid": "f8275dfe-4fd7-46b2-8d6c-de1891afb443",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0",
+                    "short_id": "3a622700e73c6642"
+                }
+            }
+        },
+        {
             "tag": "🇹🇷 TR | 🔒 VLESS | @iseqaro [1]",
             "type": "vless",
             "server": "45.89.52.228",
@@ -767,16 +792,16 @@
             }
         },
         {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @mowjproxy [3]",
+            "tag": "🇱🇻 LV | 🔒 VLESS | @mowjproxy [4]",
             "type": "vless",
-            "server": "141.227.138.45",
-            "server_port": 3037,
-            "uuid": "4f614742-6ba2-4aa1-a69f-339aad2406ff",
+            "server": "94.131.104.178",
+            "server_port": 443,
+            "uuid": "d5c1b5d7-055b-4457-bc3a-6e99919c1bcb",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "latvia6.clearorbitllc.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -784,8 +809,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
-                    "short_id": ""
+                    "public_key": "LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw",
+                    "short_id": "81e0b568"
                 }
             }
         },
@@ -1323,7 +1348,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [14]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [13]",
             "type": "vless",
             "server": "45.77.148.171",
             "server_port": 3035,
