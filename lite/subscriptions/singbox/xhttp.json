@@ -99,9 +99,11 @@
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [27]",
                 "🇳🇱 NL | 🔒 VLESS | @falcunargo [9]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [15]",
-                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [3]",
+                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [2]",
                 "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [14]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [18]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [20]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
@@ -111,6 +113,7 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🇺🇸 US | 🔓 VLESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
@@ -141,9 +144,11 @@
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [27]",
                 "🇳🇱 NL | 🔒 VLESS | @falcunargo [9]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [15]",
-                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [3]",
+                "🇫🇮 FI | 🔒 VLESS | @mowjproxy [2]",
                 "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [14]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [18]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [20]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
@@ -153,6 +158,7 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🇺🇸 US | 🔓 VLESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
@@ -343,7 +349,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @mowjproxy [3]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @mowjproxy [2]",
             "type": "vless",
             "server": "free1.behnambani.blog",
             "server_port": 8880,
@@ -391,6 +397,42 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "sss7661.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "ee845a26-9d15-4cac-b3a0-fc0c0c8135af",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss7661.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "sss7661.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "ee845a26-9d15-4cac-b3a0-fc0c0c8135af",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss7661.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
@@ -526,6 +568,15 @@
             "server": "185.18.250.67",
             "server_port": 8080,
             "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @mowjproxy [4]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "29bc04eb-3733-4162-8190-c02b39a85f9e",
             "flow": "",
             "packet_encoding": "xudp"
         },
