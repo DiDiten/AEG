@@ -84,6 +84,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -109,10 +110,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [7]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [10]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [21]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [2]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [1]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [3]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [4]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [5]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [6]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
@@ -213,6 +214,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -238,10 +240,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [7]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [10]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [21]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [2]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [1]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [3]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [4]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [5]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [6]",
                 "🇵🇱 PL | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
@@ -515,6 +517,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "legendary.zooboming.com",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UrOqDBAvEnjISHdVDzEnJRyb0HUM8xjCIWXZcd8w1CA",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers"
             }
         },
         {
@@ -1125,7 +1154,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [2]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [1]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -1148,7 +1177,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [4]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [3]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -1171,7 +1200,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [5]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [4]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -1194,7 +1223,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [6]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [5]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,

@@ -97,9 +97,12 @@
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [28]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [12]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [11]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [6]",
                 "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [13]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -116,9 +119,12 @@
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [28]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [12]",
+                "🇳🇱 NL | 🔒 VLESS | @freakconfig [11]",
+                "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [6]",
                 "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [13]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -265,7 +271,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [12]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [11]",
             "type": "vless",
             "server": "FreakConfig.snapfood.org",
             "server_port": 443,
@@ -286,6 +292,33 @@
                     "short_id": "d6486c8c60d64283"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
+            "type": "vless",
+            "server": "sss92681.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "54801305-3e0e-4d90-8996-b67065155465",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss92681.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [6]",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "2816ea9e-cd14-40ad-b613-2a560cb4b878",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [13]",
@@ -311,6 +344,15 @@
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "2816ea9e-cd14-40ad-b613-2a560cb4b878",
             "flow": "",
             "packet_encoding": "xudp"
         },
