@@ -103,7 +103,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [31]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [37]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [7]",
@@ -276,7 +277,6 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🚩 CF | 🔒 VLESS | @v2raych [18]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
@@ -334,7 +334,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [31]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
+                "🇸🇮 SI | 🔒 VLESS | @config_proxy [37]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [7]",
@@ -507,7 +508,6 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🚩 CF | 🔒 VLESS | @v2raych [18]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
@@ -814,27 +814,48 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [31]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
             "type": "vless",
-            "server": "wvs.sosorg.nyc.mn",
+            "server": "world-of.ru",
             "server_port": 443,
-            "uuid": "d9c2abec-7437-41c0-bdd4-30e8c3e91510",
-            "flow": "",
+            "uuid": "d187b256-2d84-4b5e-8ba2-a7038f58478b",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "aa.wfht227.dpdns.org",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9QOmx7k0-uCbUrgh7ee9x9qtLIOEVyeYiZI2aiimYEs",
+                    "short_id": "71e48a"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/snippets?ip=proxyip:port(443)",
-                "headers": {
-                    "Host": "aa.wfht227.dpdns.org"
+            }
+        },
+        {
+            "tag": "🇸🇮 SI | 🔒 VLESS | @config_proxy [37]",
+            "type": "vless",
+            "server": "tunnyl.ru",
+            "server_port": 443,
+            "uuid": "3cf33be3-a86f-4e7c-b101-136382816670",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "suqEZ-Y0ekSa7F_zGFeRhCLIJqZbnmBbnZJ-zYT7iQI",
+                    "short_id": "5c0333ed45b1"
                 }
             }
         },
@@ -3797,31 +3818,6 @@
                 "path": "/?ed=2048",
                 "headers": {
                     "Host": "xjp.caball.link"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @v2raych [18]",
-            "type": "vless",
-            "server": "wvs.sosorg.nyc.mn",
-            "server_port": 443,
-            "uuid": "0eafe27e-1d3c-4649-8862-840e611b32bf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "aa.wfht227.dpdns.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/snippets?ip=proxyip:port(443)",
-                "headers": {
-                    "Host": "aa.wfht227.dpdns.org"
                 }
             }
         },

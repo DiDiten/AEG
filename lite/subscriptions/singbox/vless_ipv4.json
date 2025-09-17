@@ -98,7 +98,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [30]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [35]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -146,6 +146,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [8]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "🇺🇸 US | 🔓 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
@@ -253,6 +254,8 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_youtube [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_youtube [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
+                "🚩 CF | 🔓 VLESS | @v2raych [18]",
+                "🚩 CF | 🔒 VLESS | @v2raych [20]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -315,7 +318,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [30]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [35]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -363,6 +366,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [8]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "🇺🇸 US | 🔓 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
@@ -470,6 +474,8 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_youtube [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_youtube [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
+                "🚩 CF | 🔓 VLESS | @v2raych [18]",
+                "🚩 CF | 🔒 VLESS | @v2raych [20]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -710,9 +716,9 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [30]",
+            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [35]",
             "type": "vless",
-            "server": "85.158.110.62",
+            "server": "103.253.43.210",
             "server_port": 8443,
             "uuid": "5345922c-7e6b-4777-ba8e-d39169d9b738",
             "flow": "xtls-rprx-vision",
@@ -727,7 +733,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
+                    "public_key": "5hKDqL2dBu7jbCfC_xW5omNEGUzPme8qF4mJOrXuHGY",
                     "short_id": ""
                 }
             }
@@ -1592,6 +1598,22 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "151.101.0.155",
+            "server_port": 80,
+            "uuid": "695dbce4-6d31-449a-86d9-1e2fb4633c79",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048",
+                "headers": {
+                    "Host": "151.101.0.155"
                 }
             }
         },
@@ -3345,6 +3367,40 @@
             "uuid": "689f682b-7d9a-4967-82fb-775018428644",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "104.17.207.36",
+            "server_port": 8880,
+            "uuid": "452276f4-fce9-4025-8e5a-adae596eca93",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "172.67.164.1",
+            "server_port": 443,
+            "uuid": "ec7de7e0-3f09-4ef4-8a34-e441917d65fa",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "verina.ccantarella.dns-dynamic.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram---MTMVPN---MTMVPN",
+                "headers": {
+                    "Host": "verina.ccantarella.dns-dynamic.net"
+                }
+            }
         },
         {
             "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
