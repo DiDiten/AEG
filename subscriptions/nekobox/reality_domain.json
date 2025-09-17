@@ -84,6 +84,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -137,15 +138,15 @@
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [16]",
                 "🇷🇺 RU | 🔒 VLESS | @orange_vpns [4]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [8]",
-                "🇷🇺 RU | 🔒 VLESS | @outlinev2rayng [13]",
+                "🇷🇺 RU | 🔒 VLESS | @outlinev2rayng [12]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [1]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [131]",
-                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [134]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [137]",
+                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [140]",
                 "❔ XX | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -214,6 +215,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -267,15 +269,15 @@
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [16]",
                 "🇷🇺 RU | 🔒 VLESS | @orange_vpns [4]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [8]",
-                "🇷🇺 RU | 🔒 VLESS | @outlinev2rayng [13]",
+                "🇷🇺 RU | 🔒 VLESS | @outlinev2rayng [12]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @proxycrone [1]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [131]",
-                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [134]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [137]",
+                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [140]",
                 "❔ XX | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -517,6 +519,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇱🇹 LT | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "hield.ru",
+            "server_port": 443,
+            "uuid": "8faa9cb7-914a-4803-8993-7fb8d36bf4c0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JPm5aPILktbakyQ21Q3p4ABm3NHBIVMmaumDveRBGws",
+                    "short_id": "06c6eb7423f24de5"
+                }
             }
         },
         {
@@ -1830,7 +1855,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @outlinev2rayng [13]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @outlinev2rayng [12]",
             "type": "vless",
             "server": "ru.sfasti.ru",
             "server_port": 443,
@@ -1995,7 +2020,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [131]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [137]",
             "type": "vless",
             "server": "deu90.worldunbound.org",
             "server_port": 443,
@@ -2018,7 +2043,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [134]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [140]",
             "type": "vless",
             "server": "deu300.unlocknet.org",
             "server_port": 443,
