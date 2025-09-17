@@ -86,8 +86,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [28]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [11]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
+                "🇺🇸 US | 🔓 VLESS | @mowjproxy [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
@@ -106,8 +105,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [28]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
-                "🇳🇱 NL | 🔒 VLESS | @freakconfig [11]",
-                "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
+                "🇺🇸 US | 🔓 VLESS | @mowjproxy [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
@@ -268,45 +266,13 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @freakconfig [11]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @mowjproxy [4]",
             "type": "vless",
-            "server": "FreakConfig.snapfood.org",
-            "server_port": 443,
-            "uuid": "FreakConfig",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uGKtIaCzqXoH50sIyN9lLXeRut0BwB6ppeaWhzRzH2k",
-                    "short_id": "d6486c8c60d64283"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @freakconfig [13]",
-            "type": "vless",
-            "server": "sss92681.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "54801305-3e0e-4d90-8996-b67065155465",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "2816ea9e-cd14-40ad-b613-2a560cb4b878",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss92681.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
