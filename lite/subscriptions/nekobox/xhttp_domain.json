@@ -81,13 +81,13 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [20]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [47]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [28]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
                 "🚩 CF | 🔓 VLESS | @falcunargo [11]",
+                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [11]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
@@ -101,13 +101,13 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [20]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [47]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [28]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
                 "🚩 CF | 🔓 VLESS | @falcunargo [11]",
+                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [11]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
@@ -209,15 +209,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [47]",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "2816ea9e-cd14-40ad-b613-2a560cb4b878",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
             "type": "vless",
             "server": "germany.fast.hosting-ip.com",
@@ -284,6 +275,24 @@
             "uuid": "SERVERNETT-SERVERNETT1",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @lranonline_new [11]",
+            "type": "vless",
+            "server": "sss92681.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "54801305-3e0e-4d90-8996-b67065155465",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss92681.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
