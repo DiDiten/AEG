@@ -82,12 +82,13 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [10]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [12]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [11]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -130,12 +131,13 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [10]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [12]",
                 "🇳🇱 NL | 🔒 VLESS | @freakconfig [11]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -306,6 +308,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "abri.abriabri.ir",
+            "server_port": 32167,
+            "uuid": "0f1065c0-2c48-4d7c-b7da-1af5ca0e8af3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8GR3JcYx9_MbgHhxdSAOt-PLsO7tFg4yidfCCwtbQ1E",
+                    "short_id": "e0"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -425,11 +450,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [10]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [12]",
             "type": "vless",
             "server": "order.dissertationhelpspecialist.com",
             "server_port": 443,
-            "uuid": "cf4d1019-b05e-41fa-94dc-50baa4a85453",
+            "uuid": "cd694e1e-bc31-4690-8521-c18a152f392c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
