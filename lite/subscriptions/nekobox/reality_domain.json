@@ -82,6 +82,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [46]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -96,6 +97,7 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [15]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
@@ -129,6 +131,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [46]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -143,6 +146,7 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [15]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
@@ -301,6 +305,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [46]",
+            "type": "vless",
+            "server": "a841f0f117d001b8b300cbba88b0017f.toppfast.ir",
+            "server_port": 443,
+            "uuid": "515de179-5082-4737-a7e7-56b0c3582871",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0xoTSosOlaWzm79GuMk-tNQso5vLeh-67XujO1Ue1R8",
+                    "short_id": "7af48bc670"
+                }
             }
         },
         {
@@ -651,6 +678,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [15]",
+            "type": "vless",
+            "server": "uisacorp1yl7nz9xw6mt3vk8qd5rp2gj4bs1jcoruisa.outline360bot.com",
+            "server_port": 443,
+            "uuid": "aca8c3b9-9637-4c90-937b-64d30b6dcb45",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fv0Zz9FtroOmuK1Tsn0u98gXSq8XepZKtbdH3lDg9EU",
+                    "short_id": "ad2e"
+                }
             }
         },
         {
