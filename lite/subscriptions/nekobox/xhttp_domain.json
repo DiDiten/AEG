@@ -86,9 +86,9 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [27]",
                 "🇳🇱 NL | 🔒 VLESS | @falcunargo [9]",
-                "🚩 CF | 🔒 VLESS | @mowjproxy [2]",
                 "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [14]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
@@ -107,9 +107,9 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [27]",
                 "🇳🇱 NL | 🔒 VLESS | @falcunargo [9]",
-                "🚩 CF | 🔒 VLESS | @mowjproxy [2]",
                 "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [14]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
@@ -284,24 +284,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @mowjproxy [2]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "053eaa67-99d9-4b1d-b5ef-32c485566cfb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "77777788.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @outlinev2rayng [14]",
             "type": "vless",
             "server": "sss86489.tas-bazi.com",
@@ -327,6 +309,24 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "053eaa67-99d9-4b1d-b5ef-32c485566cfb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "77777788.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
