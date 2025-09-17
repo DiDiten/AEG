@@ -274,6 +274,7 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [18]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
@@ -502,6 +503,7 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [18]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
@@ -3739,6 +3741,31 @@
                 "path": "/?ed=2048",
                 "headers": {
                     "Host": "xjp.caball.link"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "tuntun.masumehkachal.org",
+            "server_port": 443,
+            "uuid": "41b21336-090a-433f-b9ed-50a31ac0d9b0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tuntun.masumehkachal.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "tuntun.masumehkachal.org"
                 }
             }
         },
