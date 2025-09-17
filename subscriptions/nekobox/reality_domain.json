@@ -141,7 +141,7 @@
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @proxycrone [2]",
+                "🇩🇪 DE | 🔒 VLESS | @proxycrone [1]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [131]",
@@ -159,6 +159,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @selinc [5]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇺🇸 US | 🔒 VLESS | @v2aryng_vpn [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇵🇱 PL | 🔒 VLESS | @v2ray_sub [72]",
                 "🇱🇻 LV | 🔒 VLESS | @v2ray_sub [73]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
@@ -270,7 +271,7 @@
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @proxycrone [2]",
+                "🇩🇪 DE | 🔒 VLESS | @proxycrone [1]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [131]",
@@ -288,6 +289,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @selinc [5]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇺🇸 US | 🔒 VLESS | @v2aryng_vpn [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇵🇱 PL | 🔒 VLESS | @v2ray_sub [72]",
                 "🇱🇻 LV | 🔒 VLESS | @v2ray_sub [73]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
@@ -1924,7 +1926,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @proxycrone [2]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @proxycrone [1]",
             "type": "vless",
             "server": "abri.abriabri.ir",
             "server_port": 2233,
@@ -2342,6 +2344,29 @@
                     "enabled": true,
                     "public_key": "8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0",
                     "short_id": "5fab0deb"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]",
+            "type": "vless",
+            "server": "hyperspeed.miniproxy.sbs",
+            "server_port": 57554,
+            "uuid": "bb680ef6-9c51-4492-a01a-5fed208981b4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AIXbyZcheUcFihE8a6xjBuV6R0Lu5QxMvFmANtBayjo",
+                    "short_id": "e6b8965784"
                 }
             }
         },

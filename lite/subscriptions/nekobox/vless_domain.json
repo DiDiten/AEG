@@ -92,7 +92,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [20]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [8]",
@@ -223,7 +222,7 @@
                 "🚩 CF | 🔒 VLESS | @proxy_iranv2 [3]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
-                "🇺🇸 US | 🔓 VLESS | @proxycrone [6]",
+                "🇺🇸 US | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
@@ -257,7 +256,7 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "❔ XX | 🔓 VLESS | @v2ray1_ng [5]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [8]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [9]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [16]",
@@ -321,7 +320,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [20]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [8]",
@@ -452,7 +450,7 @@
                 "🚩 CF | 🔒 VLESS | @proxy_iranv2 [3]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
-                "🇺🇸 US | 🔓 VLESS | @proxycrone [6]",
+                "🇺🇸 US | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
@@ -486,7 +484,7 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "❔ XX | 🔓 VLESS | @v2ray1_ng [5]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [8]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [9]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [16]",
@@ -824,24 +822,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
-            "type": "vless",
-            "server": "sss43827.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "3cf69055-74e9-4f7e-9121-d9a9f15ca79d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss43827.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
@@ -3099,7 +3079,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @proxycrone [6]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @proxycrone [5]",
             "type": "vless",
             "server": "turboo-server.aftabz.com",
             "server_port": 80,
@@ -3683,13 +3663,27 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @v2ray1_ng [5]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]",
             "type": "vless",
-            "server": "logan.miniproxy.sbs",
-            "server_port": 37828,
-            "uuid": "844c232a-cc14-4b6c-b613-32d9259792d6",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "hyperspeed.miniproxy.sbs",
+            "server_port": 57554,
+            "uuid": "bb680ef6-9c51-4492-a01a-5fed208981b4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AIXbyZcheUcFihE8a6xjBuV6R0Lu5QxMvFmANtBayjo",
+                    "short_id": "e6b8965784"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @v2ray_iran88 [8]",

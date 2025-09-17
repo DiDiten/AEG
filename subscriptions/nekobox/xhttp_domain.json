@@ -84,6 +84,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [7]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [12]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [35]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -137,7 +138,6 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
-                "🚩 CF | 🔒 VLESS | @v2raych [14]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [3]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raytg [55]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [7]",
@@ -149,6 +149,7 @@
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [5]",
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [6]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [12]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -164,6 +165,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [7]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [12]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [35]",
                 "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -217,7 +219,6 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
-                "🚩 CF | 🔒 VLESS | @v2raych [14]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [3]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raytg [55]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [7]",
@@ -229,6 +230,7 @@
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [5]",
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [6]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [12]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -354,6 +356,24 @@
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [35]",
+            "type": "vless",
+            "server": "sss43827.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "3cf69055-74e9-4f7e-9121-d9a9f15ca79d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss43827.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @configv2rayforfree [2]",
@@ -1144,24 +1164,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @v2raych [14]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "ba1b4bb8-805c-463a-ad06-2e0b92c3eb29",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "85858599.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2raying [3]",
             "type": "vless",
             "server": "sss53988.tas-bazi.com",
@@ -1345,6 +1347,24 @@
             "uuid": "2816ea9e-cd14-40ad-b613-2a560cb4b878",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "ba1b4bb8-805c-463a-ad06-2e0b92c3eb29",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "85858599.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
