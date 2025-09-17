@@ -137,6 +137,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🚩 CF | 🔒 VLESS | @v2raych [14]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [3]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raytg [55]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [7]",
@@ -145,9 +146,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [11]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [9]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [5]",
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [6]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [7]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [12]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -216,6 +217,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🚩 CF | 🔒 VLESS | @v2raych [14]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [3]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raytg [55]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [7]",
@@ -224,9 +226,9 @@
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [11]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [9]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [5]",
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [6]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [7]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [12]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -1142,6 +1144,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @v2raych [14]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "ba1b4bb8-805c-463a-ad06-2e0b92c3eb29",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "85858599.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2raying [3]",
             "type": "vless",
             "server": "sss53988.tas-bazi.com",
@@ -1282,6 +1302,24 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [5]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "053eaa67-99d9-4b1d-b5ef-32c485566cfb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "77777788.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [6]",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1300,25 +1338,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [7]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "053eaa67-99d9-4b1d-b5ef-32c485566cfb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "77777788.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [12]",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
