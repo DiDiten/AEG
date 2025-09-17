@@ -91,6 +91,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [7]",
@@ -220,7 +221,7 @@
                 "🚩 CF | 🔒 VLESS | @proxy_iranv2 [3]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
-                "🇺🇸 US | 🔓 VLESS | @proxycrone [7]",
+                "🇺🇸 US | 🔓 VLESS | @proxycrone [6]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
@@ -262,7 +263,6 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇩🇪 DE | 🔓 VLESS | @v2raych [18]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
@@ -320,6 +320,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [7]",
@@ -449,7 +450,7 @@
                 "🚩 CF | 🔒 VLESS | @proxy_iranv2 [3]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
-                "🇺🇸 US | 🔓 VLESS | @proxycrone [7]",
+                "🇺🇸 US | 🔓 VLESS | @proxycrone [6]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
@@ -491,7 +492,6 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇩🇪 DE | 🔓 VLESS | @v2raych [18]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
@@ -799,6 +799,24 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "krog1d3ces-919916334-direct.khastehnabashi.com",
+            "server_port": 443,
+            "uuid": "krog1d3ces",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "krog1d3ces-919916334-direct.khastehnabashi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -3033,7 +3051,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @proxycrone [7]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @proxycrone [6]",
             "type": "vless",
             "server": "turboo-server.aftabz.com",
             "server_port": 80,
@@ -3733,31 +3751,6 @@
                 "path": "/?ed=2048",
                 "headers": {
                     "Host": "xjp.caball.link"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [18]",
-            "type": "vless",
-            "server": "tuntun.masumehkachal.org",
-            "server_port": 443,
-            "uuid": "41b21336-090a-433f-b9ed-50a31ac0d9b0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tuntun.masumehkachal.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "tuntun.masumehkachal.org"
                 }
             }
         },

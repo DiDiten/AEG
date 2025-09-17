@@ -138,6 +138,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [8]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [3]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raytg [55]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [7]",
@@ -151,6 +153,7 @@
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [31]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [7]",
@@ -180,7 +183,6 @@
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
-                "🇺🇸 US | 🔒 VLESS | @proxycrone [1]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [18]",
@@ -268,6 +270,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [8]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [3]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raytg [55]",
                 "🇩🇪 DE | 🔓 VLESS | @v2trayproxy [7]",
@@ -281,6 +285,7 @@
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [31]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [7]",
@@ -310,7 +315,6 @@
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
-                "🇺🇸 US | 🔒 VLESS | @proxycrone [1]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [18]",
@@ -1244,6 +1248,42 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [8]",
+            "type": "vless",
+            "server": "sss51454.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss51454.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [11]",
+            "type": "vless",
+            "server": "sss43827.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "3cf69055-74e9-4f7e-9121-d9a9f15ca79d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss43827.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2raying [3]",
             "type": "vless",
             "server": "sss53988.tas-bazi.com",
@@ -1473,6 +1513,24 @@
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [31]",
+            "type": "vless",
+            "server": "91.99.117.29",
+            "server_port": 443,
+            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.117.29",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
@@ -1988,29 +2046,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @proxycrone [1]",
-            "type": "vless",
-            "server": "159.203.141.231",
-            "server_port": 2053,
-            "uuid": "6d5afbb4-450c-4798-91ab-71a792b487bb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "openstreetmap.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lHqhMsZfvb_xaxQPKOyIDlaSREGM9tFWjVxl4k9aiBg",
-                    "short_id": "60f78c"
                 }
             }
         },
