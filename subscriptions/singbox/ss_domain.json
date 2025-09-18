@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 SS | @ai_duet [6]",
+                "🇰🇷 KR | 🔒 SS | @config_proxy [30]",
                 "🇬🇧 GB | 🔒 SS | @filtershekan_channel [5]",
                 "🇺🇸 US | 🔒 SS | @freeconfigsplus [9]",
                 "🇺🇸 US | 🔒 SS | @freeconfigsplus [11]",
@@ -113,13 +114,12 @@
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇬🇧 GB | 🔒 SS | @serverv2ray00 [14]",
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
-                "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [12]",
-                "❔ XX | 🔒 SS | @v2raych [11]",
+                "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [11]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇬🇮 GI | 🔒 SS | @v2raytg [57]",
                 "🇦🇹 AT | 🔒 SS | @vmesc [9]",
                 "🇬🇧 GB | 🔒 SS | @vpn_ioss [14]",
-                "🇺🇸 US | 🔒 SS | @zerobaipiao [32]"
+                "🇺🇸 US | 🔒 SS | @zerobaipiao [30]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -131,6 +131,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 SS | @ai_duet [6]",
+                "🇰🇷 KR | 🔒 SS | @config_proxy [30]",
                 "🇬🇧 GB | 🔒 SS | @filtershekan_channel [5]",
                 "🇺🇸 US | 🔒 SS | @freeconfigsplus [9]",
                 "🇺🇸 US | 🔒 SS | @freeconfigsplus [11]",
@@ -151,13 +152,12 @@
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇬🇧 GB | 🔒 SS | @serverv2ray00 [14]",
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
-                "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [12]",
-                "❔ XX | 🔒 SS | @v2raych [11]",
+                "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [11]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇬🇮 GI | 🔒 SS | @v2raytg [57]",
                 "🇦🇹 AT | 🔒 SS | @vmesc [9]",
                 "🇬🇧 GB | 🔒 SS | @vpn_ioss [14]",
-                "🇺🇸 US | 🔒 SS | @zerobaipiao [32]"
+                "🇺🇸 US | 🔒 SS | @zerobaipiao [30]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -250,6 +250,14 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "mps3FwmDjLrWaOVg"
+        },
+        {
+            "tag": "🇰🇷 KR | 🔒 SS | @config_proxy [30]",
+            "type": "shadowsocks",
+            "server": "glance.asuscomm.com",
+            "server_port": 10099,
+            "method": "chacha20-ietf-poly1305",
+            "password": "12242"
         },
         {
             "tag": "🇬🇧 GB | 🔒 SS | @filtershekan_channel [5]",
@@ -412,20 +420,12 @@
             "password": "W74XFALLLuw6m5IA"
         },
         {
-            "tag": "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [12]",
+            "tag": "🇯🇵 JP | 🔒 SS | @v2ray_free_conf [11]",
             "type": "shadowsocks",
             "server": "sakura.outlinekeys.net",
             "server_port": 1235,
             "method": "chacha20-ietf-poly1305",
             "password": "ImKTUQaW05UqH4fdQrvxPg"
-        },
-        {
-            "tag": "❔ XX | 🔒 SS | @v2raych [11]",
-            "type": "shadowsocks",
-            "server": "soonpr.soon.guru",
-            "server_port": 40030,
-            "method": "chacha20-ietf-poly1305",
-            "password": "29fefcc3-9ae1-4e01-a1d0-534fc1671121"
         },
         {
             "tag": "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
@@ -460,7 +460,7 @@
             "password": "ksg929BWf1K220dG"
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @zerobaipiao [32]",
+            "tag": "🇺🇸 US | 🔒 SS | @zerobaipiao [30]",
             "type": "shadowsocks",
             "server": "ltnl15.saint.ydns.eu",
             "server_port": 8080,

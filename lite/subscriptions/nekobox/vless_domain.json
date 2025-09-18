@@ -91,8 +91,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [85]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [86]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [6]",
@@ -119,7 +117,7 @@
                 "🚩 CF | 🔓 VLESS | @flyv2ray [11]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [13]",
-                "🇺🇸 US | 🔒 VLESS | @free1_vpn [6]",
+                "🇺🇸 US | 🔒 VLESS | @free1_vpn [5]",
                 "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
@@ -263,7 +261,8 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [18]",
+                "🇫🇷 FR | 🔓 VLESS | @v2raych [18]",
+                "🚩 CF | 🔒 VLESS | @v2raych [19]",
                 "🚩 CF | 🔒 VLESS | @v2raying [9]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
@@ -323,8 +322,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [85]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [86]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [6]",
@@ -351,7 +348,7 @@
                 "🚩 CF | 🔓 VLESS | @flyv2ray [11]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [13]",
-                "🇺🇸 US | 🔒 VLESS | @free1_vpn [6]",
+                "🇺🇸 US | 🔒 VLESS | @free1_vpn [5]",
                 "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
@@ -495,7 +492,8 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [18]",
+                "🇫🇷 FR | 🔓 VLESS | @v2raych [18]",
+                "🚩 CF | 🔒 VLESS | @v2raych [19]",
                 "🚩 CF | 🔒 VLESS | @v2raying [9]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
@@ -805,45 +803,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [85]",
-            "type": "vless",
-            "server": "netherlands.marzxox.shop",
-            "server_port": 210,
-            "uuid": "bf382f9e-0bf8-4ef9-b7c0-01222839c3c9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "g23nq_R9TIMbMIGQHB6gjDNewFzrHXPcj72bTS-RtX8",
-                    "short_id": "6ba85179e30d4fc2"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [86]",
-            "type": "vless",
-            "server": "FASTSHOVPNTELEGRAM2.vinamarketcenter.ir",
-            "server_port": 80,
-            "uuid": "058f0016-4c9a-4b21-e64b-ac28741ae7b5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM?ed=2048",
-                "headers": {
-                    "Host": "FASTSHOVPNTELEGRAM2.vinamarketcenter.ir"
-                }
             }
         },
         {
@@ -1299,7 +1258,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @free1_vpn [6]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @free1_vpn [5]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
@@ -3794,13 +3753,38 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [18]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @v2raych [18]",
             "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-2",
+            "server": "638937994136550920.prague-prx-dnraacl.info",
+            "server_port": 8880,
+            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @v2raych [19]",
+            "type": "vless",
+            "server": "whatismyipaddress.com",
+            "server_port": 443,
+            "uuid": "c83014e0-ad3e-4ebd-9e8f-8f7a1f6088d6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "qpxad.meta-funder.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/majara",
+                "headers": {
+                    "Host": "qpxad.meta-funder.info"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @v2raying [9]",

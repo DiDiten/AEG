@@ -92,9 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [46]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [5]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
@@ -123,6 +124,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [10]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [91]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [20]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -145,9 +148,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [46]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [5]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
@@ -176,6 +180,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [10]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [91]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [20]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -274,6 +280,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [46]",
+            "type": "vless",
+            "server": "91.98.139.247",
+            "server_port": 39626,
+            "uuid": "d4f5c51c-6bed-4a1c-a335-b0df490249d5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs",
+                    "short_id": "85"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -320,7 +349,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
             "type": "vless",
             "server": "91.98.89.62",
             "server_port": 443,
@@ -999,6 +1028,52 @@
                     "enabled": true,
                     "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
                     "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [91]",
+            "type": "vless",
+            "server": "91.98.139.247",
+            "server_port": 39626,
+            "uuid": "d4f5c51c-6bed-4a1c-a335-b0df490249d5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs",
+                    "short_id": "85"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "51.158.205.183",
+            "server_port": 443,
+            "uuid": "6035325d-399a-5148-9126-29cedfd5966a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "outlook.office.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "OHDOdOV5Zdi-bSFlXCstXXdunYLtxZ-6quyX0bA6MFQ",
+                    "short_id": "8aa41f71"
                 }
             }
         },
