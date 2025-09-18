@@ -83,7 +83,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [49]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [81]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [83]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -132,6 +133,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @kafing_2 [11]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @loatvpn [1]",
+                "🇷🇺 RU | 🔒 VLESS | @lranonline_new [4]",
                 "🇫🇷 FR | 🔒 VLESS | @manstervpn [72]",
                 "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [4]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [6]",
@@ -176,8 +178,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
-                "🇫🇮 FI | 🔒 VLESS | @v2aryng_vpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [11]",
+                "🇫🇮 FI | 🔒 VLESS | @v2aryng_vpn [2]",
+                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [62]",
@@ -229,7 +231,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [49]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [81]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [83]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -278,6 +281,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @kafing_2 [11]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @loatvpn [1]",
+                "🇷🇺 RU | 🔒 VLESS | @lranonline_new [4]",
                 "🇫🇷 FR | 🔒 VLESS | @manstervpn [72]",
                 "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [4]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [6]",
@@ -322,8 +326,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
-                "🇫🇮 FI | 🔒 VLESS | @v2aryng_vpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [11]",
+                "🇫🇮 FI | 🔒 VLESS | @v2aryng_vpn [2]",
+                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [62]",
@@ -521,11 +525,38 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [49]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [81]",
+            "type": "vless",
+            "server": "91.134.72.175",
+            "server_port": 2053,
+            "uuid": "d8ca77c4-668c-44b8-a621-763b4067490d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nr4qs7JSJShNXIpWKNGReZXaFw910k1X93NDevapa0E",
+                    "short_id": "5640288dca4f8519"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [83]",
             "type": "vless",
             "server": "80.74.29.212",
             "server_port": 8443,
-            "uuid": "4085f1b3-efb4-49d3-a0e1-f5341142e12e",
+            "uuid": "7ae5ca0c-6283-4a72-8d53-14508f67d576",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -1700,6 +1731,29 @@
             }
         },
         {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @lranonline_new [4]",
+            "type": "vless",
+            "server": "82.148.21.174",
+            "server_port": 443,
+            "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.sfasti.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @manstervpn [72]",
             "type": "vless",
             "server": "57.128.123.50",
@@ -2739,7 +2793,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @v2aryng_vpn [3]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @v2aryng_vpn [2]",
             "type": "vless",
             "server": "185.200.190.159",
             "server_port": 34045,
@@ -2762,7 +2816,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [11]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [10]",
             "type": "vless",
             "server": "89.23.108.188",
             "server_port": 443,
