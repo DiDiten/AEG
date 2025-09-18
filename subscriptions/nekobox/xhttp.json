@@ -85,6 +85,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [10]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [14]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
+                "❔ XX | 🔒 VLESS | @config_proxy [30]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -140,6 +141,7 @@
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [9]",
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [4]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [3]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [7]",
@@ -203,6 +205,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [10]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [14]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
+                "❔ XX | 🔒 VLESS | @config_proxy [30]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -258,6 +261,7 @@
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [9]",
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [4]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [3]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [7]",
@@ -439,6 +443,29 @@
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [30]",
+            "type": "vless",
+            "server": "hp.mastertunnel.shop",
+            "server_port": 2096,
+            "uuid": "474494eb-e8ef-402e-be1c-f9670fcf3f33",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Un5haKCXEnekiryaRDLmOHCGEufZfseV6IpdKHnav3M",
+                    "short_id": "089604fd79ac01fd"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
@@ -1246,6 +1273,15 @@
             "server": "fast-01.saitsazs.ir",
             "server_port": 80,
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
+            "type": "vless",
+            "server": "151.101.171.52",
+            "server_port": 80,
+            "uuid": "01098304-727b-b7b5-b479-94d2bd76bc96",
             "flow": "",
             "packet_encoding": "xudp"
         },
