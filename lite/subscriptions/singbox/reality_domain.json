@@ -124,6 +124,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayopen [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
+                "🇩🇪 DE | 🔒 VLESS | @v2trayproxy [19]",
                 "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [12]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
@@ -172,6 +173,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayopen [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
+                "🇩🇪 DE | 🔒 VLESS | @v2trayproxy [19]",
                 "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [12]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
@@ -1032,6 +1034,29 @@
                     "enabled": true,
                     "public_key": "COh8PaOebru8HlshEfNEN3_6pXREyUPQvyLWfX0zT3Y",
                     "short_id": "5e"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2trayproxy [19]",
+            "type": "vless",
+            "server": "deu44.unlockedworld.org",
+            "server_port": 443,
+            "uuid": "b32d0323-b12b-4b63-aff3-00de09817f9d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
                 }
             }
         },

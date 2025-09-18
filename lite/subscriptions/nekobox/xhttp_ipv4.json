@@ -89,6 +89,7 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [6]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [17]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
@@ -122,6 +123,7 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [6]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [17]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
@@ -361,6 +363,24 @@
             "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @mowjproxy [6]",
+            "type": "vless",
+            "server": "91.99.117.29",
+            "server_port": 443,
+            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.117.29",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @nofiltering2 [17]",
