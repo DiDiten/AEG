@@ -81,11 +81,12 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
+                "🇫🇮 FI | 🔓 VLESS | @config_proxy [53]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
-                "🇫🇮 FI | 🔓 VLESS | @evay_vpn [28]",
-                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [9]",
+                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
@@ -99,11 +100,12 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
+                "🇫🇮 FI | 🔓 VLESS | @config_proxy [53]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
-                "🇫🇮 FI | 🔓 VLESS | @evay_vpn [28]",
-                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [9]",
+                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
@@ -205,6 +207,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇫🇮 FI | 🔓 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "Evay_vpn.heloisfood.ir",
+            "server_port": 8678,
+            "uuid": "fde77d6c-eb2a-4488-ab34-a9a2633b01ec",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
             "type": "vless",
             "server": "germany.fast.hosting-ip.com",
@@ -214,20 +225,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
-            "type": "vless",
-            "server": "Evay_vpn.heloisfood.ir",
-            "server_port": 8678,
-            "uuid": "1417a34f-a0d9-46c4-a2c7-9c7d56ac4b5d",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
             "type": "vless",
             "server": "Evay_vpn.heloisfood.ir",
             "server_port": 1530,
-            "uuid": "b2af8cd4-7788-43a4-ae00-f632632245af",
+            "uuid": "1417a34f-a0d9-46c4-a2c7-9c7d56ac4b5d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -246,16 +248,39 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @evay_vpn [28]",
+            "tag": "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
             "type": "vless",
             "server": "Evay_vpn.heloisfood.ir",
             "server_port": 8678,
-            "uuid": "b2af8cd4-7788-43a4-ae00-f632632245af",
+            "uuid": "1417a34f-a0d9-46c4-a2c7-9c7d56ac4b5d",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @lranonline_new [9]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
+            "type": "vless",
+            "server": "Evay_vpn.heloisfood.ir",
+            "server_port": 1530,
+            "uuid": "fde77d6c-eb2a-4488-ab34-a9a2633b01ec",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @lranonline_new [7]",
             "type": "vless",
             "server": "sss92681.tas-bazi.com",
             "server_port": 443,
