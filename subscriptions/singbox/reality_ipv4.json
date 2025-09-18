@@ -95,6 +95,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -150,7 +151,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [15]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇷🇺 RU | 🔒 VLESS | @mowjproxy [5]",
+                "🇷🇺 RU | 🔒 VLESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔒 VLESS | @mpproxy [9]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [8]",
@@ -226,7 +227,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [9]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [11]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [9]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [8]",
                 "🇫🇷 FR | 🔒 VLESS | @xrayzxn [3]"
             ],
             "tag": "proxy",
@@ -241,6 +242,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -296,7 +298,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [15]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇷🇺 RU | 🔒 VLESS | @mowjproxy [5]",
+                "🇷🇺 RU | 🔒 VLESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔒 VLESS | @mpproxy [9]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [8]",
@@ -372,7 +374,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [9]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [11]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [9]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [8]",
                 "🇫🇷 FR | 🔒 VLESS | @xrayzxn [3]"
             ],
             "tag": "auto",
@@ -525,6 +527,29 @@
                     "enabled": true,
                     "public_key": "8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0",
                     "short_id": "5fab0deb"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "95.164.68.37",
+            "server_port": 8443,
+            "uuid": "9beb7e48-2645-4aaf-bdef-39d8b69bf8d5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
+                    "short_id": ""
                 }
             }
         },
@@ -1861,7 +1886,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @mowjproxy [5]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @mowjproxy [4]",
             "type": "vless",
             "server": "176.114.86.241",
             "server_port": 443,
@@ -3647,7 +3672,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [9]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [8]",
             "type": "vless",
             "server": "213.165.56.10",
             "server_port": 443,

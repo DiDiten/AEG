@@ -100,6 +100,7 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🇺🇸 US | 🔓 VLESS | @mowjproxy [5]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [17]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
@@ -113,8 +114,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raytg [65]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]"
+                "🇩🇪 DE | 🔒 VLESS | @v2raytg [65]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -133,6 +133,7 @@
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🇺🇸 US | 🔓 VLESS | @mowjproxy [5]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [17]",
                 "🇩🇪 DE | 🔓 VLESS | @outline_ir [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
@@ -146,8 +147,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raytg [65]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]"
+                "🇩🇪 DE | 🔒 VLESS | @v2raytg [65]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -358,6 +358,15 @@
             "server": "185.18.250.67",
             "server_port": 8080,
             "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @mowjproxy [5]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "9292f50e-dd71-423a-e94f-e7daad4bc614",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -629,15 +638,6 @@
                     "short_id": "61e683d41fdb"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [17]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "9292f50e-dd71-423a-e94f-e7daad4bc614",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
