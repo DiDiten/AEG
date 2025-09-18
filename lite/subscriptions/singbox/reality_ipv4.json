@@ -92,7 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [47]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
@@ -135,7 +134,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇷🇺 RU | 🔒 VLESS | @vmesc [16]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]"
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -146,7 +145,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [47]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
@@ -189,7 +187,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇷🇺 RU | 🔒 VLESS | @vmesc [16]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]"
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -272,29 +270,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [47]",
-            "type": "vless",
-            "server": "85.239.60.43",
-            "server_port": 8443,
-            "uuid": "45698b09-2045-47fc-b52b-1dc5fd345a6f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qJ_x7_Fz3M4QdnRG8WcqVNpgsHbwWgs_KrdCqr4iclE",
-                    "short_id": ""
                 }
             }
         },
@@ -1281,7 +1256,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "213.165.56.10",
             "server_port": 443,
