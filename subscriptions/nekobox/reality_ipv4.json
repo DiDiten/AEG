@@ -83,7 +83,9 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [21]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [24]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [31]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -139,7 +141,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [15]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇷🇺 RU | 🔒 VLESS | @mowjproxy [4]",
+                "🇷🇺 RU | 🔒 VLESS | @mowjproxy [3]",
                 "🇩🇪 DE | 🔒 VLESS | @mpproxy [9]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [8]",
@@ -184,7 +186,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [85]",
-                "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [15]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -230,7 +232,9 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [21]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [24]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [31]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -286,7 +290,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [15]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇷🇺 RU | 🔒 VLESS | @mowjproxy [4]",
+                "🇷🇺 RU | 🔒 VLESS | @mowjproxy [3]",
                 "🇩🇪 DE | 🔒 VLESS | @mpproxy [9]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [8]",
@@ -331,7 +335,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [85]",
-                "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [15]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -523,11 +527,57 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [21]",
             "type": "vless",
-            "server": "95.164.68.37",
+            "server": "65.109.181.9",
+            "server_port": 42542,
+            "uuid": "167a38ae-f415-4366-811f-7bd35640cf7a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5xYXeNs6em3Q8Bwz2q-cDBVdgMSFUoScdVcwYc5y5yc",
+                    "short_id": "308259092beec6"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [24]",
+            "type": "vless",
+            "server": "51.91.173.52",
+            "server_port": 7852,
+            "uuid": "2917d821-9327-4c76-bf7f-1b7857b38811",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rBXjuQ9eGNAUtELw1KFOMH7Aq0Q2t3RqcbdPcddYyTk",
+                    "short_id": "69"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [31]",
+            "type": "vless",
+            "server": "85.158.110.62",
             "server_port": 8443,
-            "uuid": "9beb7e48-2645-4aaf-bdef-39d8b69bf8d5",
+            "uuid": "f684cd62-363e-42f8-9853-4f601e076da9",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -540,7 +590,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
+                    "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
                     "short_id": ""
                 }
             }
@@ -1878,7 +1928,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @mowjproxy [4]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @mowjproxy [3]",
             "type": "vless",
             "server": "176.114.86.241",
             "server_port": 443,
@@ -2929,7 +2979,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [15]",
             "type": "vless",
             "server": "150.241.99.63",
             "server_port": 80,
