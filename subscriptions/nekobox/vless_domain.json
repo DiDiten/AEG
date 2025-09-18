@@ -107,7 +107,6 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [25]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -416,8 +415,9 @@
                 "❔ XX | 🔓 VLESS | @msv2raynp [5]",
                 "❔ XX | 🔓 VLESS | @mt_proxy [6]",
                 "❔ XX | 🔓 VLESS | @mtproxy22_v2ray [1]",
-                "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray [2]",
+                "❔ XX | 🔓 VLESS | @mtproxy22_v2ray [2]",
                 "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray [3]",
+                "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray [4]",
                 "❔ XX | 🔒 VLESS | @mtpv2ray [1]",
                 "🇮🇷 IR | 🔓 VLESS | @mtpv2ray [2]",
                 "❔ XX | 🔒 VLESS | @narco_nett [16]",
@@ -617,8 +617,7 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇺🇸 US | 🔒 VLESS | @v2raych [6]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [15]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
                 "🚩 CF | 🔓 VLESS | @v2raying [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [3]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [5]",
@@ -789,7 +788,6 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [25]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1098,8 +1096,9 @@
                 "❔ XX | 🔓 VLESS | @msv2raynp [5]",
                 "❔ XX | 🔓 VLESS | @mt_proxy [6]",
                 "❔ XX | 🔓 VLESS | @mtproxy22_v2ray [1]",
-                "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray [2]",
+                "❔ XX | 🔓 VLESS | @mtproxy22_v2ray [2]",
                 "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray [3]",
+                "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray [4]",
                 "❔ XX | 🔒 VLESS | @mtpv2ray [1]",
                 "🇮🇷 IR | 🔓 VLESS | @mtpv2ray [2]",
                 "❔ XX | 🔒 VLESS | @narco_nett [16]",
@@ -1299,8 +1298,7 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇺🇸 US | 🔒 VLESS | @v2raych [6]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [15]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
                 "🚩 CF | 🔓 VLESS | @v2raying [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [3]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [5]",
@@ -2000,31 +1998,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [25]",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2096,
-            "uuid": "97909ffd-6da0-4893-9d63-00e72ad55256",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "frAgteSt.JaHANGiRKh.eU.orG",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "frAgteSt.JaHANGiRKh.eU.orG"
-                }
             }
         },
         {
@@ -7316,6 +7289,22 @@
         {
             "tag": "❔ XX | 🔓 VLESS | @mtproxy22_v2ray [1]",
             "type": "vless",
+            "server": "deep-radio.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "5139af95-a453-46c6-831a-a532b6b51305",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "deep-radio.seotoolsforyou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @mtproxy22_v2ray [2]",
+            "type": "vless",
             "server": "wild-bird.seotoolsforyou.co.uk",
             "server_port": 80,
             "uuid": "1d0dfde1-9f18-4557-9af8-4f3124ee5dcd",
@@ -7330,7 +7319,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray [2]",
+            "tag": "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray [3]",
             "type": "vless",
             "server": "brainy-party.seotoolsforyou.co.uk",
             "server_port": 80,
@@ -7346,7 +7335,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray [3]",
+            "tag": "🚩 CF | 🔓 VLESS | @mtproxy22_v2ray [4]",
             "type": "vless",
             "server": "hopeful-appointment.seotoolsforyou.co.uk",
             "server_port": 80,
@@ -10701,30 +10690,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [6]",
-            "type": "vless",
-            "server": "usa4.worldunlocked.org",
-            "server_port": 443,
-            "uuid": "5187e249-b0dc-490e-ab89-cb3bbff55cb3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [15]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
             "type": "vless",
             "server": "a841f0f117d001b8b300cbba88b0017f.toppfast.ir",
             "server_port": 443,

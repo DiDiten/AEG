@@ -83,8 +83,9 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [29]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [22]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [31]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [36]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -231,8 +232,9 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [29]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [22]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [31]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [36]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -525,7 +527,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [29]",
+            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [22]",
             "type": "vless",
             "server": "103.253.43.210",
             "server_port": 8443,
@@ -548,7 +550,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [31]",
             "type": "vless",
             "server": "85.158.110.62",
             "server_port": 8443,
@@ -566,6 +568,29 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [36]",
+            "type": "vless",
+            "server": "185.239.48.109",
+            "server_port": 8443,
+            "uuid": "a616da40-e41c-4159-a268-7a2b9deaaea1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wPXyRAB1bVkaTGgO5cHEylVAV8SscUQUPn_ggzx6Vxk",
                     "short_id": ""
                 }
             }

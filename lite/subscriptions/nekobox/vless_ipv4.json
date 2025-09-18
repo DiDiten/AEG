@@ -86,8 +86,7 @@
                 "🇫🇷 FR | 🔓 VLESS | @bored_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇦🇲 AM | 🔓 VLESS | @config_proxy [37]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
+                "🇳🇱 NL | 🔓 VLESS | @config_proxy [37]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -239,7 +238,6 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_youtube [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_youtube [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
-                "🇺🇸 US | 🔒 VLESS | @v2raych [19]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -302,8 +300,7 @@
                 "🇫🇷 FR | 🔓 VLESS | @bored_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇦🇲 AM | 🔓 VLESS | @config_proxy [37]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
+                "🇳🇱 NL | 🔓 VLESS | @config_proxy [37]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -455,7 +452,6 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_youtube [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_youtube [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
-                "🇺🇸 US | 🔒 VLESS | @v2raych [19]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -700,43 +696,13 @@
             }
         },
         {
-            "tag": "🇦🇲 AM | 🔓 VLESS | @config_proxy [37]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @config_proxy [37]",
             "type": "vless",
-            "server": "92.223.2.119",
-            "server_port": 20000,
-            "uuid": "63a47f68-c0bc-4682-90e5-1fc67c789ff4",
+            "server": "209.38.42.122",
+            "server_port": 2027,
+            "uuid": "515bc37d-a1d8-4e49-893e-09cefc8e00fa",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "92.223.2.119"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
-            "type": "vless",
-            "server": "85.158.110.62",
-            "server_port": 8443,
-            "uuid": "68e62d91-13a5-4683-8b74-c32c31e3ebd4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
-                    "short_id": ""
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -3284,31 +3250,6 @@
             "uuid": "689f682b-7d9a-4967-82fb-775018428644",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [19]",
-            "type": "vless",
-            "server": "151.101.65.210",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "pooleno.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/GGPPfZ3NKyOoKNiK?ed=2560fp=firefox",
-                "headers": {
-                    "Host": "pooleno.ir"
-                }
-            }
         },
         {
             "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
