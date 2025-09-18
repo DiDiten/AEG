@@ -92,9 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
@@ -113,6 +112,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @lranonline_new [4]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
+                "🇷🇺 RU | 🔒 VLESS | @mowjproxy [5]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [8]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [15]",
@@ -145,9 +145,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
@@ -166,6 +165,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @lranonline_new [4]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
+                "🇷🇺 RU | 🔒 VLESS | @mowjproxy [5]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [8]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇩🇪 DE | 🔒 VLESS | @netmellianti [15]",
@@ -274,29 +274,6 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [45]",
-            "type": "vless",
-            "server": "85.239.60.43",
-            "server_port": 8443,
-            "uuid": "671d0aa1-906f-4037-b921-9705862f7f19",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qJ_x7_Fz3M4QdnRG8WcqVNpgsHbwWgs_KrdCqr4iclE",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -320,7 +297,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
             "type": "vless",
             "server": "91.98.89.62",
             "server_port": 443,
@@ -765,6 +742,29 @@
                     "enabled": true,
                     "public_key": "W0BYEeLEqNRk8Bn2G27x5G9ALICJxePV6hxZG2A4Jmg",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @mowjproxy [5]",
+            "type": "vless",
+            "server": "176.114.86.241",
+            "server_port": 443,
+            "uuid": "6fae85ca-395a-4f27-9eb2-75123befc475",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.sfasti.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
                 }
             }
         },
