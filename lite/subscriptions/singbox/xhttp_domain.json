@@ -93,13 +93,12 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
-                "🇫🇮 FI | 🔓 VLESS | @config_proxy [53]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
-                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🇫🇮 FI | 🔓 VLESS | @vpnplusee_free [16]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -112,13 +111,12 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [19]",
-                "🇫🇮 FI | 🔓 VLESS | @config_proxy [53]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
-                "🇩🇪 DE | 🔓 VLESS | @lranonline_new [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🇫🇮 FI | 🔓 VLESS | @vpnplusee_free [16]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -215,15 +213,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @config_proxy [53]",
-            "type": "vless",
-            "server": "Evay_vpn.heloisfood.ir",
-            "server_port": 8678,
-            "uuid": "fde77d6c-eb2a-4488-ab34-a9a2633b01ec",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
             "type": "vless",
             "server": "germany.fast.hosting-ip.com",
@@ -288,29 +277,20 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @lranonline_new [7]",
-            "type": "vless",
-            "server": "sss92681.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "54801305-3e0e-4d90-8996-b67065155465",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss92681.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VLESS | @vpnplusee_free [16]",
+            "type": "vless",
+            "server": "Evay_vpn.heloisfood.ir",
+            "server_port": 8678,
+            "uuid": "fde77d6c-eb2a-4488-ab34-a9a2633b01ec",
             "flow": "",
             "packet_encoding": "xudp"
         },

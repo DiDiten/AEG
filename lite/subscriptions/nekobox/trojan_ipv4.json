@@ -80,8 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+                "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
+                "🇬🇧 GB | 🔒 TROJAN | @hope_net [20]",
                 "🚩 CF | 🔒 TROJAN | @manzariyeh_rasht [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
@@ -104,8 +105,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+                "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
+                "🇬🇧 GB | 🔒 TROJAN | @hope_net [20]",
                 "🚩 CF | 🔒 TROJAN | @manzariyeh_rasht [15]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
@@ -208,30 +210,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [19]",
-            "type": "trojan",
-            "server": "173.245.59.61",
-            "server_port": 443,
-            "password": "NISHIKUITAN222",
-            "tls": {
-                "enabled": true,
-                "server_name": "in.ylks.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "in.ylks.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "172.66.47.33",
             "server_port": 443,
@@ -250,6 +229,29 @@
                 "path": "/Telegram@V2ray_Alpha/?ed=2560",
                 "headers": {
                     "Host": "cfpage-39t.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
+            "type": "trojan",
+            "server": "3.147.134.163",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "35.179.203.165",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
