@@ -119,9 +119,9 @@
                 "🚩 CF | 🔓 VLESS | @flyv2ray [11]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [13]",
-                "🇺🇸 US | 🔒 VLESS | @free1_vpn [6]",
+                "🚩 CF | 🔒 VLESS | @free1_vpn [5]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [17]",
-                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
+                "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "❔ XX | 🔓 VLESS | @freev2raym [10]",
@@ -286,7 +286,7 @@
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
                 "🇫🇮 FI | 🔓 VLESS | @vmesskhodam [13]",
                 "🇩🇪 DE | 🔓 VLESS | @vmessorg [11]",
-                "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [12]",
+                "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "❔ XX | 🔒 VLESS | @vpncostume [9]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [4]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
@@ -351,9 +351,9 @@
                 "🚩 CF | 🔓 VLESS | @flyv2ray [11]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [13]",
-                "🇺🇸 US | 🔒 VLESS | @free1_vpn [6]",
+                "🚩 CF | 🔒 VLESS | @free1_vpn [5]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [17]",
-                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
+                "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "❔ XX | 🔓 VLESS | @freev2raym [10]",
@@ -518,7 +518,7 @@
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
                 "🇫🇮 FI | 🔓 VLESS | @vmesskhodam [13]",
                 "🇩🇪 DE | 🔓 VLESS | @vmessorg [11]",
-                "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [12]",
+                "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
                 "❔ XX | 🔒 VLESS | @vpncostume [9]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [4]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
@@ -1312,7 +1312,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @free1_vpn [6]",
+            "tag": "🚩 CF | 🔒 VLESS | @free1_vpn [5]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
@@ -1360,7 +1360,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
+            "tag": "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
@@ -4213,25 +4213,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @vpn_ioss [12]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpn_ioss [15]",
             "type": "vless",
-            "server": "wa.sfasti.ru",
+            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
-            "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
-            "flow": "xtls-rprx-vision",
+            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "wa.sfasti.ru",
+                "server_name": "M84tG1gGw0.SoLeNtRaA.iNfO",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
-                    "short_id": "16895459a2c7768d"
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "M84tG1gGw0.SoLeNtRaA.iNfO"
                 }
             }
         },
