@@ -96,8 +96,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+                "🇦🇪 AE | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -218,8 +220,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+                "🇦🇪 AE | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -512,30 +516,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
-            "type": "vless",
-            "server": "DIG2.TORPROSPEED.IR",
-            "server_port": 223,
-            "uuid": "61d745fb-a48d-4396-822a-3ec8964e28af",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JOKX-kH_SOPrdPG26TdJzO6YSDItrRGXKhtv70Bn81o",
-                    "short_id": "c7f175a94bd79f8d"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
             "type": "vless",
             "server": "real.tele-shop-too.studio",
             "server_port": 443,
@@ -554,6 +535,79 @@
                     "enabled": true,
                     "public_key": "FQzh06_4ZSBAJNSxLIYgHZe-ZnxHIqQ2MEHh1SZiggU",
                     "short_id": "fad41efd3e"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
+            "type": "vless",
+            "server": "legendary.zooboming.com",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UrOqDBAvEnjISHdVDzEnJRyb0HUM8xjCIWXZcd8w1CA",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "abri.abriabri.ir",
+            "server_port": 2233,
+            "uuid": "e64b9b6e-b3fc-44cf-b45c-fcb53d76a653",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XXyGhQ_iIds5fOp-JEq76iPb1heaBCSd7N5cOe9oFlg",
+                    "short_id": "e0"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇪 AE | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "yuae.amiraizo.com",
+            "server_port": 2560,
+            "uuid": "08bc45d6-1637-448a-9840-2759ed247be7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
+                    "short_id": "e41865e506628f44"
                 }
             }
         },

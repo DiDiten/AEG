@@ -96,8 +96,7 @@
                 "❔ XX | 🔓 VLESS | @lranonline_new [5]",
                 "❔ XX | 🔓 VLESS | @parsashonam [3]",
                 "❔ XX | 🔓 VLESS | @parsashonam [7]",
-                "❔ XX | 🔓 VLESS | @parsashonam [11]",
-                "❔ XX | 🔒 VLESS | @v2raych [13]"
+                "❔ XX | 🔓 VLESS | @parsashonam [11]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -124,8 +123,7 @@
                 "❔ XX | 🔓 VLESS | @lranonline_new [5]",
                 "❔ XX | 🔓 VLESS | @parsashonam [3]",
                 "❔ XX | 🔓 VLESS | @parsashonam [7]",
-                "❔ XX | 🔓 VLESS | @parsashonam [11]",
-                "❔ XX | 🔒 VLESS | @v2raych [13]"
+                "❔ XX | 🔓 VLESS | @parsashonam [11]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -458,29 +456,6 @@
             "uuid": "Parsashonam-310",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @v2raych [13]",
-            "type": "vless",
-            "server": "[2a01:4f9:c012:80c::1]",
-            "server_port": 443,
-            "uuid": "07f59e57-3856-4b82-b9d1-a11bef08cc4a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sYwKWy1SJ3q9XzIpI-LrBPyMkueCc1NtjjMCht-LKSs",
-                    "short_id": "a5837487270bc5c1"
-                }
-            }
         }
     ],
     "route": {
