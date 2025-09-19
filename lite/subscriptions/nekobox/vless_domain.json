@@ -92,7 +92,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [6]",
@@ -175,6 +174,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
+                "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [15]",
                 "❔ XX | 🔓 VLESS | @mastervpnshop1 [17]",
                 "❔ XX | 🔒 VLESS | @mastervpnshop1 [18]",
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [1]",
@@ -190,7 +190,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @mowjproxy [4]",
+                "🚩 CF | 🔒 VLESS | @mowjproxy [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -321,7 +321,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [6]",
@@ -404,6 +403,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
+                "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [15]",
                 "❔ XX | 🔓 VLESS | @mastervpnshop1 [17]",
                 "❔ XX | 🔒 VLESS | @mastervpnshop1 [18]",
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [1]",
@@ -419,7 +419,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @mowjproxy [4]",
+                "🚩 CF | 🔒 VLESS | @mowjproxy [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -808,33 +808,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [48]",
-            "type": "vless",
-            "server": "mrz4.wizard2shop.com",
-            "server_port": 2053,
-            "uuid": "33dc967f-7626-467d-a4f2-50b4d1a461d0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "wordpress.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "xyz"
             }
         },
         {
@@ -2199,6 +2172,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [15]",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "5e6b2016-4c54-499f-9144-92fba6447e07",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @mastervpnshop1 [17]",
             "type": "vless",
             "server": "v-2rayngvpn1.ddns.net",
@@ -2455,7 +2437,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @mowjproxy [4]",
+            "tag": "🚩 CF | 🔒 VLESS | @mowjproxy [3]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2053,
