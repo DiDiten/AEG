@@ -84,13 +84,14 @@
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [7]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [6]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
-                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [8]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
+                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇹🇷 TR | 🔒 VLESS | @iseqaro [1]",
                 "🇱🇻 LV | 🔒 VLESS | @iseqaro [2]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
@@ -108,7 +109,6 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [9]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [91]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -137,13 +137,14 @@
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [7]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [8]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [6]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
-                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [8]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
+                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇹🇷 TR | 🔒 VLESS | @iseqaro [1]",
                 "🇱🇻 LV | 🔒 VLESS | @iseqaro [2]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
@@ -161,7 +162,6 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [9]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [91]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -358,6 +358,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [8]",
+            "type": "vless",
+            "server": "185.113.10.132",
+            "server_port": 8650,
+            "uuid": "f6583e0a-5403-4cf5-a1b5-c4a861e92a8b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWbuHeDHnHpfJMPsAOIJOIeQgzfCK_47CjY7TbWA5hI",
+                    "short_id": "354b9cbe48"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
             "type": "vless",
             "server": "70.36.60.28",
@@ -477,11 +500,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [8]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
             "type": "vless",
             "server": "185.113.10.132",
             "server_port": 8650,
-            "uuid": "aac22f02-0ed2-4945-9b5e-062e77a7f7f5",
+            "uuid": "bd8c9d2e-738e-4dd3-bdf1-a22459cc831b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -490,7 +513,7 @@
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "random"
                 },
                 "reality": {
                     "enabled": true,
@@ -500,11 +523,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
             "type": "vless",
             "server": "185.113.10.132",
             "server_port": 8650,
-            "uuid": "bd8c9d2e-738e-4dd3-bdf1-a22459cc831b",
+            "uuid": "f6583e0a-5403-4cf5-a1b5-c4a861e92a8b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -923,29 +946,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "xyz"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [9]",
-            "type": "vless",
-            "server": "89.23.108.188",
-            "server_port": 443,
-            "uuid": "fe1888f8-2361-11f0-9970-45e1d80c4039",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "images.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "nm1ZhMktJbHTcJv0gqV8l0s_c9BWfQe5d02qhpSkKWo",
-                    "short_id": "7fd4"
-                }
             }
         },
         {
