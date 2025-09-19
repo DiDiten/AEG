@@ -81,7 +81,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [6]",
@@ -109,6 +108,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [9]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
+                "🇰🇷 KR | 🔒 VLESS | @v2raych [18]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [20]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -119,7 +120,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇷🇺 RU | 🔒 VLESS | @vmesc [16]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
             ],
             "tag": "proxy",
@@ -132,7 +132,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [6]",
@@ -160,6 +159,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [9]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
+                "🇰🇷 KR | 🔒 VLESS | @v2raych [18]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [20]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -170,7 +171,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇷🇺 RU | 🔒 VLESS | @vmesc [16]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
             ],
             "tag": "auto",
@@ -281,29 +281,6 @@
                     "enabled": true,
                     "public_key": "PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o",
                     "short_id": "b5ecd44d"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
-            "type": "vless",
-            "server": "91.98.89.62",
-            "server_port": 443,
-            "uuid": "60f5612f-4861-4162-eaba-fd1c178437e0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NRYJKm0tRL9L2JLo070iTZg-SU6DT318gVLsm5tJUWw",
-                    "short_id": ""
                 }
             }
         },
@@ -945,6 +922,52 @@
             }
         },
         {
+            "tag": "🇰🇷 KR | 🔒 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "193.122.120.203",
+            "server_port": 443,
+            "uuid": "747c62da-109f-4add-8e67-c66e1af7d255",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.lamer.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "j5tsCQhMqefjOq-shVxsZS195S4R7Ce_prmT8yFsvm8",
+                    "short_id": "d02456fe"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "146.235.224.88",
+            "server_port": 443,
+            "uuid": "747c62da-109f-4add-8e67-c66e1af7d255",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "iosapps.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "R9XBNwo5Bw-ePY9QGScdwbmranjFrpnnBhkIWD6wOhk",
+                    "short_id": "e97b261b"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
             "type": "vless",
             "server": "199.247.28.17",
@@ -1171,29 +1194,6 @@
                     "enabled": true,
                     "public_key": "Qdg7LVP5VmLr7xzv556ry5RNc3QaeAj4TwOUxndA23M",
                     "short_id": "e3f89b63"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [16]",
-            "type": "vless",
-            "server": "80.249.131.7",
-            "server_port": 443,
-            "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "wa.sfasti.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
-                    "short_id": "16895459a2c7768d"
                 }
             }
         },
