@@ -83,10 +83,10 @@
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [3]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
                 "🚩 CF | 🔒 TROJAN | @hope_net [6]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [9]",
-                "🇩🇪 DE | 🔓 TROJAN | @hope_net [15]",
-                "🇺🇸 US | 🔒 TROJAN | @hope_net [16]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [7]",
+                "🇩🇪 DE | 🔓 TROJAN | @hope_net [13]",
+                "🇺🇸 US | 🔒 TROJAN | @hope_net [14]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇳🇱 NL | 🔒 TROJAN | @manstervpn [64]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [65]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [67]",
@@ -151,10 +151,10 @@
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [3]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
                 "🚩 CF | 🔒 TROJAN | @hope_net [6]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [9]",
-                "🇩🇪 DE | 🔓 TROJAN | @hope_net [15]",
-                "🇺🇸 US | 🔒 TROJAN | @hope_net [16]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [7]",
+                "🇩🇪 DE | 🔓 TROJAN | @hope_net [13]",
+                "🇺🇸 US | 🔒 TROJAN | @hope_net [14]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇳🇱 NL | 🔒 TROJAN | @manstervpn [64]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [65]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [67]",
@@ -321,29 +321,6 @@
         {
             "tag": "🚩 CF | 🔒 TROJAN | @hope_net [6]",
             "type": "trojan",
-            "server": "104.18.39.232",
-            "server_port": 2083,
-            "password": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "tls": {
-                "enabled": true,
-                "server_name": "ArGodev11222.PaGes.Dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram@Linkvws?ed=2560",
-                "headers": {
-                    "Host": "ArGodev11222.PaGes.Dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [8]",
-            "type": "trojan",
             "server": "172.66.47.200",
             "server_port": 443,
             "password": "c6d299d4-db0b-4444-8b56-b23bbdcbcd67",
@@ -365,7 +342,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [9]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [7]",
             "type": "trojan",
             "server": "172.66.47.151",
             "server_port": 443,
@@ -388,14 +365,14 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 TROJAN | @hope_net [15]",
+            "tag": "🇩🇪 DE | 🔓 TROJAN | @hope_net [13]",
             "type": "trojan",
             "server": "18.156.187.29",
             "server_port": 22222,
             "password": "telegram-id-directvpn"
         },
         {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @hope_net [16]",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @hope_net [14]",
             "type": "trojan",
             "server": "15.204.236.45",
             "server_port": 52306,
@@ -407,6 +384,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "104.20.19.167",
+            "server_port": 443,
+            "password": "auto",
+            "tls": {
+                "enabled": true,
+                "server_name": "b96ef9ae.trojanfree-76s.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/b96ef9ae.trojanfree-76s.pages.dev/",
+                "headers": {
+                    "Host": "b96ef9ae.trojanfree-76s.pages.dev"
                 }
             }
         },

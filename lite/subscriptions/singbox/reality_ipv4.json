@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [48]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
@@ -108,7 +109,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇷🇺 RU | 🔒 VLESS | @kafing_2 [11]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [3]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [5]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [4]",
@@ -121,7 +122,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [9]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [18]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [91]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [19]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -143,6 +145,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [48]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
@@ -159,7 +162,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇷🇺 RU | 🔒 VLESS | @kafing_2 [11]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [3]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [5]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [4]",
@@ -172,7 +175,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [9]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [18]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [91]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [19]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -266,6 +270,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "35.92.31.180",
+            "server_port": 4433,
+            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
+                    "short_id": "f785b38130e64177"
                 }
             }
         },
@@ -646,25 +673,25 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @lranonline_new [3]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @lranonline_new [5]",
             "type": "vless",
-            "server": "91.98.139.247",
-            "server_port": 39626,
-            "uuid": "d4f5c51c-6bed-4a1c-a335-b0df490249d5",
+            "server": "91.99.16.244",
+            "server_port": 443,
+            "uuid": "Parsashonam-311",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.steampowered.com",
+                "server_name": "Google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs",
-                    "short_id": "85"
+                    "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
+                    "short_id": "61e683d41fdb"
                 }
             }
         },
@@ -953,16 +980,39 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [18]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [91]",
             "type": "vless",
-            "server": "46.249.110.254",
-            "server_port": 443,
-            "uuid": "42c2597e-35d0-4f9e-a284-7331f70737f1",
+            "server": "91.98.139.247",
+            "server_port": 39626,
+            "uuid": "d4f5c51c-6bed-4a1c-a335-b0df490249d5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "www.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs",
+                    "short_id": "85"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2raych [19]",
+            "type": "vless",
+            "server": "94.26.228.10",
+            "server_port": 443,
+            "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.sfasti.ru",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -970,8 +1020,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "aO2tx4kfUpQWIvT5bO7lH6G1GDfnrThtSFigLJXDens",
-                    "short_id": "370dd394052f2386"
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
                 }
             }
         },
