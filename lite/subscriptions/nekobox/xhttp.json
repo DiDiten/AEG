@@ -84,12 +84,12 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
-                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
-                "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
-                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
+                "🇫🇮 FI | 🔓 VLESS | @evay_vpn [25]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [9]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [8]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
@@ -111,8 +111,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [65]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]"
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -127,12 +126,12 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
-                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
-                "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
-                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
+                "🇫🇮 FI | 🔓 VLESS | @evay_vpn [25]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
                 "🇩🇪 DE | 🔓 VLESS | @falcunargo [9]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [8]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
@@ -154,8 +153,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [65]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]"
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -296,30 +294,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
-            "type": "vless",
-            "server": "Evay_vpn.heloisfood.ir",
-            "server_port": 1530,
-            "uuid": "1417a34f-a0d9-46c4-a2c7-9c7d56ac4b5d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
+            "tag": "🇫🇮 FI | 🔓 VLESS | @evay_vpn [25]",
             "type": "vless",
             "server": "Evay_vpn.heloisfood.ir",
             "server_port": 8678,
@@ -328,7 +303,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
             "type": "vless",
             "server": "Evay_vpn.heloisfood.ir",
             "server_port": 1530,
@@ -385,6 +360,29 @@
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
+            "type": "vless",
+            "server": "157.180.81.19",
+            "server_port": 1530,
+            "uuid": "75ed210a-10f2-4819-ac89-e0ff93b52ec7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
@@ -777,15 +775,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "6b703356-e16f-4697-feb8-b4a528778700",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
