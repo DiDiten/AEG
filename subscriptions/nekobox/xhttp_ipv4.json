@@ -83,7 +83,8 @@
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [1]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
-                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [7]",
+                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [5]",
+                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [8]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -147,7 +148,8 @@
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [1]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [7]",
-                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [7]",
+                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [5]",
+                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [8]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -343,7 +345,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [7]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [5]",
             "type": "vless",
             "server": "185.113.10.132",
             "server_port": 8650,
@@ -366,7 +368,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [8]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [6]",
             "type": "vless",
             "server": "185.113.10.132",
             "server_port": 8650,
@@ -389,7 +391,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [8]",
             "type": "vless",
             "server": "185.113.10.132",
             "server_port": 8650,
@@ -403,6 +405,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWbuHeDHnHpfJMPsAOIJOIeQgzfCK_47CjY7TbWA5hI",
+                    "short_id": "354b9cbe48"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
+            "type": "vless",
+            "server": "185.113.10.132",
+            "server_port": 8650,
+            "uuid": "bd8c9d2e-738e-4dd3-bdf1-a22459cc831b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
                 },
                 "reality": {
                     "enabled": true,
