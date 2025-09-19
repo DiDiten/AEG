@@ -86,7 +86,8 @@
                 "🇨🇿 CZ | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [33]",
+                "🇨🇿 CZ | 🔒 VLESS | @config_proxy [30]",
+                "🇨🇦 CA | 🔒 VLESS | @config_proxy [31]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -236,7 +237,8 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_youtube [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_youtube [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
-                "🇳🇱 NL | 🔓 VLESS | @v2raych [18]",
+                "🚩 CF | 🔓 VLESS | @v2raych [18]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [19]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -295,7 +297,8 @@
                 "🇨🇿 CZ | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [33]",
+                "🇨🇿 CZ | 🔒 VLESS | @config_proxy [30]",
+                "🇨🇦 CA | 🔒 VLESS | @config_proxy [31]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -445,7 +448,8 @@
                 "🚩 CF | 🔒 VLESS | @v2ray_youtube [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_youtube [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
-                "🇳🇱 NL | 🔓 VLESS | @v2raych [18]",
+                "🚩 CF | 🔓 VLESS | @v2raych [18]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [19]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
@@ -686,16 +690,16 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [33]",
+            "tag": "🇨🇿 CZ | 🔒 VLESS | @config_proxy [30]",
             "type": "vless",
-            "server": "85.158.110.62",
-            "server_port": 8443,
-            "uuid": "8ab3e20a-1485-4fbc-8d1b-1ef8a340b1ee",
+            "server": "194.182.79.163",
+            "server_port": 10108,
+            "uuid": "edeffe9e-4725-428e-a1c0-7b6a96124f8d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "journalofbigdata.springeropen.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -703,9 +707,40 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
-                    "short_id": ""
+                    "public_key": "wGHsRP4taNR7OgyRPba24krQVhH9ZRbR7pvDxVsGjj0",
+                    "short_id": "ed"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 VLESS | @config_proxy [31]",
+            "type": "vless",
+            "server": "148.113.142.165",
+            "server_port": 2053,
+            "uuid": "c34d1d2b-26d7-4d72-afe2-ede9924ea0c4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nr4qs7JSJShNXIpWKNGReZXaFw910k1X93NDevapa0E",
+                    "short_id": "5640288dca4f8519"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
             }
         },
         {
@@ -3217,11 +3252,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @v2raych [18]",
+            "tag": "🚩 CF | 🔓 VLESS | @v2raych [18]",
             "type": "vless",
-            "server": "109.207.171.107",
-            "server_port": 8443,
-            "uuid": "7455e612-b2b3-4092-af2f-679e039c64d8",
+            "server": "104.17.147.22",
+            "server_port": 2086,
+            "uuid": "a56d8500-9c87-4927-a920-2afa4214b9c8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2056",
+                "headers": {
+                    "Host": "104.17.147.22"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [19]",
+            "type": "vless",
+            "server": "195.201.32.169",
+            "server_port": 42671,
+            "uuid": "9e79d27d-ea29-440b-ac4f-02153ed948af",
             "flow": "",
             "packet_encoding": "xudp"
         },

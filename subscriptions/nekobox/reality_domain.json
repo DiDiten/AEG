@@ -84,8 +84,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [32]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [34]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [21]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [23]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [30]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -207,8 +208,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [32]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [34]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [21]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [23]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [30]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -506,7 +508,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [32]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [21]",
             "type": "vless",
             "server": "services.dissertationhelpspecialist.com",
             "server_port": 443,
@@ -533,7 +535,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [34]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [23]",
             "type": "vless",
             "server": "map.wimax.cc",
             "server_port": 995,
@@ -552,6 +554,29 @@
                     "enabled": true,
                     "public_key": "yNhlDZzvU8WHaXdAuZFFLYpaQwoUe5pYa0zGvZLzjWc",
                     "short_id": "e96f65f7"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [30]",
+            "type": "vless",
+            "server": "jg0dkrdfmq.country-18.eu-ffast.com",
+            "server_port": 443,
+            "uuid": "00e236b5-328f-4dce-9e12-5d6f20e6f289",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "fin.eu-ffast.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+                    "short_id": "50"
                 }
             }
         },
