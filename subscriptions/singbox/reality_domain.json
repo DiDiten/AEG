@@ -96,6 +96,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇦🇪 AE | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -141,9 +142,9 @@
                 "🇫🇮 FI | 🔒 VLESS | @nofiltering2 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [9]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [13]",
-                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [3]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [1]",
                 "🇷🇺 RU | 🔒 VLESS | @outlinev2rayng [3]",
-                "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [9]",
+                "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [8]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -159,7 +160,7 @@
                 "🇯🇵 JP | 🔒 VLESS | @qrv2ray [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
-                "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [11]",
+                "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [10]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @selinc [4]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
@@ -219,6 +220,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇦🇪 AE | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -264,9 +266,9 @@
                 "🇫🇮 FI | 🔒 VLESS | @nofiltering2 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [9]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [13]",
-                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [3]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [1]",
                 "🇷🇺 RU | 🔒 VLESS | @outlinev2rayng [3]",
-                "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [9]",
+                "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [8]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -282,7 +284,7 @@
                 "🇯🇵 JP | 🔒 VLESS | @qrv2ray [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
-                "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [11]",
+                "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [10]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @selinc [4]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
@@ -511,6 +513,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇦🇪 AE | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "yuae.amiraizo.com",
+            "server_port": 2560,
+            "uuid": "08bc45d6-1637-448a-9840-2759ed247be7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
+                    "short_id": "e41865e506628f44"
+                }
             }
         },
         {
@@ -1636,7 +1661,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [3]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [1]",
             "type": "vless",
             "server": "deu106.worldunbound.org",
             "server_port": 443,
@@ -1682,7 +1707,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [9]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @outlinev2rayng [8]",
             "type": "vless",
             "server": "uisacorp1yl7nz9xw6mt3vk8qd5rp2gj4bs1jcoruisa.outline360bot.com",
             "server_port": 443,
@@ -2062,7 +2087,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [11]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @satellitenewspersian [10]",
             "type": "vless",
             "server": "80808.sbs",
             "server_port": 8443,
