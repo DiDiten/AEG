@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
+                "🇺🇸 US | 🔒 TROJAN | @hope_net [19]",
                 "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
@@ -103,7 +104,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
+                "🇺🇸 US | 🔒 TROJAN | @hope_net [19]",
                 "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
@@ -206,14 +208,21 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [19]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [18]",
             "type": "trojan",
-            "server": "162.159.128.233",
-            "server_port": 8443,
-            "password": "auto",
+            "server": "104.19.209.229",
+            "server_port": 2052,
+            "password": "edcfbd77-d607-53a9-842c-32592c2504b2"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 TROJAN | @hope_net [19]",
+            "type": "trojan",
+            "server": "67.220.72.41",
+            "server_port": 443,
+            "password": "sharevpn",
             "tls": {
                 "enabled": true,
-                "server_name": "e9464f45.trauma-2r4.pages.dev",
+                "server_name": "tlsh2ss.mynode.work.gdh2,http/1.1",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -221,19 +230,26 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "/Telegram-@V2ray_Alpha/?ed=2048",
-                "headers": {
-                    "Host": "e9464f45.trauma-2r4.pages.dev"
-                }
+                "type": "http",
+                "host": [
+                    "tlsh2ss.mynode.work.gdh2,http/1.1"
+                ],
+                "path": "/"
             }
         },
         {
             "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
             "type": "trojan",
-            "server": "104.19.209.229",
+            "server": "198.41.214.224",
             "server_port": 2052,
-            "password": "edcfbd77-d607-53a9-842c-32592c2504b2"
+            "password": "f0d584bc-342f-4443-ba24-79e4d0e504b1",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "198.41.214.224"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
