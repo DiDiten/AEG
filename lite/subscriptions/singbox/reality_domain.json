@@ -94,6 +94,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇦🇪 AE | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -142,6 +143,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇦🇪 AE | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -311,6 +313,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇦🇪 AE | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "yuae.amiraizo.com",
+            "server_port": 2560,
+            "uuid": "08bc45d6-1637-448a-9840-2759ed247be7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
+                    "short_id": "e41865e506628f44¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---"
+                }
             }
         },
         {
@@ -1067,7 +1092,7 @@
             "type": "vless",
             "server": "wndisdkvwmqyod.curfuffled.com",
             "server_port": 443,
-            "uuid": "4e3ae3d4-9e7b-4866-97d3-8127439f0050",
+            "uuid": "52c5f186-8599-4043-84bf-2759186c8281",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -1094,7 +1119,7 @@
             "type": "vless",
             "server": "wndisdkvwmqyod.curfuffled.com",
             "server_port": 443,
-            "uuid": "52c5f186-8599-4043-84bf-2759186c8281",
+            "uuid": "a13f48f0-ee23-4f89-8302-3670aebded28",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -1121,7 +1146,7 @@
             "type": "vless",
             "server": "wndisdkvwmqyod.curfuffled.com",
             "server_port": 443,
-            "uuid": "a13f48f0-ee23-4f89-8302-3670aebded28",
+            "uuid": "a29a1ea2-98bc-4333-af5e-f3bb3ca6542c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
