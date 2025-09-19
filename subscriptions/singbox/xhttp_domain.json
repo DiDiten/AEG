@@ -98,6 +98,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [10]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [18]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -116,6 +117,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
+                "🇩🇪 DE | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [2]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [4]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [6]",
@@ -126,7 +128,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [5]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [7]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [11]",
-                "🇩🇪 DE | 🔓 VLESS | @selinc [2]",
+                "🇩🇪 DE | 🔓 VLESS | @selinc [1]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [3]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [3]",
@@ -159,6 +161,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [10]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [18]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -177,6 +180,7 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇫🇮 FI | 🔓 VLESS | @evay_vpn [26]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
+                "🇩🇪 DE | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [2]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [4]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [6]",
@@ -187,7 +191,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [5]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [7]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [11]",
-                "🇩🇪 DE | 🔓 VLESS | @selinc [2]",
+                "🇩🇪 DE | 🔓 VLESS | @selinc [1]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [3]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [3]",
@@ -340,6 +344,15 @@
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
+            "type": "vless",
+            "server": "ergwork.web.unc.edu",
+            "server_port": 80,
+            "uuid": "76772b2f-c009-4bfd-8e12-ffa69c2e8136",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -674,6 +687,24 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @falcunargo [11]",
+            "type": "vless",
+            "server": "sss70053.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "f23b820b-b88f-4c40-8b20-b4b36629f6b1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss70053.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @ghalagyann [2]",
             "type": "vless",
             "server": "speedtestcustom.com",
@@ -778,7 +809,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @selinc [2]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @selinc [1]",
             "type": "vless",
             "server": "sss49730.tas-bazi.com",
             "server_port": 443,
