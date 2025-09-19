@@ -82,6 +82,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇮🇳 IN | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -117,7 +118,6 @@
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [8]",
@@ -152,7 +152,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [13]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [65]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
@@ -173,6 +173,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇮🇳 IN | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -208,7 +209,6 @@
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [8]",
@@ -243,7 +243,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [13]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [65]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
@@ -389,6 +389,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇮🇳 IN | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "esterviuserd.selenarahmani.blog",
+            "server_port": 2053,
+            "uuid": "904a7d68-bd97-4158-9069-27cbab888a43",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aider.chat",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "b-17bBrxypH7jYoyReMbsfR2usUAV9FKmFNVBsofhRw",
+                    "short_id": "9d50102196b6bf35"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
             }
         },
         {
@@ -1241,29 +1268,6 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [5]",
-            "type": "vless",
-            "server": "167.99.45.44",
-            "server_port": 30402,
-            "uuid": "cicadanet",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "X0A-gB9NvXnTYsgN3ztH4D1-D3W9bg_OtY5ffUjc614",
-                    "short_id": "2d9d1cbc94"
-                }
-            }
-        },
-        {
             "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
             "type": "vless",
             "server": "157.180.81.19",
@@ -2062,7 +2066,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [14]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [13]",
             "type": "vless",
             "server": "213.165.55.47",
             "server_port": 443,
