@@ -128,9 +128,10 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [20]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [47]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [48]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [7]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -218,9 +219,10 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [20]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [47]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [48]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [7]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -1224,6 +1226,52 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [47]",
+            "type": "vless",
+            "server": "212.192.246.37",
+            "server_port": 443,
+            "uuid": "d6ccda57-9fba-4b34-8d9d-1cbd195f99fb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jj3hJumlQW-h4fC0L_is4ZTFFiOu2uG5Eg6ICK5agk8",
+                    "short_id": "de4c79a0"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭 CH | 🔒 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "37.156.44.111",
+            "server_port": 443,
+            "uuid": "0b2b00c2-be56-4be6-abda-5e329afb7bce",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chess.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "b_hJSqrd_USUBlX5A9-iJTBd0qndoAH9DW3Ct-HpGxc",
+                    "short_id": "4d01fba3"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -1266,29 +1314,6 @@
                     "enabled": true,
                     "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
                     "short_id": "077dc29a23d311f2"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [7]",
-            "type": "vless",
-            "server": "185.113.10.132",
-            "server_port": 8650,
-            "uuid": "f6583e0a-5403-4cf5-a1b5-c4a861e92a8b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YWbuHeDHnHpfJMPsAOIJOIeQgzfCK_47CjY7TbWA5hI",
-                    "short_id": "354b9cbe48"
                 }
             }
         },

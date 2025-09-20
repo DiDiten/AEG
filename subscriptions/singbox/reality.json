@@ -95,7 +95,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [47]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -199,8 +200,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [85]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [91]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [3]",
-                "🇦🇪 AE | 🔒 VLESS | @v2raych [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -237,6 +236,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
+                "🇱🇻 LV | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -358,7 +359,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [47]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -462,8 +464,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [85]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [91]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [3]",
-                "🇦🇪 AE | 🔒 VLESS | @v2raych [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -500,6 +500,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
+                "🇱🇻 LV | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -763,16 +765,39 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [47]",
             "type": "vless",
-            "server": "85.158.110.62",
-            "server_port": 8443,
-            "uuid": "b177fef4-d015-4c85-a803-e645c92c655d",
+            "server": "212.192.246.37",
+            "server_port": 443,
+            "uuid": "d6ccda57-9fba-4b34-8d9d-1cbd195f99fb",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jj3hJumlQW-h4fC0L_is4ZTFFiOu2uG5Eg6ICK5agk8",
+                    "short_id": "de4c79a0"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭 CH | 🔒 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "37.156.44.111",
+            "server_port": 443,
+            "uuid": "0b2b00c2-be56-4be6-abda-5e329afb7bce",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chess.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -780,8 +805,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
-                    "short_id": ""
+                    "public_key": "b_hJSqrd_USUBlX5A9-iJTBd0qndoAH9DW3Ct-HpGxc",
+                    "short_id": "4d01fba3"
                 }
             }
         },
@@ -3238,52 +3263,6 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [3]",
-            "type": "vless",
-            "server": "51.158.205.183",
-            "server_port": 443,
-            "uuid": "d2ecc4f5-818f-5a26-add0-2d38df59c720",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "outlook.office.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OHDOdOV5Zdi-bSFlXCstXXdunYLtxZ-6quyX0bA6MFQ",
-                    "short_id": "8aa41f71"
-                }
-            }
-        },
-        {
-            "tag": "🇦🇪 AE | 🔒 VLESS | @v2raych [4]",
-            "type": "vless",
-            "server": "188.208.110.199",
-            "server_port": 443,
-            "uuid": "3ab6a8d9-1058-5f6d-8617-78fcf32a854b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "outlook.office.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TUVCZBQZ-AyYh1MY35PyuR6zyCpI4iEZwc61X7RmeEE",
-                    "short_id": "8b7300ae"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
             "type": "vless",
             "server": "136.244.84.58",
@@ -4139,6 +4118,56 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
+            "type": "vless",
+            "server": "step.dissertationhelpspecialist.com",
+            "server_port": 443,
+            "uuid": "5ac23acd-1079-405a-9e19-18becda4c2bf",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "e_w8hU5iFkzVYFOSY-CDrA_vm2HuguWPnwSWgzeeaX8",
+                    "short_id": "7a28ae"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice"
+            }
+        },
+        {
+            "tag": "🇱🇻 LV | 🔒 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "latvia6.clearorbitllc.com",
+            "server_port": 443,
+            "uuid": "d5c1b5d7-055b-4457-bc3a-6e99919c1bcb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "latvia6.clearorbitllc.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw",
+                    "short_id": "81e0b568¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---"
+                }
             }
         },
         {
