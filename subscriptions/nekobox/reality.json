@@ -83,8 +83,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [25]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [34]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [28]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -222,6 +221,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [25]",
+                "❔ XX | 🔒 VLESS | @config_proxy [27]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -343,8 +344,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [25]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [34]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [28]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -482,6 +482,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [25]",
+                "❔ XX | 🔒 VLESS | @config_proxy [27]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -749,11 +751,11 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [25]",
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [28]",
             "type": "vless",
-            "server": "85.239.60.43",
+            "server": "91.242.241.45",
             "server_port": 8443,
-            "uuid": "5af7e8d0-d203-470d-931c-1f6a7cc16d9e",
+            "uuid": "c66f63a9-ed71-43b0-a78b-ed93a68331f1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -766,30 +768,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "qJ_x7_Fz3M4QdnRG8WcqVNpgsHbwWgs_KrdCqr4iclE",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [34]",
-            "type": "vless",
-            "server": "80.74.29.212",
-            "server_port": 8443,
-            "uuid": "d3c9963a-53d5-4f25-8638-004848a48624",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA",
+                    "public_key": "1-2fy8f8XeOHzmdFmCENHV1mr_tzJX1M9UXp42mUIiM",
                     "short_id": ""
                 }
             }
@@ -4056,6 +4035,56 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [25]",
+            "type": "vless",
+            "server": "kernel.panel.cactusv2.xyz",
+            "server_port": 4434,
+            "uuid": "346264b7-975c-4891-8f7b-dcd6e5707a42",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qlXAzsjjzUjqcfuZcd-oUlLLIFVEVqs454P_F3BvQwI",
+                    "short_id": "f10dcd45"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [27]",
+            "type": "vless",
+            "server": "direct2.yasharteam.com",
+            "server_port": 443,
+            "uuid": "78c22707-acf6-4d32-b172-5f61c3c0f220",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
+                    "short_id": "e54b5ad736ae4c38"
+                }
             }
         },
         {
