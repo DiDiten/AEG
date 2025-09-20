@@ -96,7 +96,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇦🇱 AL | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -117,8 +116,8 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [4]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [6]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [18]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -140,7 +139,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [11]",
-                "🇫🇷 FR | 🔒 VLESS | @outlinev2rayng [15]",
+                "🇫🇷 FR | 🔒 VLESS | @outlinev2rayng [14]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -214,7 +213,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇦🇱 AL | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -235,8 +233,8 @@
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [4]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [6]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [18]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -258,7 +256,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [11]",
-                "🇫🇷 FR | 🔒 VLESS | @outlinev2rayng [15]",
+                "🇫🇷 FR | 🔒 VLESS | @outlinev2rayng [14]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -501,29 +499,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇦🇱 AL | 🔒 VLESS | @config_proxy [43]",
-            "type": "vless",
-            "server": "alb.adrenaline-fast.ru",
-            "server_port": 443,
-            "uuid": "4d388def-074d-4cf6-997d-6144c75a6da8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "jrpL94cShQQzeMnCRGQlfiRctXb17NOI6JgUPPcG2XI",
-                    "short_id": "84ba23f147ad6a56"
-                }
             }
         },
         {
@@ -1007,7 +982,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [4]",
             "type": "vless",
             "server": "services.dissertationhelpspecialist.com",
             "server_port": 443,
@@ -1034,7 +1009,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [6]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
             "type": "vless",
             "server": "step.dissertationhelpspecialist.com",
             "server_port": 443,
@@ -1599,7 +1574,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @outlinev2rayng [15]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @outlinev2rayng [14]",
             "type": "vless",
             "server": "paisaoutt.outline360bot.com",
             "server_port": 443,
