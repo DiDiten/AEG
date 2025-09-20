@@ -94,12 +94,14 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
+                "🇹🇷 TR | 🔒 VLESS | @falcunargo [9]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -139,12 +141,14 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
+                "🇹🇷 TR | 🔒 VLESS | @falcunargo [9]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -308,6 +312,29 @@
             }
         },
         {
+            "tag": "🇨🇭 CH | 🔒 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "ali-tu5-sub.serverfreedom.com",
+            "server_port": 1030,
+            "uuid": "94e7dc76-f7f8-4595-9077-c357c7c58125",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vj5pvcr-2G1kK7hKp937WrwAPtVg4p94HpqeCAuauD4",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -331,7 +358,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
             "type": "vless",
             "server": "test.barayekhudam.ir",
             "server_port": 59697,
@@ -446,6 +473,29 @@
                     "enabled": true,
                     "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
                     "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔒 VLESS | @falcunargo [9]",
+            "type": "vless",
+            "server": "ytr.amiraizo.com",
+            "server_port": 2560,
+            "uuid": "c7515fa7-6119-4a81-8fef-6d3ea24afffe",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
+                    "short_id": "e41865e506628f44"
                 }
             }
         },
