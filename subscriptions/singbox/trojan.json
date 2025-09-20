@@ -124,7 +124,6 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [3]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇰🇷 KR | 🔓 TROJAN | @hope_net [6]",
                 "🇳🇱 NL | 🔒 TROJAN | @manstervpn [64]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [65]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [67]",
@@ -152,7 +151,6 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
-                "🇰🇿 KZ | 🔒 TROJAN | @v2aryng_vpn [1]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
@@ -219,7 +217,6 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [3]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇰🇷 KR | 🔓 TROJAN | @hope_net [6]",
                 "🇳🇱 NL | 🔒 TROJAN | @manstervpn [64]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [65]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [67]",
@@ -247,7 +244,6 @@
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
-                "🇰🇿 KZ | 🔒 TROJAN | @v2aryng_vpn [1]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
@@ -933,13 +929,6 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🇰🇷 KR | 🔓 TROJAN | @hope_net [6]",
-            "type": "trojan",
-            "server": "146.56.174.73",
-            "server_port": 21005,
-            "password": "64f33df2-4f9d-4cf3-bb69-b82b08cf149a"
-        },
-        {
             "tag": "🇳🇱 NL | 🔒 TROJAN | @manstervpn [64]",
             "type": "trojan",
             "server": "185.176.24.2",
@@ -1407,29 +1396,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇰🇿 KZ | 🔒 TROJAN | @v2aryng_vpn [1]",
-            "type": "trojan",
-            "server": "194.76.18.195",
-            "server_port": 2096,
-            "password": "slch2024",
-            "tls": {
-                "enabled": true,
-                "server_name": "ocost-dy.wmlefl.cc",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram",
-                "headers": {
-                    "Host": "ocost-dy.wmlefl.cc"
                 }
             }
         },
