@@ -88,6 +88,8 @@
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [14]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [17]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [18]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [9]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -109,6 +111,8 @@
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [14]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [17]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [18]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [18]",
                 "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [9]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -300,6 +304,42 @@
             "uuid": "TELEGRAM-CONFiGLiNE-3",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
+            "type": "vless",
+            "server": "sss37704.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "cbfaa4fa-8393-43db-a052-d86543462f0d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss37704.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [18]",
+            "type": "vless",
+            "server": "sss51454.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss51454.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [9]",

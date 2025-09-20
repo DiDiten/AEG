@@ -85,8 +85,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [7]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [12]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [37]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [44]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -115,6 +114,8 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [9]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [17]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [18]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [18]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [3]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [1]",
@@ -142,8 +143,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [7]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [12]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [37]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [44]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -172,6 +172,8 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [9]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [17]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [18]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [18]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [3]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [1]",
@@ -319,22 +321,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [37]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
             "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "7907db1c-bbab-4ea5-b032-281300c2ece2",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [44]",
-            "type": "vless",
-            "server": "pscresearch.faculty.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "45c578ad-748b-47c4-abd5-70e5890183cc",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "de1.vlspeed.xyz",
+            "server_port": 8443,
+            "uuid": "a5b25508-9550-482d-bb62-a36916fff829",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tci.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4RVSIfwDUNrzemcTqlxK56MFaQinX5I5bDlzlZeOWls",
+                    "short_id": "6d26f92346c69a83"
+                }
+            }
         },
         {
             "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
@@ -764,6 +771,42 @@
             "uuid": "TELEGRAM-CONFiGLiNE-3",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
+            "type": "vless",
+            "server": "sss37704.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "cbfaa4fa-8393-43db-a052-d86543462f0d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss37704.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [18]",
+            "type": "vless",
+            "server": "sss51454.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss51454.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @server_nekobox [3]",
