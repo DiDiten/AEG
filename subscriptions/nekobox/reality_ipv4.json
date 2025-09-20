@@ -83,7 +83,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [46]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [19]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -186,7 +187,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [85]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [7]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -231,7 +232,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [46]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [19]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -334,7 +336,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [85]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [7]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -525,7 +527,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [46]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [19]",
             "type": "vless",
             "server": "80.74.29.212",
             "server_port": 8443,
@@ -544,6 +546,29 @@
                     "enabled": true,
                     "public_key": "rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
+            "type": "vless",
+            "server": "194.87.29.240",
+            "server_port": 443,
+            "uuid": "590e612b-d702-4617-b650-e664c0b7c271",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnjs.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4",
+                    "short_id": "bc97736f81817c41"
                 }
             }
         },
@@ -2977,25 +3002,25 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [7]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [10]",
             "type": "vless",
-            "server": "91.98.139.247",
-            "server_port": 39626,
-            "uuid": "d4f5c51c-6bed-4a1c-a335-b0df490249d5",
+            "server": "129.146.101.82",
+            "server_port": 40000,
+            "uuid": "a64d1cba-13a8-4179-8139-96790c759389",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.steampowered.com",
+                "server_name": "www.python.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "qq"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs",
-                    "short_id": "85"
+                    "public_key": "qCaV2kI9Oxts987YzeFkyyQHMnJnd5YA1GJuAkRVImg",
+                    "short_id": "19e5124d"
                 }
             }
         },
