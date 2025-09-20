@@ -108,6 +108,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
+                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [6]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -145,6 +146,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇷🇺 RU | 🔒 VLESS | @kafing_2 [10]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [5]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
@@ -161,7 +163,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [11]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [10]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [12]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [65]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
@@ -196,6 +199,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
+                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [6]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -233,6 +237,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇷🇺 RU | 🔒 VLESS | @kafing_2 [10]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [5]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
@@ -249,7 +254,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [11]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [10]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [12]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [65]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
@@ -728,6 +734,29 @@
                     "enabled": true,
                     "public_key": "UgwRcGmt9yqVzDac4KryRxQKvaVDi0eueJPPpmx7pW8",
                     "short_id": "f23d09"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🔒 VLESS | @mowjproxy [6]",
+            "type": "vless",
+            "server": "Polandovh.turkcloud.ir",
+            "server_port": 223,
+            "uuid": "8f0120f1-ba26-e137-5e06-a99b844741aa",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
+                    "short_id": "e41865e506628f44"
                 }
             }
         },
@@ -1619,6 +1648,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @lranonline_new [5]",
+            "type": "vless",
+            "server": "91.98.139.247",
+            "server_port": 39626,
+            "uuid": "d4f5c51c-6bed-4a1c-a335-b0df490249d5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs",
+                    "short_id": "85"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
             "type": "vless",
             "server": "128.140.117.198",
@@ -1995,7 +2047,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [11]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [10]",
             "type": "vless",
             "server": "213.165.55.47",
             "server_port": 443,
@@ -2014,6 +2066,29 @@
                     "enabled": true,
                     "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
                     "short_id": "e54b5ad736ae4c38"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [12]",
+            "type": "vless",
+            "server": "91.99.58.127",
+            "server_port": 2090,
+            "uuid": "c01c0c92-b2d1-44b1-a5e5-2f8a94e57008",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo",
+                    "short_id": ""
                 }
             }
         },
