@@ -94,6 +94,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -108,7 +109,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [5]",
+                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [4]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -185,6 +186,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -199,7 +201,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [5]",
+                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [4]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -397,6 +399,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "de1.vlspeed.xyz",
+            "server_port": 8443,
+            "uuid": "a5b25508-9550-482d-bb62-a36916fff829",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tci.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4RVSIfwDUNrzemcTqlxK56MFaQinX5I5bDlzlZeOWls",
+                    "short_id": "6d26f92346"
+                }
             }
         },
         {
@@ -738,7 +763,7 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @mowjproxy [5]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @mowjproxy [4]",
             "type": "vless",
             "server": "Polandovh.turkcloud.ir",
             "server_port": 223,
