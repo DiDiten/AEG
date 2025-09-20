@@ -95,8 +95,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [48]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [50]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -200,6 +199,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [85]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [91]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [3]",
+                "🇦🇪 AE | 🔒 VLESS | @v2raych [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -245,8 +246,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [48]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [50]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -350,6 +350,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [85]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [91]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [3]",
+                "🇦🇪 AE | 🔒 VLESS | @v2raych [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -537,11 +539,11 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [48]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
             "type": "vless",
-            "server": "85.239.60.43",
+            "server": "85.158.110.62",
             "server_port": 8443,
-            "uuid": "ad705532-e57e-4ea7-a174-49a8cc9afc50",
+            "uuid": "b177fef4-d015-4c85-a803-e645c92c655d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -554,31 +556,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "qJ_x7_Fz3M4QdnRG8WcqVNpgsHbwWgs_KrdCqr4iclE",
+                    "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [50]",
-            "type": "vless",
-            "server": "83.147.19.55",
-            "server_port": 443,
-            "uuid": "56b11f6e-3ee4-41d9-b648-213ff8106e7d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "snapp.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NVzXDuB9PZECzVgRWCVZJ4rCujQ5d2tw64Ufftci8C4",
-                    "short_id": "5bef46444e87"
                 }
             }
         },
@@ -3031,6 +3010,52 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [3]",
+            "type": "vless",
+            "server": "51.158.205.183",
+            "server_port": 443,
+            "uuid": "d2ecc4f5-818f-5a26-add0-2d38df59c720",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "outlook.office.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "OHDOdOV5Zdi-bSFlXCstXXdunYLtxZ-6quyX0bA6MFQ",
+                    "short_id": "8aa41f71"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇪 AE | 🔒 VLESS | @v2raych [4]",
+            "type": "vless",
+            "server": "188.208.110.199",
+            "server_port": 443,
+            "uuid": "3ab6a8d9-1058-5f6d-8617-78fcf32a854b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "outlook.office.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TUVCZBQZ-AyYh1MY35PyuR6zyCpI4iEZwc61X7RmeEE",
+                    "short_id": "8b7300ae"
                 }
             }
         },
