@@ -96,7 +96,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "❔ XX | 🔒 VLESS | @config_proxy [37]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [42]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -217,7 +218,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "❔ XX | 🔒 VLESS | @config_proxy [37]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [42]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -510,25 +512,48 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [37]",
+            "tag": "🇱🇹 LT | 🔒 VLESS | @config_proxy [42]",
             "type": "vless",
-            "server": "west.mahi-yar.com",
-            "server_port": 7893,
-            "uuid": "8e3108c5-0051-4ec6-8bba-b0cfb2128274",
+            "server": "hield.ru",
+            "server_port": 443,
+            "uuid": "8ef0060a-a125-4905-b651-0bde22c2c4f7",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "4wQM_RBIjAR27D6Vou1QZfa1mF2gw8SDEDiwoEd3Cxo",
-                    "short_id": ""
+                    "public_key": "JPm5aPILktbakyQ21Q3p4ABm3NHBIVMmaumDveRBGws",
+                    "short_id": "06c6eb7423f24de5"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "world-of.ru",
+            "server_port": 443,
+            "uuid": "acb18cea-70dc-490a-a58d-9eb5f50f47c7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9QOmx7k0-uCbUrgh7ee9x9qtLIOEVyeYiZI2aiimYEs",
+                    "short_id": "71e48a"
                 }
             }
         },
