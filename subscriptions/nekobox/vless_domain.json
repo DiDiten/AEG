@@ -106,10 +106,10 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [21]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [24]",
                 "🇮🇷 IR | 🔓 VLESS | @config_proxy [26]",
-                "🇫🇷 FR | 🔓 VLESS | @config_proxy [27]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [31]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [35]",
+                "❔ XX | 🔒 VLESS | @config_proxy [37]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -398,6 +398,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
+                "🇮🇷 IR | 🔓 VLESS | @mowjproxy [3]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [2]",
                 "❔ XX | 🔓 VLESS | @mpproxy [7]",
                 "❔ XX | 🔓 VLESS | @mpproxy [10]",
@@ -565,6 +566,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [2]",
                 "🇱🇮 LI | 🔒 VLESS | @v2aryng_vpn [3]",
                 "🇮🇷 IR | 🔒 VLESS | @v2aryng_vpn [7]",
+                "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [9]",
                 "❔ XX | 🔒 VLESS | @v2logy [1]",
                 "🚩 CF | 🔓 VLESS | @v2logy [6]",
                 "🚩 CF | 🔓 VLESS | @v2logy [7]",
@@ -768,10 +770,10 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [21]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [24]",
                 "🇮🇷 IR | 🔓 VLESS | @config_proxy [26]",
-                "🇫🇷 FR | 🔓 VLESS | @config_proxy [27]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [31]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [35]",
+                "❔ XX | 🔒 VLESS | @config_proxy [37]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1060,6 +1062,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
+                "🇮🇷 IR | 🔓 VLESS | @mowjproxy [3]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [2]",
                 "❔ XX | 🔓 VLESS | @mpproxy [7]",
                 "❔ XX | 🔓 VLESS | @mpproxy [10]",
@@ -1227,6 +1230,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2aryng_vpn [2]",
                 "🇱🇮 LI | 🔒 VLESS | @v2aryng_vpn [3]",
                 "🇮🇷 IR | 🔒 VLESS | @v2aryng_vpn [7]",
+                "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [9]",
                 "❔ XX | 🔒 VLESS | @v2logy [1]",
                 "🚩 CF | 🔓 VLESS | @v2logy [6]",
                 "🚩 CF | 🔓 VLESS | @v2logy [7]",
@@ -1938,56 +1942,68 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @config_proxy [21]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [24]",
             "type": "vless",
-            "server": "m.manivpn.info",
-            "server_port": 443,
-            "uuid": "717cf30d-4d2f-4d55-a067-81e5cbc8594b",
+            "server": "FASTSHOVPNTELEGRAM2.vinamarketcenter.ir",
+            "server_port": 80,
+            "uuid": "ee4ef2b9-3493-48e8-f8c7-faa7026cb957",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "m.manivpn.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/ws",
+                "path": "/FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM?ed=2048",
                 "headers": {
-                    "Host": "m.manivpn.info"
+                    "Host": "FASTSHOVPNTELEGRAM2.vinamarketcenter.ir"
                 }
             }
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [26]",
             "type": "vless",
-            "server": "du1tn.tehrantab.com",
-            "server_port": 2096,
-            "uuid": "1f095b3d-cf26-6c60-8dad-191de3bb7d5a",
+            "server": "cb14.connectbaash.info",
+            "server_port": 4414,
+            "uuid": "54559d31-a4f0-4648-beeb-8323045a36c8",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @config_proxy [27]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [35]",
             "type": "vless",
-            "server": "France.bollstook.ir",
-            "server_port": 3233,
+            "server": "www.speedtest.net",
+            "server_port": 8880,
             "uuid": "e05ff63a-9c84-4f10-b572-2c725236ef81",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Nama?ed=2048",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [31]",
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [37]",
             "type": "vless",
-            "server": "m10a.vip784.com",
-            "server_port": 33801,
-            "uuid": "2e03cdd6-64e9-4aa6-bc00-ea522f845808",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "west.mahi-yar.com",
+            "server_port": 7893,
+            "uuid": "8e3108c5-0051-4ec6-8bba-b0cfb2128274",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4wQM_RBIjAR27D6Vou1QZfa1mF2gw8SDEDiwoEd3Cxo",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -7032,6 +7048,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇮🇷 IR | 🔓 VLESS | @mowjproxy [3]",
+            "type": "vless",
+            "server": "du1tn.tehrantab.com",
+            "server_port": 2096,
+            "uuid": "1f095b3d-cf26-6c60-8dad-191de3bb7d5a",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇮🇷 IR | 🔓 VLESS | @mpproxy [2]",
             "type": "vless",
             "server": "free2.lithub.ir",
@@ -9798,6 +9823,15 @@
                     "short_id": ""
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [9]",
+            "type": "vless",
+            "server": "m10a.vip784.com",
+            "server_port": 33801,
+            "uuid": "2e03cdd6-64e9-4aa6-bc00-ea522f845808",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "❔ XX | 🔒 VLESS | @v2logy [1]",
