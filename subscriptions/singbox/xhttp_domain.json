@@ -97,8 +97,10 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [13]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [25]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [26]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [29]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [37]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -155,8 +157,10 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [13]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [25]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [26]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [29]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [37]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -329,7 +333,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [25]",
             "type": "vless",
             "server": "NUFiLTER.fast.hosting-ip.com",
             "server_port": 80,
@@ -338,13 +342,45 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [26]",
             "type": "vless",
             "server": "CONFiGLiNE.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "9024add3-3d9e-4954-9cbb-4e0441f710af",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [29]",
+            "type": "vless",
+            "server": "pscresearch.faculty.ucdavis.edu",
+            "server_port": 80,
+            "uuid": "a218dce2-cb00-4139-94b8-fccf675d6918",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [37]",
+            "type": "vless",
+            "server": "test.barayekhudam.ir",
+            "server_port": 59697,
+            "uuid": "d378d3d0-c521-4874-a6f3-21794398cf9c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "bimeh.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HDE3ZT4rZPr6RIpgLK6dn6FGvolXLJtwJEeDEC4N1Eg",
+                    "short_id": "c5a5b0"
+                }
+            }
         },
         {
             "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [7]",
