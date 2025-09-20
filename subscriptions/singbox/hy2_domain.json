@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇭🇰 HK | 🔒 HY2 | @config_proxy [45]",
                 "🇳🇱 NL | 🔒 HY2 | @v2ray_collector [9]"
             ],
             "tag": "proxy",
@@ -103,6 +104,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇭🇰 HK | 🔒 HY2 | @config_proxy [45]",
                 "🇳🇱 NL | 🔒 HY2 | @v2ray_collector [9]"
             ],
             "tag": "auto",
@@ -187,6 +189,25 @@
                 "headers": {
                     "Host": "127.0.0.1"
                 }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 HY2 | @config_proxy [45]",
+            "type": "hysteria2",
+            "server": "xg.xfy003.cfd",
+            "server_port": 21333,
+            "password": "38b215a8-a45a-4590-bb91-7fb7454fcf50",
+            "obfs": {
+                "type": "salamander",
+                "password": "zTCsHcttqdA0PniW"
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xg.xfy003.cfd",
+                "insecure": true,
+                "alpn": [
+                    "h3"
+                ]
             }
         },
         {
