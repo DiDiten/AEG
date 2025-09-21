@@ -96,7 +96,8 @@
                 "❔ XX | 🔓 VLESS | @parsashonam [3]",
                 "❔ XX | 🔓 VLESS | @parsashonam [7]",
                 "❔ XX | 🔓 VLESS | @parsashonam [11]",
-                "❔ XX | 🔓 VLESS | @parsashonam [15]"
+                "❔ XX | 🔓 VLESS | @parsashonam [15]",
+                "❔ XX | 🔒 VLESS | @v2raych [9]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -123,7 +124,8 @@
                 "❔ XX | 🔓 VLESS | @parsashonam [3]",
                 "❔ XX | 🔓 VLESS | @parsashonam [7]",
                 "❔ XX | 🔓 VLESS | @parsashonam [11]",
-                "❔ XX | 🔓 VLESS | @parsashonam [15]"
+                "❔ XX | 🔓 VLESS | @parsashonam [15]",
+                "❔ XX | 🔒 VLESS | @v2raych [9]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -456,6 +458,29 @@
             "uuid": "Parsashonam-312",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @v2raych [9]",
+            "type": "vless",
+            "server": "[2400:8902::f03c:95ff:fe48:2433]",
+            "server_port": 7001,
+            "uuid": "b5826b46-3bc4-4e9c-88b8-d5e226dd3665",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JY9uiVus5fHcZn_WzenI_1pRE-qLZpZrVm7g3LUbSn8",
+                    "short_id": "98285ba8"
+                }
+            }
         }
     ],
     "route": {
