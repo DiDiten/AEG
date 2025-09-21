@@ -82,7 +82,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇵🇱 PL | 🔒 VLESS | @config_proxy [62]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -134,7 +133,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇷🇺 RU | 🔒 VLESS | @kafing_2 [10]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [2]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
@@ -171,7 +169,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇵🇱 PL | 🔒 VLESS | @config_proxy [62]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -223,7 +220,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇷🇺 RU | 🔒 VLESS | @kafing_2 [10]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
-                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [2]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
@@ -385,29 +381,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [62]",
-            "type": "vless",
-            "server": "poland-ovh.turkserver.ir",
-            "server_port": 223,
-            "uuid": "8f0120f1-ba26-e137-5e06-a99b844741aa",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
-                    "short_id": "e41865e506628f44"
-                }
             }
         },
         {
@@ -1633,29 +1606,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "."
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @lranonline_new [2]",
-            "type": "vless",
-            "server": "91.98.139.247",
-            "server_port": 39626,
-            "uuid": "d4f5c51c-6bed-4a1c-a335-b0df490249d5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs",
-                    "short_id": "85"
-                }
             }
         },
         {

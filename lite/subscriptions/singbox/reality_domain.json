@@ -94,7 +94,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇵🇱 PL | 🔒 VLESS | @config_proxy [62]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -141,7 +140,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇵🇱 PL | 🔒 VLESS | @config_proxy [62]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -309,29 +307,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [62]",
-            "type": "vless",
-            "server": "poland-ovh.turkserver.ir",
-            "server_port": 223,
-            "uuid": "8f0120f1-ba26-e137-5e06-a99b844741aa",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
-                    "short_id": "e41865e506628f44"
-                }
             }
         },
         {
