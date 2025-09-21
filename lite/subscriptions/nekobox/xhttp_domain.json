@@ -90,6 +90,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [18]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -111,6 +112,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [18]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -327,6 +329,24 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [17]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2083,
+            "uuid": "ea925bb9-3839-4bc7-d045-2bb5e353674b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "website.amin-4.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",

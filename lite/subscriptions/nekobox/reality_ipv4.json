@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇦 UA | 🔒 VLESS | @config_proxy [47]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
@@ -99,12 +100,13 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇳🇱 NL | 🔒 VLESS | @mowjproxy [4]",
+                "🇳🇱 NL | 🔒 VLESS | @mowjproxy [3]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [11]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇦🇱 AL | 🔒 VLESS | @netmellianti [15]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [152]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
@@ -118,8 +120,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇦🇪 AE | 🔒 VLESS | @vpnplusee_free [16]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [17]"
+                "🇦🇪 AE | 🔒 VLESS | @vpnplusee_free [15]",
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -130,6 +132,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇦 UA | 🔒 VLESS | @config_proxy [47]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
@@ -149,12 +152,13 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇳🇱 NL | 🔒 VLESS | @mowjproxy [4]",
+                "🇳🇱 NL | 🔒 VLESS | @mowjproxy [3]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [11]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇦🇱 AL | 🔒 VLESS | @netmellianti [15]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [152]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
@@ -168,8 +172,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇦🇪 AE | 🔒 VLESS | @vpnplusee_free [16]",
-                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [17]"
+                "🇦🇪 AE | 🔒 VLESS | @vpnplusee_free [15]",
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -256,6 +260,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇦 UA | 🔒 VLESS | @config_proxy [47]",
+            "type": "vless",
+            "server": "185.126.255.180",
+            "server_port": 443,
+            "uuid": "387d6d9a-5594-4b2a-a60d-5b2cb1f57638",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AdkdFL1GILtsxWSOcwdB-budJOiw2cXac8eIPxYIokw",
+                    "short_id": ""
                 }
             }
         },
@@ -709,7 +736,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @mowjproxy [4]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @mowjproxy [3]",
             "type": "vless",
             "server": "192.142.10.244",
             "server_port": 2560,
@@ -843,6 +870,29 @@
                     "enabled": true,
                     "public_key": "z--KbBlQtkBgTcrtdBJeGeCymIrLdaUDwkb44pAp6nY",
                     "short_id": "4c"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [152]",
+            "type": "vless",
+            "server": "213.165.56.10",
+            "server_port": 443,
+            "uuid": "2fb40048-c812-43ad-ba1a-3e442c92d632",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
+                    "short_id": "e54b5ad736ae4c38"
                 }
             }
         },
@@ -1150,7 +1200,7 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🔒 VLESS | @vpnplusee_free [16]",
+            "tag": "🇦🇪 AE | 🔒 VLESS | @vpnplusee_free [15]",
             "type": "vless",
             "server": "31.57.228.53",
             "server_port": 2560,
@@ -1173,7 +1223,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [17]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "45.154.96.185",
             "server_port": 2560,
