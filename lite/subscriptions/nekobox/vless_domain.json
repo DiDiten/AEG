@@ -223,6 +223,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
                 "🇫🇷 FR | 🔒 VLESS | @proxycrone [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxycrone [5]",
+                "🚩 CF | 🔓 VLESS | @proxycrone [6]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "🚩 CF | 🔓 VLESS | @prrofile_purple [144]",
@@ -263,7 +264,7 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇺🇸 US | 🔒 VLESS | @v2raych [20]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
                 "🚩 CF | 🔒 VLESS | @v2raying [7]",
                 "🚩 CF | 🔓 VLESS | @v2raying [9]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
@@ -452,6 +453,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
                 "🇫🇷 FR | 🔒 VLESS | @proxycrone [4]",
                 "🇮🇷 IR | 🔓 VLESS | @proxycrone [5]",
+                "🚩 CF | 🔓 VLESS | @proxycrone [6]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "🚩 CF | 🔓 VLESS | @prrofile_purple [144]",
@@ -492,7 +494,7 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇺🇸 US | 🔒 VLESS | @v2raych [20]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
                 "🚩 CF | 🔒 VLESS | @v2raying [7]",
                 "🚩 CF | 🔓 VLESS | @v2raying [9]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
@@ -3068,6 +3070,22 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @proxycrone [6]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2052,
+            "uuid": "e323c1bf-9e9a-0336-961a-b813ac35fd4b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @proxysudo [2]",
             "type": "vless",
             "server": "proxysudochannel.ddns.net",
@@ -3742,27 +3760,13 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [20]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
             "type": "vless",
-            "server": "lb.aliusvpn.ru",
-            "server_port": 8443,
-            "uuid": "ed52b6dd-d53f-4f8b-bdc1-9abb3ac194ff",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg",
-                    "short_id": "2356d1ae4b"
-                }
-            }
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "343a2533-7431-4f47-b153-4205e0e1902a",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @v2raying [7]",
