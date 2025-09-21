@@ -82,7 +82,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -90,6 +89,7 @@
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
                 "🇹🇷 TR | 🔒 VLESS | @falcunargo [8]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [10]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -129,7 +129,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -137,6 +136,7 @@
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
                 "🇹🇷 TR | 🔒 VLESS | @falcunargo [8]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [10]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -304,33 +304,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
-            "type": "vless",
-            "server": "step.dissertationhelpspecialist.com",
-            "server_port": 443,
-            "uuid": "18a283d9-16fe-4d16-a69c-1012c61f3ae7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "e_w8hU5iFkzVYFOSY-CDrA_vm2HuguWPnwSWgzeeaX8",
-                    "short_id": "7a28ae"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice"
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -493,6 +466,33 @@
                     "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
                     "short_id": "e41865e506628f44"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [10]",
+            "type": "vless",
+            "server": "step.dissertationhelpspecialist.com",
+            "server_port": 443,
+            "uuid": "18a283d9-16fe-4d16-a69c-1012c61f3ae7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "e_w8hU5iFkzVYFOSY-CDrA_vm2HuguWPnwSWgzeeaX8",
+                    "short_id": "7a28ae"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice"
             }
         },
         {
