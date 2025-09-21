@@ -99,7 +99,7 @@
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
-                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
+                "🇬🇧 GB | 🔒 VLESS | @evay_vpn [26]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -127,6 +127,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [20]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
@@ -186,7 +187,7 @@
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
-                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
+                "🇬🇧 GB | 🔒 VLESS | @evay_vpn [26]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -214,6 +215,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [20]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
@@ -511,7 +513,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @evay_vpn [26]",
             "type": "vless",
             "server": "Evay_vpn.heloisfood.ir",
             "server_port": 1530,
@@ -1191,6 +1193,29 @@
                     "enabled": true,
                     "public_key": "277HDYaNIvLYS9CMSr1CbkcTaahPEUCymW_0Ad17p2M",
                     "short_id": "f2"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭 CH | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "37.156.44.111",
+            "server_port": 443,
+            "uuid": "0b2b00c2-be56-4be6-abda-5e329afb7bce",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "chess.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "b_hJSqrd_USUBlX5A9-iJTBd0qndoAH9DW3Ct-HpGxc",
+                    "short_id": "4d01fba3"
                 }
             }
         },

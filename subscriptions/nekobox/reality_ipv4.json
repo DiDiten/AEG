@@ -83,8 +83,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [47]",
+                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [40]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -186,7 +186,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [85]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [91]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇱🇻 LV | 🔒 VLESS | @v2raych [8]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -233,8 +233,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [47]",
+                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [40]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -336,7 +336,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [85]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [91]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇱🇻 LV | 🔒 VLESS | @v2raych [8]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -529,39 +529,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
+            "tag": "🇰🇿 KZ | 🔒 VLESS | @config_proxy [40]",
             "type": "vless",
-            "server": "213.165.56.10",
-            "server_port": 443,
-            "uuid": "2fb40048-c812-43ad-ba1a-3e442c92d632",
+            "server": "195.133.8.126",
+            "server_port": 8081,
+            "uuid": "fa886719-16fa-4b10-88c5-3c00a6f5a5f1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": "e54b5ad736ae4c38"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [47]",
-            "type": "vless",
-            "server": "80.74.29.212",
-            "server_port": 8443,
-            "uuid": "a98f1b72-bc7b-4538-a4ce-72960577f2ba",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -569,8 +546,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA",
-                    "short_id": ""
+                    "public_key": "oB-VCWWpUePBe_v3vAOLWw054ZbdUN_4X3t_FkkPNFc",
+                    "short_id": "220463"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "5.180.52.11",
+            "server_port": 443,
+            "uuid": "6035325d-399a-5148-9126-29cedfd5966a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "outlook.office.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pkZa9TardvnaDfimseVPbjDc13ZjSar2zWtbdhFmTFQ",
+                    "short_id": "aa9d9548"
                 }
             }
         },
@@ -2981,25 +2981,25 @@
             }
         },
         {
-            "tag": "🇱🇻 LV | 🔒 VLESS | @v2raych [8]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [14]",
             "type": "vless",
-            "server": "94.131.104.178",
-            "server_port": 443,
-            "uuid": "d5c1b5d7-055b-4457-bc3a-6e99919c1bcb",
+            "server": "45.205.29.218",
+            "server_port": 64767,
+            "uuid": "9102e28f-e7a1-44dd-bdb7-44e77d9c3def",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "latvia6.clearorbitllc.com",
+                "server_name": "apple.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw",
-                    "short_id": "81e0b568¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---"
+                    "public_key": "H-BUr5NM7Kz7urYuth2gUDIGcwquGBveGSIiht_h7Ds",
+                    "short_id": "1fa16bff"
                 }
             }
         },
