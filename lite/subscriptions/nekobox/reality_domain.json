@@ -82,12 +82,13 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
-                "🇬🇧 GB | 🔒 VLESS | @evay_vpn [26]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [26]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -128,12 +129,13 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
-                "🇬🇧 GB | 🔒 VLESS | @evay_vpn [26]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [26]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [17]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -302,6 +304,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
+            "type": "vless",
+            "server": "specxtech.ticketdatabase.info",
+            "server_port": 56658,
+            "uuid": "dfe4a8e3-609b-43f1-92d3-9921d09b875f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "kUfdhVe33Uv2-_kjmI97xkOCo_mWJlSigF3NCNJyGRk",
+                    "short_id": "15a19f76"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -421,7 +446,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @evay_vpn [26]",
+            "tag": "❔ XX | 🔒 VLESS | @evay_vpn [26]",
             "type": "vless",
             "server": "Evay_vpn.heloisfood.ir",
             "server_port": 1530,
