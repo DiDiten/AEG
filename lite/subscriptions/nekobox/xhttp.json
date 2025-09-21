@@ -81,7 +81,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [49]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "❔ XX | 🔓 VLESS | @evay_vpn [25]",
@@ -91,6 +90,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [18]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [15]",
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
@@ -128,7 +128,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [49]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "❔ XX | 🔓 VLESS | @evay_vpn [25]",
@@ -138,6 +137,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [18]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [15]",
                 "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
@@ -263,29 +263,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [49]",
-            "type": "vless",
-            "server": "vip.hich-shop.ir",
-            "server_port": 443,
-            "uuid": "9f6e1427-deea-4773-9edb-4a3835c36c02",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4pcPgILldFkmCGeDdd0l-TZjXE6697Ma0uvhbB1H-iY",
-                    "short_id": "7e1fdc"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
             "type": "vless",
             "server": "test.barayekhudam.ir",
@@ -402,6 +379,24 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [15]",
+            "type": "vless",
+            "server": "sss57281.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss57281.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
