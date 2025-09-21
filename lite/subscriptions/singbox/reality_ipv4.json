@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇱🇻 LV | 🔒 VLESS | @config_proxy [73]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
@@ -113,7 +114,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
-                "🇦🇱 AL | 🔒 VLESS | @netmellianti [16]",
+                "🇦🇱 AL | 🔒 VLESS | @netmellianti [15]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
@@ -125,7 +126,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [11]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [10]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [7]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -141,6 +142,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇱🇻 LV | 🔒 VLESS | @config_proxy [73]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
@@ -162,7 +164,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
-                "🇦🇱 AL | 🔒 VLESS | @netmellianti [16]",
+                "🇦🇱 AL | 🔒 VLESS | @netmellianti [15]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
@@ -174,7 +176,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [11]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [10]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [7]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -262,6 +264,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇱🇻 LV | 🔒 VLESS | @config_proxy [73]",
+            "type": "vless",
+            "server": "94.131.104.178",
+            "server_port": 443,
+            "uuid": "d5c1b5d7-055b-4457-bc3a-6e99919c1bcb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "latvia6.clearorbitllc.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw",
+                    "short_id": "81e0b568"
                 }
             }
         },
@@ -761,7 +786,7 @@
             }
         },
         {
-            "tag": "🇦🇱 AL | 🔒 VLESS | @netmellianti [16]",
+            "tag": "🇦🇱 AL | 🔒 VLESS | @netmellianti [15]",
             "type": "vless",
             "server": "185.177.238.18",
             "server_port": 443,
@@ -1041,7 +1066,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [11]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [10]",
             "type": "vless",
             "server": "91.99.58.127",
             "server_port": 2090,
