@@ -85,7 +85,6 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [11]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [14]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [22]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -202,7 +201,6 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [11]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [14]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [22]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -437,29 +435,6 @@
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [22]",
-            "type": "vless",
-            "server": "de1.vlspeed.xyz",
-            "server_port": 8443,
-            "uuid": "a5b25508-9550-482d-bb62-a36916fff829",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tci.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4RVSIfwDUNrzemcTqlxK56MFaQinX5I5bDlzlZeOWls",
-                    "short_id": "6d26f92346"
-                }
-            }
         },
         {
             "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
