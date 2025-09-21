@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [4]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
@@ -163,6 +164,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [4]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
@@ -306,6 +308,24 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "172.233.183.136",
+            "server_port": 443,
+            "uuid": "239cfabf-d064-4cfd-8c2a-c74babc1c77b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "172.233.183.136",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
