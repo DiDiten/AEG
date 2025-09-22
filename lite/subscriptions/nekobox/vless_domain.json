@@ -91,7 +91,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "❔ XX | 🔓 VLESS | @config_proxy [32]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [44]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [5]",
@@ -179,7 +180,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [2]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
-                "🚩 CF | 🔓 VLESS | @melov2ray [42]",
                 "🚩 CF | 🔒 VLESS | @mimitdl [1]",
                 "🚩 CF | 🔒 VLESS | @mimitdl [2]",
                 "🚩 CF | 🔒 VLESS | @mimitdl [3]",
@@ -321,7 +321,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "❔ XX | 🔓 VLESS | @config_proxy [32]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [44]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [5]",
@@ -409,7 +410,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [2]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
-                "🚩 CF | 🔓 VLESS | @melov2ray [42]",
                 "🚩 CF | 🔒 VLESS | @mimitdl [1]",
                 "🚩 CF | 🔒 VLESS | @mimitdl [2]",
                 "🚩 CF | 🔒 VLESS | @mimitdl [3]",
@@ -804,13 +804,36 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @config_proxy [32]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [44]",
             "type": "vless",
-            "server": "xcel0dooz.pet0er23mh21qq.com",
-            "server_port": 8080,
-            "uuid": "08a22ec7-4094-4d8b-9dad-b87fc214f558",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "539bccb6-2a84-4464-b99e-ea781f2fdaa6",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/olem/ws?ed=1024",
+                "headers": {
+                    "Host": "tgju.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "cafearz.com",
+            "server_port": 8080,
+            "uuid": "4182c59d-3b09-4bc9-ef7a-71e5628749e8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/olem/ws?ed=1024",
+                "headers": {
+                    "Host": "cafearz.com"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -2228,22 +2251,6 @@
             "uuid": "fa382bb2-67e2-e3be-5953-60784dc2a5db",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @melov2ray [42]",
-            "type": "vless",
-            "server": "tgju.org",
-            "server_port": 80,
-            "uuid": "85d892d9-b1c0-4c63-b10c-14ca0c21ffc0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/olem/ws?ed=1024",
-                "headers": {
-                    "Host": "tgju.org"
-                }
-            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @mimitdl [1]",
