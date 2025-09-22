@@ -91,7 +91,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [44]",
                 "🚩 CF | 🔓 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -180,6 +179,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [2]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
+                "🚩 CF | 🔓 VLESS | @melov2ray [34]",
                 "🚩 CF | 🔒 VLESS | @mimitdl [1]",
                 "🚩 CF | 🔒 VLESS | @mimitdl [2]",
                 "🚩 CF | 🔒 VLESS | @mimitdl [3]",
@@ -264,6 +264,8 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "🇬🇧 GB | 🔒 VLESS | @v2raych [18]",
+                "🇫🇷 FR | 🔒 VLESS | @v2raych [19]",
                 "🚩 CF | 🔒 VLESS | @v2raying [5]",
                 "🚩 CF | 🔓 VLESS | @v2raying [7]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
@@ -293,7 +295,6 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [20]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -321,7 +322,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [44]",
                 "🚩 CF | 🔓 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -410,6 +410,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [2]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
+                "🚩 CF | 🔓 VLESS | @melov2ray [34]",
                 "🚩 CF | 🔒 VLESS | @mimitdl [1]",
                 "🚩 CF | 🔒 VLESS | @mimitdl [2]",
                 "🚩 CF | 🔒 VLESS | @mimitdl [3]",
@@ -494,6 +495,8 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "🇬🇧 GB | 🔒 VLESS | @v2raych [18]",
+                "🇫🇷 FR | 🔒 VLESS | @v2raych [19]",
                 "🚩 CF | 🔒 VLESS | @v2raying [5]",
                 "🚩 CF | 🔓 VLESS | @v2raying [7]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
@@ -523,7 +526,6 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [20]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -801,22 +803,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [44]",
-            "type": "vless",
-            "server": "tgju.org",
-            "server_port": 80,
-            "uuid": "539bccb6-2a84-4464-b99e-ea781f2fdaa6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/olem/ws?ed=1024",
-                "headers": {
-                    "Host": "tgju.org"
-                }
             }
         },
         {
@@ -2251,6 +2237,22 @@
             "uuid": "fa382bb2-67e2-e3be-5953-60784dc2a5db",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @melov2ray [34]",
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "539bccb6-2a84-4464-b99e-ea781f2fdaa6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/olem/ws?ed=1024",
+                "headers": {
+                    "Host": "tgju.org"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @mimitdl [1]",
@@ -3726,6 +3728,51 @@
             }
         },
         {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "v2ngfaet.xero-network.ir",
+            "server_port": 1146,
+            "uuid": "2d757868-9260-4fa0-9f8a-cf85208d1d9e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "18l7-wCCLwKZn-slnEV1HlM-ocxV94nau8CHNEpv3Ew",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @v2raych [19]",
+            "type": "vless",
+            "server": "blog.publicorca.shop",
+            "server_port": 8080,
+            "uuid": "4c4867aa-dca7-43b2-a69c-87cec283a9b6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "blog.publicorca.shop",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "orcaservice"
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @v2raying [5]",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -4224,24 +4271,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2083,
-            "uuid": "ea925bb9-3839-4bc7-d045-2bb5e353674b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "website.amin-4.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
