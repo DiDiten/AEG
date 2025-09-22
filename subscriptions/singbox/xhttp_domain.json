@@ -96,6 +96,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [11]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [51]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -129,7 +130,6 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [8]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇹🇷 TR | 🔒 VLESS | @v2raych [15]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [10]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [4]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]",
@@ -152,6 +152,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [11]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [51]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -185,7 +186,6 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [8]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇹🇷 TR | 🔒 VLESS | @v2raych [15]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [10]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [4]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [6]",
@@ -314,6 +314,29 @@
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "V2rayNGSelllBoT.xero-network.ir",
+            "server_port": 2020,
+            "uuid": "2d757868-9260-4fa0-9f8a-cf85208d1d9e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "a2SqqE7A-8zwXGi3gAxvKsovLL4mI4E3LORJAU8PZkY",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
         },
         {
             "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
@@ -806,29 +829,6 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @v2raych [15]",
-            "type": "vless",
-            "server": "ghost.hich-shop.ir",
-            "server_port": 51251,
-            "uuid": "884c1b58-1830-4b17-91fd-5fd0658dac5d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "85UHsAxjT7QY_TT1yK5LaaCFnMfypkfeajkcj1trjQE",
-                    "short_id": "a1adc435bc012ef7"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [10]",
