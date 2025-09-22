@@ -81,7 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 TROJAN | @hope_net [18]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
@@ -104,7 +104,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 TROJAN | @hope_net [18]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
@@ -208,29 +208,6 @@
         {
             "tag": "🚩 CF | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
-            "server": "172.66.47.130",
-            "server_port": 443,
-            "password": "e8b87dd9-cc8f-407c-a1f3-a564009fe6ee",
-            "tls": {
-                "enabled": true,
-                "server_name": "dc1bf227.vf-8co.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram-@V2ray_Alpha/?ed=2048",
-                "headers": {
-                    "Host": "dc1bf227.vf-8co.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
-            "type": "trojan",
             "server": "141.101.120.208",
             "server_port": 443,
             "password": "NISHIKUITAN222",
@@ -248,6 +225,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "in.ylks.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [19]",
+            "type": "trojan",
+            "server": "104.20.22.95",
+            "server_port": 443,
+            "password": "auto",
+            "tls": {
+                "enabled": true,
+                "server_name": "b96ef9ae.trojanfree-76s.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/b96ef9ae.trojanfree-76s.pages.dev/",
+                "headers": {
+                    "Host": "b96ef9ae.trojanfree-76s.pages.dev"
                 }
             }
         },
