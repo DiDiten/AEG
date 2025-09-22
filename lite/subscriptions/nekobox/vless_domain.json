@@ -91,7 +91,6 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [5]",
@@ -129,6 +128,7 @@
                 "❔ XX | 🔒 VLESS | @garnet_free [11]",
                 "❔ XX | 🔓 VLESS | @ge2ray [3]",
                 "❔ XX | 🔓 VLESS | @ge2ray [5]",
+                "🚩 CF | 🔒 VLESS | @ghalagyann2 [6]",
                 "🚩 CF | 🔓 VLESS | @goldenshiinevpn [10]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [13]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [14]",
@@ -265,6 +265,8 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "❔ XX | 🔓 VLESS | @v2raych [18]",
+                "🚩 CF | 🔓 VLESS | @v2raych [20]",
                 "🚩 CF | 🔒 VLESS | @v2raying [5]",
                 "🚩 CF | 🔓 VLESS | @v2raying [7]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
@@ -321,7 +323,6 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [5]",
@@ -359,6 +360,7 @@
                 "❔ XX | 🔒 VLESS | @garnet_free [11]",
                 "❔ XX | 🔓 VLESS | @ge2ray [3]",
                 "❔ XX | 🔓 VLESS | @ge2ray [5]",
+                "🚩 CF | 🔒 VLESS | @ghalagyann2 [6]",
                 "🚩 CF | 🔓 VLESS | @goldenshiinevpn [10]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [13]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [14]",
@@ -495,6 +497,8 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "❔ XX | 🔓 VLESS | @v2raych [18]",
+                "🚩 CF | 🔓 VLESS | @v2raych [20]",
                 "🚩 CF | 🔒 VLESS | @v2raying [5]",
                 "🚩 CF | 🔓 VLESS | @v2raying [7]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
@@ -802,15 +806,6 @@
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
-            "type": "vless",
-            "server": "ergwork.web.unc.edu",
-            "server_port": 80,
-            "uuid": "eb24f34b-a791-484f-a15b-070a2836abd2",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -1446,6 +1441,24 @@
             "uuid": "b52a81f3-7167-4064-9d09-d54fccf273bd",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @ghalagyann2 [6]",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 2096,
+            "uuid": "d7859fc2-2e71-4004-924b-4f79cb74e8f2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hydra.miniproxy.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @goldenshiinevpn [10]",
@@ -3798,6 +3811,35 @@
                 "path": "/?ed=2048",
                 "headers": {
                     "Host": "xjp.caball.link"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "sub.itzaydin.cum",
+            "server_port": 100,
+            "uuid": "48aa532d-4153-42f3-a476-eeffc1a4d185",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "44514itzaydin"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "539bccb6-2a84-4464-b99e-ea781f2fdaa6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/olem/ws?ed=1024",
+                "headers": {
+                    "Host": "tgju.org"
                 }
             }
         },
