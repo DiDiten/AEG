@@ -83,8 +83,11 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇮🇱 IL | 🔒 VLESS | @config_proxy [14]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [15]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [19]",
+                "🇦🇿 AZ | 🔒 VLESS | @config_proxy [23]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [25]",
+                "🇦🇿 AZ | 🔒 VLESS | @config_proxy [29]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [30]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -186,7 +189,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [68]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [74]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [7]",
+                "🇨🇦 CA | 🔒 VLESS | @v2raych [14]",
+                "🇦🇿 AZ | 🔒 VLESS | @v2raych [15]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -343,8 +347,11 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇮🇱 IL | 🔒 VLESS | @config_proxy [14]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [15]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [19]",
+                "🇦🇿 AZ | 🔒 VLESS | @config_proxy [23]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [25]",
+                "🇦🇿 AZ | 🔒 VLESS | @config_proxy [29]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [30]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -446,7 +453,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [68]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [74]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [7]",
+                "🇨🇦 CA | 🔒 VLESS | @v2raych [14]",
+                "🇦🇿 AZ | 🔒 VLESS | @v2raych [15]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -749,11 +757,57 @@
             }
         },
         {
-            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [14]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [19]",
+            "type": "vless",
+            "server": "80.74.29.212",
+            "server_port": 8443,
+            "uuid": "d46a46e5-7cc6-45c6-abd5-5b30ed32353d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇦🇿 AZ | 🔒 VLESS | @config_proxy [23]",
+            "type": "vless",
+            "server": "180.149.44.216",
+            "server_port": 999,
+            "uuid": "85ef33fe-5f5b-4a8f-9e1e-cbf2738ae96a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-d7gZw19wFxZcnqRsf0L8gin2NcQC8Quub0Y-NUnaR4",
+                    "short_id": "e1ac6d894342c318¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [25]",
             "type": "vless",
             "server": "185.239.48.109",
             "server_port": 8443,
-            "uuid": "d46a46e5-7cc6-45c6-abd5-5b30ed32353d",
+            "uuid": "cb2b26a1-0180-4b4b-8bfe-2b1d531c0419",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -772,16 +826,39 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [15]",
+            "tag": "🇦🇿 AZ | 🔒 VLESS | @config_proxy [29]",
             "type": "vless",
-            "server": "57.129.129.41",
-            "server_port": 54974,
-            "uuid": "42ead82d-d6d7-4a94-9365-5be73f5d1bcc",
+            "server": "180.149.44.216",
+            "server_port": 999,
+            "uuid": "85ef33fe-5f5b-4a8f-9e1e-cbf2738ae96a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-d7gZw19wFxZcnqRsf0L8gin2NcQC8Quub0Y-NUnaR4",
+                    "short_id": "e1ac6d894342c318"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [30]",
+            "type": "vless",
+            "server": "5.133.102.59",
+            "server_port": 80,
+            "uuid": "4d86fbab-d15f-4e7f-8ac7-3b4d90568444",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -789,8 +866,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "F2WLUHR5RU2d2zifwKALTGkLLbIut1AjDKEAmx7OEW0",
-                    "short_id": "2075"
+                    "public_key": "6xEqt7g9Q7zJD8rtAzA_8rODvZ9ZJwlv3uOH1cXujzI",
+                    "short_id": "43"
                 }
             }
         },
@@ -3201,25 +3278,48 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [7]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @v2raych [14]",
             "type": "vless",
-            "server": "167.172.109.92",
-            "server_port": 8880,
-            "uuid": "82ce6fcc-942a-4c7a-985c-8128a131bb7f",
+            "server": "51.79.29.168",
+            "server_port": 999,
+            "uuid": "85ef33fe-5f5b-4a8f-9e1e-cbf2738ae96a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "tgju.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "nbKnrI4dImrabhk5zFFLh-Q3lvdrJr2wmpjE-HfLhn0",
-                    "short_id": "682b"
+                    "public_key": "-d7gZw19wFxZcnqRsf0L8gin2NcQC8Quub0Y-NUnaR4",
+                    "short_id": "e1ac6d894342c318"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇿 AZ | 🔒 VLESS | @v2raych [15]",
+            "type": "vless",
+            "server": "180.149.44.216",
+            "server_port": 999,
+            "uuid": "85ef33fe-5f5b-4a8f-9e1e-cbf2738ae96a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-d7gZw19wFxZcnqRsf0L8gin2NcQC8Quub0Y-NUnaR4",
+                    "short_id": "e1ac6d894342c318"
                 }
             }
         },

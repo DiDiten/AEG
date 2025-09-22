@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [30]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [2]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
@@ -140,6 +141,8 @@
                 "🇳🇱 NL | 🔒 TROJAN | @vmesc [6]",
                 "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [5]",
+                "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [3]",
+                "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [6]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [6]"
             ],
             "tag": "proxy",
@@ -151,6 +154,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [30]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [2]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
@@ -211,6 +215,8 @@
                 "🇳🇱 NL | 🔒 TROJAN | @vmesc [6]",
                 "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [5]",
+                "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [3]",
+                "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [6]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [6]"
             ],
             "tag": "auto",
@@ -298,6 +304,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [30]",
+            "type": "vless",
+            "server": "5.133.102.59",
+            "server_port": 80,
+            "uuid": "4d86fbab-d15f-4e7f-8ac7-3b4d90568444",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6xEqt7g9Q7zJD8rtAzA_8rODvZ9ZJwlv3uOH1cXujzI",
+                    "short_id": "43"
                 }
             }
         },
@@ -1403,6 +1432,42 @@
             "tls": {
                 "enabled": true,
                 "server_name": "91.99.217.44",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [3]",
+            "type": "vless",
+            "server": "91.99.215.74",
+            "server_port": 443,
+            "uuid": "ee845a26-9d15-4cac-b3a0-fc0c0c8135af",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.215.74",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vpn_ioss [6]",
+            "type": "vless",
+            "server": "91.99.221.2",
+            "server_port": 443,
+            "uuid": "00134d22-e7bc-4690-860a-05d2be0f6f06",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.221.2",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

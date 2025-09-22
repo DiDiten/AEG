@@ -91,7 +91,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [20]",
+                "❔ XX | 🔓 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [5]",
@@ -321,7 +321,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [20]",
+                "❔ XX | 🔓 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [5]",
@@ -804,11 +804,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [20]",
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [32]",
             "type": "vless",
-            "server": "00074.mutee.com.tr",
-            "server_port": 4471,
-            "uuid": "980cc237-7703-4763-b520-e65048e68116",
+            "server": "xcel0dooz.pet0er23mh21qq.com",
+            "server_port": 8080,
+            "uuid": "08a22ec7-4094-4d8b-9dad-b87fc214f558",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1205,22 +1205,6 @@
         {
             "tag": "🚩 CF | 🔓 VLESS | @flyv2ray [11]",
             "type": "vless",
-            "server": "chat.openai.com",
-            "server_port": 8080,
-            "uuid": "ce0e69bb-ad5a-45b5-892d-976ba5ce547c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/olem/ws?ed=1024",
-                "headers": {
-                    "Host": "chat.openai.com"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
-            "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
             "uuid": "26874748-86d4-4c3e-a3c6-2c56618cf801",
@@ -1235,7 +1219,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @flyv2ray [13]",
+            "tag": "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
             "type": "vless",
             "server": "cafearz.com",
             "server_port": 8080,
@@ -1247,6 +1231,22 @@
                 "path": "/olem/ws?ed=1024",
                 "headers": {
                     "Host": "cafearz.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @flyv2ray [13]",
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "85d892d9-b1c0-4c63-b10c-14ca0c21ffc0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/olem/ws?ed=1024",
+                "headers": {
+                    "Host": "tgju.org"
                 }
             }
         },
