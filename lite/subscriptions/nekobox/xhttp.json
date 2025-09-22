@@ -88,7 +88,6 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [15]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [9]",
@@ -131,7 +130,6 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [15]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [9]",
@@ -353,29 +351,6 @@
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
-            "type": "vless",
-            "server": "185.113.10.132",
-            "server_port": 8650,
-            "uuid": "39794dde-91a3-4219-9221-c231a0a18304",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YWbuHeDHnHpfJMPsAOIJOIeQgzfCK_47CjY7TbWA5hI",
-                    "short_id": "354b9cbe48"
-                }
-            }
         },
         {
             "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
