@@ -97,6 +97,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [9]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [60]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -128,7 +130,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [14]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [3]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
-                "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [8]",
+                "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [10]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [4]",
@@ -152,6 +154,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [9]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [60]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -183,7 +187,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [14]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [3]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
-                "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [8]",
+                "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [10]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [4]",
@@ -319,6 +323,38 @@
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "masterserver1.xero-network.ir",
+            "server_port": 1331,
+            "uuid": "bb3ebc24-b8c0-4985-b8b2-58d4a204af45",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qSCPbuLS9FrLTRzIbKmD3vNOnsk_ZUxmjPywZXeM_Co",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
+            "type": "vless",
+            "server": "ergwork.web.unc.edu",
+            "server_port": 80,
+            "uuid": "eb24f34b-a791-484f-a15b-070a2836abd2",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -783,7 +819,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [8]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [7]",
             "type": "vless",
             "server": "sss70053.tas-bazi.com",
             "server_port": 443,
