@@ -91,6 +91,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [20]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [5]",
@@ -133,7 +134,6 @@
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [13]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [14]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [15]",
-                "🇺🇸 US | 🔓 VLESS | @hope_net [19]",
                 "🚩 CF | 🔒 VLESS | @iran_access [12]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -321,6 +321,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [20]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [5]",
@@ -363,7 +364,6 @@
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [13]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [14]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [15]",
-                "🇺🇸 US | 🔓 VLESS | @hope_net [19]",
                 "🚩 CF | 🔒 VLESS | @iran_access [12]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -802,6 +802,15 @@
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [20]",
+            "type": "vless",
+            "server": "00074.mutee.com.tr",
+            "server_port": 4471,
+            "uuid": "980cc237-7703-4763-b520-e65048e68116",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -1490,22 +1499,6 @@
                 "path": "/http",
                 "headers": {
                     "Host": "s16.leader21.top"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @hope_net [19]",
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "9de97a22-c894-4ee9-8f32-92b046bcb717",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },

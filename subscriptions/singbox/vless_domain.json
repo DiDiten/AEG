@@ -117,9 +117,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [14]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [25]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [29]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [11]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [20]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -329,7 +328,7 @@
                 "🚩 CF | 🔓 VLESS | @kurd_v2ray [27]",
                 "🚩 CF | 🔓 VLESS | @kurd_v2ray [30]",
                 "🚩 CF | 🔓 VLESS | @kurd_v2ray [31]",
-                "🚩 CF | 🔒 VLESS | @kurdistan_vpn_perfectt [5]",
+                "❔ XX | 🔒 VLESS | @kurdistan_vpn_perfectt [5]",
                 "🚩 CF | 🔓 VLESS | @kurdvpn1 [1]",
                 "🚩 CF | 🔓 VLESS | @kurdvpn1 [2]",
                 "🚩 CF | 🔓 VLESS | @kurdvpn1 [3]",
@@ -603,7 +602,6 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇺🇸 US | 🔒 VLESS | @v2raych [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [1]",
                 "🚩 CF | 🔓 VLESS | @v2raying [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
@@ -768,9 +766,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [14]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [25]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [29]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [11]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [20]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -980,7 +977,7 @@
                 "🚩 CF | 🔓 VLESS | @kurd_v2ray [27]",
                 "🚩 CF | 🔓 VLESS | @kurd_v2ray [30]",
                 "🚩 CF | 🔓 VLESS | @kurd_v2ray [31]",
-                "🚩 CF | 🔒 VLESS | @kurdistan_vpn_perfectt [5]",
+                "❔ XX | 🔒 VLESS | @kurdistan_vpn_perfectt [5]",
                 "🚩 CF | 🔓 VLESS | @kurdvpn1 [1]",
                 "🚩 CF | 🔓 VLESS | @kurdvpn1 [2]",
                 "🚩 CF | 🔓 VLESS | @kurdvpn1 [3]",
@@ -1254,7 +1251,6 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇺🇸 US | 🔒 VLESS | @v2raych [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [1]",
                 "🚩 CF | 🔓 VLESS | @v2raying [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
@@ -1915,55 +1911,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [25]",
-            "type": "vless",
-            "server": "germany1.abolfazl.ru",
-            "server_port": 12000,
-            "uuid": "c37ca1da-b20d-403c-9dff-d88b62b7b2ba",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "B06U1TZdmV9qKd0X6a4FQIN1ggNTBIp5Dh1DNsSdsnk",
-                    "short_id": "880add42e8262e71"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @config_proxy [29]",
-            "type": "vless",
-            "server": "m.manivpn.info",
-            "server_port": 443,
-            "uuid": "09e36bac-7f35-4c8e-8879-ace373c92652",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "m.manivpn.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws",
-                "headers": {
-                    "Host": "m.manivpn.info"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [11]",
             "type": "vless",
             "server": "hajlab.ucdavis.edu",
             "server_port": 80,
@@ -1977,6 +1925,15 @@
                     "Host": "hajlab.ucdavis.edu"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [20]",
+            "type": "vless",
+            "server": "00074.mutee.com.tr",
+            "server_port": 4471,
+            "uuid": "980cc237-7703-4763-b520-e65048e68116",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -5790,7 +5747,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @kurdistan_vpn_perfectt [5]",
+            "tag": "❔ XX | 🔒 VLESS | @kurdistan_vpn_perfectt [5]",
             "type": "vless",
             "server": "aio.xtradata.dpdns.org",
             "server_port": 443,
@@ -10198,33 +10155,6 @@
                 "headers": {
                     "Host": "xjp.caball.link"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [11]",
-            "type": "vless",
-            "server": "gr.globalunlimitedinternet.xyz",
-            "server_port": 1911,
-            "uuid": "8f0416a7-79ec-4920-86a0-f574b7510249",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "VCwUyNFL_IMTZfEKeIUYEuXbPfzCpuUBGNW1kAu2VW4",
-                    "short_id": "32aaf12b"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
             }
         },
         {
