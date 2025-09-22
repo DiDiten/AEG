@@ -80,6 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [56]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
@@ -104,7 +107,7 @@
                 "🇦🇱 AL | 🔒 VLESS | @netmellianti [15]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [147]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [152]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
@@ -128,6 +131,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [56]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
@@ -152,7 +158,7 @@
                 "🇦🇱 AL | 🔒 VLESS | @netmellianti [15]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [147]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [152]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
@@ -252,6 +258,75 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "134.122.15.246",
+            "server_port": 2053,
+            "uuid": "4c360a19-8d5d-4c7b-b2cd-a4825714554a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.openstreetmap.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "G6mshB36vZocfQp04RGcOjWFs52JjJhdvpI7wApQf00",
+                    "short_id": "d7"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "157.173.127.233",
+            "server_port": 443,
+            "uuid": "17a6e953-8fac-428c-b86c-8585722b0b52",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "analytics.google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MbTwpwMFXu8duJgVMb_jFpqEuopSWJW1FPH_D6fZAEM",
+                    "short_id": "1f"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "185.113.10.132",
+            "server_port": 8650,
+            "uuid": "39794dde-91a3-4219-9221-c231a0a18304",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWbuHeDHnHpfJMPsAOIJOIeQgzfCK_47CjY7TbWA5hI",
+                    "short_id": "354b9cbe48"
                 }
             }
         },
@@ -820,7 +895,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [147]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [152]",
             "type": "vless",
             "server": "213.165.56.10",
             "server_port": 443,
