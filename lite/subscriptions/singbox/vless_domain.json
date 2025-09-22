@@ -276,6 +276,7 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [19]",
                 "🚩 CF | 🔒 VLESS | @v2raying [5]",
                 "🚩 CF | 🔓 VLESS | @v2raying [7]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
@@ -305,7 +306,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [20]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -506,6 +507,7 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [19]",
                 "🚩 CF | 🔒 VLESS | @v2raying [5]",
                 "🚩 CF | 🔓 VLESS | @v2raying [7]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
@@ -535,7 +537,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [20]",
-                "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
+                "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -3727,6 +3729,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [19]",
+            "type": "vless",
+            "server": "d.eans.top",
+            "server_port": 7008,
+            "uuid": "30c075af-9555-4671-b70e-43e3cfb2e707",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "addons.mozilla.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FPH81X-EMwzv4nXgkplSqBAaK81uLuPYqWaYyIWFsnQ",
+                    "short_id": "efcbe824"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔒 VLESS | @v2raying [5]",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -4228,7 +4253,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [14]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpnplusee_free [13]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2083,
