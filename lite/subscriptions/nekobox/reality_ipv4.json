@@ -80,8 +80,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [68]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [69]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -128,8 +130,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [68]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [69]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
+                "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
                 "🇨🇦 CA | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -256,6 +260,52 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [68]",
+            "type": "vless",
+            "server": "94.131.107.201",
+            "server_port": 8443,
+            "uuid": "f1fcd721-8605-43f0-98b0-0ddd70cad894",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "anydesk.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rwXlON1aDW3CM1wfNYMWb-hpPYqvH0kHHOBDatkuCSE",
+                    "short_id": "26a70553"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [69]",
+            "type": "vless",
+            "server": "109.122.197.72",
+            "server_port": 443,
+            "uuid": "47954ea1-588b-4961-9724-27608767d855",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ya.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UpO0lV2YR0otf1jQKLHDp2bD623tyUIefqCLGm04a2Q",
+                    "short_id": "b9269699e322ca87"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -279,7 +329,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [27]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [26]",
             "type": "vless",
             "server": "157.180.81.19",
             "server_port": 1530,
