@@ -97,6 +97,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [9]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [44]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -130,6 +132,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "❔ XX | 🔓 VLESS | @v2aryng_vpn [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "❔ XX | 🔓 VLESS | @v2raych [6]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [10]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [4]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [6]",
@@ -152,6 +155,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [9]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [44]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -185,6 +190,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "❔ XX | 🔓 VLESS | @v2aryng_vpn [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "❔ XX | 🔓 VLESS | @v2raych [6]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [10]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [4]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [6]",
@@ -319,6 +325,24 @@
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "1b32d3f6-c3c1-413a-9e09-d664ad45b3ab",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
+            "type": "vless",
+            "server": "live.wkrq.com",
+            "server_port": 80,
+            "uuid": "1442a2fc-6306-4287-80ce-998bb1473927",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -808,6 +832,24 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @v2raych [6]",
+            "type": "vless",
+            "server": "sss15894.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "f23b820b-b88f-4c40-8b20-b4b36629f6b1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss15894.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [10]",
