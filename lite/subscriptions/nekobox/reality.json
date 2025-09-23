@@ -82,6 +82,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -95,17 +96,16 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
-                "🇹🇷 TR | 🔒 VLESS | @netmellianti [16]",
-                "🇫🇷 FR | 🔒 VLESS | @netmellianti [17]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [3]",
+                "🇹🇷 TR | 🔒 VLESS | @netmellianti [15]",
+                "🇫🇷 FR | 🔒 VLESS | @netmellianti [16]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇫🇷 FR | 🔒 VLESS | @orange_vpns [16]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [144]",
+                "❔ XX | 🔒 VLESS | @prrofile_purple [144]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
@@ -171,6 +171,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -184,17 +185,16 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
-                "🇹🇷 TR | 🔒 VLESS | @netmellianti [16]",
-                "🇫🇷 FR | 🔒 VLESS | @netmellianti [17]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [3]",
+                "🇹🇷 TR | 🔒 VLESS | @netmellianti [15]",
+                "🇫🇷 FR | 🔒 VLESS | @netmellianti [16]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇫🇷 FR | 🔒 VLESS | @orange_vpns [16]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [144]",
+                "❔ XX | 🔒 VLESS | @prrofile_purple [144]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔒 VLESS | @rezaw_server [1]",
@@ -385,6 +385,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+            "type": "vless",
+            "server": "unique.bitiboot.com",
+            "server_port": 443,
+            "uuid": "7bda027c-cbc8-488f-864f-cfb415cd8d77",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "analytics.google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "q70yFMTo4Dz6IWwVcL9icqgJPgyIuv3j3n5fZxym6kg",
+                    "short_id": "40e3350da285"
+                }
             }
         },
         {
@@ -703,7 +726,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [4]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [3]",
             "type": "vless",
             "server": "Ger-server1-panyous.tap30.sbs",
             "server_port": 2560,
@@ -726,7 +749,7 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @netmellianti [16]",
+            "tag": "🇹🇷 TR | 🔒 VLESS | @netmellianti [15]",
             "type": "vless",
             "server": "ardagulerturk.gojustore.site",
             "server_port": 7033,
@@ -753,7 +776,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @netmellianti [17]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @netmellianti [16]",
             "type": "vless",
             "server": "francebuget.gojustore.site",
             "server_port": 7033,
@@ -831,29 +854,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar"
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @orange_vpns [16]",
-            "type": "vless",
-            "server": "yfr.amiraizo.com",
-            "server_port": 2560,
-            "uuid": "8e6a1d4e-445b-435c-8819-4d7269fecd40",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
-                    "short_id": "e41865e506628f44"
-                }
             }
         },
         {
@@ -953,7 +953,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [144]",
+            "tag": "❔ XX | 🔒 VLESS | @prrofile_purple [144]",
             "type": "vless",
             "server": "sub.itzaydin.cfd",
             "server_port": 44514,
