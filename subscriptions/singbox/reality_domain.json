@@ -96,7 +96,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -132,7 +131,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
-                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [3]",
+                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [2]",
                 "❔ XX | 🔒 VLESS | @mtpv2ray [1]",
                 "🇹🇷 TR | 🔒 VLESS | @netmellianti [9]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [10]",
@@ -161,6 +160,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
@@ -213,7 +213,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -249,7 +248,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
-                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [3]",
+                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [2]",
                 "❔ XX | 🔒 VLESS | @mtpv2ray [1]",
                 "🇹🇷 TR | 🔒 VLESS | @netmellianti [9]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [10]",
@@ -278,6 +277,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
@@ -499,29 +499,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
-            "type": "vless",
-            "server": "germany.marzxo.biz",
-            "server_port": 8080,
-            "uuid": "ca221d6a-e130-3932-634f-8d16ef810f73",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU",
-                    "short_id": "828348fc6d8e49cf"
-                }
             }
         },
         {
@@ -1397,7 +1374,7 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @mowjproxy [3]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @mowjproxy [2]",
             "type": "vless",
             "server": "poland-serv1.ip-venzo.com",
             "server_port": 2541,
@@ -2096,6 +2073,29 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
+            "type": "vless",
+            "server": "DIG2.TORPROSPEED.IR",
+            "server_port": 223,
+            "uuid": "2c0135d4-9d78-4073-ae89-51c99733164a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JOKX-kH_SOPrdPG26TdJzO6YSDItrRGXKhtv70Bn81o",
+                    "short_id": "c7f175a94bd79f8d"
                 }
             }
         },
