@@ -100,8 +100,7 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "❔ XX | 🔓 VLESS | @parsashonam [12]",
-                "❔ XX | 🔓 VLESS | @vpnplusee_free [13]"
+                "❔ XX | 🔓 VLESS | @parsashonam [12]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -120,8 +119,7 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "❔ XX | 🔓 VLESS | @parsashonam [12]",
-                "❔ XX | 🔓 VLESS | @vpnplusee_free [13]"
+                "❔ XX | 🔓 VLESS | @parsashonam [12]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -351,22 +349,6 @@
             "uuid": "Parsashonam-312",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @vpnplusee_free [13]",
-            "type": "vless",
-            "server": "[2606:4700:20::681a:d72]",
-            "server_port": 80,
-            "uuid": "05020a61-3c0c-4ead-b256-7851ff905a75",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "[2606:4700:20::681a:d72]"
-                }
-            }
         }
     ],
     "route": {
