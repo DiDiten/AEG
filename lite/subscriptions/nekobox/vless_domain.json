@@ -91,6 +91,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [59]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -185,6 +187,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
+                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -252,7 +255,7 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [8]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [9]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [76]",
@@ -317,6 +320,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [59]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -411,6 +416,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
+                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -478,7 +484,7 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [8]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [9]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [76]",
@@ -793,6 +799,54 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [59]",
+            "type": "vless",
+            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+            "server_port": 2087,
+            "uuid": "502ce704-dcec-4f92-9489-505c99ce6c89",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Cfn13.aLAnhIahO.COM",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "Cfn13.aLAnhIahO.COM"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
+            "type": "vless",
+            "server": "realdom-sub.panelfreedom.com",
+            "server_port": 20809,
+            "uuid": "820aa1dc-0d52-47e5-8918-bc7b032a8583",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -2335,6 +2389,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇵🇱 PL | 🔒 VLESS | @mowjproxy [4]",
+            "type": "vless",
+            "server": "poland-serv1.ip-venzo.com",
+            "server_port": 2541,
+            "uuid": "8f0120f1-ba26-e137-5e06-a99b844741aa",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2GzriTU_gMWcnd7ZTGwn7CUIJ3-4gW1fp2tXPNkrQiY",
+                    "short_id": "641b3125487938c7"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
             "type": "vless",
             "server": "mtn001.chaghooosazi.shop",
@@ -3337,7 +3414,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2082,
-            "uuid": "ad704429-c037-4b36-b51d-dacbcd8e7223",
+            "uuid": "a535cc36-0aa9-431f-8983-59506750fee9",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
@@ -3353,7 +3430,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2086,
-            "uuid": "fa68ffe8-45eb-413b-d4a9-23d8fbb71436",
+            "uuid": "ab00877b-9d7e-4d1b-f081-99b69565eb18",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -3362,7 +3439,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2082,
-            "uuid": "a535cc36-0aa9-431f-8983-59506750fee9",
+            "uuid": "a76003a4-e5a5-45ca-a7b7-5a665a5e2a9b",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
@@ -3527,7 +3604,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
             "type": "vless",
             "server": "Ger-server2-panyous.tap30.sbs",
             "server_port": 2560,
