@@ -118,12 +118,6 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [32]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
-                "❔ XX | 🔓 VLESS | @config_proxy [35]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [36]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [41]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -609,7 +603,6 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [1]",
                 "🚩 CF | 🔓 VLESS | @v2raying [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
@@ -772,12 +765,6 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [32]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
-                "❔ XX | 🔓 VLESS | @config_proxy [35]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [36]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [41]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1263,7 +1250,6 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [1]",
                 "🚩 CF | 🔓 VLESS | @v2raying [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
@@ -1928,89 +1914,6 @@
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
             }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [32]",
-            "type": "vless",
-            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-            "server_port": 2087,
-            "uuid": "502ce704-dcec-4f92-9489-505c99ce6c89",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Cfn01.aLanHiAHo.CoM",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "Cfn01.aLanHiAHo.CoM"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
-            "type": "vless",
-            "server": "live.wkrq.com",
-            "server_port": 80,
-            "uuid": "d5096e2a-ac8e-436f-9d87-9687109a7b8b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @config_proxy [35]",
-            "type": "vless",
-            "server": "gr.dnszone.top",
-            "server_port": 45500,
-            "uuid": "9185b188-a990-4fd5-8386-b99f249d92c3",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [36]",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2096,
-            "uuid": "d7859fc2-2e71-4004-924b-4f79cb74e8f2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "t.me/entryNET",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [41]",
-            "type": "vless",
-            "server": "alm.hotspoto.news",
-            "server_port": 625,
-            "uuid": "19b432ac-43d5-4c66-b20b-c8fbb2c6ca06",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [42]",
-            "type": "vless",
-            "server": "uk.hotspoto.news",
-            "server_port": 625,
-            "uuid": "19b432ac-43d5-4c66-b20b-c8fbb2c6ca06",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -10311,15 +10214,6 @@
                     "Host": "xjp.caball.link"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [6]",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "43a06449-5705-4dbe-965b-4cf57c1b0358",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2raying [1]",
