@@ -93,7 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [64]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [25]",
@@ -112,7 +112,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [64]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [25]",
@@ -215,13 +215,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [64]",
             "type": "vless",
-            "server": "live.theworldwidewolf.com",
-            "server_port": 80,
-            "uuid": "6c7a7fc1-8540-463a-b0ae-db9b63a6eb78",
+            "server": "sss11651.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "94ccd7a6-d1f0-414c-8add-eaa4d0b68770",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss11651.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",

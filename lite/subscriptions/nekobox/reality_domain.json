@@ -82,7 +82,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -98,7 +97,8 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @mowjproxy [1]",
-                "🇫🇷 FR | 🔒 VLESS | @netmellianti [15]",
+                "🇦🇪 AE | 🔒 VLESS | @mowjproxy [3]",
+                "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -132,7 +132,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [6]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -148,7 +147,8 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @mowjproxy [1]",
-                "🇫🇷 FR | 🔒 VLESS | @netmellianti [15]",
+                "🇦🇪 AE | 🔒 VLESS | @mowjproxy [3]",
+                "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -307,29 +307,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [64]",
-            "type": "vless",
-            "server": "Ger-server2-panyous.tap30.sbs",
-            "server_port": 2560,
-            "uuid": "288837c9-71c5-444e-8848-5dd6c9520a55",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
-                    "short_id": ""
-                }
             }
         },
         {
@@ -698,7 +675,30 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @netmellianti [15]",
+            "tag": "🇦🇪 AE | 🔒 VLESS | @mowjproxy [3]",
+            "type": "vless",
+            "server": "uae-server1-panyous.tap30.sbs",
+            "server_port": 2560,
+            "uuid": "288837c9-71c5-444e-8848-5dd6c9520a55",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
+                    "short_id": "e41865e506628f44"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
             "type": "vless",
             "server": "francebuget.gojustore.site",
             "server_port": 7033,
