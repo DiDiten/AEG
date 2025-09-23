@@ -92,9 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [64]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [66]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [68]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
@@ -143,6 +141,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [68]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇫🇷 FR | 🔒 TROJAN | @v2raych [19]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -167,9 +166,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [64]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [66]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [68]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
@@ -218,6 +215,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_sub [68]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇫🇷 FR | 🔒 TROJAN | @v2raych [19]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -318,45 +316,22 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [68]",
             "type": "vless",
-            "server": "91.107.183.113",
-            "server_port": 8880,
-            "uuid": "c7870c2b-c028-476a-bc66-c4602619821f",
-            "flow": "xtls-rprx-vision",
+            "server": "104.17.148.22",
+            "server_port": 8443,
+            "uuid": "655a6041-0ab8-4a92-ad79-f0dba34f5ace",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "zhaket.com",
+                "server_name": "uk-09.allhubb.info",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
-                    "short_id": "50d72d59cbec63"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [64]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "b4c825dd-e0e0-4734-c7a1-082a77f03483",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [66]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "231bda3e-0d3a-4215-875a-03feb00b1501",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
@@ -1203,6 +1178,13 @@
                     "short_id": "5426024033df45"
                 }
             }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @v2raych [19]",
+            "type": "trojan",
+            "server": "166.0.132.208",
+            "server_port": 13191,
+            "password": "xAcyz6Upzb"
         },
         {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",

@@ -103,7 +103,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [66]",
+                "🇬🇧 GB | 🔓 VLESS | @config_proxy [72]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [5]",
@@ -211,6 +211,7 @@
                 "❔ XX | 🔓 VLESS | @nepo_v2ray [23]",
                 "🚩 CF | 🔒 VLESS | @nepo_v2ray [24]",
                 "❔ XX | 🔒 VLESS | @netazadchannel [4]",
+                "🇦🇪 AE | 🔓 VLESS | @netmellianti [17]",
                 "❔ XX | 🔓 VLESS | @next_serverpanel [3]",
                 "❔ XX | 🔓 VLESS | @next_serverpanel [4]",
                 "❔ XX | 🔓 VLESS | @next_serverpanel [5]",
@@ -329,7 +330,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [66]",
+                "🇬🇧 GB | 🔓 VLESS | @config_proxy [72]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [5]",
@@ -437,6 +438,7 @@
                 "❔ XX | 🔓 VLESS | @nepo_v2ray [23]",
                 "🚩 CF | 🔒 VLESS | @nepo_v2ray [24]",
                 "❔ XX | 🔒 VLESS | @netazadchannel [4]",
+                "🇦🇪 AE | 🔓 VLESS | @netmellianti [17]",
                 "❔ XX | 🔓 VLESS | @next_serverpanel [3]",
                 "❔ XX | 🔓 VLESS | @next_serverpanel [4]",
                 "❔ XX | 🔓 VLESS | @next_serverpanel [5]",
@@ -804,13 +806,20 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [66]",
+            "tag": "🇬🇧 GB | 🔓 VLESS | @config_proxy [72]",
             "type": "vless",
-            "server": "sos.heroit.ir",
-            "server_port": 8080,
-            "uuid": "e41b83a5-ab2c-4ed0-aefc-c2aadddba132",
+            "server": "dl5-uk4-cdn.fastfilecdn.org",
+            "server_port": 2052,
+            "uuid": "8ef1b0db-5954-447c-85e5-4f62b107ed61",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "dl5-uk4-cdn.fastfilecdn.org"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -2574,6 +2583,22 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "mtn.reallyrich.space"
+            }
+        },
+        {
+            "tag": "🇦🇪 AE | 🔓 VLESS | @netmellianti [17]",
+            "type": "vless",
+            "server": "uaegaming.gojustore.site",
+            "server_port": 7035,
+            "uuid": "7d27c544-135d-41a2-bd84-713b8af4f3c2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "uaegaming.gojustore.site"
+                }
             }
         },
         {
