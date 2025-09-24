@@ -82,6 +82,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [73]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [5]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -113,7 +114,6 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇮🇹 IT | 🔒 VLESS | @config_proxy [54]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
@@ -165,6 +165,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [73]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [5]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -196,7 +197,6 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇮🇹 IT | 🔒 VLESS | @config_proxy [54]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
@@ -373,6 +373,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [73]",
+            "type": "vless",
+            "server": "poland-serv1.ip-venzo.com",
+            "server_port": 2541,
+            "uuid": "8f0120f1-ba26-e137-5e06-a99b844741aa",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2GzriTU_gMWcnd7ZTGwn7CUIJ3-4gW1fp2tXPNkrQiY",
+                    "short_id": "641b3125487938c7"
+                }
             }
         },
         {
@@ -1129,29 +1152,6 @@
                     "enabled": true,
                     "public_key": "277HDYaNIvLYS9CMSr1CbkcTaahPEUCymW_0Ad17p2M",
                     "short_id": "f2"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @config_proxy [54]",
-            "type": "vless",
-            "server": "147.45.51.160",
-            "server_port": 443,
-            "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "api.company-target.com@V2rayNGVPN <= کانفیگ رایگان",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw",
-                    "short_id": ""
                 }
             }
         },

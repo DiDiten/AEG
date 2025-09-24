@@ -80,7 +80,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @config_proxy [42]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -107,7 +106,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @config_proxy [42]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -211,33 +209,6 @@
                 "headers": {
                     "Host": "127.0.0.1"
                 }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [42]",
-            "type": "vless",
-            "server": "[2a01:4f8:c01f:134:2::2]",
-            "server_port": 12122,
-            "uuid": "9afaf3ba-ce5c-464f-b58c-613405cae6d0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Db96VlxMFKESfK4XRBUnxPdeI21amMfbxcu7lqSoO2Y",
-                    "short_id": "d5"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "e"
             }
         },
         {

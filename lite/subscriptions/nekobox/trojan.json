@@ -88,8 +88,7 @@
                 "🚩 CF | 🔒 TROJAN | @v2ray_sub [77]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🚩 CF | 🔓 TROJAN | @hope_net [18]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
@@ -119,8 +118,7 @@
                 "🚩 CF | 🔒 TROJAN | @v2ray_sub [77]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🚩 CF | 🔓 TROJAN | @hope_net [18]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
@@ -366,45 +364,6 @@
         {
             "tag": "🚩 CF | 🔓 TROJAN | @hope_net [18]",
             "type": "trojan",
-            "server": "162.159.4.101",
-            "server_port": 443,
-            "password": "NISHIKUITAN222",
-            "tls": {
-                "enabled": true,
-                "server_name": "162.159.4.101",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [19]",
-            "type": "trojan",
-            "server": "198.41.194.151",
-            "server_port": 443,
-            "password": "NISHIKUITAN222",
-            "tls": {
-                "enabled": true,
-                "server_name": "il.ylks.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "il.ylks.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
-            "type": "trojan",
             "server": "104.25.252.248",
             "server_port": 443,
             "password": "NISHIKUITAN222",
@@ -415,6 +374,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "104.20.20.238",
+            "server_port": 443,
+            "password": "auto",
+            "tls": {
+                "enabled": true,
+                "server_name": "b96ef9ae.trojanfree-76s.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/b96ef9ae.trojanfree-76s.pages.dev/",
+                "headers": {
+                    "Host": "b96ef9ae.trojanfree-76s.pages.dev"
                 }
             }
         },

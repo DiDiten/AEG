@@ -84,7 +84,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [4]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [7]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [14]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [64]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [5]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -113,7 +113,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "❔ XX | 🔓 VLESS | @v2aryng_vpn [6]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [10]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [11]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [9]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [4]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [6]",
@@ -136,7 +136,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [4]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [7]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [14]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [64]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [5]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -165,7 +165,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "❔ XX | 🔓 VLESS | @v2aryng_vpn [6]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [10]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [11]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [9]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [4]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [6]",
@@ -300,13 +300,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [64]",
             "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "WedddBaz.iranstars-shop.ir",
+            "server_port": 2087,
+            "uuid": "5ef107d0-8be6-4671-b45e-c137d86a824a",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "WedddBaz.iranstars-shop.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [5]",
@@ -737,11 +746,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [10]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [11]",
             "type": "vless",
-            "server": "ergwork.web.unc.edu",
+            "server": "connectcarolina.sites.unc.edu",
             "server_port": 80,
-            "uuid": "d99cd2aa-f094-4d0c-b0e8-a24d49957bac",
+            "uuid": "6ed544ed-bbb0-4850-9043-28fd072a3c46",
             "flow": "",
             "packet_encoding": "xudp"
         },
