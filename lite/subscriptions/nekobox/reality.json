@@ -82,7 +82,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇦🇪 AE | 🔒 VLESS | @config_proxy [61]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [5]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -146,6 +145,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
+                "🇬🇧 GB | 🔒 VLESS | @v2rayopen [12]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [6]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -165,7 +165,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇦🇪 AE | 🔒 VLESS | @config_proxy [61]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [5]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -229,6 +228,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
+                "🇬🇧 GB | 🔒 VLESS | @v2rayopen [12]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [6]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -373,29 +373,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇦🇪 AE | 🔒 VLESS | @config_proxy [61]",
-            "type": "vless",
-            "server": "uae-server1-panyous.tap30.sbs",
-            "server_port": 2560,
-            "uuid": "09749f03-a873-48b1-864f-a6c0b94867ea",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
-                    "short_id": "e41865e506628f44"
-                }
             }
         },
         {
@@ -1908,6 +1885,29 @@
                     "enabled": true,
                     "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
                     "short_id": "61e683d41fdb"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @v2rayopen [12]",
+            "type": "vless",
+            "server": "83.147.19.55",
+            "server_port": 443,
+            "uuid": "fc6c90ad-b1ce-4c3f-88fa-aabe3b7a2585",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "snapp.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NVzXDuB9PZECzVgRWCVZJ4rCujQ5d2tw64Ufftci8C4",
+                    "short_id": "5bef46444e87"
                 }
             }
         },
