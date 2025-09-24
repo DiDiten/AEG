@@ -118,6 +118,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -395,7 +396,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
-                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [1]",
+                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [2]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [2]",
                 "❔ XX | 🔓 VLESS | @mpproxy [7]",
                 "❔ XX | 🔓 VLESS | @mpproxy [10]",
@@ -519,7 +520,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [3]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [5]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [8]",
-                "🇺🇸 US | 🔓 VLESS | @server_nekobox [11]",
                 "🚩 CF | 🔒 VLESS | @serverv2ray00 [9]",
                 "🚩 CF | 🔒 VLESS | @shadowsocksshop [1]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [1]",
@@ -604,8 +604,6 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🚩 CF | 🔓 VLESS | @v2raych [11]",
-                "🚩 CF | 🔓 VLESS | @v2raych [14]",
                 "🚩 CF | 🔓 VLESS | @v2raying [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
@@ -768,6 +766,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1045,7 +1044,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
-                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [1]",
+                "🇵🇱 PL | 🔒 VLESS | @mowjproxy [2]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [2]",
                 "❔ XX | 🔓 VLESS | @mpproxy [7]",
                 "❔ XX | 🔓 VLESS | @mpproxy [10]",
@@ -1169,7 +1168,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [3]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [5]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [8]",
-                "🇺🇸 US | 🔓 VLESS | @server_nekobox [11]",
                 "🚩 CF | 🔒 VLESS | @serverv2ray00 [9]",
                 "🚩 CF | 🔒 VLESS | @shadowsocksshop [1]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [1]",
@@ -1254,8 +1252,6 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🚩 CF | 🔓 VLESS | @v2raych [11]",
-                "🚩 CF | 🔓 VLESS | @v2raych [14]",
                 "🚩 CF | 🔓 VLESS | @v2raying [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
@@ -1919,6 +1915,22 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
+            "type": "vless",
+            "server": "mstr.fastly80.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "6a68b588-a8c5-462b-8637-3cfe886a9add",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/admin",
+                "headers": {
+                    "Host": "mstr.fastly80.hosting-ip.com"
+                }
             }
         },
         {
@@ -6754,7 +6766,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @mowjproxy [1]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @mowjproxy [2]",
             "type": "vless",
             "server": "poland-serv1.ip-venzo.com",
             "server_port": 2541,
@@ -8892,22 +8904,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @server_nekobox [11]",
-            "type": "vless",
-            "server": "mstr.fastly80.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "6a68b588-a8c5-462b-8637-3cfe886a9add",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/admin",
-                "headers": {
-                    "Host": "mstr.fastly80.hosting-ip.com"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @serverv2ray00 [9]",
             "type": "vless",
             "server": "visa.com",
@@ -10309,24 +10305,6 @@
                     "Host": "xjp.caball.link"
                 }
             }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @v2raych [11]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2086,
-            "uuid": "fa68ffe8-45eb-413b-d4a9-23d8fbb71436",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @v2raych [14]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2086,
-            "uuid": "2b67014e-b8aa-4c60-a23d-3edf741e29b0",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @v2raying [6]",
