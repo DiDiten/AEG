@@ -86,8 +86,6 @@
                 "🇨🇿 CZ | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [37]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -132,7 +130,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 VLESS | @hope_net [18]",
+                "🚩 CF | 🔒 VLESS | @hope_net [18]",
+                "🚩 CF | 🔓 VLESS | @hope_net [19]",
+                "🚩 CF | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
@@ -285,8 +285,6 @@
                 "🇨🇿 CZ | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [37]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -331,7 +329,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 VLESS | @hope_net [18]",
+                "🚩 CF | 🔒 VLESS | @hope_net [18]",
+                "🚩 CF | 🔓 VLESS | @hope_net [19]",
+                "🚩 CF | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
@@ -659,56 +659,6 @@
                 "path": "/veNbt06rF0tTFtp6/MTcyLjY0LjEzNC41OA==?ed=2560",
                 "headers": {
                     "Host": "SpEedteST.NET"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [37]",
-            "type": "vless",
-            "server": "104.18.58.47",
-            "server_port": 2087,
-            "uuid": "d3f0db10-02d2-4449-a1f1-7fef1ab65a7b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "NeT.RpTmSvMVm.ToP",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram@FreeConnection_VPN/?ed=2560",
-                "headers": {
-                    "Host": "NeT.RpTmSvMVm.ToP"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
-            "type": "vless",
-            "server": "3.78.152.130",
-            "server_port": 22224,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-channel-vlessconfig",
-                "headers": {
-                    "Host": "trojan.burgerip.co.uk"
                 }
             }
         },
@@ -1490,18 +1440,68 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @hope_net [18]",
+            "tag": "🚩 CF | 🔒 VLESS | @hope_net [18]",
             "type": "vless",
-            "server": "104.18.15.19",
-            "server_port": 8080,
-            "uuid": "131387aa-4b2a-43aa-bf7c-d94306ba55fb",
+            "server": "172.66.44.57",
+            "server_port": 443,
+            "uuid": "a1885a3c-d12b-4afb-954e-95d0bdf57cbe",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "TelEgRaM-id-ELIv2RaY.Pages.DEV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "TelEgRaM-id-ELIv2RaY.Pages.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 8880,
+            "uuid": "bc47d1e5-8c86-4c7e-9809-cef0e0cc14bb",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/?ed=2560",
+                "path": "/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2056",
                 "headers": {
-                    "Host": "104.18.15.19"
+                    "Host": "104.17.147.22"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @hope_net [20]",
+            "type": "vless",
+            "server": "104.17.234.114",
+            "server_port": 8443,
+            "uuid": "95dfa5f5-d47b-4629-a4f4-6a3f0b9ab052",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "join.bede.VPNCUSTOMIZE.www.speedtest.net.nl.Powerfullserver.de",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram,VPNCUSTOMIZE?ed=8080",
+                "headers": {
+                    "Host": "join.bede.VPNCUSTOMIZE.www.speedtest.net.nl.Powerfullserver.de"
                 }
             }
         },
