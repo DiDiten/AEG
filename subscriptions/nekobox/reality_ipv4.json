@@ -83,6 +83,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [51]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -173,8 +175,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇬🇧 GB | 🔒 VLESS | @v2raych [17]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -219,6 +219,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [51]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -309,8 +311,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇬🇧 GB | 🔒 VLESS | @v2raych [17]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -497,6 +497,52 @@
                     "enabled": true,
                     "public_key": "8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0",
                     "short_id": "5fab0deb"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "83.147.19.55",
+            "server_port": 443,
+            "uuid": "fc6c90ad-b1ce-4c3f-88fa-aabe3b7a2585",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "snapp.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NVzXDuB9PZECzVgRWCVZJ4rCujQ5d2tw64Ufftci8C4",
+                    "short_id": "5bef46444e87"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "85.239.60.43",
+            "server_port": 8443,
+            "uuid": "1703044d-fdb7-48c0-b60b-016743e19619",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qJ_x7_Fz3M4QdnRG8WcqVNpgsHbwWgs_KrdCqr4iclE",
+                    "short_id": ""
                 }
             }
         },
@@ -2651,56 +2697,6 @@
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
                 }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @v2raych [17]",
-            "type": "vless",
-            "server": "83.147.19.55",
-            "server_port": 443,
-            "uuid": "fc6c90ad-b1ce-4c3f-88fa-aabe3b7a2585",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "snapp.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NVzXDuB9PZECzVgRWCVZJ4rCujQ5d2tw64Ufftci8C4",
-                    "short_id": "5bef46444e87"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
-            "type": "vless",
-            "server": "116.202.21.122",
-            "server_port": 1777,
-            "uuid": "89564ae3-e13f-4881-e1eb-dc3a01b6f3dd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "globalsign.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "jkJpzKFOelmStHPCJNnzmoFzAIBn0AQM3UUmKC1TWm4",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
             }
         },
         {
