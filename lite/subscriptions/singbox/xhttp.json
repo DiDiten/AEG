@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [66]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔓 VLESS | @lranonline_new [2]",
@@ -136,6 +137,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [66]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔓 VLESS | @lranonline_new [2]",
@@ -261,6 +263,24 @@
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [66]",
+            "type": "vless",
+            "server": "WedddBaz.iranstars-shop.ir",
+            "server_port": 2087,
+            "uuid": "5ef107d0-8be6-4671-b45e-c137d86a824a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "WedddBaz.iranstars-shop.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [5]",

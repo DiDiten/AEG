@@ -104,6 +104,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [66]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [4]",
@@ -197,7 +198,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
-                "🇺🇸 US | 🔓 VLESS | @mowjproxy [5]",
+                "🇺🇸 US | 🔓 VLESS | @mowjproxy [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -233,7 +234,6 @@
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇳🇱 NL | 🔓 VLESS | @prrofile_purple [153]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
@@ -287,7 +287,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
-                "🇷🇴 RO | 🔓 VLESS | @vaynora [2]",
+                "🇮🇷 IR | 🔓 VLESS | @vaynora [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vaynora [4]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
@@ -332,6 +332,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [66]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [4]",
@@ -425,7 +426,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
-                "🇺🇸 US | 🔓 VLESS | @mowjproxy [5]",
+                "🇺🇸 US | 🔓 VLESS | @mowjproxy [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -461,7 +462,6 @@
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇳🇱 NL | 🔓 VLESS | @prrofile_purple [153]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
@@ -515,7 +515,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
-                "🇷🇴 RO | 🔓 VLESS | @vaynora [2]",
+                "🇮🇷 IR | 🔓 VLESS | @vaynora [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vaynora [4]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
@@ -830,6 +830,24 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [66]",
+            "type": "vless",
+            "server": "WedddBaz.iranstars-shop.ir",
+            "server_port": 2087,
+            "uuid": "5ef107d0-8be6-4671-b45e-c137d86a824a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "WedddBaz.iranstars-shop.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -2347,7 +2365,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @mowjproxy [5]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @mowjproxy [3]",
             "type": "vless",
             "server": "eng.afterbase.asia",
             "server_port": 80,
@@ -3029,22 +3047,6 @@
                     "enabled": true,
                     "public_key": "blF2p2FE_fexB29-tmU9HfVs6TwqsSQVxWAHIiP2KTk",
                     "short_id": "b28a0dd8"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @prrofile_purple [153]",
-            "type": "vless",
-            "server": "holnether.gojustore.site",
-            "server_port": 7035,
-            "uuid": "7d27c544-135d-41a2-bd84-713b8af4f3c2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "holnether.gojustore.site"
                 }
             }
         },
@@ -3935,7 +3937,7 @@
             }
         },
         {
-            "tag": "🇷🇴 RO | 🔓 VLESS | @vaynora [2]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @vaynora [2]",
             "type": "vless",
             "server": "vaynora.imlast.com",
             "server_port": 443,
