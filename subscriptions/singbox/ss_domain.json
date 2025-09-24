@@ -113,11 +113,11 @@
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇬🇧 GB | 🔒 SS | @serverv2ray00 [14]",
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
-                "🇭🇰 HK | 🔒 SS | @v2raych [12]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇦🇹 AT | 🔒 SS | @vmesc [7]",
                 "🇬🇧 GB | 🔒 SS | @vpn_ioss [7]",
-                "🇭🇰 HK | 🔒 SS | @zerobaipiao [27]"
+                "🇭🇰 HK | 🔒 SS | @zerobaipiao [25]",
+                "🇭🇰 HK | 🔒 SS | @zerobaipiao [30]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -149,11 +149,11 @@
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇬🇧 GB | 🔒 SS | @serverv2ray00 [14]",
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
-                "🇭🇰 HK | 🔒 SS | @v2raych [12]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇦🇹 AT | 🔒 SS | @vmesc [7]",
                 "🇬🇧 GB | 🔒 SS | @vpn_ioss [7]",
-                "🇭🇰 HK | 🔒 SS | @zerobaipiao [27]"
+                "🇭🇰 HK | 🔒 SS | @zerobaipiao [25]",
+                "🇭🇰 HK | 🔒 SS | @zerobaipiao [30]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -408,14 +408,6 @@
             "password": "W74XFALLLuw6m5IA"
         },
         {
-            "tag": "🇭🇰 HK | 🔒 SS | @v2raych [12]",
-            "type": "shadowsocks",
-            "server": "ss.017.node-for-bigairport.win",
-            "server_port": 15098,
-            "method": "aes-256-gcm",
-            "password": "c69374da-2208-4cbd-b81e-cdf88b5e7f53"
-        },
-        {
             "tag": "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
             "type": "shadowsocks",
             "server": "series-a2-me.varzesh360.co",
@@ -440,10 +432,18 @@
             "password": "ksg929BWf1K220dG"
         },
         {
-            "tag": "🇭🇰 HK | 🔒 SS | @zerobaipiao [27]",
+            "tag": "🇭🇰 HK | 🔒 SS | @zerobaipiao [25]",
             "type": "shadowsocks",
             "server": "ss.030.node-for-bigairport.win",
             "server_port": 10079,
+            "method": "aes-256-gcm",
+            "password": "c69374da-2208-4cbd-b81e-cdf88b5e7f53"
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 SS | @zerobaipiao [30]",
+            "type": "shadowsocks",
+            "server": "ss.017.node-for-bigairport.win",
+            "server_port": 15098,
             "method": "aes-256-gcm",
             "password": "c69374da-2208-4cbd-b81e-cdf88b5e7f53"
         }
