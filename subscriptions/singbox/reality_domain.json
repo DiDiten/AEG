@@ -96,6 +96,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -117,7 +118,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [10]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [18]",
-                "🇺🇸 US | 🔒 VLESS | @free4allvpn [17]",
+                "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -212,6 +213,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -233,7 +235,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [10]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [18]",
-                "🇺🇸 US | 🔒 VLESS | @free4allvpn [17]",
+                "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -497,6 +499,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
+            "type": "vless",
+            "server": "trgrns.vertalist.ir",
+            "server_port": 7005,
+            "uuid": "f27c4a6f-feb0-463b-b515-b97de9899be3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BEgwKAxJOC_U3JNvu1psNSkcbSUL9p8g5nMEOtHY4Sc",
+                    "short_id": "c3537867431956f6"
+                }
             }
         },
         {
@@ -1011,7 +1036,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @free4allvpn [17]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
             "type": "vless",
             "server": "map.wimax.cc",
             "server_port": 995,
