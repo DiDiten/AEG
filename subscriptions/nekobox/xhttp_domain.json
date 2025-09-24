@@ -84,7 +84,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [13]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [5]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -111,14 +111,15 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "❔ XX | 🔓 VLESS | @v2aryng_vpn [6]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🚩 CF | 🔒 VLESS | @v2raych [16]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [9]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [4]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [6]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [15]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [6]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [6]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [11]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -134,7 +135,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [13]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [5]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -161,14 +162,15 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "❔ XX | 🔓 VLESS | @v2aryng_vpn [6]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🚩 CF | 🔒 VLESS | @v2raych [16]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [9]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [4]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [6]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [15]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [6]",
+                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [6]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [11]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -296,7 +298,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [5]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
             "type": "vless",
             "server": "test.barayekhudam.ir",
             "server_port": 59697,
@@ -706,6 +708,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @v2raych [16]",
+            "type": "vless",
+            "server": "WedddBaz.iranstars-shop.ir",
+            "server_port": 2087,
+            "uuid": "5ef107d0-8be6-4671-b45e-c137d86a824a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "WedddBaz.iranstars-shop.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [9]",
             "type": "vless",
             "server": "speedtestcustom.com",
@@ -810,7 +830,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [11]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [6]",
             "type": "vless",
             "server": "live.wkrq.com",
             "server_port": 80,
@@ -819,7 +839,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [16]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [11]",
             "type": "vless",
             "server": "api.imgur.com",
             "server_port": 80,

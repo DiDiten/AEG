@@ -112,11 +112,12 @@
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇬🇧 GB | 🔒 SS | @serverv2ray00 [14]",
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [15]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [13]",
+                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [19]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇦🇹 AT | 🔒 SS | @vmesc [7]",
                 "🇬🇧 GB | 🔒 SS | @vpn_ioss [7]",
-                "🇭🇰 HK | 🔒 SS | @zerobaipiao [20]"
+                "🇭🇰 HK | 🔒 SS | @zerobaipiao [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -147,11 +148,12 @@
                 "❔ XX | 🔒 SS | @red2ray [1]",
                 "🇬🇧 GB | 🔒 SS | @serverv2ray00 [14]",
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [15]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [13]",
+                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [19]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
                 "🇦🇹 AT | 🔒 SS | @vmesc [7]",
                 "🇬🇧 GB | 🔒 SS | @vpn_ioss [7]",
-                "🇭🇰 HK | 🔒 SS | @zerobaipiao [20]"
+                "🇭🇰 HK | 🔒 SS | @zerobaipiao [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -398,12 +400,20 @@
             "password": "W74XFALLLuw6m5IA"
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [15]",
+            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [13]",
             "type": "shadowsocks",
             "server": "us33.giamping.com",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "42000e02-6b4d-46ad-a572-80db7db2a9ce"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [19]",
+            "type": "shadowsocks",
+            "server": "promo1o.bystrivpn.ru",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "0NeN5ta7FLa5B9DLytU0um"
         },
         {
             "tag": "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
@@ -430,7 +440,7 @@
             "password": "ksg929BWf1K220dG"
         },
         {
-            "tag": "🇭🇰 HK | 🔒 SS | @zerobaipiao [20]",
+            "tag": "🇭🇰 HK | 🔒 SS | @zerobaipiao [18]",
             "type": "shadowsocks",
             "server": "ss.017.node-for-bigairport.win",
             "server_port": 15098,
