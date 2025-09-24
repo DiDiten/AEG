@@ -165,19 +165,21 @@
                 "🇩🇪 DE | 🔒 SS | @srv2ray [1]",
                 "🇺🇸 US | 🔒 SS | @v222ray [2]",
                 "🇳🇱 NL | 🔒 SS | @v222ray [5]",
+                "🇷🇺 RU | 🔒 SS | @v2ray_free_conf [20]",
                 "🇷🇺 RU | 🔒 SS | @v2ray_sub [66]",
+                "🇺🇸 US | 🔒 SS | @v2raych [6]",
                 "🇷🇺 RU | 🔒 SS | @v2raymelliii [1]",
                 "🇺🇸 US | 🔒 SS | @v2rayngalpha [4]",
                 "🇩🇪 DE | 🔒 SS | @v2rayngalpha [5]",
                 "🇳🇱 NL | 🔒 SS | @v2rayngalpha [6]",
                 "🇷🇺 RU | 🔒 SS | @v2rayprotocol [6]",
-                "🇸🇬 SG | 🔒 SS | @v2raytg [62]",
-                "🇺🇸 US | 🔒 SS | @v2raytg [63]",
+                "🇸🇬 SG | 🔒 SS | @v2raytg [54]",
+                "🇺🇸 US | 🔒 SS | @v2raytg [55]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [14]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [15]",
                 "🇷🇺 RU | 🔒 SS | @vpngate_config [6]",
                 "🇺🇸 US | 🔒 SS | @vpngate_config [18]",
-                "🇺🇸 US | 🔒 SS | @zerobaipiao [30]"
+                "🇺🇸 US | 🔒 SS | @zerobaipiao [27]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -273,19 +275,21 @@
                 "🇩🇪 DE | 🔒 SS | @srv2ray [1]",
                 "🇺🇸 US | 🔒 SS | @v222ray [2]",
                 "🇳🇱 NL | 🔒 SS | @v222ray [5]",
+                "🇷🇺 RU | 🔒 SS | @v2ray_free_conf [20]",
                 "🇷🇺 RU | 🔒 SS | @v2ray_sub [66]",
+                "🇺🇸 US | 🔒 SS | @v2raych [6]",
                 "🇷🇺 RU | 🔒 SS | @v2raymelliii [1]",
                 "🇺🇸 US | 🔒 SS | @v2rayngalpha [4]",
                 "🇩🇪 DE | 🔒 SS | @v2rayngalpha [5]",
                 "🇳🇱 NL | 🔒 SS | @v2rayngalpha [6]",
                 "🇷🇺 RU | 🔒 SS | @v2rayprotocol [6]",
-                "🇸🇬 SG | 🔒 SS | @v2raytg [62]",
-                "🇺🇸 US | 🔒 SS | @v2raytg [63]",
+                "🇸🇬 SG | 🔒 SS | @v2raytg [54]",
+                "🇺🇸 US | 🔒 SS | @v2raytg [55]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [14]",
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [15]",
                 "🇷🇺 RU | 🔒 SS | @vpngate_config [6]",
                 "🇺🇸 US | 🔒 SS | @vpngate_config [18]",
-                "🇺🇸 US | 🔒 SS | @zerobaipiao [30]"
+                "🇺🇸 US | 🔒 SS | @zerobaipiao [27]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1056,12 +1060,28 @@
             "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         },
         {
+            "tag": "🇷🇺 RU | 🔒 SS | @v2ray_free_conf [20]",
+            "type": "shadowsocks",
+            "server": "185.126.239.250",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3"
+        },
+        {
             "tag": "🇷🇺 RU | 🔒 SS | @v2ray_sub [66]",
             "type": "shadowsocks",
             "server": "45.139.24.24",
             "server_port": 57456,
             "method": "chacha20-ietf-poly1305",
             "password": "360e21d21977dc11"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 SS | @v2raych [6]",
+            "type": "shadowsocks",
+            "server": "38.110.1.107",
+            "server_port": 2375,
+            "method": "aes-256-gcm",
+            "password": "faBAoD54k87UJG7"
         },
         {
             "tag": "🇷🇺 RU | 🔒 SS | @v2raymelliii [1]",
@@ -1104,7 +1124,7 @@
             "password": "f34579d0148b2581"
         },
         {
-            "tag": "🇸🇬 SG | 🔒 SS | @v2raytg [62]",
+            "tag": "🇸🇬 SG | 🔒 SS | @v2raytg [54]",
             "type": "shadowsocks",
             "server": "167.172.68.156",
             "server_port": 48575,
@@ -1112,7 +1132,7 @@
             "password": "zuXBmzgEGVk6VImtLZDib3"
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @v2raytg [63]",
+            "tag": "🇺🇸 US | 🔒 SS | @v2raytg [55]",
             "type": "shadowsocks",
             "server": "159.65.32.18",
             "server_port": 28620,
@@ -1152,7 +1172,7 @@
             "password": "a9dIXhPAuSDCKUPU"
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @zerobaipiao [30]",
+            "tag": "🇺🇸 US | 🔒 SS | @zerobaipiao [27]",
             "type": "shadowsocks",
             "server": "71.19.148.74",
             "server_port": 443,
