@@ -103,7 +103,6 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -131,7 +130,7 @@
                 "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
-                "❔ XX | 🔓 VLESS | @freev2raym [10]",
+                "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
                 "❔ XX | 🔒 VLESS | @freev2raym [11]",
                 "🚩 CF | 🔓 VLESS | @frev2rayng [18]",
                 "🚩 CF | 🔓 VLESS | @frev2rayng [19]",
@@ -248,6 +247,7 @@
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🚩 CF | 🔓 VLESS | @satellitenewspersian [20]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
+                "🇺🇸 US | 🔓 VLESS | @server_nekobox [11]",
                 "🚩 CF | 🔒 VLESS | @shadowsocksshop [1]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -330,7 +330,6 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [15]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -358,7 +357,7 @@
                 "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
-                "❔ XX | 🔓 VLESS | @freev2raym [10]",
+                "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
                 "❔ XX | 🔒 VLESS | @freev2raym [11]",
                 "🚩 CF | 🔓 VLESS | @frev2rayng [18]",
                 "🚩 CF | 🔓 VLESS | @frev2rayng [19]",
@@ -475,6 +474,7 @@
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🚩 CF | 🔓 VLESS | @satellitenewspersian [20]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
+                "🇺🇸 US | 🔓 VLESS | @server_nekobox [11]",
                 "🚩 CF | 🔒 VLESS | @shadowsocksshop [1]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -803,22 +803,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
-            "type": "vless",
-            "server": "mstr.fastly80.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "6a68b588-a8c5-462b-8637-3cfe886a9add",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/admin",
-                "headers": {
-                    "Host": "mstr.fastly80.hosting-ip.com"
-                }
             }
         },
         {
@@ -1292,7 +1276,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @freev2raym [10]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
             "type": "vless",
             "server": "antipingfree.melin.shop",
             "server_port": 58634,
@@ -3290,6 +3274,22 @@
                     "enabled": true,
                     "public_key": "rBXjuQ9eGNAUtELw1KFOMH7Aq0Q2t3RqcbdPcddYyTk",
                     "short_id": "69"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @server_nekobox [11]",
+            "type": "vless",
+            "server": "mstr.fastly80.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "6a68b588-a8c5-462b-8637-3cfe886a9add",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/admin",
+                "headers": {
+                    "Host": "mstr.fastly80.hosting-ip.com"
                 }
             }
         },

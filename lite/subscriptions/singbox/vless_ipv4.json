@@ -98,8 +98,8 @@
                 "🇨🇿 CZ | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [30]",
-                "❔ XX | 🔒 VLESS | @config_proxy [31]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [34]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [35]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -144,7 +144,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔒 VLESS | @hope_net [18]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
@@ -297,8 +297,8 @@
                 "🇨🇿 CZ | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [30]",
-                "❔ XX | 🔒 VLESS | @config_proxy [31]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [34]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [35]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -343,7 +343,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔒 VLESS | @hope_net [18]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
@@ -671,43 +671,52 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [30]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [34]",
             "type": "vless",
-            "server": "85.158.110.62",
-            "server_port": 8443,
-            "uuid": "523394fc-5ed7-4030-9a3b-872cf7e7acf1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [31]",
-            "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "bcbacaa-aabc-bcaa-bdac-baababcccbac",
+            "server": "159.255.33.66",
+            "server_port": 2053,
+            "uuid": "01996549-6892-dbf0-0453-f700236936bd",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "127.0.0.1",
+                "server_name": "kejiland.freewarp.eu.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560",
+                "headers": {
+                    "Host": "kejiland.freewarp.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [35]",
+            "type": "vless",
+            "server": "104.17.148.22",
+            "server_port": 443,
+            "uuid": "88538870-5626-4cd7-9cda-1e0b6253c9ce",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "6389113402676776506.rtxiran.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "6389113402676776506.rtxiran.info"
                 }
             }
         },
@@ -1489,16 +1498,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @hope_net [18]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
             "type": "vless",
-            "server": "104.17.234.114",
-            "server_port": 8443,
-            "uuid": "95dfa5f5-d47b-4629-a4f4-6a3f0b9ab052",
+            "server": "199.34.228.179",
+            "server_port": 443,
+            "uuid": "cc3a15eb-0a63-486c-8e12-c7be717ebcd4",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "join.bede.VPNCUSTOMIZE.www.speedtest.net.nl.Powerfullserver.de",
+                "server_name": "bpB005.paGeS.DEv",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1507,9 +1516,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/Telegram,VPNCUSTOMIZE?ed=8080",
+                "path": "/ProxyIP=ProxyIP.US.fxxk.dedyn.io",
                 "headers": {
-                    "Host": "join.bede.VPNCUSTOMIZE.www.speedtest.net.nl.Powerfullserver.de"
+                    "Host": "bpB005.paGeS.DEv"
                 }
             }
         },
