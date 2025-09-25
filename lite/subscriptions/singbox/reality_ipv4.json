@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
@@ -109,9 +110,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
+                "🇹🇷 TR | 🔒 VLESS | @mowjproxy [2]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
-                "🇫🇷 FR | 🔒 VLESS | @netmellianti [15]",
+                "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇦 UA | 🔒 VLESS | @prrofile_purple [154]",
@@ -140,6 +142,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
@@ -157,9 +160,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
+                "🇹🇷 TR | 🔒 VLESS | @mowjproxy [2]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
-                "🇫🇷 FR | 🔒 VLESS | @netmellianti [15]",
+                "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇦 UA | 🔒 VLESS | @prrofile_purple [154]",
@@ -260,6 +264,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "45.80.230.190",
+            "server_port": 65047,
+            "uuid": "814514d0-7fb5-41c9-ba9d-e4eff68c1311",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "F3vOEhZMIEs_djWjttPmQbv9MNAl3OTUWpDWLn5hTHw",
+                    "short_id": "f481"
                 }
             }
         },
@@ -667,6 +694,29 @@
             }
         },
         {
+            "tag": "🇹🇷 TR | 🔒 VLESS | @mowjproxy [2]",
+            "type": "vless",
+            "server": "188.132.183.15",
+            "server_port": 2560,
+            "uuid": "09749f03-a873-48b1-864f-a6c0b94867ea",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
+                    "short_id": "e41865e506628f44"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
             "type": "vless",
             "server": "5.181.171.2",
@@ -713,7 +763,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @netmellianti [15]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
             "type": "vless",
             "server": "95.182.97.162",
             "server_port": 7033,
