@@ -92,7 +92,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [65]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -306,7 +305,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [63]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -521,7 +519,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [65]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -735,7 +732,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [63]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -1224,33 +1220,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [65]",
-            "type": "vless",
-            "server": "services.dissertationhelpspecialist.com",
-            "server_port": 443,
-            "uuid": "ee6e69cc-cb57-43f9-9078-e329bd39fc05",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZV4e1OJFc5P1PH8pi6YN3mVzZ0G8WUOCNJZ6IibvT3Y",
-                    "short_id": "a266fd8b85"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
             }
         },
         {
@@ -4896,31 +4865,6 @@
                 "path": "/veNbt06rF0tTFtp6/MTcyLjY0LjEzNC41OA==?ed=2560",
                 "headers": {
                     "Host": "SpEedteST.NET"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [63]",
-            "type": "vless",
-            "server": "172.64.33.81",
-            "server_port": 443,
-            "uuid": "af1c70ed-15cb-4f03-95eb-44383d227631",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "1yrcg4nx.shemrons.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/wss",
-                "headers": {
-                    "Host": "1yrcg4nx.shemrons.com"
                 }
             }
         },
