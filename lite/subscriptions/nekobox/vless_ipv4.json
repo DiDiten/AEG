@@ -86,7 +86,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [52]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -258,8 +258,8 @@
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [18]",
                 "🇫🇷 FR | 🔓 VLESS | @vmesc [17]",
                 "🇳🇱 NL | 🔓 VLESS | @vmesskhodam [14]",
-                "🇳🇱 NL | 🔓 VLESS | @vmessorg [5]",
-                "🇩🇪 DE | 🔓 VLESS | @vmessorg [6]",
+                "🇳🇱 NL | 🔓 VLESS | @vmessorg [7]",
+                "🇩🇪 DE | 🔓 VLESS | @vmessorg [8]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [14]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
@@ -283,7 +283,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [52]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -455,8 +455,8 @@
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [18]",
                 "🇫🇷 FR | 🔓 VLESS | @vmesc [17]",
                 "🇳🇱 NL | 🔓 VLESS | @vmesskhodam [14]",
-                "🇳🇱 NL | 🔓 VLESS | @vmessorg [5]",
-                "🇩🇪 DE | 🔓 VLESS | @vmessorg [6]",
+                "🇳🇱 NL | 🔓 VLESS | @vmessorg [7]",
+                "🇩🇪 DE | 🔓 VLESS | @vmessorg [8]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [14]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
@@ -664,27 +664,18 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [52]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [45]",
             "type": "vless",
-            "server": "65.109.217.125",
-            "server_port": 443,
-            "uuid": "d09c7283-6a69-4c8e-b633-e3927166e07f",
+            "server": "151.101.2.219",
+            "server_port": 80,
+            "uuid": "7835948c-ac97-5c9b-ab20-ce5941ff96b5",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "fl.v2bazzar.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "fl.v2bazzar.ir"
+                    "Host": "151.101.2.219"
                 }
             }
         },
@@ -3624,7 +3615,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @vmessorg [5]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @vmessorg [7]",
             "type": "vless",
             "server": "167.71.8.192",
             "server_port": 23313,
@@ -3640,7 +3631,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vmessorg [6]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vmessorg [8]",
             "type": "vless",
             "server": "91.98.139.130",
             "server_port": 55873,
