@@ -131,6 +131,7 @@
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [6]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [7]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [44]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [2]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
@@ -241,6 +242,7 @@
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [6]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [7]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [44]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [2]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
@@ -954,6 +956,24 @@
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "15.204.30.240",
+            "server_port": 443,
+            "uuid": "f6f442e3-69d1-4a83-bb78-241152eed859",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "15.204.30.240",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [25]",
