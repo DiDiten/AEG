@@ -92,6 +92,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [51]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -305,9 +307,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [52]",
-                "🇨🇭 CH | 🔓 VLESS | @config_proxy [53]",
-                "🇧🇬 BG | 🔓 VLESS | @config_proxy [54]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [50]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -519,6 +519,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [51]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -732,9 +734,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [52]",
-                "🇨🇭 CH | 🔓 VLESS | @config_proxy [53]",
-                "🇧🇬 BG | 🔓 VLESS | @config_proxy [54]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [50]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -1220,6 +1220,32 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "8lb9pb.academiemi-purya.click",
+            "server_port": 15341,
+            "uuid": "8a9ba396-9ca7-49cc-a642-8b6453c2a7f6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "/ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-bia-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN/?ed=2052"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "8lb9pb.academiemi-purya.click",
+            "server_port": 15341,
+            "uuid": "8a9ba396-9ca7-49cc-a642-8b6453c2a7f6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "/ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-bia-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN-ACADEMI_VPN/?ed=2052"
             }
         },
         {
@@ -4869,45 +4895,21 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [52]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [50]",
             "type": "vless",
-            "server": "104.16.228.91",
-            "server_port": 80,
-            "uuid": "f278037e-ce36-4634-9b4d-fca93e345a35",
+            "server": "188.114.97.0",
+            "server_port": 443,
+            "uuid": "46d968fc-b944-4456-b71c-e52707779538",
             "flow": "",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/?hibyevpnn---hibyevpnn---hibyevpnn---hibyevpnn?ed=2560",
-                "headers": {
-                    "Host": "104.16.228.91"
+            "tls": {
+                "enabled": true,
+                "server_name": "ir1.localtales.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇭 CH | 🔓 VLESS | @config_proxy [53]",
-            "type": "vless",
-            "server": "141.227.138.120",
-            "server_port": 24586,
-            "uuid": "e857ff76-71a7-4999-af17-9bc06eff850e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
-            }
-        },
-        {
-            "tag": "🇧🇬 BG | 🔓 VLESS | @config_proxy [54]",
-            "type": "vless",
-            "server": "141.227.178.165",
-            "server_port": 25366,
-            "uuid": "c3cf87f7-df1a-4e53-a7b6-495c16db3053",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
             }
         },
         {
