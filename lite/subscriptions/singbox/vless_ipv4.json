@@ -98,9 +98,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [55]",
-                "🇪🇸 ES | 🔓 VLESS | @config_proxy [56]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [57]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [65]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -160,7 +158,6 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
-                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
                 "🚩 CF | 🔓 VLESS | @kafing_2 [14]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔓 VLESS | @kingofilter [2]",
@@ -274,7 +271,6 @@
                 "🇳🇱 NL | 🔓 VLESS | @vmesskhodam [14]",
                 "🇳🇱 NL | 🔓 VLESS | @vmessorg [7]",
                 "🇩🇪 DE | 🔓 VLESS | @vmessorg [8]",
-                "🚩 CF | 🔒 VLESS | @vpn_ioss [14]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [1]",
@@ -297,9 +293,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [55]",
-                "🇪🇸 ES | 🔓 VLESS | @config_proxy [56]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [57]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [65]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -359,7 +353,6 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
-                "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
                 "🚩 CF | 🔓 VLESS | @kafing_2 [14]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔓 VLESS | @kingofilter [2]",
@@ -473,7 +466,6 @@
                 "🇳🇱 NL | 🔓 VLESS | @vmesskhodam [14]",
                 "🇳🇱 NL | 🔓 VLESS | @vmessorg [7]",
                 "🇩🇪 DE | 🔓 VLESS | @vmessorg [8]",
-                "🚩 CF | 🔒 VLESS | @vpn_ioss [14]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [1]",
@@ -676,54 +668,27 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [55]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [65]",
             "type": "vless",
-            "server": "62.60.231.215",
-            "server_port": 8880,
-            "uuid": "e890bdc9-9b70-4596-8abb-b671b416dde8",
-            "flow": "xtls-rprx-vision",
+            "server": "172.66.40.99",
+            "server_port": 8443,
+            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "zhaket.com",
+                "server_name": "Rx2TfQ98lT.sOlEnTrAa.InFo",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
-                    "short_id": "50d72d59cbec63"
                 }
-            }
-        },
-        {
-            "tag": "🇪🇸 ES | 🔓 VLESS | @config_proxy [56]",
-            "type": "vless",
-            "server": "141.227.128.48",
-            "server_port": 54214,
-            "uuid": "d90a5ec5-e25f-4080-9a77-be1a621dfd7e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON@V2rayNGVPN <= کانفیگ رایگان"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [57]",
-            "type": "vless",
-            "server": "172.66.156.81",
-            "server_port": 80,
-            "uuid": "64d6d0d4-3706-4837-b154-cda2816adcc5",
-            "flow": "",
-            "packet_encoding": "xudp",
+            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "172.66.156.81"
+                    "Host": "Rx2TfQ98lT.sOlEnTrAa.InFo"
                 }
             }
         },
@@ -1761,24 +1726,6 @@
                     "enabled": true,
                     "public_key": "OItbKB3XzCXKysSNBIUZ7fDAfASACK_ucLrU6NAAFAU",
                     "short_id": "a98a22e2"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @kafing_2 [12]",
-            "type": "vless",
-            "server": "91.98.35.110",
-            "server_port": 443,
-            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.98.35.110",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
@@ -3699,31 +3646,6 @@
             "uuid": "a1a9906c-f387-4092-b73c-576dc510bad8",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vpn_ioss [14]",
-            "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 8443,
-            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Rx2TfQ98lT.sOlEnTrAa.InFo",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "Rx2TfQ98lT.sOlEnTrAa.InFo"
-                }
-            }
         },
         {
             "tag": "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
