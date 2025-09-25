@@ -94,7 +94,8 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [3]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇮🇷 IR | 🔓 TROJAN | @hope_net [13]",
+                "🇮🇷 IR | 🔓 TROJAN | @hope_net [11]",
+                "🇫🇷 FR | 🔒 TROJAN | @hope_net [20]",
                 "🇳🇱 NL | 🔒 TROJAN | @manstervpn [64]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [65]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [67]",
@@ -158,7 +159,8 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔒 TROJAN | @freeconfigsplus [3]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇮🇷 IR | 🔓 TROJAN | @hope_net [13]",
+                "🇮🇷 IR | 🔓 TROJAN | @hope_net [11]",
+                "🇫🇷 FR | 🔒 TROJAN | @hope_net [20]",
                 "🇳🇱 NL | 🔒 TROJAN | @manstervpn [64]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [65]",
                 "🚩 CF | 🔒 TROJAN | @manstervpn [67]",
@@ -319,11 +321,27 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🇮🇷 IR | 🔓 TROJAN | @hope_net [13]",
+            "tag": "🇮🇷 IR | 🔓 TROJAN | @hope_net [11]",
             "type": "trojan",
             "server": "79.127.70.123",
             "server_port": 2083,
             "password": "ec94daf9-442f-4a6b-9633-70c90006dfdd"
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "52.47.38.201",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇳🇱 NL | 🔒 TROJAN | @manstervpn [64]",
