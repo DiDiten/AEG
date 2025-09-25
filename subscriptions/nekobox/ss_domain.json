@@ -102,7 +102,8 @@
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
                 "❔ XX | 🔒 SS | @v2rayngalpha [2]",
                 "🇦🇹 AT | 🔒 SS | @vmesc [7]",
-                "🇬🇧 GB | 🔒 SS | @vpn_ioss [16]"
+                "🇬🇧 GB | 🔒 SS | @vpn_ioss [3]",
+                "🇬🇧 GB | 🔒 SS | @vpn_ioss [9]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -135,7 +136,8 @@
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
                 "❔ XX | 🔒 SS | @v2rayngalpha [2]",
                 "🇦🇹 AT | 🔒 SS | @vmesc [7]",
-                "🇬🇧 GB | 🔒 SS | @vpn_ioss [16]"
+                "🇬🇧 GB | 🔒 SS | @vpn_ioss [3]",
+                "🇬🇧 GB | 🔒 SS | @vpn_ioss [9]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -402,12 +404,20 @@
             "password": "9JeYy8SkViXuSHVs9GFeSe"
         },
         {
-            "tag": "🇬🇧 GB | 🔒 SS | @vpn_ioss [16]",
+            "tag": "🇬🇧 GB | 🔒 SS | @vpn_ioss [3]",
             "type": "shadowsocks",
             "server": "c1.nastuh.link",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "WiitXs6BHZgSNlit"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 SS | @vpn_ioss [9]",
+            "type": "shadowsocks",
+            "server": "azjnac1.uksouth.cloudapp.azure.com",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ksg929BWf1K220dG"
         }
     ],
     "route": {
