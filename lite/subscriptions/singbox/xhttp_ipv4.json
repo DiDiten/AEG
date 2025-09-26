@@ -92,8 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [16]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [8]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
@@ -122,8 +124,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [16]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [8]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
@@ -228,11 +232,11 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "2f77469c-f83a-4668-9fad-1dfcbec2cc71",
+            "uuid": "502bb5da-1e43-4231-b58f-9fb50bec8c54",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -256,6 +260,52 @@
                     "enabled": true,
                     "public_key": "cUB48wKXH2f7PNrZDtwt0UQ9uf5sMIXA5W_IA8twtGc",
                     "short_id": "dc5db021ae2038a9"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann [16]",
+            "type": "vless",
+            "server": "62.60.231.215",
+            "server_port": 8880,
+            "uuid": "b7aaf21d-b7b4-4d28-bf4b-0530903f1cb6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
+                    "short_id": "50d72d59cbec63"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [6]",
+            "type": "vless",
+            "server": "62.60.231.215",
+            "server_port": 8880,
+            "uuid": "b7aaf21d-b7b4-4d28-bf4b-0530903f1cb6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
+                    "short_id": "50d72d59cbec63"
                 }
             }
         },
