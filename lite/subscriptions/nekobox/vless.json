@@ -92,7 +92,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -186,6 +185,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
+                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [2]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -306,8 +306,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇦🇪 AE | 🔓 VLESS | @config_proxy [45]",
-                "🇱🇹 LT | 🔓 VLESS | @config_proxy [46]",
+                "🇫🇷 FR | 🔓 VLESS | @config_proxy [46]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -519,7 +518,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [44]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -613,6 +611,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
+                "🇩🇪 DE | 🔓 VLESS | @mowjproxy [2]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -733,8 +732,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇦🇪 AE | 🔓 VLESS | @config_proxy [45]",
-                "🇱🇹 LT | 🔓 VLESS | @config_proxy [46]",
+                "🇫🇷 FR | 🔓 VLESS | @config_proxy [46]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -1221,15 +1219,6 @@
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
             }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [44]",
-            "type": "vless",
-            "server": "fierce-data.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "c313c27c-97ff-45ed-ab5c-64641af5debc",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -2740,6 +2729,15 @@
             "server": "p.boardbear.ir",
             "server_port": 2053,
             "uuid": "d0f30d61-4a72-4640-8267-24f4afeb1b37",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @mowjproxy [2]",
+            "type": "vless",
+            "server": "m32a.vip784.com",
+            "server_port": 33801,
+            "uuid": "af93dbb8-f28a-4734-944f-538287410fd2",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -4878,20 +4876,11 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🔓 VLESS | @config_proxy [45]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @config_proxy [46]",
             "type": "vless",
-            "server": "93.127.180.106",
-            "server_port": 7443,
-            "uuid": "f83a24ef-8a18-4927-9b74-b6989e4b09c2",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇱🇹 LT | 🔓 VLESS | @config_proxy [46]",
-            "type": "vless",
-            "server": "94.131.13.163",
-            "server_port": 8880,
-            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+            "server": "89.208.113.172",
+            "server_port": 1014,
+            "uuid": "8b0e0c8b-0eba-4e4c-9b62-89c4f184aa37",
             "flow": "",
             "packet_encoding": "xudp"
         },
