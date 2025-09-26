@@ -122,8 +122,10 @@
                 "❔ XX | 🔓 VLESS | @orange_vpns [6]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [3]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
-                "❔ XX | 🔓 VLESS | @v2aryng_vpn [6]",
+                "❔ XX | 🔓 VLESS | @v2aryng_vpn [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🚩 CF | 🔓 VLESS | @v2raych [9]",
+                "🚩 CF | 🔒 VLESS | @v2raych [10]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [7]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [4]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [6]",
@@ -171,8 +173,10 @@
                 "❔ XX | 🔓 VLESS | @orange_vpns [6]",
                 "🇩🇪 DE | 🔓 VLESS | @server_nekobox [3]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
-                "❔ XX | 🔓 VLESS | @v2aryng_vpn [6]",
+                "❔ XX | 🔓 VLESS | @v2aryng_vpn [5]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🚩 CF | 🔓 VLESS | @v2raych [9]",
+                "🚩 CF | 🔒 VLESS | @v2raych [10]",
                 "🇺🇸 US | 🔓 VLESS | @vmesc [7]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [4]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [6]",
@@ -680,7 +684,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @v2aryng_vpn [6]",
+            "tag": "❔ XX | 🔓 VLESS | @v2aryng_vpn [5]",
             "type": "vless",
             "server": "sss70053.tas-bazi.com",
             "server_port": 443,
@@ -705,6 +709,33 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @v2raych [9]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2086,
+            "uuid": "505dd9d5-5193-43eb-a1df-3fb953840aa8",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @v2raych [10]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "26f356ce-ce6e-456a-e18b-d405eb716533",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "config5.arxcloud-host.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [7]",
