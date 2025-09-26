@@ -84,9 +84,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [57]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [71]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [3]",
@@ -199,9 +200,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [57]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [71]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [3]",
@@ -490,25 +492,52 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [57]",
             "type": "vless",
-            "server": "joje.hamyarkettab.ir",
-            "server_port": 15982,
-            "uuid": "7c07fbe3-129d-4ba9-8eb7-5712e25ac4a2",
+            "server": "francebuget.gojustore.site",
+            "server_port": 7033,
+            "uuid": "1ab3a590-57d5-426a-ad09-3bf4d6ed7bc5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "telewebion.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "voY5_4gQQo9LiqYa29w-KlWvJjhtohW1vjrYXJfZ-Ro",
-                    "short_id": "252c5430b272"
+                    "public_key": "iLik9C9our-5dRYuvFtrYOzd1NedgTsqUKew2ogLdgE",
+                    "short_id": "16b6cda7ab793526"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "7034vless"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [71]",
+            "type": "vless",
+            "server": "Ger-server3-panyous.tap30.sbs",
+            "server_port": 2560,
+            "uuid": "34c88e40-a126-4b45-b548-59eb9c5986f9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
+                    "short_id": "e41865e506628f44"
                 }
             }
         },
@@ -536,7 +565,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
             "type": "vless",
             "server": "test.barayekhudam.ir",
             "server_port": 59697,
