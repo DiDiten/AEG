@@ -93,12 +93,13 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [65]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [66]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann [16]",
@@ -120,6 +121,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
+                "🇺🇸 US | 🔓 VLESS | @v2raying [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]"
             ],
@@ -133,12 +135,13 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [65]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [66]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann [16]",
@@ -160,6 +163,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
+                "🇺🇸 US | 🔓 VLESS | @v2raying [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]"
             ],
@@ -257,6 +261,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [65]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "26f356ce-ce6e-456a-e18b-d405eb716533",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "config5.arxcloud-host.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
             "type": "vless",
             "server": "test.barayekhudam.ir",
@@ -325,7 +347,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [66]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -697,6 +719,15 @@
                     "short_id": "a862ded52ae3ea"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raying [6]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "197082ac-e606-4746-ac66-2a2a7614b839",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",

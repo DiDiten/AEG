@@ -84,6 +84,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [11]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [67]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -131,6 +133,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [11]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [67]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -288,6 +292,47 @@
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
+            "type": "vless",
+            "server": "joje.hamyarkettab.ir",
+            "server_port": 15982,
+            "uuid": "7c07fbe3-129d-4ba9-8eb7-5712e25ac4a2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "voY5_4gQQo9LiqYa29w-KlWvJjhtohW1vjrYXJfZ-Ro",
+                    "short_id": "252c5430b272"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [67]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "26f356ce-ce6e-456a-e18b-d405eb716533",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "config5.arxcloud-host.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
