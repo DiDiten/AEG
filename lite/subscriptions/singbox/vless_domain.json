@@ -103,7 +103,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -242,7 +242,7 @@
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🚩 CF | 🔓 VLESS | @satellitenewspersian [20]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
-                "🇺🇸 US | 🔓 VLESS | @server_nekobox [11]",
+                "🇺🇸 US | 🔓 VLESS | @server_nekobox [9]",
                 "🚩 CF | 🔒 VLESS | @shadowsocksshop [1]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -328,7 +328,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -467,7 +467,7 @@
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🚩 CF | 🔓 VLESS | @satellitenewspersian [20]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
-                "🇺🇸 US | 🔓 VLESS | @server_nekobox [11]",
+                "🇺🇸 US | 🔓 VLESS | @server_nekobox [9]",
                 "🚩 CF | 🔒 VLESS | @shadowsocksshop [1]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -802,25 +802,27 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [40]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [41]",
             "type": "vless",
-            "server": "Ger-server3-panyous.tap30.sbs",
-            "server_port": 2560,
-            "uuid": "ee2a2581-ac81-4a3d-9650-c2f03d6cb3ab",
-            "flow": "xtls-rprx-vision",
+            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+            "server_port": 2087,
+            "uuid": "502ce704-dcec-4f92-9489-505c99ce6c89",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cloudflare.com",
+                "server_name": "CFN06.ALaNHiaHo.COm",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
-                    "short_id": "e41865e506628f44ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr--"
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "CFN06.ALaNHiaHo.COm"
                 }
             }
         },
@@ -3231,7 +3233,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @server_nekobox [11]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @server_nekobox [9]",
             "type": "vless",
             "server": "mstr.fastly80.hosting-ip.com",
             "server_port": 80,
