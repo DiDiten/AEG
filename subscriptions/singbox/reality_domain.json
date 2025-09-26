@@ -96,7 +96,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -115,6 +114,7 @@
                 "❔ XX | 🔒 VLESS | @evay_vpn [21]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [23]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [3]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [12]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [16]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -137,7 +137,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [3]",
-                "🇫🇷 FR | 🔒 VLESS | @orange_vpns [10]",
+                "🇫🇷 FR | 🔒 VLESS | @orange_vpns [8]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -208,7 +208,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -227,6 +226,7 @@
                 "❔ XX | 🔒 VLESS | @evay_vpn [21]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [23]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [3]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [12]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [16]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -249,7 +249,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [3]",
-                "🇫🇷 FR | 🔒 VLESS | @orange_vpns [10]",
+                "🇫🇷 FR | 🔒 VLESS | @orange_vpns [8]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -489,33 +489,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
-            "type": "vless",
-            "server": "step.dissertationhelpspecialist.com",
-            "server_port": 443,
-            "uuid": "43005aef-caf6-4f24-9a48-ec650a52e5ef",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "e_w8hU5iFkzVYFOSY-CDrA_vm2HuguWPnwSWgzeeaX8",
-                    "short_id": "7a28ae"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice"
             }
         },
         {
@@ -949,6 +922,33 @@
                     "enabled": true,
                     "public_key": "ZV4e1OJFc5P1PH8pi6YN3mVzZ0G8WUOCNJZ6IibvT3Y",
                     "short_id": "a266fd8b85"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [12]",
+            "type": "vless",
+            "server": "step.dissertationhelpspecialist.com",
+            "server_port": 443,
+            "uuid": "43005aef-caf6-4f24-9a48-ec650a52e5ef",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "e_w8hU5iFkzVYFOSY-CDrA_vm2HuguWPnwSWgzeeaX8",
+                    "short_id": "7a28ae"
                 }
             },
             "transport": {
@@ -1522,7 +1522,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @orange_vpns [10]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @orange_vpns [8]",
             "type": "vless",
             "server": "yfr.amiraizo.com",
             "server_port": 2560,
