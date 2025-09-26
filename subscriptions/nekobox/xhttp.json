@@ -84,6 +84,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [11]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [41]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -102,7 +103,7 @@
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [4]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [12]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [17]",
-                "❔ XX | 🔓 VLESS | @megavpn_link [1]",
+                "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [9]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [10]",
@@ -119,6 +120,7 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [6]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [2]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [5]",
@@ -192,6 +194,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [11]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [16]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [41]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [4]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -210,7 +213,7 @@
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [4]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [12]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [17]",
-                "❔ XX | 🔓 VLESS | @megavpn_link [1]",
+                "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [9]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [10]",
@@ -227,6 +230,7 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [6]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [2]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [5]",
@@ -408,6 +412,15 @@
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "alo09.sernett.ir",
+            "server_port": 80,
+            "uuid": "SERVERNETT-SERVERNETT1",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -700,7 +713,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @megavpn_link [1]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
             "type": "vless",
             "server": "fast.peace.lemoex.blog",
             "server_port": 80,
@@ -928,6 +941,29 @@
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+            "type": "vless",
+            "server": "78.47.65.38",
+            "server_port": 12365,
+            "uuid": "afb5037d-6fed-4145-abbf-25e9ee7f5ff8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "URBzficmDa8s-CNq6Sp5WtGew_bfYb0LS07JN8Hkkwc",
+                    "short_id": "e4e5a8"
+                }
+            }
         },
         {
             "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
