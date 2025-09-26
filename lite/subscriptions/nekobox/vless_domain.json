@@ -92,6 +92,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -119,7 +120,7 @@
                 "🚩 CF | 🔓 VLESS | @free1_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @free1_vpn [11]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
-                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
+                "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -284,7 +285,7 @@
                 "🇺🇸 US | 🔓 VLESS | @vmesskhodam [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [9]",
-                "🇺🇸 US | 🔒 VLESS | @vpn_ioss [16]",
+                "🚩 CF | 🔒 VLESS | @vpn_ioss [16]",
                 "❔ XX | 🔒 VLESS | @vpncostume [9]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [4]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
@@ -321,6 +322,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -348,7 +350,7 @@
                 "🚩 CF | 🔓 VLESS | @free1_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @free1_vpn [11]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
-                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
+                "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -513,7 +515,7 @@
                 "🇺🇸 US | 🔓 VLESS | @vmesskhodam [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [9]",
-                "🇺🇸 US | 🔒 VLESS | @vpn_ioss [16]",
+                "🚩 CF | 🔒 VLESS | @vpn_ioss [16]",
                 "❔ XX | 🔒 VLESS | @vpncostume [9]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [4]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
@@ -824,6 +826,31 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "news.zoom.us",
+            "server_port": 2096,
+            "uuid": "76bfc324-e228-47e0-8871-f974fac80390",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ip.onhit.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "ip.onhit.xyz"
+                }
             }
         },
         {
@@ -1290,7 +1317,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
+            "tag": "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
@@ -4088,7 +4115,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpn_ioss [16]",
+            "tag": "🚩 CF | 🔒 VLESS | @vpn_ioss [16]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
