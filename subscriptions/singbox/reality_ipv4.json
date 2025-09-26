@@ -95,13 +95,16 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [53]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [57]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [59]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [5]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [1]",
+                "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [2]",
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [4]",
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [5]",
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [6]",
@@ -233,13 +236,16 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [53]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [57]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [59]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [5]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [1]",
+                "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [2]",
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [4]",
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [5]",
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [6]",
@@ -513,16 +519,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [53]",
             "type": "vless",
-            "server": "104.248.47.168",
+            "server": "45.84.1.123",
             "server_port": 443,
-            "uuid": "6332446e-0e44-45f9-9ebd-d7b0234ac12d",
+            "uuid": "7a8edd68-0fdc-4c99-a7b9-567d1d92773a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "store.steampowered.com",
+                "server_name": "ru.moktana.digital",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -530,7 +536,76 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "U_HQzHi-n4aJFniZlvv0t74oP_4DzLcijgfE3CCcYzw",
+                    "public_key": "zuaps7iorLp8LUT_gPVVqCekOkIAWU7ApTui1hJq9Qk",
+                    "short_id": "1de19e94bf9e5b23"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "45.84.1.123",
+            "server_port": 443,
+            "uuid": "7a8edd68-0fdc-4c99-a7b9-567d1d92773a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.moktana.digital",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zuaps7iorLp8LUT_gPVVqCekOkIAWU7ApTui1hJq9Qk",
+                    "short_id": "1de19e94bf9e5b23"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [59]",
+            "type": "vless",
+            "server": "80.74.29.212",
+            "server_port": 8443,
+            "uuid": "254f0f06-fe5d-4e76-9d5e-3c82b27ae36c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [64]",
+            "type": "vless",
+            "server": "185.138.88.58",
+            "server_port": 443,
+            "uuid": "95bbb722-7641-4247-b795-25a2f540e67b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bol.comÃÂ¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
                     "short_id": ""
                 }
             }
@@ -667,7 +742,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [1]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @configv2rayforfree [2]",
             "type": "vless",
             "server": "167.99.45.44",
             "server_port": 30402,
