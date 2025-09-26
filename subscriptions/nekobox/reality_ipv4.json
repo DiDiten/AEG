@@ -83,8 +83,10 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [51]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -175,6 +177,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [12]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -221,8 +225,10 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [51]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -313,6 +319,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [12]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -505,9 +513,82 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
             "type": "vless",
-            "server": "95.164.68.37",
+            "server": "91.107.138.53",
+            "server_port": 2053,
+            "uuid": "000f6064-0fad-44c1-a905-43b9a4d6641d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LphZQ1EEobIcJvvj71RVNZUUZJTCF6H6Tfsxlv_2fAU",
+                    "short_id": "e8e3a53fcc8fd877"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPN_KING_V2RAY"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "142.93.174.40",
+            "server_port": 443,
+            "uuid": "fbea2288-0b7e-4b65-ca16-c8c8d092d236",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "R5LMpPdC-_n4NdFEG_ZMMHA4xQpvNs9NfOzoBLMwiTs",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "198.244.142.174",
+            "server_port": 2096,
+            "uuid": "356eb520-a75a-46d5-872c-4b8e2bcf44ce",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BQnJtufPQ2Qhe4IlPuKSaP2hvk45P6uQ5aLBnn8OSV4",
+                    "short_id": "e7e7a803c645"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "85.239.60.43",
             "server_port": 8443,
             "uuid": "0c20e360-26cd-4212-9f85-e188d04d72ba",
             "flow": "xtls-rprx-vision",
@@ -522,31 +603,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
+                    "public_key": "qJ_x7_Fz3M4QdnRG8WcqVNpgsHbwWgs_KrdCqr4iclE",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
-            "type": "vless",
-            "server": "78.47.65.38",
-            "server_port": 12365,
-            "uuid": "afb5037d-6fed-4145-abbf-25e9ee7f5ff8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "URBzficmDa8s-CNq6Sp5WtGew_bfYb0LS07JN8Hkkwc",
-                    "short_id": "e4e5a8"
                 }
             }
         },
@@ -2700,6 +2758,52 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [12]",
+            "type": "vless",
+            "server": "113.192.61.19",
+            "server_port": 63976,
+            "uuid": "9772ecf2-6732-4bfb-a8b1-f48af577c76c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.iij.ad.jp",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iy5mreXY2_NrUiX0ARFkaT1arsuleQ_SJh0dpIQjP1s",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "46.101.130.142",
+            "server_port": 443,
+            "uuid": "f16ed3c7-c9f9-445f-9fa4-140629a22471",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "I8HJ0bo7s3HwSl156VTupoqMytoAVJtPqiovF0uA6Dk",
+                    "short_id": ""
                 }
             }
         },
