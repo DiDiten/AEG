@@ -99,12 +99,12 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [49]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [16]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [6]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [7]",
+                "🇺🇸 US | 🔓 VLESS | @ghalagyann [16]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [4]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [5]",
+                "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇺🇸 US | 🔒 VLESS | @grizzlyvpn [11]",
@@ -143,12 +143,12 @@
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [49]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [16]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [6]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [7]",
+                "🇺🇸 US | 🔓 VLESS | @ghalagyann [16]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [4]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [5]",
+                "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇺🇸 US | 🔒 VLESS | @grizzlyvpn [11]",
@@ -342,15 +342,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [49]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "959f7d3e-ff49-4f9f-a124-85d0929e4241",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
             "type": "vless",
             "server": "151.101.3.8",
@@ -383,30 +374,16 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann [16]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @ghalagyann [16]",
             "type": "vless",
-            "server": "62.60.231.215",
-            "server_port": 8880,
-            "uuid": "a83ca095-3f5b-4c75-be9b-71b660a8b952",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
-                    "short_id": "50d72d59cbec63"
-                }
-            }
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "959f7d3e-ff49-4f9f-a124-85d0929e4241",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [6]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [4]",
             "type": "vless",
             "server": "62.60.231.215",
             "server_port": 8880,
@@ -429,7 +406,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [7]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [5]",
             "type": "vless",
             "server": "62.60.231.215",
             "server_port": 8880,
@@ -450,6 +427,15 @@
                     "short_id": "50d72d59cbec63"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [6]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "959f7d3e-ff49-4f9f-a124-85d0929e4241",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [9]",

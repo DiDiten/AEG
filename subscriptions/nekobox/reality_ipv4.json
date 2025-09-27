@@ -83,7 +83,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [45]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [54]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [61]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -109,10 +110,10 @@
                 "🇺🇸 US | 🔒 VLESS | @frev2rayng [7]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [12]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann [14]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [16]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [6]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [7]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [4]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [5]",
                 "🇸🇪 SE | 🔒 VLESS | @goldenshiinevpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -218,7 +219,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [45]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [54]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [61]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -244,10 +246,10 @@
                 "🇺🇸 US | 🔒 VLESS | @frev2rayng [7]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [12]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann [14]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [16]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [6]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [7]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [4]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [5]",
                 "🇸🇪 SE | 🔒 VLESS | @goldenshiinevpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -499,9 +501,32 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [45]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [54]",
             "type": "vless",
-            "server": "85.158.110.62",
+            "server": "62.60.231.215",
+            "server_port": 8880,
+            "uuid": "58e87180-1714-4378-ab75-89b6b8603f60",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
+                    "short_id": "50d72d59cbec63"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [61]",
+            "type": "vless",
+            "server": "80.74.29.212",
             "server_port": 8443,
             "uuid": "5b2bd06e-5777-4362-ab21-1c5be4a242df",
             "flow": "xtls-rprx-vision",
@@ -516,7 +541,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
+                    "public_key": "rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA",
                     "short_id": ""
                 }
             }
@@ -1137,7 +1162,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann [14]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann [12]",
             "type": "vless",
             "server": "62.60.231.215",
             "server_port": 8880,
@@ -1160,7 +1185,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann [16]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann [14]",
             "type": "vless",
             "server": "62.60.231.215",
             "server_port": 8880,
@@ -1183,7 +1208,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [6]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [4]",
             "type": "vless",
             "server": "62.60.231.215",
             "server_port": 8880,
@@ -1206,7 +1231,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [7]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [5]",
             "type": "vless",
             "server": "62.60.231.215",
             "server_port": 8880,

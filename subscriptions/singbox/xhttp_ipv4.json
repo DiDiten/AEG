@@ -92,15 +92,19 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [54]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [56]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [12]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann [14]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [16]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [6]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [7]",
+                "🇺🇸 US | 🔓 VLESS | @ghalagyann [16]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [4]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [5]",
+                "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [4]",
@@ -168,15 +172,19 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [54]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [56]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [12]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann [14]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [16]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [6]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [7]",
+                "🇺🇸 US | 🔓 VLESS | @ghalagyann [16]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [4]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [5]",
+                "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [4]",
@@ -320,6 +328,38 @@
             }
         },
         {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "62.60.231.215",
+            "server_port": 8880,
+            "uuid": "58e87180-1714-4378-ab75-89b6b8603f60",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
+                    "short_id": "50d72d59cbec63"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "959f7d3e-ff49-4f9f-a124-85d0929e4241",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
             "type": "vless",
             "server": "157.180.81.19",
@@ -393,10 +433,65 @@
             }
         },
         {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann [12]",
+            "type": "vless",
+            "server": "62.60.231.215",
+            "server_port": 8880,
+            "uuid": "b7aaf21d-b7b4-4d28-bf4b-0530903f1cb6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
+                    "short_id": "50d72d59cbec63"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann [14]",
             "type": "vless",
             "server": "62.60.231.215",
             "server_port": 8880,
+            "uuid": "a83ca095-3f5b-4c75-be9b-71b660a8b952",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
+                    "short_id": "50d72d59cbec63"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @ghalagyann [16]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "959f7d3e-ff49-4f9f-a124-85d0929e4241",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [4]",
+            "type": "vless",
+            "server": "62.60.231.215",
+            "server_port": 8880,
             "uuid": "b7aaf21d-b7b4-4d28-bf4b-0530903f1cb6",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
@@ -416,7 +511,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann [16]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [5]",
             "type": "vless",
             "server": "62.60.231.215",
             "server_port": 8880,
@@ -439,50 +534,13 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [6]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [6]",
             "type": "vless",
-            "server": "62.60.231.215",
-            "server_port": 8880,
-            "uuid": "b7aaf21d-b7b4-4d28-bf4b-0530903f1cb6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
-                    "short_id": "50d72d59cbec63"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [7]",
-            "type": "vless",
-            "server": "62.60.231.215",
-            "server_port": 8880,
-            "uuid": "a83ca095-3f5b-4c75-be9b-71b660a8b952",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
-                    "short_id": "50d72d59cbec63"
-                }
-            }
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "959f7d3e-ff49-4f9f-a124-85d0929e4241",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
