@@ -95,9 +95,9 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇸🇬 SG | 🔒 VLESS | @config_proxy [49]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [50]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [54]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [45]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [48]",
+                "🇮🇷 IR | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -157,7 +157,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [15]",
                 "🇩🇪 DE | 🔒 VLESS | @melov2ray [14]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇹🇷 TR | 🔒 VLESS | @mowjproxy [4]",
+                "🇹🇷 TR | 🔒 VLESS | @mowjproxy [3]",
                 "🇩🇪 DE | 🔒 VLESS | @mpproxy [9]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [10]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
@@ -166,7 +166,6 @@
                 "🇦🇱 AL | 🔒 VLESS | @netmellianti [2]",
                 "🇳🇱 NL | 🔒 VLESS | @netmellianti [12]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
-                "🇮🇷 IR | 🔒 VLESS | @orange_vpns [3]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [1]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [5]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
@@ -233,9 +232,9 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇸🇬 SG | 🔒 VLESS | @config_proxy [49]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [50]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [54]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [45]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [48]",
+                "🇮🇷 IR | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -295,7 +294,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [15]",
                 "🇩🇪 DE | 🔒 VLESS | @melov2ray [14]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇹🇷 TR | 🔒 VLESS | @mowjproxy [4]",
+                "🇹🇷 TR | 🔒 VLESS | @mowjproxy [3]",
                 "🇩🇪 DE | 🔒 VLESS | @mpproxy [9]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [10]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
@@ -304,7 +303,6 @@
                 "🇦🇱 AL | 🔒 VLESS | @netmellianti [2]",
                 "🇳🇱 NL | 🔒 VLESS | @netmellianti [12]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
-                "🇮🇷 IR | 🔒 VLESS | @orange_vpns [3]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [1]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [5]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
@@ -513,11 +511,34 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [49]",
+            "tag": "🇨🇭 CH | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "83.228.210.39",
+            "server_port": 443,
+            "uuid": "22d29719-4510-46f6-a26b-61fbb6963fcc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.samsung.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XSIaUifuSpo2bF-eYsY5fgTG3wzo09SY-oGn73zJPF0",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [48]",
             "type": "vless",
             "server": "91.242.241.45",
             "server_port": 8443,
-            "uuid": "ef0fc82d-95e1-4bab-b591-ff5cad6f7776",
+            "uuid": "dded386e-260d-442f-a1da-c6c4dae339a5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -536,16 +557,16 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [50]",
+            "tag": "🇮🇷 IR | 🔒 VLESS | @config_proxy [57]",
             "type": "vless",
-            "server": "103.249.133.79",
-            "server_port": 8443,
-            "uuid": "2aca286e-768e-47de-9e8c-67aac8057219",
+            "server": "193.151.135.21",
+            "server_port": 44443,
+            "uuid": "53fff6cc-b4ec-43e8-ade5-e0c42972fc33",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ubuntu.com",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -553,35 +574,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "RjMNFvczs_PijF22uARc-WzvtBlbOUKVpYZB0zjbXEA",
-                    "short_id": "858ef705a1"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=2056"
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [54]",
-            "type": "vless",
-            "server": "51.210.181.3",
-            "server_port": 443,
-            "uuid": "7f75f70e-8d14-403b-9ec4-cad4b0836b8e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "HTmgtYAdc4266sqGG1zMSYcsMPJfWJfxgaJEKCMiFww",
-                    "short_id": "f8f87a"
+                    "public_key": "XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ",
+                    "short_id": ""
                 }
             }
         },
@@ -2006,7 +2000,7 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @mowjproxy [4]",
+            "tag": "🇹🇷 TR | 🔒 VLESS | @mowjproxy [3]",
             "type": "vless",
             "server": "188.132.183.15",
             "server_port": 2560,
@@ -2214,29 +2208,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "7034vless"
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @orange_vpns [3]",
-            "type": "vless",
-            "server": "193.151.135.21",
-            "server_port": 44443,
-            "uuid": "53fff6cc-b4ec-43e8-ade5-e0c42972fc33",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ",
-                    "short_id": ""
-                }
             }
         },
         {
