@@ -91,7 +91,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -117,7 +116,7 @@
                 "🚩 CF | 🔓 VLESS | @flyv2ray [10]",
                 "🚩 CF | 🔒 VLESS | @free1_vpn [8]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
-                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
+                "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -182,6 +181,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
+                "🚩 CF | 🔒 VLESS | @mowjproxy [2]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -276,7 +276,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [19]",
+                "🚩 CF | 🔒 VLESS | @vmesc [19]",
                 "🇺🇸 US | 🔓 VLESS | @vmesskhodam [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [9]",
@@ -316,7 +316,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -342,7 +341,7 @@
                 "🚩 CF | 🔓 VLESS | @flyv2ray [10]",
                 "🚩 CF | 🔒 VLESS | @free1_vpn [8]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
-                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
+                "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -407,6 +406,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
+                "🚩 CF | 🔒 VLESS | @mowjproxy [2]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -501,7 +501,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [19]",
+                "🚩 CF | 🔒 VLESS | @vmesc [19]",
                 "🇺🇸 US | 🔓 VLESS | @vmesskhodam [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [9]",
@@ -791,31 +791,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [48]",
-            "type": "vless",
-            "server": "google.sosorg.nyc.mn",
-            "server_port": 443,
-            "uuid": "0199889f-d499-8cad-99f7-7507ed9a819b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "bpg.307986.dpdns.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/snippets?ip=ProxyIP.Oracle.cmliussss.net",
-                "headers": {
-                    "Host": "bpg.307986.dpdns.org"
-                }
             }
         },
         {
@@ -1275,7 +1250,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
+            "tag": "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
@@ -2313,6 +2288,31 @@
             "uuid": "d0f30d61-4a72-4640-8267-24f4afeb1b37",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @mowjproxy [2]",
+            "type": "vless",
+            "server": "ovhwuxian.pai50288.uk",
+            "server_port": 8443,
+            "uuid": "57ba2ab1-a283-42eb-82ee-dc3561a805b8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ovhwuxian.pai50288.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/57ba2ab1",
+                "headers": {
+                    "Host": "ovhwuxian.pai50288.uk"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
@@ -3998,7 +3998,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [19]",
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [19]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
