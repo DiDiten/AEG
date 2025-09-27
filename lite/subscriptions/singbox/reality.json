@@ -129,7 +129,9 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [45]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [48]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [49]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [50]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -212,7 +214,9 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [45]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [48]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [49]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [50]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -1237,16 +1241,62 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [45]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [48]",
             "type": "vless",
-            "server": "103.249.133.79",
+            "server": "46.62.152.219",
             "server_port": 8443,
-            "uuid": "de8e38ba-eb6f-4ecf-a419-d3abd23b7c2f",
+            "uuid": "1b5f6283-4872-4048-bb9b-308bc305cb0c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ubu",
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [49]",
+            "type": "vless",
+            "server": "91.98.22.20",
+            "server_port": 8443,
+            "uuid": "1b5f6283-4872-4048-bb9b-308bc305cb0c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "194.110.246.61",
+            "server_port": 8443,
+            "uuid": "4b1c3b24-ae03-4559-98fb-3ef706359cd5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1254,13 +1304,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "NJ0y-ilWJ7WhFg8KUBXnCfM4tCvMSkpFb_DQX9TAWVM",
+                    "public_key": "okKUcvjT68odjfLWEZ47XopjP3AqHfbC4jsxfN2-i30",
                     "short_id": ""
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=2056"
             }
         },
         {
