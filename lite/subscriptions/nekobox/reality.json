@@ -108,13 +108,14 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
-                "🇳🇱 NL | 🔒 VLESS | @v2rayopen [12]",
+                "🇳🇱 NL | 🔒 VLESS | @v2rayopen [11]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [49]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -145,7 +146,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
-                "🇮🇹 IT | 🔒 VLESS | @v2rayopen [11]",
+                "🇮🇹 IT | 🔒 VLESS | @v2rayopen [10]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [6]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -191,13 +192,14 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
-                "🇳🇱 NL | 🔒 VLESS | @v2rayopen [12]",
+                "🇳🇱 NL | 🔒 VLESS | @v2rayopen [11]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [49]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -228,7 +230,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
-                "🇮🇹 IT | 🔒 VLESS | @v2rayopen [11]",
+                "🇮🇹 IT | 🔒 VLESS | @v2rayopen [10]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [6]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -1010,7 +1012,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayopen [12]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayopen [11]",
             "type": "vless",
             "server": "net-server1-panyous.tap30.sbs",
             "server_port": 2560,
@@ -1179,6 +1181,29 @@
                     "enabled": true,
                     "public_key": "277HDYaNIvLYS9CMSr1CbkcTaahPEUCymW_0Ad17p2M",
                     "short_id": "f2"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [49]",
+            "type": "vless",
+            "server": "185.239.48.109",
+            "server_port": 8443,
+            "uuid": "ed8500f7-cabd-43b4-88de-45e2268546f3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wPXyRAB1bVkaTGgO5cHEylVAV8SscUQUPn_ggzx6Vxk",
+                    "short_id": ""
                 }
             }
         },
@@ -1893,7 +1918,7 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @v2rayopen [11]",
+            "tag": "🇮🇹 IT | 🔒 VLESS | @v2rayopen [10]",
             "type": "vless",
             "server": "147.45.51.160",
             "server_port": 443,
