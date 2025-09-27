@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "❔ XX | 🔒 VLESS | @config_proxy [40]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -105,6 +106,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "❔ XX | 🔒 VLESS | @config_proxy [40]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -206,6 +208,31 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "[2606:4700:3036:6ed4:e1ed:ae00:3c36:e683]",
+            "server_port": 443,
+            "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vless.keepfuck.me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/usr/local/bin:/tmp/home/.pyenv/plugins/pyenv-virtualenv/shims:/tmp/home/.pyenv/shims:/tmp/home/.pyenv/bin:/tmp/home/.local/state/fnm_multishells/5_1758771403158/bin:/tmp/home/.local/share/fnm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "headers": {
+                    "Host": "vless.keepfuck.me"
                 }
             }
         },

@@ -80,7 +80,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [5]",
@@ -146,9 +145,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [56]",
                 "🇳🇱 NL | 🔒 VLESS | @vaynora [1]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [5]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [5]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [8]"
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [5]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -159,7 +156,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [5]",
@@ -225,9 +221,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [56]",
                 "🇳🇱 NL | 🔒 VLESS | @vaynora [1]",
-                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [5]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [5]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [8]"
+                "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [5]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -314,29 +308,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
-            "type": "vless",
-            "server": "138.199.168.187",
-            "server_port": 28153,
-            "uuid": "MdVpnSec",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wIyC9CuOB33Hx1HbHnx_0JZXypmEink7icN0rWmzTlE",
-                    "short_id": "b6f9"
                 }
             }
         },
@@ -1524,24 +1495,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [5]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "e237225e-bf49-48bb-fa6f-e12113c6429f",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [8]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "e2180897-7090-4cfd-aec5-1c2476933f5d",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {

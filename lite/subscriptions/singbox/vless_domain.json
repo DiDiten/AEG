@@ -127,7 +127,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [8]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [10]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
-                "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
+                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -300,7 +300,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
-                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [4]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -352,7 +352,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [8]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [10]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
-                "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
+                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -525,7 +525,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
-                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [4]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -1233,7 +1233,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
@@ -4163,13 +4163,27 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [12]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [4]",
             "type": "vless",
-            "server": "sangarshakan.vip-sangar.sbs",
-            "server_port": 49881,
-            "uuid": "0559a3a8-9102-4cde-91cd-af091bbfb875",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "2margate.superip.ir",
+            "server_port": 3041,
+            "uuid": "6a68b588-a8c5-462b-8637-3cfe886a9add",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw",
+                    "short_id": "4c14"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @wbrovers [1]",
