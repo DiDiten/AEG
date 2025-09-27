@@ -103,6 +103,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [45]",
+                "🇨🇭 CH | 🔓 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -124,11 +126,11 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [27]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [11]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [10]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [10]",
                 "🚩 CF | 🔒 VLESS | @free1_vpn [8]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
-                "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
+                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -288,7 +290,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔒 VLESS | @vmesc [19]",
+                "🇺🇸 US | 🔒 VLESS | @vmesc [19]",
                 "🇺🇸 US | 🔓 VLESS | @vmesskhodam [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [9]",
@@ -328,6 +330,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [45]",
+                "🇨🇭 CH | 🔓 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -349,11 +353,11 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [27]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [11]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [10]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [10]",
                 "🚩 CF | 🔒 VLESS | @free1_vpn [8]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
-                "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
+                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -513,7 +517,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔒 VLESS | @vmesc [19]",
+                "🇺🇸 US | 🔒 VLESS | @vmesc [19]",
                 "🇺🇸 US | 🔓 VLESS | @vmesskhodam [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [9]",
@@ -800,6 +804,42 @@
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
             }
+        },
+        {
+            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "ftp7.tehran-park.com",
+            "server_port": 1210,
+            "uuid": "97132444-0381-4b8e-b445-73b76f8d187a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp7.tehran-park.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Vd0sQC88KWjeYFf9DoFF58X_sVVA2ixgDajUc6fTNgI",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_configCANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--"
+            }
+        },
+        {
+            "tag": "🇨🇭 CH | 🔓 VLESS | @config_proxy [47]",
+            "type": "vless",
+            "server": "dl1.tehran-park.com",
+            "server_port": 1001,
+            "uuid": "97132444-0381-4b8e-b445-73b76f8d187a",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -1167,7 +1207,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [11]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [10]",
             "type": "vless",
             "server": "order.dissertationhelpspecialist.com",
             "server_port": 443,
@@ -1258,7 +1298,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
@@ -4006,7 +4046,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [19]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [19]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
