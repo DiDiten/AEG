@@ -128,6 +128,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -144,7 +145,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇹🇷 TR | 🔒 VLESS | @mowjproxy [7]",
+                "🇹🇷 TR | 🔒 VLESS | @mowjproxy [5]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
@@ -212,6 +213,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -228,7 +230,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇹🇷 TR | 🔒 VLESS | @mowjproxy [7]",
+                "🇹🇷 TR | 🔒 VLESS | @mowjproxy [5]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [12]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
@@ -1212,6 +1214,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+            "type": "vless",
+            "server": "91.98.133.38",
+            "server_port": 443,
+            "uuid": "ba4c59a5-2e7d-4dc4-c115-27615c978e66",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IbRZfIHJGx6UojlE1uoHJ-eBAXF92z5ST0DrQA7-mDw",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -1592,7 +1617,7 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @mowjproxy [7]",
+            "tag": "🇹🇷 TR | 🔒 VLESS | @mowjproxy [5]",
             "type": "vless",
             "server": "188.132.183.15",
             "server_port": 2560,

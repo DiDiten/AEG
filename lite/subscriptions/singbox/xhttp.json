@@ -95,12 +95,13 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [8]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [16]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [4]",
@@ -140,12 +141,13 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [8]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [16]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [4]",
@@ -299,7 +301,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
@@ -344,7 +346,30 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [8]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+            "type": "vless",
+            "server": "91.98.133.38",
+            "server_port": 443,
+            "uuid": "ba4c59a5-2e7d-4dc4-c115-27615c978e66",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IbRZfIHJGx6UojlE1uoHJ-eBAXF92z5ST0DrQA7-mDw",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -353,7 +378,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [10]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [8]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
