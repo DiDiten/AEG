@@ -84,8 +84,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
+                "❔ XX | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [3]",
@@ -134,6 +136,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [144]",
                 "❔ XX | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -199,8 +202,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
+                "❔ XX | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [3]",
@@ -249,6 +254,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [144]",
                 "❔ XX | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -490,6 +496,52 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "germany1.abolfazl.ru",
+            "server_port": 12000,
+            "uuid": "b695a9d1-4c91-46a7-adae-09d80a44b6ed",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "B06U1TZdmV9qKd0X6a4FQIN1ggNTBIp5Dh1DNsSdsnk",
+                    "short_id": "880add42e8262e71r♡ya"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [64]",
+            "type": "vless",
+            "server": "v05.vxlimir.com",
+            "server_port": 1370,
+            "uuid": "f0050c31-06b1-4ebd-a10c-fe1e73632067",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw",
+                    "short_id": "e1afb93bfe75a34b"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -513,7 +565,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
             "type": "vless",
             "server": "test.barayekhudam.ir",
             "server_port": 59697,
@@ -1727,6 +1779,29 @@
                     "enabled": true,
                     "public_key": "blF2p2FE_fexB29-tmU9HfVs6TwqsSQVxWAHIiP2KTk",
                     "short_id": "b28a0dd8"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [144]",
+            "type": "vless",
+            "server": "germany1.abolfazl.ru",
+            "server_port": 12000,
+            "uuid": "b695a9d1-4c91-46a7-adae-09d80a44b6ed",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "B06U1TZdmV9qKd0X6a4FQIN1ggNTBIp5Dh1DNsSdsnk",
+                    "short_id": "880add42e8262e71"
                 }
             }
         },
