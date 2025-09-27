@@ -23,9 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇪🇪 EE | 🔒 VLESS | @config_proxy [65]","type":"vless","server":"38.180.230.78","port":8766,"uuid":"9e43619a-5067-42f3-a82e-bed81703a771","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","reality-opts":{"public-key":"EwoQCKDlHuB925c6rz8488SfSUYSMMZFcR1T6PILWWM","short-id":"6bfe"}}
-  - {"name":"🇮🇱 IL | 🔒 VLESS | @config_proxy [66]","type":"vless","server":"20.217.81.167","port":443,"uuid":"0e8a6896-ad90-4a3b-89a3-77d64aa409e2","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"i2pd.website","flow":"xtls-rprx-vision","reality-opts":{"public-key":"YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE","short-id":"55e6af1a35e64a98"}}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @config_proxy [67]","type":"vless","server":"188.245.222.196","port":2560,"uuid":"7da05388-1749-417d-90f3-e7d980565471","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"cloudflare.com","reality-opts":{"public-key":"2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U","short-id":"e41865e506628f44"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @configasli [6]","type":"vless","server":"78.46.162.62","port":10878,"uuid":"8a5db114-7ad1-4922-aca4-b079a79f4f04","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","reality-opts":{"public-key":"xQvsy1P86UklsO5dbNDjaaUiQK3A9PHpM6rirHWSSDw","short-id":"812db24b"}}
   - {"name":"🇫🇷 FR | 🔒 VLESS | @configasli [7]","type":"vless","server":"172.232.33.18","port":443,"uuid":"fe48773b-df06-409a-bc61-117cd8fb1eb7","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ftp.debian.org","reality-opts":{"public-key":"PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o","short-id":"b5ecd44d"}}
   - {"name":"🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]","type":"vless","server":"5.181.21.152","port":24170,"uuid":"6a8ee307-a1fb-4801-92e2-86253ecdd88d","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","reality-opts":{"public-key":"rhEEZAZBX-seWl5f0JmyE19Iwxb5zTNH5yT-FhaS8Hw","short-id":"200f99e321"}}
@@ -72,9 +69,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇪🇪 EE | 🔒 VLESS | @config_proxy [65]'
-      - '🇮🇱 IL | 🔒 VLESS | @config_proxy [66]'
-      - '🇩🇪 DE | 🔒 VLESS | @config_proxy [67]'
       - '🇩🇪 DE | 🔒 VLESS | @configasli [6]'
       - '🇫🇷 FR | 🔒 VLESS | @configasli [7]'
       - '🇦🇹 AT | 🔒 VLESS | @freeconfigsplus [14]'
