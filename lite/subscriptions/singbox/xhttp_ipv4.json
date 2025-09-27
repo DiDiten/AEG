@@ -92,6 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [54]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [16]",
@@ -129,6 +131,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [54]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann [16]",
@@ -242,11 +246,43 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "51.210.181.3",
+            "server_port": 443,
+            "uuid": "7f75f70e-8d14-403b-9ec4-cad4b0836b8e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HTmgtYAdc4266sqGG1zMSYcsMPJfWJfxgaJEKCMiFww",
+                    "short_id": "f8f87a"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "197082ac-e606-4746-ac66-2a2a7614b839",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "959f7d3e-ff49-4f9f-a124-85d0929e4241",
             "flow": "",
             "packet_encoding": "xudp"
         },
