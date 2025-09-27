@@ -84,7 +84,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -104,6 +104,7 @@
                 "❔ XX | 🔒 VLESS | @evay_vpn [23]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [1]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [4]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [8]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [15]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -118,7 +119,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [10]",
+                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [8]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
                 "❔ XX | 🔒 VLESS | @mtpv2ray [1]",
                 "🇹🇷 TR | 🔒 VLESS | @netmellianti [8]",
@@ -199,7 +200,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -219,6 +220,7 @@
                 "❔ XX | 🔒 VLESS | @evay_vpn [23]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [1]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [4]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [8]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [15]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -233,7 +235,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [10]",
+                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [8]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
                 "❔ XX | 🔒 VLESS | @mtpv2ray [1]",
                 "🇹🇷 TR | 🔒 VLESS | @netmellianti [8]",
@@ -490,26 +492,30 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
+            "tag": "🇨🇭 CH | 🔒 VLESS | @config_proxy [56]",
             "type": "vless",
-            "server": "ger-server1-panyous.tap30.sbs",
-            "server_port": 2560,
-            "uuid": "7da05388-1749-417d-90f3-e7d980565471",
+            "server": "ftp8.tehran-park.com",
+            "server_port": 2030,
+            "uuid": "ab143703-0f12-416a-b79c-0a08bc8ca7e8",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cloudflare.com",
+                "server_name": "worpress.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
-                    "short_id": "e41865e506628f44"
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": "7fe29733"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config"
             }
         },
         {
@@ -978,6 +984,33 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [8]",
+            "type": "vless",
+            "server": "services.dissertationhelpspecialist.com",
+            "server_port": 443,
+            "uuid": "dcd5e21f-eebd-4fc7-831e-d29e12323d0a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZV4e1OJFc5P1PH8pi6YN3mVzZ0G8WUOCNJZ6IibvT3Y",
+                    "short_id": "a266fd8b85"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice"
+            }
+        },
+        {
             "tag": "🇬🇧 GB | 🔒 VLESS | @filterk0sh [15]",
             "type": "vless",
             "server": "eng14.netliberated.org",
@@ -1339,7 +1372,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [10]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [8]",
             "type": "vless",
             "server": "Ger-server2-panyous.tap30.sbs",
             "server_port": 2560,
