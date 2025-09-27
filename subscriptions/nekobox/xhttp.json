@@ -101,7 +101,7 @@
                 "❔ XX | 🔒 VLESS | @evay_vpn [23]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [10]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [15]",
-                "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
+                "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [5]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [6]",
                 "❔ XX | 🔓 VLESS | @orange_vpns [4]",
@@ -116,6 +116,7 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [6]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
@@ -211,7 +212,7 @@
                 "❔ XX | 🔒 VLESS | @evay_vpn [23]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [10]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [15]",
-                "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
+                "❔ XX | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [5]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [6]",
                 "❔ XX | 🔓 VLESS | @orange_vpns [4]",
@@ -226,6 +227,7 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [6]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
@@ -695,7 +697,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
+            "tag": "❔ XX | 🔓 VLESS | @megavpn_link [1]",
             "type": "vless",
             "server": "fast.peace.lemoex.blog",
             "server_port": 80,
@@ -905,6 +907,29 @@
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "159.89.0.85",
+            "server_port": 443,
+            "uuid": "0eb68ef9-8de0-4005-f5db-47ae258abf8c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rlD4zep_7ALz1OJaLu-gn7-vTx2v63Mgf8QDokoK8Ck",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",

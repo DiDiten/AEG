@@ -95,7 +95,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [38]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [53]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -188,6 +189,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
+                "🇫🇷 FR | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -230,7 +232,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [38]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [53]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -323,6 +326,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
+                "🇫🇷 FR | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -507,11 +511,11 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [38]",
+            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [53]",
             "type": "vless",
-            "server": "103.253.43.210",
+            "server": "185.239.48.109",
             "server_port": 8443,
-            "uuid": "f19ae35f-a729-41b5-8701-d8ee5ae935eb",
+            "uuid": "483cc2a8-fb5e-4e83-89bd-09fbc94154f2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -524,7 +528,30 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "5hKDqL2dBu7jbCfC_xW5omNEGUzPme8qF4mJOrXuHGY",
+                    "public_key": "wPXyRAB1bVkaTGgO5cHEylVAV8SscUQUPn_ggzx6Vxk",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "159.89.0.85",
+            "server_port": 443,
+            "uuid": "0eb68ef9-8de0-4005-f5db-47ae258abf8c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rlD4zep_7ALz1OJaLu-gn7-vTx2v63Mgf8QDokoK8Ck",
                     "short_id": ""
                 }
             }
@@ -2726,6 +2753,33 @@
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "103.249.133.79",
+            "server_port": 8443,
+            "uuid": "169d94bb-e490-41e5-9cb1-5716f3d27d66",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ubuntu.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5BbAOuOXK2QXYEWq-Yy7f2wcbYgq5fKRodJsQ7Mn0lk",
+                    "short_id": "858ef705a1"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=2056"
             }
         },
         {

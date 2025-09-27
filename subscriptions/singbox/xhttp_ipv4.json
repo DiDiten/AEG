@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
@@ -166,6 +167,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [24]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
@@ -312,6 +314,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "159.89.0.85",
+            "server_port": 443,
+            "uuid": "0eb68ef9-8de0-4005-f5db-47ae258abf8c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rlD4zep_7ALz1OJaLu-gn7-vTx2v63Mgf8QDokoK8Ck",
+                    "short_id": ""
                 }
             }
         },
