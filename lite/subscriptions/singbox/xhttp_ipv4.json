@@ -103,6 +103,8 @@
                 "🇺🇸 US | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇩🇪 DE | 🔓 VLESS | @manstervpn [75]",
+                "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [18]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [18]",
@@ -139,6 +141,8 @@
                 "🇺🇸 US | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇩🇪 DE | 🔓 VLESS | @manstervpn [75]",
+                "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [18]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [18]",
@@ -433,6 +437,33 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "0f608156-ecc4-4ee0-8cd4-e5e6d1c891ab",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @manstervpn [75]",
+            "type": "vless",
+            "server": "91.99.91.136",
+            "server_port": 443,
+            "uuid": "00134d22-e7bc-4690-860a-05d2be0f6f06",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.91.136",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [18]",
+            "type": "vless",
+            "server": "151.101.195.8",
+            "server_port": 80,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp"
         },

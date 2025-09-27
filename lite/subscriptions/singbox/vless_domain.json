@@ -103,7 +103,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [54]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [49]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -194,7 +195,6 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @mowjproxy [1]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -329,7 +329,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [54]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [49]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -420,7 +421,6 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @mowjproxy [1]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -804,11 +804,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [54]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [49]",
             "type": "vless",
-            "server": "live.theworldwidewolf.com",
+            "server": "test.fast.hosting-ip.com",
             "server_port": 80,
-            "uuid": "17475116-8c39-408f-ad9d-1f57c50f0edc",
+            "uuid": "158dd22f-e10e-4905-930a-6d32a133c2dc",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -2307,31 +2316,6 @@
             "uuid": "d0f30d61-4a72-4640-8267-24f4afeb1b37",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @mowjproxy [1]",
-            "type": "vless",
-            "server": "ovhwuxian.pai50288.uk",
-            "server_port": 8443,
-            "uuid": "57ba2ab1-a283-42eb-82ee-dc3561a805b8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ovhwuxian.pai50288.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/57ba2ab1",
-                "headers": {
-                    "Host": "ovhwuxian.pai50288.uk"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
