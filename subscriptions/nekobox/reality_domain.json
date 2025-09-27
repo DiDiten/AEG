@@ -84,6 +84,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [62]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [65]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -101,8 +103,8 @@
                 "❔ XX | 🔒 VLESS | @evay_vpn [19]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [21]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [23]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [2]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [1]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [4]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [15]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -198,6 +200,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [62]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [65]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -215,8 +219,8 @@
                 "❔ XX | 🔒 VLESS | @evay_vpn [19]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [21]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [23]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [2]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [1]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [4]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [15]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -485,6 +489,56 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [62]",
+            "type": "vless",
+            "server": "yofree.top",
+            "server_port": 443,
+            "uuid": "0562d218-9bbb-11f0-a989-52540015866d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yofree.top",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AWyicEDYi7KB3qzo8OEvEd1HK0gZhCHAENBd_buyhQk",
+                    "short_id": "fa2f"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [65]",
+            "type": "vless",
+            "server": "ryib8kkk9fba.zozodogg.com",
+            "server_port": 2053,
+            "uuid": "47197f89-2771-4fa3-a963-98703d04e489",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LphZQ1EEobIcJvvj71RVNZUUZJTCF6H6Tfsxlv_2fAU",
+                    "short_id": "e8e3a53fcc8fd877"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY@VPN_KING_V2RAY"
             }
         },
         {
@@ -899,7 +953,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [2]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [1]",
             "type": "vless",
             "server": "step.dissertationhelpspecialist.com",
             "server_port": 443,
@@ -926,7 +980,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [4]",
             "type": "vless",
             "server": "order.dissertationhelpspecialist.com",
             "server_port": 443,
