@@ -103,6 +103,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [42]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -328,6 +330,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [42]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -799,6 +803,56 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "free.senu-zer.online",
+            "server_port": 443,
+            "uuid": "e1ad7a5c-e5fd-45b7-a3ff-92e3facb9043",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "i3.ytimg.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/SenuXz",
+                "headers": {
+                    "Host": "i3.ytimg.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "baidu.sosorg.nyc.mn",
+            "server_port": 443,
+            "uuid": "01998eee-009b-fad3-17c1-5d0999b53f54",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "msttes.citess.ggff.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/snippets?ip=kr.tp50000.netlib.re:50000",
+                "headers": {
+                    "Host": "msttes.citess.ggff.net"
+                }
             }
         },
         {

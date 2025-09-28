@@ -106,6 +106,13 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [34]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [39]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [40]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [41]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [42]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -540,9 +547,9 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "❔ XX | 🔒 VLESS | @v2ang [3]",
-                "🇮🇷 IR | 🔒 VLESS | @v2aryng_vpn [2]",
-                "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [4]",
-                "❔ XX | 🔓 VLESS | @v2aryng_vpn [5]",
+                "🇮🇷 IR | 🔒 VLESS | @v2aryng_vpn [1]",
+                "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [3]",
+                "❔ XX | 🔓 VLESS | @v2aryng_vpn [4]",
                 "❔ XX | 🔒 VLESS | @v2logy [1]",
                 "🚩 CF | 🔓 VLESS | @v2logy [6]",
                 "🚩 CF | 🔓 VLESS | @v2logy [7]",
@@ -743,6 +750,13 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [34]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [39]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [40]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [41]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [42]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1177,9 +1191,9 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [13]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [14]",
                 "❔ XX | 🔒 VLESS | @v2ang [3]",
-                "🇮🇷 IR | 🔒 VLESS | @v2aryng_vpn [2]",
-                "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [4]",
-                "❔ XX | 🔓 VLESS | @v2aryng_vpn [5]",
+                "🇮🇷 IR | 🔒 VLESS | @v2aryng_vpn [1]",
+                "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [3]",
+                "❔ XX | 🔓 VLESS | @v2aryng_vpn [4]",
                 "❔ XX | 🔒 VLESS | @v2logy [1]",
                 "🚩 CF | 🔓 VLESS | @v2logy [6]",
                 "🚩 CF | 🔓 VLESS | @v2logy [7]",
@@ -1901,6 +1915,177 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [34]",
+            "type": "vless",
+            "server": "usa.aliusvpn.ru",
+            "server_port": 8443,
+            "uuid": "60fc8c3b-1bfb-498d-851d-6f7ffcbbeefd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg",
+                    "short_id": "2356d1ae4b"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "yofree.top",
+            "server_port": 443,
+            "uuid": "5e250d7e-9c30-11f0-b6d6-52540015866d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yofree.top",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AWyicEDYi7KB3qzo8OEvEd1HK0gZhCHAENBd_buyhQk",
+                    "short_id": "fa2f"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "free.senu-zer.online",
+            "server_port": 443,
+            "uuid": "e1ad7a5c-e5fd-45b7-a3ff-92e3facb9043",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "aka.ms",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/SenuXz",
+                "headers": {
+                    "Host": "aka.ms"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "free.senu-zer.online",
+            "server_port": 443,
+            "uuid": "e1ad7a5c-e5fd-45b7-a3ff-92e3facb9043",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "m.zoom.us",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/SenuXz",
+                "headers": {
+                    "Host": "m.zoom.us"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "free.senu-zer.online",
+            "server_port": 443,
+            "uuid": "e1ad7a5c-e5fd-45b7-a3ff-92e3facb9043",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.cloudflare.steamstatic.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/SenuXz",
+                "headers": {
+                    "Host": "store.cloudflare.steamstatic.com"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "free.senu-zer.online",
+            "server_port": 443,
+            "uuid": "e1ad7a5c-e5fd-45b7-a3ff-92e3facb9043",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "i3.ytimg.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/SenuXz",
+                "headers": {
+                    "Host": "i3.ytimg.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "baidu.sosorg.nyc.mn",
+            "server_port": 443,
+            "uuid": "01998eee-009b-fad3-17c1-5d0999b53f54",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "msttes.citess.ggff.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/snippets?ip=kr.tp50000.netlib.re:50000",
+                "headers": {
+                    "Host": "msttes.citess.ggff.net"
+                }
             }
         },
         {
@@ -9403,7 +9588,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @v2aryng_vpn [2]",
+            "tag": "🇮🇷 IR | 🔒 VLESS | @v2aryng_vpn [1]",
             "type": "vless",
             "server": "hybrid.arvancloud.online",
             "server_port": 44443,
@@ -9426,7 +9611,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [4]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2aryng_vpn [3]",
             "type": "vless",
             "server": "m10a.vip784.com",
             "server_port": 33801,
@@ -9435,7 +9620,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @v2aryng_vpn [5]",
+            "tag": "❔ XX | 🔓 VLESS | @v2aryng_vpn [4]",
             "type": "vless",
             "server": "sss70053.tas-bazi.com",
             "server_port": 443,

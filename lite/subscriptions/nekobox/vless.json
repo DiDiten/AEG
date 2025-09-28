@@ -91,6 +91,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [42]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -301,9 +303,7 @@
                 "🇮🇹 IT | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [42]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+                "🇫🇮 FI | 🔓 VLESS | @config_proxy [44]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -349,6 +349,8 @@
                 "🇺🇸 US | 🔒 VLESS | @grizzlyvpn [11]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "❔ XX | 🔒 VLESS | @hope_net [19]",
+                "🚩 CF | 🔓 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
@@ -509,6 +511,8 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [42]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -719,9 +723,7 @@
                 "🇮🇹 IT | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [42]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+                "🇫🇮 FI | 🔓 VLESS | @config_proxy [44]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -767,6 +769,8 @@
                 "🇺🇸 US | 🔒 VLESS | @grizzlyvpn [11]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "❔ XX | 🔒 VLESS | @hope_net [19]",
+                "🚩 CF | 🔓 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
@@ -1177,6 +1181,56 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "free.senu-zer.online",
+            "server_port": 443,
+            "uuid": "e1ad7a5c-e5fd-45b7-a3ff-92e3facb9043",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "i3.ytimg.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/SenuXz",
+                "headers": {
+                    "Host": "i3.ytimg.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "baidu.sosorg.nyc.mn",
+            "server_port": 443,
+            "uuid": "01998eee-009b-fad3-17c1-5d0999b53f54",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "msttes.citess.ggff.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/snippets?ip=kr.tp50000.netlib.re:50000",
+                "headers": {
+                    "Host": "msttes.citess.ggff.net"
+                }
             }
         },
         {
@@ -4788,57 +4842,27 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [42]",
+            "tag": "🇫🇮 FI | 🔓 VLESS | @config_proxy [44]",
             "type": "vless",
-            "server": "193.24.120.249",
-            "server_port": 1717,
-            "uuid": "289ab3b6-10a6-4feb-9af7-15d2788cb9be",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
-            "type": "vless",
-            "server": "94.131.107.201",
-            "server_port": 8443,
-            "uuid": "6423f8b6-d4be-43b0-8eb4-46209a2545a1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "anydesk.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "rwXlON1aDW3CM1wfNYMWb-hpPYqvH0kHHOBDatkuCSE",
-                    "short_id": "26a70553"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
-            "type": "vless",
-            "server": "109.122.197.72",
+            "server": "65.109.204.177",
             "server_port": 443,
-            "uuid": "648216e3-5068-40ba-b0cf-1f148b3bc7c7",
-            "flow": "xtls-rprx-vision",
+            "uuid": "490b3514-d0a5-47c9-93d4-7d115319121a",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ya.ru",
+                "server_name": "65.109.204.177",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UpO0lV2YR0otf1jQKLHDp2bD623tyUIefqCLGm04a2Q",
-                    "short_id": "e5267fa810489368"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "65.109.204.177"
                 }
             }
         },
@@ -5636,6 +5660,40 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "acacbba-baca-abca-dabc-acacabbccbab",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @hope_net [20]",
+            "type": "vless",
+            "server": "104.17.148.22",
+            "server_port": 2086,
+            "uuid": "c142dd91-b36b-430b-b0d7-8c9c2a073a1e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "headers": {
+                    "Host": "104.17.148.22"
                 }
             }
         },
