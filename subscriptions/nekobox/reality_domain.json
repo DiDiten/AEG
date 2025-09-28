@@ -84,6 +84,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [49]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [54]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -101,8 +103,7 @@
                 "❔ XX | 🔒 VLESS | @evay_vpn [19]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [21]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [23]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [1]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [4]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [14]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -199,6 +200,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [49]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [54]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -216,8 +219,7 @@
                 "❔ XX | 🔒 VLESS | @evay_vpn [19]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [21]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [23]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [1]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [4]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [14]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -487,6 +489,52 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [49]",
+            "type": "vless",
+            "server": "yofree.top",
+            "server_port": 443,
+            "uuid": "d99d0d40-9c66-11f0-b6d6-52540015866d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yofree.top",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AWyicEDYi7KB3qzo8OEvEd1HK0gZhCHAENBd_buyhQk",
+                    "short_id": "fa2f"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "45.grizzzlyyyy.ir",
+            "server_port": 26790,
+            "uuid": "bc465b6c-cf16-46e9-83aa-2a4eb1c34f29",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "init.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r8WfLlHqw76XJkfJKHMgk0MlDAL6n7Mu5lQqvezgAjI",
+                    "short_id": "bba58c5a0af751"
+                }
             }
         },
         {
@@ -901,34 +949,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [1]",
-            "type": "vless",
-            "server": "order.dissertationhelpspecialist.com",
-            "server_port": 443,
-            "uuid": "c2bd68e0-b56c-4c31-91c0-21509a4d3bb8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xI1IUDhIUaKY3qPE9CSOcNaiJ4sRc69ppRamFOMwgiI",
-                    "short_id": "3da49e0b43"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [4]",
             "type": "vless",
             "server": "services.dissertationhelpspecialist.com",
             "server_port": 443,

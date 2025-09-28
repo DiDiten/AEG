@@ -92,8 +92,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [57]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -115,11 +113,10 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [27]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [10]",
-                "🇺🇸 US | 🔒 VLESS | @free1_vpn [10]",
+                "🚩 CF | 🔒 VLESS | @free1_vpn [10]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
-                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
+                "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -318,8 +315,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [57]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -341,11 +336,10 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [27]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [10]",
-                "🇺🇸 US | 🔒 VLESS | @free1_vpn [10]",
+                "🚩 CF | 🔒 VLESS | @free1_vpn [10]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
-                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
+                "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -821,24 +815,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [57]",
-            "type": "vless",
-            "server": "parsonline.aparat-movies-download.ir",
-            "server_port": 42542,
-            "uuid": "9dd67223-6a22-4b76-aa41-49542bdecf32",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
-            "type": "vless",
-            "server": "live.wkrq.com",
-            "server_port": 80,
-            "uuid": "f8e49ef1-3541-4d72-8d0d-2c66edafdc4d",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -1204,33 +1180,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
-            "type": "vless",
-            "server": "services.dissertationhelpspecialist.com",
-            "server_port": 443,
-            "uuid": "dcd5e21f-eebd-4fc7-831e-d29e12323d0a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZV4e1OJFc5P1PH8pi6YN3mVzZ0G8WUOCNJZ6IibvT3Y",
-                    "short_id": "a266fd8b85"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice"
-            }
-        },
-        {
             "tag": "🚩 CF | 🔓 VLESS | @flyv2ray [10]",
             "type": "vless",
             "server": "cafearz.com",
@@ -1247,7 +1196,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @free1_vpn [10]",
+            "tag": "🚩 CF | 🔒 VLESS | @free1_vpn [10]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 2087,
@@ -1295,7 +1244,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
+            "tag": "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
