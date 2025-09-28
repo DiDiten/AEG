@@ -95,8 +95,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [62]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -188,6 +187,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [6]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
+                "🇫🇷 FR | 🔒 VLESS | @v2raych [7]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -232,8 +233,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [62]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -325,6 +325,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [6]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
+                "🇫🇷 FR | 🔒 VLESS | @v2raych [7]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -511,16 +513,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
             "type": "vless",
-            "server": "95.164.68.37",
-            "server_port": 8443,
-            "uuid": "2ab65fd6-e559-414c-804d-820ca417d079",
+            "server": "94.141.123.233",
+            "server_port": 443,
+            "uuid": "a1d93599-b324-4931-9190-8684487d00d5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "cdnjs.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -528,31 +530,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [62]",
-            "type": "vless",
-            "server": "62.60.231.215",
-            "server_port": 8880,
-            "uuid": "cf0b7124-4a49-4342-be41-9ebcb873cb04",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
-                    "short_id": "50d72d59cbec63"
+                    "public_key": "vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4",
+                    "short_id": "bc97736f81817c41"
                 }
             }
         },
@@ -2733,6 +2712,56 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @v2raych [7]",
+            "type": "vless",
+            "server": "103.249.133.79",
+            "server_port": 8443,
+            "uuid": "7317bf15-91fe-4780-90a3-d5e385b039fb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ubuntu.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SRxMWR_zveK_GsmvgjAxDBk_rxpMXnNn6-Yfw-ULfl0",
+                    "short_id": "89"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=2056"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
+            "type": "vless",
+            "server": "80.253.249.99",
+            "server_port": 443,
+            "uuid": "c4565366-28c0-49be-820e-155ac84e540e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ger4.hipay.su",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YJFFvtp1-PVG_uQhAQcULOOJnz9PKjaLcjZT9vLFPxU",
+                    "short_id": "4a44edd7756d5a97"
                 }
             }
         },
