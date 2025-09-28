@@ -96,8 +96,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [68]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [69]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -131,7 +129,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [4]",
+                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [3]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
                 "❔ XX | 🔒 VLESS | @mtpv2ray [1]",
                 "🇹🇷 TR | 🔒 VLESS | @netmellianti [8]",
@@ -213,8 +211,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [68]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [69]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -248,7 +244,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [4]",
+                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [3]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
                 "❔ XX | 🔒 VLESS | @mtpv2ray [1]",
                 "🇹🇷 TR | 🔒 VLESS | @netmellianti [8]",
@@ -499,52 +495,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @config_proxy [68]",
-            "type": "vless",
-            "server": "all42-vip.b.ca.faborus.com",
-            "server_port": 2525,
-            "uuid": "776fefc4-d797-4f20-adca-d77f004fe2f2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Ex3BSR2SbamEd9018YlUQSEsQkl1GAdwwsSKuDEr5SU",
-                    "short_id": "b8876b7bc7649440"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [69]",
-            "type": "vless",
-            "server": "all33-vip.b.tr.faborus.com",
-            "server_port": 1515,
-            "uuid": "776fefc4-d797-4f20-adca-d77f004fe2f2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "wwww.refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Ex3BSR2SbamEd9018YlUQSEsQkl1GAdwwsSKuDEr5SU",
-                    "short_id": "b8876b7bc7649440"
-                }
             }
         },
         {
@@ -1374,7 +1324,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [4]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [3]",
             "type": "vless",
             "server": "Ger-server2-panyous.tap30.sbs",
             "server_port": 2560,
