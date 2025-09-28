@@ -103,9 +103,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇬🇧 GB | 🔓 VLESS | @config_proxy [57]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [58]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -290,10 +287,11 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
                 "🇺🇸 US | 🔓 VLESS | @vmesskhodam [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
-                "🇦🇺 AU | 🔓 VLESS | @vmessorg [7]",
-                "🇫🇷 FR | 🔓 VLESS | @vmessorg [8]",
+                "🇦🇺 AU | 🔓 VLESS | @vmessorg [6]",
+                "🇫🇷 FR | 🔓 VLESS | @vmessorg [7]",
                 "❔ XX | 🔒 VLESS | @vpncostume [9]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [4]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
@@ -331,9 +329,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇬🇧 GB | 🔓 VLESS | @config_proxy [57]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [58]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -518,10 +513,11 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
                 "🇺🇸 US | 🔓 VLESS | @vmesskhodam [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
-                "🇦🇺 AU | 🔓 VLESS | @vmessorg [7]",
-                "🇫🇷 FR | 🔓 VLESS | @vmessorg [8]",
+                "🇦🇺 AU | 🔓 VLESS | @vmessorg [6]",
+                "🇫🇷 FR | 🔓 VLESS | @vmessorg [7]",
                 "❔ XX | 🔒 VLESS | @vpncostume [9]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [4]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnfastservice [5]",
@@ -821,65 +817,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @config_proxy [57]",
-            "type": "vless",
-            "server": "m42a.vip784.com",
-            "server_port": 33801,
-            "uuid": "9a19c6af-e785-407c-bdd8-030cb36b3c9b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [58]",
-            "type": "vless",
-            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-            "server_port": 443,
-            "uuid": "44e16031-bde2-407a-b629-ae4b84e7e49f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "smits.feronix.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "smits.feronix.org"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [59]",
-            "type": "vless",
-            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-            "server_port": 443,
-            "uuid": "88538870-5626-4cd7-9cda-1e0b6253c9ce",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mooz.rtxiran.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "mooz.rtxiran.info"
-                }
             }
         },
         {
@@ -3379,7 +3316,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2082,
-            "uuid": "be0ad7ff-9a00-42bc-a4f4-bce5bef3780d",
+            "uuid": "869069d8-da8d-4871-f3fc-6f021c8f39a7",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
@@ -3395,7 +3332,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2086,
-            "uuid": "57eec45f-8c57-489d-f849-871631730d40",
+            "uuid": "c18000ca-af52-46a6-84f3-6e500b53009f",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -3404,7 +3341,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2082,
-            "uuid": "869069d8-da8d-4871-f3fc-6f021c8f39a7",
+            "uuid": "8f4ad9f3-4929-44e9-e5b1-3033324ed3bb",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
@@ -4008,6 +3945,22 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "turboo-server.aftabz.com",
+            "server_port": 80,
+            "uuid": "turboo-server",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/--ping--www.speedtest.net?ed=2080",
+                "headers": {
+                    "Host": "turboo-server.aftabz.com"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @vmesskhodam [13]",
             "type": "vless",
             "server": "m24a.vip784.com",
@@ -4035,7 +3988,7 @@
             }
         },
         {
-            "tag": "🇦🇺 AU | 🔓 VLESS | @vmessorg [7]",
+            "tag": "🇦🇺 AU | 🔓 VLESS | @vmessorg [6]",
             "type": "vless",
             "server": "m57a.vip784.com",
             "server_port": 33801,
@@ -4044,7 +3997,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @vmessorg [8]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @vmessorg [7]",
             "type": "vless",
             "server": "m37a.vip784.com",
             "server_port": 33801,

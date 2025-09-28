@@ -93,14 +93,14 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "🇭🇰 HK | 🔓 TROJAN | @hope_net [18]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🚩 CF | 🔒 TROJAN | @v2ray_sub [77]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
-                "🇯🇵 JP | 🔒 TROJAN | @hope_net [20]",
+                "🇯🇵 JP | 🔒 TROJAN | @hope_net [18]",
+                "❔ XX | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
@@ -123,14 +123,14 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "🇭🇰 HK | 🔓 TROJAN | @hope_net [18]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🚩 CF | 🔒 TROJAN | @v2ray_sub [77]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
-                "🇯🇵 JP | 🔒 TROJAN | @hope_net [20]",
+                "🇯🇵 JP | 🔒 TROJAN | @hope_net [18]",
+                "❔ XX | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [17]",
@@ -240,13 +240,6 @@
                     "Host": "asia.artunnel57.host"
                 }
             }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔓 TROJAN | @hope_net [18]",
-            "type": "trojan",
-            "server": "gy.58n.net",
-            "server_port": 20307,
-            "password": "86550b36-9e7b-30fd-9d88-8c8f7903b6c4"
         },
         {
             "tag": "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
@@ -377,7 +370,7 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔒 TROJAN | @hope_net [20]",
+            "tag": "🇯🇵 JP | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "13.112.64.47",
             "server_port": 20230,
@@ -385,6 +378,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "421421.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "password": "abacbca-caba-bcaa-cbda-bcccabcababa",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
