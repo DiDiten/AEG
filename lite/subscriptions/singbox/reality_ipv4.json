@@ -111,6 +111,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
+                "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [145]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
@@ -119,6 +120,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [14]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [6]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -153,6 +155,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
+                "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [145]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
@@ -161,6 +164,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [14]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [6]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -705,6 +709,29 @@
             }
         },
         {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [145]",
+            "type": "vless",
+            "server": "185.75.135.224",
+            "server_port": 443,
+            "uuid": "8377aac9-f3b3-42df-a5ea-9254f37e7b34",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+                    "short_id": "50"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
             "type": "vless",
             "server": "199.247.30.45",
@@ -889,6 +916,29 @@
                     "enabled": true,
                     "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
                     "short_id": "61e683d41fdb"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [14]",
+            "type": "vless",
+            "server": "94.131.111.195",
+            "server_port": 443,
+            "uuid": "56b6c679-fc4f-4b9b-bea7-680f6128c0cd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "CA3Mhyhpt04cAfBM65vIBCN5MjfLm9PL6mWRWNiLP3Q",
+                    "short_id": "61781e31"
                 }
             }
         },
