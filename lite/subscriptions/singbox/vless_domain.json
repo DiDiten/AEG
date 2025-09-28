@@ -272,7 +272,6 @@
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
-                "🇳🇱 NL | 🔓 VLESS | @v2rayopen [11]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
                 "❔ XX | 🔓 VLESS | @v2rayturbo [9]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [11]",
@@ -288,7 +287,6 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
                 "🇺🇸 US | 🔓 VLESS | @vmesskhodam [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [6]",
@@ -500,7 +498,6 @@
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
-                "🇳🇱 NL | 🔓 VLESS | @v2rayopen [11]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
                 "❔ XX | 🔓 VLESS | @v2rayturbo [9]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [11]",
@@ -516,7 +513,6 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
                 "🇺🇸 US | 🔓 VLESS | @vmesskhodam [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [15]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [6]",
@@ -3694,15 +3690,6 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @v2rayopen [11]",
-            "type": "vless",
-            "server": "ir.fxgoldensignals.com",
-            "server_port": 8081,
-            "uuid": "7d645ab8-e8e5-4810-ae5f-4bd6659ac42c",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🚩 CF | 🔓 VLESS | @v2raytg [62]",
             "type": "vless",
             "server": "cafearz.com",
@@ -3964,22 +3951,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "okala.com"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "turboo-server.aftabz.com",
-            "server_port": 80,
-            "uuid": "turboo-server",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/--ping--www.speedtest.net?ed=2080",
-                "headers": {
-                    "Host": "turboo-server.aftabz.com"
-                }
             }
         },
         {
