@@ -126,6 +126,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [27]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [6]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [10]",
+                "🇺🇸 US | 🔒 VLESS | @free1_vpn [12]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
@@ -261,7 +262,6 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [9]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [8]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [9]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [76]",
@@ -351,6 +351,7 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [27]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [6]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [10]",
+                "🇺🇸 US | 🔒 VLESS | @free1_vpn [12]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
@@ -486,7 +487,6 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [9]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [8]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [9]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [76]",
@@ -1206,6 +1206,31 @@
                 "path": "/olem/ws?ed=1024",
                 "headers": {
                     "Host": "cafearz.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @free1_vpn [12]",
+            "type": "vless",
+            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+            "server_port": 2087,
+            "uuid": "502ce704-dcec-4f92-9489-505c99ce6c89",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "GFN01.alAnHIaho.COm",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "GFN01.alAnHIaho.COm"
                 }
             }
         },
@@ -3501,28 +3526,6 @@
                 "headers": {
                     "Host": "Vh.bahrane.ir"
                 }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [9]",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2096,
-            "uuid": "d7859fc2-2e71-4004-924b-4f79cb74e8f2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hydra.miniproxy.sbs",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "hydra.miniproxy.sbs"
             }
         },
         {
