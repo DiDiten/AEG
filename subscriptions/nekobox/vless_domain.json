@@ -106,10 +106,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [36]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [37]",
+                "🇹🇷 TR | 🔓 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -583,6 +581,7 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
                 "🚩 CF | 🔓 VLESS | @v2raying [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [2]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
@@ -744,10 +743,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [36]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [37]",
+                "🇹🇷 TR | 🔓 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1221,6 +1218,7 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
                 "🚩 CF | 🔓 VLESS | @v2raying [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [2]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
@@ -1906,96 +1904,29 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [36]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [37]",
             "type": "vless",
-            "server": "tru-server1-panyous.tap30.sbs",
-            "server_port": 2560,
-            "uuid": "837545c0-74e1-4daa-9ea1-b8286762c399",
-            "flow": "xtls-rprx-vision",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "a9c9c197-c626-4667-f219-1575f26715ac",
+            "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tru-server1-panyous.tap30.sbs",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
-                    "short_id": ""
+            "transport": {
+                "type": "ws",
+                "path": "/olem/ws?ed=1024",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [37]",
+            "tag": "🇹🇷 TR | 🔓 VLESS | @config_proxy [45]",
             "type": "vless",
-            "server": "Ger-server3-panyous.tap30.sbs",
-            "server_port": 2560,
-            "uuid": "837545c0-74e1-4daa-9ea1-b8286762c399",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Ger-server3-panyous.tap30.sbs",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
-            "type": "vless",
-            "server": "Ger-server1-panyous.tap30.sbs",
-            "server_port": 2560,
-            "uuid": "837545c0-74e1-4daa-9ea1-b8286762c399",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Ger-server1-panyous.tap30.sbs",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [39]",
-            "type": "vless",
-            "server": "Ger-server2-panyous.tap30.sbs",
-            "server_port": 2560,
-            "uuid": "837545c0-74e1-4daa-9ea1-b8286762c399",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Ger-server2-panyous.tap30.sbs",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
-                    "short_id": ""
-                }
-            }
+            "server": "tr.speedtestme.ir",
+            "server_port": 81,
+            "uuid": "636d3fe4-eb1f-49ee-9f70-2f4ec935015a",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -10186,6 +10117,29 @@
                 "path": "/?ed=2048",
                 "headers": {
                     "Host": "xjp.caball.link"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
+            "type": "vless",
+            "server": "Ger-server3-panyous.tap30.sbs",
+            "server_port": 2560,
+            "uuid": "837545c0-74e1-4daa-9ea1-b8286762c399",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Ger-server3-panyous.tap30.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
+                    "short_id": ""
                 }
             }
         },
