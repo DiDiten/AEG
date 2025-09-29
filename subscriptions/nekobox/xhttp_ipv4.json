@@ -80,13 +80,15 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [55]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [56]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [4]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [8]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [6]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann [8]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [10]",
-                "🇺🇸 US | 🔓 VLESS | @ghalagyann [12]",
+                "🇺🇸 US | 🔓 VLESS | @ghalagyann [10]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [2]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [4]",
@@ -153,13 +155,15 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [55]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [56]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [4]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [8]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [6]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann [8]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [10]",
-                "🇺🇸 US | 🔓 VLESS | @ghalagyann [12]",
+                "🇺🇸 US | 🔓 VLESS | @ghalagyann [10]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [2]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann2 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ghalagyann2 [4]",
@@ -306,6 +310,38 @@
             }
         },
         {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "62.60.231.215",
+            "server_port": 8880,
+            "uuid": "053d6d7a-941e-4939-aa64-7257c2fa8361",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
+                    "short_id": "50d72d59cbec63"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "779b3d34-84b0-436b-976f-cc50bfebe8b5",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [22]",
             "type": "vless",
             "server": "157.180.81.19",
@@ -370,7 +406,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann [8]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann [6]",
             "type": "vless",
             "server": "62.60.231.215",
             "server_port": 8880,
@@ -393,7 +429,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann [10]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann [8]",
             "type": "vless",
             "server": "62.60.231.215",
             "server_port": 8880,
@@ -416,7 +452,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @ghalagyann [12]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @ghalagyann [10]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
