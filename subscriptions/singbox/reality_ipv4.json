@@ -95,7 +95,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇸🇬 SG | 🔒 VLESS | @config_proxy [40]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [55]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -232,7 +233,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇸🇬 SG | 🔒 VLESS | @config_proxy [40]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [55]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -511,16 +513,16 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [40]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [55]",
             "type": "vless",
-            "server": "91.242.241.45",
+            "server": "94.131.107.201",
             "server_port": 8443,
-            "uuid": "b83687ef-7d04-43b5-a40a-2f8223234107",
+            "uuid": "90cd2100-044d-49fa-b82c-49ef09d60e88",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "anydesk.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -528,8 +530,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "1-2fy8f8XeOHzmdFmCENHV1mr_tzJX1M9UXp42mUIiM",
-                    "short_id": ""
+                    "public_key": "rwXlON1aDW3CM1wfNYMWb-hpPYqvH0kHHOBDatkuCSE",
+                    "short_id": "26a70553"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
+            "type": "vless",
+            "server": "109.122.197.72",
+            "server_port": 443,
+            "uuid": "2bcae70e-cfd5-4f56-a6f7-0b6e51a90211",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ya.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UpO0lV2YR0otf1jQKLHDp2bD623tyUIefqCLGm04a2Q",
+                    "short_id": "b2cb507156722e6e"
                 }
             }
         },
