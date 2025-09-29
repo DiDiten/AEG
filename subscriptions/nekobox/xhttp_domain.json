@@ -98,7 +98,6 @@
                 "❔ XX | 🔓 VLESS | @evay_vpn [20]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [21]",
                 "🚩 CF | 🔓 VLESS | @kafing_2 [14]",
-                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [1]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [4]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [14]",
                 "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
@@ -109,6 +108,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "❔ XX | 🔓 VLESS | @v2aryng_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [6]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [4]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [9]",
@@ -144,7 +144,6 @@
                 "❔ XX | 🔓 VLESS | @evay_vpn [20]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [21]",
                 "🚩 CF | 🔓 VLESS | @kafing_2 [14]",
-                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [1]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [4]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [14]",
                 "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
@@ -155,6 +154,7 @@
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
                 "❔ XX | 🔓 VLESS | @v2aryng_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [6]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [4]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [9]",
@@ -526,29 +526,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @lranonline_new [1]",
-            "type": "vless",
-            "server": "pub.hajmalla.com",
-            "server_port": 8000,
-            "uuid": "HqV2rayNGtel",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "CuJ44knWuoHEKYL12mVOObNJehc2v0MdpjYuXql7ZSE",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [4]",
             "type": "vless",
             "server": "speedtest.net",
@@ -644,6 +621,15 @@
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [6]",
+            "type": "vless",
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "f7d763c1-e992-4993-a2fa-57c72f3b9686",
             "flow": "",
             "packet_encoding": "xudp"
         },
