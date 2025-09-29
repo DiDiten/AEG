@@ -84,7 +84,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "❔ XX | 🔒 VLESS | @config_proxy [56]",
+                "🇷🇴 RO | 🔒 VLESS | @config_proxy [45]",
+                "❔ XX | 🔒 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -101,7 +102,7 @@
                 "❔ XX | 🔒 VLESS | @evay_vpn [17]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [19]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [21]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [2]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [1]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [14]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -128,7 +129,7 @@
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇫🇷 FR | 🔒 VLESS | @proxycrone [3]",
+                "❔ XX | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "🇱🇹 LT | 🔒 VLESS | @public504 [2]",
@@ -196,7 +197,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "❔ XX | 🔒 VLESS | @config_proxy [56]",
+                "🇷🇴 RO | 🔒 VLESS | @config_proxy [45]",
+                "❔ XX | 🔒 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -213,7 +215,7 @@
                 "❔ XX | 🔒 VLESS | @evay_vpn [17]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [19]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [21]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [2]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [1]",
                 "🇬🇧 GB | 🔒 VLESS | @filterk0sh [14]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -240,7 +242,7 @@
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
-                "🇫🇷 FR | 🔒 VLESS | @proxycrone [3]",
+                "❔ XX | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
                 "🇱🇹 LT | 🔒 VLESS | @public504 [2]",
@@ -484,16 +486,39 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [56]",
+            "tag": "🇷🇴 RO | 🔒 VLESS | @config_proxy [45]",
             "type": "vless",
-            "server": "ovhfrance.ip-venzo.com",
+            "server": "free.trial.grayping.com",
+            "server_port": 48900,
+            "uuid": "a1f51e2b-cc02-4eb6-938c-ba3d147d6bef",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Jw3O-jHc_8zh0MBeIoodZZr8f6zCBDRlm4MU56WkWmg",
+                    "short_id": "45a64f6db317adcd"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "ovhpoland.ip-venzo.com",
             "server_port": 35588,
             "uuid": "6b3a7034-39ec-f057-377d-cf6af57b4db4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cloudflare.com",
+                "server_name": "cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -895,7 +920,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [2]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [1]",
             "type": "vless",
             "server": "services.dissertationhelpspecialist.com",
             "server_port": 443,
@@ -1579,7 +1604,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @proxycrone [3]",
+            "tag": "❔ XX | 🔒 VLESS | @proxycrone [3]",
             "type": "vless",
             "server": "yfr.amiraizo.com",
             "server_port": 2560,
