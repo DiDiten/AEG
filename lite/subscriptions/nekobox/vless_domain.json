@@ -91,7 +91,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -113,9 +113,9 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [25]",
-                "🚩 CF | 🔒 VLESS | @free1_vpn [9]",
+                "🇺🇸 US | 🔒 VLESS | @free1_vpn [9]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
-                "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
+                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -287,7 +287,6 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [5]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [6]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
@@ -316,7 +315,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -338,9 +337,9 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [25]",
-                "🚩 CF | 🔒 VLESS | @free1_vpn [9]",
+                "🇺🇸 US | 🔒 VLESS | @free1_vpn [9]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
-                "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
+                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -512,7 +511,6 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [5]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [6]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
@@ -810,13 +808,29 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [43]",
             "type": "vless",
-            "server": "m10a.vip784.com",
-            "server_port": 33801,
-            "uuid": "2e03cdd6-64e9-4aa6-bc00-ea522f845808",
+            "server": "ip.sb",
+            "server_port": 443,
+            "uuid": "c4587bda-09fc-4b3b-8221-4450fccc33d1",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yx.yushan.dpdns.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "yx.yushan.dpdns.org"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -1184,7 +1198,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @free1_vpn [9]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @free1_vpn [9]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 2087,
@@ -1232,7 +1246,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
@@ -4133,15 +4147,6 @@
                 "type": "grpc",
                 "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl"
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [5]",
-            "type": "vless",
-            "server": "margate3.superip.ir",
-            "server_port": 44222,
-            "uuid": "951678f1-b5b2-411a-858a-7d53cc613581",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [6]",

@@ -83,8 +83,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [39]",
-                "🇮🇱 IL | 🔒 VLESS | @config_proxy [42]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -206,6 +205,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [9]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [11]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [8]",
                 "🇫🇷 FR | 🔒 VLESS | @xrayzxn [3]"
             ],
             "tag": "proxy",
@@ -220,8 +220,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇨🇦 CA | 🔒 VLESS | @config_proxy [39]",
-                "🇮🇱 IL | 🔒 VLESS | @config_proxy [42]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -343,6 +342,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [9]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [11]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [8]",
                 "🇫🇷 FR | 🔒 VLESS | @xrayzxn [3]"
             ],
             "tag": "auto",
@@ -503,34 +503,11 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @config_proxy [39]",
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [40]",
             "type": "vless",
-            "server": "16.52.11.181",
-            "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [42]",
-            "type": "vless",
-            "server": "185.239.48.109",
+            "server": "91.242.241.45",
             "server_port": 8443,
-            "uuid": "d194392f-62ce-4758-bb8d-854507d1dc99",
+            "uuid": "b83687ef-7d04-43b5-a40a-2f8223234107",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -543,7 +520,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "wPXyRAB1bVkaTGgO5cHEylVAV8SscUQUPn_ggzx6Vxk",
+                    "public_key": "1-2fy8f8XeOHzmdFmCENHV1mr_tzJX1M9UXp42mUIiM",
                     "short_id": ""
                 }
             }
@@ -3441,6 +3418,29 @@
                     "enabled": true,
                     "public_key": "RELg-Z1AXhG9945I_8hN884Z5Txd9ZxI92sl4jHzXWU",
                     "short_id": "ec01ceda"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [8]",
+            "type": "vless",
+            "server": "185.75.135.224",
+            "server_port": 443,
+            "uuid": "8377aac9-f3b3-42df-a5ea-9254f37e7b34",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+                    "short_id": "50"
                 }
             }
         },

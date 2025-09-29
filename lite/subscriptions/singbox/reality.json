@@ -160,6 +160,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [8]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]"
             ],
@@ -240,6 +241,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
+                "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [8]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]"
             ],
@@ -1956,6 +1958,29 @@
                     "enabled": true,
                     "public_key": "RELg-Z1AXhG9945I_8hN884Z5Txd9ZxI92sl4jHzXWU",
                     "short_id": "ec01ceda"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [8]",
+            "type": "vless",
+            "server": "185.75.135.224",
+            "server_port": 443,
+            "uuid": "8377aac9-f3b3-42df-a5ea-9254f37e7b34",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+                    "short_id": "50"
                 }
             }
         },

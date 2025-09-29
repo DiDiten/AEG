@@ -96,6 +96,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔒 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -182,7 +183,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [2]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [3]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [5]",
@@ -207,6 +208,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔒 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -293,7 +295,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [2]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [3]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [5]",
@@ -487,6 +489,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "NLL.CROCODILESERVER.IR",
+            "server_port": 443,
+            "uuid": "76be922d-1759-4cb4-8df1-c08a82cff547",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "app.hubspot.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": "fd1dff03520d8f56"
+                }
             }
         },
         {
@@ -2611,7 +2636,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [2]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [1]",
             "type": "vless",
             "server": "2margate.superip.ir",
             "server_port": 3041,
