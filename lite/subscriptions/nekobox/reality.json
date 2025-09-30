@@ -82,6 +82,8 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [53]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -160,6 +162,8 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [53]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -363,6 +367,52 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "Hetznear-de2.turkserver.ir",
+            "server_port": 8443,
+            "uuid": "d03e1748-b8f2-45c7-bf86-6b3964c3e093",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cdZROd5jYaqrDcmZJUw_KSpfUusjrrKDgah8ZkOdF2E",
+                    "short_id": "b44cea83b91a143a"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "ulta-tr.turkserver.ir",
+            "server_port": 8443,
+            "uuid": "d03e1748-b8f2-45c7-bf86-6b3964c3e093",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cdZROd5jYaqrDcmZJUw_KSpfUusjrrKDgah8ZkOdF2E",
+                    "short_id": "b44cea83b91a143a"
+                }
             }
         },
         {

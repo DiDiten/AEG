@@ -92,19 +92,19 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
-                "🇮🇪 IE | 🔒 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [13]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
-                "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [16]",
+                "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [17]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [18]"
+                "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [18]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -115,19 +115,19 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
-                "🇮🇪 IE | 🔒 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [13]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayngconfig [45]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [46]",
-                "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [16]",
+                "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [16]",
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [17]",
-                "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [18]"
+                "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [18]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -214,36 +214,34 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [18]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [19]",
             "type": "trojan",
-            "server": "188.114.96.113",
+            "server": "104.19.38.200",
             "server_port": 443,
-            "password": "NISHIKUITAN222",
+            "password": "tg-dns68",
             "tls": {
                 "enabled": true,
-                "server_name": "188.114.96.113",
+                "server_name": "vip.putata.eu.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "vip.putata.eu.org"
                 }
             }
         },
         {
-            "tag": "🇮🇪 IE | 🔒 TROJAN | @hope_net [19]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
             "type": "trojan",
-            "server": "52.212.99.113",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "server": "172.66.44.139",
+            "server_port": 8443,
+            "password": "bpb-trojan"
         },
         {
             "tag": "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
@@ -262,23 +260,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
-            "type": "trojan",
-            "server": "3.64.110.236",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [13]",
             "type": "trojan",
             "server": "52.47.180.25",
             "server_port": 22222,
@@ -294,9 +276,25 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
             "type": "trojan",
             "server": "13.38.203.210",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]",
+            "type": "trojan",
+            "server": "63.177.14.170",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -374,23 +372,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [16]",
-            "type": "trojan",
-            "server": "3.64.110.236",
-            "server_port": 22223,
-            "password": "telegram-id-v2rayvpnchannel",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [17]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [16]",
             "type": "trojan",
             "server": "52.47.180.25",
             "server_port": 22223,
@@ -406,9 +388,25 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [18]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [17]",
             "type": "trojan",
             "server": "13.38.203.210",
+            "server_port": 22223,
+            "password": "telegram-id-v2rayvpnchannel",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [18]",
+            "type": "trojan",
+            "server": "63.177.14.170",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
