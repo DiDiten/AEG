@@ -91,7 +91,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -113,9 +112,8 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [24]",
-                "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
                 "🇹🇷 TR | 🔓 VLESS | @free1_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @free1_vpn [9]",
+                "🇺🇸 US | 🔒 VLESS | @free1_vpn [9]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -313,7 +311,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -335,9 +332,8 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [24]",
-                "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
                 "🇹🇷 TR | 🔓 VLESS | @free1_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @free1_vpn [9]",
+                "🇺🇸 US | 🔒 VLESS | @free1_vpn [9]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -804,31 +800,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [59]",
-            "type": "vless",
-            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-            "server_port": 443,
-            "uuid": "44e16031-bde2-407a-b629-ae4b84e7e49f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "smits.feronix.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "smits.feronix.org"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -1194,22 +1165,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "e323c1bf-9e9a-0336-961a-b813ac35fd4b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
             "tag": "🇹🇷 TR | 🔓 VLESS | @free1_vpn [8]",
             "type": "vless",
             "server": "ardagulerturk.vtuix.online",
@@ -1226,7 +1181,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @free1_vpn [9]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @free1_vpn [9]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
