@@ -98,7 +98,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [57]",
+                "🇹🇷 TR | 🔓 VLESS | @config_proxy [50]",
+                "🇹🇷 TR | 🔓 VLESS | @config_proxy [51]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -175,6 +176,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @minovpnch [13]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [6]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [12]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [13]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
@@ -293,7 +295,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [57]",
+                "🇹🇷 TR | 🔓 VLESS | @config_proxy [50]",
+                "🇹🇷 TR | 🔓 VLESS | @config_proxy [51]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🇩🇪 DE | 🔓 VLESS | @custom_config [1]",
@@ -370,6 +373,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @minovpnch [13]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [6]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [12]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [13]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
@@ -668,27 +672,22 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [57]",
+            "tag": "🇹🇷 TR | 🔓 VLESS | @config_proxy [50]",
             "type": "vless",
-            "server": "62.60.231.215",
-            "server_port": 8880,
-            "uuid": "f4904ceb-294b-4dc4-b859-1fdb38426f1d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
-                    "short_id": "50d72d59cbec63"
-                }
-            }
+            "server": "80.253.255.43",
+            "server_port": 4655,
+            "uuid": "136804c6-6f7c-4422-9c36-4d61f4e3f2ff",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇹🇷 TR | 🔓 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "203.202.232.199",
+            "server_port": 4655,
+            "uuid": "136804c6-6f7c-4422-9c36-4d61f4e3f2ff",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -1990,6 +1989,29 @@
             "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [6]",
+            "type": "vless",
+            "server": "136.243.235.42",
+            "server_port": 8443,
+            "uuid": "6b3a7034-39ec-f057-377d-cf6af57b4db4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WX0HU-Jo9hSj-4guNJ89TyiltK7zHJCKJQBlpsmKYWQ",
+                    "short_id": "4b543e6a5373b815"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @mpproxy [12]",

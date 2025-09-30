@@ -107,6 +107,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -574,8 +575,6 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🚩 CF | 🔒 VLESS | @v2raych [7]",
-                "❔ XX | 🔓 VLESS | @v2raych [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [1]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
@@ -634,7 +633,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
-                "🇮🇷 IR | 🔓 VLESS | @vaynora [2]",
+                "🇩🇪 DE | 🔓 VLESS | @vaynora [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vaynora [4]",
                 "🚩 CF | 🔒 VLESS | @vaynora [5]",
                 "❔ XX | 🔒 VLESS | @vboxpanel [1]",
@@ -734,6 +733,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1201,8 +1201,6 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🚩 CF | 🔒 VLESS | @v2raych [7]",
-                "❔ XX | 🔓 VLESS | @v2raych [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [1]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
@@ -1261,7 +1259,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
-                "🇮🇷 IR | 🔓 VLESS | @vaynora [2]",
+                "🇩🇪 DE | 🔓 VLESS | @vaynora [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vaynora [4]",
                 "🚩 CF | 🔒 VLESS | @vaynora [5]",
                 "❔ XX | 🔒 VLESS | @vboxpanel [1]",
@@ -1922,6 +1920,22 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "turboo-server.aftabz.com",
+            "server_port": 80,
+            "uuid": "turboo-server",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/--ping--www.speedtest.net?ed=2080",
+                "headers": {
+                    "Host": "turboo-server.aftabz.com"
+                }
             }
         },
         {
@@ -10018,37 +10032,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @v2raych [7]",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8443,
-            "uuid": "9dde40ad-29f2-4a6c-b1a5-0a149f583404",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "t.me/entryNET",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @v2raych [11]",
-            "type": "vless",
-            "server": "745ded22-6ae3-4c4d-b31",
-            "server_port": 0,
-            "uuid": "",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2raying [1]",
             "type": "vless",
             "server": "dl5-de4-cdn.fastfilecdn.org",
@@ -11164,7 +11147,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @vaynora [2]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @vaynora [2]",
             "type": "vless",
             "server": "vaynora.imlast.com",
             "server_port": 443,
