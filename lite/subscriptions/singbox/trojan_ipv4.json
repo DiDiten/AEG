@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
+                "🇮🇪 IE | 🔒 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
@@ -114,7 +115,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
+                "🇮🇪 IE | 🔒 TROJAN | @hope_net [19]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
@@ -212,25 +214,34 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [19]",
+            "tag": "🇮🇪 IE | 🔒 TROJAN | @hope_net [19]",
             "type": "trojan",
-            "server": "162.159.153.84",
-            "server_port": 443,
-            "password": "tg-dns68",
+            "server": "54.75.119.94",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "tls": {
                 "enabled": true,
-                "server_name": "vip.putata.eu.org",
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "vip.putata.eu.org"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "188.114.96.113",
+            "server_port": 443,
+            "password": "NISHIKUITAN222",
+            "tls": {
+                "enabled": true,
+                "server_name": "188.114.96.113",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
