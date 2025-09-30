@@ -124,9 +124,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇹🇷 TR | 🔒 VLESS | @vpnplusee_free [13]",
-                "🇹🇷 TR | 🔒 VLESS | @vpnplusee_free [14]"
+                "🇸🇪 SE | 🔒 VLESS | @vmesc [19]",
+                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -169,9 +168,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇹🇷 TR | 🔒 VLESS | @vpnplusee_free [13]",
-                "🇹🇷 TR | 🔒 VLESS | @vpnplusee_free [14]"
+                "🇸🇪 SE | 🔒 VLESS | @vmesc [19]",
+                "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1014,6 +1012,29 @@
             }
         },
         {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "78.40.117.185",
+            "server_port": 443,
+            "uuid": "8377aac9-f3b3-42df-a5ea-9254f37e7b34",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sto.eu-ffast.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+                    "short_id": "50"
+                }
+            }
+        },
+        {
             "tag": "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
             "type": "vless",
             "server": "65.109.192.110",
@@ -1033,52 +1054,6 @@
                     "enabled": true,
                     "public_key": "RELg-Z1AXhG9945I_8hN884Z5Txd9ZxI92sl4jHzXWU",
                     "short_id": "ec01ceda"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @vpnplusee_free [13]",
-            "type": "vless",
-            "server": "188.132.183.15",
-            "server_port": 8443,
-            "uuid": "d03e1748-b8f2-45c7-bf86-6b3964c3e093",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cdZROd5jYaqrDcmZJUw_KSpfUusjrrKDgah8ZkOdF2E",
-                    "short_id": "b44cea83b91a143a"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @vpnplusee_free [14]",
-            "type": "vless",
-            "server": "188.132.183.15",
-            "server_port": 8443,
-            "uuid": "d03e1748-b8f2-45c7-bf86-6b3964c3e093",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cdZROd5jYaqrDcmZJUw_KSpfUusjrrKDgah8ZkOdF2E",
-                    "short_id": "b44cea83b91a143a"
                 }
             }
         }
