@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 TROJAN | @hope_net [20]",
+                "❔ XX | 🔒 TROJAN | @hope_net [18]",
+                "❔ XX | 🔒 TROJAN | @hope_net [19]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
@@ -114,7 +115,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 TROJAN | @hope_net [20]",
+                "❔ XX | 🔒 TROJAN | @hope_net [18]",
+                "❔ XX | 🔒 TROJAN | @hope_net [19]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
@@ -212,11 +214,27 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @hope_net [20]",
+            "tag": "❔ XX | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "127.0.0.1",
             "server_port": 1080,
             "password": "acbacba-acab-acab-acdb-abcabccababc",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @hope_net [19]",
+            "type": "trojan",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "password": "cacabab-caab-caab-abdc-bbbabaaacccc",
             "tls": {
                 "enabled": true,
                 "server_name": "127.0.0.1",
