@@ -95,7 +95,11 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+                "🇯🇵 JP | 🔒 VLESS | @config_proxy [51]",
+                "🇯🇵 JP | 🔒 VLESS | @config_proxy [53]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [55]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -148,6 +152,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @kafing_2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @loatvpn [1]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [4]",
                 "🇫🇷 FR | 🔒 VLESS | @manstervpn [62]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [15]",
@@ -229,7 +234,11 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+                "🇯🇵 JP | 🔒 VLESS | @config_proxy [51]",
+                "🇯🇵 JP | 🔒 VLESS | @config_proxy [53]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [55]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -282,6 +291,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @kafing_2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @loatvpn [1]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [4]",
                 "🇫🇷 FR | 🔒 VLESS | @manstervpn [62]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [15]",
@@ -505,16 +515,85 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+            "tag": "🇯🇵 JP | 🔒 VLESS | @config_proxy [51]",
             "type": "vless",
-            "server": "45.152.240.148",
-            "server_port": 443,
-            "uuid": "857127d1-c276-448c-b534-62ef9146a033",
+            "server": "59.138.63.214",
+            "server_port": 20156,
+            "uuid": "bbec3780-9053-4005-a13a-8b494c299d18",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SSqQxQgmfuyS_8AFRf7d68sLP-hHwwvDs1aGkM2OPVI",
+                    "short_id": "3d0772"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵 JP | 🔒 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "59.138.63.214",
+            "server_port": 20157,
+            "uuid": "f04e49a5-12c2-48c4-a13d-83c4bb6d8ffa",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hkVAcMVDaKtZkG7u0oMfipdNf1E-yQLOkc_IZs4zk08",
+                    "short_id": "24"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "103.253.43.210",
+            "server_port": 8443,
+            "uuid": "f903a297-eb51-4f33-9feb-964f8ac927db",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5hKDqL2dBu7jbCfC_xW5omNEGUzPme8qF4mJOrXuHGY",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "91.98.22.20",
+            "server_port": 8443,
+            "uuid": "27e3937e-414f-4542-845d-d4d0cfb0889d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -522,13 +601,32 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "xI1IUDhIUaKY3qPE9CSOcNaiJ4sRc69ppRamFOMwgiI",
-                    "short_id": "3da49e0b43"
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice"
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "46.62.152.219",
+            "server_port": 8443,
+            "uuid": "27e3937e-414f-4542-845d-d4d0cfb0889d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms",
+                    "short_id": "27e6b66aa77662fb"
+                }
             }
         },
         {
@@ -1773,6 +1871,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@loatvpn"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @lranonline_new [4]",
+            "type": "vless",
+            "server": "45.152.240.148",
+            "server_port": 443,
+            "uuid": "857127d1-c276-448c-b534-62ef9146a033",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xI1IUDhIUaKY3qPE9CSOcNaiJ4sRc69ppRamFOMwgiI",
+                    "short_id": "3da49e0b43"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice"
             }
         },
         {
