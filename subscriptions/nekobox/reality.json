@@ -173,6 +173,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
+                "🇮🇳 IN | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -270,11 +271,7 @@
                 "🇮🇷 IR | 🔒 VLESS | @v2aryng_vpn [1]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇪🇸 ES | 🔒 VLESS | @v2raych [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [8]",
-                "🇹🇷 TR | 🔒 VLESS | @v2raych [9]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [11]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [19]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
@@ -418,6 +415,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
+                "🇮🇳 IN | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -515,11 +513,7 @@
                 "🇮🇷 IR | 🔒 VLESS | @v2aryng_vpn [1]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇪🇸 ES | 🔒 VLESS | @v2raych [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [8]",
-                "🇹🇷 TR | 🔒 VLESS | @v2raych [9]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [11]",
-                "🇳🇱 NL | 🔒 VLESS | @v2raych [19]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
@@ -2873,6 +2867,36 @@
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇳 IN | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "143.110.182.126",
+            "server_port": 443,
+            "uuid": "273ac2d2-a83b-4a8c-87a2-20b6eee91c07",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.python.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mhhu8kigjKISLDtYpgD0Msv5M7kbXcQOHtgAWhy-6H8",
+                    "short_id": "61"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "www.python.org"
+                ],
+                "path": "/443/tutorial/index.html"
             }
         },
         {
@@ -5232,103 +5256,7 @@
             }
         },
         {
-            "tag": "🇪🇸 ES | 🔒 VLESS | @v2raych [4]",
-            "type": "vless",
-            "server": "ftp7.tehran-park.com",
-            "server_port": 1210,
-            "uuid": "8971f661-850b-468a-af46-69d2545b4b29",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp7.tehran-park.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Vd0sQC88KWjeYFf9DoFF58X_sVVA2ixgDajUc6fTNgI",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_configCANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [8]",
-            "type": "vless",
-            "server": "githubde.ip-venzo.com",
-            "server_port": 8443,
-            "uuid": "6b3a7034-39ec-f057-377d-cf6af57b4db4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "WX0HU-Jo9hSj-4guNJ89TyiltK7zHJCKJQBlpsmKYWQ",
-                    "short_id": "4b543e6a5373b815"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @v2raych [9]",
-            "type": "vless",
-            "server": "githubtr.ip-venzo.com",
-            "server_port": 8443,
-            "uuid": "6b3a7034-39ec-f057-377d-cf6af57b4db4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "WX0HU-Jo9hSj-4guNJ89TyiltK7zHJCKJQBlpsmKYWQ",
-                    "short_id": "4b543e6a5373b815"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [11]",
-            "type": "vless",
-            "server": "githubnl.ip-venzo.com",
-            "server_port": 8443,
-            "uuid": "6b3a7034-39ec-f057-377d-cf6af57b4db4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "WX0HU-Jo9hSj-4guNJ89TyiltK7zHJCKJQBlpsmKYWQ",
-                    "short_id": "4b543e6a5373b815"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [19]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [8]",
             "type": "vless",
             "server": "githubnl.ip-venzo.com",
             "server_port": 8443,

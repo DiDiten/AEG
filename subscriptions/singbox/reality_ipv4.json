@@ -185,6 +185,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
+                "🇮🇳 IN | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -320,6 +321,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
+                "🇮🇳 IN | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -2661,6 +2663,36 @@
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇳 IN | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "143.110.182.126",
+            "server_port": 443,
+            "uuid": "273ac2d2-a83b-4a8c-87a2-20b6eee91c07",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.python.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mhhu8kigjKISLDtYpgD0Msv5M7kbXcQOHtgAWhy-6H8",
+                    "short_id": "61"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "www.python.org"
+                ],
+                "path": "/443/tutorial/index.html"
             }
         },
         {
