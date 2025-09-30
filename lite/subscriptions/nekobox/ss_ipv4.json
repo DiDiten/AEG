@@ -83,6 +83,7 @@
                 "🇳🇱 NL | 🔒 SS | @father_vpn [3]",
                 "🇸🇪 SE | 🔒 SS | @filtershekan_channel [12]",
                 "🇵🇹 PT | 🔒 SS | @filtershekan_channel [13]",
+                "🇹🇷 TR | 🔒 SS | @free1_vpn [10]",
                 "🇨🇦 CA | 🔒 SS | @free4allvpn [16]",
                 "🇮🇳 IN | 🔒 SS | @free4allvpn [17]",
                 "🇩🇪 DE | 🔒 SS | @freev2raym [9]",
@@ -99,14 +100,13 @@
                 "🇺🇸 US | 🔒 SS | @mester_v2ray [19]",
                 "🇺🇸 US | 🔒 SS | @netfreedom0 [19]",
                 "🇬🇧 GB | 🔒 SS | @novinology [17]",
-                "🇺🇸 US | 🔒 SS | @outline_ir [17]",
                 "🇪🇸 ES | 🔒 SS | @outlineopenkey [2]",
                 "🇩🇪 DE | 🔒 SS | @outlineopenkey [3]",
                 "🇪🇸 ES | 🔒 SS | @outlineopenkey [4]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇺🇸 US | 🔒 SS | @satellitenewspersian [20]",
                 "🇩🇪 DE | 🔒 SS | @srv2ray [1]",
-                "🇸🇬 SG | 🔒 SS | @v2ray_free_conf [20]",
+                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔒 SS | @v2rayngalpha [5]",
                 "🇳🇱 NL | 🔒 SS | @v2rayngalpha [6]",
                 "🇨🇭 CH | 🔒 SS | @v2rayopen [16]",
@@ -127,6 +127,7 @@
                 "🇳🇱 NL | 🔒 SS | @father_vpn [3]",
                 "🇸🇪 SE | 🔒 SS | @filtershekan_channel [12]",
                 "🇵🇹 PT | 🔒 SS | @filtershekan_channel [13]",
+                "🇹🇷 TR | 🔒 SS | @free1_vpn [10]",
                 "🇨🇦 CA | 🔒 SS | @free4allvpn [16]",
                 "🇮🇳 IN | 🔒 SS | @free4allvpn [17]",
                 "🇩🇪 DE | 🔒 SS | @freev2raym [9]",
@@ -143,14 +144,13 @@
                 "🇺🇸 US | 🔒 SS | @mester_v2ray [19]",
                 "🇺🇸 US | 🔒 SS | @netfreedom0 [19]",
                 "🇬🇧 GB | 🔒 SS | @novinology [17]",
-                "🇺🇸 US | 🔒 SS | @outline_ir [17]",
                 "🇪🇸 ES | 🔒 SS | @outlineopenkey [2]",
                 "🇩🇪 DE | 🔒 SS | @outlineopenkey [3]",
                 "🇪🇸 ES | 🔒 SS | @outlineopenkey [4]",
                 "🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]",
                 "🇺🇸 US | 🔒 SS | @satellitenewspersian [20]",
                 "🇩🇪 DE | 🔒 SS | @srv2ray [1]",
-                "🇸🇬 SG | 🔒 SS | @v2ray_free_conf [20]",
+                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔒 SS | @v2rayngalpha [5]",
                 "🇳🇱 NL | 🔒 SS | @v2rayngalpha [6]",
                 "🇨🇭 CH | 🔒 SS | @v2rayopen [16]",
@@ -270,6 +270,14 @@
             "server_port": 990,
             "method": "chacha20-ietf-poly1305",
             "password": "f8f7aCzcPKbsF8p3"
+        },
+        {
+            "tag": "🇹🇷 TR | 🔒 SS | @free1_vpn [10]",
+            "type": "shadowsocks",
+            "server": "62.60.233.233",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "vTZUnkhHC3DX"
         },
         {
             "tag": "🇨🇦 CA | 🔒 SS | @free4allvpn [16]",
@@ -400,14 +408,6 @@
             "password": "Q1qlRknoN9PwGeExWVyTKg"
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @outline_ir [17]",
-            "type": "shadowsocks",
-            "server": "45.87.175.192",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "cvII85TrW6n0OGyfpHVS1u"
-        },
-        {
             "tag": "🇪🇸 ES | 🔒 SS | @outlineopenkey [2]",
             "type": "shadowsocks",
             "server": "194.87.45.189",
@@ -456,12 +456,12 @@
             "password": "wDZtxfIk3UhacKHrho7lxw"
         },
         {
-            "tag": "🇸🇬 SG | 🔒 SS | @v2ray_free_conf [20]",
+            "tag": "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [20]",
             "type": "shadowsocks",
-            "server": "47.82.3.32",
-            "server_port": 11120,
-            "method": "aes-256-gcm",
-            "password": "j4UeW4PHEzrnUZwJqosLc5UzlbqGHdLf3VAeUaUxZEI="
+            "server": "193.29.139.177",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         },
         {
             "tag": "🇩🇪 DE | 🔒 SS | @v2rayngalpha [5]",
