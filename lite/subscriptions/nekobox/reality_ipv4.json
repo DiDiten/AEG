@@ -97,6 +97,7 @@
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [11]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
+                "🇩🇪 DE | 🔒 VLESS | @outline_ir [20]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [145]",
@@ -143,6 +144,7 @@
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [11]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
+                "🇩🇪 DE | 🔒 VLESS | @outline_ir [20]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [145]",
@@ -660,6 +662,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "7034vless"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @outline_ir [20]",
+            "type": "vless",
+            "server": "94.141.123.233",
+            "server_port": 443,
+            "uuid": "a1d93599-b324-4931-9190-8684487d00d5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnjs.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4",
+                    "short_id": "bc97736f81817c41"
+                }
             }
         },
         {

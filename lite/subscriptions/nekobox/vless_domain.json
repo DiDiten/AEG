@@ -91,7 +91,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -311,7 +311,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -800,25 +800,18 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [64]",
             "type": "vless",
-            "server": "masterserver1.byte-server.ir",
-            "server_port": 1331,
-            "uuid": "df574996-5eb5-4aab-a355-cb3573a89fe9",
-            "flow": "xtls-rprx-vision",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "1COPE-AZ-KANAL--JKVPN-JKVPN",
+            "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
+            "transport": {
+                "type": "ws",
+                "path": "/TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN?ed=2048",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
