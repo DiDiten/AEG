@@ -91,6 +91,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -114,11 +116,11 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [24]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [9]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
-                "🚩 CF | 🔒 VLESS | @flyv2ray [13]",
+                "🇺🇸 US | 🔒 VLESS | @flyv2ray [13]",
                 "🇹🇷 TR | 🔓 VLESS | @free1_vpn [9]",
-                "🚩 CF | 🔒 VLESS | @free1_vpn [10]",
+                "🇺🇸 US | 🔒 VLESS | @free1_vpn [10]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
-                "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
+                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -314,6 +316,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -337,11 +341,11 @@
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [24]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [9]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [12]",
-                "🚩 CF | 🔒 VLESS | @flyv2ray [13]",
+                "🇺🇸 US | 🔒 VLESS | @flyv2ray [13]",
                 "🇹🇷 TR | 🔓 VLESS | @free1_vpn [9]",
-                "🚩 CF | 🔒 VLESS | @free1_vpn [10]",
+                "🇺🇸 US | 🔒 VLESS | @free1_vpn [10]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
-                "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
+                "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
                 "❔ XX | 🔓 VLESS | @freeconfigsplus [16]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -806,6 +810,42 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "pub.hajmalla.com",
+            "server_port": 8000,
+            "uuid": "537d1217-121f-41a5-f3b8-7c10d65e84a6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "pub.hajmalla.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "CuJ44knWuoHEKYL12mVOObNJehc2v0MdpjY",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "8lb9pb.academiemi-purya.click",
+            "server_port": 15341,
+            "uuid": "85c0d89d-c668-439a-94c0-50c1eee1f83d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -1214,7 +1254,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @flyv2ray [13]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @flyv2ray [13]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -1255,7 +1295,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @free1_vpn [10]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @free1_vpn [10]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -1303,7 +1343,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @freeconfigsplus [15]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @freeconfigsplus [15]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 8443,
