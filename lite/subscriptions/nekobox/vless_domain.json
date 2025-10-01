@@ -87,10 +87,10 @@
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔓 VLESS | @artemis_vpn_free [1]",
                 "🚩 CF | 🔓 VLESS | @artemis_vpn_free [2]",
-                "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -161,8 +161,7 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [14]",
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [15]",
-                "🚩 CF | 🔓 VLESS | @lranonline_new [1]",
-                "🚩 CF | 🔒 VLESS | @lranonline_new [3]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [5]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -309,10 +308,10 @@
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔓 VLESS | @artemis_vpn_free [1]",
                 "🚩 CF | 🔓 VLESS | @artemis_vpn_free [2]",
-                "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -383,8 +382,7 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [14]",
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [15]",
-                "🚩 CF | 🔓 VLESS | @lranonline_new [1]",
-                "🚩 CF | 🔒 VLESS | @lranonline_new [3]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [5]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -704,31 +702,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @arv2ray [17]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "telegram-id-Arfilter",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.pdri.blog",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
-                "headers": {
-                    "Host": "www.pdri.blog"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @arv2ray [18]",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -802,6 +775,15 @@
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "29b27f0b-f8fb-44dd-8766-0ad5f476ca02",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -1992,38 +1974,13 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @lranonline_new [1]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [5]",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2086,
-            "uuid": "7bd93332-85ce-47d1-dfcf-bfe9e8958254",
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "29b27f0b-f8fb-44dd-8766-0ad5f476ca02",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @lranonline_new [3]",
-            "type": "vless",
-            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-            "server_port": 443,
-            "uuid": "44e16031-bde2-407a-b629-ae4b84e7e49f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "smits.feronix.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "smits.feronix.org"
-                }
-            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",

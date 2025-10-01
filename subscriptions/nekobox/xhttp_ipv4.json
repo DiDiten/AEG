@@ -80,8 +80,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [50]",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [52]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
@@ -130,7 +128,6 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [14]",
-                "🇩🇪 DE | 🔓 VLESS | @selinc [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
@@ -152,8 +149,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [50]",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [52]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
@@ -202,7 +197,6 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [14]",
-                "🇩🇪 DE | 🔓 VLESS | @selinc [1]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
@@ -300,52 +294,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [50]",
-            "type": "vless",
-            "server": "62.60.231.215",
-            "server_port": 8880,
-            "uuid": "6c4c7ae7-8e4d-438c-9bc0-074117dc0230",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
-                    "short_id": "50d72d59cbec63"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [52]",
-            "type": "vless",
-            "server": "62.60.231.215",
-            "server_port": 8880,
-            "uuid": "6c4c7ae7-8e4d-438c-9bc0-074117dc0230",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
-                    "short_id": "50d72d59cbec63"
                 }
             }
         },
@@ -1165,24 +1113,6 @@
                     "enabled": true,
                     "public_key": "T8lvKu6Po4yDVOdIb8UXFDPJJapWOHHLw-0kAqWWjl8",
                     "short_id": "a6df009b"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @selinc [1]",
-            "type": "vless",
-            "server": "91.98.35.110",
-            "server_port": 443,
-            "uuid": "c99f45df-5daf-4610-81ea-b9b4ea7258f4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "91.98.35.110",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
