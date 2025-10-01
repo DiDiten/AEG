@@ -91,8 +91,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇱🇹 LT | 🔒 VLESS | @config_proxy [46]",
-                "🇸🇮 SI | 🔒 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -272,7 +270,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🇩🇪 DE | 🔓 VLESS | @vaynora [3]",
-                "🇩🇪 DE | 🔓 VLESS | @vaynora [4]",
+                "🇮🇷 IR | 🔓 VLESS | @vaynora [4]",
                 "🚩 CF | 🔒 VLESS | @vaynora [5]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
@@ -319,8 +317,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇱🇹 LT | 🔒 VLESS | @config_proxy [46]",
-                "🇸🇮 SI | 🔒 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -500,7 +496,7 @@
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
                 "🇩🇪 DE | 🔓 VLESS | @vaynora [3]",
-                "🇩🇪 DE | 🔓 VLESS | @vaynora [4]",
+                "🇮🇷 IR | 🔓 VLESS | @vaynora [4]",
                 "🚩 CF | 🔒 VLESS | @vaynora [5]",
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
@@ -813,52 +809,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇱🇹 LT | 🔒 VLESS | @config_proxy [46]",
-            "type": "vless",
-            "server": "hield.ru",
-            "server_port": 8443,
-            "uuid": "00d53c74-811f-4219-878b-dc865942f72d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "c7pmEcOmq_DP_i2LVMrBi85FQ-ueco4teFc2IJb8zVE",
-                    "short_id": "4ddc"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇮 SI | 🔒 VLESS | @config_proxy [47]",
-            "type": "vless",
-            "server": "tunnyl.ru",
-            "server_port": 8443,
-            "uuid": "71fc2e55-9e56-47f8-bd8e-7126cac97331",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "M_vyGgaMp6Unz28r-3jFP-VwRoY39Edhn_0bQPknqmc",
-                    "short_id": "08f6093b944bd385"
-                }
             }
         },
         {
@@ -3918,7 +3868,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @vaynora [4]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @vaynora [4]",
             "type": "vless",
             "server": "vaynora.shahinstore1.com",
             "server_port": 443,
