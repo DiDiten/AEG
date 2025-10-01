@@ -103,8 +103,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🚩 CF | 🔓 VMESS | @hope_net [19]",
-                "❔ XX | 🔓 VMESS | @hope_net [20]",
+                "❔ XX | 🔓 VMESS | @hope_net [18]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -167,7 +166,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
                 "🇨🇦 CA | 🔒 VMESS | @vpn_ioss [17]",
-                "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [18]",
+                "🇵🇱 PL | 🔒 VMESS | @vpnfail_v2ray [18]",
+                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
@@ -205,8 +205,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "🚩 CF | 🔓 VMESS | @hope_net [19]",
-                "❔ XX | 🔓 VMESS | @hope_net [20]",
+                "❔ XX | 🔓 VMESS | @hope_net [18]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -269,7 +268,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
                 "🇨🇦 CA | 🔒 VMESS | @vpn_ioss [17]",
-                "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [18]",
+                "🇵🇱 PL | 🔒 VMESS | @vpnfail_v2ray [18]",
+                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
@@ -743,23 +743,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @hope_net [19]",
-            "type": "vmess",
-            "server": "104.19.21.230",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/github.com/Alvin9999",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VMESS | @hope_net [20]",
+            "tag": "❔ XX | 🔓 VMESS | @hope_net [18]",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -1780,16 +1764,16 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VMESS | @vpnfail_v2ray [18]",
+            "tag": "🇵🇱 PL | 🔒 VMESS | @vpnfail_v2ray [18]",
             "type": "vmess",
-            "server": "serkat.org",
+            "server": "57.128.216.125",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 1,
+            "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "serkat.org",
+                "server_name": "kampong.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1800,7 +1784,32 @@
                 "type": "ws",
                 "path": "/linkvws",
                 "headers": {
-                    "Host": "serkat.org"
+                    "Host": "kampong.org"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
+            "type": "vmess",
+            "server": "57.129.59.199",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "kampong.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "kampong.org"
                 }
             }
         },

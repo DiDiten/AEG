@@ -55,8 +55,7 @@ proxies:
   - {"name":"🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]","type":"vmess","server":"de.netwatchvpn.sbs","port":44799,"cipher":"auto","uuid":"d48de346-aaea-424a-9338-0049e1f1c865","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇫🇷 FR | 🔓 VMESS | @garnet_free [10]","type":"vmess","server":"89.116.38.170","port":3456,"cipher":"auto","uuid":"32e49539-f569-403d-b4b6-a8978c040d5d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]","type":"vmess","server":"mrgold.iranman.shop","port":52065,"cipher":"auto","uuid":"f29ea77c-6842-4ee0-9fc1-9c7a871566b2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇬🇧 GB | 🔒 SS | @hope_net [18]","type":"ss","server":"13.43.234.40","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🚩 CF | 🔓 VMESS | @hope_net [19]","type":"vmess","server":"104.19.21.230","port":2082,"cipher":"auto","uuid":"5f3f09ad-89cb-4e94-a7ad-aa8239913555","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"Host":"ip3.6929198.xyz"}}}
+  - {"name":"🚩 CF | 🔓 TROJAN | @hope_net [19]","type":"trojan","server":"104.16.200.98","port":443,"password":"NISHIKUITAN222","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🔒 SS | @imhdiyvp [12]","type":"ss","server":"45.87.175.157","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]","type":"vmess","server":"142.4.125.84","port":59614,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇬🇧 GB | 🔒 SS | @ir_netproxy [13]","type":"ss","server":"51.105.36.101","port":13928,"password":"2gxDsKmZRuz4wRCKyXJdJl","cipher":"chacha20-ietf-poly1305"}
@@ -100,8 +99,8 @@ proxies:
   - {"name":"🇬🇧 GB | 🔒 SS | @ntgreenplus [1]","type":"ss","server":"admin.c2.webramz.co","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇭 CH | 🔓 VMESS | @oonfig [5]","type":"vmess","server":"kh.shebrix.ir","port":45145,"cipher":"auto","uuid":"54543ce0-e87b-46d6-ad03-c1ba2b223558","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇬🇧 GB | 🔒 SS | @orange_vpns [17]","type":"ss","server":"azjnac1.uksouth.cloudapp.azure.com","port":443,"password":"b2EJuconC460KllN","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🔒 SS | @outline_ir [17]","type":"ss","server":"45.87.175.181","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🔒 SS | @outline_ir [18]","type":"ss","server":"45.87.175.164","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔒 SS | @outline_ir [17]","type":"ss","server":"45.87.175.164","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇮 FI | 🔒 SS | @outline_ir [19]","type":"ss","server":"65.109.217.125","port":1080,"password":"yp9ei3P8WW6nucNXII4VSg","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]","type":"ss","server":"193.29.139.188","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]","type":"trojan","server":"15.188.32.128","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]","type":"trojan","server":"18.195.229.64","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
@@ -203,8 +202,7 @@ proxy-groups:
       - '🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]'
       - '🇫🇷 FR | 🔓 VMESS | @garnet_free [10]'
       - '🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]'
-      - '🇬🇧 GB | 🔒 SS | @hope_net [18]'
-      - '🚩 CF | 🔓 VMESS | @hope_net [19]'
+      - '🚩 CF | 🔓 TROJAN | @hope_net [19]'
       - '🇺🇸 US | 🔒 SS | @imhdiyvp [12]'
       - '🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]'
       - '🇬🇧 GB | 🔒 SS | @ir_netproxy [13]'
@@ -249,7 +247,7 @@ proxy-groups:
       - '🇨🇭 CH | 🔓 VMESS | @oonfig [5]'
       - '🇬🇧 GB | 🔒 SS | @orange_vpns [17]'
       - '🇺🇸 US | 🔒 SS | @outline_ir [17]'
-      - '🇺🇸 US | 🔒 SS | @outline_ir [18]'
+      - '🇫🇮 FI | 🔒 SS | @outline_ir [19]'
       - '🇳🇱 NL | 🔒 SS | @outlinereleasedkey [15]'
       - '🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]'
       - '🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]'
