@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [47]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [2]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
@@ -164,7 +164,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [47]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [2]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
@@ -312,13 +312,27 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [47]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [36]",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "240ed7ca-751b-4eb7-9d5a-0ff8ac2afd1f",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "134.122.82.167",
+            "server_port": 443,
+            "uuid": "33fd7ef1-baa6-4c38-b70f-2b131ba90a13",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LP0UVUy9fXbVGjQ2D7F-hDDy28l4pW5YNsa_j9dEeDI",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
