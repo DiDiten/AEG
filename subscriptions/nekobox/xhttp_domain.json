@@ -83,6 +83,7 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [10]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -105,10 +106,10 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [17]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [18]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
-                "❔ XX | 🔓 VLESS | @v2aryng_vpn [4]",
+                "❔ XX | 🔓 VLESS | @v2aryng_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
-                "🇦🇪 AE | 🔒 VLESS | @v2raych [8]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [11]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [4]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [16]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [4]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [9]",
@@ -128,6 +129,7 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [10]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -150,10 +152,10 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [17]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [18]",
                 "🇺🇸 US | 🔓 VLESS | @turboo_server [2]",
-                "❔ XX | 🔓 VLESS | @v2aryng_vpn [4]",
+                "❔ XX | 🔓 VLESS | @v2aryng_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [18]",
-                "🇦🇪 AE | 🔒 VLESS | @v2raych [8]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [11]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [4]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [16]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [4]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [9]",
@@ -273,6 +275,15 @@
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
+            "type": "vless",
+            "server": "sw.modernstore3.ir",
+            "server_port": 80,
+            "uuid": "a40e2c15-6c4d-b5e6-3e9c-d2adad0ee1e6",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -573,7 +584,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @v2aryng_vpn [4]",
+            "tag": "❔ XX | 🔓 VLESS | @v2aryng_vpn [3]",
             "type": "vless",
             "server": "sss70053.tas-bazi.com",
             "server_port": 443,
@@ -600,34 +611,20 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇦🇪 AE | 🔒 VLESS | @v2raych [8]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [4]",
             "type": "vless",
-            "server": "rostami-uae.vaslbsh.com",
-            "server_port": 7031,
-            "uuid": "e8d3061a-2f88-4c40-8968-a281439f67b9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mdundo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "g23nq_R9TIMbMIGQHB6gjDNewFzrHXPcj72bTS-RtX8",
-                    "short_id": ""
-                }
-            }
+            "server": "live.wkrq.com",
+            "server_port": 80,
+            "uuid": "d9bb44e3-f943-4c04-b48c-af5b155ab990",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [11]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [16]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
-            "uuid": "29b27f0b-f8fb-44dd-8766-0ad5f476ca02",
+            "uuid": "1db9593f-df30-4ee7-83c3-f120f1e20bbc",
             "flow": "",
             "packet_encoding": "xudp"
         },
