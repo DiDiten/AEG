@@ -95,6 +95,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [55]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -166,8 +168,8 @@
                 "🇸🇪 SE | 🔒 VLESS | @proxyfn [10]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [145]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [150]",
+                "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [138]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [143]",
                 "🇳🇱 NL | 🔒 VLESS | @qeshmserver [1]",
                 "🇸🇬 SG | 🔒 VLESS | @qeshmserver [3]",
                 "🇸🇬 SG | 🔒 VLESS | @qeshmserver [4]",
@@ -181,7 +183,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [1]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
@@ -234,6 +235,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [55]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -305,8 +308,8 @@
                 "🇸🇪 SE | 🔒 VLESS | @proxyfn [10]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [145]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [150]",
+                "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [138]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [143]",
                 "🇳🇱 NL | 🔒 VLESS | @qeshmserver [1]",
                 "🇸🇬 SG | 🔒 VLESS | @qeshmserver [3]",
                 "🇸🇬 SG | 🔒 VLESS | @qeshmserver [4]",
@@ -320,7 +323,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [1]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [15]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
@@ -512,6 +514,56 @@
                     "public_key": "8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0",
                     "short_id": "5fab0deb"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "185.239.48.109",
+            "server_port": 8443,
+            "uuid": "1ac3efd2-8ecc-457a-adbb-5dab85baf954",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wPXyRAB1bVkaTGgO5cHEylVAV8SscUQUPn_ggzx6Vxk",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "83.147.216.173",
+            "server_port": 8443,
+            "uuid": "8d9cfb4f-69a7-435f-86d7-79d8e62d72c9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "etG7kidJiRb4A2LsNbRUJ3HGyrt2yX5YlZGoTgmpSyw",
+                    "short_id": "e624b964"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc"
             }
         },
         {
@@ -2215,7 +2267,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [145]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @prrofile_purple [138]",
             "type": "vless",
             "server": "185.75.135.224",
             "server_port": 443,
@@ -2238,7 +2290,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [150]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [143]",
             "type": "vless",
             "server": "188.34.179.15",
             "server_port": 8443,
@@ -2573,33 +2625,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [1]",
-            "type": "vless",
-            "server": "155.254.35.78",
-            "server_port": 33811,
-            "uuid": "3940e9ba-d0f6-4052-bd8e-f3c2a2a76599",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "miro.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fa3n6JDInXvPSrde2HYqogCf2YheiIgxhhO3N3gO1Qs",
-                    "short_id": "63f811342e9c75"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "miro.com"
             }
         },
         {
