@@ -83,6 +83,8 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [10]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [38]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -114,8 +116,6 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [13]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [6]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [29]",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [31]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
@@ -187,6 +187,8 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [10]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [38]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -218,8 +220,6 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [13]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [6]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [29]",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [31]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
@@ -391,6 +391,24 @@
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
+            "type": "vless",
+            "server": "live.theworldwidewolf.com",
+            "server_port": 80,
+            "uuid": "cf6b1d73-a4df-4340-89e3-4daea8d8138c",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "b3d62a62-264e-44e8-af2a-759d455de4f2",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -829,38 +847,6 @@
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [29]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "37c958df-4a1a-4cb1-bde8-ee77204dc663",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [31]",
-            "type": "vless",
-            "server": "109.122.201.171",
-            "server_port": 59697,
-            "uuid": "d378d3d0-c521-4874-a6f3-21794398cf9c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "bimeh.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "HDE3ZT4rZPr6RIpgLK6dn6FGvolXLJtwJEeDEC4N1Eg",
-                    "short_id": "c5a5b0"
-                }
-            }
         },
         {
             "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",

@@ -86,9 +86,8 @@
                 "🇧🇪 BE | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [42]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -275,9 +274,8 @@
                 "🇧🇪 BE | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [42]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -653,50 +651,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [42]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
             "type": "vless",
-            "server": "104.16.1.106",
-            "server_port": 2082,
-            "uuid": "55445977-b31b-4142-83e0-e54b80c14059",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "104.16.1.106"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
-            "type": "vless",
-            "server": "142.132.161.197",
-            "server_port": 443,
-            "uuid": "7ceaf9fb-37f1-4a93-9fa5-60e592e5efeb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "followme.amin-1.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
-            "type": "vless",
-            "server": "5.182.87.145",
-            "server_port": 8080,
-            "uuid": "883d6f1f-a964-406c-96bd-46357d8d2dea",
+            "server": "80.74.29.212",
+            "server_port": 8443,
+            "uuid": "bfacef44-a5b8-4ac8-accb-524c776594cb",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "yandex.com",
+                "server_name": "google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -704,9 +668,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "jRReXVS85X0Qm7jovHgNSOyz7BuS7p3iMPE4EfUHRlk",
-                    "short_id": "1ae2fd1e1ace9935"
+                    "public_key": "rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA",
+                    "short_id": ""
                 }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "172.66.213.38",
+            "server_port": 2087,
+            "uuid": "bc5ae0b5-ea51-4255-911d-a836c3ec8808",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "g4.ferdowsi.shop",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
             }
         },
         {
