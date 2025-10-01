@@ -103,7 +103,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -126,7 +126,7 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [24]",
                 "🚩 CF | 🔒 VLESS | @falcunargo [9]",
-                "🇺🇸 US | 🔒 VLESS | @flyv2ray [14]",
+                "🚩 CF | 🔒 VLESS | @flyv2ray [14]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -286,7 +286,6 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔓 VLESS | @vmesc [17]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [13]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [15]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [6]",
@@ -327,7 +326,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -350,7 +349,7 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [24]",
                 "🚩 CF | 🔒 VLESS | @falcunargo [9]",
-                "🇺🇸 US | 🔒 VLESS | @flyv2ray [14]",
+                "🚩 CF | 🔒 VLESS | @flyv2ray [14]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -510,7 +509,6 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔓 VLESS | @vmesc [17]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [13]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [15]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [6]",
@@ -816,20 +814,13 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [53]",
             "type": "vless",
-            "server": "turboo-server.aftabz.com",
-            "server_port": 80,
-            "uuid": "turboo-server",
+            "server": "230920393.f-sub.com",
+            "server_port": 3799,
+            "uuid": "8887d7e2-1c73-49b1-9d60-ce7546053370",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/--ping--www.speedtest.net?ed=2080",
-                "headers": {
-                    "Host": "turboo-server.aftabz.com"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -1224,7 +1215,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @flyv2ray [14]",
+            "tag": "🚩 CF | 🔒 VLESS | @flyv2ray [14]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -3933,22 +3924,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "okala.com"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @vmesc [17]",
-            "type": "vless",
-            "server": "narrow-passenger.oneeat.co",
-            "server_port": 80,
-            "uuid": "5a12794b-2125-46d7-a748-927a989faa04",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "narrow-passenger.oneeat.co"
-                }
             }
         },
         {

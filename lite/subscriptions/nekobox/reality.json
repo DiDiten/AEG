@@ -114,6 +114,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [54]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -195,6 +196,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [54]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -1152,6 +1154,29 @@
                     "enabled": true,
                     "public_key": "277HDYaNIvLYS9CMSr1CbkcTaahPEUCymW_0Ad17p2M",
                     "short_id": "f2"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "5.199.130.92",
+            "server_port": 3000,
+            "uuid": "db87fc06-e2d6-49ff-a51a-70a5b9313a9d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "exp-r.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RKPNvL72i02i--3PhoG0jK44iPbKCkrJjYbPKq292Vw",
+                    "short_id": "ed681be3a71f61"
                 }
             }
         },
