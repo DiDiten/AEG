@@ -103,6 +103,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -124,7 +125,7 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [24]",
-                "🇺🇸 US | 🔒 VLESS | @flyv2ray [14]",
+                "🚩 CF | 🔒 VLESS | @flyv2ray [13]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -153,7 +154,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "🚩 CF | 🔓 VLESS | @kafing_2 [14]",
-                "🇺🇸 US | 🔒 VLESS | @kafing_2 [15]",
+                "🚩 CF | 🔒 VLESS | @kafing_2 [15]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🚩 CF | 🔒 VLESS | @kilid_stor [1]",
                 "🇩🇪 DE | 🔓 VLESS | @kilid_stor [2]",
@@ -329,6 +330,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -350,7 +352,7 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [24]",
-                "🇺🇸 US | 🔒 VLESS | @flyv2ray [14]",
+                "🚩 CF | 🔒 VLESS | @flyv2ray [13]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -379,7 +381,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "🚩 CF | 🔓 VLESS | @kafing_2 [14]",
-                "🇺🇸 US | 🔒 VLESS | @kafing_2 [15]",
+                "🚩 CF | 🔒 VLESS | @kafing_2 [15]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🚩 CF | 🔒 VLESS | @kilid_stor [1]",
                 "🇩🇪 DE | 🔓 VLESS | @kilid_stor [2]",
@@ -820,6 +822,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [32]",
+            "type": "vless",
+            "server": "panel.pouyahmd.sbs",
+            "server_port": 2085,
+            "uuid": "2c3fe516-b64f-419b-ac86-9f6ba657361a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "63B41FJONIJnGWHZ8MW89FD1LFbmf-vC1H1qbzMIdFQ",
+                    "short_id": "01e9e0"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -1185,7 +1210,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @flyv2ray [14]",
+            "tag": "🚩 CF | 🔒 VLESS | @flyv2ray [13]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -1729,7 +1754,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @kafing_2 [15]",
+            "tag": "🚩 CF | 🔒 VLESS | @kafing_2 [15]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
