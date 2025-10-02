@@ -83,6 +83,7 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [7]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [10]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [48]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -112,6 +113,8 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [13]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [6]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [1]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
@@ -184,6 +187,7 @@
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [7]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [10]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [48]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -213,6 +217,8 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [13]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [6]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [1]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
@@ -387,6 +393,24 @@
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "sss59124.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "3bd2d87e-58ff-46e3-935e-ce53ed227a7e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sss59124.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
@@ -805,6 +829,52 @@
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "164.92.245.26",
+            "server_port": 443,
+            "uuid": "fd283396-d418-4b69-c24c-03f2405c2b7d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-CJtSYjYcSXT5oRd1ow6Uo0ZLIsDjGKTB683oiDhNRg",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
+            "type": "vless",
+            "server": "91.107.254.202",
+            "server_port": 2096,
+            "uuid": "a20a281b-7f72-42e7-a1fd-73ed063c5681",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "firebase.googleapis.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sPEQ8mlkuJQsGrMZux2g9EmXKztuXHwnyORJPwwznDQ",
+                    "short_id": "a0e13102"
+                }
+            }
         },
         {
             "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",

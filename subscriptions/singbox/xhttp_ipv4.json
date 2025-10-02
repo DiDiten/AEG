@@ -92,6 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [1]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
@@ -161,6 +163,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [1]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
@@ -302,6 +306,52 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "164.92.245.26",
+            "server_port": 443,
+            "uuid": "fd283396-d418-4b69-c24c-03f2405c2b7d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-CJtSYjYcSXT5oRd1ow6Uo0ZLIsDjGKTB683oiDhNRg",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
+            "type": "vless",
+            "server": "91.107.254.202",
+            "server_port": 2096,
+            "uuid": "a20a281b-7f72-42e7-a1fd-73ed063c5681",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "firebase.googleapis.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sPEQ8mlkuJQsGrMZux2g9EmXKztuXHwnyORJPwwznDQ",
+                    "short_id": "a0e13102"
                 }
             }
         },

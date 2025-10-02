@@ -92,6 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
@@ -123,6 +125,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
@@ -228,6 +232,38 @@
                     "Host": "127.0.0.1"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "91.107.254.202",
+            "server_port": 2096,
+            "uuid": "a20a281b-7f72-42e7-a1fd-73ed063c5681",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "firebase.googleapis.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sPEQ8mlkuJQsGrMZux2g9EmXKztuXHwnyORJPwwznDQ",
+                    "short_id": "a0e13102"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "9af1a849-452a-4468-ade3-900fd5aafef2",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
