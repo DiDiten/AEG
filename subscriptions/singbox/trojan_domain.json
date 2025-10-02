@@ -101,6 +101,7 @@
                 "🚩 CF | 🔒 TROJAN | @falcunargo [9]",
                 "🇺🇸 US | 🔒 TROJAN | @free4allvpn [14]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
@@ -112,6 +113,7 @@
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🚩 CF | 🔒 TROJAN | @v2ray_sub [77]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [17]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -143,6 +145,7 @@
                 "🚩 CF | 🔒 TROJAN | @falcunargo [9]",
                 "🇺🇸 US | 🔒 TROJAN | @free4allvpn [14]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [4]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
@@ -154,6 +157,7 @@
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🚩 CF | 🔒 TROJAN | @v2ray_sub [77]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [17]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -413,6 +417,29 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "meti-u9d.pages.dev",
+            "server_port": 443,
+            "password": "1187ba87-8ebc-4a07-aa89-b331ed2cb356",
+            "tls": {
+                "enabled": true,
+                "server_name": "meti-u9d.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram@V2ray_Alpha/?ed=2560",
+                "headers": {
+                    "Host": "meti-u9d.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
             "type": "trojan",
             "server": "art1.history-paint.art",
@@ -639,6 +666,29 @@
                 "path": "/hishhhh123",
                 "headers": {
                     "Host": "mooshali.arshiacomplus.dpdns.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [17]",
+            "type": "trojan",
+            "server": "creativecommons.org",
+            "server_port": 443,
+            "password": "biOrJGlcfX",
+            "tls": {
+                "enabled": true,
+                "server_name": "ghasem.kotlet.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/kos-madaret-khamneii",
+                "headers": {
+                    "Host": "ghasem.kotlet.org"
                 }
             }
         },
