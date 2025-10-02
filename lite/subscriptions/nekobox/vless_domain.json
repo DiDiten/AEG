@@ -112,9 +112,10 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [24]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [11]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [10]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [13]",
-                "🇩🇪 DE | 🔓 VLESS | @free1_vpn [12]",
+                "❔ XX | 🔓 VLESS | @free1_vpn [11]",
+                "🚩 CF | 🔒 VLESS | @free1_vpn [12]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -259,6 +260,7 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
@@ -340,9 +342,10 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [24]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [11]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [10]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [13]",
-                "🇩🇪 DE | 🔓 VLESS | @free1_vpn [12]",
+                "❔ XX | 🔓 VLESS | @free1_vpn [11]",
+                "🚩 CF | 🔒 VLESS | @free1_vpn [12]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -487,6 +490,7 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
                 "❔ XX | 🔒 VLESS | @v2rayng_my2 [2]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
@@ -1181,7 +1185,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [11]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [10]",
             "type": "vless",
             "server": "services.dissertationhelpspecialist.com",
             "server_port": 443,
@@ -1233,13 +1237,38 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @free1_vpn [12]",
+            "tag": "❔ XX | 🔓 VLESS | @free1_vpn [11]",
             "type": "vless",
             "server": "ucj3xy12fic116ixrq0m.appcity-download.ir",
             "server_port": 17337,
             "uuid": "21441ba7-8364-496c-d43b-39fc7f9cb8d7",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @free1_vpn [12]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "d2952db0-0379-4f1b-9c31-fe08c3ca1ea5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "q1b76bfzaye07ha7v7ed.armin-host.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/mahdi_383ir",
+                "headers": {
+                    "Host": "q1b76bfzaye07ha7v7ed.armin-host.com"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
@@ -3672,6 +3701,29 @@
                 "path": "/?ed=2048",
                 "headers": {
                     "Host": "xjp.caball.link"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
+            "type": "vless",
+            "server": "fast7.hvitrin.ir",
+            "server_port": 48769,
+            "uuid": "f8806934-15d7-4194-9c35-ec7a140bb6f6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7nXyxyyn6fSlJzPO1DFmIEUV8LAmoP58-_1zP_MKo2E",
+                    "short_id": "177f438f"
                 }
             }
         },
