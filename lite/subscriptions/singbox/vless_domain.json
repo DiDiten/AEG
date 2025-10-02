@@ -102,8 +102,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [20]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
+                "🚩 CF | 🔒 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [61]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -182,8 +182,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
-                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [17]",
-                "🚩 CF | 🔒 VLESS | @manzariyeh_rasht [18]",
+                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [16]",
                 "❔ XX | 🔓 VLESS | @mastervpnshop1 [17]",
                 "❔ XX | 🔒 VLESS | @mastervpnshop1 [18]",
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [1]",
@@ -333,8 +332,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [20]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
+                "🚩 CF | 🔒 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [61]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -413,8 +412,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
-                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [17]",
-                "🚩 CF | 🔒 VLESS | @manzariyeh_rasht [18]",
+                "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [16]",
                 "❔ XX | 🔓 VLESS | @mastervpnshop1 [17]",
                 "❔ XX | 🔒 VLESS | @mastervpnshop1 [18]",
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [1]",
@@ -803,6 +801,31 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @bored_vpn [11]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "telegram-id-Arfilter",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "w.pdri.blog",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
+                "headers": {
+                    "Host": "w.pdri.blog"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
             "type": "vless",
             "server": "telegram.cloudsnapbot.tech",
@@ -827,31 +850,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [61]",
-            "type": "vless",
-            "server": "visa.com",
-            "server_port": 443,
-            "uuid": "d6b8011a-c725-435a-9fec-bf6d3530392c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vle.amclubsvip.dpdns.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?prot_type=vless",
-                "headers": {
-                    "Host": "vle.amclubsvip.dpdns.org"
-                }
             }
         },
         {
@@ -2163,7 +2161,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [17]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [16]",
             "type": "vless",
             "server": "fast7.hvitrin.ir",
             "server_port": 48769,
@@ -2182,31 +2180,6 @@
                     "enabled": true,
                     "public_key": "7nXyxyyn6fSlJzPO1DFmIEUV8LAmoP58-_1zP_MKo2E",
                     "short_id": "177f438f"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @manzariyeh_rasht [18]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "telegram-id-Arfilter",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "w.pdri.blog",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
-                "headers": {
-                    "Host": "w.pdri.blog"
                 }
             }
         },
