@@ -170,8 +170,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇦🇹 AT | 🔒 VLESS | @v2raych [9]",
-                "🇨🇭 CH | 🔒 VLESS | @v2raych [14]",
+                "🇨🇦 CA | 🔒 VLESS | @v2raych [14]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [16]",
+                "🇰🇿 KZ | 🔒 VLESS | @v2raych [17]",
+                "🇦🇲 AM | 🔒 VLESS | @v2raych [19]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -307,8 +309,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇦🇹 AT | 🔒 VLESS | @v2raych [9]",
-                "🇨🇭 CH | 🔒 VLESS | @v2raych [14]",
+                "🇨🇦 CA | 🔒 VLESS | @v2raych [14]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [16]",
+                "🇰🇿 KZ | 🔒 VLESS | @v2raych [17]",
+                "🇦🇲 AM | 🔒 VLESS | @v2raych [19]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -2587,9 +2591,32 @@
             }
         },
         {
-            "tag": "🇦🇹 AT | 🔒 VLESS | @v2raych [9]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @v2raych [14]",
             "type": "vless",
-            "server": "94.228.169.221",
+            "server": "192.99.219.120",
+            "server_port": 40031,
+            "uuid": "bd235967-bc87-48c9-b63b-8f2b5be17946",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "s-USVtDmGcodwPKA0nxUNIZu00EvHQcuKmRuXAHFcQg",
+                    "short_id": "b50961503a702b"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [16]",
+            "type": "vless",
+            "server": "77.110.114.1",
             "server_port": 8080,
             "uuid": "1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37",
             "flow": "xtls-rprx-vision",
@@ -2610,9 +2637,32 @@
             }
         },
         {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @v2raych [14]",
+            "tag": "🇰🇿 KZ | 🔒 VLESS | @v2raych [17]",
             "type": "vless",
-            "server": "45.95.232.10",
+            "server": "38.107.234.93",
+            "server_port": 8080,
+            "uuid": "1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yandex.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs",
+                    "short_id": "27cfa05000c23cc4"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇲 AM | 🔒 VLESS | @v2raych [19]",
+            "type": "vless",
+            "server": "45.129.185.249",
             "server_port": 8080,
             "uuid": "1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37",
             "flow": "xtls-rprx-vision",
