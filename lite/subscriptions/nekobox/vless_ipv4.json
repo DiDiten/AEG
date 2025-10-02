@@ -86,7 +86,7 @@
                 "🇧🇪 BE | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [32]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [39]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -247,7 +247,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [14]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [15]",
-                "🇫🇷 FR | 🔒 VLESS | @vlessconfig [16]",
+                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
                 "🚩 CF | 🔒 VLESS | @vmessorg [8]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [18]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
@@ -273,7 +273,7 @@
                 "🇧🇪 BE | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [32]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [39]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -434,7 +434,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [14]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [15]",
-                "🇫🇷 FR | 🔒 VLESS | @vlessconfig [16]",
+                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
                 "🚩 CF | 🔒 VLESS | @vmessorg [8]",
                 "🚩 CF | 🔒 VLESS | @vpn_ioss [18]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
@@ -649,25 +649,27 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [32]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [39]",
             "type": "vless",
-            "server": "62.60.233.30",
+            "server": "172.232.167.247",
             "server_port": 443,
-            "uuid": "8377aac9-f3b3-42df-a5ea-9254f37e7b34",
-            "flow": "xtls-rprx-vision",
+            "uuid": "c7c05fa1-9e3b-4a6b-8c7d-2e9f0a1b2c3d",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "tr.eu-ffast.com",
+                "server_name": "cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-                    "short_id": "50"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "cloudflare.com"
                 }
             }
         },
@@ -3414,7 +3416,7 @@
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @vlessconfig [14]",
             "type": "vless",
-            "server": "15.188.176.243",
+            "server": "15.188.113.139",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -3439,7 +3441,7 @@
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @vlessconfig [15]",
             "type": "vless",
-            "server": "15.188.113.139",
+            "server": "15.237.235.80",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -3462,9 +3464,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vlessconfig [16]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
             "type": "vless",
-            "server": "15.237.235.80",
+            "server": "3.123.174.23",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
