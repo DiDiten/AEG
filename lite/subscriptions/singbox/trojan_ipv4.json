@@ -93,6 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 TROJAN | @hope_net [19]",
+                "🇸🇪 SE | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
@@ -115,6 +116,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 TROJAN | @hope_net [19]",
+                "🇸🇪 SE | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
@@ -214,12 +216,12 @@
         {
             "tag": "🚩 CF | 🔒 TROJAN | @hope_net [19]",
             "type": "trojan",
-            "server": "104.20.21.152",
+            "server": "172.66.44.86",
             "server_port": 443,
             "password": "auto",
             "tls": {
                 "enabled": true,
-                "server_name": "b96ef9ae.trojanfree-76s.pages.dev",
+                "server_name": "trojanfree-76s.pages.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -228,9 +230,25 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/b96ef9ae.trojanfree-76s.pages.dev/",
+                "path": "/trojanfree-76s.pages.dev/?ed=2560",
                 "headers": {
-                    "Host": "b96ef9ae.trojanfree-76s.pages.dev"
+                    "Host": "trojanfree-76s.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "16.16.114.239",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

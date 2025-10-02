@@ -95,8 +95,10 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [91]",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [100]",
+                "🇹🇼 TW | 🔒 VLESS | @config_proxy [51]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [54]",
+                "🇷🇴 RO | 🔒 VLESS | @config_proxy [59]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -227,8 +229,10 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [91]",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [100]",
+                "🇹🇼 TW | 🔒 VLESS | @config_proxy [51]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [54]",
+                "🇷🇴 RO | 🔒 VLESS | @config_proxy [59]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -501,7 +505,30 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [91]",
+            "tag": "🇹🇼 TW | 🔒 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "1.168.161.195",
+            "server_port": 10204,
+            "uuid": "89b90001-4206-4871-a99d-1744d48f215b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn-dynmedia-1.microsoft.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7BVzXFI-E3LoOVqrT_LNe4VJ9DFYb0lGflNdTzpOZT8",
+                    "short_id": "bdf6b55f"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [54]",
             "type": "vless",
             "server": "188.225.81.91",
             "server_port": 443,
@@ -524,11 +551,34 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [100]",
+            "tag": "🇷🇴 RO | 🔒 VLESS | @config_proxy [59]",
             "type": "vless",
-            "server": "103.253.43.210",
+            "server": "31.6.1.187",
+            "server_port": 27229,
+            "uuid": "a329554c-1c31-4b71-9370-435bf204184d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "31.6.1.187",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1_vS_JKpOvJnqPUDyaREbXWd5M59bIIKsNyV5Kt0uD8",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "95.164.68.37",
             "server_port": 8443,
-            "uuid": "c9f1642a-f49e-423b-be1e-b02783fa9bd2",
+            "uuid": "61fe734a-d0cf-489c-be7e-c3f7a94bc5f4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -541,7 +591,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "5hKDqL2dBu7jbCfC_xW5omNEGUzPme8qF4mJOrXuHGY",
+                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
                     "short_id": ""
                 }
             }
