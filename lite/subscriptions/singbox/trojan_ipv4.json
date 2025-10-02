@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
                 "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
@@ -104,7 +105,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [17]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [18]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [19]",
-                "🚩 CF | 🔒 TROJAN | @vmesc [20]"
+                "🚩 CF | 🔒 TROJAN | @vmesc [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -115,6 +116,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
                 "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
@@ -127,7 +129,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @v2rayvpnchannel [17]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [18]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayvpnchannel [19]",
-                "🚩 CF | 🔒 TROJAN | @vmesc [20]"
+                "🚩 CF | 🔒 TROJAN | @vmesc [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -214,7 +216,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "104.17.147.22",
             "server_port": 2095,
@@ -224,6 +226,22 @@
                 "path": "/",
                 "headers": {
                     "Host": "104.17.147.22"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "104.16.144.63",
+            "server_port": 443,
+            "password": "blue2024",
+            "tls": {
+                "enabled": true,
+                "server_name": "ta.promote.icu",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -404,7 +422,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @vmesc [20]",
+            "tag": "🚩 CF | 🔒 TROJAN | @vmesc [19]",
             "type": "trojan",
             "server": "172.67.168.193",
             "server_port": 443,
