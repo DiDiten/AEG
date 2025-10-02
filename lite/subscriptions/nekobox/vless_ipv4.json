@@ -86,8 +86,8 @@
                 "🇧🇪 BE | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [32]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -231,8 +231,8 @@
                 "🚩 CF | 🔒 VLESS | @v2raymelliii [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayng3 [9]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayng3 [10]",
-                "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
+                "🇫🇷 FR | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇸🇪 SE | 🔓 VLESS | @v2rayngseven [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
                 "🇸🇪 SE | 🔓 VLESS | @v2rayngseven [14]",
@@ -274,8 +274,8 @@
                 "🇧🇪 BE | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [32]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -419,8 +419,8 @@
                 "🚩 CF | 🔒 VLESS | @v2raymelliii [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayng3 [9]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayng3 [10]",
-                "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
                 "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
+                "🇫🇷 FR | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇸🇪 SE | 🔓 VLESS | @v2rayngseven [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
                 "🇸🇪 SE | 🔓 VLESS | @v2rayngseven [14]",
@@ -651,48 +651,28 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [32]",
             "type": "vless",
-            "server": "80.74.29.212",
-            "server_port": 8443,
-            "uuid": "bfacef44-a5b8-4ac8-accb-524c776594cb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA",
-                    "short_id": ""
-                }
-            }
+            "server": "79.127.70.122",
+            "server_port": 8080,
+            "uuid": "23c0367c-6da7-494b-90e7-697816be5a46",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [39]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
             "type": "vless",
-            "server": "172.66.213.38",
-            "server_port": 2087,
-            "uuid": "bc5ae0b5-ea51-4255-911d-a836c3ec8808",
+            "server": "151.101.130.219",
+            "server_port": 80,
+            "uuid": "cbc4a22f-8e41-4c18-c33e-bad6df09d21a",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "g4.ferdowsi.shop",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
+                "type": "ws",
+                "path": "/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048",
+                "headers": {
+                    "Host": "151.101.130.219"
+                }
             }
         },
         {
@@ -3172,31 +3152,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [10]",
-            "type": "vless",
-            "server": "172.66.40.99",
-            "server_port": 443,
-            "uuid": "b087edf1-4da7-4379-9485-352f483be71f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net.google.com.bing.com.yahoo.com.pubgmobile.dns-dynamic.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048",
-                "headers": {
-                    "Host": "www.speedtest.net.google.com.bing.com.yahoo.com.pubgmobile.dns-dynamic.net"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayngconfiig [12]",
             "type": "vless",
             "server": "104.18.36.24",
@@ -3219,6 +3174,19 @@
                 "headers": {
                     "Host": "carlotta.shoorekeeper.cloudns.org"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VLESS | @v2rayngconfiig [13]",
+            "type": "vless",
+            "server": "152.228.242.123",
+            "server_port": 27236,
+            "uuid": "859e3599-42c2-4e7e-8f8e-f96b764db26f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
             }
         },
         {

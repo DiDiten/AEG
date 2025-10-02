@@ -119,10 +119,10 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [35]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [38]",
-                "🇫🇮 FI | 🔓 VLESS | @config_proxy [41]",
+                "❔ XX | 🔓 VLESS | @config_proxy [26]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [28]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [29]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [33]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -589,6 +589,8 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [1]",
+                "🇬🇧 GB | 🔓 VLESS | @v2raych [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [1]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
@@ -749,10 +751,10 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [18]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [35]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [38]",
-                "🇫🇮 FI | 🔓 VLESS | @config_proxy [41]",
+                "❔ XX | 🔓 VLESS | @config_proxy [26]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [28]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [29]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [33]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1219,6 +1221,8 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [1]",
+                "🇬🇧 GB | 🔓 VLESS | @v2raych [2]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [1]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
@@ -1939,54 +1943,45 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [33]",
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [26]",
             "type": "vless",
-            "server": "live.theworldwidewolf.com",
-            "server_port": 80,
-            "uuid": "cf6b1d73-a4df-4340-89e3-4daea8d8138c",
+            "server": "s1.cpanel1.sbs",
+            "server_port": 20145,
+            "uuid": "2bb5fce8-5d6f-4e56-87cd-24da82eae3d4",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [35]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [28]",
             "type": "vless",
-            "server": "nkang2replace.airlineshoma.com",
-            "server_port": 443,
-            "uuid": "b754b53a-aaf5-475c-eeed-46806c2aa63f",
+            "server": "m61a.vip784.com",
+            "server_port": 33801,
+            "uuid": "cc3afbee-5a0c-475e-85a0-fcb15236e2f7",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [29]",
+            "type": "vless",
+            "server": "hgold.youirme.com",
+            "server_port": 2052,
+            "uuid": "6ba449e7-b9bf-4dc8-8c89-614bbef5b9fe",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nkang2replace.airlineshoma.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "nkang2replace.airlineshoma.com"
+                    "Host": "hgold.youirme.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [38]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [33]",
             "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "b3d62a62-264e-44e8-af2a-759d455de4f2",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @config_proxy [41]",
-            "type": "vless",
-            "server": "panelaf.dnsline.top",
-            "server_port": 55522,
-            "uuid": "66185905-e3f9-4822-ba31-f46d3e6539f3",
+            "server": "hgold.youirme.com",
+            "server_port": 2052,
+            "uuid": "6ba449e7-b9bf-4dc8-8c89-614bbef5b9fe",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -10031,6 +10026,24 @@
                     "Host": "xjp.caball.link"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [1]",
+            "type": "vless",
+            "server": "ucj3xy12fic116ixrq0m.appcity-download.ir",
+            "server_port": 17337,
+            "uuid": "21441ba7-8364-496c-d43b-39fc7f9cb8d7",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 VLESS | @v2raych [2]",
+            "type": "vless",
+            "server": "m21a.vip784.com",
+            "server_port": 33801,
+            "uuid": "750c5087-ca8d-4878-a30a-15bc8bbadfac",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2raying [1]",
