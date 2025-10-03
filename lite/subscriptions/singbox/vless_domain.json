@@ -104,7 +104,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔒 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇮 FI | 🔓 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -127,7 +126,6 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [24]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [9]",
-                "🚩 CF | 🔒 VLESS | @flyv2ray [13]",
                 "❔ XX | 🔓 VLESS | @free1_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @free1_vpn [11]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
@@ -247,6 +245,7 @@
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🚩 CF | 🔓 VLESS | @satellitenewspersian [19]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
+                "🚩 CF | 🔒 VLESS | @selinc [4]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [9]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [10]",
                 "🚩 CF | 🔒 VLESS | @shadowsocksshop [1]",
@@ -334,7 +333,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔒 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇮 FI | 🔓 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -357,7 +355,6 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [24]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [9]",
-                "🚩 CF | 🔒 VLESS | @flyv2ray [13]",
                 "❔ XX | 🔓 VLESS | @free1_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @free1_vpn [11]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
@@ -477,6 +474,7 @@
                 "❔ XX | 🔒 VLESS | @rezaw_server [2]",
                 "🚩 CF | 🔓 VLESS | @satellitenewspersian [19]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
+                "🚩 CF | 🔒 VLESS | @selinc [4]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [9]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [10]",
                 "🚩 CF | 🔒 VLESS | @shadowsocksshop [1]",
@@ -851,15 +849,6 @@
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
             }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @config_proxy [47]",
-            "type": "vless",
-            "server": "panelaf.dnsline.top",
-            "server_port": 55522,
-            "uuid": "66185905-e3f9-4822-ba31-f46d3e6539f3",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -1251,31 +1240,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @flyv2ray [13]",
-            "type": "vless",
-            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-            "server_port": 443,
-            "uuid": "88538870-5626-4cd7-9cda-1e0b6253c9ce",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mooz.rtxiran.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "mooz.rtxiran.info"
-                }
             }
         },
         {
@@ -3314,6 +3278,31 @@
                     "enabled": true,
                     "public_key": "rBXjuQ9eGNAUtELw1KFOMH7Aq0Q2t3RqcbdPcddYyTk",
                     "short_id": "69"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @selinc [4]",
+            "type": "vless",
+            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+            "server_port": 443,
+            "uuid": "88538870-5626-4cd7-9cda-1e0b6253c9ce",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mooz.rtxiran.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "mooz.rtxiran.info"
                 }
             }
         },

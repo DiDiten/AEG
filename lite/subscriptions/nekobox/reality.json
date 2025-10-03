@@ -116,6 +116,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [56]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -129,7 +130,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇫🇷 FR | 🔒 VLESS | @mowjproxy [3]",
+                "🇫🇷 FR | 🔒 VLESS | @mowjproxy [2]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [11]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
@@ -197,6 +198,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [56]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -210,7 +212,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇫🇷 FR | 🔒 VLESS | @mowjproxy [3]",
+                "🇫🇷 FR | 🔒 VLESS | @mowjproxy [2]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [11]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
@@ -1202,6 +1204,29 @@
             }
         },
         {
+            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "62.60.233.30",
+            "server_port": 443,
+            "uuid": "8377aac9-f3b3-42df-a5ea-9254f37e7b34",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tr.eu-ffast.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+                    "short_id": "50"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -1513,7 +1538,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @mowjproxy [3]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @mowjproxy [2]",
             "type": "vless",
             "server": "51.210.167.123",
             "server_port": 443,
