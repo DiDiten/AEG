@@ -178,13 +178,11 @@
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🚩 CF | 🔓 VLESS | @melov2ray [9]",
-                "🚩 CF | 🔒 VLESS | @mimitdl [2]",
-                "🇩🇪 DE | 🔓 VLESS | @mimitdl [3]",
+                "🇩🇪 DE | 🔓 VLESS | @mimitdl [4]",
                 "🚩 CF | 🔒 VLESS | @miov2ray [10]",
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
-                "🇦🇪 AE | 🔓 VLESS | @mowjproxy [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -220,7 +218,7 @@
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [155]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [147]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
@@ -250,6 +248,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇸🇪 SE | 🔓 VLESS | @turboo_server [11]",
                 "🇵🇱 PL | 🔓 VLESS | @turboo_server [12]",
+                "🇦🇪 AE | 🔓 VLESS | @turboo_server [13]",
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
@@ -407,13 +406,11 @@
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
                 "🚩 CF | 🔓 VLESS | @melov2ray [9]",
-                "🚩 CF | 🔒 VLESS | @mimitdl [2]",
-                "🇩🇪 DE | 🔓 VLESS | @mimitdl [3]",
+                "🇩🇪 DE | 🔓 VLESS | @mimitdl [4]",
                 "🚩 CF | 🔒 VLESS | @miov2ray [10]",
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
-                "🇦🇪 AE | 🔓 VLESS | @mowjproxy [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -449,7 +446,7 @@
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [155]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [147]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
@@ -479,6 +476,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇸🇪 SE | 🔓 VLESS | @turboo_server [11]",
                 "🇵🇱 PL | 🔓 VLESS | @turboo_server [12]",
+                "🇦🇪 AE | 🔓 VLESS | @turboo_server [13]",
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
@@ -2271,36 +2269,11 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @mimitdl [2]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "8d10333a-edf2-4475-a2d9-176a30fdf44a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "dl-pack.motionbetter.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=1024",
-                "headers": {
-                    "Host": "dl-pack.motionbetter.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @mimitdl [3]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @mimitdl [4]",
             "type": "vless",
             "server": "khabar.motionbetter.ir",
             "server_port": 20854,
-            "uuid": "5b9fb1fe-f919-426b-863c-55a5d9139e0e",
+            "uuid": "5b9fb1fe-f919-426b-763c-55a5d9139e0e",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -2355,22 +2328,6 @@
             "uuid": "d0f30d61-4a72-4640-8267-24f4afeb1b37",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇦🇪 AE | 🔓 VLESS | @mowjproxy [3]",
-            "type": "vless",
-            "server": "dubi.fast-turbooserver.com",
-            "server_port": 8443,
-            "uuid": "turboo-server",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "dubi.fast-turbooserver.com"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
@@ -3027,7 +2984,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [155]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [147]",
             "type": "vless",
             "server": "vfast7.hvitrin.ir",
             "server_port": 49330,
@@ -3529,6 +3486,22 @@
                 "path": "/Turboo-Server",
                 "headers": {
                     "Host": "jone1.fast-turbooserver.com"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇪 AE | 🔓 VLESS | @turboo_server [13]",
+            "type": "vless",
+            "server": "dubi.fast-turbooserver.com",
+            "server_port": 8443,
+            "uuid": "turboo-server",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "dubi.fast-turbooserver.com"
                 }
             }
         },
