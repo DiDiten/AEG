@@ -92,8 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @config_proxy [49]",
-                "❔ XX | 🔒 VLESS | @config_proxy [54]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -107,7 +105,7 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [4]",
                 "❔ XX | 🔓 VLESS | @parsashonam [8]",
-                "❔ XX | 🔒 VLESS | @v2raych [16]",
+                "❔ XX | 🔒 VLESS | @v2raych [8]",
                 "❔ XX | 🔓 VLESS | @v2raytg [58]"
             ],
             "tag": "proxy",
@@ -119,8 +117,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @config_proxy [49]",
-                "❔ XX | 🔒 VLESS | @config_proxy [54]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [4]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -134,7 +130,7 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [4]",
                 "❔ XX | 🔓 VLESS | @parsashonam [8]",
-                "❔ XX | 🔒 VLESS | @v2raych [16]",
+                "❔ XX | 🔒 VLESS | @v2raych [8]",
                 "❔ XX | 🔓 VLESS | @v2raytg [58]"
             ],
             "tag": "auto",
@@ -218,54 +214,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [49]",
-            "type": "vless",
-            "server": "[2606:4700:3036:6ed4:e1ed:36:8916:dace]",
-            "server_port": 443,
-            "uuid": "c28d35ee-020c-443c-acea-b1e153aab9f1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sni.aizrf.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000",
-                "headers": {
-                    "Host": "sni.aizrf.com"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [54]",
-            "type": "vless",
-            "server": "[2a03:b0c0:3:f0:0:1:4139:b000]",
-            "server_port": 9696,
-            "uuid": "bcc560e0-173b-4c49-a4ce-742c3fae0028",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "icloud.cdn-apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Y_GsfLRoTP6SXIyYQjrn8TM_nce7Y9RIoEfWTJ35sGI",
-                    "short_id": ""
                 }
             }
         },
@@ -478,7 +426,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @v2raych [16]",
+            "tag": "❔ XX | 🔒 VLESS | @v2raych [8]",
             "type": "vless",
             "server": "[2400:6180:0:d2:0:2:3c54:d000]",
             "server_port": 25288,

@@ -150,7 +150,8 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
+                "🇨🇦 CA | 🔒 VLESS | @v2raych [15]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [16]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
@@ -253,7 +254,8 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
+                "🇨🇦 CA | 🔒 VLESS | @v2raych [15]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [16]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
@@ -1811,25 +1813,48 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [6]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @v2raych [15]",
             "type": "vless",
-            "server": "vfast7.hvitrin.ir",
-            "server_port": 49330,
-            "uuid": "ac7b6757-05c0-4a28-8b08-14ab496a5fe4",
+            "server": "www-cn.svnmobile.com",
+            "server_port": 443,
+            "uuid": "7d810ea1-7b3c-41f3-a8f1-fa72355ffdd5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "miro.com",
+                "server_name": "tgju.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Dee9YE139lZpb4V3QytB8DvHY3nTCnEXzk2IjvMLHi8",
-                    "short_id": "b3"
+                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
+                    "short_id": "e54b5ad736ae4c38"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [16]",
+            "type": "vless",
+            "server": "www-gm.svnmobile.com",
+            "server_port": 443,
+            "uuid": "7d810ea1-7b3c-41f3-a8f1-fa72355ffdd5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
+                    "short_id": "e54b5ad736ae4c38"
                 }
             }
         },
