@@ -85,7 +85,7 @@
                 "🇧🇪 BE | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [57]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [47]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -129,7 +129,6 @@
                 "🇺🇸 US | 🔒 VLESS | @grizzlyvpn [11]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔒 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
@@ -273,7 +272,7 @@
                 "🇧🇪 BE | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [57]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [47]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -317,7 +316,6 @@
                 "🇺🇸 US | 🔒 VLESS | @grizzlyvpn [11]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔒 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
@@ -633,16 +631,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [57]",
+            "tag": "🇱🇹 LT | 🔒 VLESS | @config_proxy [47]",
             "type": "vless",
-            "server": "172.67.187.114",
-            "server_port": 443,
-            "uuid": "8250d638-45df-41fa-b06f-160d1cb1de0c",
+            "server": "88.216.69.54",
+            "server_port": 2096,
+            "uuid": "12345678-1234-1234-1234-123456789123",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "abc.vpneee.top",
+                "server_name": "sni.aizrf.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -651,9 +649,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/YnqGMcAt/",
+                "path": "/snippets",
                 "headers": {
-                    "Host": "abc.vpneee.top"
+                    "Host": "sni.aizrf.com"
                 }
             }
         },
@@ -1440,31 +1438,6 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @hope_net [18]",
-            "type": "vless",
-            "server": "162.159.32.35",
-            "server_port": 443,
-            "uuid": "c2b93f02-b158-405f-a7ee-4e3ce680ac61",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "xxx.66500-280b-471c-b2b8-d68b7f9960009.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2048",
-                "headers": {
-                    "Host": "xxx.66500-280b-471c-b2b8-d68b7f9960009.workers.dev"
                 }
             }
         },

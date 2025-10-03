@@ -121,8 +121,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔒 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [45]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [46]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -585,7 +583,7 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [13]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [7]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [1]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
@@ -744,8 +742,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔒 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [45]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [46]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1208,7 +1204,7 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [13]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [7]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raying [1]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayng_my2 [1]",
@@ -1972,49 +1968,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [45]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2053,
-            "uuid": "08cb0591-5193-4a0c-9105-ceb09fba67fe",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "GevAi-93983.phoenixappdatad.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "GevAi-93983.phoenixappdatad.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [46]",
-            "type": "vless",
-            "server": "sss85976.tas-bazi.com",
-            "server_port": 443,
-            "uuid": "3bd2d87e-58ff-46e3-935e-ce53ed227a7e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sss85976.tas-bazi.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
@@ -10029,7 +9982,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [13]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [7]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
