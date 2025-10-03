@@ -124,8 +124,9 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @mowjproxy [3]",
-                "🇳🇱 NL | 🔓 VMESS | @mowjproxy [5]",
+                "🇳🇱 NL | 🔓 VMESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇫🇷 FR | 🔒 VMESS | @netfreedom0 [19]",
@@ -161,10 +162,11 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [5]",
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
-                "🇫🇮 FI | 🔓 VMESS | @v2rayopen [12]",
+                "🇫🇮 FI | 🔓 VMESS | @v2rayopen [11]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
-                "🇩🇪 DE | 🔓 VMESS | @vpnfail_v2ray [18]",
-                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [20]",
+                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [18]",
+                "🇬🇧 GB | 🔒 VMESS | @vpnfail_v2ray [19]",
+                "🇫🇷 FR | 🔓 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
@@ -223,8 +225,9 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @mowjproxy [3]",
-                "🇳🇱 NL | 🔓 VMESS | @mowjproxy [5]",
+                "🇳🇱 NL | 🔓 VMESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇫🇷 FR | 🔒 VMESS | @netfreedom0 [19]",
@@ -260,10 +263,11 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [5]",
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
-                "🇫🇮 FI | 🔓 VMESS | @v2rayopen [12]",
+                "🇫🇮 FI | 🔓 VMESS | @v2rayopen [11]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
-                "🇩🇪 DE | 🔓 VMESS | @vpnfail_v2ray [18]",
-                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [20]",
+                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [18]",
+                "🇬🇧 GB | 🔒 VMESS | @vpnfail_v2ray [19]",
+                "🇫🇷 FR | 🔓 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
@@ -1049,6 +1053,31 @@
             "alter_id": 0
         },
         {
+            "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [2]",
+            "type": "vmess",
+            "server": "104.17.148.22",
+            "server_port": 2083,
+            "uuid": "8ae65664-84e8-40e1-9708-9236f0808dfd",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "api3.waltonweb.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/panel?ed=2560",
+                "headers": {
+                    "Host": "api3.waltonweb.ir"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VMESS | @mowjproxy [3]",
             "type": "vmess",
             "server": "209.126.84.189",
@@ -1074,7 +1103,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VMESS | @mowjproxy [5]",
+            "tag": "🇳🇱 NL | 🔓 VMESS | @mowjproxy [4]",
             "type": "vmess",
             "server": "2001:bc8:32d7:302::10",
             "server_port": 44579,
@@ -1672,7 +1701,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VMESS | @v2rayopen [12]",
+            "tag": "🇫🇮 FI | 🔓 VMESS | @v2rayopen [11]",
             "type": "vmess",
             "server": "65.109.218.238",
             "server_port": 21639,
@@ -1690,32 +1719,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @vpnfail_v2ray [18]",
-            "type": "vmess",
-            "server": "57.129.28.63",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [20]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [18]",
             "type": "vmess",
             "server": "57.129.59.199",
             "server_port": 443,
@@ -1736,6 +1740,56 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "kampong.org"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VMESS | @vpnfail_v2ray [19]",
+            "type": "vmess",
+            "server": "57.128.189.143",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "lammaland.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "lammaland.org"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VMESS | @vpnfail_v2ray [20]",
+            "type": "vmess",
+            "server": "91.134.8.100",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
