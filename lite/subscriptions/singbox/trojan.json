@@ -99,8 +99,8 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🚩 CF | 🔒 TROJAN | @v2ray_sub [77]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
-                "❔ XX | 🔒 TROJAN | @hope_net [19]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [13]",
@@ -129,8 +129,8 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🚩 CF | 🔒 TROJAN | @v2ray_sub [77]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
-                "❔ XX | 🔒 TROJAN | @hope_net [19]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [19]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [13]",
@@ -370,23 +370,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @hope_net [19]",
-            "type": "trojan",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "password": "bcacaba-abac-cbaa-acdb-bcbccabaacab",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "162.159.152.231",
             "server_port": 443,
@@ -405,6 +389,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "vip.putata.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [19]",
+            "type": "trojan",
+            "server": "172.64.150.145",
+            "server_port": 443,
+            "password": "bpb-trojan",
+            "tls": {
+                "enabled": true,
+                "server_name": "mindrOOm-5cz.pAgEs.dEV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trC8BM8bTsAF0AnLYL?ed=2560",
+                "headers": {
+                    "Host": "mindrOOm-5cz.pAgEs.dEV"
                 }
             }
         },
