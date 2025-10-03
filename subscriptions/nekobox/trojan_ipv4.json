@@ -81,7 +81,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "❔ XX | 🔒 TROJAN | @hope_net [15]",
+                "❔ XX | 🔒 TROJAN | @hope_net [13]",
+                "🇫🇷 FR | 🔒 TROJAN | @hope_net [19]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -106,7 +107,10 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🚩 CF | 🔒 TROJAN | @v2raych [17]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [8]",
+                "🇬🇧 GB | 🔒 TROJAN | @v2raych [10]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [11]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [12]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -140,7 +144,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "❔ XX | 🔒 TROJAN | @hope_net [15]",
+                "❔ XX | 🔒 TROJAN | @hope_net [13]",
+                "🇫🇷 FR | 🔒 TROJAN | @hope_net [19]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -165,7 +170,10 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🚩 CF | 🔒 TROJAN | @v2raych [17]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [8]",
+                "🇬🇧 GB | 🔒 TROJAN | @v2raych [10]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [11]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [12]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -285,7 +293,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @hope_net [15]",
+            "tag": "❔ XX | 🔒 TROJAN | @hope_net [13]",
             "type": "trojan",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -293,6 +301,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @hope_net [19]",
+            "type": "trojan",
+            "server": "13.39.119.254",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -696,14 +720,14 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [17]",
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [8]",
             "type": "trojan",
-            "server": "198.41.220.16",
-            "server_port": 443,
-            "password": "b0b861c2c85346a389b9e95769c3cba4",
+            "server": "172.67.68.157",
+            "server_port": 8443,
+            "password": "6c0ed3fb-f0b0-5b53-a762-f8f8d832bdba",
             "tls": {
                 "enabled": true,
-                "server_name": "avianrecruit.com",
+                "server_name": "vfarid.xcdi.wORKERS.DEv",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -712,9 +736,71 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/6b777a91",
+                "path": "/trojan-ws/?ed=2048",
                 "headers": {
-                    "Host": "avianrecruit.com"
+                    "Host": "vfarid.xcdi.wORKERS.DEv"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 TROJAN | @v2raych [10]",
+            "type": "trojan",
+            "server": "3.10.161.140",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [11]",
+            "type": "trojan",
+            "server": "108.162.195.110",
+            "server_port": 443,
+            "password": "auto",
+            "tls": {
+                "enabled": true,
+                "server_name": "b96ef9ae.trojanfree-76s.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/b96ef9ae.trojanfree-76s.pages.dev/",
+                "headers": {
+                    "Host": "b96ef9ae.trojanfree-76s.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [12]",
+            "type": "trojan",
+            "server": "104.20.17.157",
+            "server_port": 443,
+            "password": "auto",
+            "tls": {
+                "enabled": true,
+                "server_name": "b96ef9ae.trojanfree-76s.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/b96ef9ae.trojanfree-76s.pages.dev/",
+                "headers": {
+                    "Host": "b96ef9ae.trojanfree-76s.pages.dev"
                 }
             }
         },
