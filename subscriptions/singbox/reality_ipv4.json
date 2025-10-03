@@ -95,7 +95,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [43]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -120,8 +121,8 @@
                 "🇺🇸 US | 🔒 VLESS | @frev2rayng [7]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [1]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann [3]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [5]",
                 "🇸🇪 SE | 🔒 VLESS | @goldenshiinevpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -225,7 +226,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [43]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -250,8 +252,8 @@
                 "🇺🇸 US | 🔒 VLESS | @frev2rayng [7]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
+                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [1]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann [3]",
-                "🇸🇪 SE | 🔒 VLESS | @ghalagyann [5]",
                 "🇸🇪 SE | 🔒 VLESS | @goldenshiinevpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -497,16 +499,16 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [43]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
             "type": "vless",
-            "server": "84.22.150.195",
-            "server_port": 8080,
-            "uuid": "1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37",
+            "server": "195.62.48.191",
+            "server_port": 443,
+            "uuid": "8377aac9-f3b3-42df-a5ea-9254f37e7b34",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "yandex.com",
+                "server_name": "de.eu-ffast.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -514,8 +516,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs",
-                    "short_id": "27cfa05000c23cc4"
+                    "public_key": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+                    "short_id": "50"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [59]",
+            "type": "vless",
+            "server": "18.224.20.124",
+            "server_port": 4433,
+            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
+                    "short_id": "f785b38130e64177"
                 }
             }
         },
@@ -1112,7 +1137,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann [3]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann [1]",
             "type": "vless",
             "server": "62.60.231.215",
             "server_port": 8880,
@@ -1135,7 +1160,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann [5]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @ghalagyann [3]",
             "type": "vless",
             "server": "62.60.231.215",
             "server_port": 8880,
