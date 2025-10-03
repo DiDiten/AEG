@@ -128,7 +128,6 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [56]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -142,7 +141,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇫🇷 FR | 🔒 VLESS | @mowjproxy [2]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [11]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
@@ -162,6 +160,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [12]",
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [13]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]"
             ],
@@ -210,7 +209,6 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [19]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [56]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -224,7 +222,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
-                "🇫🇷 FR | 🔒 VLESS | @mowjproxy [2]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [11]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
@@ -244,6 +241,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [12]",
+                "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [13]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]"
             ],
@@ -1212,29 +1210,6 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [56]",
-            "type": "vless",
-            "server": "62.60.233.30",
-            "server_port": 443,
-            "uuid": "8377aac9-f3b3-42df-a5ea-9254f37e7b34",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tr.eu-ffast.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-                    "short_id": "50"
-                }
-            }
-        },
-        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -1542,29 +1517,6 @@
                     "enabled": true,
                     "public_key": "W0BYEeLEqNRk8Bn2G27x5G9ALICJxePV6hxZG2A4Jmg",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @mowjproxy [2]",
-            "type": "vless",
-            "server": "51.210.167.123",
-            "server_port": 443,
-            "uuid": "7f75f70e-8d14-403b-9ec4-cad4b0836b8e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "HTmgtYAdc4266sqGG1zMSYcsMPJfWJfxgaJEKCMiFww",
-                    "short_id": "f8f87a"
                 }
             }
         },
@@ -1994,6 +1946,29 @@
             "tag": "🇫🇮 FI | 🔒 VLESS | @vpnplusee_free [12]",
             "type": "vless",
             "server": "65.109.202.202",
+            "server_port": 443,
+            "uuid": "7f75f70e-8d14-403b-9ec4-cad4b0836b8e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HTmgtYAdc4266sqGG1zMSYcsMPJfWJfxgaJEKCMiFww",
+                    "short_id": "f8f87a"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vpnplusee_free [13]",
+            "type": "vless",
+            "server": "51.210.167.123",
             "server_port": 443,
             "uuid": "7f75f70e-8d14-403b-9ec4-cad4b0836b8e",
             "flow": "xtls-rprx-vision",
