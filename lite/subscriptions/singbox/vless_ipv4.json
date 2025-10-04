@@ -97,8 +97,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [55]",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [56]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -116,8 +114,9 @@
                 "🇺🇸 US | 🔒 VLESS | @filterk0sh [26]",
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [27]",
                 "🚩 CF | 🔒 VLESS | @filtershekan_channel [11]",
-                "🚩 CF | 🔒 VLESS | @flyv2ray [13]",
-                "🇺🇸 US | 🔒 VLESS | @flyv2ray [14]",
+                "🇺🇸 US | 🔒 VLESS | @flyv2ray [13]",
+                "🚩 CF | 🔒 VLESS | @flyv2ray [14]",
+                "🚩 CF | 🔒 VLESS | @flyv2ray [15]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [9]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [10]",
                 "🚩 CF | 🔒 VLESS | @free1_vpn [8]",
@@ -144,7 +143,6 @@
                 "🇺🇸 US | 🔒 VLESS | @grizzlyvpn [11]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
@@ -283,8 +281,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [55]",
-                "🇭🇰 HK | 🔒 VLESS | @config_proxy [56]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -302,8 +298,9 @@
                 "🇺🇸 US | 🔒 VLESS | @filterk0sh [26]",
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [27]",
                 "🚩 CF | 🔒 VLESS | @filtershekan_channel [11]",
-                "🚩 CF | 🔒 VLESS | @flyv2ray [13]",
-                "🇺🇸 US | 🔒 VLESS | @flyv2ray [14]",
+                "🇺🇸 US | 🔒 VLESS | @flyv2ray [13]",
+                "🚩 CF | 🔒 VLESS | @flyv2ray [14]",
+                "🚩 CF | 🔒 VLESS | @flyv2ray [15]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [9]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [10]",
                 "🚩 CF | 🔒 VLESS | @free1_vpn [8]",
@@ -330,7 +327,6 @@
                 "🇺🇸 US | 🔒 VLESS | @grizzlyvpn [11]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [2]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
@@ -637,45 +633,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [55]",
-            "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 8880,
-            "uuid": "6ff8f0b0-6e64-4649-a5c8-f08613e64f41",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "104.17.148.22"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [56]",
-            "type": "vless",
-            "server": "103.253.43.210",
-            "server_port": 8443,
-            "uuid": "4eed6f6b-d28e-4a43-bb86-8576cf8fe671",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5hKDqL2dBu7jbCfC_xW5omNEGUzPme8qF4mJOrXuHGY",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -978,7 +935,32 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @flyv2ray [13]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @flyv2ray [13]",
+            "type": "vless",
+            "server": "192.0.54.32",
+            "server_port": 2096,
+            "uuid": "b65f4df7-f6af-42b2-877a-cef33f21675e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "kejiland.freewarp.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/snippets",
+                "headers": {
+                    "Host": "kejiland.freewarp.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @flyv2ray [14]",
             "type": "vless",
             "server": "162.159.152.205",
             "server_port": 443,
@@ -1003,16 +985,16 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @flyv2ray [14]",
+            "tag": "🚩 CF | 🔒 VLESS | @flyv2ray [15]",
             "type": "vless",
-            "server": "192.0.54.32",
-            "server_port": 2096,
-            "uuid": "b65f4df7-f6af-42b2-877a-cef33f21675e",
+            "server": "172.66.40.99",
+            "server_port": 8443,
+            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "kejiland.freewarp.eu.org",
+                "server_name": "D0dTpVg4Z3.sOlEnTrAa.InFo",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1021,9 +1003,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/snippets",
+                "path": "/",
                 "headers": {
-                    "Host": "kejiland.freewarp.eu.org"
+                    "Host": "D0dTpVg4Z3.sOlEnTrAa.InFo"
                 }
             }
         },
@@ -1503,22 +1485,6 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @hope_net [20]",
-            "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 8880,
-            "uuid": "422a47e4-6c20-4106-9a95-525ad6ab9ea7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/nazan/pedar/sag",
-                "headers": {
-                    "Host": "104.17.148.22"
                 }
             }
         },
