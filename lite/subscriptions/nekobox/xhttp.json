@@ -83,14 +83,14 @@
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🚩 CF | 🔓 VLESS | @kafing_2 [13]",
-                "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [18]",
+                "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [17]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
-                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇺🇸 US | 🔒 VLESS | @grizzlyvpn [11]",
+                "🇮🇪 IE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [75]",
@@ -123,14 +123,14 @@
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🚩 CF | 🔓 VLESS | @kafing_2 [13]",
-                "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [18]",
+                "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [17]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
-                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇺🇸 US | 🔒 VLESS | @grizzlyvpn [11]",
+                "🇮🇪 IE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [75]",
@@ -281,7 +281,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [18]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [17]",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 80,
@@ -349,29 +349,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [9]",
-            "type": "vless",
-            "server": "185.113.10.132",
-            "server_port": 8650,
-            "uuid": "39794dde-91a3-4219-9221-c231a0a18304",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YWbuHeDHnHpfJMPsAOIJOIeQgzfCK_47CjY7TbWA5hI",
-                    "short_id": "354b9cbe48"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
             "type": "vless",
             "server": "185.113.10.132",
@@ -414,6 +391,29 @@
                     "enabled": true,
                     "public_key": "jyX-pjSN3o_LphKC_496D45TtUf6zH50A0GLgxu-t3c",
                     "short_id": "f7"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇪 IE | 🔒 VLESS | @grizzlyvpn [12]",
+            "type": "vless",
+            "server": "185.197.182.18",
+            "server_port": 23590,
+            "uuid": "5cbd735a-b9f4-44a9-9e7a-818853b05ab2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uTgCcEmxWXISjCBvsZLBRGASA6ZM0sckmnlTtgqzOgE",
+                    "short_id": "ea5b1f87"
                 }
             }
         },
