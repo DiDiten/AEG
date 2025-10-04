@@ -96,8 +96,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔒 VLESS | @config_proxy [54]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [3]",
@@ -125,7 +126,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [14]",
-                "🇨🇭 CH | 🔒 VLESS | @manzariyeh_rasht [18]",
+                "❔ XX | 🔒 VLESS | @manzariyeh_rasht [18]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
                 "🇹🇷 TR | 🔒 VLESS | @netmellianti [8]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [9]",
@@ -152,7 +153,8 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "❔ XX | 🔒 VLESS | @v2raych [13]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [8]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [16]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
@@ -202,8 +204,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔒 VLESS | @config_proxy [54]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [3]",
@@ -231,7 +234,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @manzariyeh_rasht [14]",
-                "🇨🇭 CH | 🔒 VLESS | @manzariyeh_rasht [18]",
+                "❔ XX | 🔒 VLESS | @manzariyeh_rasht [18]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
                 "🇹🇷 TR | 🔒 VLESS | @netmellianti [8]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [9]",
@@ -258,7 +261,8 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "❔ XX | 🔒 VLESS | @v2raych [13]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [8]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [16]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
@@ -480,6 +484,29 @@
             }
         },
         {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "cdn1.bazicore.ir",
+            "server_port": 443,
+            "uuid": "5dda3a28-68e7-0afa-626d-d1d6f4ad4f71",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AUg2h16X8xP5s7tnkcDuyfX5CBV7WvCoY48OKhbtQyw",
+                    "short_id": "821bbc44dd7a4e15"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -503,7 +530,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
             "type": "vless",
             "server": "test.barayekhudam.ir",
             "server_port": 59697,
@@ -1206,7 +1233,7 @@
             }
         },
         {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @manzariyeh_rasht [18]",
+            "tag": "❔ XX | 🔒 VLESS | @manzariyeh_rasht [18]",
             "type": "vless",
             "server": "cdn1.bazicore.ir",
             "server_port": 443,
@@ -1855,30 +1882,49 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @v2raych [13]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [8]",
             "type": "vless",
-            "server": "rep.ger2.azinpsn.ir",
-            "server_port": 2689,
-            "uuid": "6291d1f6-c450-4b5e-b284-219e6c39765d",
+            "server": "nld20.freednet.org",
+            "server_port": 443,
+            "uuid": "aee5efa7-f605-476d-97ab-e8deee030dab",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "www.cybo.com¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
-                    "short_id": "b6c24852f86067a6"
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [16]",
+            "type": "vless",
+            "server": "nld20.freednet.org",
+            "server_port": 443,
+            "uuid": "aee5efa7-f605-476d-97ab-e8deee030dab",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cybo.comÂ¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
+                }
             }
         },
         {
