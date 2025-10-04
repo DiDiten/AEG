@@ -80,11 +80,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇴🇲 OM | 🔓 VLESS | @config_proxy [16]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [14]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [19]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [8]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann [1]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann [3]",
@@ -155,11 +155,11 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇴🇲 OM | 🔓 VLESS | @config_proxy [16]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [14]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [19]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [8]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann [1]",
                 "🇸🇪 SE | 🔒 VLESS | @ghalagyann [3]",
@@ -310,20 +310,34 @@
             }
         },
         {
-            "tag": "🇴🇲 OM | 🔓 VLESS | @config_proxy [16]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [14]",
             "type": "vless",
-            "server": "154.205.147.43",
-            "server_port": 443,
-            "uuid": "2420c965-0bc8-46f1-84c2-c184914cc754",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "ac15a258-fc53-431a-890a-26ef89a7f1ca",
             "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [19]",
+            "type": "vless",
+            "server": "165.227.150.75",
+            "server_port": 443,
+            "uuid": "12c19b9e-55a9-4b55-a454-29fa481891a8",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "154.205.147.43",
+                "server_name": "store.steampowered.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZbUaJYye4QnKFdw5vOcqk9x98bU-favdQQzpJK-drhc",
+                    "short_id": ""
                 }
             }
         },
@@ -355,21 +369,12 @@
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "b1a656b2-63fd-4f6d-a514-85bcb37161e0",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [6]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
             "uuid": "37c958df-4a1a-4cb1-bde8-ee77204dc663",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [8]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
