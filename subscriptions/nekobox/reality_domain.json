@@ -84,6 +84,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -99,8 +100,8 @@
                 "❔ XX | 🔒 VLESS | @evay_vpn [16]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [18]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [20]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [3]",
-                "🇫🇷 FR | 🔒 VLESS | @falcunargo [11]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [2]",
+                "🇫🇷 FR | 🔒 VLESS | @falcunargo [10]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
@@ -187,6 +188,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -202,8 +204,8 @@
                 "❔ XX | 🔒 VLESS | @evay_vpn [16]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [18]",
                 "❔ XX | 🔒 VLESS | @evay_vpn [20]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [3]",
-                "🇫🇷 FR | 🔒 VLESS | @falcunargo [11]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [2]",
+                "🇫🇷 FR | 🔒 VLESS | @falcunargo [10]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
@@ -463,6 +465,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
+            "type": "vless",
+            "server": "direct-jde6zos4zet26b15zzd1.appcity-download.ir",
+            "server_port": 22238,
+            "uuid": "5501f384-03b9-4dda-8d4c-4904e3fd7361",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ib18X4doEoBT6sBZC4OW3PWMWJpVuyth0YlGaZ8CGF8",
+                    "short_id": "31f19c50"
+                }
             }
         },
         {
@@ -831,7 +856,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [3]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [2]",
             "type": "vless",
             "server": "services.dissertationhelpspecialist.com",
             "server_port": 443,
@@ -858,7 +883,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @falcunargo [11]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @falcunargo [10]",
             "type": "vless",
             "server": "rack4.biseda2.eu",
             "server_port": 443,
