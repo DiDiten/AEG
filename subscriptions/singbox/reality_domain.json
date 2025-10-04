@@ -96,6 +96,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇦🇪 AE | 🔒 VLESS | @config_proxy [22]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -139,7 +140,7 @@
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [149]",
+                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [141]",
                 "🇱🇹 LT | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -199,6 +200,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇦🇪 AE | 🔒 VLESS | @config_proxy [22]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -242,7 +244,7 @@
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [149]",
+                "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [141]",
                 "🇱🇹 LT | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -471,6 +473,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇦🇪 AE | 🔒 VLESS | @config_proxy [22]",
+            "type": "vless",
+            "server": "ae01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "80074d6b-23c5-465e-a348-dcf0378fd1f2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "48720c"
+                }
             }
         },
         {
@@ -1546,7 +1571,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [149]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @prrofile_purple [141]",
             "type": "vless",
             "server": "deu163.unboundworld.org",
             "server_port": 443,

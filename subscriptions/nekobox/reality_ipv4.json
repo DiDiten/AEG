@@ -83,8 +83,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [22]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [28]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [34]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -149,7 +149,6 @@
                 "🇦🇱 AL | 🔒 VLESS | @netmellianti [2]",
                 "🇳🇱 NL | 🔒 VLESS | @netmellianti [12]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
-                "🇩🇪 DE | 🔒 VLESS | @outline_ir [5]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [2]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
                 "🇩🇪 DE | 🔒 VLESS | @proxyfn [6]",
@@ -214,8 +213,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [22]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [28]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [34]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -280,7 +279,6 @@
                 "🇦🇱 AL | 🔒 VLESS | @netmellianti [2]",
                 "🇳🇱 NL | 🔒 VLESS | @netmellianti [12]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
-                "🇩🇪 DE | 🔒 VLESS | @outline_ir [5]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [2]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
                 "🇩🇪 DE | 🔒 VLESS | @proxyfn [6]",
@@ -491,32 +489,32 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [22]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [28]",
             "type": "vless",
-            "server": "94.143.231.62",
+            "server": "49.13.138.252",
             "server_port": 443,
-            "uuid": "2e532561-7a61-4fdf-a534-706682c2e209",
+            "uuid": "a4a9abf9-b981-44ca-d35e-3ec69c43a6c5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "deepl.com",
+                "server_name": "tgju.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4",
-                    "short_id": "2d46a79deebf50fd¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---"
+                    "public_key": "CRAWrosKQ6fHUmiWizlKQBbFO5QEAkcr2LuTNlWtCG4",
+                    "short_id": ""
                 }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [31]",
+            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [34]",
             "type": "vless",
-            "server": "95.164.68.37",
+            "server": "185.239.48.109",
             "server_port": 8443,
             "uuid": "b6936242-5234-46a4-bc81-434e47d295b4",
             "flow": "xtls-rprx-vision",
@@ -531,7 +529,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
+                    "public_key": "wPXyRAB1bVkaTGgO5cHEylVAV8SscUQUPn_ggzx6Vxk",
                     "short_id": ""
                 }
             }
@@ -2073,29 +2071,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "7034vless"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @outline_ir [5]",
-            "type": "vless",
-            "server": "94.141.123.233",
-            "server_port": 443,
-            "uuid": "a1d93599-b324-4931-9190-8684487d00d5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cdnjs.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4",
-                    "short_id": "bc97736f81817c41"
-                }
             }
         },
         {
