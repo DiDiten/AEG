@@ -119,11 +119,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔒 VLESS | @bored_vpn [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [25]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [26]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [30]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [31]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -247,7 +242,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [13]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [14]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [15]",
-                "🚩 CF | 🔓 VLESS | @hope_net [8]",
+                "🚩 CF | 🔓 VLESS | @hope_net [6]",
                 "🇮🇷 IR | 🔓 VLESS | @imhdiyvp [1]",
                 "❔ XX | 🔓 VLESS | @imhdiyvp [4]",
                 "🇮🇷 IR | 🔓 VLESS | @imhdiyvp [5]",
@@ -591,7 +586,7 @@
                 "🚩 CF | 🔓 VLESS | @v2rayngseven [2]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayngvpn_1 [1]",
                 "🚩 CF | 🔓 VLESS | @v2rayngvpn_1 [3]",
-                "🇹🇷 TR | 🔓 VLESS | @v2rayopen [10]",
+                "🇹🇷 TR | 🔓 VLESS | @v2rayopen [9]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [50]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [51]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [52]",
@@ -735,11 +730,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔒 VLESS | @bored_vpn [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [25]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [26]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [30]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [31]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -863,7 +853,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [13]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [14]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [15]",
-                "🚩 CF | 🔓 VLESS | @hope_net [8]",
+                "🚩 CF | 🔓 VLESS | @hope_net [6]",
                 "🇮🇷 IR | 🔓 VLESS | @imhdiyvp [1]",
                 "❔ XX | 🔓 VLESS | @imhdiyvp [4]",
                 "🇮🇷 IR | 🔓 VLESS | @imhdiyvp [5]",
@@ -1207,7 +1197,7 @@
                 "🚩 CF | 🔓 VLESS | @v2rayngseven [2]",
                 "🇮🇷 IR | 🔓 VLESS | @v2rayngvpn_1 [1]",
                 "🚩 CF | 🔓 VLESS | @v2rayngvpn_1 [3]",
-                "🇹🇷 TR | 🔓 VLESS | @v2rayopen [10]",
+                "🇹🇷 TR | 🔓 VLESS | @v2rayopen [9]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [50]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [51]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [52]",
@@ -1924,93 +1914,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [25]",
-            "type": "vless",
-            "server": "2margate.superip.ir",
-            "server_port": 3041,
-            "uuid": "9e728936-8015-41a1-a0ab-80997c084465",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw",
-                    "short_id": "4c14"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [26]",
-            "type": "vless",
-            "server": "mstr.fastly80.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "9e728936-8015-41a1-a0ab-80997c084465",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/admin?/Join----JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN",
-                "headers": {
-                    "Host": "mstr.fastly80.hosting-ip.com"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
-            "type": "vless",
-            "server": "cellone.learn-new.ir",
-            "server_port": 443,
-            "uuid": "52201103-6d69-4577-a65d-ced254d8c9d2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "khanacademy.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ikTKkSZZZ18NraMIwbLCP8ln6NmsD77VTSKWTESIOAk",
-                    "short_id": "6acf3ba5790e4324"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [30]",
-            "type": "vless",
-            "server": "direct-jde6zos4zet26b15zzd1.appcity-download.ir",
-            "server_port": 17337,
-            "uuid": "21441ba7-8364-496c-d43b-39fc7f9cb8d7",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [31]",
-            "type": "vless",
-            "server": "cf.090227.xyz",
-            "server_port": 2095,
-            "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "cf.090227.xyz"
-                }
             }
         },
         {
@@ -4205,7 +4108,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @hope_net [8]",
+            "tag": "🚩 CF | 🔓 VLESS | @hope_net [6]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8080,
@@ -10016,7 +9919,7 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @v2rayopen [10]",
+            "tag": "🇹🇷 TR | 🔓 VLESS | @v2rayopen [9]",
             "type": "vless",
             "server": "panel-tr.turkcloud.ir",
             "server_port": 8081,
