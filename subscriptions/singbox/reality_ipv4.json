@@ -95,7 +95,10 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [29]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [31]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [37]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -106,7 +109,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [6]",
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [7]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
-                "🇳🇱 NL | 🔒 VLESS | @falcunargo [11]",
+                "🇳🇱 NL | 🔒 VLESS | @falcunargo [10]",
                 "🇫🇮 FI | 🔒 VLESS | @filterk0sh [15]",
                 "🇩🇪 DE | 🔒 VLESS | @filterk0sh [16]",
                 "🇩🇪 DE | 🔒 VLESS | @filterk0sh [17]",
@@ -181,7 +184,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇸🇪 SE | 🔒 VLESS | @v2raych [16]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -224,7 +227,10 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [29]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [31]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [37]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -235,7 +241,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [6]",
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [7]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [21]",
-                "🇳🇱 NL | 🔒 VLESS | @falcunargo [11]",
+                "🇳🇱 NL | 🔒 VLESS | @falcunargo [10]",
                 "🇫🇮 FI | 🔒 VLESS | @filterk0sh [15]",
                 "🇩🇪 DE | 🔒 VLESS | @filterk0sh [16]",
                 "🇩🇪 DE | 🔒 VLESS | @filterk0sh [17]",
@@ -310,7 +316,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇸🇪 SE | 🔒 VLESS | @v2raych [16]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -495,9 +501,78 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [33]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [29]",
             "type": "vless",
-            "server": "95.164.68.37",
+            "server": "91.98.95.109",
+            "server_port": 443,
+            "uuid": "2c519fe6-bc8c-45ea-975a-3daa490e53df",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pALBOb42lFneGFIOXJsaUoOXaTYycke6lWZR2a3LEh4",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [31]",
+            "type": "vless",
+            "server": "188.225.81.91",
+            "server_port": 443,
+            "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "wa.sfasti.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [37]",
+            "type": "vless",
+            "server": "188.225.81.91",
+            "server_port": 443,
+            "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "wa.sfasti.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
+                    "short_id": "16895459a2c7768d¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "85.158.110.62",
             "server_port": 8443,
             "uuid": "f0851342-e5f0-4d83-a7c2-ce8ce0a2960d",
             "flow": "xtls-rprx-vision",
@@ -512,7 +587,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
+                    "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
                     "short_id": ""
                 }
             }
@@ -780,7 +855,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @falcunargo [11]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @falcunargo [10]",
             "type": "vless",
             "server": "109.122.202.73",
             "server_port": 443,
@@ -2560,16 +2635,16 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @v2raych [16]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [7]",
             "type": "vless",
-            "server": "62.60.231.215",
-            "server_port": 8880,
-            "uuid": "58b1b030-b096-4fa6-9ffd-a0e4dbefd2cb",
+            "server": "45.252.183.140",
+            "server_port": 443,
+            "uuid": "93b5b986-e06f-44fe-b824-382b988093b7",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "zhaket.com",
+                "server_name": "journalofbigdata.springeropen.com:443",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -2577,9 +2652,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
-                    "short_id": "50d72d59cbec63"
+                    "public_key": "IUKJ6dzEij6vlnGpANP8NlFHHy6qScjO_xwSlOnWhSk",
+                    "short_id": "cf11a48331dd"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
             }
         },
         {
