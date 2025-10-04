@@ -251,6 +251,7 @@
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
                 "❔ XX | 🔓 VLESS | @shopingv2ray [1]",
                 "❔ XX | 🔓 VLESS | @sobi_vpn [9]",
+                "🚩 CF | 🔓 VLESS | @spikevpn [23]",
                 "🚩 CF | 🔓 VLESS | @spikevpn [24]",
                 "🚩 CF | 🔓 VLESS | @spikevpn [25]",
                 "❔ XX | 🔓 VLESS | @teamvpnpro [5]",
@@ -478,6 +479,7 @@
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
                 "❔ XX | 🔓 VLESS | @shopingv2ray [1]",
                 "❔ XX | 🔓 VLESS | @sobi_vpn [9]",
+                "🚩 CF | 🔓 VLESS | @spikevpn [23]",
                 "🚩 CF | 🔓 VLESS | @spikevpn [24]",
                 "🚩 CF | 🔓 VLESS | @spikevpn [25]",
                 "❔ XX | 🔓 VLESS | @teamvpnpro [5]",
@@ -3360,11 +3362,27 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @spikevpn [23]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2082,
+            "uuid": "4d1a8752-2d4a-441b-81f6-df2bb1dcfa8e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
             "tag": "🚩 CF | 🔓 VLESS | @spikevpn [24]",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2086,
-            "uuid": "78ca6a65-0da5-4575-c21c-db8a5a823913",
+            "uuid": "5692b73a-d068-4c6e-948d-82c85782bd1a",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -3373,7 +3391,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2082,
-            "uuid": "4d1a8752-2d4a-441b-81f6-df2bb1dcfa8e",
+            "uuid": "63b43b63-5fd4-42a9-e200-ce88620ef91e",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
