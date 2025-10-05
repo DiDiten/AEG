@@ -97,7 +97,9 @@
                 "🇬🇧 GB | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇫🇮 FI | 🔓 VLESS | @config_proxy [50]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [41]",
+                "❔ XX | 🔒 VLESS | @config_proxy [42]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [43]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -282,7 +284,9 @@
                 "🇬🇧 GB | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇫🇮 FI | 🔓 VLESS | @config_proxy [50]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [41]",
+                "❔ XX | 🔒 VLESS | @config_proxy [42]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [43]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -635,16 +639,53 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @config_proxy [50]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [41]",
             "type": "vless",
-            "server": "141.227.170.131",
-            "server_port": 39113,
-            "uuid": "787979c0-3691-4612-86a1-e0f1101d5eb2",
+            "server": "104.17.234.128",
+            "server_port": 8080,
+            "uuid": "SVNTEAM",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "acbabac-caab-baca-cadb-cacbbbbaacca",
             "flow": "",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "91.242.241.45",
+            "server_port": 8443,
+            "uuid": "73a28737-3aaf-4edb-8f92-03e7147cb662",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1-2fy8f8XeOHzmdFmCENHV1mr_tzJX1M9UXp42mUIiM",
+                    "short_id": ""
+                }
             }
         },
         {
