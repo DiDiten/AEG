@@ -80,7 +80,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -107,6 +106,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [13]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -122,7 +122,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -149,6 +148,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [13]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -240,29 +240,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
-            "type": "vless",
-            "server": "5.75.192.6",
-            "server_port": 443,
-            "uuid": "c4b46615-5a3c-4431-f3b9-01b16a9fde69",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "iubenda.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fVtKLgnLnnS9SXhHujGSWEiqQipzlTV1lG7C2dNThSM",
-                    "short_id": "48"
                 }
             }
         },
@@ -881,6 +858,29 @@
                     "enabled": true,
                     "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
                     "short_id": "61e683d41fdb"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [13]",
+            "type": "vless",
+            "server": "5.75.192.6",
+            "server_port": 443,
+            "uuid": "c4b46615-5a3c-4431-f3b9-01b16a9fde69",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "iubenda.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fVtKLgnLnnS9SXhHujGSWEiqQipzlTV1lG7C2dNThSM",
+                    "short_id": "48"
                 }
             }
         },

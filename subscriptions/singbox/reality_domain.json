@@ -96,7 +96,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -152,7 +151,8 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇷🇺 RU | 🔒 VLESS | @v2raych [19]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [7]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
@@ -202,7 +202,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -258,7 +257,8 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇷🇺 RU | 🔒 VLESS | @v2raych [19]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [7]",
+                "🇷🇺 RU | 🔒 VLESS | @v2raych [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
@@ -477,29 +477,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [60]",
-            "type": "vless",
-            "server": "fr.webcenter.vip",
-            "server_port": 11000,
-            "uuid": "9649da8c-7627-4b63-b4e3-48a32096cf86",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.microsoft.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "dqYpa_B6hm2USYpm9t1s8SKXFtzJ4IY1OSKATgj_L0g",
-                    "short_id": "7eb3e7dc1b73ed5f"
-                }
             }
         },
         {
@@ -1855,16 +1832,16 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @v2raych [19]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [7]",
             "type": "vless",
-            "server": "wa.sfasti.ru",
+            "server": "nld20.freednet.org",
             "server_port": 443,
-            "uuid": "d4e4c02a-d969-47a6-ba0f-3d433fdac206",
+            "uuid": "aee5efa7-f605-476d-97ab-e8deee030dab",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "wa.sfasti.ru",
+                "server_name": "www.cybo.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1872,8 +1849,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
-                    "short_id": "16895459a2c7768d"
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @v2raych [11]",
+            "type": "vless",
+            "server": "yt.connect-iskra.ru",
+            "server_port": 443,
+            "uuid": "ed97e008-2b8d-4415-94c7-3da4919d361a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "deepl.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4",
+                    "short_id": "2d46a79deebf50fd"
                 }
             }
         },

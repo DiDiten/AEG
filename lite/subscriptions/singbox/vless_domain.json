@@ -103,7 +103,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔒 VLESS | @bored_vpn [9]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [61]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -329,7 +329,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔒 VLESS | @bored_vpn [9]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [61]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -820,27 +820,13 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [61]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [50]",
             "type": "vless",
-            "server": "nld20.freednet.org",
-            "server_port": 443,
-            "uuid": "aee5efa7-f605-476d-97ab-e8deee030dab",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cybo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
-                }
-            }
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "1649e62c-86a8-4fec-bf8c-5803bcfbc1e0",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -3360,7 +3346,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2082,
-            "uuid": "4d1a8752-2d4a-441b-81f6-df2bb1dcfa8e",
+            "uuid": "63b43b63-5fd4-42a9-e200-ce88620ef91e",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
@@ -3376,7 +3362,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2086,
-            "uuid": "5692b73a-d068-4c6e-948d-82c85782bd1a",
+            "uuid": "dfd0ff5c-29b6-430e-cf39-609abedc02d0",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -3385,7 +3371,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2082,
-            "uuid": "63b43b63-5fd4-42a9-e200-ce88620ef91e",
+            "uuid": "d83a654d-0d26-4b53-d8e8-ccc0ad38789d",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
