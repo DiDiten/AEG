@@ -96,7 +96,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
-                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇺🇸 US | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇮🇪 IE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
@@ -118,7 +117,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [13]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [12]",
+                "🇭🇰 HK | 🔒 VLESS | @v2rayopen [13]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -138,7 +138,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
-                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇺🇸 US | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇮🇪 IE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
@@ -160,7 +159,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [13]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [12]",
+                "🇭🇰 HK | 🔒 VLESS | @v2rayopen [13]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
@@ -344,29 +344,6 @@
                     "enabled": true,
                     "public_key": "MFhTxw6M0UU7nAoxP-jAw8szA2vhXy6KYmBCrDwbpRw",
                     "short_id": "99d38a68"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
-            "type": "vless",
-            "server": "185.113.10.132",
-            "server_port": 8650,
-            "uuid": "2ec7c638-3143-4b2b-8df2-81230280b07d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YWbuHeDHnHpfJMPsAOIJOIeQgzfCK_47CjY7TbWA5hI",
-                    "short_id": "354b9cbe48"
                 }
             }
         },
@@ -870,7 +847,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [13]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [12]",
             "type": "vless",
             "server": "5.75.192.6",
             "server_port": 443,
@@ -889,6 +866,29 @@
                     "enabled": true,
                     "public_key": "fVtKLgnLnnS9SXhHujGSWEiqQipzlTV1lG7C2dNThSM",
                     "short_id": "48"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 VLESS | @v2rayopen [13]",
+            "type": "vless",
+            "server": "103.193.173.217",
+            "server_port": 50619,
+            "uuid": "9d7fd31c-2cbc-4a13-9c92-93242b967f41",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.iij.ad.jp",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BvRxvo-i2lH6f0R4AsVskWkubLRwRSIG3yicP3Fwp0M",
+                    "short_id": ""
                 }
             }
         },

@@ -84,6 +84,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -93,9 +94,9 @@
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
-                "❔ XX | 🔒 VLESS | @evay_vpn [13]",
-                "❔ XX | 🔒 VLESS | @evay_vpn [15]",
-                "❔ XX | 🔒 VLESS | @evay_vpn [17]",
+                "🇬🇧 GB | 🔒 VLESS | @evay_vpn [13]",
+                "🇬🇧 GB | 🔒 VLESS | @evay_vpn [15]",
+                "🇬🇧 GB | 🔒 VLESS | @evay_vpn [17]",
                 "🇫🇷 FR | 🔒 VLESS | @falcunargo [5]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -187,6 +188,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -196,9 +198,9 @@
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
-                "❔ XX | 🔒 VLESS | @evay_vpn [13]",
-                "❔ XX | 🔒 VLESS | @evay_vpn [15]",
-                "❔ XX | 🔒 VLESS | @evay_vpn [17]",
+                "🇬🇧 GB | 🔒 VLESS | @evay_vpn [13]",
+                "🇬🇧 GB | 🔒 VLESS | @evay_vpn [15]",
+                "🇬🇧 GB | 🔒 VLESS | @evay_vpn [17]",
                 "🇫🇷 FR | 🔒 VLESS | @falcunargo [5]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [15]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -466,6 +468,29 @@
             }
         },
         {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "univovh.iskra-connect.xyz",
+            "server_port": 443,
+            "uuid": "2e532561-7a61-4fdf-a534-706682c2e209",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "deepl.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4",
+                    "short_id": "2d46a79deebf50fd"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -693,7 +718,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @evay_vpn [13]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @evay_vpn [13]",
             "type": "vless",
             "server": "Evay_vpn.heloisfood.ir",
             "server_port": 1530,
@@ -716,7 +741,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @evay_vpn [15]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @evay_vpn [15]",
             "type": "vless",
             "server": "Evay_vpn.heloisfood.ir",
             "server_port": 1530,
@@ -739,7 +764,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @evay_vpn [17]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @evay_vpn [17]",
             "type": "vless",
             "server": "Evay_vpn.heloisfood.ir",
             "server_port": 1530,
