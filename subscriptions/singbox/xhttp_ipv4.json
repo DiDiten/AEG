@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [52]",
+                "🇮🇪 IE | 🔒 VLESS | @config_proxy [48]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [18]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [1]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [5]",
@@ -143,6 +143,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [12]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [15]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -163,7 +165,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [52]",
+                "🇮🇪 IE | 🔒 VLESS | @config_proxy [48]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [18]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [1]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [5]",
@@ -214,6 +216,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [12]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [15]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -310,16 +314,16 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [52]",
+            "tag": "🇮🇪 IE | 🔒 VLESS | @config_proxy [48]",
             "type": "vless",
-            "server": "91.134.11.199",
-            "server_port": 443,
-            "uuid": "c76c5c1c-a4b3-44bd-aca2-76af40dab23d",
+            "server": "185.197.182.18",
+            "server_port": 23590,
+            "uuid": "5cbd735a-b9f4-44a9-9e7a-818853b05ab2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -327,8 +331,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "HTmgtYAdc4266sqGG1zMSYcsMPJfWJfxgaJEKCMiFww",
-                    "short_id": "f8f87a"
+                    "public_key": "uTgCcEmxWXISjCBvsZLBRGASA6ZM0sckmnlTtgqzOgE",
+                    "short_id": "ea5b1f87"
                 }
             }
         },
@@ -1175,6 +1179,52 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [14]",
+            "type": "vless",
+            "server": "161.35.204.170",
+            "server_port": 443,
+            "uuid": "77e85d9f-7c44-43fd-bdf0-d5f4307972b6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fko-WaG9FcOPjl9kevA-3aYok0T_P8WekYzt5bWFZ3U",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [15]",
+            "type": "vless",
+            "server": "139.59.212.79",
+            "server_port": 443,
+            "uuid": "9c56133d-82fd-43b5-ae0f-2ce174c0458c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QDNHZEGnnTQIR4p8qRAW755iArDl0ISjbYP-KkRR7XE",
+                    "short_id": ""
                 }
             }
         },
