@@ -85,8 +85,8 @@
                 "🇬🇧 GB | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [42]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [43]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [53]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [54]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -135,7 +135,7 @@
                 "🇮🇪 IE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -272,8 +272,8 @@
                 "🇬🇧 GB | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [42]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [43]",
+                "🇮🇷 IR | 🔓 VLESS | @config_proxy [53]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [54]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -322,7 +322,7 @@
                 "🇮🇪 IE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -631,41 +631,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [42]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [53]",
             "type": "vless",
-            "server": "151.101.66.133",
-            "server_port": 443,
-            "uuid": "aae7be8e-7d1b-45e7-aa36-1f1629bb15c1",
+            "server": "89.44.242.222",
+            "server_port": 29495,
+            "uuid": "4a0e3cf3-4a10-4a38-bba4-b17b592a0d2b",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "live.989bull.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/CHANNEL---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---ws/?ed=2048",
-                "headers": {
-                    "Host": "live.989bull.com"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [43]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [54]",
             "type": "vless",
-            "server": "151.101.66.228",
+            "server": "172.67.168.193",
             "server_port": 443,
-            "uuid": "cb5c7d29-5ca3-4b73-bea3-060aa3d9b7b0",
+            "uuid": "a50ea41d-10b1-4351-9ae2-6d92f501a3a0",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "server_name": "gamang.gpj2.dpdns.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -674,9 +658,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8880",
+                "path": "/Free-VPN-Geo-Project/185.66.165.51-443",
                 "headers": {
-                    "Host": "zmaoz.faculty.ucdavis.edu"
+                    "Host": "gamang.gpj2.dpdns.org"
                 }
             }
         },
@@ -1543,7 +1527,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
             "type": "vless",
             "server": "151.101.130.133",
             "server_port": 443,
