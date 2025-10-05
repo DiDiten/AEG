@@ -92,7 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -113,7 +112,6 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [6]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -135,7 +133,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -156,7 +153,6 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [6]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -250,29 +246,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
-            "type": "vless",
-            "server": "31.57.241.25",
-            "server_port": 7008,
-            "uuid": "3228eeee-fef2-43e4-a39b-2bbd6e6501ea",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "addons.mozilla.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "FPH81X-EMwzv4nXgkplSqBAaK81uLuPYqWaYyIWFsnQ",
-                    "short_id": "efcbe824"
                 }
             }
         },
@@ -754,33 +727,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "xyz"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [6]",
-            "type": "vless",
-            "server": "155.254.35.78",
-            "server_port": 33811,
-            "uuid": "3940e9ba-d0f6-4052-bd8e-f3c2a2a76599",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "miro.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fa3n6JDInXvPSrde2HYqogCf2YheiIgxhhO3N3gO1Qs",
-                    "short_id": "63f811342e9c75"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "miro.com"
             }
         },
         {

@@ -84,7 +84,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [37]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
+                "🇮🇳 IN | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -189,7 +190,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [37]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
+                "🇮🇳 IN | 🔒 VLESS | @config_proxy [41]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -470,11 +472,11 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [37]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [35]",
             "type": "vless",
-            "server": "us.gozarfreebot.niniweblog.org",
-            "server_port": 443,
-            "uuid": "8228a5af-688f-411a-9b83-eeab0699fde2",
+            "server": "dl78.sulduznet.ir",
+            "server_port": 35028,
+            "uuid": "04c8e8e6-b04a-4474-9261-e5fe981b49f0",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -483,12 +485,35 @@
                 "insecure": true,
                 "utls": {
                     "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pS1czo_t8PCQta3IAKrIh-j2_NrOYtGRnoiPTD7ZL1M",
+                    "short_id": "9d0424d2"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇳 IN | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "ind01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "80074d6b-23c5-465e-a348-dcf0378fd1f2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
                     "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "k5ghCQjfzH-vo8dNajQbal17E9hzzn4PrcrZESd23y4",
-                    "short_id": "372a94d2f8009a94"
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "86e999a2cdc2"
                 }
             }
         },
