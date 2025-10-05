@@ -80,9 +80,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [9]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
-                "🇺🇸 US | 🔒 VLESS | @grizzlyvpn [10]",
-                "🇮🇪 IE | 🔒 VLESS | @grizzlyvpn [11]",
+                "🇮🇪 IE | 🔒 VLESS | @grizzlyvpn [10]",
+                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [75]",
@@ -112,9 +113,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [9]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
-                "🇺🇸 US | 🔒 VLESS | @grizzlyvpn [10]",
-                "🇮🇪 IE | 🔒 VLESS | @grizzlyvpn [11]",
+                "🇮🇪 IE | 🔒 VLESS | @grizzlyvpn [10]",
+                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [75]",
@@ -224,6 +226,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [9]",
+            "type": "vless",
+            "server": "185.113.10.132",
+            "server_port": 8650,
+            "uuid": "ae9f99cf-bfbf-4ed0-9504-64da0f724669",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWbuHeDHnHpfJMPsAOIJOIeQgzfCK_47CjY7TbWA5hI",
+                    "short_id": "354b9cbe48"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
             "type": "vless",
             "server": "5.161.151.225",
@@ -247,30 +272,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @grizzlyvpn [10]",
-            "type": "vless",
-            "server": "159.65.186.184",
-            "server_port": 20096,
-            "uuid": "dfc84ee3-ec04-4635-84e1-7c4c22e77c7b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "jyX-pjSN3o_LphKC_496D45TtUf6zH50A0GLgxu-t3c",
-                    "short_id": "f7"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇪 IE | 🔒 VLESS | @grizzlyvpn [11]",
+            "tag": "🇮🇪 IE | 🔒 VLESS | @grizzlyvpn [10]",
             "type": "vless",
             "server": "185.197.182.18",
             "server_port": 23590,
@@ -289,6 +291,29 @@
                     "enabled": true,
                     "public_key": "uTgCcEmxWXISjCBvsZLBRGASA6ZM0sckmnlTtgqzOgE",
                     "short_id": "ea5b1f87"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
+            "type": "vless",
+            "server": "185.113.10.132",
+            "server_port": 8650,
+            "uuid": "ae9f99cf-bfbf-4ed0-9504-64da0f724669",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWbuHeDHnHpfJMPsAOIJOIeQgzfCK_47CjY7TbWA5hI",
+                    "short_id": "354b9cbe48"
                 }
             }
         },
