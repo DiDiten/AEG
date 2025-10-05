@@ -94,6 +94,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -105,7 +106,6 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "❔ XX | 🔒 VLESS | @manzariyeh_rasht [17]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -137,6 +137,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -148,7 +149,6 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "❔ XX | 🔒 VLESS | @manzariyeh_rasht [17]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -301,6 +301,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "GozarFreeBot.niniweblog.org",
+            "server_port": 2053,
+            "uuid": "b457a40b-23e1-414d-a0e7-0a9766b96cc4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "eePFgcd1NGur--s-Up0RWrg0ao0AFrznzodgkEQjtFg",
+                    "short_id": "54d000e8d6494f85"
+                }
             }
         },
         {
@@ -569,29 +592,6 @@
                     "enabled": true,
                     "public_key": "UgwRcGmt9yqVzDac4KryRxQKvaVDi0eueJPPpmx7pW8",
                     "short_id": "f23d09"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @manzariyeh_rasht [17]",
-            "type": "vless",
-            "server": "cdn1.bazicore.ir",
-            "server_port": 443,
-            "uuid": "5dda3a28-68e7-0afa-626d-d1d6f4ad4f71",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AUg2h16X8xP5s7tnkcDuyfX5CBV7WvCoY48OKhbtQyw",
-                    "short_id": "821bbc44dd7a4e15"
                 }
             }
         },
