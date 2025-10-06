@@ -91,6 +91,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [33]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [35]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -138,7 +140,7 @@
                 "🇺🇸 US | 🔒 VLESS | @iranvipnet [8]",
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
-                "🚩 CF | 🔒 VLESS | @kafing_2 [14]",
+                "🇺🇸 US | 🔒 VLESS | @kafing_2 [14]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🚩 CF | 🔒 VLESS | @kilid_stor [1]",
                 "🇩🇪 DE | 🔓 VLESS | @kilid_stor [2]",
@@ -305,6 +307,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [33]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [35]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -352,7 +356,7 @@
                 "🇺🇸 US | 🔒 VLESS | @iranvipnet [8]",
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
-                "🚩 CF | 🔒 VLESS | @kafing_2 [14]",
+                "🇺🇸 US | 🔒 VLESS | @kafing_2 [14]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🚩 CF | 🔒 VLESS | @kilid_stor [1]",
                 "🇩🇪 DE | 🔓 VLESS | @kilid_stor [2]",
@@ -785,6 +789,56 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [33]",
+            "type": "vless",
+            "server": "test2.amin8263.ir",
+            "server_port": 2053,
+            "uuid": "71f12fa3-d319-4d5f-aeee-1b668f0d02e7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "test2.amin8263.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=1024",
+                "headers": {
+                    "Host": "test2.amin8263.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [35]",
+            "type": "vless",
+            "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
+            "server_port": 443,
+            "uuid": "88538870-5626-4cd7-9cda-1e0b6253c9ce",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mooz.rtxiran.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "mooz.rtxiran.info"
+                }
             }
         },
         {
@@ -1633,7 +1687,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @kafing_2 [14]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @kafing_2 [14]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,

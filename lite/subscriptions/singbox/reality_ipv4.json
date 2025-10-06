@@ -92,7 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [33]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [9]",
                 "🇭🇷 HR | 🔒 VLESS | @free4allvpn [18]",
@@ -140,7 +140,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [33]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [9]",
                 "🇭🇷 HR | 🔒 VLESS | @free4allvpn [18]",
@@ -264,16 +264,16 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [33]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [34]",
             "type": "vless",
-            "server": "194.110.246.61",
-            "server_port": 8443,
-            "uuid": "4124b176-2ac5-42f7-86f9-c1f52ef4e369",
+            "server": "155.254.35.78",
+            "server_port": 33811,
+            "uuid": "3940e9ba-d0f6-4052-bd8e-f3c2a2a76599",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "miro.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -281,9 +281,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "okKUcvjT68odjfLWEZ47XopjP3AqHfbC4jsxfN2-i30",
-                    "short_id": ""
+                    "public_key": "fa3n6JDInXvPSrde2HYqogCf2YheiIgxhhO3N3gO1Qs",
+                    "short_id": "63f811342e9c75"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "miro.com"
             }
         },
         {
