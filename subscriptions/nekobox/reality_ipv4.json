@@ -83,7 +83,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [59]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [45]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -186,7 +187,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayngvpn_1 [4]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayngvpn_1 [6]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [8]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [7]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [56]",
                 "🇩🇪 DE | 🔒 VLESS | @vip_vpn_2022 [4]",
@@ -213,7 +214,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [59]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [45]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -316,7 +318,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayngvpn_1 [4]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayngvpn_1 [6]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [8]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [7]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [56]",
                 "🇩🇪 DE | 🔒 VLESS | @vip_vpn_2022 [4]",
@@ -489,16 +491,16 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [59]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [45]",
             "type": "vless",
-            "server": "194.110.246.61",
-            "server_port": 8443,
-            "uuid": "c662fd1f-e71f-446f-9483-e5a186c798eb",
+            "server": "51.38.74.31",
+            "server_port": 1331,
+            "uuid": "63df8c89-7a2c-4da2-a60b-4baf2c8acd1a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -506,7 +508,30 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "okKUcvjT68odjfLWEZ47XopjP3AqHfbC4jsxfN2-i30",
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "51.38.74.31",
+            "server_port": 2020,
+            "uuid": "63df8c89-7a2c-4da2-a60b-4baf2c8acd1a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_",
                     "short_id": ""
                 }
             }
@@ -2967,7 +2992,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [8]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [7]",
             "type": "vless",
             "server": "5.75.192.6",
             "server_port": 443,

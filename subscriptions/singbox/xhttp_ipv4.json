@@ -92,6 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [45]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [53]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -143,7 +145,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [16]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -164,6 +166,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [45]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [53]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -215,7 +219,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [16]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -308,6 +312,52 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "51.38.74.31",
+            "server_port": 1331,
+            "uuid": "63df8c89-7a2c-4da2-a60b-4baf2c8acd1a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "51.38.74.31",
+            "server_port": 2020,
+            "uuid": "63df8c89-7a2c-4da2-a60b-4baf2c8acd1a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_",
+                    "short_id": ""
                 }
             }
         },
@@ -1209,11 +1259,11 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [16]",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "33cacb33-a601-4af1-80f2-3c1665c800a2",
+            "server": "91.99.98.90",
+            "server_port": 8443,
+            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
             "flow": "",
             "packet_encoding": "xudp"
         },
