@@ -92,8 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 TROJAN | @hope_net [18]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+                "🇧🇬 BG | 🔒 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [19]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
@@ -115,8 +115,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 TROJAN | @hope_net [18]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+                "🇧🇬 BG | 🔒 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [19]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
@@ -214,32 +214,41 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @hope_net [18]",
+            "tag": "🇧🇬 BG | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
-            "server": "3.136.138.228",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "server": "45.142.120.4",
+            "server_port": 2096,
+            "password": "bpb-trojan",
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
+                "server_name": "403B3611-99bC-43b7-88D7-26ed5d0825A9-3.PageS.DEV",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/troUbg9Q3QgD0TJRfy?ed=2560",
+                "headers": {
+                    "Host": "403B3611-99bC-43b7-88D7-26ed5d0825A9-3.PageS.DEV"
+                }
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [19]",
             "type": "trojan",
-            "server": "104.17.148.22",
-            "server_port": 8880,
-            "password": "d4ff43e1-3131-4c32-e41b-716303c8ee49",
-            "transport": {
-                "type": "ws",
-                "path": "/melo/",
-                "headers": {
-                    "Host": "104.17.148.22"
+            "server": "162.159.44.187",
+            "server_port": 443,
+            "password": "blue2024",
+            "tls": {
+                "enabled": true,
+                "server_name": "ta.promote.icu",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
