@@ -83,7 +83,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [37]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -160,14 +161,14 @@
                 "🇸🇬 SG | 🔒 VLESS | @qeshmserver [4]",
                 "🇳🇱 NL | 🔒 VLESS | @qeshmserver [5]",
                 "🇫🇷 FR | 🔒 VLESS | @qeshmserver [8]",
-                "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [12]",
+                "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [11]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [2]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [3]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
@@ -211,7 +212,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [37]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -288,14 +290,14 @@
                 "🇸🇬 SG | 🔒 VLESS | @qeshmserver [4]",
                 "🇳🇱 NL | 🔒 VLESS | @qeshmserver [5]",
                 "🇫🇷 FR | 🔒 VLESS | @qeshmserver [8]",
-                "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [12]",
+                "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [11]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [2]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [5]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
-                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [3]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
@@ -485,9 +487,32 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [36]",
+            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [37]",
             "type": "vless",
-            "server": "80.74.29.212",
+            "server": "45.12.143.191",
+            "server_port": 20329,
+            "uuid": "e105e56a-5f81-41a2-ab44-bfffc9b00674",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Lj3MXlg16CTFHtU88acSS-ACfGnwJ_xkU6dC6k8OeDo",
+                    "short_id": "4602ee9f9f36"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "95.164.68.37",
             "server_port": 8443,
             "uuid": "d76817ec-ca12-41c3-94ba-0247e8071239",
             "flow": "xtls-rprx-vision",
@@ -502,7 +527,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "rYlvwQDrFYsAbcD9-3-PtXlAR084YpNL5_Q8Dx9NvTA",
+                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
                     "short_id": ""
                 }
             }
@@ -2323,7 +2348,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [12]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [11]",
             "type": "vless",
             "server": "91.99.115.171",
             "server_port": 8080,
@@ -2500,7 +2525,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [4]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [3]",
             "type": "vless",
             "server": "155.254.35.78",
             "server_port": 33811,
