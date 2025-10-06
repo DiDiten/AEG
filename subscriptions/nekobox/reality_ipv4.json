@@ -83,7 +83,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇮🇱 IL | 🔒 VLESS | @config_proxy [59]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -171,6 +171,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [3]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -212,7 +213,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇮🇱 IL | 🔒 VLESS | @config_proxy [59]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -300,6 +301,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [3]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇫🇮 FI | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -487,11 +489,11 @@
             }
         },
         {
-            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [59]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [52]",
             "type": "vless",
-            "server": "185.239.48.109",
+            "server": "85.158.110.62",
             "server_port": 8443,
-            "uuid": "f901b834-5b25-450b-a8fb-3d6013caf276",
+            "uuid": "4a35ccaf-9894-475a-ae6e-6644de9ca004",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -504,7 +506,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "wPXyRAB1bVkaTGgO5cHEylVAV8SscUQUPn_ggzx6Vxk",
+                    "public_key": "sOjlAEcrubT3nuRzox3bAkQSptuLhelt7CykvSZXW3I",
                     "short_id": ""
                 }
             }
@@ -2594,6 +2596,29 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [5]",
+            "type": "vless",
+            "server": "91.107.254.202",
+            "server_port": 443,
+            "uuid": "telegram---V2RAYNGCLOUD---",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "firebase.googleapis.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "VaX6bp_MHNDUuqYS7vbyXiw-ptqGCTutnV6K_jYE-3A",
+                    "short_id": "54705fe6"
                 }
             }
         },

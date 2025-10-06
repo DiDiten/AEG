@@ -82,9 +82,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [60]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [61]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [62]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -98,6 +95,7 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [19]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
@@ -110,7 +108,6 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [27]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
@@ -164,9 +161,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [60]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [61]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [62]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -180,6 +174,7 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [19]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
@@ -192,7 +187,6 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [27]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
@@ -371,83 +365,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [60]",
-            "type": "vless",
-            "server": "login-acc.aliyostd.com",
-            "server_port": 2689,
-            "uuid": "d3ca8058-334f-482f-b2e7-3badaa2c789b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
-                    "short_id": "b6c24852f86067a6"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "nama"
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [61]",
-            "type": "vless",
-            "server": "usa53.openbypass.org",
-            "server_port": 443,
-            "uuid": "6e567f58-f981-486a-beae-cdefc2d86dd2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "usa53.openbypass.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [62]",
-            "type": "vless",
-            "server": "phpweb.aliyostd.com",
-            "server_port": 2689,
-            "uuid": "d3ca8058-334f-482f-b2e7-3badaa2c789b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
-                    "short_id": "b6c24852f86067a6"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "nama"
             }
         },
         {
@@ -774,6 +691,33 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [19]",
+            "type": "vless",
+            "server": "legendary.zooboming.com",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "spnzKjwJoNRVgyj0JMHHNk395Ex0F15ETgV1JOc4wDA",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers"
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
             "type": "vless",
             "server": "iran.nikirani.sfree.persianmemberiranmember.shop",
@@ -1054,29 +998,6 @@
                     "enabled": true,
                     "public_key": "COh8PaOebru8HlshEfNEN3_6pXREyUPQvyLWfX0zT3Y",
                     "short_id": "5e"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [27]",
-            "type": "vless",
-            "server": "fin01-vlr01.tcp-reset-club.net",
-            "server_port": 443,
-            "uuid": "80074d6b-23c5-465e-a348-dcf0378fd1f2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "48720c"
                 }
             }
         },
