@@ -86,6 +86,8 @@
                 "🇷🇴 RO | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [116]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [118]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -279,6 +281,8 @@
                 "🇷🇴 RO | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [116]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [118]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -657,6 +661,44 @@
                 "path": "/veNbt06rF0tTFtp6/MTcyLjY0LjEzNC41OA==?ed=2560",
                 "headers": {
                     "Host": "SpEedteST.NET"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [116]",
+            "type": "vless",
+            "server": "49.13.62.117",
+            "server_port": 57276,
+            "uuid": "49853e4f-8d8b-4318-b845-4bbb28fbddc9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "FAST78_CHANNEL-TEL--FAST78_CHANNEL-TEL--FAST78_CHANNEL-TEL--FAST78_CHANNEL-JOIN-FAST78_CHANNEL-TEL--FAST78_CHANNEL-JOIN-FAST78_CHANNEL-TEL-FAST78_CHANNEL-TEL--FAST78_CHANNEL-JOIN-FAST78_CHANNEL-TEL--FAST78_CHANNEL"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [118]",
+            "type": "vless",
+            "server": "172.66.132.196",
+            "server_port": 443,
+            "uuid": "5de46b0d-10fd-4162-8997-5003f9da30e0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mmd-p9k.PagEs.Dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/tel-@Config_Rayegan=?ed=2560",
+                "headers": {
+                    "Host": "mmd-p9k.PagEs.Dev"
                 }
             }
         },
