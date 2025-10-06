@@ -107,10 +107,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔒 VLESS | @bored_vpn [9]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [12]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [16]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [18]",
-                "🇵🇱 PL | 🔓 VLESS | @config_proxy [19]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -564,7 +560,7 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇬🇧 GB | 🔒 VLESS | @v2raych [20]",
+                "🇬🇧 GB | 🔒 VLESS | @v2raych [12]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
                 "❔ XX | 🔓 VLESS | @v2rayngconfiig [7]",
@@ -717,10 +713,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔒 VLESS | @bored_vpn [9]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [12]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [16]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [18]",
-                "🇵🇱 PL | 🔓 VLESS | @config_proxy [19]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1174,7 +1166,7 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇬🇧 GB | 🔒 VLESS | @v2raych [20]",
+                "🇬🇧 GB | 🔒 VLESS | @v2raych [12]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
                 "❔ XX | 🔓 VLESS | @v2rayngconfiig [7]",
@@ -1905,86 +1897,6 @@
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
             }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [12]",
-            "type": "vless",
-            "server": "cloudflare.182682.xyz",
-            "server_port": 443,
-            "uuid": "a546c4de-2840-49b7-b914-98babd165bb1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "de.xiejiang.dpdns.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/XYXY0721",
-                "headers": {
-                    "Host": "de.xiejiang.dpdns.org"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [16]",
-            "type": "vless",
-            "server": "in2.zizimax.ir",
-            "server_port": 82,
-            "uuid": "436e1ab3-b37a-409d-bafb-57c6e2bf7eaa",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "check-host.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-MfDOThNltWis5VDTGFNCP9DCsybTODpPoyC_i1n_GM",
-                    "short_id": "fd"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [18]",
-            "type": "vless",
-            "server": "vfast7.hvitrin.ir",
-            "server_port": 49330,
-            "uuid": "ac7b6757-05c0-4a28-8b08-14ab496a5fe4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "miro.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Dee9YE139lZpb4V3QytB8DvHY3nTCnEXzk2IjvMLHi8",
-                    "short_id": "b3"
-                }
-            }
-        },
-        {
-            "tag": "🇵🇱 PL | 🔓 VLESS | @config_proxy [19]",
-            "type": "vless",
-            "server": "m22a.vip784.com",
-            "server_port": 33801,
-            "uuid": "f65e636d-c532-4e6c-b428-015402fd276c",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -9749,7 +9661,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @v2raych [20]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @v2raych [12]",
             "type": "vless",
             "server": "uk.ircloudmarket.com",
             "server_port": 7600,
