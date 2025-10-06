@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 TROJAN | @hope_net [20]",
+                "🇺🇸 US | 🔒 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
@@ -102,7 +103,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔒 TROJAN | @hope_net [20]",
+                "🇺🇸 US | 🔒 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
@@ -204,7 +206,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 TROJAN | @hope_net [20]",
+            "tag": "🇺🇸 US | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "54.86.84.58",
             "server_port": 22222,
@@ -212,6 +214,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "108.162.195.188",
+            "server_port": 443,
+            "password": "blue2024",
+            "tls": {
+                "enabled": true,
+                "server_name": "ta.promote.icu",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

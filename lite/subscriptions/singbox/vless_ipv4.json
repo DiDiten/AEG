@@ -98,8 +98,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇫🇷 FR | 🔓 VLESS | @config_proxy [26]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [31]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [33]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -147,7 +147,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -293,8 +292,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇫🇷 FR | 🔓 VLESS | @config_proxy [26]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [31]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [33]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -342,7 +341,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔓 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -673,24 +671,36 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @config_proxy [26]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [31]",
             "type": "vless",
-            "server": "91.134.100.4",
-            "server_port": 10298,
-            "uuid": "1ebff68a-ad3f-4ba9-a682-fa618ed3cc10",
+            "server": "190.93.244.210",
+            "server_port": 443,
+            "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ac.ylks.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "ac.ylks.xyz"
+                }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [27]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [33]",
             "type": "vless",
-            "server": "95.164.68.37",
+            "server": "194.110.246.61",
             "server_port": 8443,
-            "uuid": "78ca9bfd-8920-423c-a6a9-9e9a3afe84df",
+            "uuid": "4124b176-2ac5-42f7-86f9-c1f52ef4e369",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -703,7 +713,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "WuV0Uu4BXukDeBYQR2OtDgb_aKjs3u0tU-ENHSjtTmY",
+                    "public_key": "okKUcvjT68odjfLWEZ47XopjP3AqHfbC4jsxfN2-i30",
                     "short_id": ""
                 }
             }
@@ -1556,22 +1566,6 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @hope_net [19]",
-            "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 80,
-            "uuid": "9dde0cfb-2f92-432e-9c52-6d2dec6803bb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "104.17.147.22"
                 }
             }
         },
