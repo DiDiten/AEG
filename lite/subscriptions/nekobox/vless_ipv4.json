@@ -86,7 +86,7 @@
                 "🇷🇴 RO | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇦🇪 AE | 🔒 VLESS | @config_proxy [71]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [62]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -133,7 +133,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔒 VLESS | @hope_net [19]",
+                "🚩 CF | 🔓 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -252,7 +252,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [17]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [18]",
-                "🇫🇷 FR | 🔓 VLESS | @vmesc [18]",
+                "🚩 CF | 🔒 VLESS | @vmesc [17]",
                 "🚩 CF | 🔒 VLESS | @vmesc [19]",
                 "🚩 CF | 🔒 VLESS | @vmessorg [7]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
@@ -277,7 +277,7 @@
                 "🇷🇴 RO | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇦🇪 AE | 🔒 VLESS | @config_proxy [71]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [62]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -324,7 +324,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🚩 CF | 🔒 VLESS | @hope_net [19]",
+                "🚩 CF | 🔓 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -443,7 +443,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [17]",
                 "🇫🇷 FR | 🔒 VLESS | @vlessconfig [18]",
-                "🇫🇷 FR | 🔓 VLESS | @vmesc [18]",
+                "🚩 CF | 🔒 VLESS | @vmesc [17]",
                 "🚩 CF | 🔒 VLESS | @vmesc [19]",
                 "🚩 CF | 🔒 VLESS | @vmessorg [7]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
@@ -657,25 +657,18 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🔒 VLESS | @config_proxy [71]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [62]",
             "type": "vless",
-            "server": "38.180.27.102",
-            "server_port": 8080,
-            "uuid": "1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37",
-            "flow": "xtls-rprx-vision",
+            "server": "104.17.147.22",
+            "server_port": 80,
+            "uuid": "01TEL--ID--JKVPN-JKVPN",
+            "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yandex.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs",
-                    "short_id": "27cfa05000c23cc4"
+            "transport": {
+                "type": "ws",
+                "path": "/TELEGRAM-@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN?ed=2048",
+                "headers": {
+                    "Host": "104.17.147.22"
                 }
             }
         },
@@ -1496,27 +1489,18 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @hope_net [19]",
+            "tag": "🚩 CF | 🔓 VLESS | @hope_net [20]",
             "type": "vless",
-            "server": "172.64.146.48",
-            "server_port": 443,
-            "uuid": "bc280439-2732-493a-8e60-f0607be2b295",
+            "server": "104.17.147.22",
+            "server_port": 80,
+            "uuid": "3ccd8292-2383-4028-9c66-c875590f7b96",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "rvseprxysrv2.parthianempire.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/bc280439-2732-493a-8e60-f0607be2b295",
+                "path": "/?ed=2056",
                 "headers": {
-                    "Host": "rvseprxysrv2.parthianempire.org"
+                    "Host": "104.17.147.22"
                 }
             }
         },
@@ -3560,20 +3544,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "57.130.29.231",
-            "server_port": 46393,
-            "uuid": "10377e13-ba4e-4b86-ad26-08ac573bfa29",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [19]",
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "172.66.44.118",
             "server_port": 443,
@@ -3594,6 +3565,31 @@
                 "path": "/VrChX4o5oasIm4In?ed=2560",
                 "headers": {
                     "Host": "ConFIgmr.PaGeS.dEV"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "104.20.30.132",
+            "server_port": 443,
+            "uuid": "41b55c53-7776-4727-b05d-1ccf9cc409a5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "gamang.gpj2.dpdns.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Free-VPN-Geo-Project/91.187.93.166-443",
+                "headers": {
+                    "Host": "gamang.gpj2.dpdns.org"
                 }
             }
         },
