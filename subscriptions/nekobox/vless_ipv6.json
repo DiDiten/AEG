@@ -93,7 +93,6 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [4]",
                 "❔ XX | 🔓 VLESS | @parsashonam [8]",
-                "❔ XX | 🔓 VLESS | @v2raych [1]",
                 "❔ XX | 🔒 VLESS | @v2rayopen [13]",
                 "❔ XX | 🔓 VLESS | @v2raytg [58]"
             ],
@@ -119,7 +118,6 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔓 VLESS | @parsashonam [4]",
                 "❔ XX | 🔓 VLESS | @parsashonam [8]",
-                "❔ XX | 🔓 VLESS | @v2raych [1]",
                 "❔ XX | 🔒 VLESS | @v2rayopen [13]",
                 "❔ XX | 🔓 VLESS | @v2raytg [58]"
             ],
@@ -418,28 +416,6 @@
             "uuid": "Parsashonam-312",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @v2raych [1]",
-            "type": "vless",
-            "server": "[0000:0000:0000:0000:0000:ffff:05fd:29ca]",
-            "server_port": 443,
-            "uuid": "227f8f6a-dc38-538e-a140-90a9c99304c6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "jp1.xvless.site",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "vless-grpc"
-            }
         },
         {
             "tag": "❔ XX | 🔒 VLESS | @v2rayopen [13]",
