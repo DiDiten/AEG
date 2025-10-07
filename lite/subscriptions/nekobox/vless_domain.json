@@ -91,7 +91,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [117]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -178,7 +177,6 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
-                "🇸🇪 SE | 🔓 VLESS | @mowjproxy [1]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -283,6 +281,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
+                "🇸🇪 SE | 🔓 VLESS | @vpnplusee_free [12]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -310,7 +309,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [117]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -397,7 +395,6 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
-                "🇸🇪 SE | 🔓 VLESS | @mowjproxy [1]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -502,6 +499,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
+                "🇸🇪 SE | 🔓 VLESS | @vpnplusee_free [12]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -795,29 +793,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [117]",
-            "type": "vless",
-            "server": "gozarfreebot.niniweblog.org",
-            "server_port": 8443,
-            "uuid": "9d313023-99a5-4667-bdb2-1d223911b317",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "b8hRkoInSqR5tSey-WAdsgSU5JySyKgYRaid1NUf0AE",
-                    "short_id": "92604737065b8027"
-                }
             }
         },
         {
@@ -2256,22 +2231,6 @@
             "uuid": "d0f30d61-4a72-4640-8267-24f4afeb1b37",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇸🇪 SE | 🔓 VLESS | @mowjproxy [1]",
-            "type": "vless",
-            "server": "jone.fast-turbooserver.com",
-            "server_port": 8443,
-            "uuid": "turboo-server",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Turboo-Server?ed=2048V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs",
-                "headers": {
-                    "Host": "jone.fast-turbooserver.com"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
@@ -4079,6 +4038,22 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl"
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔓 VLESS | @vpnplusee_free [12]",
+            "type": "vless",
+            "server": "jone.fast-turbooserver.com",
+            "server_port": 8443,
+            "uuid": "turboo-server",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Turboo-Server?ed=2048V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs--V2rayDevs",
+                "headers": {
+                    "Host": "jone.fast-turbooserver.com"
+                }
             }
         },
         {

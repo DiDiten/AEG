@@ -86,8 +86,8 @@
                 "🇷🇴 RO | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [116]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [118]",
+                "🇦🇲 AM | 🔓 VLESS | @config_proxy [51]",
+                "🇨🇦 CA | 🔓 VLESS | @config_proxy [52]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -245,7 +245,7 @@
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [5]",
                 "🇱🇹 LT | 🔒 VLESS | @v2rayprotocol [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayturbo [8]",
-                "🇵🇱 PL | 🔒 VLESS | @v2trayproxy [28]",
+                "🇫🇷 FR | 🔒 VLESS | @v2trayproxy [28]",
                 "🇩🇪 DE | 🔓 VLESS | @vip_vpn_2022 [7]",
                 "🚩 CF | 🔓 VLESS | @vip_vpn_2022 [8]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
@@ -281,8 +281,8 @@
                 "🇷🇴 RO | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [116]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [118]",
+                "🇦🇲 AM | 🔓 VLESS | @config_proxy [51]",
+                "🇨🇦 CA | 🔓 VLESS | @config_proxy [52]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -440,7 +440,7 @@
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [5]",
                 "🇱🇹 LT | 🔒 VLESS | @v2rayprotocol [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v2rayturbo [8]",
-                "🇵🇱 PL | 🔒 VLESS | @v2trayproxy [28]",
+                "🇫🇷 FR | 🔒 VLESS | @v2trayproxy [28]",
                 "🇩🇪 DE | 🔓 VLESS | @vip_vpn_2022 [7]",
                 "🚩 CF | 🔓 VLESS | @vip_vpn_2022 [8]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
@@ -665,41 +665,32 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [116]",
+            "tag": "🇦🇲 AM | 🔓 VLESS | @config_proxy [51]",
             "type": "vless",
-            "server": "49.13.62.117",
-            "server_port": 57276,
-            "uuid": "49853e4f-8d8b-4318-b845-4bbb28fbddc9",
+            "server": "92.223.2.119",
+            "server_port": 36136,
+            "uuid": "3a0d14e2-02be-49ef-829f-063fd273a89f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "92.223.2.119"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔓 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "15.235.45.229",
+            "server_port": 40853,
+            "uuid": "b0ff01b1-04d3-4b01-8ba9-b1dc47416c07",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "grpc",
-                "service_name": "FAST78_CHANNEL-TEL--FAST78_CHANNEL-TEL--FAST78_CHANNEL-TEL--FAST78_CHANNEL-JOIN-FAST78_CHANNEL-TEL--FAST78_CHANNEL-JOIN-FAST78_CHANNEL-TEL-FAST78_CHANNEL-TEL--FAST78_CHANNEL-JOIN-FAST78_CHANNEL-TEL--FAST78_CHANNEL"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [118]",
-            "type": "vless",
-            "server": "172.66.132.196",
-            "server_port": 443,
-            "uuid": "5de46b0d-10fd-4162-8997-5003f9da30e0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mmd-p9k.PagEs.Dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/tel-@Config_Rayegan=?ed=2560",
-                "headers": {
-                    "Host": "mmd-p9k.PagEs.Dev"
-                }
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
             }
         },
         {
@@ -3414,7 +3405,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @v2trayproxy [28]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @v2trayproxy [28]",
             "type": "vless",
             "server": "185.158.133.50",
             "server_port": 2096,
