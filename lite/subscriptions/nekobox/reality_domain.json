@@ -108,6 +108,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🇬🇧 GB | 🔒 VLESS | @v2rayopen [12]",
+                "🇫🇮 FI | 🔒 VLESS | @v2rayopen [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
@@ -151,6 +152,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🇬🇧 GB | 🔒 VLESS | @v2rayopen [12]",
+                "🇫🇮 FI | 🔒 VLESS | @v2rayopen [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
@@ -927,6 +929,33 @@
                     "public_key": "DngV-p3iU0ajgqfWPw-wex_fiW-kpdXfOGV1dnqqpS0",
                     "short_id": "1803657e2ba1a473"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @v2rayopen [14]",
+            "type": "vless",
+            "server": "login-acc.aliyostd.com",
+            "server_port": 2689,
+            "uuid": "e07f158d-a5ee-44a5-8b75-10525fc4b06d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
+                    "short_id": "b6c24852f86067a6"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "nama"
             }
         },
         {

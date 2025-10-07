@@ -92,7 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [54]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [55]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [56]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇭🇷 HR | 🔒 VLESS | @free4allvpn [18]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -125,6 +127,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
+                "🇰🇿 KZ | 🔒 VLESS | @vmesc [19]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
             ],
             "tag": "proxy",
@@ -136,7 +139,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [54]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [55]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [56]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇭🇷 HR | 🔒 VLESS | @free4allvpn [18]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -169,6 +174,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
+                "🇰🇿 KZ | 🔒 VLESS | @vmesc [19]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
             ],
             "tag": "auto",
@@ -256,16 +262,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [54]",
             "type": "vless",
-            "server": "91.98.40.123",
+            "server": "5.75.192.6",
             "server_port": 443,
-            "uuid": "0c0b6d4a-0811-460f-d4b0-dd982a911240",
+            "uuid": "c4b46615-5a3c-4431-f3b9-01b16a9fde69",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "store.steampowered.com@V2rayNGVPN <= کانفیگ رایگان",
+                "server_name": "iubenda.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -273,8 +279,54 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "zW8LR-lHS_PXDyY8Q8bE_zvKdhY5MAmnsd8miBulx2U",
-                    "short_id": ""
+                    "public_key": "fVtKLgnLnnS9SXhHujGSWEiqQipzlTV1lG7C2dNThSM",
+                    "short_id": "48"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "51.38.74.31",
+            "server_port": 2020,
+            "uuid": "63df8c89-7a2c-4da2-a60b-4baf2c8acd1a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "51.38.74.31",
+            "server_port": 4455,
+            "uuid": "63df8c89-7a2c-4da2-a60b-4baf2c8acd1a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
                 }
             }
         },
@@ -1031,6 +1083,29 @@
                     "enabled": true,
                     "public_key": "Qdg7LVP5VmLr7xzv556ry5RNc3QaeAj4TwOUxndA23M",
                     "short_id": "e3f89b63"
+                }
+            }
+        },
+        {
+            "tag": "🇰🇿 KZ | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "194.31.157.238",
+            "server_port": 443,
+            "uuid": "ed97e008-2b8d-4415-94c7-3da4919d361a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "deepl.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4",
+                    "short_id": "2d46a79deebf50fd"
                 }
             }
         },

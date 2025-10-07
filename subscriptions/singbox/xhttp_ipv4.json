@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [53]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -112,7 +113,7 @@
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [2]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [59]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [61]",
-                "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [13]",
+                "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [11]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
@@ -144,7 +145,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [12]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -165,6 +165,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [53]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -185,7 +186,7 @@
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [2]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [59]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [61]",
-                "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [13]",
+                "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [11]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
@@ -217,7 +218,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [12]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -310,6 +310,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "51.38.74.31",
+            "server_port": 1146,
+            "uuid": "63df8c89-7a2c-4da2-a60b-4baf2c8acd1a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
                 }
             }
         },
@@ -712,7 +735,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [13]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [11]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -1218,15 +1241,6 @@
                     "short_id": "5426024033df45"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [12]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "48a1bdb7-7c17-486f-ebd1-e861d6d05d86",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",

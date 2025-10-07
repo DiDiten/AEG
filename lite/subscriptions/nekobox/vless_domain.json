@@ -255,6 +255,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
                 "🇬🇧 GB | 🔒 VLESS | @v2rayopen [12]",
+                "🇫🇮 FI | 🔒 VLESS | @v2rayopen [14]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
                 "❔ XX | 🔓 VLESS | @v2rayturbo [9]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [11]",
@@ -270,7 +271,6 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔒 VLESS | @vmesc [17]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [12]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [14]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [5]",
@@ -473,6 +473,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
                 "🇬🇧 GB | 🔒 VLESS | @v2rayopen [12]",
+                "🇫🇮 FI | 🔒 VLESS | @v2rayopen [14]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
                 "❔ XX | 🔓 VLESS | @v2rayturbo [9]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [11]",
@@ -488,7 +489,6 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🚩 CF | 🔒 VLESS | @vmesc [17]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [12]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [14]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [5]",
@@ -3606,6 +3606,33 @@
             }
         },
         {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @v2rayopen [14]",
+            "type": "vless",
+            "server": "login-acc.aliyostd.com",
+            "server_port": 2689,
+            "uuid": "e07f158d-a5ee-44a5-8b75-10525fc4b06d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
+                    "short_id": "b6c24852f86067a6"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "nama"
+            }
+        },
+        {
             "tag": "🚩 CF | 🔓 VLESS | @v2raytg [62]",
             "type": "vless",
             "server": "cafearz.com",
@@ -3867,31 +3894,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "okala.com"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [17]",
-            "type": "vless",
-            "server": "cc.cybsecguru.com",
-            "server_port": 443,
-            "uuid": "5f89ac2a-b6d6-4c66-98d8-39c4d552138c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "jnir-cdn.6006900.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/?ed=2560",
-                "headers": {
-                    "Host": "jnir-cdn.6006900.xyz"
-                }
             }
         },
         {
