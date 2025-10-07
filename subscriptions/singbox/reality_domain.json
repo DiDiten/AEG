@@ -108,7 +108,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [12]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [14]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [16]",
-                "🇷🇺 RU | 🔒 VLESS | @free1_vpn [10]",
+                "🇷🇺 RU | 🔒 VLESS | @free1_vpn [9]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [13]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
@@ -147,6 +147,8 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇬🇧 GB | 🔒 VLESS | @v2raych [2]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
                 "🇬🇧 GB | 🔒 VLESS | @v2rayopen [12]",
@@ -211,7 +213,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [12]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [14]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [16]",
-                "🇷🇺 RU | 🔒 VLESS | @free1_vpn [10]",
+                "🇷🇺 RU | 🔒 VLESS | @free1_vpn [9]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [13]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
@@ -250,6 +252,8 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇬🇧 GB | 🔒 VLESS | @v2raych [2]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "❔ XX | 🔒 VLESS | @v2rayngseven [1]",
                 "🇬🇧 GB | 🔒 VLESS | @v2rayopen [12]",
@@ -770,7 +774,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @free1_vpn [10]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @free1_vpn [9]",
             "type": "vless",
             "server": "yt.fasssst.ru",
             "server_port": 443,
@@ -1734,6 +1738,56 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @v2raych [2]",
+            "type": "vless",
+            "server": "programs.aliyostd.com",
+            "server_port": 2689,
+            "uuid": "78d0e383-e88c-4e58-997e-9f86d8d90ec1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L4WAAdlTv7i2tDZwPcvYrCfZg2IDCI_sp5LElu3u91U",
+                    "short_id": "b6c24852f86067a6"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [9]",
+            "type": "vless",
+            "server": "de77.NaNvaiIiSaEEdd.iR",
+            "server_port": 1615,
+            "uuid": "f0e9e15a-73be-4e1a-99cd-01bb501de7c8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JGnVRUSzYfMg3pwJKIGO84Lyo1_nalQe21b3EG0JiV8",
+                    "short_id": ""
                 }
             }
         },
