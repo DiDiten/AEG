@@ -82,13 +82,12 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [63]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
-                "🇷🇺 RU | 🔒 VLESS | @free1_vpn [10]",
+                "🇷🇺 RU | 🔒 VLESS | @free1_vpn [9]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
@@ -109,6 +108,7 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
+                "🇬🇧 GB | 🔒 VLESS | @v2rayopen [12]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
@@ -126,13 +126,12 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [63]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
-                "🇷🇺 RU | 🔒 VLESS | @free1_vpn [10]",
+                "🇷🇺 RU | 🔒 VLESS | @free1_vpn [9]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [8]",
@@ -153,6 +152,7 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
+                "🇬🇧 GB | 🔒 VLESS | @v2rayopen [12]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
@@ -298,33 +298,6 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [63]",
-            "type": "vless",
-            "server": "kiliyanmbappe10.vtuix.space",
-            "server_port": 7033,
-            "uuid": "bef253ce-76ff-49dd-aeaf-e68ff02447e1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.telewebion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "iLik9C9our-5dRYuvFtrYOzd1NedgTsqUKew2ogLdgE",
-                    "short_id": "16b6cda7ab793526@V2rayNGVPN <= کانفیگ رایگان"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "7034vless"
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -444,7 +417,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @free1_vpn [10]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @free1_vpn [9]",
             "type": "vless",
             "server": "yt.fasssst.ru",
             "server_port": 443,
@@ -955,6 +928,29 @@
                     "enabled": true,
                     "public_key": "7nXyxyyn6fSlJzPO1DFmIEUV8LAmoP58-_1zP_MKo2E",
                     "short_id": "177f438f"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @v2rayopen [12]",
+            "type": "vless",
+            "server": "p9q8r7s6.tu4v3w2x.yz12ab34cd56.hello-world99.persianfly.org",
+            "server_port": 3051,
+            "uuid": "ce2f5acf-7484-464c-96a6-a96c0f41431f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "DngV-p3iU0ajgqfWPw-wex_fiW-kpdXfOGV1dnqqpS0",
+                    "short_id": "1803657e2ba1a473"
                 }
             }
         },
