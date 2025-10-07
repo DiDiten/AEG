@@ -100,8 +100,7 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "❔ XX | 🔓 VLESS | @parsashonam [8]",
-                "❔ XX | 🔒 VLESS | @prrofile_purple [144]"
+                "❔ XX | 🔓 VLESS | @parsashonam [8]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -120,8 +119,7 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "❔ XX | 🔓 VLESS | @parsashonam [8]",
-                "❔ XX | 🔒 VLESS | @prrofile_purple [144]"
+                "❔ XX | 🔓 VLESS | @parsashonam [8]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -351,29 +349,6 @@
             "uuid": "Parsashonam-312",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @prrofile_purple [144]",
-            "type": "vless",
-            "server": "[2a03:b0c0:3:f0:0:1:4139:b000]",
-            "server_port": 9696,
-            "uuid": "bcc560e0-173b-4c49-a4ce-742c3fae0028",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "icloud.cdn-apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Y_GsfLRoTP6SXIyYQjrn8TM_nce7Y9RIoEfWTJ35sGI",
-                    "short_id": ""
-                }
-            }
         }
     ],
     "route": {
