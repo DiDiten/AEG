@@ -112,6 +112,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [13]",
                 "❔ XX | 🔓 VLESS | @v2aryng_vpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [3]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [8]",
@@ -148,6 +149,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [13]",
                 "❔ XX | 🔓 VLESS | @v2aryng_vpn [1]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [13]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [3]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [8]",
@@ -483,6 +485,29 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [13]",
+            "type": "vless",
+            "server": "in2.zizimax.ir",
+            "server_port": 82,
+            "uuid": "436e1ab3-b37a-409d-bafb-57c6e2bf7eaa",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "check-host.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-MfDOThNltWis5VDTGFNCP9DCsybTODpPoyC_i1n_GM",
+                    "short_id": "fd"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
