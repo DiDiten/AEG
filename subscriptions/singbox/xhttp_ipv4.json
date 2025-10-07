@@ -142,6 +142,7 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -213,6 +214,7 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [10]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -1180,6 +1182,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [9]",
+            "type": "vless",
+            "server": "155.254.35.78",
+            "server_port": 16274,
+            "uuid": "88b6ee92-883b-450c-a83d-77f71e1db388",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MqVGNyGgn2-d-VrmwbViA73YFlfwe4O8Cu1qQqpOSXI",
+                    "short_id": "f35490"
                 }
             }
         },

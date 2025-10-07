@@ -86,8 +86,7 @@
                 "🇷🇴 RO | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [46]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [48]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -260,7 +259,6 @@
                 "🚩 CF | 🔒 VLESS | @vmessorg [7]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
-                "🇹🇷 TR | 🔓 VLESS | @vpnplusee_free [10]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [1]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnv2raytop [2]",
@@ -281,8 +279,7 @@
                 "🇷🇴 RO | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [46]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [48]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -455,7 +452,6 @@
                 "🚩 CF | 🔒 VLESS | @vmessorg [7]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
-                "🇹🇷 TR | 🔓 VLESS | @vpnplusee_free [10]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [1]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnv2raytop [2]",
@@ -665,25 +661,16 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [46]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
             "type": "vless",
-            "server": "89.44.242.222",
-            "server_port": 29500,
-            "uuid": "888a20e2-fc3f-4f52-973c-36a6386225b8",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [48]",
-            "type": "vless",
-            "server": "188.245.55.148",
-            "server_port": 999,
-            "uuid": "c07012cb-ed4c-4cf9-bfd7-11a67f6c8230",
+            "server": "155.254.35.78",
+            "server_port": 16274,
+            "uuid": "88b6ee92-883b-450c-a83d-77f71e1db388",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "zula.ir",
+                "server_name": "miro.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -691,8 +678,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "mC2_7hqeQtC5lHPS2JVy2h5ayLQQrAdp6TmU-9J0Ihg",
-                    "short_id": "dcae68c2"
+                    "public_key": "MqVGNyGgn2-d-VrmwbViA73YFlfwe4O8Cu1qQqpOSXI",
+                    "short_id": "f35490"
                 }
             }
         },
@@ -3736,19 +3723,6 @@
                 "headers": {
                     "Host": "cr7.traneh.dpdns.org"
                 }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @vpnplusee_free [10]",
-            "type": "vless",
-            "server": "95.134.130.138",
-            "server_port": 5437,
-            "uuid": "97ef0833-f047-4ba0-bc7e-40b54bd9c5b9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn"
             }
         },
         {
