@@ -86,7 +86,8 @@
                 "🇷🇴 RO | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [47]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [61]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -280,7 +281,8 @@
                 "🇷🇴 RO | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [47]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [61]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -663,27 +665,48 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [47]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
             "type": "vless",
-            "server": "176.222.53.140",
-            "server_port": 8000,
-            "uuid": "b65f4df7-f6af-42b2-877a-cef33f21675e",
-            "flow": "",
+            "server": "5.75.192.6",
+            "server_port": 443,
+            "uuid": "c4b46615-5a3c-4431-f3b9-01b16a9fde69",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "kejiland.freewarp.eu.org",
+                "server_name": "iubenda.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fVtKLgnLnnS9SXhHujGSWEiqQipzlTV1lG7C2dNThSM",
+                    "short_id": "48"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560",
-                "headers": {
-                    "Host": "kejiland.freewarp.eu.org"
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [61]",
+            "type": "vless",
+            "server": "94.198.218.41",
+            "server_port": 443,
+            "uuid": "ed97e008-2b8d-4415-94c7-3da4919d361a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "deepl.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4",
+                    "short_id": "2d46a79deebf50fd"
                 }
             }
         },
