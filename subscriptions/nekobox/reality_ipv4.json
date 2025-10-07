@@ -83,7 +83,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [62]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [57]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -171,7 +172,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [2]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇫🇷 FR | 🔒 VLESS | @v2raych [12]",
+                "🇫🇷 FR | 🔒 VLESS | @v2raych [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -214,7 +215,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [62]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [57]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -302,7 +304,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [2]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇫🇷 FR | 🔒 VLESS | @v2raych [12]",
+                "🇫🇷 FR | 🔒 VLESS | @v2raych [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -491,16 +493,16 @@
             }
         },
         {
-            "tag": "🇰🇿 KZ | 🔒 VLESS | @config_proxy [62]",
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [57]",
             "type": "vless",
-            "server": "194.31.157.238",
-            "server_port": 443,
-            "uuid": "ed97e008-2b8d-4415-94c7-3da4919d361a",
+            "server": "91.242.241.45",
+            "server_port": 8443,
+            "uuid": "e85ce618-50cd-42e0-a8ba-5052e6be9498",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "deepl.com",
+                "server_name": "google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -508,8 +510,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4",
-                    "short_id": "2d46a79deebf50fd"
+                    "public_key": "1-2fy8f8XeOHzmdFmCENHV1mr_tzJX1M9UXp42mUIiM",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "5.181.171.10",
+            "server_port": 443,
+            "uuid": "49ed01ad-3bb4-204f-b0ff-a58f658fd618",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y",
+                    "short_id": ""
                 }
             }
         },
@@ -2602,7 +2627,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @v2raych [12]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @v2raych [4]",
             "type": "vless",
             "server": "157.173.127.228",
             "server_port": 443,
