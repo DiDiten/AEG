@@ -82,7 +82,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -115,7 +114,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [10]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [60]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇭🇷 HR | 🔒 VLESS | @free4allvpn [18]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -150,7 +148,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔒 VLESS | @kesslervpn [2]"
+                "❔ XX | 🔒 VLESS | @kesslervpn [2]",
+                "❔ XX | 🔒 VLESS | @v2rayopen [13]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -163,7 +162,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -196,7 +194,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @vpnplusee_free [10]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [60]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇭🇷 HR | 🔒 VLESS | @free4allvpn [18]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -231,7 +228,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔒 VLESS | @kesslervpn [2]"
+                "❔ XX | 🔒 VLESS | @kesslervpn [2]",
+                "❔ XX | 🔒 VLESS | @v2rayopen [13]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -369,29 +367,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
-            "type": "vless",
-            "server": "GozarFreeBot.niniweblog.org",
-            "server_port": 2053,
-            "uuid": "7bc3d49a-f9c1-4a31-a6e9-4f7fffb2770b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eePFgcd1NGur--s-Up0RWrg0ao0AFrznzodgkEQjtFg",
-                    "short_id": "54d000e8d6494f85"
-                }
             }
         },
         {
@@ -1175,29 +1150,6 @@
                     "enabled": true,
                     "public_key": "277HDYaNIvLYS9CMSr1CbkcTaahPEUCymW_0Ad17p2M",
                     "short_id": "f2"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [60]",
-            "type": "vless",
-            "server": "185.174.136.244",
-            "server_port": 8080,
-            "uuid": "1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yandex.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs",
-                    "short_id": "27cfa05000c23cc4¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---"
                 }
             }
         },
@@ -2026,6 +1978,29 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "WeBcvXnjj4LbVsAT2lTbZ3JbvoqE4S_rON9h-7DjrHo",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @v2rayopen [13]",
+            "type": "vless",
+            "server": "[2a03:b0c0:3:f0:0:1:4139:b000]",
+            "server_port": 9696,
+            "uuid": "bcc560e0-173b-4c49-a4ce-742c3fae0028",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "icloud.cdn-apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Y_GsfLRoTP6SXIyYQjrn8TM_nce7Y9RIoEfWTJ35sGI",
                     "short_id": ""
                 }
             }
