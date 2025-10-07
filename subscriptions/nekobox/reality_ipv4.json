@@ -83,6 +83,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -129,7 +130,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
-                "🇷🇺 RU | 🔒 VLESS | @kafing_2 [6]",
+                "🇷🇺 RU | 🔒 VLESS | @kafing_2 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @loatvpn [1]",
                 "🇫🇷 FR | 🔒 VLESS | @manstervpn [52]",
@@ -192,7 +193,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [16]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
                 "🇸🇪 SE | 🔒 VLESS | @vmessiranproxy [8]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [9]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [11]",
@@ -212,6 +213,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -258,7 +260,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [15]",
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
-                "🇷🇺 RU | 🔒 VLESS | @kafing_2 [6]",
+                "🇷🇺 RU | 🔒 VLESS | @kafing_2 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @loatvpn [1]",
                 "🇫🇷 FR | 🔒 VLESS | @manstervpn [52]",
@@ -321,7 +323,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [16]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
                 "🇸🇪 SE | 🔒 VLESS | @vmessiranproxy [8]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [9]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [11]",
@@ -483,6 +485,29 @@
                     "enabled": true,
                     "public_key": "8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0",
                     "short_id": "5fab0deb"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "185.174.136.244",
+            "server_port": 8080,
+            "uuid": "1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yandex.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs",
+                    "short_id": "27cfa05000c23cc4"
                 }
             }
         },
@@ -1585,7 +1610,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @kafing_2 [6]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @kafing_2 [4]",
             "type": "vless",
             "server": "185.200.240.188",
             "server_port": 443,
@@ -3099,7 +3124,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [16]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
             "type": "vless",
             "server": "164.92.188.15",
             "server_port": 9696,
