@@ -82,7 +82,8 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [5]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [46]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -119,7 +120,8 @@
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [5]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [46]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -252,7 +254,30 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [46]",
+            "type": "vless",
+            "server": "free1.behnambani.blog",
+            "server_port": 2052,
+            "uuid": "04b9ba66-5801-4806-95b0-f72695d452d2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Jv_lAnRvGjnDDJuIzkx53Wyb80ad9rY_17d3roafmX0",
+                    "short_id": "2db7"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
             "type": "vless",
             "server": "test.barayekhudam.ir",
             "server_port": 59697,
