@@ -86,7 +86,8 @@
                 "🇳🇴 NO | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "❔ XX | 🔒 VLESS | @config_proxy [56]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [41]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -198,7 +199,8 @@
                 "🚩 CF | 🔓 VLESS | @renetvpn [9]",
                 "🚩 CF | 🔓 VLESS | @renetvpn [10]",
                 "🚩 CF | 🔓 VLESS | @renetvpn [11]",
-                "🚩 CF | 🔒 VLESS | @satellitenewspersian [19]",
+                "🚩 CF | 🔒 VLESS | @satellitenewspersian [18]",
+                "🚩 CF | 🔒 VLESS | @satellitenewspersian [20]",
                 "🚩 CF | 🔓 VLESS | @savagev2ray [13]",
                 "🇮🇷 IR | 🔓 VLESS | @selinc [5]",
                 "🚩 CF | 🔒 VLESS | @selinc [6]",
@@ -278,7 +280,8 @@
                 "🇳🇴 NO | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "❔ XX | 🔒 VLESS | @config_proxy [56]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [41]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -390,7 +393,8 @@
                 "🚩 CF | 🔓 VLESS | @renetvpn [9]",
                 "🚩 CF | 🔓 VLESS | @renetvpn [10]",
                 "🚩 CF | 🔓 VLESS | @renetvpn [11]",
-                "🚩 CF | 🔒 VLESS | @satellitenewspersian [19]",
+                "🚩 CF | 🔒 VLESS | @satellitenewspersian [18]",
+                "🚩 CF | 🔒 VLESS | @satellitenewspersian [20]",
                 "🚩 CF | 🔓 VLESS | @savagev2ray [13]",
                 "🇮🇷 IR | 🔓 VLESS | @selinc [5]",
                 "🚩 CF | 🔒 VLESS | @selinc [6]",
@@ -654,22 +658,22 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [56]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [41]",
             "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "baaaccb-caab-acba-dabc-aabbcabcccab",
+            "server": "173.245.59.101",
+            "server_port": 80,
+            "uuid": "785fc8e5-4b33-47f2-aa3f-2dcac0d59a36",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "8a848c5f-2441-442f-91fe-a9a1df67c34b",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -2597,7 +2601,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @satellitenewspersian [19]",
+            "tag": "🚩 CF | 🔒 VLESS | @satellitenewspersian [18]",
             "type": "vless",
             "server": "104.16.3.5",
             "server_port": 443,
@@ -2618,6 +2622,31 @@
                 "path": "/ecY3gziM8W6ud5yj?ed",
                 "headers": {
                     "Host": "gulf-d96.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @satellitenewspersian [20]",
+            "type": "vless",
+            "server": "104.16.161.143",
+            "server_port": 2096,
+            "uuid": "f690c2da-bdc3-4538-999e-d2bb8a541188",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "baomei.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed",
+                "headers": {
+                    "Host": "baomei.pages.dev"
                 }
             }
         },
