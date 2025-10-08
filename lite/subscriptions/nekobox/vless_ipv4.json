@@ -86,8 +86,8 @@
                 "🇳🇴 NO | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
-                "🇪🇸 ES | 🔓 VLESS | @config_proxy [33]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [47]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [49]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -135,7 +135,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔓 VLESS | @hope_net [20]",
+                "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -281,8 +281,8 @@
                 "🇳🇴 NO | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
-                "🇪🇸 ES | 🔓 VLESS | @config_proxy [33]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [47]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [49]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -330,7 +330,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔓 VLESS | @hope_net [20]",
+                "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -660,33 +660,38 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [47]",
             "type": "vless",
-            "server": "139.64.235.177",
-            "server_port": 8880,
-            "uuid": "583ceab3-4022-4553-9158-9bedc625ad4e",
+            "server": "104.19.245.206",
+            "server_port": 443,
+            "uuid": "9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "kawaiifreevpn-7ds.pages.dev@V2rayNGVPN <= کانفیگ رایگان",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/Telegram🇨🇳 @WangCai2 /?ed=2560",
+                "path": "/?ed=2560",
                 "headers": {
-                    "Host": "139.64.235.177"
+                    "Host": "kawaiifreevpn-7ds.pages.dev@V2rayNGVPN <= کانفیگ رایگان"
                 }
             }
         },
         {
-            "tag": "🇪🇸 ES | 🔓 VLESS | @config_proxy [33]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [49]",
             "type": "vless",
-            "server": "141.227.128.139",
+            "server": "172.67.168.193",
             "server_port": 80,
-            "uuid": "78aea809-7966-424a-b198-f1854732dd8e",
+            "uuid": "9ba843b2-3e77-488b-b468-d934c5ef5f76",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---"
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -1526,7 +1531,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @hope_net [20]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
             "type": "vless",
             "server": "151.101.66.228",
             "server_port": 80,
