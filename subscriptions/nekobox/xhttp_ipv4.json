@@ -80,6 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [36]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🚩 CF | 🔒 VLESS | @falcunargo [26]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
@@ -98,6 +100,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [6]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [59]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [61]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [9]",
@@ -155,6 +158,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [36]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [17]",
                 "🚩 CF | 🔒 VLESS | @falcunargo [26]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
@@ -173,6 +178,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @kafing_2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [6]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [59]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [61]",
                 "🇺🇸 US | 🔓 VLESS | @manzariyeh_rasht [9]",
@@ -306,6 +312,38 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [36]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "00af0854-26f2-43ea-b878-106dbfaddf0b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "91.98.86.49",
+            "server_port": 443,
+            "uuid": "2c519fe6-bc8c-45ea-975a-3daa490e53df",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pALBOb42lFneGFIOXJsaUoOXaTYycke6lWZR2a3LEh4",
+                    "short_id": ""
                 }
             }
         },
@@ -677,6 +715,15 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "0f608156-ecc4-4ee0-8cd4-e5e6d1c891ab",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [6]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "8b73471d-8b29-4082-8e9a-66031b66c699",
             "flow": "",
             "packet_encoding": "xudp"
         },
