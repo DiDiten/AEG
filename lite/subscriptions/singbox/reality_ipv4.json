@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [50]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇭🇷 HR | 🔒 VLESS | @free4allvpn [18]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -135,6 +136,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [50]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇭🇷 HR | 🔒 VLESS | @free4allvpn [18]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -250,6 +252,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "95.179.146.100",
+            "server_port": 49296,
+            "uuid": "45434c8b-1a9c-4611-abbf-a7582d72540c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oncG1j4w6UCNOEi1HsHmGcqvarRM7-ReWDnEikVqryA",
+                    "short_id": "e72b85"
                 }
             }
         },
