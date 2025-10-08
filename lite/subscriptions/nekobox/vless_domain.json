@@ -91,7 +91,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [46]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -141,7 +140,7 @@
                 "🇺🇸 US | 🔒 VLESS | @iranvipnet [8]",
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
-                "🇺🇸 US | 🔒 VLESS | @kafing_2 [14]",
+                "🚩 CF | 🔒 VLESS | @kafing_2 [14]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🚩 CF | 🔒 VLESS | @kilid_stor [1]",
                 "🇩🇪 DE | 🔓 VLESS | @kilid_stor [2]",
@@ -163,7 +162,8 @@
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [3]",
-                "🇺🇸 US | 🔒 VLESS | @lranonline_new [4]",
+                "🚩 CF | 🔒 VLESS | @lranonline_new [4]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [5]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -308,7 +308,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [46]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -358,7 +357,7 @@
                 "🇺🇸 US | 🔒 VLESS | @iranvipnet [8]",
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
-                "🇺🇸 US | 🔒 VLESS | @kafing_2 [14]",
+                "🚩 CF | 🔒 VLESS | @kafing_2 [14]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🚩 CF | 🔒 VLESS | @kilid_stor [1]",
                 "🇩🇪 DE | 🔓 VLESS | @kilid_stor [2]",
@@ -380,7 +379,8 @@
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
                 "🇺🇸 US | 🔓 VLESS | @lranonline_new [3]",
-                "🇺🇸 US | 🔒 VLESS | @lranonline_new [4]",
+                "🚩 CF | 🔒 VLESS | @lranonline_new [4]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [5]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -791,29 +791,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [46]",
-            "type": "vless",
-            "server": "mengying.eu.org",
-            "server_port": 25801,
-            "uuid": "4c7f66da-af49-4e6d-b60c-f6a0eaa00919",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "updates.cdn-apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "iC7qQK0Yu8sQsiIj5JPTGDVTrFkZDoesDUn24pDwgQk",
-                    "short_id": ""
-                }
             }
         },
         {
@@ -1698,7 +1675,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @kafing_2 [14]",
+            "tag": "🚩 CF | 🔒 VLESS | @kafing_2 [14]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -2041,7 +2018,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @lranonline_new [4]",
+            "tag": "🚩 CF | 🔒 VLESS | @lranonline_new [4]",
             "type": "vless",
             "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
             "server_port": 443,
@@ -2064,6 +2041,15 @@
                     "Host": "CuEg4R5u01.SoLeNtRaA.iNfO"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [5]",
+            "type": "vless",
+            "server": "configline.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
