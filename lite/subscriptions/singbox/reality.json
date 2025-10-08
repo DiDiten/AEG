@@ -95,7 +95,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
@@ -125,6 +125,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇭🇷 HR | 🔒 VLESS | @free4allvpn [18]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -175,7 +176,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
@@ -205,6 +206,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇭🇷 HR | 🔒 VLESS | @free4allvpn [18]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -401,7 +403,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
             "type": "vless",
             "server": "test.barayekhudam.ir",
             "server_port": 59697,
@@ -1131,6 +1133,29 @@
                     "enabled": true,
                     "public_key": "277HDYaNIvLYS9CMSr1CbkcTaahPEUCymW_0Ad17p2M",
                     "short_id": "f2"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "62.60.233.30",
+            "server_port": 443,
+            "uuid": "8377aac9-f3b3-42df-a5ea-9254f37e7b34",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tr.eu-ffast.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
+                    "short_id": "50"
                 }
             }
         },
