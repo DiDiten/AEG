@@ -96,8 +96,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [3]",
@@ -109,7 +110,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [14]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [21]",
-                "🇷🇺 RU | 🔒 VLESS | @free1_vpn [7]",
+                "🇷🇺 RU | 🔒 VLESS | @free1_vpn [6]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [13]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
@@ -137,7 +138,7 @@
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [140]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [148]",
                 "🇱🇹 LT | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -202,8 +203,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [3]",
@@ -215,7 +217,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [14]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [21]",
-                "🇷🇺 RU | 🔒 VLESS | @free1_vpn [7]",
+                "🇷🇺 RU | 🔒 VLESS | @free1_vpn [6]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [13]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
@@ -243,7 +245,7 @@
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [140]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [148]",
                 "🇱🇹 LT | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -480,6 +482,29 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "ruunion.ru",
+            "server_port": 443,
+            "uuid": "7f74ad83-4aaf-419b-8caf-ff66c354bcbc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9qaBiJ3zMogUBKByaq71xT9xDu1dmN1b47rXOYUy6Rw",
+                    "short_id": "6650429727ca"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -503,7 +528,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
             "type": "vless",
             "server": "test.barayekhudam.ir",
             "server_port": 59697,
@@ -799,7 +824,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @free1_vpn [7]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @free1_vpn [6]",
             "type": "vless",
             "server": "yt.fasssst.ru",
             "server_port": 443,
@@ -1506,7 +1531,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [140]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [148]",
             "type": "vless",
             "server": "test-gr.aliyostd.com",
             "server_port": 2689,

@@ -93,8 +93,8 @@
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
-                "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
+                "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [14]",
                 "🚩 CF | 🔓 VLESS | @connectshu [15]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -308,8 +308,8 @@
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
-                "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
-                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
+                "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [14]",
                 "🚩 CF | 🔓 VLESS | @connectshu [15]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -829,7 +829,30 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
+            "type": "vless",
+            "server": "test.barayekhudam.ir",
+            "server_port": 59697,
+            "uuid": "d378d3d0-c521-4874-a6f3-21794398cf9c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "bimeh.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HDE3ZT4rZPr6RIpgLK6dn6FGvolXLJtwJEeDEC4N1Eg",
+                    "short_id": "c5a5b0"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
             "type": "vless",
             "server": "ipe3.alighan.ir",
             "server_port": 8443,
@@ -850,29 +873,6 @@
                 "path": "/?ed=2048",
                 "headers": {
                     "Host": "ipe4.alighan.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [2]",
-            "type": "vless",
-            "server": "test.barayekhudam.ir",
-            "server_port": 59697,
-            "uuid": "d378d3d0-c521-4874-a6f3-21794398cf9c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "bimeh.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "HDE3ZT4rZPr6RIpgLK6dn6FGvolXLJtwJEeDEC4N1Eg",
-                    "short_id": "c5a5b0"
                 }
             }
         },
@@ -3215,7 +3215,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2082,
-            "uuid": "3adb83c2-3d4d-4629-cb83-58466cabfd7f",
+            "uuid": "01d0cdee-a2a9-403b-b11d-f9a93298edcf",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
@@ -3231,7 +3231,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2086,
-            "uuid": "524bc64b-83db-4117-c406-1ae87b4a802c",
+            "uuid": "f6aa354e-91e9-4f25-ced8-36759e65a15c",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -3240,7 +3240,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2082,
-            "uuid": "01d0cdee-a2a9-403b-b11d-f9a93298edcf",
+            "uuid": "a651ec0b-eb30-4186-d33d-3525839c160c",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
