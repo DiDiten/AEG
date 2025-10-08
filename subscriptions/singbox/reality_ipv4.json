@@ -95,8 +95,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [29]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [17]",
+                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [23]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -183,7 +183,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇹🇷 TR | 🔒 VLESS | @v2raych [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -211,7 +210,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [9]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [11]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [14]",
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [13]",
                 "🇫🇷 FR | 🔒 VLESS | @xrayzxn [3]"
             ],
             "tag": "proxy",
@@ -226,8 +225,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [2]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [29]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [17]",
+                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [23]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -314,7 +313,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇹🇷 TR | 🔒 VLESS | @v2raych [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -342,7 +340,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [9]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [11]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [14]",
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [13]",
                 "🇫🇷 FR | 🔒 VLESS | @xrayzxn [3]"
             ],
             "tag": "auto",
@@ -499,30 +497,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [29]",
-            "type": "vless",
-            "server": "157.173.127.225",
-            "server_port": 443,
-            "uuid": "11beaf11-726d-4c11-8ce9-27308c1c608c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "analytics.google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "v3EwzA9RIIh5Ndxm-gypRY6RCJhOpQ-2WO7KaH8nsC8",
-                    "short_id": "eab26c4a32"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [17]",
             "type": "vless",
             "server": "91.98.21.58",
             "server_port": 18606,
@@ -546,6 +521,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "t.me/entryNET"
+            }
+        },
+        {
+            "tag": "🇰🇿 KZ | 🔒 VLESS | @config_proxy [23]",
+            "type": "vless",
+            "server": "194.31.157.238",
+            "server_port": 443,
+            "uuid": "ed97e008-2b8d-4415-94c7-3da4919d361a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "deepl.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4",
+                    "short_id": "2d46a79deebf50fd"
+                }
             }
         },
         {
@@ -2610,29 +2608,6 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @v2raych [13]",
-            "type": "vless",
-            "server": "188.132.183.15",
-            "server_port": 2589,
-            "uuid": "8f0120f1-ba26-e137-5e06-a99b844741aa",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U",
-                    "short_id": "e41865e506628f44"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
             "type": "vless",
             "server": "136.244.84.58",
@@ -3276,7 +3251,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [14]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [13]",
             "type": "vless",
             "server": "94.131.107.201",
             "server_port": 8443,

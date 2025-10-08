@@ -94,7 +94,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -128,7 +127,6 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇭🇷 HR | 🔒 VLESS | @free4allvpn [18]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -161,7 +159,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇰🇿 KZ | 🔒 VLESS | @vmesc [17]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [14]",
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [13]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔒 VLESS | @v2rayopen [13]"
@@ -177,7 +175,6 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -211,7 +208,6 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
                 "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇭🇷 HR | 🔒 VLESS | @free4allvpn [18]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -244,7 +240,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇰🇿 KZ | 🔒 VLESS | @vmesc [17]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [14]",
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [13]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔒 VLESS | @v2rayopen [13]"
@@ -381,33 +377,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [43]",
-            "type": "vless",
-            "server": "russiasefid.vtuix.space",
-            "server_port": 7033,
-            "uuid": "f391c9f6-87af-47c9-b838-39c50c0992ca",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "telewebion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "iLik9C9our-5dRYuvFtrYOzd1NedgTsqUKew2ogLdgE",
-                    "short_id": "16b6cda7ab793526"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "7034vless"
             }
         },
         {
@@ -1218,33 +1187,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [44]",
-            "type": "vless",
-            "server": "91.98.21.58",
-            "server_port": 18606,
-            "uuid": "3f21badc-a9ec-4f6e-8239-c61be70748b2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "9C5_X-zVkO-NpXUO1FCNkQOIaoC3WmudlbiMHtCC4Ew",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
-            }
-        },
-        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -2001,7 +1943,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [14]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [13]",
             "type": "vless",
             "server": "94.131.107.201",
             "server_port": 8443,

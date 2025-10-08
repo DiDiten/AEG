@@ -91,7 +91,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -128,7 +127,6 @@
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [13]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [14]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [15]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
                 "🚩 CF | 🔒 VLESS | @iran_access [12]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -312,7 +310,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [19]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [43]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -349,7 +346,6 @@
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [13]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [14]",
                 "🇮🇷 IR | 🔓 VLESS | @golf_vpn [15]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
                 "🚩 CF | 🔒 VLESS | @iran_access [12]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -799,33 +795,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [43]",
-            "type": "vless",
-            "server": "russiasefid.vtuix.space",
-            "server_port": 7033,
-            "uuid": "f391c9f6-87af-47c9-b838-39c50c0992ca",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "telewebion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "iLik9C9our-5dRYuvFtrYOzd1NedgTsqUKew2ogLdgE",
-                    "short_id": "16b6cda7ab793526"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "7034vless"
             }
         },
         {
@@ -1412,31 +1381,6 @@
                 "path": "/http",
                 "headers": {
                     "Host": "s16.leader21.top"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
-            "type": "vless",
-            "server": "hajlab.ucdavis.edu",
-            "server_port": 443,
-            "uuid": "9e8aad0e-5ba2-4005-b5fb-03521dc00345",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
                 }
             }
         },
