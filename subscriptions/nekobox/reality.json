@@ -203,7 +203,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [20]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -216,6 +215,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [12]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [14]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [16]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [22]",
                 "🇷🇺 RU | 🔒 VLESS | @free1_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [13]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -431,7 +431,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇫🇷 FR | 🔒 VLESS | @config_proxy [20]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -444,6 +443,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [12]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [14]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [16]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [22]",
                 "🇷🇺 RU | 🔒 VLESS | @free1_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [13]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -3558,29 +3558,6 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [20]",
-            "type": "vless",
-            "server": "telecom.majicnet.ir",
-            "server_port": 55541,
-            "uuid": "c29ec1dd-d441-4b96-9aa2-49969ffeb669",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ncoNQ7KRg2EUXaZDqgPK8gk8nJXG35O7DW_2MDX0jQY",
-                    "short_id": "ce3223"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -3873,6 +3850,29 @@
                     "enabled": true,
                     "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
                     "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [22]",
+            "type": "vless",
+            "server": "in2.zizimax.ir",
+            "server_port": 82,
+            "uuid": "436e1ab3-b37a-409d-bafb-57c6e2bf7eaa",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "check-host.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-MfDOThNltWis5VDTGFNCP9DCsybTODpPoyC_i1n_GM",
+                    "short_id": "fd"
                 }
             }
         },
