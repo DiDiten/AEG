@@ -96,7 +96,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [45]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [47]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -138,7 +139,8 @@
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [148]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [133]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [141]",
                 "🇱🇹 LT | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -203,7 +205,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [45]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [47]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -245,7 +248,8 @@
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [148]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [133]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [141]",
                 "🇱🇹 LT | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -482,16 +486,16 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [45]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [47]",
             "type": "vless",
-            "server": "ruunion.ru",
-            "server_port": 443,
-            "uuid": "7f74ad83-4aaf-419b-8caf-ff66c354bcbc",
+            "server": "vcheatv.shop",
+            "server_port": 10808,
+            "uuid": "59993388-1e3f-4820-9175-b885f545ce39",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -499,8 +503,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "9qaBiJ3zMogUBKByaq71xT9xDu1dmN1b47rXOYUy6Rw",
-                    "short_id": "6650429727ca"
+                    "public_key": "YIABykCa2jUOBKxGdsAgiXmODljVw6TmgSGmpj-Frj4",
+                    "short_id": "05aeb4aef8a5a503"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "vcheatv.shop",
+            "server_port": 10808,
+            "uuid": "59993388-1e3f-4820-9175-b885f545ce39",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vcheatv.shop",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YIABykCa2jUOBKxGdsAgiXmODljVw6TmgSGmpj-Frj4",
+                    "short_id": "05aeb4aef8a5a503"
                 }
             }
         },
@@ -1531,7 +1558,30 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [148]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [133]",
+            "type": "vless",
+            "server": "deu163.unboundworld.org",
+            "server_port": 443,
+            "uuid": "06fbbb8d-43b5-4ede-a0fe-417df04824cc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bing.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [141]",
             "type": "vless",
             "server": "test-gr.aliyostd.com",
             "server_port": 2689,
