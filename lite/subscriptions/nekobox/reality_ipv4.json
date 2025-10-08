@@ -106,11 +106,12 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
+                "🇷🇴 RO | 🔒 VLESS | @v2rayopen [14]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇰🇿 KZ | 🔒 VLESS | @vmesc [17]",
+                "🇰🇿 KZ | 🔒 VLESS | @vmesc [16]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [12]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [13]"
@@ -150,11 +151,12 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
+                "🇷🇴 RO | 🔒 VLESS | @v2rayopen [14]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [5]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇰🇿 KZ | 🔒 VLESS | @vmesc [17]",
+                "🇰🇿 KZ | 🔒 VLESS | @vmesc [16]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [12]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [13]"
@@ -866,6 +868,29 @@
             }
         },
         {
+            "tag": "🇷🇴 RO | 🔒 VLESS | @v2rayopen [14]",
+            "type": "vless",
+            "server": "31.6.1.187",
+            "server_port": 27229,
+            "uuid": "2bd64599-c483-420b-bc1b-709f2388ce12",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1_vS_JKpOvJnqPUDyaREbXWd5M59bIIKsNyV5Kt0uD8",
+                    "short_id": "cd1f804d"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [5]",
             "type": "vless",
             "server": "40.233.102.224",
@@ -958,7 +983,7 @@
             }
         },
         {
-            "tag": "🇰🇿 KZ | 🔒 VLESS | @vmesc [17]",
+            "tag": "🇰🇿 KZ | 🔒 VLESS | @vmesc [16]",
             "type": "vless",
             "server": "194.31.157.238",
             "server_port": 443,
