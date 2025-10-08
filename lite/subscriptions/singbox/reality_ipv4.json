@@ -124,7 +124,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇰🇿 KZ | 🔒 VLESS | @vmesc [17]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [13]"
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [13]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -167,7 +168,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇰🇿 KZ | 🔒 VLESS | @vmesc [17]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [13]"
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [13]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1010,7 +1012,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [13]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [12]",
             "type": "vless",
             "server": "94.131.107.201",
             "server_port": 8443,
@@ -1029,6 +1031,29 @@
                     "enabled": true,
                     "public_key": "rwXlON1aDW3CM1wfNYMWb-hpPYqvH0kHHOBDatkuCSE",
                     "short_id": "26a70553"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [13]",
+            "type": "vless",
+            "server": "91.98.193.193",
+            "server_port": 2095,
+            "uuid": "7d89b8ab-f60b-4404-ac42-aeb1efffbd62",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "V_ibNuL3PFXIAy0bV1PLlHqiYPMKT_QYC7wA5zqVRnQ",
+                    "short_id": ""
                 }
             }
         }
