@@ -84,7 +84,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -96,7 +95,7 @@
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [13]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [15]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [11]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [6]",
                 "🇷🇺 RU | 🔒 VLESS | @free1_vpn [3]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [13]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -136,10 +135,11 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇦🇹 AT | 🔒 VLESS | @v2raych [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
-                "🇬🇧 GB | 🔒 VLESS | @v2rayopen [10]",
-                "🇫🇮 FI | 🔒 VLESS | @v2rayopen [12]",
+                "🇬🇧 GB | 🔒 VLESS | @v2rayopen [9]",
+                "🇫🇮 FI | 🔒 VLESS | @v2rayopen [11]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -188,7 +188,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -200,7 +199,7 @@
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [13]",
                 "🇬🇧 GB | 🔒 VLESS | @evay_vpn [15]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [11]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [6]",
                 "🇷🇺 RU | 🔒 VLESS | @free1_vpn [3]",
                 "🇺🇸 US | 🔒 VLESS | @free4allvpn [13]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
@@ -240,10 +239,11 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇦🇹 AT | 🔒 VLESS | @v2raych [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
-                "🇬🇧 GB | 🔒 VLESS | @v2rayopen [10]",
-                "🇫🇮 FI | 🔒 VLESS | @v2rayopen [12]",
+                "🇬🇧 GB | 🔒 VLESS | @v2rayopen [9]",
+                "🇫🇮 FI | 🔒 VLESS | @v2rayopen [11]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -465,29 +465,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [49]",
-            "type": "vless",
-            "server": "turkey21gifoiopl.mongral.ir",
-            "server_port": 4444,
-            "uuid": "f2496534-b176-401f-83cd-c34faa479752",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5if9NWaLaNEfwV9GuafHuas8q3wrxtsgf_-eInEOaSA",
-                    "short_id": "7cb7ad2e83f550a0"
-                }
             }
         },
         {
@@ -764,7 +741,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [11]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [6]",
             "type": "vless",
             "server": "in2.zizimax.ir",
             "server_port": 82,
@@ -1759,6 +1736,33 @@
             }
         },
         {
+            "tag": "🇦🇹 AT | 🔒 VLESS | @v2raych [13]",
+            "type": "vless",
+            "server": "at.pixvpn.app",
+            "server_port": 8443,
+            "uuid": "8c9a7ef4-b692-41ee-90ca-669b04990ac5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "jd.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": "41a4cee2c50c4fc3"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
             "type": "vless",
             "server": "fast7.hvitrin.ir",
@@ -1805,7 +1809,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @v2rayopen [10]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @v2rayopen [9]",
             "type": "vless",
             "server": "p9q8r7s6.tu4v3w2x.yz12ab34cd56.hello-world99.persianfly.org",
             "server_port": 3051,
@@ -1828,7 +1832,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @v2rayopen [12]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @v2rayopen [11]",
             "type": "vless",
             "server": "login-acc.aliyostd.com",
             "server_port": 2689,
