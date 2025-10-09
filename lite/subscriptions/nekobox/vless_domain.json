@@ -263,6 +263,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [12]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [14]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [4]",
@@ -473,6 +474,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [12]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [14]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [4]",
@@ -3731,6 +3733,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "okala.com"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
+            "type": "vless",
+            "server": "a.de.maviks.ru",
+            "server_port": 443,
+            "uuid": "5f688e31-b35b-434c-9a48-1b694b886a22",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo",
+                    "short_id": "f203719d3ff9a5f5"
+                }
             }
         },
         {
