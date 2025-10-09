@@ -90,6 +90,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -287,8 +288,8 @@
                 "🇳🇴 NO | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [50]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [52]",
+                "🇲🇾 MY | 🔒 VLESS | @config_proxy [51]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [52]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -496,6 +497,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -693,8 +695,8 @@
                 "🇳🇴 NO | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [50]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [52]",
+                "🇲🇾 MY | 🔒 VLESS | @config_proxy [51]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [52]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -1145,6 +1147,15 @@
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "Speedtest.net",
+            "server_port": 80,
+            "uuid": "c349a35c-2a04-4ab3-a84e-0d3fa49c4186",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -4536,16 +4547,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [50]",
+            "tag": "🇲🇾 MY | 🔒 VLESS | @config_proxy [51]",
             "type": "vless",
-            "server": "104.16.3.5",
+            "server": "45.128.54.17",
             "server_port": 443,
-            "uuid": "963816bd-b6e7-4648-abff-8af25bc07d87",
+            "uuid": "297df885-9161-46cb-94d4-90a8a8489645",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "gulf-d96.pages.devrt",
+                "server_name": "45.128.54.17",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -4554,23 +4565,23 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/ecY3gziM8W6ud5yj?ed",
+                "path": "/dahuqpws",
                 "headers": {
-                    "Host": "gulf-d96.pages.devrt"
+                    "Host": "45.128.54.17"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [52]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [52]",
             "type": "vless",
-            "server": "199.34.229.32",
-            "server_port": 2096,
-            "uuid": "b65f4df7-f6af-42b2-877a-cef33f21675e",
+            "server": "185.242.87.84",
+            "server_port": 443,
+            "uuid": "a3eb5fef-d11f-4bc4-a8eb-2b0069fb0b68",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "kejiland.freewarp.eu.orgrt",
+                "server_name": "185.242.87.84",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -4579,9 +4590,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/snippetsfp",
+                "path": "/jzonrlws?ed=2048@Dropcube--@Dropcube--@Dropcube--@Dropcube--@Dropcube--@Dropcube--@Dropcube--@Dropcube--@Dropcube--@Dropcube--@Dropcube--@Dropcube--@Dropcube",
                 "headers": {
-                    "Host": "kejiland.freewarp.eu.orgrt"
+                    "Host": "185.242.87.84"
                 }
             }
         },
