@@ -90,9 +90,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇦🇲 AM | 🔓 VLESS | @config_proxy [56]",
-                "🇸🇪 SE | 🔓 VLESS | @config_proxy [57]",
-                "❔ XX | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -171,7 +168,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [2]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
-                "🚩 CF | 🔓 VLESS | @melov2ray [10]",
+                "🚩 CF | 🔓 VLESS | @melov2ray [5]",
                 "🇩🇪 DE | 🔓 VLESS | @mimitdl [4]",
                 "🚩 CF | 🔒 VLESS | @miov2ray [10]",
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
@@ -306,9 +303,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇦🇲 AM | 🔓 VLESS | @config_proxy [56]",
-                "🇸🇪 SE | 🔓 VLESS | @config_proxy [57]",
-                "❔ XX | 🔒 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -387,7 +381,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @mdvpn184 [2]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [10]",
                 "🇮🇷 IR | 🔓 VLESS | @megavpn_link [11]",
-                "🚩 CF | 🔓 VLESS | @melov2ray [10]",
+                "🚩 CF | 🔓 VLESS | @melov2ray [5]",
                 "🇩🇪 DE | 🔓 VLESS | @mimitdl [4]",
                 "🚩 CF | 🔒 VLESS | @miov2ray [10]",
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
@@ -764,61 +758,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇦🇲 AM | 🔓 VLESS | @config_proxy [56]",
-            "type": "vless",
-            "server": "armania.vtuix.ir",
-            "server_port": 7035,
-            "uuid": "6bbe1d1f-8f92-4b80-b947-767be682034b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "armania.vtuix.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪 SE | 🔓 VLESS | @config_proxy [57]",
-            "type": "vless",
-            "server": "swedenzlatan.vtuix.ir",
-            "server_port": 7035,
-            "uuid": "6bbe1d1f-8f92-4b80-b947-767be682034b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "swedenzlatan.vtuix.ir"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [58]",
-            "type": "vless",
-            "server": "mnxexflix2348.blacklike.ir",
-            "server_port": 2065,
-            "uuid": "f8f1cf84-6abf-4c3b-bddc-f9b313ac419a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IqSKHvETwm15L1CW3JfEA052UrEaUakJEhyUKb_9kz4",
-                    "short_id": "87606ed6cdfaa532"
-                }
             }
         },
         {
@@ -2157,7 +2096,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @melov2ray [10]",
+            "tag": "🚩 CF | 🔓 VLESS | @melov2ray [5]",
             "type": "vless",
             "server": "tgju.org",
             "server_port": 80,
