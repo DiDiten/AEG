@@ -103,6 +103,8 @@
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [14]",
+                "🇺🇸 US | 🔓 VLESS | @outline_ir [17]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
@@ -136,6 +138,8 @@
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [14]",
+                "🇺🇸 US | 🔓 VLESS | @outline_ir [17]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
@@ -382,6 +386,38 @@
             "uuid": "33c2b39d-b53f-45cd-d5c9-d58df4756e95",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @outline_ir [17]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "d961c613-ca49-48e2-882a-486589906f46",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
+            "type": "vless",
+            "server": "116.203.201.167",
+            "server_port": 443,
+            "uuid": "Parsashonam-313",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LOi-3brURXBaOe83KFpaKZ5A4exl3J9qjeZIIWa8GCQ",
+                    "short_id": "0a8b4a1ad485"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VLESS | @proxie [17]",
