@@ -82,6 +82,8 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [44]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -106,7 +108,7 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [15]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
@@ -124,6 +126,8 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [44]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -148,7 +152,7 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [15]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayopen [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
@@ -291,6 +295,60 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇨🇭 CH | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "switerxaqiri.vtuix.ir",
+            "server_port": 8080,
+            "uuid": "7c689907-8a79-4299-9162-c817624ad352",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yjKkm6CofGtrJW9uOyu-2E1MfkJ6JAmgPPS-ocL1mSo",
+                    "short_id": "9b25240418971ddd@V2rayNGVPN <= کانفیگ رایگان"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "yourServiceName"
+            }
+        },
+        {
+            "tag": "🇨🇭 CH | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "switerxaqiri.vtuix.ir",
+            "server_port": 8080,
+            "uuid": "7c689907-8a79-4299-9162-c817624ad352",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yjKkm6CofGtrJW9uOyu-2E1MfkJ6JAmgPPS-ocL1mSo",
+                    "short_id": "9b25240418971ddd@V2rayNGVPN <= کانفیگ رای%D"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "yourServiceName"
             }
         },
         {
@@ -878,7 +936,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [15]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayopen [14]",
             "type": "vless",
             "server": "de.xn--mes34jx0kfx3c.com",
             "server_port": 11013,

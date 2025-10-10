@@ -109,6 +109,8 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [4]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [8]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🚩 CF | 🔒 VLESS | @v2raych [8]",
+                "🚩 CF | 🔒 VLESS | @v2raych [9]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [3]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [8]",
@@ -116,6 +118,7 @@
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [5]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [2]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [41]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [15]",
                 "🚩 CF | 🔒 VLESS | @falcunargo [5]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [16]",
@@ -208,6 +211,8 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [4]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [8]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🚩 CF | 🔒 VLESS | @v2raych [8]",
+                "🚩 CF | 🔒 VLESS | @v2raych [9]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [3]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [8]",
@@ -215,6 +220,7 @@
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [5]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [2]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [41]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [15]",
                 "🚩 CF | 🔒 VLESS | @falcunargo [5]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [16]",
@@ -561,6 +567,42 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @v2raych [8]",
+            "type": "vless",
+            "server": "visa.cloudflare-dl.cnae.top",
+            "server_port": 443,
+            "uuid": "b739d71d-20d2-448c-b758-21463911fcec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "31305up.019960.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @v2raych [9]",
+            "type": "vless",
+            "server": "visa.com",
+            "server_port": 443,
+            "uuid": "b739d71d-20d2-448c-b758-21463911fcec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "31305up.019960.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
             "type": "vless",
             "server": "sss74251.tas-bazi.com",
@@ -670,6 +712,15 @@
             "server": "fast-01.saitsazs.ir",
             "server_port": 80,
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "2976455b-4b3c-40b7-cf5c-a2393304e2e1",
             "flow": "",
             "packet_encoding": "xudp"
         },
