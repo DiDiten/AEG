@@ -84,6 +84,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -146,8 +147,8 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [26]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [8]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [17]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [7]",
+                "🇺🇸 US | 🔒 VLESS | @vmesc [16]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [5]",
                 "❔ XX | 🔒 VLESS | @vpnowl [7]",
                 "❔ XX | 🔒 VLESS | @vpnowl [8]",
@@ -185,6 +186,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -247,8 +249,8 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [26]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [8]",
-                "🇺🇸 US | 🔒 VLESS | @vmesc [17]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [7]",
+                "🇺🇸 US | 🔒 VLESS | @vmesc [16]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [5]",
                 "❔ XX | 🔒 VLESS | @vpnowl [7]",
                 "❔ XX | 🔒 VLESS | @vpnowl [8]",
@@ -459,6 +461,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [47]",
+            "type": "vless",
+            "server": "ba81b4cdbcca.anondns.net",
+            "server_port": 29001,
+            "uuid": "9d29999c-8ce4-467e-8c0a-59ef76109505",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mensura.cdn-apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "htcthWNaaiAyVoF9U8aN4jS75fQpNxcbis9KyPCs70o",
+                    "short_id": "b94c"
+                }
             }
         },
         {
@@ -1987,7 +2012,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [8]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [7]",
             "type": "vless",
             "server": "a.de.maviks.ru",
             "server_port": 443,
@@ -2010,7 +2035,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [17]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vmesc [16]",
             "type": "vless",
             "server": "us.pixvpn.app",
             "server_port": 8443,
