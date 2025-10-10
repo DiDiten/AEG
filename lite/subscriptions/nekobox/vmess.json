@@ -125,9 +125,9 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇩🇪 DE | 🔓 VMESS | @mowjproxy [4]",
-                "🇲🇾 MY | 🔓 VMESS | @mowjproxy [5]",
-                "🇺🇸 US | 🔓 VMESS | @mowjproxy [6]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [4]",
+                "🇺🇸 US | 🔓 VMESS | @mowjproxy [5]",
+                "🇩🇪 DE | 🔓 VMESS | @mowjproxy [6]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -233,9 +233,9 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇩🇪 DE | 🔓 VMESS | @mowjproxy [4]",
-                "🇲🇾 MY | 🔓 VMESS | @mowjproxy [5]",
-                "🇺🇸 US | 🔓 VMESS | @mowjproxy [6]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [4]",
+                "🇺🇸 US | 🔓 VMESS | @mowjproxy [5]",
+                "🇩🇪 DE | 🔓 VMESS | @mowjproxy [6]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -1092,32 +1092,32 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @mowjproxy [4]",
+            "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [4]",
             "type": "vmess",
-            "server": "91.107.157.89",
-            "server_port": 8880,
-            "uuid": "eb4a1b6f-80a7-41c2-9173-dde2c204d333",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇲🇾 MY | 🔓 VMESS | @mowjproxy [5]",
-            "type": "vmess",
-            "server": "45.89.107.51",
-            "server_port": 20521,
-            "uuid": "3dbaa5c3-f493-4ad1-9c5d-8525f4962a6c",
+            "server": "104.17.148.22",
+            "server_port": 2083,
+            "uuid": "8ae65664-84e8-40e1-9708-9236f0808dfd",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "api3.waltonweb.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/panel?ed=2560",
                 "headers": {
-                    "Host": ""
+                    "Host": "api3.waltonweb.ir"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @mowjproxy [6]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @mowjproxy [5]",
             "type": "vmess",
             "server": "209.126.84.189",
             "server_port": 443,
@@ -1140,6 +1140,15 @@
                     "Host": "209.126.84.189"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @mowjproxy [6]",
+            "type": "vmess",
+            "server": "91.107.157.89",
+            "server_port": 8880,
+            "uuid": "eb4a1b6f-80a7-41c2-9173-dde2c204d333",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
