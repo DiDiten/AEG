@@ -80,8 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇭🇰 HK | 🔓 TROJAN | @hope_net [19]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+                "🇯🇵 JP | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
@@ -103,8 +103,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇭🇰 HK | 🔓 TROJAN | @hope_net [19]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+                "🇯🇵 JP | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
@@ -206,14 +206,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 TROJAN | @hope_net [19]",
-            "type": "trojan",
-            "server": "45.146.232.173",
-            "server_port": 10465,
-            "password": "325ba822-760d-4a51-9711-f72ba8d16933"
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "104.20.21.89",
             "server_port": 443,
@@ -232,6 +225,29 @@
                 "path": "/b96ef9ae.trojanfree-76s.pages.dev/",
                 "headers": {
                     "Host": "b96ef9ae.trojanfree-76s.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵 JP | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "176.97.70.65",
+            "server_port": 8443,
+            "password": "FLorg",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.tcorg.filegear-sg.me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "trojan.tcorg.filegear-sg.me"
                 }
             }
         },
