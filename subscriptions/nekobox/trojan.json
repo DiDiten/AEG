@@ -86,6 +86,7 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "🇺🇸 US | 🔒 TROJAN | @config_proxy [35]",
                 "🇺🇸 US | 🔒 TROJAN | @free4allvpn [12]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
@@ -111,9 +112,10 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
+                "🚩 CF | 🔒 TROJAN | @config_proxy [34]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [14]",
-                "🇯🇵 JP | 🔓 TROJAN | @hope_net [15]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [12]",
+                "🇯🇵 JP | 🔓 TROJAN | @hope_net [13]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -139,7 +141,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇸🇬 SG | 🔒 TROJAN | @v2raych [7]",
+                "❔ XX | 🔒 TROJAN | @v2raych [15]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [18]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -177,6 +180,7 @@
                 "❔ XX | 🔒 TROJAN | @armodchannel [58]",
                 "❔ XX | 🔒 TROJAN | @armodchannel [60]",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
+                "🇺🇸 US | 🔒 TROJAN | @config_proxy [35]",
                 "🇺🇸 US | 🔒 TROJAN | @free4allvpn [12]",
                 "❔ XX | 🔒 TROJAN | @goldenshiinevpn [3]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [1]",
@@ -202,9 +206,10 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
+                "🚩 CF | 🔒 TROJAN | @config_proxy [34]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [14]",
-                "🇯🇵 JP | 🔓 TROJAN | @hope_net [15]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [12]",
+                "🇯🇵 JP | 🔓 TROJAN | @hope_net [13]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -230,7 +235,8 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
-                "🇸🇬 SG | 🔒 TROJAN | @v2raych [7]",
+                "❔ XX | 🔒 TROJAN | @v2raych [15]",
+                "🚩 CF | 🔒 TROJAN | @v2raych [18]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -444,6 +450,22 @@
                 "path": "/trojan-ntls",
                 "headers": {
                     "Host": "asia.artunnel57.host"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 TROJAN | @config_proxy [35]",
+            "type": "trojan",
+            "server": "enfuego.missionsec.io",
+            "server_port": 443,
+            "password": "TD7FKA3CZSyRgCeXp60xjaEa3uSzFaS5BOpC2lY3y9cYRA884qZOI3wxlNDneD",
+            "tls": {
+                "enabled": true,
+                "server_name": "enfuego.missionsec.io",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -917,6 +939,29 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 TROJAN | @config_proxy [34]",
+            "type": "trojan",
+            "server": "162.159.152.27",
+            "server_port": 443,
+            "password": "tg-dns68",
+            "tls": {
+                "enabled": true,
+                "server_name": "vip.putata.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "vip.putata.eu.org"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
             "type": "trojan",
             "server": "91.107.141.0",
@@ -924,7 +969,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [14]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [12]",
             "type": "trojan",
             "server": "104.18.1.89",
             "server_port": 443,
@@ -947,7 +992,7 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔓 TROJAN | @hope_net [15]",
+            "tag": "🇯🇵 JP | 🔓 TROJAN | @hope_net [13]",
             "type": "trojan",
             "server": "74.226.136.204",
             "server_port": 443,
@@ -1374,14 +1419,30 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔒 TROJAN | @v2raych [7]",
+            "tag": "❔ XX | 🔒 TROJAN | @v2raych [15]",
             "type": "trojan",
-            "server": "52.77.216.160",
-            "server_port": 443,
-            "password": "8a1ab0df6abea549",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "password": "abcbaca-acba-abca-cdba-caabaccbbbac",
             "tls": {
                 "enabled": true,
-                "server_name": "TG.WangCai2",
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @v2raych [18]",
+            "type": "trojan",
+            "server": "104.18.27.94",
+            "server_port": 8443,
+            "password": "Watashi_VPN",
+            "tls": {
+                "enabled": true,
+                "server_name": "t-watashi-r-jacket-o-people-jan.watashi-java.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1389,8 +1450,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "db"
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "t-watashi-r-jacket-o-people-jan.watashi-java.ir"
+                }
             }
         },
         {
