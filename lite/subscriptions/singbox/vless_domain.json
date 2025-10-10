@@ -219,7 +219,7 @@
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🚩 CF | 🔒 VLESS | @prrofile_purple [144]",
+                "🚩 CF | 🔓 VLESS | @prrofile_purple [152]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
@@ -258,7 +258,7 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
                 "🇫🇮 FI | 🔓 VLESS | @v2rayopen [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [14]",
@@ -431,7 +431,7 @@
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🚩 CF | 🔒 VLESS | @prrofile_purple [144]",
+                "🚩 CF | 🔓 VLESS | @prrofile_purple [152]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
@@ -470,7 +470,7 @@
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
                 "🇫🇮 FI | 🔓 VLESS | @v2rayopen [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [14]",
@@ -2776,27 +2776,18 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @prrofile_purple [144]",
+            "tag": "🚩 CF | 🔓 VLESS | @prrofile_purple [152]",
             "type": "vless",
-            "server": "record.persianmizban.com",
-            "server_port": 443,
-            "uuid": "3fc50324-8470-4889-8fbf-653b96dcc978",
+            "server": "Www.speedtest.net",
+            "server_port": 80,
+            "uuid": "71b12692-0e7d-4765-b570-5b99aefe6c9a",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "lgoin.persianmizban.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/?ed=2048",
                 "headers": {
-                    "Host": "lgoin.persianmizban.com"
+                    "Host": "Www.speedtest.net"
                 }
             }
         },
@@ -3440,7 +3431,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
             "type": "vless",
             "server": "fast7.hvitrin.ir",
             "server_port": 48769,
