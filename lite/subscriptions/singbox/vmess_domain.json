@@ -98,7 +98,8 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔓 VMESS | @config_proxy [60]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [54]",
+                "❔ XX | 🔓 VMESS | @config_proxy [56]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -138,8 +139,8 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [4]",
-                "🇺🇸 US | 🔒 VMESS | @mowjproxy [5]",
+                "🇺🇸 US | 🔒 VMESS | @mowjproxy [4]",
+                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [6]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -167,7 +168,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇲🇾 MY | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
@@ -206,7 +207,8 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔓 VMESS | @config_proxy [60]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [54]",
+                "❔ XX | 🔓 VMESS | @config_proxy [56]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -246,8 +248,8 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [4]",
-                "🇺🇸 US | 🔒 VMESS | @mowjproxy [5]",
+                "🇺🇸 US | 🔒 VMESS | @mowjproxy [4]",
+                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [6]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -275,7 +277,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇲🇾 MY | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
@@ -484,20 +486,29 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [60]",
+            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [54]",
             "type": "vmess",
-            "server": "104.20.18.168",
-            "server_port": 2086,
-            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+            "server": "104.19.21.230",
+            "server_port": 2095,
+            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
             "security": "auto",
             "alter_id": 0,
             "transport": {
                 "type": "ws",
                 "path": "/github.com/Alvin9999",
                 "headers": {
-                    "Host": "104.20.18.168"
+                    "Host": ""
                 }
             }
+        },
+        {
+            "tag": "❔ XX | 🔓 VMESS | @config_proxy [56]",
+            "type": "vmess",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "bcacaba-abac-caba-cbad-baccaacbbcab",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -1116,16 +1127,16 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @mowjproxy [4]",
+            "tag": "🇺🇸 US | 🔒 VMESS | @mowjproxy [4]",
             "type": "vmess",
-            "server": "57.129.64.157",
+            "server": "lammaland.org",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "lammaland.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1136,14 +1147,14 @@
                 "type": "ws",
                 "path": "/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "lammaland.org"
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VMESS | @mowjproxy [5]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @mowjproxy [6]",
             "type": "vmess",
-            "server": "lammaland.org",
+            "server": "57.129.25.20",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -1600,7 +1611,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇨🇦 CA | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "pelang.org",
             "server_port": 443,
