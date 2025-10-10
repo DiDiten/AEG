@@ -80,7 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]",
@@ -102,7 +103,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]",
@@ -204,7 +206,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "172.66.44.203",
             "server_port": 443,
@@ -216,6 +218,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "104.18.41.190",
+            "server_port": 443,
+            "password": "auto",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojanfree-76s.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trojanfree-76s.pages.dev/?ed=2560",
+                "headers": {
+                    "Host": "trojanfree-76s.pages.dev"
                 }
             }
         },

@@ -102,8 +102,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇨🇭 CH | 🔒 VLESS | @config_proxy [44]",
-                "🇨🇭 CH | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -125,7 +123,7 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [16]",
-                "🇦🇺 AU | 🔓 VLESS | @free1_vpn [9]",
+                "🇦🇺 AU | 🔓 VLESS | @free1_vpn [8]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
                 "❔ XX | 🔒 VLESS | @freev2raym [11]",
@@ -253,7 +251,7 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [8]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [9]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
@@ -316,8 +314,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇨🇭 CH | 🔒 VLESS | @config_proxy [44]",
-                "🇨🇭 CH | 🔒 VLESS | @config_proxy [45]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -339,7 +335,7 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @flyv2ray [16]",
-                "🇦🇺 AU | 🔓 VLESS | @free1_vpn [9]",
+                "🇦🇺 AU | 🔓 VLESS | @free1_vpn [8]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
                 "❔ XX | 🔒 VLESS | @freev2raym [11]",
@@ -467,7 +463,7 @@
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
-                "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]",
+                "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [8]",
                 "❔ XX | 🔓 VLESS | @v2ray_iran88 [9]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
@@ -768,60 +764,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @config_proxy [44]",
-            "type": "vless",
-            "server": "switerxaqiri.vtuix.ir",
-            "server_port": 8080,
-            "uuid": "7c689907-8a79-4299-9162-c817624ad352",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yjKkm6CofGtrJW9uOyu-2E1MfkJ6JAmgPPS-ocL1mSo",
-                    "short_id": "9b25240418971ddd@V2rayNGVPN <= کانفیگ رایگان"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "yourServiceName"
-            }
-        },
-        {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @config_proxy [45]",
-            "type": "vless",
-            "server": "switerxaqiri.vtuix.ir",
-            "server_port": 8080,
-            "uuid": "7c689907-8a79-4299-9162-c817624ad352",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yjKkm6CofGtrJW9uOyu-2E1MfkJ6JAmgPPS-ocL1mSo",
-                    "short_id": "9b25240418971ddd@V2rayNGVPN <= کانفیگ رای%D"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "yourServiceName"
             }
         },
         {
@@ -1183,7 +1125,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇦🇺 AU | 🔓 VLESS | @free1_vpn [9]",
+            "tag": "🇦🇺 AU | 🔓 VLESS | @free1_vpn [8]",
             "type": "vless",
             "server": "m60a.vip784.com",
             "server_port": 33801,
@@ -3381,7 +3323,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [6]",
+            "tag": "🚩 CF | 🔒 VLESS | @v2ray1_ng [5]",
             "type": "vless",
             "server": "miniproxy.net",
             "server_port": 2096,
