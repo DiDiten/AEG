@@ -86,7 +86,8 @@
                 "🇳🇴 NO | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [46]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -259,7 +260,8 @@
                 "🚩 CF | 🔒 VLESS | @vmessorg [6]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
-                "🇹🇷 TR | 🔓 VLESS | @vpnplusee_free [12]",
+                "🇹🇷 TR | 🔓 VLESS | @vpnplusee_free [11]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [1]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnv2raytop [2]",
@@ -280,7 +282,8 @@
                 "🇳🇴 NO | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
+                "🇭🇰 HK | 🔒 VLESS | @config_proxy [46]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -453,7 +456,8 @@
                 "🚩 CF | 🔒 VLESS | @vmessorg [6]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
-                "🇹🇷 TR | 🔓 VLESS | @vpnplusee_free [12]",
+                "🇹🇷 TR | 🔓 VLESS | @vpnplusee_free [11]",
+                "🚩 CF | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [1]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnv2raytop [2]",
@@ -658,13 +662,54 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
             "type": "vless",
-            "server": "15.204.236.64",
-            "server_port": 24820,
-            "uuid": "8dbb26f8-8832-46bc-bc0c-a2f17d8d200f",
+            "server": "167.68.42.44",
+            "server_port": 2096,
+            "uuid": "12345678-1234-1234-1234-123456789123",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "kejiland.freewarp.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/snippets",
+                "headers": {
+                    "Host": "kejiland.freewarp.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 VLESS | @config_proxy [46]",
+            "type": "vless",
+            "server": "45.192.224.44",
+            "server_port": 2096,
+            "uuid": "12345678-1234-1234-1234-123456789123",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "kejiland.freewarp.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/snippets",
+                "headers": {
+                    "Host": "kejiland.freewarp.eu.org"
+                }
+            }
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -3715,7 +3760,7 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔓 VLESS | @vpnplusee_free [12]",
+            "tag": "🇹🇷 TR | 🔓 VLESS | @vpnplusee_free [11]",
             "type": "vless",
             "server": "95.134.130.138",
             "server_port": 5437,
@@ -3725,6 +3770,22 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vpnplusee_free [13]",
+            "type": "vless",
+            "server": "104.18.121.170",
+            "server_port": 8080,
+            "uuid": "feecf9a6-7a5e-4ea4-9a77-7511705526c6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/eyJqdW5rIjoiZnVsYk9kSEFDQiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560",
+                "headers": {
+                    "Host": "104.18.121.170"
+                }
             }
         },
         {
