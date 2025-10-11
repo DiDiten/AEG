@@ -96,6 +96,7 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
@@ -139,6 +140,7 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
@@ -643,6 +645,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
+            "type": "vless",
+            "server": "crocodilesrver.ir",
+            "server_port": 8443,
+            "uuid": "joooooin-ELIV2RAY",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7BoCcBCb-cYVcE_3z3qcF-ZzOlezFqR-NkwkecMC6A8",
+                    "short_id": "930fb8b1d8aac565"
+                }
             }
         },
         {

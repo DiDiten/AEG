@@ -84,6 +84,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [53]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [54]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -113,7 +115,8 @@
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [9]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [14]",
+                "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [12]",
+                "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [8]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -185,6 +188,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [53]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [54]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -214,7 +219,8 @@
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [9]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [14]",
+                "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [12]",
+                "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [8]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -459,6 +465,52 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "tiktok.ducks.tel",
+            "server_port": 443,
+            "uuid": "30dd2eea-fe78-4660-a04f-096a7dac41e3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mirror.yandex.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IarU4xicX8qiVO5nqzeHc6MK9A_Vw9YaAtnPHB4DswU",
+                    "short_id": "916a"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "nld-0001-xr.packet-drop-society.net",
+            "server_port": 443,
+            "uuid": "562c71d0-f18b-402c-b1ad-5c2bbfcd6e02",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws",
+                    "short_id": "d3b13f31"
+                }
             }
         },
         {
@@ -1208,7 +1260,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [14]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [12]",
             "type": "vless",
             "server": "legendary.zooboming.com",
             "server_port": 443,
@@ -1232,6 +1284,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
+            "type": "vless",
+            "server": "crocodilesrver.ir",
+            "server_port": 8443,
+            "uuid": "joooooin-ELIV2RAY",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7BoCcBCb-cYVcE_3z3qcF-ZzOlezFqR-NkwkecMC6A8",
+                    "short_id": "930fb8b1d8aac565"
+                }
             }
         },
         {

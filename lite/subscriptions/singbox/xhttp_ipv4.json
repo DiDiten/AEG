@@ -101,7 +101,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [16]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
@@ -109,6 +108,8 @@
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
+                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [154]",
+                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [155]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -135,7 +136,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [16]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
@@ -143,6 +143,8 @@
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
+                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [154]",
+                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [155]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -368,29 +370,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
-            "type": "vless",
-            "server": "116.203.201.167",
-            "server_port": 443,
-            "uuid": "Parsashonam-313",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "LOi-3brURXBaOe83KFpaKZ5A4exl3J9qjeZIIWa8GCQ",
-                    "short_id": "0a8b4a1ad485"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [16]",
             "type": "vless",
             "server": "116.203.201.167",
@@ -535,6 +514,24 @@
                     "short_id": "4c"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @prrofile_purple [154]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "445fde12-f6f9-4219-aba1-81480df65fd8",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @prrofile_purple [155]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "74e1bc81-b671-42d4-b950-458581a89718",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",

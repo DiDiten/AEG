@@ -91,6 +91,7 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
+                "❔ XX | 🔒 VLESS | @lranonline_new [7]",
                 "❔ XX | 🔓 VLESS | @parsashonam [4]",
                 "❔ XX | 🔓 VLESS | @proxycrone [2]",
                 "❔ XX | 🔒 VLESS | @v2rayopen [5]",
@@ -116,6 +117,7 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [2]",
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
+                "❔ XX | 🔒 VLESS | @lranonline_new [7]",
                 "❔ XX | 🔓 VLESS | @parsashonam [4]",
                 "❔ XX | 🔓 VLESS | @proxycrone [2]",
                 "❔ XX | 🔒 VLESS | @v2rayopen [5]",
@@ -397,6 +399,33 @@
                     "public_key": "WeBcvXnjj4LbVsAT2lTbZ3JbvoqE4S_rON9h-7DjrHo",
                     "short_id": ""
                 }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @lranonline_new [7]",
+            "type": "vless",
+            "server": "[2a01:4f8:1c1b:2cab::1]",
+            "server_port": 443,
+            "uuid": "601f29e1-b1ec-4be7-95fa-c1c0f2dbb165",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "maps.google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IdoNhSKjM-84dS3UxZpWu4h6LDIO0Mi3oRxyU3WUakQ",
+                    "short_id": "45"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE"
             }
         },
         {

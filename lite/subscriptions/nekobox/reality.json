@@ -96,6 +96,7 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
@@ -129,7 +130,6 @@
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [11]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
-                "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [16]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
@@ -153,7 +153,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @vpnplusee_free [16]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔒 VLESS | @kesslervpn [2]"
+                "❔ XX | 🔒 VLESS | @kesslervpn [2]",
+                "❔ XX | 🔒 VLESS | @lranonline_new [7]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -180,6 +181,7 @@
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
+                "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
@@ -213,7 +215,6 @@
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [11]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
-                "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [16]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
@@ -237,7 +238,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @vpnplusee_free [16]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔒 VLESS | @kesslervpn [2]"
+                "❔ XX | 🔒 VLESS | @kesslervpn [2]",
+                "❔ XX | 🔒 VLESS | @lranonline_new [7]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -725,6 +727,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
+            "type": "vless",
+            "server": "crocodilesrver.ir",
+            "server_port": 8443,
+            "uuid": "joooooin-ELIV2RAY",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7BoCcBCb-cYVcE_3z3qcF-ZzOlezFqR-NkwkecMC6A8",
+                    "short_id": "930fb8b1d8aac565"
+                }
             }
         },
         {
@@ -1519,29 +1544,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
-            "type": "vless",
-            "server": "116.203.201.167",
-            "server_port": 443,
-            "uuid": "Parsashonam-313",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "LOi-3brURXBaOe83KFpaKZ5A4exl3J9qjeZIIWa8GCQ",
-                    "short_id": "0a8b4a1ad485"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [16]",
             "type": "vless",
             "server": "116.203.201.167",
@@ -2099,6 +2101,33 @@
                     "public_key": "WeBcvXnjj4LbVsAT2lTbZ3JbvoqE4S_rON9h-7DjrHo",
                     "short_id": ""
                 }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @lranonline_new [7]",
+            "type": "vless",
+            "server": "[2a01:4f8:1c1b:2cab::1]",
+            "server_port": 443,
+            "uuid": "601f29e1-b1ec-4be7-95fa-c1c0f2dbb165",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "maps.google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IdoNhSKjM-84dS3UxZpWu4h6LDIO0Mi3oRxyU3WUakQ",
+                    "short_id": "45"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE"
             }
         }
     ],
