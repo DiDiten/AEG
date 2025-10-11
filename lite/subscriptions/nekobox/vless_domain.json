@@ -90,7 +90,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇬🇧 GB | 🔓 VLESS | @config_proxy [60]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -208,7 +208,7 @@
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🚩 CF | 🔓 VLESS | @prrofile_purple [153]",
+                "🚩 CF | 🔓 VLESS | @prrofile_purple [145]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
@@ -302,7 +302,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇬🇧 GB | 🔓 VLESS | @config_proxy [60]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -420,7 +420,7 @@
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🚩 CF | 🔓 VLESS | @prrofile_purple [153]",
+                "🚩 CF | 🔓 VLESS | @prrofile_purple [145]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
@@ -759,13 +759,27 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VLESS | @config_proxy [60]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
             "type": "vless",
-            "server": "m44a.vip784.com",
-            "server_port": 33801,
-            "uuid": "39c8e0d3-c932-4ff7-b3e3-83002647907b",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "a.de.maviks.ru",
+            "server_port": 443,
+            "uuid": "5de591e3-e584-4b96-b78b-239da21286ec",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo",
+                    "short_id": "f203719d3ff9a5f5"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -2777,7 +2791,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @prrofile_purple [153]",
+            "tag": "🚩 CF | 🔓 VLESS | @prrofile_purple [145]",
             "type": "vless",
             "server": "Www.speedtest.net",
             "server_port": 80,
