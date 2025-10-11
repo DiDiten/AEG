@@ -90,6 +90,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇷 FR | 🔓 VLESS | @config_proxy [54]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -111,7 +112,7 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [13]",
-                "🇺🇸 US | 🔓 VLESS | @flyv2ray [15]",
+                "🇺🇸 US | 🔓 VLESS | @flyv2ray [14]",
                 "🇦🇺 AU | 🔓 VLESS | @free1_vpn [11]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -193,7 +194,6 @@
                 "❔ XX | 🔓 VLESS | @next_serverpanel [5]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "❔ XX | 🔓 VLESS | @nofilter_v2rayng [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [15]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -300,6 +300,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇷 FR | 🔓 VLESS | @config_proxy [54]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -321,7 +322,7 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @falcunargo [13]",
-                "🇺🇸 US | 🔓 VLESS | @flyv2ray [15]",
+                "🇺🇸 US | 🔓 VLESS | @flyv2ray [14]",
                 "🇦🇺 AU | 🔓 VLESS | @free1_vpn [11]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
@@ -403,7 +404,6 @@
                 "❔ XX | 🔓 VLESS | @next_serverpanel [5]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "❔ XX | 🔓 VLESS | @nofilter_v2rayng [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [15]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -753,6 +753,15 @@
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
             }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔓 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "638938179859468758.zagreb-prx-dnraacl.info",
+            "server_port": 8880,
+            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -1131,7 +1140,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @flyv2ray [15]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @flyv2ray [14]",
             "type": "vless",
             "server": "m63a.vip784.com",
             "server_port": 33801,
@@ -2495,22 +2504,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @nofilter_v2rayng [4]",
-            "type": "vless",
-            "server": "glEefUL-ERror.sEoTOoLSfOrYou.cO.UK",
-            "server_port": 80,
-            "uuid": "9a37131b-2b68-427f-a2fc-cc7381c2d575",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "glEefUL-ERror.sEoTOoLSfOrYou.cO.UK"
-                }
             }
         },
         {
