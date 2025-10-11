@@ -94,6 +94,7 @@
                 "KingRezaPahlavi",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇺🇸 US | 🔓 VLESS | @orange_vpns [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
@@ -102,12 +103,11 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
-                "🇺🇸 US | 🔓 VLESS | @lranonline_new [11]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
-                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [16]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
@@ -133,6 +133,7 @@
                 "KingRezaPahlavi",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇺🇸 US | 🔓 VLESS | @orange_vpns [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
@@ -141,12 +142,11 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
-                "🇺🇸 US | 🔓 VLESS | @lranonline_new [11]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
-                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [16]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
@@ -278,6 +278,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @orange_vpns [15]",
+            "type": "vless",
+            "server": "configline.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-byA",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
@@ -392,15 +401,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [11]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "69f74c8e-2911-4752-9871-2bd6e9aa4421",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
             "type": "vless",
             "server": "91.99.91.136",
@@ -460,13 +460,27 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [16]",
             "type": "vless",
-            "server": "167.172.177.180",
-            "server_port": 35722,
-            "uuid": "33c2b39d-b53f-45cd-d5c9-d58df4756e95",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "116.203.201.167",
+            "server_port": 443,
+            "uuid": "Parsashonam-314",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LOi-3brURXBaOe83KFpaKZ5A4exl3J9qjeZIIWa8GCQ",
+                    "short_id": "0a8b4a1ad485"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
