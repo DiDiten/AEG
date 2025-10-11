@@ -111,6 +111,8 @@
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🚩 CF | 🔒 TROJAN | @v2ray_sub [42]",
+                "🇸🇬 SG | 🔓 TROJAN | @v2raych [13]",
+                "🇸🇬 SG | 🔒 TROJAN | @v2raych [14]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -152,6 +154,8 @@
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🚩 CF | 🔒 TROJAN | @v2ray_sub [42]",
+                "🇸🇬 SG | 🔓 TROJAN | @v2raych [13]",
+                "🇸🇬 SG | 🔒 TROJAN | @v2raych [14]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -614,6 +618,43 @@
                 "path": "/hishhhh123",
                 "headers": {
                     "Host": "mooshali.arshiacomplus.dpdns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔓 TROJAN | @v2raych [13]",
+            "type": "trojan",
+            "server": "waifu.kurumi.biz.id",
+            "server_port": 80,
+            "password": "Txc-iGR53gTizMTTE9ZVYQ",
+            "transport": {
+                "type": "ws",
+                "path": "/trojan",
+                "headers": {
+                    "Host": "waifu.kurumi.biz.id"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 TROJAN | @v2raych [14]",
+            "type": "trojan",
+            "server": "waifu.kurumi.biz.id",
+            "server_port": 443,
+            "password": "Txc-iGR53gTizMTTE9ZVYQ",
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trojan",
+                "headers": {
+                    "Host": "discord.com"
                 }
             }
         },
