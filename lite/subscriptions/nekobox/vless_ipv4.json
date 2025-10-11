@@ -86,7 +86,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "❔ XX | 🔒 VLESS | @config_proxy [38]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [40]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -130,6 +130,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -162,7 +163,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @minovpnch [13]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🚩 CF | 🔒 VLESS | @mowjproxy [5]",
+                "🚩 CF | 🔒 VLESS | @mowjproxy [4]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [12]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [13]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
@@ -282,7 +283,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "❔ XX | 🔒 VLESS | @config_proxy [38]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [40]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -326,6 +327,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -358,7 +360,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @minovpnch [13]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🚩 CF | 🔒 VLESS | @mowjproxy [5]",
+                "🚩 CF | 🔒 VLESS | @mowjproxy [4]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [12]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [13]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
@@ -662,20 +664,27 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [38]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [40]",
             "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "bcacaba-abac-caba-cbad-baccaacbbcab",
+            "server": "91.98.47.45",
+            "server_port": 443,
+            "uuid": "d4803c0d-c9f3-4c9c-a034-342a71ef03a0",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "127.0.0.1",
+                "server_name": "91.98.47.45",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkws?ed",
+                "headers": {
+                    "Host": "91.98.47.45"
                 }
             }
         },
@@ -1435,6 +1444,31 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "151.101.66.228",
+            "server_port": 443,
+            "uuid": "eb64ed2c-46b3-4f67-b64d-5832cb810c65",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "pscresearch.faculty.ucdavis.edu",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/VLESS",
+                "headers": {
+                    "Host": "pscresearch.faculty.ucdavis.edu"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
             "type": "vless",
             "server": "92.114.24.92",
@@ -1966,7 +2000,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @mowjproxy [5]",
+            "tag": "🚩 CF | 🔒 VLESS | @mowjproxy [4]",
             "type": "vless",
             "server": "104.19.39.69",
             "server_port": 443,
