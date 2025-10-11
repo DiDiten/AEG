@@ -287,9 +287,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [53]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [54]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -336,7 +336,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
+                "❔ XX | 🔒 VLESS | @hope_net [19]",
+                "🇩🇪 DE | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -692,9 +694,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [53]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [54]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -741,7 +743,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
+                "❔ XX | 🔒 VLESS | @hope_net [19]",
+                "🇩🇪 DE | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -4525,41 +4529,39 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [53]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
             "type": "vless",
-            "server": "94.247.142.241",
+            "server": "213.232.120.2",
             "server_port": 443,
-            "uuid": "775213ac-3976-439a-8977-3277c0e4735d",
-            "flow": "",
+            "uuid": "8e6acce9-8b56-7190-d491-7d84f8189e26",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "fq521.6789.cloudns.be",
+                "server_name": "speed.cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/twitterfreecodessecurity=tls",
-                "headers": {
-                    "Host": "fq521.6789.cloudns.be"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6h7z2IG6_BopO2tGTRAytfMOWbcXxRWghb2c9IILJkA",
+                    "short_id": ""
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [54]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [44]",
             "type": "vless",
-            "server": "151.101.194.228",
+            "server": "172.66.40.99",
             "server_port": 443,
-            "uuid": "eb64ed2c-46b3-4f67-b64d-5832cb810c65",
+            "uuid": "1dfe7be3-d515-42f0-87d1-5c63eb1f251c",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "pscresearch.faculty.ucdavis.edu",
+                "server_name": "www.dollardoon.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -4568,34 +4570,25 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/VLESS",
+                "path": "/@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7?ed=2048",
                 "headers": {
-                    "Host": "pscresearch.faculty.ucdavis.edu"
+                    "Host": "www.dollardoon.com"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [55]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [45]",
             "type": "vless",
-            "server": "104.26.12.54",
-            "server_port": 443,
-            "uuid": "2928d83a-ca75-4d52-b437-fa78c7601378",
+            "server": "185.113.10.43",
+            "server_port": 8880,
+            "uuid": "706a6170-e492-46b0-80c9-9ffc3ff9f828",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "freedom-1rj.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/freedom-1rj.pages.dev/?ed=2560",
+                "path": "/@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN?ed=2048",
                 "headers": {
-                    "Host": "freedom-1rj.pages.dev"
+                    "Host": "185.113.10.43"
                 }
             }
         },
@@ -5396,7 +5389,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
             "type": "vless",
             "server": "69.84.182.116",
             "server_port": 443,
@@ -5417,6 +5410,49 @@
                 "path": "/?ed=2560",
                 "headers": {
                     "Host": "ld.ylks.us.kg"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "uuid": "baaacbc-abca-acba-badc-ccbabcabacab",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @hope_net [20]",
+            "type": "vless",
+            "server": "18.185.237.177",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-channel-vlessconfig-ws",
+                "headers": {
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
             }
         },

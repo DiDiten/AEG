@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇵🇰 PK | 🔒 VLESS | @free4allvpn [20]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -140,6 +141,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇵🇰 PK | 🔒 VLESS | @free4allvpn [20]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -260,6 +262,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "213.232.120.2",
+            "server_port": 443,
+            "uuid": "8e6acce9-8b56-7190-d491-7d84f8189e26",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6h7z2IG6_BopO2tGTRAytfMOWbcXxRWghb2c9IILJkA",
+                    "short_id": ""
                 }
             }
         },

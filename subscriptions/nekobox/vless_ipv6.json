@@ -94,7 +94,6 @@
                 "❔ XX | 🔒 VLESS | @lranonline_new [7]",
                 "❔ XX | 🔓 VLESS | @parsashonam [4]",
                 "❔ XX | 🔓 VLESS | @proxycrone [2]",
-                "❔ XX | 🔒 VLESS | @v2raych [3]",
                 "❔ XX | 🔒 VLESS | @v2rayopen [5]",
                 "❔ XX | 🔓 VLESS | @v2raytg [58]"
             ],
@@ -121,7 +120,6 @@
                 "❔ XX | 🔒 VLESS | @lranonline_new [7]",
                 "❔ XX | 🔓 VLESS | @parsashonam [4]",
                 "❔ XX | 🔓 VLESS | @proxycrone [2]",
-                "❔ XX | 🔒 VLESS | @v2raych [3]",
                 "❔ XX | 🔒 VLESS | @v2rayopen [5]",
                 "❔ XX | 🔓 VLESS | @v2raytg [58]"
             ],
@@ -447,31 +445,6 @@
             "uuid": "Parsashonam-311",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @v2raych [3]",
-            "type": "vless",
-            "server": "[2606:4700:3036:ef:95e:7a29:2ccc:d331]",
-            "server_port": 443,
-            "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vless.hubp.de",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "vless.hubp.de"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🔒 VLESS | @v2rayopen [5]",

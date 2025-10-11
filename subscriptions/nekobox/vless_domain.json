@@ -106,14 +106,13 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [48]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
+                "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [3]",
@@ -556,6 +555,8 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [11]",
+                "🚩 CF | 🔓 VLESS | @v2raych [15]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🚩 CF | 🔒 VLESS | @v2raying [3]",
@@ -710,14 +711,13 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [48]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
+                "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
                 "❔ XX | 🔒 VLESS | @connectshu [3]",
@@ -1160,6 +1160,8 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [11]",
+                "🚩 CF | 🔓 VLESS | @v2raych [15]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🚩 CF | 🔒 VLESS | @v2raying [3]",
@@ -1870,79 +1872,13 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [42]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
             "type": "vless",
-            "server": "baj9ztn91a49.dop14.com",
-            "server_port": 443,
-            "uuid": "afadfa26-2795-4a17-b456-1457a5df629c",
+            "server": "ergwork.web.unc.edu",
+            "server_port": 80,
+            "uuid": "c85a82c1-58ed-4b0c-9d0a-8f60298b9f5e",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "baj9ztn91a49.dop14.combaj9ztn91a49.dop14.com tls WS direct vless",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/09hmyzvdljYpebWBPqDV7",
-                "headers": {
-                    "Host": "baj9ztn91a49.dop14.combaj9ztn91a49.dop14.com tls WS direct vless"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
-            "type": "vless",
-            "server": "ognbqqfj1a49.greendop.com",
-            "server_port": 443,
-            "uuid": "b50a73c5-e143-460c-b9db-ef1727b36031",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ognbqqfj1a49.greendop.comProxyhive tls WS direct vless",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/09hmyzvdljYpebWBPqDV7",
-                "headers": {
-                    "Host": "ognbqqfj1a49.greendop.comProxyhive tls WS direct vless"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [48]",
-            "type": "vless",
-            "server": "ipe3.alighan.ir",
-            "server_port": 8443,
-            "uuid": "af9fdedf-dca8-405d-9aa4-98ebcc99e84b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ipe4.alighan.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2048",
-                "headers": {
-                    "Host": "ipe4.alighan.ir"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -2030,6 +1966,31 @@
             "server": "ipe3.alighan.ir",
             "server_port": 8443,
             "uuid": "cddf1c0b-a78b-4d83-b2fb-38b6b72e5e6b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ipe4.alighan.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "ipe4.alighan.ir"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
+            "type": "vless",
+            "server": "ipe3.alighan.ir",
+            "server_port": 8443,
+            "uuid": "af9fdedf-dca8-405d-9aa4-98ebcc99e84b",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
@@ -9626,6 +9587,24 @@
                     "Host": "xjp.caball.link"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [11]",
+            "type": "vless",
+            "server": "free.vpn.luna-marzban.ir",
+            "server_port": 15510,
+            "uuid": "8417c221-c277-4e3b-8d19-b0ac0bfb4666",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @v2raych [15]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2087,
+            "uuid": "73fda604-2361-4c37-87e5-0996fee4031c",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [8]",
