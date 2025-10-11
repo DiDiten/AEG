@@ -98,8 +98,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [63]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [65]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [54]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -193,8 +192,8 @@
                 "🚩 CF | 🔒 VLESS | @nofilter_v2rayng [5]",
                 "🚩 CF | 🔒 VLESS | @novinology [15]",
                 "🇨🇭 CH | 🔓 VLESS | @oonfig [2]",
-                "🚩 CF | 🔒 VLESS | @orange_vpns [14]",
-                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [16]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [15]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🚩 CF | 🔒 VLESS | @pro_chaneel [1]",
@@ -291,8 +290,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [63]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [65]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [54]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -386,8 +384,8 @@
                 "🚩 CF | 🔒 VLESS | @nofilter_v2rayng [5]",
                 "🚩 CF | 🔒 VLESS | @novinology [15]",
                 "🇨🇭 CH | 🔓 VLESS | @oonfig [2]",
-                "🚩 CF | 🔒 VLESS | @orange_vpns [14]",
-                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [16]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [15]",
+                "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🚩 CF | 🔒 VLESS | @pro_chaneel [1]",
@@ -669,22 +667,29 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [63]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [54]",
             "type": "vless",
-            "server": "162.159.20.126",
-            "server_port": 80,
-            "uuid": "2f503dfb-4c21-45ee-a9e3-280e0939cf62",
+            "server": "151.101.2.228",
+            "server_port": 443,
+            "uuid": "ad3cc925-52f0-4834-ab85-602d9c1c08ac",
             "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [65]",
-            "type": "vless",
-            "server": "52.88.203.222",
-            "server_port": 2222,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8880",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu"
+                }
+            }
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -2304,32 +2309,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @orange_vpns [14]",
-            "type": "vless",
-            "server": "104.17.145.3",
-            "server_port": 2053,
-            "uuid": "01996549-6892-dbf0-0453-f700236936bd",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "kejiland.freewarp.eu.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560",
-                "headers": {
-                    "Host": "kejiland.freewarp.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [16]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [15]",
             "type": "vless",
             "server": "116.203.201.167",
             "server_port": 443,
@@ -2350,6 +2330,15 @@
                     "short_id": "0a8b4a1ad485"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @orange_vpns [16]",
+            "type": "vless",
+            "server": "91.99.166.94",
+            "server_port": 666,
+            "uuid": "1bdfdfd8-f7e7-4e15-b49d-7e17a36c8646",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
