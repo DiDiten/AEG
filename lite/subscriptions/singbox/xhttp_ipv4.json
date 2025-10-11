@@ -103,7 +103,8 @@
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
-                "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
@@ -136,7 +137,8 @@
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
-                "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
@@ -398,11 +400,34 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
             "type": "vless",
             "server": "116.203.201.167",
             "server_port": 443,
             "uuid": "Parsashonam-313",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LOi-3brURXBaOe83KFpaKZ5A4exl3J9qjeZIIWa8GCQ",
+                    "short_id": "0a8b4a1ad485"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
+            "type": "vless",
+            "server": "116.203.201.167",
+            "server_port": 443,
+            "uuid": "Parsashonam-314",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {

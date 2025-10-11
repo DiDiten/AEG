@@ -86,9 +86,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
-                "🇫🇮 FI | 🔓 VLESS | @config_proxy [47]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [50]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [51]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -188,7 +187,8 @@
                 "🚩 CF | 🔒 VLESS | @orange_vpns [14]",
                 "🚩 CF | 🔓 VLESS | @outline_ir [17]",
                 "🚩 CF | 🔓 VLESS | @outline_ir [18]",
-                "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🚩 CF | 🔒 VLESS | @pro_chaneel [1]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
@@ -283,9 +283,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
-                "🇫🇮 FI | 🔓 VLESS | @config_proxy [47]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [50]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [51]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -385,7 +384,8 @@
                 "🚩 CF | 🔒 VLESS | @orange_vpns [14]",
                 "🚩 CF | 🔓 VLESS | @outline_ir [17]",
                 "🚩 CF | 🔓 VLESS | @outline_ir [18]",
-                "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
+                "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🚩 CF | 🔒 VLESS | @pro_chaneel [1]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
@@ -664,16 +664,16 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [45]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [50]",
             "type": "vless",
-            "server": "167.82.97.5",
+            "server": "151.101.130.228",
             "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "uuid": "aef28aa4-c9a2-41e9-d472-96a0b56bf4ef",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "landin.ir",
+                "server_name": "Zmaoz.Faculty.UcdavIS.Edu.",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -682,41 +682,34 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/GGPPfZ3NKyOoKNiK?ed=2560",
+                "path": "/@melov2ray/ws?ed=2048",
                 "headers": {
-                    "Host": "landin.ir"
+                    "Host": "Zmaoz.Faculty.UcdavIS.Edu."
                 }
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [46]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [51]",
             "type": "vless",
-            "server": "151.101.2.219",
-            "server_port": 80,
-            "uuid": "8ff9fb56-a63c-5ec8-a4ac-3be008369bfd",
+            "server": "151.101.66.228",
+            "server_port": 443,
+            "uuid": "d83a3c50-fec6-4c22-90d0-e68a6d17f69b",
             "flow": "",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=80",
-                "headers": {
-                    "Host": "151.101.2.219"
+            "tls": {
+                "enabled": true,
+                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @config_proxy [47]",
-            "type": "vless",
-            "server": "65.109.215.65",
-            "server_port": 4266,
-            "uuid": "7c689907-8a79-4299-9162-c817624ad352",
-            "flow": "",
-            "packet_encoding": "xudp",
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/@vistav2ray---@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray----@vistav2ray?ed=2048",
                 "headers": {
-                    "Host": "65.109.215.65"
+                    "Host": "zmaoz.faculty.ucdavis.edu"
                 }
             }
         },
@@ -2440,11 +2433,34 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [9]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
             "type": "vless",
             "server": "116.203.201.167",
             "server_port": 443,
             "uuid": "Parsashonam-313",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LOi-3brURXBaOe83KFpaKZ5A4exl3J9qjeZIIWa8GCQ",
+                    "short_id": "0a8b4a1ad485"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
+            "type": "vless",
+            "server": "116.203.201.167",
+            "server_port": 443,
+            "uuid": "Parsashonam-314",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {

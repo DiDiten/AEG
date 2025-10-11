@@ -186,8 +186,6 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @mowjproxy [4]",
-                "🚩 CF | 🔒 VLESS | @mowjproxy [5]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -400,8 +398,6 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
-                "🚩 CF | 🔒 VLESS | @mowjproxy [4]",
-                "🚩 CF | 🔒 VLESS | @mowjproxy [5]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -2142,56 +2138,6 @@
             "uuid": "d0f30d61-4a72-4640-8267-24f4afeb1b37",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @mowjproxy [4]",
-            "type": "vless",
-            "server": "014.electrocellco-cf-014.workers.dev",
-            "server_port": 443,
-            "uuid": "203e82ed-a6b7-416a-b04e-ba8a20d8a0c4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "014.ELectRoceLlCO-Cf-014.worKeRS.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoiQkdrUldRNHQzR2MzVHkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560",
-                "headers": {
-                    "Host": "014.ELectRoceLlCO-Cf-014.worKeRS.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @mowjproxy [5]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "cfd5af3d-8ef5-4f24-b8a3-47cd63409340",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "002.eLEctroCeLLco-cf-002.WOrkErs.DEv",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/eyJqdW5rIjoidlRpR1pRejlqWGUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560",
-                "headers": {
-                    "Host": "002.eLEctroCeLLco-cf-002.WOrkErs.DEv"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
