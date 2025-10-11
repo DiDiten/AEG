@@ -83,6 +83,10 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [1]",
+                "🇱🇻 LV | 🔒 VLESS | @config_proxy [45]",
+                "🇧🇪 BE | 🔒 VLESS | @config_proxy [46]",
+                "🇨🇿 CZ | 🔒 VLESS | @config_proxy [47]",
+                "🇬🇷 GR | 🔒 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -192,14 +196,14 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇰🇿 KZ | 🔒 VLESS | @vmesc [14]",
-                "🇦🇹 AT | 🔒 VLESS | @vmesc [15]",
+                "🇰🇿 KZ | 🔒 VLESS | @vmesc [13]",
+                "🇦🇹 AT | 🔒 VLESS | @vmesc [14]",
                 "🇸🇪 SE | 🔒 VLESS | @vmessiranproxy [8]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [9]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [11]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇪🇪 EE | 🔒 VLESS | @vpnplusee_free [17]",
-                "🇦🇱 AL | 🔒 VLESS | @vpnplusee_free [18]",
+                "🇪🇪 EE | 🔒 VLESS | @vpnplusee_free [16]",
+                "🇦🇱 AL | 🔒 VLESS | @vpnplusee_free [17]",
                 "🇫🇷 FR | 🔒 VLESS | @xrayzxn [3]"
             ],
             "tag": "proxy",
@@ -214,6 +218,10 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [1]",
+                "🇱🇻 LV | 🔒 VLESS | @config_proxy [45]",
+                "🇧🇪 BE | 🔒 VLESS | @config_proxy [46]",
+                "🇨🇿 CZ | 🔒 VLESS | @config_proxy [47]",
+                "🇬🇷 GR | 🔒 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -323,14 +331,14 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇰🇿 KZ | 🔒 VLESS | @vmesc [14]",
-                "🇦🇹 AT | 🔒 VLESS | @vmesc [15]",
+                "🇰🇿 KZ | 🔒 VLESS | @vmesc [13]",
+                "🇦🇹 AT | 🔒 VLESS | @vmesc [14]",
                 "🇸🇪 SE | 🔒 VLESS | @vmessiranproxy [8]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [9]",
                 "🇩🇪 DE | 🔒 VLESS | @vmessiranproxy [11]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇪🇪 EE | 🔒 VLESS | @vpnplusee_free [17]",
-                "🇦🇱 AL | 🔒 VLESS | @vpnplusee_free [18]",
+                "🇪🇪 EE | 🔒 VLESS | @vpnplusee_free [16]",
+                "🇦🇱 AL | 🔒 VLESS | @vpnplusee_free [17]",
                 "🇫🇷 FR | 🔒 VLESS | @xrayzxn [3]"
             ],
             "tag": "auto",
@@ -487,6 +495,98 @@
                     "enabled": true,
                     "public_key": "8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0",
                     "short_id": "5fab0deb"
+                }
+            }
+        },
+        {
+            "tag": "🇱🇻 LV | 🔒 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "195.135.252.103",
+            "server_port": 9954,
+            "uuid": "8b559595-d312-91c7-71a5-00b963955f29",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇧🇪 BE | 🔒 VLESS | @config_proxy [46]",
+            "type": "vless",
+            "server": "38.180.87.229",
+            "server_port": 9954,
+            "uuid": "8b559595-d312-91c7-71a5-00b963955f29",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇿 CZ | 🔒 VLESS | @config_proxy [47]",
+            "type": "vless",
+            "server": "45.151.183.78",
+            "server_port": 9954,
+            "uuid": "8b559595-d312-91c7-71a5-00b963955f29",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇬🇷 GR | 🔒 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "85.90.197.100",
+            "server_port": 9956,
+            "uuid": "8b559595-d312-91c7-71a5-00b963955f29",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": ""
                 }
             }
         },
@@ -3107,7 +3207,7 @@
             }
         },
         {
-            "tag": "🇰🇿 KZ | 🔒 VLESS | @vmesc [14]",
+            "tag": "🇰🇿 KZ | 🔒 VLESS | @vmesc [13]",
             "type": "vless",
             "server": "91.147.92.153",
             "server_port": 443,
@@ -3130,7 +3230,7 @@
             }
         },
         {
-            "tag": "🇦🇹 AT | 🔒 VLESS | @vmesc [15]",
+            "tag": "🇦🇹 AT | 🔒 VLESS | @vmesc [14]",
             "type": "vless",
             "server": "213.176.94.129",
             "server_port": 443,
@@ -3245,7 +3345,7 @@
             }
         },
         {
-            "tag": "🇪🇪 EE | 🔒 VLESS | @vpnplusee_free [17]",
+            "tag": "🇪🇪 EE | 🔒 VLESS | @vpnplusee_free [16]",
             "type": "vless",
             "server": "185.215.186.109",
             "server_port": 443,
@@ -3268,7 +3368,7 @@
             }
         },
         {
-            "tag": "🇦🇱 AL | 🔒 VLESS | @vpnplusee_free [18]",
+            "tag": "🇦🇱 AL | 🔒 VLESS | @vpnplusee_free [17]",
             "type": "vless",
             "server": "45.15.170.183",
             "server_port": 443,
