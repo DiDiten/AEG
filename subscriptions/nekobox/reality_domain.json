@@ -132,7 +132,8 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [8]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇬🇧 GB | 🔒 VLESS | @v2rayopen [4]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayopen [6]",
@@ -232,7 +233,8 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [8]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇬🇧 GB | 🔒 VLESS | @v2rayopen [4]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayopen [6]",
@@ -1659,11 +1661,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [8]",
             "type": "vless",
             "server": "fast7.hvitrin.ir",
             "server_port": 48769,
-            "uuid": "f8806934-15d7-4194-9c35-ec7a140bb6f6",
+            "uuid": "7ab11fca-4691-464e-ba43-97f0b78fd831",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -1678,6 +1680,29 @@
                     "enabled": true,
                     "public_key": "7nXyxyyn6fSlJzPO1DFmIEUV8LAmoP58-_1zP_MKo2E",
                     "short_id": "177f438f"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
+            "type": "vless",
+            "server": "vfast7.hvitrin.ir",
+            "server_port": 49330,
+            "uuid": "a27ff611-7c01-4df3-9471-4fd5cd4bb8e1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Dee9YE139lZpb4V3QytB8DvHY3nTCnEXzk2IjvMLHi8",
+                    "short_id": "b3"
                 }
             }
         },
