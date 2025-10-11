@@ -107,9 +107,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔒 VLESS | @bored_vpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [45]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [52]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [53]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [37]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [39]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -716,9 +717,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔒 VLESS | @bored_vpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [45]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [52]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [53]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [37]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [39]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1905,16 +1907,16 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [45]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [37]",
             "type": "vless",
-            "server": "www.wto.org",
+            "server": "cdnjs.com",
             "server_port": 443,
-            "uuid": "032dae6d-6f5f-4fba-ba18-ccdc43ee8e19",
+            "uuid": "7d18fc67-1994-4f7e-8ff8-c024223f33bb",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "nigan.pages.dev",
+                "server_name": "revcloud.migacpi.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1923,41 +1925,64 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/socks5://82.223.165.28:59602",
+                "path": "/cbde4058-6b81-432b-8689-dd7ce10e479c",
                 "headers": {
-                    "Host": "nigan.pages.dev"
+                    "Host": "revcloud.migacpi.org"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [52]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [39]",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2086,
-            "uuid": "2-TEL-ID--JKVPN--@JKVPN",
+            "server": "npmjs.com",
+            "server_port": 80,
+            "uuid": "0c07016f-6238-4a17-a414-ab0ecd8a8b5e",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/TELEGRAM--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN?ed=2048",
+                "path": "/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "npmjs.com"
                 }
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [53]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [43]",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2095,
-            "uuid": "2-BYA--CHANEL---JKVPN--JKVPN",
+            "server": "gr.sashabike.ir",
+            "server_port": 9621,
+            "uuid": "6b9a8841-e642-4dae-b3e3-3672347b8969",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Mr-d7Pdst86TkzJuykSXyFdSm2C_iwnX4jqSKx-LYnU",
+                    "short_id": "30321b0b9f29c0c1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "mstr.fastly80.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "d49ffd05-c1dc-4bcb-b788-dbbece8860b0",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/TELEGRAM--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN?ed=2048",
+                "path": "/admin",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "mstr.fastly80.hosting-ip.com"
                 }
             }
         },

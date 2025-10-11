@@ -287,7 +287,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "❔ XX | 🔒 VLESS | @config_proxy [54]",
+                "🇷🇴 RO | 🔓 VLESS | @config_proxy [47]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [48]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -383,7 +384,7 @@
                 "🚩 CF | 🔒 VLESS | @nofilter_v2rayng [5]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
                 "🚩 CF | 🔒 VLESS | @novinology [15]",
-                "🇨🇭 CH | 🔓 VLESS | @oonfig [3]",
+                "🇨🇭 CH | 🔓 VLESS | @oonfig [2]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [14]",
                 "🚩 CF | 🔓 VLESS | @outline_ir [17]",
@@ -694,7 +695,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "❔ XX | 🔒 VLESS | @config_proxy [54]",
+                "🇷🇴 RO | 🔓 VLESS | @config_proxy [47]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [48]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -790,7 +792,7 @@
                 "🚩 CF | 🔒 VLESS | @nofilter_v2rayng [5]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [20]",
                 "🚩 CF | 🔒 VLESS | @novinology [15]",
-                "🇨🇭 CH | 🔓 VLESS | @oonfig [3]",
+                "🇨🇭 CH | 🔓 VLESS | @oonfig [2]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [12]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [14]",
                 "🚩 CF | 🔓 VLESS | @outline_ir [17]",
@@ -4517,20 +4519,40 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [54]",
+            "tag": "🇷🇴 RO | 🔓 VLESS | @config_proxy [47]",
             "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "cbacaba-aabc-abac-abcd-bacbabbacacc",
+            "server": "141.227.180.39",
+            "server_port": 22292,
+            "uuid": "1934c801-b10e-421d-8163-f9efac8a9fd1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "38.180.51.120",
+            "server_port": 443,
+            "uuid": "019931aa-8cba-3a74-6c77-cb288ae52f2a",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "127.0.0.1",
+                "server_name": "0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/snippets?ip=proxyip:port(443)",
+                "headers": {
+                    "Host": "0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn"
                 }
             }
         },
@@ -6201,7 +6223,7 @@
             }
         },
         {
-            "tag": "🇨🇭 CH | 🔓 VLESS | @oonfig [3]",
+            "tag": "🇨🇭 CH | 🔓 VLESS | @oonfig [2]",
             "type": "vless",
             "server": "141.11.164.233",
             "server_port": 11366,
