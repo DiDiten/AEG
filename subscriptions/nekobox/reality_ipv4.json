@@ -83,7 +83,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [1]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [36]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [41]",
+                "🇷🇴 RO | 🔒 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -152,7 +153,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @proxyfn [10]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [141]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [133]",
                 "🇳🇱 NL | 🔒 VLESS | @qeshmserver [1]",
                 "🇸🇬 SG | 🔒 VLESS | @qeshmserver [3]",
                 "🇸🇬 SG | 🔒 VLESS | @qeshmserver [4]",
@@ -213,7 +214,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [1]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [36]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [41]",
+                "🇷🇴 RO | 🔒 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -282,7 +284,7 @@
                 "🇸🇪 SE | 🔒 VLESS | @proxyfn [10]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [141]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [133]",
                 "🇳🇱 NL | 🔒 VLESS | @qeshmserver [1]",
                 "🇸🇬 SG | 🔒 VLESS | @qeshmserver [3]",
                 "🇸🇬 SG | 🔒 VLESS | @qeshmserver [4]",
@@ -489,25 +491,48 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [36]",
+            "tag": "🇱🇹 LT | 🔒 VLESS | @config_proxy [41]",
             "type": "vless",
-            "server": "54.186.175.170",
-            "server_port": 4433,
-            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "server": "94.131.13.14",
+            "server_port": 443,
+            "uuid": "fe27c0c7-6602-4b20-a8e4-d8eff275dbee",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "stackoverflow.com",
+                "server_name": "hls-svod.itunes.apple.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "random"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
-                    "short_id": "f785b38130e64177"
+                    "public_key": "llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws",
+                    "short_id": "31"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇴 RO | 🔒 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "31.6.1.187",
+            "server_port": 27229,
+            "uuid": "24d912d9-d3ef-47eb-b993-6d5dda317cca",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1_vS_JKpOvJnqPUDyaREbXWd5M59bIIKsNyV5Kt0uD8",
+                    "short_id": "cd1f804d"
                 }
             }
         },
@@ -2143,7 +2168,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [141]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [133]",
             "type": "vless",
             "server": "91.107.245.14",
             "server_port": 2095,
