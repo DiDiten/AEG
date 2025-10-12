@@ -80,8 +80,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [65]",
+                "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇺🇸 US | 🔓 VLESS | @orange_vpns [14]",
+                "🚩 CF | 🔓 VLESS | @outline_ir [17]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [14]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
@@ -108,11 +113,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [12]",
-                "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
-                "🇺🇸 US | 🔓 VLESS | @orange_vpns [14]",
-                "🚩 CF | 🔓 VLESS | @outline_ir [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
+                "🇺🇸 US | 🔓 VLESS | @vmesc [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -123,8 +124,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [65]",
+                "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇺🇸 US | 🔓 VLESS | @orange_vpns [14]",
+                "🚩 CF | 🔓 VLESS | @outline_ir [17]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [14]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
@@ -151,11 +157,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [12]",
-                "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
-                "🇺🇸 US | 🔓 VLESS | @orange_vpns [14]",
-                "🚩 CF | 🔓 VLESS | @outline_ir [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
+                "🇺🇸 US | 🔓 VLESS | @vmesc [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -246,11 +248,47 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [65]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
             "type": "vless",
-            "server": "151.101.3.8",
+            "server": "germany.fast.hosting-ip.com",
             "server_port": 80,
-            "uuid": "70183344-d380-404b-95dd-8bf7f9e59c07",
+            "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @orange_vpns [14]",
+            "type": "vless",
+            "server": "configline.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-byA",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @outline_ir [17]",
+            "type": "vless",
+            "server": "asdf.sernett.ir",
+            "server_port": 80,
+            "uuid": "SERVERNETT-SERVERNETT1",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+            "type": "vless",
+            "server": "viop.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+            "type": "vless",
+            "server": "fast-01.saitsazs.ir",
+            "server_port": 80,
+            "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -260,6 +298,15 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "5ea6aa01-27bb-48ff-9331-173d40626ee8",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [15]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "70183344-d380-404b-95dd-8bf7f9e59c07",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -711,47 +758,11 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
             "type": "vless",
-            "server": "germany.fast.hosting-ip.com",
+            "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @orange_vpns [14]",
-            "type": "vless",
-            "server": "configline.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-byA",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @outline_ir [17]",
-            "type": "vless",
-            "server": "asdf.sernett.ir",
-            "server_port": 80,
-            "uuid": "SERVERNETT-SERVERNETT1",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-            "type": "vless",
-            "server": "viop.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-            "type": "vless",
-            "server": "fast-01.saitsazs.ir",
-            "server_port": 80,
-            "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
+            "uuid": "d8e7bae0-2adb-4c19-9165-514832abe370",
             "flow": "",
             "packet_encoding": "xudp"
         }

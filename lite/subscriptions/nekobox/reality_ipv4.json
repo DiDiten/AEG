@@ -80,7 +80,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [64]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇵🇰 PK | 🔒 VLESS | @free4allvpn [20]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -117,7 +116,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇷🇺 RU | 🔒 VLESS | @vmesc [18]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]"
             ],
@@ -130,7 +128,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇹🇷 TR | 🔒 VLESS | @config_proxy [64]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇵🇰 PK | 🔒 VLESS | @free4allvpn [20]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -167,7 +164,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇷🇺 RU | 🔒 VLESS | @vmesc [18]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]"
             ],
@@ -256,29 +252,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [64]",
-            "type": "vless",
-            "server": "62.60.233.30",
-            "server_port": 443,
-            "uuid": "8377aac9-f3b3-42df-a5ea-9254f37e7b34",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tr.eu-ffast.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-                    "short_id": "50"
                 }
             }
         },
@@ -1127,29 +1100,6 @@
                     "enabled": true,
                     "public_key": "Qdg7LVP5VmLr7xzv556ry5RNc3QaeAj4TwOUxndA23M",
                     "short_id": "e3f89b63"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "46.8.52.182",
-            "server_port": 9954,
-            "uuid": "d71560c1-e82b-a2bf-8040-04e3c73dcffb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
-                    "short_id": ""
                 }
             }
         },
