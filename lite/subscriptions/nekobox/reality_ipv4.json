@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [48]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇵🇰 PK | 🔒 VLESS | @free4allvpn [20]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -128,6 +129,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [48]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇵🇰 PK | 🔒 VLESS | @free4allvpn [20]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -253,6 +255,33 @@
                 "headers": {
                     "Host": "127.0.0.1"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "80.85.241.237",
+            "server_port": 21,
+            "uuid": "f67bb868-2bbe-4d5a-b5a4-b28f1261b1a4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZC8EJzmQKgo-NxxbfyU3YBYxBB__DXHNOkwezNeRQRE",
+                    "short_id": "6dcda8"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs?ed=2056"
             }
         },
         {

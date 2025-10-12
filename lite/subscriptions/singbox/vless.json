@@ -299,8 +299,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [43]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [48]",
+                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&host=baomei.pages.dev&encryption=none#🚩 CF | 🔒 VLESS | @config_proxy [49]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -348,7 +348,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
+                "🚩 CF | 🔒 VLESS | @hope_net [19]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -703,8 +704,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [43]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [48]",
+                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&host=baomei.pages.dev&encryption=none#🚩 CF | 🔒 VLESS | @config_proxy [49]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -752,7 +753,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
+                "🚩 CF | 🔒 VLESS | @hope_net [19]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -4531,41 +4533,43 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [43]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [48]",
             "type": "vless",
-            "server": "69.84.182.251",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
+            "server": "80.85.241.237",
+            "server_port": 21,
+            "uuid": "f67bb868-2bbe-4d5a-b5a4-b28f1261b1a4",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "dd.ylks.xyz",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZC8EJzmQKgo-NxxbfyU3YBYxBB__DXHNOkwezNeRQRE",
+                    "short_id": "6dcda8"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "/blue",
-                "headers": {
-                    "Host": "dd.ylks.xyz"
-                }
+                "type": "grpc",
+                "service_name": "@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs-@Daily_Configs?ed=2056"
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [44]",
+            "tag": "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&host=baomei.pages.dev&encryption=none#🚩 CF | 🔒 VLESS | @config_proxy [49]",
             "type": "vless",
-            "server": "162.159.135.234",
-            "server_port": 443,
-            "uuid": "064363e7-d60e-11ee-aaa8-00505603e70d",
+            "server": "104.16.161.143",
+            "server_port": 2096,
+            "uuid": "f690c2da-bdc3-4538-999e-d2bb8a541188",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "st-fr-1.brocdn.com",
+                "server_name": "baomei.pages.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -4574,9 +4578,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/websocket",
+                "path": "/fp=chrome",
                 "headers": {
-                    "Host": "st-fr-1.brocdn.com"
+                    "Host": "baomei.pages.dev"
                 }
             }
         },
@@ -5386,16 +5390,16 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
+            "tag": "🚩 CF | 🔒 VLESS | @hope_net [19]",
             "type": "vless",
-            "server": "209.208.227.61",
-            "server_port": 2053,
-            "uuid": "fca01448-d84a-436e-9aec-3be1ebdfb350",
+            "server": "190.93.244.78",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "SB-1U6.PAgEs.dev",
+                "server_name": "lx.kpcloud.eu.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -5404,9 +5408,34 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/fltcxoo6grqvat6v/mtu4ljewms4ymdmumti3?ed=2560",
+                "path": "/?ed=2048",
                 "headers": {
-                    "Host": "SB-1U6.PAgEs.dev"
+                    "Host": "lx.kpcloud.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
+            "type": "vless",
+            "server": "151.101.66.228",
+            "server_port": 443,
+            "uuid": "ad3cc925-52f0-4834-ab85-602d9c1c08ac",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zmaoz.faculty.ucdavis.edu",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8880",
+                "headers": {
+                    "Host": "zmaoz.faculty.ucdavis.edu"
                 }
             }
         },
