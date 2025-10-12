@@ -99,7 +99,7 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [19]",
-                "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
+                "❔ XX | 🔒 TROJAN | @hope_net [19]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [11]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [12]",
@@ -128,7 +128,7 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [19]",
-                "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
+                "❔ XX | 🔒 TROJAN | @hope_net [19]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [11]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [12]",
@@ -361,11 +361,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 TROJAN | @hope_net [19]",
+            "tag": "❔ XX | 🔒 TROJAN | @hope_net [19]",
             "type": "trojan",
-            "server": "3.220.69.59",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn"
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "password": "aaccabb-baca-bcaa-dabc-accacbbababc",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
