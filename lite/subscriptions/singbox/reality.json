@@ -94,6 +94,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [72]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -126,8 +127,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [71]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇵🇰 PK | 🔒 VLESS | @free4allvpn [20]",
+                "🇵🇰 PK | 🔒 VLESS | @free4allvpn [19]",
+                "🇳🇱 NL | 🔒 VLESS | @free4allvpn [20]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
@@ -174,6 +177,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [72]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -206,8 +210,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [71]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇵🇰 PK | 🔒 VLESS | @free4allvpn [20]",
+                "🇵🇰 PK | 🔒 VLESS | @free4allvpn [19]",
+                "🇳🇱 NL | 🔒 VLESS | @free4allvpn [20]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
@@ -375,6 +381,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [72]",
+            "type": "vless",
+            "server": "isr01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "c80bbc09-837d-495f-bebc-3e8ac5dede41",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "f79448a30d"
+                }
             }
         },
         {
@@ -1154,6 +1183,33 @@
             }
         },
         {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [71]",
+            "type": "vless",
+            "server": "65.109.210.33",
+            "server_port": 2083,
+            "uuid": "df637e12-9381-4270-aeaa-42e5cfcbb0c2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "65.109.210.33",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qlO2u5XFcovPRx2OYUzPo5apnzKOyoaJo2kQSikkpnQ",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Tel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_"
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -1177,7 +1233,7 @@
             }
         },
         {
-            "tag": "🇵🇰 PK | 🔒 VLESS | @free4allvpn [20]",
+            "tag": "🇵🇰 PK | 🔒 VLESS | @free4allvpn [19]",
             "type": "vless",
             "server": "103.175.79.10",
             "server_port": 443,
@@ -1196,6 +1252,29 @@
                     "enabled": true,
                     "public_key": "4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @free4allvpn [20]",
+            "type": "vless",
+            "server": "185.33.24.229",
+            "server_port": 28495,
+            "uuid": "7e296434-2d17-48d3-928d-19eaa34aecb1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "dl.google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ",
+                    "short_id": "0ecc2c1392"
                 }
             }
         },

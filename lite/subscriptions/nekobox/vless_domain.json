@@ -90,7 +90,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [72]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -112,7 +112,7 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [16]",
-                "🇦🇺 AU | 🔓 VLESS | @free1_vpn [8]",
+                "🇦🇺 AU | 🔓 VLESS | @free1_vpn [7]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
                 "❔ XX | 🔒 VLESS | @freev2raym [11]",
@@ -195,7 +195,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [17]",
-                "🚩 CF | 🔒 VLESS | @outline_ir [18]",
+                "🚩 CF | 🔒 VLESS | @outline_ir [17]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -305,7 +305,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
+                "🇮🇱 IL | 🔒 VLESS | @config_proxy [72]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -327,7 +327,7 @@
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🚩 CF | 🔓 VLESS | @flyv2ray [16]",
-                "🇦🇺 AU | 🔓 VLESS | @free1_vpn [8]",
+                "🇦🇺 AU | 🔓 VLESS | @free1_vpn [7]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
                 "❔ XX | 🔒 VLESS | @freev2raym [11]",
@@ -410,7 +410,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [17]",
-                "🚩 CF | 🔒 VLESS | @outline_ir [18]",
+                "🚩 CF | 🔒 VLESS | @outline_ir [17]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -765,13 +765,27 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
+            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [72]",
             "type": "vless",
-            "server": "mster.fastly80.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "8369bccd-ec80-4c73-ba46-17edbe003e87",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "isr01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "c80bbc09-837d-495f-bebc-3e8ac5dede41",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "f79448a30d"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -1141,7 +1155,7 @@
             }
         },
         {
-            "tag": "🇦🇺 AU | 🔓 VLESS | @free1_vpn [8]",
+            "tag": "🇦🇺 AU | 🔓 VLESS | @free1_vpn [7]",
             "type": "vless",
             "server": "m60a.vip784.com",
             "server_port": 33801,
@@ -2554,7 +2568,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @outline_ir [18]",
+            "tag": "🚩 CF | 🔒 VLESS | @outline_ir [17]",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,
