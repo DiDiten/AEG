@@ -102,7 +102,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇱 IL | 🔒 VLESS | @config_proxy [72]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -317,7 +316,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇱 IL | 🔒 VLESS | @config_proxy [72]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -770,29 +768,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇮🇱 IL | 🔒 VLESS | @config_proxy [72]",
-            "type": "vless",
-            "server": "isr01-vlr01.tcp-reset-club.net",
-            "server_port": 443,
-            "uuid": "c80bbc09-837d-495f-bebc-3e8ac5dede41",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "f79448a30d"
-                }
             }
         },
         {

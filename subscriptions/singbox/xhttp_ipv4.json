@@ -142,10 +142,10 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [151]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
-                "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [8]",
+                "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [7]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [8]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [16]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -215,10 +215,10 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [151]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
-                "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [8]",
+                "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [7]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [8]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [16]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -1142,7 +1142,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [8]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [7]",
             "type": "vless",
             "server": "91.99.115.171",
             "server_port": 8080,
@@ -1206,13 +1206,27 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [8]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [16]",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "0c5b2c63-1356-4951-a3b1-4065f730bdb8",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "62.60.247.164",
+            "server_port": 50810,
+            "uuid": "b0ca9f2c-017c-4c9e-ab34-d7d963d275ff",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9UK9OKvR45H6ZLwok4L5XdZmgA2Edt5vMqCpmfUKBn4",
+                    "short_id": "aa60a00122200b76"
+                }
+            }
         },
         {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",

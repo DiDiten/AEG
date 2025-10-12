@@ -116,7 +116,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "❔ XX | 🔓 VMESS | @hope_net [18]",
+                "🇨🇦 CA | 🔓 VMESS | @hope_net [19]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -138,7 +138,7 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [4]",
+                "🇩🇪 DE | 🔓 VMESS | @mowjproxy [6]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇺🇸 US | 🔓 VMESS | @netfreedom0 [20]",
@@ -224,7 +224,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "❔ XX | 🔓 VMESS | @hope_net [18]",
+                "🇨🇦 CA | 🔓 VMESS | @hope_net [19]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -246,7 +246,7 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [4]",
+                "🇩🇪 DE | 🔓 VMESS | @mowjproxy [6]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇺🇸 US | 🔓 VMESS | @netfreedom0 [20]",
@@ -788,16 +788,16 @@
             "alter_id": 0
         },
         {
-            "tag": "❔ XX | 🔓 VMESS | @hope_net [18]",
+            "tag": "🇨🇦 CA | 🔓 VMESS | @hope_net [19]",
             "type": "vmess",
-            "server": "c.serkat.org",
+            "server": "134.195.198.147",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 1,
+            "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "c.serkat.org",
+                "server_name": "",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -808,7 +808,7 @@
                 "type": "ws",
                 "path": "/linkvws",
                 "headers": {
-                    "Host": "c.serkat.org"
+                    "Host": ""
                 }
             }
         },
@@ -1125,29 +1125,13 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @mowjproxy [4]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @mowjproxy [6]",
             "type": "vmess",
-            "server": "57.129.64.157",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "155.254.35.214",
+            "server_port": 51409,
+            "uuid": "e66d09a9-d9ce-42cf-be0e-516dae182668",
             "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
