@@ -86,8 +86,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "❔ XX | 🔒 VLESS | @config_proxy [28]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [29]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [29]",
+                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [30]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [31]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -134,7 +135,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -280,8 +280,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "❔ XX | 🔒 VLESS | @config_proxy [28]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [29]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [29]",
+                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [30]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [31]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -328,7 +329,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -663,34 +663,41 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [28]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [29]",
             "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "abaccab-baac-baac-badc-cbaaabcacbcb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [29]",
-            "type": "vless",
-            "server": "69.84.182.75",
+            "server": "141.101.122.230",
             "server_port": 443,
             "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cd.ylks.xyz",
+                "server_name": "la.kpcloud.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "la.kpcloud.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇰🇿 KZ | 🔒 VLESS | @config_proxy [30]",
+            "type": "vless",
+            "server": "194.76.18.243",
+            "server_port": 443,
+            "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ax.ylks.xyz",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -701,7 +708,32 @@
                 "type": "ws",
                 "path": "/blue",
                 "headers": {
-                    "Host": "cd.ylks.xyz"
+                    "Host": "ax.ylks.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [31]",
+            "type": "vless",
+            "server": "208.86.168.45",
+            "server_port": 443,
+            "uuid": "cc3a15eb-0a63-486c-8e12-c7be717ebcd4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "BPb005.pAgeS.Dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/81eqvt6gwdd8gwo8/mtuyljy3ljiznc40oq",
+                "headers": {
+                    "Host": "BPb005.pAgeS.Dev"
                 }
             }
         },
@@ -1498,31 +1530,6 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
-            "type": "vless",
-            "server": "192.0.54.6",
-            "server_port": 2087,
-            "uuid": "fca01448-d84a-436e-9aec-3be1ebdfb350",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Sb-1u6.paGEs.dEv",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/pc0cypuups4meoks/mtu4ljewms4ymdmumti3?ed=2560",
-                "headers": {
-                    "Host": "Sb-1u6.paGEs.dEv"
                 }
             }
         },
