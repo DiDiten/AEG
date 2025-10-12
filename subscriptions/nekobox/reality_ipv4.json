@@ -83,6 +83,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [1]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [36]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -167,7 +168,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [3]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [19]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -183,8 +183,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [12]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayngvpn_1 [4]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayngvpn_1 [6]",
-                "🇷🇴 RO | 🔒 VLESS | @v2rayopen [7]",
-                "🇳🇴 NO | 🔒 VLESS | @v2rayopen [14]",
+                "🇷🇴 RO | 🔒 VLESS | @v2rayopen [6]",
+                "🇳🇴 NO | 🔒 VLESS | @v2rayopen [13]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [56]",
                 "🇩🇪 DE | 🔒 VLESS | @vip_vpn_2022 [4]",
@@ -213,6 +213,7 @@
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
                 "🇺🇸 US | 🔒 VLESS | @ai_duet [1]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [36]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -297,7 +298,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [3]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [19]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -313,8 +313,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [12]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayngvpn_1 [4]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayngvpn_1 [6]",
-                "🇷🇴 RO | 🔒 VLESS | @v2rayopen [7]",
-                "🇳🇴 NO | 🔒 VLESS | @v2rayopen [14]",
+                "🇷🇴 RO | 🔒 VLESS | @v2rayopen [6]",
+                "🇳🇴 NO | 🔒 VLESS | @v2rayopen [13]",
                 "🇨🇦 CA | 🔒 VLESS | @v2rayprotocol [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [56]",
                 "🇩🇪 DE | 🔒 VLESS | @vip_vpn_2022 [4]",
@@ -485,6 +485,29 @@
                     "enabled": true,
                     "public_key": "8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0",
                     "short_id": "5fab0deb"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [36]",
+            "type": "vless",
+            "server": "54.186.175.170",
+            "server_port": 4433,
+            "uuid": "7fc993f5-7cd7-4485-9e6f-1f7c5160c910",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tZn5Tdrk045zSTbBEzGwSV_LOdCZqEwT8c85pJOK_C0",
+                    "short_id": "f785b38130e64177"
                 }
             }
         },
@@ -2508,36 +2531,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [19]",
-            "type": "vless",
-            "server": "18.159.137.222",
-            "server_port": 3349,
-            "uuid": "9fe3c8cd-f9fb-4868-a79f-057e9bca79be",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "canva.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SU-8EXuya7ASmpfJsXFhC_9TT4CIn9rDWtt4wbirIi8",
-                    "short_id": "1ee8b8e5e0c7d366"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "canva.com"
-                ],
-                "path": "/"
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
             "type": "vless",
             "server": "136.244.84.58",
@@ -2905,7 +2898,7 @@
             }
         },
         {
-            "tag": "🇷🇴 RO | 🔒 VLESS | @v2rayopen [7]",
+            "tag": "🇷🇴 RO | 🔒 VLESS | @v2rayopen [6]",
             "type": "vless",
             "server": "31.6.1.187",
             "server_port": 27229,
@@ -2928,7 +2921,7 @@
             }
         },
         {
-            "tag": "🇳🇴 NO | 🔒 VLESS | @v2rayopen [14]",
+            "tag": "🇳🇴 NO | 🔒 VLESS | @v2rayopen [13]",
             "type": "vless",
             "server": "38.180.1.50",
             "server_port": 9955,
