@@ -92,8 +92,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔒 TROJAN | @config_proxy [63]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [18]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
+                "🇮🇪 IE | 🔓 TROJAN | @hope_net [19]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
@@ -115,8 +117,10 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔒 TROJAN | @config_proxy [63]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [18]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [18]",
+                "🇮🇪 IE | 🔓 TROJAN | @hope_net [19]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [15]",
@@ -214,6 +218,29 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 TROJAN | @config_proxy [63]",
+            "type": "trojan",
+            "server": "172.67.68.157",
+            "server_port": 443,
+            "password": "auto",
+            "tls": {
+                "enabled": true,
+                "server_name": "e9464f45.trauma-2r4.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "e9464f45.trauma-2r4.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [18]",
             "type": "trojan",
             "server": "160.16.116.227",
@@ -230,7 +257,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [20]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "172.64.35.194",
             "server_port": 443,
@@ -244,6 +271,13 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇮🇪 IE | 🔓 TROJAN | @hope_net [19]",
+            "type": "trojan",
+            "server": "54.78.141.167",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns"
         },
         {
             "tag": "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
