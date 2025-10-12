@@ -102,6 +102,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -205,7 +206,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [17]",
-                "🚩 CF | 🔓 VLESS | @outline_ir [17]",
+                "🚩 CF | 🔓 VLESS | @outline_ir [16]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -286,6 +287,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
+                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [15]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -312,6 +314,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -415,7 +418,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [17]",
-                "🚩 CF | 🔓 VLESS | @outline_ir [17]",
+                "🚩 CF | 🔓 VLESS | @outline_ir [16]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -496,6 +499,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @vpnfree85 [1]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [18]",
+                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [15]",
                 "🚩 CF | 🔒 VLESS | @wbrovers [1]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
@@ -760,6 +764,31 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "gur.gov.ua",
+            "server_port": 443,
+            "uuid": "90cd4a77-141a-43c9-991b-08263cfe9c10",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "azadnet3-9do.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/-Skypro_vpn-skypro_vpn-skypro_vpn-skypro_vpn-Skypro_vpn-skypro_vpn-skypro_vpn-skypro_vpn-Skypro_vpn-skypro_vpn-skypro_vpn-skypro_vpn?ed",
+                "headers": {
+                    "Host": "azadnet3-9do.pages.dev"
+                }
             }
         },
         {
@@ -2513,7 +2542,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @outline_ir [17]",
+            "tag": "🚩 CF | 🔓 VLESS | @outline_ir [16]",
             "type": "vless",
             "server": "asdf.sernett.ir",
             "server_port": 80,
@@ -3880,6 +3909,31 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl"
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [15]",
+            "type": "vless",
+            "server": "medrd.vtpmng.top",
+            "server_port": 8443,
+            "uuid": "8339a5e8-6141-41f1-9abc-bbf1a06ac5ae",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "medrd.vtpmng.top",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "medrd.vtpmng.top"
+                }
             }
         },
         {
