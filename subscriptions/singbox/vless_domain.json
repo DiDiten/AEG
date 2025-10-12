@@ -118,7 +118,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
+                "❔ XX | 🔓 VLESS | @config_proxy [24]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -567,8 +567,7 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇩🇪 DE | 🔓 VLESS | @v2raych [11]",
-                "🚩 CF | 🔓 VLESS | @v2raych [15]",
+                "🇫🇷 FR | 🔓 VLESS | @v2raych [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🚩 CF | 🔒 VLESS | @v2raying [3]",
@@ -723,7 +722,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
+                "❔ XX | 🔓 VLESS | @config_proxy [24]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1172,8 +1171,7 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇩🇪 DE | 🔓 VLESS | @v2raych [11]",
-                "🚩 CF | 🔓 VLESS | @v2raych [15]",
+                "🇫🇷 FR | 🔓 VLESS | @v2raych [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🚩 CF | 🔒 VLESS | @v2raying [3]",
@@ -1880,13 +1878,22 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [24]",
             "type": "vless",
-            "server": "ergwork.web.unc.edu",
-            "server_port": 80,
-            "uuid": "c85a82c1-58ed-4b0c-9d0a-8f60298b9f5e",
+            "server": "server134372561849834943.tas-bazi.com",
+            "server_port": 443,
+            "uuid": "527b6060-bf7c-41cc-a9bb-357bcda16a62",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "server134372561849834943.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -9597,20 +9604,11 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [11]",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @v2raych [8]",
             "type": "vless",
-            "server": "free.vpn.luna-marzban.ir",
-            "server_port": 15510,
-            "uuid": "8417c221-c277-4e3b-8d19-b0ac0bfb4666",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @v2raych [15]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2087,
-            "uuid": "73fda604-2361-4c37-87e5-0996fee4031c",
+            "server": "m36a.vip784.com",
+            "server_port": 33801,
+            "uuid": "75916ff8-2f80-43dc-ba9a-34464e1bd340",
             "flow": "",
             "packet_encoding": "xudp"
         },
