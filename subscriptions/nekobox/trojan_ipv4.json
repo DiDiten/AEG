@@ -82,7 +82,7 @@
                 "KingRezaPahlavi",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [19]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇨🇦 CA | 🔒 TROJAN | @hope_net [20]",
+                "🇨🇦 CA | 🔒 TROJAN | @hope_net [18]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -108,6 +108,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🇵🇱 PL | 🔒 TROJAN | @v2raych [14]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -141,7 +142,7 @@
                 "KingRezaPahlavi",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [19]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇨🇦 CA | 🔒 TROJAN | @hope_net [20]",
+                "🇨🇦 CA | 🔒 TROJAN | @hope_net [18]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -167,6 +168,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🇵🇱 PL | 🔒 TROJAN | @v2raych [14]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -301,7 +303,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🇨🇦 CA | 🔒 TROJAN | @hope_net [20]",
+            "tag": "🇨🇦 CA | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "3.97.130.28",
             "server_port": 22222,
@@ -720,6 +722,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "xvqn.de",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🔒 TROJAN | @v2raych [14]",
+            "type": "trojan",
+            "server": "91.108.249.171",
+            "server_port": 443,
+            "password": "HIcucKNUcN",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

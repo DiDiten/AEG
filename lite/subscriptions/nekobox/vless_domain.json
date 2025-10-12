@@ -90,7 +90,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -194,7 +193,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [17]",
-                "🚩 CF | 🔓 VLESS | @outline_ir [16]",
+                "🚩 CF | 🔒 VLESS | @outline_ir [18]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -302,7 +301,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [53]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -406,7 +404,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [17]",
-                "🚩 CF | 🔓 VLESS | @outline_ir [16]",
+                "🚩 CF | 🔒 VLESS | @outline_ir [18]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -756,31 +754,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [53]",
-            "type": "vless",
-            "server": "gur.gov.ua",
-            "server_port": 443,
-            "uuid": "90cd4a77-141a-43c9-991b-08263cfe9c10",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "azadnet3-9do.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/-Skypro_vpn-skypro_vpn-skypro_vpn-skypro_vpn-Skypro_vpn-skypro_vpn-skypro_vpn-skypro_vpn-Skypro_vpn-skypro_vpn-skypro_vpn-skypro_vpn?ed",
-                "headers": {
-                    "Host": "azadnet3-9do.pages.dev"
-                }
             }
         },
         {
@@ -2534,13 +2507,29 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @outline_ir [16]",
+            "tag": "🚩 CF | 🔒 VLESS | @outline_ir [18]",
             "type": "vless",
-            "server": "asdf.sernett.ir",
-            "server_port": 80,
-            "uuid": "SERVERNETT-SERVERNETT1",
+            "server": "zula.ir",
+            "server_port": 2096,
+            "uuid": "97909ffd-6da0-4893-9d63-00e72ad55256",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "frAgteSt.JaHANGiRKh.eU.orG",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
+                "headers": {
+                    "Host": "frAgteSt.JaHANGiRKh.eU.orG"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
