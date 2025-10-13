@@ -92,8 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [66]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [7]",
                 "🇵🇰 PK | 🔒 VLESS | @free4allvpn [19]",
                 "🇳🇱 NL | 🔒 VLESS | @free4allvpn [20]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -126,7 +127,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
             ],
             "tag": "proxy",
@@ -138,8 +138,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [66]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [7]",
                 "🇵🇰 PK | 🔒 VLESS | @free4allvpn [19]",
                 "🇳🇱 NL | 🔒 VLESS | @free4allvpn [20]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -172,7 +173,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
             ],
             "tag": "auto",
@@ -260,25 +260,25 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [66]",
             "type": "vless",
-            "server": "91.99.181.225",
+            "server": "152.114.193.9",
             "server_port": 443,
-            "uuid": "0c0b6d4a-0811-460f-d4b0-dd982a911240",
+            "uuid": "99dfee3e-b0b3-47c2-9772-f3eae7200abd",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "store.steampowered.com",
+                "server_name": "google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "random"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "zW8LR-lHS_PXDyY8Q8bE_zvKdhY5MAmnsd8miBulx2U",
-                    "short_id": ""
+                    "public_key": "rKSw1cDMq5WCPbAnvbtXme9XPVvf3XGe61yaPo8Oy0U",
+                    "short_id": "cd0fdaaebd"
                 }
             }
         },
@@ -303,6 +303,33 @@
                     "public_key": "PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o",
                     "short_id": "b5ecd44d"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [7]",
+            "type": "vless",
+            "server": "91.124.209.114",
+            "server_port": 50061,
+            "uuid": "234fe8e0-5017-4311-9b3a-3e7618197674",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "kPwMo14VAfSaMm1CpiM4vkJ1l0hdWwPeGm4K4eN1giQ",
+                    "short_id": "79"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "mohammad"
             }
         },
         {
@@ -1058,29 +1085,6 @@
                     "enabled": true,
                     "public_key": "Qdg7LVP5VmLr7xzv556ry5RNc3QaeAj4TwOUxndA23M",
                     "short_id": "e3f89b63"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
-            "type": "vless",
-            "server": "185.144.70.28",
-            "server_port": 8443,
-            "uuid": "a3185438-23cb-4fe3-95da-3e5f3fc43525",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ign.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
                 }
             }
         },

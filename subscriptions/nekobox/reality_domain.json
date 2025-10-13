@@ -84,6 +84,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇮🇹 IT | 🔒 VLESS | @config_proxy [54]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -134,6 +136,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇨🇭 CH | 🔒 VLESS | @v2raych [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [13]",
@@ -150,6 +153,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [26]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [5]",
                 "❔ XX | 🔒 VLESS | @vpnowl [7]",
                 "❔ XX | 🔒 VLESS | @vpnowl [8]",
@@ -188,6 +192,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇮🇹 IT | 🔒 VLESS | @config_proxy [54]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -238,6 +244,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇨🇭 CH | 🔒 VLESS | @v2raych [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [13]",
@@ -254,6 +261,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [14]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇫🇮 FI | 🔒 VLESS | @v2trayproxy [26]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [5]",
                 "❔ XX | 🔒 VLESS | @vpnowl [7]",
                 "❔ XX | 🔒 VLESS | @vpnowl [8]",
@@ -465,6 +473,52 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇮🇹 IT | 🔒 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "bela-chaw-chaw-chaw.yas-baaq.ir",
+            "server_port": 15615,
+            "uuid": "6c635537-ab39-f22c-b470-f908efc54ce0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "74g1eX2r4tNtYKLLBjdetBdrNRJ-zjpE89-ggFpTjDs",
+                    "short_id": "8bf91d50ee48dfeb"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "test.barayekhudam.ir",
+            "server_port": 59697,
+            "uuid": "d378d3d0-c521-4874-a6f3-21794398cf9c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "bimeh.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HDE3ZT4rZPr6RIpgLK6dn6FGvolXLJtwJEeDEC4N1Eg",
+                    "short_id": "c5a5b0"
+                }
             }
         },
         {
@@ -1713,6 +1767,29 @@
             }
         },
         {
+            "tag": "🇨🇭 CH | 🔒 VLESS | @v2raych [7]",
+            "type": "vless",
+            "server": "che-0001-xr.packet-drop-society.net",
+            "server_port": 443,
+            "uuid": "562c71d0-f18b-402c-b1ad-5c2bbfcd6e02",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws",
+                    "short_id": "86e999a2cdc2"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [8]",
             "type": "vless",
             "server": "fast7.hvitrin.ir",
@@ -2085,6 +2162,29 @@
                     "enabled": true,
                     "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
                     "short_id": "48720c"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "de.srv.oplcdn.link",
+            "server_port": 8443,
+            "uuid": "a3185438-23cb-4fe3-95da-3e5f3fc43525",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ign.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             }
         },
