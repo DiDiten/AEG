@@ -81,10 +81,10 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "🇮🇷 IR | 🔒 TROJAN | @bored_vpn [9]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
+                "🇮🇷 IR | 🔒 TROJAN | @mehrosaboran [6]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]"
             ],
@@ -98,10 +98,10 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔓 TROJAN | @armodchannel [61]",
-                "🇮🇷 IR | 🔒 TROJAN | @bored_vpn [9]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
+                "🇮🇷 IR | 🔒 TROJAN | @mehrosaboran [6]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]"
             ],
@@ -208,29 +208,6 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 TROJAN | @bored_vpn [9]",
-            "type": "trojan",
-            "server": "gsjcjkskfkdkkv.iranshopping.xyz",
-            "server_port": 2052,
-            "password": "atioxPSs6L",
-            "tls": {
-                "enabled": true,
-                "server_name": "gsjcjkskfkdkkv.iranshopping.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "gsjcjkskfkdkkv.iranshopping.xyz"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
             "type": "trojan",
             "server": "maradona_vpn14.history-paint.art",
@@ -294,6 +271,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "grpc20337"
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🔒 TROJAN | @mehrosaboran [6]",
+            "type": "trojan",
+            "server": "gsjcjkskfkdkkv.iranshopping.xyz",
+            "server_port": 2052,
+            "password": "atioxPSs6L",
+            "tls": {
+                "enabled": true,
+                "server_name": "gsjcjkskfkdkkv.iranshopping.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "gsjcjkskfkdkkv.iranshopping.xyz"
+                }
             }
         },
         {
