@@ -86,7 +86,6 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇩🇪 DE | 🔒 VMESS | @config_proxy [64]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -125,9 +124,9 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🚩 CF | 🔒 VMESS | @mowjproxy [4]",
-                "🇺🇸 US | 🔓 VMESS | @mowjproxy [5]",
-                "🇭🇰 HK | 🔓 VMESS | @mowjproxy [6]",
+                "🇺🇸 US | 🔓 VMESS | @mowjproxy [3]",
+                "🇭🇰 HK | 🔓 VMESS | @mowjproxy [4]",
+                "🇺🇸 US | 🔒 VMESS | @mowjproxy [5]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇺🇸 US | 🔓 VMESS | @netfreedom0 [19]",
@@ -195,7 +194,6 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇩🇪 DE | 🔒 VMESS | @config_proxy [64]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -234,9 +232,9 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🚩 CF | 🔒 VMESS | @mowjproxy [4]",
-                "🇺🇸 US | 🔓 VMESS | @mowjproxy [5]",
-                "🇭🇰 HK | 🔓 VMESS | @mowjproxy [6]",
+                "🇺🇸 US | 🔓 VMESS | @mowjproxy [3]",
+                "🇭🇰 HK | 🔓 VMESS | @mowjproxy [4]",
+                "🇺🇸 US | 🔒 VMESS | @mowjproxy [5]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇺🇸 US | 🔓 VMESS | @netfreedom0 [19]",
@@ -474,31 +472,6 @@
                 "path": "/ad80f8ec-4861-11f0-a948-6a75f667b472?ed=2048",
                 "headers": {
                     "Host": "ad80f8ec-4861-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @config_proxy [64]",
-            "type": "vmess",
-            "server": "57.129.64.157",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
@@ -1094,32 +1067,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [4]",
-            "type": "vmess",
-            "server": "104.17.148.22",
-            "server_port": 2083,
-            "uuid": "8ae65664-84e8-40e1-9708-9236f0808dfd",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "api3.waltonweb.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/panel?ed=2560",
-                "headers": {
-                    "Host": "api3.waltonweb.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @mowjproxy [5]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @mowjproxy [3]",
             "type": "vmess",
             "server": "192.3.233.216",
             "server_port": 16556,
@@ -1135,7 +1083,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @mowjproxy [6]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @mowjproxy [4]",
             "type": "vmess",
             "server": "47.239.81.113",
             "server_port": 29760,
@@ -1147,6 +1095,31 @@
                 "path": "/arki?ed=2048",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VMESS | @mowjproxy [5]",
+            "type": "vmess",
+            "server": "lammaland.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "lammaland.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "lammaland.org"
                 }
             }
         },

@@ -81,7 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
                 "🇵🇰 PK | 🔒 VLESS | @free4allvpn [19]",
                 "🇳🇱 NL | 🔒 VLESS | @free4allvpn [20]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -114,6 +114,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
             ],
             "tag": "proxy",
@@ -126,7 +127,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
                 "🇵🇰 PK | 🔒 VLESS | @free4allvpn [19]",
                 "🇳🇱 NL | 🔒 VLESS | @free4allvpn [20]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -159,6 +160,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]"
             ],
             "tag": "auto",
@@ -273,7 +275,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [6]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
             "type": "vless",
             "server": "91.124.209.114",
             "server_port": 50061,
@@ -1052,6 +1054,29 @@
                     "enabled": true,
                     "public_key": "Qdg7LVP5VmLr7xzv556ry5RNc3QaeAj4TwOUxndA23M",
                     "short_id": "e3f89b63"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "91.99.181.225",
+            "server_port": 443,
+            "uuid": "0c0b6d4a-0811-460f-d4b0-dd982a911240",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zW8LR-lHS_PXDyY8Q8bE_zvKdhY5MAmnsd8miBulx2U",
+                    "short_id": ""
                 }
             }
         },
