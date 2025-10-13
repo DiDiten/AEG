@@ -85,6 +85,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [51]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [52]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -276,6 +278,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [51]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [52]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -637,6 +641,31 @@
                     "Host": "SpEedteST.NET"
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "104.20.43.81",
+            "server_port": 80,
+            "uuid": "64d6d0d4-3706-4837-b154-cda2816adcc5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "104.20.43.81"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "91.98.22.20",
+            "server_port": 22933,
+            "uuid": "3c1a04bb-165a-476d-af02-3dc5590f8742",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
