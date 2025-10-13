@@ -194,7 +194,7 @@
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [15]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [17]",
-                "🚩 CF | 🔒 VLESS | @outline_ir [18]",
+                "🚩 CF | 🔒 VLESS | @outline_ir [16]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -250,7 +250,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [13]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
-                "🇵🇱 PL | 🔓 VLESS | @v2rayopen [13]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
                 "❔ XX | 🔓 VLESS | @v2rayturbo [9]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [11]",
@@ -266,7 +265,6 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [3]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [4]",
@@ -408,7 +406,7 @@
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [15]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [17]",
-                "🚩 CF | 🔒 VLESS | @outline_ir [18]",
+                "🚩 CF | 🔒 VLESS | @outline_ir [16]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -464,7 +462,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [13]",
                 "🚩 CF | 🔓 VLESS | @v2rayngalpha [7]",
-                "🇵🇱 PL | 🔓 VLESS | @v2rayopen [13]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
                 "❔ XX | 🔓 VLESS | @v2rayturbo [9]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [11]",
@@ -480,7 +477,6 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [3]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [4]",
@@ -2529,7 +2525,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @outline_ir [18]",
+            "tag": "🚩 CF | 🔒 VLESS | @outline_ir [16]",
             "type": "vless",
             "server": "gur.gov.ua",
             "server_port": 443,
@@ -3528,15 +3524,6 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔓 VLESS | @v2rayopen [13]",
-            "type": "vless",
-            "server": "m23a.vip784.com",
-            "server_port": 33801,
-            "uuid": "c9b0100b-01b9-4167-b9e2-a0a8cad1e32b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🚩 CF | 🔓 VLESS | @v2raytg [62]",
             "type": "vless",
             "server": "cafearz.com",
@@ -3798,29 +3785,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "okala.com"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
-            "type": "vless",
-            "server": "de.srv.oplcdn.link",
-            "server_port": 8443,
-            "uuid": "a3185438-23cb-4fe3-95da-3e5f3fc43525",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ign.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
             }
         },
         {
