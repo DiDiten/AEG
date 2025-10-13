@@ -90,6 +90,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [54]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -366,7 +367,6 @@
                 "🇮🇷 IR | 🔓 VLESS | @minovpnch [13]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇳🇱 NL | 🔓 VLESS | @mowjproxy [2]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [12]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [13]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
@@ -461,6 +461,7 @@
                 "🚩 CF | 🔒 VLESS | @vmessorg [6]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
+                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [1]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnv2raytop [2]",
@@ -493,6 +494,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [54]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -769,7 +771,6 @@
                 "🇮🇷 IR | 🔓 VLESS | @minovpnch [13]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇳🇱 NL | 🔓 VLESS | @mowjproxy [2]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [12]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [13]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
@@ -864,6 +865,7 @@
                 "🚩 CF | 🔒 VLESS | @vmessorg [6]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
+                "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [1]",
                 "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [2]",
                 "🇩🇪 DE | 🔓 VLESS | @vpnv2raytop [2]",
@@ -1138,6 +1140,24 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "5c645f38-87ac-4bbf-8594-aef06d82019d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -5934,15 +5954,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @mowjproxy [2]",
-            "type": "vless",
-            "server": "46.8.229.85",
-            "server_port": 24608,
-            "uuid": "1186c6aa-a26a-4e3c-b139-62ffc6bdf976",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇮🇷 IR | 🔓 VLESS | @mpproxy [12]",
             "type": "vless",
             "server": "5.160.197.120",
@@ -7612,6 +7623,15 @@
                     "Host": "cr7.traneh.dpdns.org"
                 }
             }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔓 VLESS | @vpnplusee_free [13]",
+            "type": "vless",
+            "server": "46.8.229.85",
+            "server_port": 24608,
+            "uuid": "1186c6aa-a26a-4e3c-b139-62ffc6bdf976",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇮🇷 IR | 🔓 VLESS | @vpnpopular2023 [1]",

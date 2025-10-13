@@ -106,11 +106,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [46]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [47]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [55]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -717,11 +713,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [44]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [46]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [47]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [55]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1884,100 +1876,20 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [44]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [55]",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "d7d6745c-7264-44a4-a62f-97b4ce83a951",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "totoo.pages.devr♡ya",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "totoo.pages.devr♡ya"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [45]",
-            "type": "vless",
-            "server": "de.srv.oplcdn.link",
             "server_port": 8443,
-            "uuid": "a3185438-23cb-4fe3-95da-3e5f3fc43525",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ign.comr♡ya",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [46]",
-            "type": "vless",
-            "server": "gur.gov.ua",
-            "server_port": 443,
-            "uuid": "90cd4a77-141a-43c9-991b-08263cfe9c10",
+            "uuid": "5c645f38-87ac-4bbf-8594-aef06d82019d",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "azadnet3-9do.pages.devr♡ya",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed",
-                "headers": {
-                    "Host": "azadnet3-9do.pages.devr♡ya"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [47]",
-            "type": "vless",
-            "server": "god.pesfifa.monster",
-            "server_port": 1010,
-            "uuid": "3daf76ce-dfbf-4b55-b1a7-5f4f00a20b8a",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [55]",
-            "type": "vless",
-            "server": "communal-loss.oneeat.co",
-            "server_port": 80,
-            "uuid": "a2af50d9-09c7-4a44-90d0-42da35923e9e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "communal-loss.oneeat.co"
                 }
             }
         },
