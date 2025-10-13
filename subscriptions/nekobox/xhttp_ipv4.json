@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [5]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
@@ -102,7 +103,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [61]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇳🇱 NL | 🔓 VLESS | @mowjproxy [1]",
+                "🇳🇱 NL | 🔓 VLESS | @mowjproxy [5]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [5]",
@@ -133,7 +134,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [7]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇹🇷 TR | 🔒 VLESS | @v2raych [15]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [13]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -153,6 +154,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [5]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
@@ -175,7 +177,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [61]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇳🇱 NL | 🔓 VLESS | @mowjproxy [1]",
+                "🇳🇱 NL | 🔓 VLESS | @mowjproxy [5]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [6]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [1]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [5]",
@@ -206,7 +208,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [7]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇹🇷 TR | 🔒 VLESS | @v2raych [15]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [13]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -304,6 +306,15 @@
                     "Host": "127.0.0.1"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "25ea801e-682e-4261-d9b3-f2c161d0a66b",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [11]",
@@ -699,7 +710,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @mowjproxy [1]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @mowjproxy [5]",
             "type": "vless",
             "server": "46.8.229.85",
             "server_port": 24608,
@@ -1198,27 +1209,13 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔒 VLESS | @v2raych [15]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [13]",
             "type": "vless",
-            "server": "95.134.130.146",
-            "server_port": 1331,
-            "uuid": "ff14e39f-46f2-49d2-b74a-f22bc830ae2c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "m8Tuf48MMB9ILy--1nfwGRPJOEbgHOdylaLS_JQ66DM",
-                    "short_id": "89345bea5809f46d"
-                }
-            }
+            "server": "151.101.70.85",
+            "server_port": 80,
+            "uuid": "ELIV2RAY-ELIV2RAY",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",

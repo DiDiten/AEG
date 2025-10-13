@@ -102,6 +102,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -268,7 +270,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [12]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇨🇦 CA | 🔒 VLESS | @v2rayza [20]",
+                "❔ XX | 🔒 VLESS | @v2rayza [20]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
@@ -316,6 +318,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [64]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -482,7 +486,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [12]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇨🇦 CA | 🔒 VLESS | @v2rayza [20]",
+                "❔ XX | 🔒 VLESS | @v2rayza [20]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
@@ -768,6 +772,54 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [63]",
+            "type": "vless",
+            "server": "fast7.hvitrin.ir",
+            "server_port": 48769,
+            "uuid": "7ab11fca-4691-464e-ba43-97f0b78fd831",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7nXyxyyn6fSlJzPO1DFmIEUV8LAmoP58-_1zP_MKo2E",
+                    "short_id": "177f438f"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [64]",
+            "type": "vless",
+            "server": "ipe3.alighan.ir",
+            "server_port": 8443,
+            "uuid": "af9fdedf-dca8-405d-9aa4-98ebcc99e84b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ipe4.alighan.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "ipe4.alighan.ir"
+                }
             }
         },
         {
@@ -3657,7 +3709,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @v2rayza [20]",
+            "tag": "❔ XX | 🔒 VLESS | @v2rayza [20]",
             "type": "vless",
             "server": "join---------to.outline-vpn.cloud",
             "server_port": 2096,
