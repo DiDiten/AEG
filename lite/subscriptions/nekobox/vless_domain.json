@@ -90,6 +90,9 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [65]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [66]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [67]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -265,7 +268,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [4]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [5]",
@@ -304,6 +307,9 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [65]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [66]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [67]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -479,7 +485,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [4]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [5]",
@@ -760,6 +766,81 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [65]",
+            "type": "vless",
+            "server": "chatgpt.com",
+            "server_port": 443,
+            "uuid": "7d18fc67-1994-4f7e-8ff8-c024223f33bb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "revcloud.migacpi.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/cbde4058-6b81-432b-8689-dd7ce10e479c",
+                "headers": {
+                    "Host": "revcloud.migacpi.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [66]",
+            "type": "vless",
+            "server": "economist.com",
+            "server_port": 443,
+            "uuid": "7d18fc67-1994-4f7e-8ff8-c024223f33bb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "revcloud.migacpi.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/cbde4058-6b81-432b-8689-dd7ce10e479c",
+                "headers": {
+                    "Host": "revcloud.migacpi.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [67]",
+            "type": "vless",
+            "server": "bluehost.com",
+            "server_port": 443,
+            "uuid": "7d18fc67-1994-4f7e-8ff8-c024223f33bb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "revcloud.migacpi.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/cbde4058-6b81-432b-8689-dd7ce10e479c",
+                "headers": {
+                    "Host": "revcloud.migacpi.org"
+                }
             }
         },
         {
@@ -3776,7 +3857,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "de.srv.oplcdn.link",
             "server_port": 8443,

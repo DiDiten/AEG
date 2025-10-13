@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
@@ -165,6 +166,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
@@ -310,6 +312,24 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "79.137.207.7",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

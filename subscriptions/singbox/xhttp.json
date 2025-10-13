@@ -94,7 +94,6 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [56]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -111,6 +110,7 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [5]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
@@ -186,7 +186,6 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [56]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
@@ -203,6 +202,7 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
                 "🇨🇦 CA | 🔒 VLESS | @vpnowl [5]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [11]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [3]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [9]",
@@ -368,29 +368,6 @@
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [56]",
-            "type": "vless",
-            "server": "test.barayekhudam.ir",
-            "server_port": 59697,
-            "uuid": "d378d3d0-c521-4874-a6f3-21794398cf9c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "bimeh.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "HDE3ZT4rZPr6RIpgLK6dn6FGvolXLJtwJEeDEC4N1Eg",
-                    "short_id": "c5a5b0"
-                }
-            }
         },
         {
             "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
@@ -604,6 +581,24 @@
             "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "79.137.207.7",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [11]",

@@ -88,7 +88,8 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [18]",
-                "❔ XX | 🔒 TROJAN | @hope_net [20]",
+                "❔ XX | 🔒 TROJAN | @hope_net [18]",
+                "🇬🇧 GB | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
@@ -118,7 +119,8 @@
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [18]",
-                "❔ XX | 🔒 TROJAN | @hope_net [20]",
+                "❔ XX | 🔒 TROJAN | @hope_net [18]",
+                "🇬🇧 GB | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
@@ -378,7 +380,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @hope_net [20]",
+            "tag": "❔ XX | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "127.0.0.1",
             "server_port": 1080,
@@ -386,6 +388,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "18.133.127.34",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
