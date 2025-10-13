@@ -102,7 +102,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -117,7 +117,7 @@
                 "🇹🇷 TR | 🔓 VLESS | @drvpn_net [3]",
                 "❔ XX | 🔓 VLESS | @easy_free_vpn [1]",
                 "❔ XX | 🔓 VLESS | @easy_free_vpn [2]",
-                "🇮🇷 IR | 🔓 VLESS | @easy_free_vpn [3]",
+                "🚩 CF | 🔓 VLESS | @easy_free_vpn [3]",
                 "🇩🇪 DE | 🔓 VLESS | @ehsawn8 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
@@ -317,7 +317,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -332,7 +332,7 @@
                 "🇹🇷 TR | 🔓 VLESS | @drvpn_net [3]",
                 "❔ XX | 🔓 VLESS | @easy_free_vpn [1]",
                 "❔ XX | 🔓 VLESS | @easy_free_vpn [2]",
-                "🇮🇷 IR | 🔓 VLESS | @easy_free_vpn [3]",
+                "🚩 CF | 🔓 VLESS | @easy_free_vpn [3]",
                 "🇩🇪 DE | 🔓 VLESS | @ehsawn8 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
@@ -773,13 +773,29 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [53]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [47]",
             "type": "vless",
-            "server": "pscresearch.faculty.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "ba171ac9-1885-4f46-a869-5c78427dd60b",
+            "server": "digitalocean.com",
+            "server_port": 443,
+            "uuid": "7e346122-2ee0-406e-b964-a8ee665f1814",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "paRMis-1Tk63J.PArMiS.WoRkeRs.DeV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "paRMis-1Tk63J.PArMiS.WoRkeRs.DeV"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -1037,7 +1053,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @easy_free_vpn [3]",
+            "tag": "🚩 CF | 🔓 VLESS | @easy_free_vpn [3]",
             "type": "vless",
             "server": "iranserver.com",
             "server_port": 2095,
