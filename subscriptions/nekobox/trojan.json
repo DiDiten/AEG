@@ -114,10 +114,11 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [13]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇧🇬 BG | 🔒 TROJAN | @hope_net [13]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [15]",
+                "🇧🇬 BG | 🔒 TROJAN | @hope_net [11]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [13]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [16]",
                 "🚩 CF | 🔒 TROJAN | @hope_net [18]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [19]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -144,6 +145,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🇭🇰 HK | 🔓 TROJAN | @v2raych [12]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -209,10 +211,11 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [13]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇧🇬 BG | 🔒 TROJAN | @hope_net [13]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [15]",
+                "🇧🇬 BG | 🔒 TROJAN | @hope_net [11]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [13]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [16]",
                 "🚩 CF | 🔒 TROJAN | @hope_net [18]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [19]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -239,6 +242,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🇭🇰 HK | 🔓 TROJAN | @v2raych [12]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -978,7 +982,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🇧🇬 BG | 🔒 TROJAN | @hope_net [13]",
+            "tag": "🇧🇬 BG | 🔒 TROJAN | @hope_net [11]",
             "type": "trojan",
             "server": "45.142.120.4",
             "server_port": 2096,
@@ -1001,7 +1005,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [15]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [13]",
             "type": "trojan",
             "server": "162.159.152.232",
             "server_port": 443,
@@ -1024,7 +1028,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [18]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [16]",
             "type": "trojan",
             "server": "104.17.148.22",
             "server_port": 443,
@@ -1047,7 +1051,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "162.159.152.11",
             "server_port": 443,
@@ -1066,6 +1070,20 @@
                 "path": "/",
                 "headers": {
                     "Host": "vip.putata.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [19]",
+            "type": "trojan",
+            "server": "104.17.147.22",
+            "server_port": 2052,
+            "password": "cf43996d-cc45-458e-87ac-c9c933c9ed3e",
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram@Linkvws?ed=2560",
+                "headers": {
+                    "Host": "104.17.147.22"
                 }
             }
         },
@@ -1495,6 +1513,13 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 TROJAN | @v2raych [12]",
+            "type": "trojan",
+            "server": "45.38.42.42",
+            "server_port": 42692,
+            "password": "nepow6RXge"
         },
         {
             "tag": "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",

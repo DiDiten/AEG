@@ -93,7 +93,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 TROJAN | @hope_net [18]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [19]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇨🇳 CN | 🔒 TROJAN | @netfreedom0 [19]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
@@ -117,7 +117,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 TROJAN | @hope_net [18]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [19]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇨🇳 CN | 🔒 TROJAN | @netfreedom0 [19]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
@@ -218,29 +218,6 @@
         {
             "tag": "🚩 CF | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
-            "server": "104.17.148.22",
-            "server_port": 443,
-            "password": "e2f4d1fa-0a6d-48c3-a5bb-8b438e78af23",
-            "tls": {
-                "enabled": true,
-                "server_name": "119f3a0b.chikiy123w.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram@Linkvws?ed=2048",
-                "headers": {
-                    "Host": "119f3a0b.chikiy123w.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
-            "type": "trojan",
             "server": "162.159.152.11",
             "server_port": 443,
             "password": "tg-dns68",
@@ -258,6 +235,20 @@
                 "path": "/",
                 "headers": {
                     "Host": "vip.putata.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [19]",
+            "type": "trojan",
+            "server": "104.17.147.22",
+            "server_port": 2052,
+            "password": "cf43996d-cc45-458e-87ac-c9c933c9ed3e",
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram@Linkvws?ed=2560",
+                "headers": {
+                    "Host": "104.17.147.22"
                 }
             }
         },
