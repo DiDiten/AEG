@@ -96,9 +96,9 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
-                "🚩 CF | 🔒 TROJAN | @outline_ir [14]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
                 "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇨🇳 CN | 🔒 TROJAN | @netfreedom0 [19]",
@@ -126,9 +126,9 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [7]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [8]",
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
-                "🚩 CF | 🔒 TROJAN | @outline_ir [14]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [18]",
                 "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇨🇳 CN | 🔒 TROJAN | @netfreedom0 [19]",
@@ -308,29 +308,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @outline_ir [14]",
-            "type": "trojan",
-            "server": "creativecommons.org",
-            "server_port": 443,
-            "password": "biOrJGlcfX",
-            "tls": {
-                "enabled": true,
-                "server_name": "ghasem.kotlet.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/kos-madaret-khamneii",
-                "headers": {
-                    "Host": "ghasem.kotlet.org"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
             "type": "trojan",
             "server": "de1.test3.net",
@@ -370,7 +347,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [18]",
             "type": "trojan",
             "server": "104.17.148.22",
             "server_port": 443,
@@ -389,6 +366,29 @@
                 "path": "/Telegram@Linkvws?ed=2048",
                 "headers": {
                     "Host": "119f3a0b.chikiy123w.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "162.159.152.11",
+            "server_port": 443,
+            "password": "tg-dns68",
+            "tls": {
+                "enabled": true,
+                "server_name": "vip.putata.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "vip.putata.eu.org"
                 }
             }
         },
