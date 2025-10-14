@@ -94,12 +94,10 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [49]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [52]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
-                "🇬🇧 GB | 🔒 VLESS | @evay_vpn [10]",
                 "🚩 CF | 🔓 VLESS | @kafing_2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [8]",
@@ -121,12 +119,10 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [49]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [52]",
+                "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
-                "🇬🇧 GB | 🔒 VLESS | @evay_vpn [10]",
                 "🚩 CF | 🔓 VLESS | @kafing_2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [8]",
@@ -240,38 +236,25 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [49]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
             "type": "vless",
-            "server": "mn.co",
-            "server_port": 443,
-            "uuid": "7228ddf5-0ca8-448b-8656-b365ab01dfca",
-            "flow": "",
+            "server": "test.barayekhudam.ir",
+            "server_port": 59697,
+            "uuid": "d378d3d0-c521-4874-a6f3-21794398cf9c",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "bot.serverpr1o.ir",
+                "server_name": "bimeh.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [52]",
-            "type": "vless",
-            "server": "tgju.org",
-            "server_port": 443,
-            "uuid": "7228ddf5-0ca8-448b-8656-b365ab01dfca",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "bot.serverpr1o.ir",
-                "insecure": true,
-                "utls": {
+                },
+                "reality": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "public_key": "HDE3ZT4rZPr6RIpgLK6dn6FGvolXLJtwJEeDEC4N1Eg",
+                    "short_id": "c5a5b0"
                 }
             }
         },
@@ -301,29 +284,6 @@
             "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @evay_vpn [10]",
-            "type": "vless",
-            "server": "Evay_vpn.heloisfood.ir",
-            "server_port": 1530,
-            "uuid": "fde77d6c-eb2a-4488-ab34-a9a2633b01ec",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
-                }
-            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @kafing_2 [8]",
