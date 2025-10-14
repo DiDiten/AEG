@@ -124,13 +124,14 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [84]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
                 "🇧🇪 BE | 🔒 VLESS | @free4allvpn [18]",
                 "🇩🇪 DE | 🔒 VLESS | @free4allvpn [19]",
-                "🇷🇺 RU | 🔒 VLESS | @game_file2020 [4]",
-                "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
+                "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
+                "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
@@ -161,7 +162,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [20]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [13]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnplusee_free [14]",
@@ -210,13 +211,14 @@
                 "🇸🇪 SE | 🔒 VLESS | @vpnowl [17]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [84]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
                 "🇧🇪 BE | 🔒 VLESS | @free4allvpn [18]",
                 "🇩🇪 DE | 🔒 VLESS | @free4allvpn [19]",
-                "🇷🇺 RU | 🔒 VLESS | @game_file2020 [4]",
-                "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
+                "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
+                "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @goldenshiinevpn [9]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
@@ -247,7 +249,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [20]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [13]",
                 "🇸🇪 SE | 🔒 VLESS | @vpnplusee_free [14]",
@@ -1116,6 +1118,29 @@
             }
         },
         {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [84]",
+            "type": "vless",
+            "server": "51.38.74.31",
+            "server_port": 2020,
+            "uuid": "63df8c89-7a2c-4da2-a60b-4baf2c8acd1a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -1235,7 +1260,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @game_file2020 [4]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
             "type": "vless",
             "server": "213.183.41.63",
             "server_port": 443,
@@ -1262,7 +1287,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
             "type": "vless",
             "server": "5.161.151.225",
             "server_port": 6009,
@@ -1991,7 +2016,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [20]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
             "type": "vless",
             "server": "91.98.86.54",
             "server_port": 9954,

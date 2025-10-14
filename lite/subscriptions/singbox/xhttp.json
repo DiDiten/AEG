@@ -92,15 +92,14 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
-                "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [84]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
+                "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
@@ -117,7 +116,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [12]"
+                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [12]",
+                "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -128,15 +130,14 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
-                "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [84]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
+                "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
@@ -153,7 +154,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [12]"
+                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [12]",
+                "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -240,34 +244,30 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [84]",
             "type": "vless",
-            "server": "germany.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "51.38.74.31",
+            "server_port": 2020,
+            "uuid": "63df8c89-7a2c-4da2-a60b-4baf2c8acd1a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_",
+                    "short_id": ""
+                }
+            }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
-            "type": "vless",
-            "server": "viop.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-            "type": "vless",
-            "server": "fast-01.saitsazs.ir",
-            "server_port": 80,
-            "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -276,7 +276,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
             "type": "vless",
             "server": "5.161.151.225",
             "server_port": 6009,
@@ -359,6 +359,15 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "0f608156-ecc4-4ee0-8cd4-e5e6d1c891ab",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "f12df97a-2cc8-41d4-9718-7a0a48670ec8",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -671,6 +680,33 @@
                     "short_id": "61e683d41fdb"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
+            "type": "vless",
+            "server": "germany.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
+            "type": "vless",
+            "server": "viop.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
+            "type": "vless",
+            "server": "fast-01.saitsazs.ir",
+            "server_port": 80,
+            "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {

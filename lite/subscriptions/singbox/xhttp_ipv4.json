@@ -92,12 +92,14 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
-                "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [84]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
+                "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
@@ -125,12 +127,14 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
-                "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [84]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
+                "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
                 "🇺🇸 US | 🔓 VLESS | @komail315 [2]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
@@ -234,7 +238,30 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [84]",
+            "type": "vless",
+            "server": "51.38.74.31",
+            "server_port": 2020,
+            "uuid": "63df8c89-7a2c-4da2-a60b-4baf2c8acd1a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [11]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -243,7 +270,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
             "type": "vless",
             "server": "5.161.151.225",
             "server_port": 6009,
@@ -326,6 +353,15 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "0f608156-ecc4-4ee0-8cd4-e5e6d1c891ab",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [4]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "f12df97a-2cc8-41d4-9718-7a0a48670ec8",
             "flow": "",
             "packet_encoding": "xudp"
         },

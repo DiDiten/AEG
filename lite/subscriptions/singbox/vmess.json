@@ -112,7 +112,7 @@
                 "❔ XX | 🔓 VMESS | @freev2rays [18]",
                 "🚩 CF | 🔓 VMESS | @freev2rays [19]",
                 "🚩 CF | 🔓 VMESS | @freev2rays [20]",
-                "🇩🇪 DE | 🔓 VMESS | @game_file2020 [3]",
+                "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
@@ -136,9 +136,9 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [4]",
-                "🇺🇸 US | 🔓 VMESS | @mowjproxy [5]",
-                "🇭🇰 HK | 🔓 VMESS | @mowjproxy [6]",
+                "🇺🇸 US | 🔓 VMESS | @mowjproxy [4]",
+                "🇭🇰 HK | 🔓 VMESS | @mowjproxy [5]",
+                "🇵🇭 PH | 🔓 VMESS | @mowjproxy [6]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -220,7 +220,7 @@
                 "❔ XX | 🔓 VMESS | @freev2rays [18]",
                 "🚩 CF | 🔓 VMESS | @freev2rays [19]",
                 "🚩 CF | 🔓 VMESS | @freev2rays [20]",
-                "🇩🇪 DE | 🔓 VMESS | @game_file2020 [3]",
+                "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
@@ -244,9 +244,9 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [4]",
-                "🇺🇸 US | 🔓 VMESS | @mowjproxy [5]",
-                "🇭🇰 HK | 🔓 VMESS | @mowjproxy [6]",
+                "🇺🇸 US | 🔓 VMESS | @mowjproxy [4]",
+                "🇭🇰 HK | 🔓 VMESS | @mowjproxy [5]",
+                "🇵🇭 PH | 🔓 VMESS | @mowjproxy [6]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -736,7 +736,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @game_file2020 [3]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
             "type": "vmess",
             "server": "de.netwatchvpn.sbs",
             "server_port": 44799,
@@ -1075,32 +1075,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @mowjproxy [4]",
-            "type": "vmess",
-            "server": "57.129.64.157",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @mowjproxy [5]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @mowjproxy [4]",
             "type": "vmess",
             "server": "192.3.233.216",
             "server_port": 16556,
@@ -1116,11 +1091,27 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @mowjproxy [6]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @mowjproxy [5]",
             "type": "vmess",
             "server": "103.229.127.212",
             "server_port": 32381,
             "uuid": "93e463b6-af2b-437b-90f8-dba172a70d11",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/arki?ed=2048",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇵🇭 PH | 🔓 VMESS | @mowjproxy [6]",
+            "type": "vmess",
+            "server": "8.220.188.238",
+            "server_port": 33248,
+            "uuid": "81b57c84-698f-4944-9268-db6a06a4a63a",
             "security": "auto",
             "alter_id": 0,
             "transport": {
