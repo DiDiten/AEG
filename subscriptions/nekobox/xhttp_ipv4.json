@@ -80,8 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [56]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [1]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -135,6 +135,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [14]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -155,8 +156,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [56]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [1]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -210,6 +211,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [14]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -310,34 +312,20 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [56]",
-            "type": "vless",
-            "server": "51.89.176.241",
-            "server_port": 4455,
-            "uuid": "d2c4304f-d0d0-4a60-9134-8260995c847a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "KGxeQdRMT6IDZdC9zyM1_rkuTbT3Enf211hEBCrRET4",
-                    "short_id": "4d1261352419e82f"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [32]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "2dbc400a-2c9b-4032-90c4-cc20d1bba93b",
+            "uuid": "dd123b4a-0b36-4892-a3bd-ffa7c293ffdb",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "dd123b4a-0b36-4892-a3bd-ffa7c293ffdb",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1216,6 +1204,29 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [14]",
+            "type": "vless",
+            "server": "51.77.79.208",
+            "server_port": 2020,
+            "uuid": "8cfded45-8bfd-4a9f-b168-64a927bbbb45",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l",
+                    "short_id": ""
                 }
             }
         },
