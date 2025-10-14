@@ -300,8 +300,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [52]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [53]",
                 "🚩 CF | 🔒 VLESS | @config_proxy [54]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -352,6 +350,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "🚩 CF | 🔓 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -382,7 +381,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @minovpnch [13]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇳🇱 NL | 🔒 VLESS | @mowjproxy [3]",
+                "🇳🇱 NL | 🔒 VLESS | @mowjproxy [2]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [12]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [13]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
@@ -707,8 +706,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [52]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [53]",
                 "🚩 CF | 🔒 VLESS | @config_proxy [54]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -759,6 +756,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "🚩 CF | 🔓 VLESS | @hope_net [18]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -789,7 +787,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @minovpnch [13]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇳🇱 NL | 🔒 VLESS | @mowjproxy [3]",
+                "🇳🇱 NL | 🔒 VLESS | @mowjproxy [2]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [12]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [13]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
@@ -4554,57 +4552,16 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [52]",
-            "type": "vless",
-            "server": "94.183.156.156",
-            "server_port": 10000,
-            "uuid": "647a2a23-1b49-45c3-bfb8-9adefee43de7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "94.183.156.156"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [53]",
-            "type": "vless",
-            "server": "172.67.203.89",
-            "server_port": 443,
-            "uuid": "71504eaf-29ac-4190-89d1-dd9ce2c9ee14",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "backus1.dh03.shop",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/higate",
-                "headers": {
-                    "Host": "backus1.dh03.shop"
-                }
-            }
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @config_proxy [54]",
             "type": "vless",
-            "server": "104.21.64.1",
+            "server": "172.66.44.57",
             "server_port": 443,
-            "uuid": "4971ac7d-376d-47b9-9b86-83a21adcedc4",
+            "uuid": "2d01b0eb-91fd-4eae-9fb0-50c08856181d",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "Et3ch-007.Zed23.wEB1337.net",
+                "server_name": "e420ceed.aryoo-vpn-friends.pages.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -4613,9 +4570,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/wlbywy8cCxbWMJZI",
+                "path": "/Telegram-@proxy_mtm-Telegram-@proxy_mtm-Telegram-@proxy_mtm-Telegram-@proxy_mtm-Telegram-@proxy_mtm-Telegram-@proxy_mtm-Telegram-@proxy_mtm-Telegram-@proxy_mtm-Telegram-@proxy_mtm-Telegram-@proxy_mtm-Telegram-@proxy_mtm-Telegram-@proxy_mtm/?ed=2048",
                 "headers": {
-                    "Host": "Et3ch-007.Zed23.wEB1337.net"
+                    "Host": "e420ceed.aryoo-vpn-friends.pages.dev"
                 }
             }
         },
@@ -5484,6 +5441,15 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔓 VLESS | @hope_net [18]",
+            "type": "vless",
+            "server": "172.67.138.69",
+            "server_port": 80,
+            "uuid": "f9c9c1b1-5550-4e2f-b3e8-dec12b91d7c4",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
             "type": "vless",
             "server": "92.114.24.92",
@@ -5986,7 +5952,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @mowjproxy [3]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @mowjproxy [2]",
             "type": "vless",
             "server": "46.8.229.85",
             "server_port": 41262,
