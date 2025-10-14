@@ -23,11 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name":"🇬🇧 GB | 🔒 VLESS | @config_proxy [84]","type":"vless","server":"51.38.74.31","port":2020,"uuid":"63df8c89-7a2c-4da2-a60b-4baf2c8acd1a","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"stackoverflow.com","reality-opts":{"public-key":"l_"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @configasli [6]","type":"vless","server":"78.46.162.62","port":10878,"uuid":"8a5db114-7ad1-4922-aca4-b079a79f4f04","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","reality-opts":{"public-key":"xQvsy1P86UklsO5dbNDjaaUiQK3A9PHpM6rirHWSSDw","short-id":"812db24b"}}
   - {"name":"🇫🇷 FR | 🔒 VLESS | @configasli [7]","type":"vless","server":"172.232.33.18","port":443,"uuid":"fe48773b-df06-409a-bc61-117cd8fb1eb7","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ftp.debian.org","reality-opts":{"public-key":"PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o","short-id":"b5ecd44d"}}
   - {"name":"🇳🇱 NL | 🔒 VLESS | @flyv2ray [16]","type":"vless","server":"46.8.229.85","port":41262,"uuid":"0a153e35-72db-4860-8da5-4b02ff13d698","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"google.com","reality-opts":{"public-key":"qw6Eb9essNGXPtKYRQTX61DD9dCS2LJ-myCMjsxenBU","short-id":"ada95ed32013"}}
-  - {"name":"🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]","type":"vless","server":"91.124.209.114","port":50061,"uuid":"234fe8e0-5017-4311-9b3a-3e7618197674","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"tgju.org","grpc-opts":{"grpc-service-name":"mohammad"},"reality-opts":{"public-key":"kPwMo14VAfSaMm1CpiM4vkJ1l0hdWwPeGm4K4eN1giQ","short-id":"79"}}
   - {"name":"🇧🇪 BE | 🔒 VLESS | @free4allvpn [18]","type":"vless","server":"45.83.20.34","port":58164,"uuid":"34c9f621-0614-4b7f-aab3-c4400bb15a89","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","reality-opts":{"public-key":"7cbcFHSx2vqz38zW9BmlSIHTTSdNtlgv_S5uZ0MSIAE","short-id":"788456bc"}}
   - {"name":"🇩🇪 DE | 🔒 VLESS | @free4allvpn [19]","type":"vless","server":"188.68.53.100","port":6666,"uuid":"0abf9050-c7be-464d-80af-24094c2b97de","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"Tgju.org","reality-opts":{"public-key":"S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g","short-id":"b525ecd2fc"}}
   - {"name":"🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]","type":"vless","server":"213.183.41.63","port":443,"uuid":"3c631fef-c28c-4dfe-aacc-9e67ace7d5b3","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"skyroom.online","grpc-opts":{"grpc-service-name":"free"},"reality-opts":{"public-key":"9tNnOU3bIHtyZfWaPv1J1ns78jDfzCdh6dRLjhQGlX8","short-id":"1f"}}
@@ -74,11 +72,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇬🇧 GB | 🔒 VLESS | @config_proxy [84]'
       - '🇩🇪 DE | 🔒 VLESS | @configasli [6]'
       - '🇫🇷 FR | 🔒 VLESS | @configasli [7]'
       - '🇳🇱 NL | 🔒 VLESS | @flyv2ray [16]'
-      - '🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]'
       - '🇧🇪 BE | 🔒 VLESS | @free4allvpn [18]'
       - '🇩🇪 DE | 🔒 VLESS | @free4allvpn [19]'
       - '🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]'
