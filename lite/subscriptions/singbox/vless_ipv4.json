@@ -98,6 +98,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [57]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -209,7 +210,6 @@
                 "🚩 CF | 🔓 VLESS | @renetvpn [9]",
                 "🚩 CF | 🔓 VLESS | @renetvpn [10]",
                 "🚩 CF | 🔓 VLESS | @renetvpn [11]",
-                "🚩 CF | 🔒 VLESS | @satellitenewspersian [18]",
                 "🚩 CF | 🔓 VLESS | @savagev2ray [13]",
                 "@Selinc?ed=512&security=tls&encryption=none&host=baomei.pages.dev&type=ws&sni=baomei.pages.dev#🚩 CF | 🔒 VLESS | @selinc [9]",
                 "🚩 CF | 🔒 VLESS | @selinc [10]",
@@ -287,6 +287,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [57]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -398,7 +399,6 @@
                 "🚩 CF | 🔓 VLESS | @renetvpn [9]",
                 "🚩 CF | 🔓 VLESS | @renetvpn [10]",
                 "🚩 CF | 🔓 VLESS | @renetvpn [11]",
-                "🚩 CF | 🔒 VLESS | @satellitenewspersian [18]",
                 "🚩 CF | 🔓 VLESS | @savagev2ray [13]",
                 "@Selinc?ed=512&security=tls&encryption=none&host=baomei.pages.dev&type=ws&sni=baomei.pages.dev#🚩 CF | 🔒 VLESS | @selinc [9]",
                 "🚩 CF | 🔒 VLESS | @selinc [10]",
@@ -662,6 +662,15 @@
                     "Host": "SpEedteST.NET"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "2dbc400a-2c9b-4032-90c4-cc20d1bba93b",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -2584,31 +2593,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "173.245.58.31"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @satellitenewspersian [18]",
-            "type": "vless",
-            "server": "104.16.161.143",
-            "server_port": 2096,
-            "uuid": "f690c2da-bdc3-4538-999e-d2bb8a541188",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "baomei.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed",
-                "headers": {
-                    "Host": "baomei.pages.dev"
                 }
             }
         },

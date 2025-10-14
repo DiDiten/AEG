@@ -90,7 +90,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [56]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
+                "🇬🇧 GB | 🔓 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -209,7 +210,7 @@
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🚩 CF | 🔒 VLESS | @prrofile_purple [153]",
+                "🚩 CF | 🔒 VLESS | @prrofile_purple [154]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
@@ -302,7 +303,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [56]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
+                "🇬🇧 GB | 🔓 VLESS | @config_proxy [58]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -421,7 +423,7 @@
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🚩 CF | 🔒 VLESS | @prrofile_purple [153]",
+                "🚩 CF | 🔒 VLESS | @prrofile_purple [154]",
                 "❔ XX | 🔒 VLESS | @public504 [10]",
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
@@ -759,29 +761,36 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [56]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [56]",
             "type": "vless",
-            "server": "best.cdniran.info",
-            "server_port": 443,
-            "uuid": "128d1209-9e9f-4952-9faf-df47ae3648d2",
-            "flow": "",
+            "server": "V2ngFast.huqpmfood.ir",
+            "server_port": 4455,
+            "uuid": "7f69b546-de6a-42d5-8183-df0526bd29e2",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "smart.taron01.info",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "smart.taron01.info"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
                 }
             }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "usernardompanel.keepheadmartinfreegateb2.online",
+            "server_port": 4003,
+            "uuid": "b73fd57a-c5c7-457e-b885-5b8881379afc",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -2827,7 +2836,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @prrofile_purple [153]",
+            "tag": "🚩 CF | 🔒 VLESS | @prrofile_purple [154]",
             "type": "vless",
             "server": "gur.gov.ua",
             "server_port": 443,
