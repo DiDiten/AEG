@@ -80,7 +80,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [8]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [56]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
@@ -103,7 +105,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [12]"
+                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [20]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -114,7 +117,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [8]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [56]",
+                "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
@@ -137,7 +142,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [12]"
+                "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [20]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -228,7 +234,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [8]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "dd123b4a-0b36-4892-a3bd-ffa7c293ffdb",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "14cdc94f-63fd-464e-a36a-745182dc8466",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [7]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -373,7 +397,7 @@
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "1ba72f40-2c70-412f-b6c5-8da85eda7a2d",
+            "uuid": "2dbc400a-2c9b-4032-90c4-cc20d1bba93b",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -639,6 +663,29 @@
                     "enabled": true,
                     "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
                     "short_id": "61e683d41fdb"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "91.98.88.131",
+            "server_port": 443,
+            "uuid": "56dc390e-bfac-4642-9300-b3deb4c4644a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "87I7aEBv0W9xl5LoEkJpd_wi6zBbVDUNDA-zZruC53g",
+                    "short_id": ""
                 }
             }
         }
