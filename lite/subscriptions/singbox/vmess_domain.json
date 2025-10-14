@@ -136,9 +136,9 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇺🇸 US | 🔒 VMESS | @mowjproxy [4]",
+                "🇯🇵 JP | 🔓 VMESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔓 VMESS | @mowjproxy [5]",
-                "🇯🇵 JP | 🔓 VMESS | @mowjproxy [6]",
+                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [6]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -165,7 +165,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇲🇾 MY | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
@@ -243,9 +243,9 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇺🇸 US | 🔒 VMESS | @mowjproxy [4]",
+                "🇯🇵 JP | 🔓 VMESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔓 VMESS | @mowjproxy [5]",
-                "🇯🇵 JP | 🔓 VMESS | @mowjproxy [6]",
+                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [6]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
@@ -272,7 +272,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇲🇾 MY | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
@@ -1073,27 +1073,18 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔒 VMESS | @mowjproxy [4]",
+            "tag": "🇯🇵 JP | 🔓 VMESS | @mowjproxy [4]",
             "type": "vmess",
-            "server": "lammaland.org",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "47.74.10.111",
+            "server_port": 34029,
+            "uuid": "2e80d0c8-16c8-420a-b86c-c2e7e2e4f764",
             "security": "auto",
             "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "lammaland.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/linkvws?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
+                "path": "/arki?ed=2048",
                 "headers": {
-                    "Host": "lammaland.org"
+                    "Host": ""
                 }
             }
         },
@@ -1107,16 +1098,25 @@
             "alter_id": 0
         },
         {
-            "tag": "🇯🇵 JP | 🔓 VMESS | @mowjproxy [6]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @mowjproxy [6]",
             "type": "vmess",
-            "server": "47.74.10.111",
-            "server_port": 34029,
-            "uuid": "2e80d0c8-16c8-420a-b86c-c2e7e2e4f764",
+            "server": "57.129.64.157",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/arki?ed=2048",
+                "path": "/linkvws",
                 "headers": {
                     "Host": ""
                 }
@@ -1548,7 +1548,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "pelang.org",
             "server_port": 443,
