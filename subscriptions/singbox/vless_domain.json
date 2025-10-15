@@ -118,8 +118,9 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇸🇬 SG | 🔓 VLESS | @config_proxy [38]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [40]",
+                "🇳🇱 NL | 🔓 VLESS | @config_proxy [45]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [49]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -707,8 +708,9 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [15]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇸🇬 SG | 🔓 VLESS | @config_proxy [38]",
-                "🇬🇧 GB | 🔒 VLESS | @config_proxy [40]",
+                "🇳🇱 NL | 🔓 VLESS | @config_proxy [45]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [49]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1848,43 +1850,47 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔓 VLESS | @config_proxy [38]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @config_proxy [45]",
             "type": "vless",
-            "server": "waifu.kurumi.biz.id",
-            "server_port": 80,
-            "uuid": "a2088892-07c5-4c54-8a10-4a4b6ebefab6",
+            "server": "638942397698496885.dublin-drc-tusacaf.info",
+            "server_port": 8880,
+            "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/vless",
-                "headers": {
-                    "Host": "waifu.kurumi.biz.id"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [40]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [49]",
             "type": "vless",
-            "server": "uk111m-lomin.mongral.ir",
-            "server_port": 4444,
-            "uuid": "fc9f869b-4344-446d-8f35-0c2dd36d5230",
-            "flow": "xtls-rprx-vision",
+            "server": "baj9ztn91a49.dop14.com",
+            "server_port": 443,
+            "uuid": "c6374dae-91cd-4d9d-a2cb-2033a245cd4b",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "store.steampowered.com",
+                "server_name": "baj9ztn91a49.dop14.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5if9NWaLaNEfwV9GuafHuas8q3wrxtsgf_-eInEOaSA",
-                    "short_id": "0a77eb535d"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/09hmyzvdljYpebWBPqDV7",
+                "headers": {
+                    "Host": "baj9ztn91a49.dop14.com"
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "ftp5.tehran-park.com",
+            "server_port": 80,
+            "uuid": "8130db4f-ace2-4952-bfc7-2ec9a5eb26d9",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
