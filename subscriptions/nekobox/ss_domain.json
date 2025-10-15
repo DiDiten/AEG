@@ -81,9 +81,10 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 SS | @ai_duet [4]",
+                "🇺🇸 US | 🔒 SS | @config_proxy [49]",
                 "🇬🇧 GB | 🔒 SS | @filtershekan_channel [5]",
                 "🇫🇮 FI | 🔒 SS | @free1_vpn [5]",
-                "🇬🇧 GB | 🔒 SS | @hope_net [8]",
+                "🇬🇧 GB | 🔒 SS | @hope_net [6]",
                 "🇬🇧 GB | 🔒 SS | @imhdiyvp [9]",
                 "🇬🇧 GB | 🔒 SS | @manstervpn [60]",
                 "🇬🇧 GB | 🔒 SS | @manstervpn [62]",
@@ -103,7 +104,8 @@
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
                 "🇬🇧 GB | 🔒 SS | @v2ray_free_conf [16]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
-                "🇬🇧 GB | 🔒 SS | @vpnowl [17]"
+                "🇬🇧 GB | 🔒 SS | @vpnowl [17]",
+                "🇮🇳 IN | 🔒 SS | @zerobaipiao [40]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -115,9 +117,10 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "❔ XX | 🔒 SS | @ai_duet [4]",
+                "🇺🇸 US | 🔒 SS | @config_proxy [49]",
                 "🇬🇧 GB | 🔒 SS | @filtershekan_channel [5]",
                 "🇫🇮 FI | 🔒 SS | @free1_vpn [5]",
-                "🇬🇧 GB | 🔒 SS | @hope_net [8]",
+                "🇬🇧 GB | 🔒 SS | @hope_net [6]",
                 "🇬🇧 GB | 🔒 SS | @imhdiyvp [9]",
                 "🇬🇧 GB | 🔒 SS | @manstervpn [60]",
                 "🇬🇧 GB | 🔒 SS | @manstervpn [62]",
@@ -137,7 +140,8 @@
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
                 "🇬🇧 GB | 🔒 SS | @v2ray_free_conf [16]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
-                "🇬🇧 GB | 🔒 SS | @vpnowl [17]"
+                "🇬🇧 GB | 🔒 SS | @vpnowl [17]",
+                "🇮🇳 IN | 🔒 SS | @zerobaipiao [40]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -236,6 +240,14 @@
             "password": "mps3FwmDjLrWaOVg"
         },
         {
+            "tag": "🇺🇸 US | 🔒 SS | @config_proxy [49]",
+            "type": "shadowsocks",
+            "server": "ltnl15.saint.ydns.eu",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+        },
+        {
             "tag": "🇬🇧 GB | 🔒 SS | @filtershekan_channel [5]",
             "type": "shadowsocks",
             "server": "admin.c4.webramz.co",
@@ -252,7 +264,7 @@
             "password": "dAHM1pm8ag7KdlrUylQi6t"
         },
         {
-            "tag": "🇬🇧 GB | 🔒 SS | @hope_net [8]",
+            "tag": "🇬🇧 GB | 🔒 SS | @hope_net [6]",
             "type": "shadowsocks",
             "server": "series-a2.samanehha.co",
             "server_port": 443,
@@ -418,6 +430,14 @@
             "server_port": 2053,
             "method": "2022-blake3-aes-256-gcm",
             "password": "5CX5dFRzQ29X1CTxHC/vsB35i7lLe82HeloZ3LBBbRw=:lVWD5jwK0Z2r7SodPX41giubPaDi4IrgkTfQ+ejUaFw="
+        },
+        {
+            "tag": "🇮🇳 IN | 🔒 SS | @zerobaipiao [40]",
+            "type": "shadowsocks",
+            "server": "id.vpnsparta.pro",
+            "server_port": 57456,
+            "method": "chacha20-ietf-poly1305",
+            "password": "360e21d21977dc11"
         }
     ],
     "route": {
