@@ -124,6 +124,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [3]",
                 "❔ XX | 🔒 VLESS | @nofiltering2 [11]",
+                "🇵🇱 PL | 🔒 VLESS | @orange_vpns [18]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -143,6 +144,8 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [15]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [11]",
@@ -223,6 +226,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [3]",
                 "❔ XX | 🔒 VLESS | @nofiltering2 [11]",
+                "🇵🇱 PL | 🔒 VLESS | @orange_vpns [18]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -242,6 +246,8 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇺🇸 US | 🔒 VLESS | @v2raych [15]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [11]",
@@ -1189,6 +1195,29 @@
             }
         },
         {
+            "tag": "🇵🇱 PL | 🔒 VLESS | @orange_vpns [18]",
+            "type": "vless",
+            "server": "tiktok.ducks.tel",
+            "server_port": 443,
+            "uuid": "30dd2eea-fe78-4660-a04f-096a7dac41e3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mirror.yandex.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IarU4xicX8qiVO5nqzeHc6MK9A_Vw9YaAtnPHB4DswU",
+                    "short_id": "916a"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
             "type": "vless",
             "server": "persian85.iran86.persianmemberiranmember.shop",
@@ -1634,6 +1663,52 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2raych [15]",
+            "type": "vless",
+            "server": "us.nitroo-tech.ru",
+            "server_port": 443,
+            "uuid": "f31f5fe0-0a42-436a-be94-437330801388",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mirror.yandex.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "aHaFXlvmkeCV60wfe60DD9w00WE1euQfH6jtDq5iYkI",
+                    "short_id": "7e44612b079459"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "nld-0001-xr.packet-drop-society.net",
+            "server_port": 443,
+            "uuid": "562c71d0-f18b-402c-b1ad-5c2bbfcd6e02",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws",
+                    "short_id": "d3b13f31"
                 }
             }
         },
