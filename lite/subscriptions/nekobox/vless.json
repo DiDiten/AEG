@@ -90,6 +90,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [68]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [69]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -284,7 +286,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [66]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [67]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -485,6 +487,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [68]",
+                "🇸🇬 SG | 🔒 VLESS | @config_proxy [69]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -679,7 +683,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇮🇷 IR | 🔓 VLESS | @config_proxy [66]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [67]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -1122,6 +1126,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [68]",
+            "type": "vless",
+            "server": "free.server.techsonic.ggff.net",
+            "server_port": 443,
+            "uuid": "6f51641e-8b2c-4def-ae3f-f95ee2245fbe",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "android.googleapis.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [69]",
+            "type": "vless",
+            "server": "free.server.techsonic.ggff.net",
+            "server_port": 443,
+            "uuid": "6f51641e-8b2c-4def-ae3f-f95ee2245fbe",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "android.googleapis.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -4489,11 +4529,11 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @config_proxy [66]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [67]",
             "type": "vless",
-            "server": "89.44.242.222",
-            "server_port": 29495,
-            "uuid": "4a0e3cf3-4a10-4a38-bba4-b17b592a0d2b",
+            "server": "91.98.47.15",
+            "server_port": 12046,
+            "uuid": "038a1850-444c-4f59-cbe0-367328542d04",
             "flow": "",
             "packet_encoding": "xudp"
         },
