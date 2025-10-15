@@ -92,7 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇦🇱 AL | 🔒 VLESS | @config_proxy [76]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [16]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -109,7 +108,6 @@
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [11]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
-                "🇮🇹 IT | 🔒 VLESS | @outline_ir [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
@@ -141,7 +139,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇦🇱 AL | 🔒 VLESS | @config_proxy [76]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [16]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -158,7 +155,6 @@
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [11]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
-                "🇮🇹 IT | 🔒 VLESS | @outline_ir [15]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [6]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
@@ -262,29 +258,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇦🇱 AL | 🔒 VLESS | @config_proxy [76]",
-            "type": "vless",
-            "server": "45.15.170.183",
-            "server_port": 443,
-            "uuid": "30dd2eea-fe78-4660-a04f-096a7dac41e3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mirror.yandex.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IarU4xicX8qiVO5nqzeHc6MK9A_Vw9YaAtnPHB4DswU",
-                    "short_id": "916a"
                 }
             }
         },
@@ -670,29 +643,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "7034vless"
-            }
-        },
-        {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @outline_ir [15]",
-            "type": "vless",
-            "server": "147.45.51.160",
-            "server_port": 443,
-            "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "api.company-target.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw",
-                    "short_id": ""
-                }
             }
         },
         {
