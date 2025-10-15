@@ -86,7 +86,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [56]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [41]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [42]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [43]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -128,7 +130,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "❔ XX | 🔒 VLESS | @hope_net [19]",
+                "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
+                "🇺🇸 US | 🔓 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -276,7 +279,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [56]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [41]",
+                "🇫🇷 FR | 🔒 VLESS | @config_proxy [42]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [43]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -318,7 +323,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "❔ XX | 🔒 VLESS | @hope_net [19]",
+                "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
+                "🇺🇸 US | 🔓 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -658,16 +664,32 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [56]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [41]",
             "type": "vless",
-            "server": "104.27.62.243",
+            "server": "172.67.204.84",
+            "server_port": 80,
+            "uuid": "dfc1a9ab-6241-4b73-92f7-b299fc6b7751",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry2-Telegram-XV2ry",
+                "headers": {
+                    "Host": "172.67.204.84"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "194.4.49.229",
             "server_port": 443,
-            "uuid": "3c36eadb-747a-4166-8db0-23fec9883ea2",
+            "uuid": "745ded22-6ae3-4c4d-b31e-c42db0ae74fa",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "HarmonY-427.pages.DEV",
+                "server_name": "194.4.49.229",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -676,9 +698,34 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/?ed=2048",
+                "path": "/teqalfws",
                 "headers": {
-                    "Host": "HarmonY-427.pages.DEV"
+                    "Host": "194.4.49.229"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [43]",
+            "type": "vless",
+            "server": "104.20.22.148",
+            "server_port": 443,
+            "uuid": "2928d83a-ca75-4d52-b437-fa78c7601378",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "freedom-1rj.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/freedom-1rj.pages.dev/?ed=2560",
+                "headers": {
+                    "Host": "freedom-1rj.pages.dev"
                 }
             }
         },
@@ -1401,20 +1448,34 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @hope_net [19]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
             "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "abaaccb-baca-abac-bcad-bbccbcabaaac",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "7a1cd572-b110-41f8-a016-eb8716ee256a",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "/chanell-BLUEV2RAYNG-joine-chanell-BLUEV2RAYNG-joine-chanell-BLUEV2RAYNG-joine-chanell-BLUEV2RAYNG-joine-chanell-BLUEV2RAYNG-joine-chanell-BLUEV2RAYNG-joine-chanell-BLUEV2RAYNG-joine-?ed=2048",
+                "headers": {
+                    "Host": "151.101.3.8"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @hope_net [20]",
+            "type": "vless",
+            "server": "151.101.2.228",
+            "server_port": 80,
+            "uuid": "80943f32-cdc8-44b4-b058-b0126e8daa39",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "151.101.2.228"
                 }
             }
         },
