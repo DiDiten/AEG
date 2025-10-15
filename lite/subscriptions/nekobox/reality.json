@@ -82,6 +82,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [71]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -111,7 +112,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇮🇸 IS | 🔒 VLESS | @config_proxy [85]",
+                "🇱🇻 LV | 🔒 VLESS | @config_proxy [72]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [15]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -162,6 +163,7 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [71]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -191,7 +193,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇮🇸 IS | 🔒 VLESS | @config_proxy [85]",
+                "🇱🇻 LV | 🔒 VLESS | @config_proxy [72]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [15]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -367,6 +369,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [71]",
+            "type": "vless",
+            "server": "nl1.monkeyisland.life",
+            "server_port": 8443,
+            "uuid": "bde186b0-87d5-4c72-95b6-469ea9c7b592",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE",
+                    "short_id": "64fa7998e0a613da🇳🇱 Нидерланды - Амстердам"
+                }
             }
         },
         {
@@ -1069,16 +1094,16 @@
             }
         },
         {
-            "tag": "🇮🇸 IS | 🔒 VLESS | @config_proxy [85]",
+            "tag": "🇱🇻 LV | 🔒 VLESS | @config_proxy [72]",
             "type": "vless",
-            "server": "45.83.21.107",
-            "server_port": 59997,
-            "uuid": "c3dd7afc-151f-44f6-8263-ad3c8420ae2f",
+            "server": "46.32.185.161",
+            "server_port": 8443,
+            "uuid": "bde186b0-87d5-4c72-95b6-469ea9c7b592",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "docscenter.su",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1086,8 +1111,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "m4ipEx1PUfb6F5Uv5Mwe5g34TzdNkG_rIQ0xw-Do1mI",
-                    "short_id": "816473be23c2"
+                    "public_key": "NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE",
+                    "short_id": "64fa7998e0a613da🇱🇻 Латвия - Рига"
                 }
             }
         },

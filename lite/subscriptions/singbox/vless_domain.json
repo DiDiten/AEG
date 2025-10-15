@@ -102,6 +102,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [71]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -236,7 +237,7 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🚩 CF | 🔒 VLESS | @selinc [6]",
                 "🇩🇪 DE | 🔒 VLESS | @server_nekobox [6]",
-                "🇨🇦 CA | 🔓 VLESS | @server_nekobox [7]",
+                "🇺🇸 US | 🔓 VLESS | @server_nekobox [7]",
                 "🚩 CF | 🔒 VLESS | @shadowsocksshop [1]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -311,6 +312,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [71]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -445,7 +447,7 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🚩 CF | 🔒 VLESS | @selinc [6]",
                 "🇩🇪 DE | 🔒 VLESS | @server_nekobox [6]",
-                "🇨🇦 CA | 🔓 VLESS | @server_nekobox [7]",
+                "🇺🇸 US | 🔓 VLESS | @server_nekobox [7]",
                 "🚩 CF | 🔒 VLESS | @shadowsocksshop [1]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [3]",
                 "🚩 CF | 🔓 VLESS | @shahedtec [5]",
@@ -758,6 +760,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [71]",
+            "type": "vless",
+            "server": "nl1.monkeyisland.life",
+            "server_port": 8443,
+            "uuid": "bde186b0-87d5-4c72-95b6-469ea9c7b592",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE",
+                    "short_id": "64fa7998e0a613da🇳🇱 Нидерланды - Амстердам"
+                }
             }
         },
         {
@@ -3117,7 +3142,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔓 VLESS | @server_nekobox [7]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @server_nekobox [7]",
             "type": "vless",
             "server": "mstr.fastly80.hosting-ip.com",
             "server_port": 80,
