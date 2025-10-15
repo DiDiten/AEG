@@ -92,12 +92,17 @@
                 "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [4]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [13]",
+                "🇹🇷 TR | 🔒 VLESS | @v2raych [10]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [11]",
+                "🇨🇦 CA | 🔒 VLESS | @v2raych [12]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [14]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [7]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [71]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [72]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [82]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -147,6 +152,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [9]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -179,12 +185,17 @@
                 "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [4]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [13]",
+                "🇹🇷 TR | 🔒 VLESS | @v2raych [10]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [11]",
+                "🇨🇦 CA | 🔒 VLESS | @v2raych [12]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [14]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [7]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [71]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [72]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [82]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -234,6 +245,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @satellitenewspersian [6]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [9]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -456,11 +468,80 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [13]",
+            "tag": "🇹🇷 TR | 🔒 VLESS | @v2raych [10]",
             "type": "vless",
-            "server": "ergwork.web.unc.edu",
+            "server": "turkey.huqpmfood.ir",
+            "server_port": 1331,
+            "uuid": "9790bcaa-37ba-4aa2-9060-919f71553840",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "m8Tuf48MMB9ILy--1nfwGRPJOEbgHOdylaLS_JQ66DM",
+                    "short_id": "89345bea5809f46d"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [11]",
+            "type": "vless",
+            "server": "masterserver1.de.huqpmfood.ir",
+            "server_port": 1331,
+            "uuid": "814c0e53-c493-484a-bbf3-44682b77e46e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 VLESS | @v2raych [12]",
+            "type": "vless",
+            "server": "canada.huqpmfood.ir",
+            "server_port": 1331,
+            "uuid": "ba7b37b6-cf8a-454a-a174-06f1135999b3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HgDrSYUOhPxsBvxEUU4l3PeO6Q5p5v7eEStn1AbTV08",
+                    "short_id": "1b435cd7a50885a4"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [14]",
+            "type": "vless",
+            "server": "test.fast.hosting-ip.com",
             "server_port": 80,
-            "uuid": "f89ce743-ac04-43db-bfad-041ce541ccf5",
+            "uuid": "aaacd8b4-fcee-4033-ad48-d33533bdb69b",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -528,7 +609,39 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [71]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "2c062075-7c2a-4400-8520-c1b2cbb9c980",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [72]",
+            "type": "vless",
+            "server": "178.162.244.196",
+            "server_port": 1331,
+            "uuid": "814c0e53-c493-484a-bbf3-44682b77e46e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [82]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -1391,6 +1504,15 @@
                     "short_id": "5426024033df45"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [9]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "1bd84b59-1f48-4dd1-854b-1ea07c0bc0f6",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
