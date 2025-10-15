@@ -90,8 +90,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇸🇬 SG | 🔒 VLESS | @config_proxy [68]",
-                "🇸🇬 SG | 🔒 VLESS | @config_proxy [69]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [50]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -301,8 +301,8 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇸🇬 SG | 🔒 VLESS | @config_proxy [68]",
-                "🇸🇬 SG | 🔒 VLESS | @config_proxy [69]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [50]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -757,38 +757,34 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [68]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [50]",
             "type": "vless",
-            "server": "free.server.techsonic.ggff.net",
-            "server_port": 443,
-            "uuid": "6f51641e-8b2c-4def-ae3f-f95ee2245fbe",
+            "server": "cf.090227.xyz",
+            "server_port": 2095,
+            "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "android.googleapis.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "cf.090227.xyz"
                 }
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [69]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [51]",
             "type": "vless",
-            "server": "free.server.techsonic.ggff.net",
-            "server_port": 443,
-            "uuid": "6f51641e-8b2c-4def-ae3f-f95ee2245fbe",
+            "server": "cdnjs.com",
+            "server_port": 2095,
+            "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "android.googleapis.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "cdnjs.com"
                 }
             }
         },
