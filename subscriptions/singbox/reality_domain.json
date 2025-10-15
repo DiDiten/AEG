@@ -96,9 +96,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇦🇹 AT | 🔒 VLESS | @config_proxy [68]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [70]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [75]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [66]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [73]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -146,15 +145,11 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇷🇺 RU | 🔒 VLESS | @v2raych [6]",
-                "❔ XX | 🔒 VLESS | @v2raych [8]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [15]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [13]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
-                "❔ XX | 🔒 VLESS | @v2rayopen [2]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -202,9 +197,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇦🇹 AT | 🔒 VLESS | @config_proxy [68]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [70]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [75]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [66]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [73]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -252,15 +246,11 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇷🇺 RU | 🔒 VLESS | @v2raych [6]",
-                "❔ XX | 🔒 VLESS | @v2raych [8]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [15]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [13]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
-                "❔ XX | 🔒 VLESS | @v2rayopen [2]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -480,11 +470,38 @@
             }
         },
         {
-            "tag": "🇦🇹 AT | 🔒 VLESS | @config_proxy [68]",
+            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [66]",
             "type": "vless",
-            "server": "aut-0001-xr.packet-drop-society.net",
+            "server": "ftp7.tehran-park.com",
+            "server_port": 1210,
+            "uuid": "59572e49-763f-4aa8-a299-17729df95909",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp7.tehran-park.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Vd0sQC88KWjeYFf9DoFF58X_sVVA2ixgDajUc6fTNgI",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_configCANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--"
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [73]",
+            "type": "vless",
+            "server": "gbr-0001-xr.packet-drop-society.net",
             "server_port": 443,
-            "uuid": "562c71d0-f18b-402c-b1ad-5c2bbfcd6e02",
+            "uuid": "a6667667-1bc2-41a5-a073-049fc160cb32",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -498,53 +515,7 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws",
-                    "short_id": "175d"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [70]",
-            "type": "vless",
-            "server": "us01-vlr01.tcp-reset-club.net",
-            "server_port": 443,
-            "uuid": "c80bbc09-837d-495f-bebc-3e8ac5dede41",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "e499f276e7bd6420"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [75]",
-            "type": "vless",
-            "server": "realweb.irinnn4iran2peaple.news",
-            "server_port": 19111,
-            "uuid": "bb6ef665-3bf9-4cdb-b208-1214317ffe08",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "medium.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "f9yiwYlmUbEnHE5P0OD0QUxYSVDfISQfeDpPdreh-gQ",
-                    "short_id": "7e6315d730cb175b"
+                    "short_id": "31"
                 }
             }
         },
@@ -1721,79 +1692,6 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @v2raych [6]",
-            "type": "vless",
-            "server": "rus-0001-xr.packet-drop-society.net",
-            "server_port": 443,
-            "uuid": "b160cc4a-89f5-4279-9007-a4c84a13a175",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws",
-                    "short_id": "175d"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @v2raych [8]",
-            "type": "vless",
-            "server": "bebe1wfmee07.dxdx5.com",
-            "server_port": 2083,
-            "uuid": "b70eccf5-3624-4145-9ed1-ef7f422b5ec6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qlO2u5XFcovPRx2OYUzPo5apnzKOyoaJo2kQSikkpnQ",
-                    "short_id": "0e33"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Tel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAYTel:@VPN_KING_V2RAY"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [15]",
-            "type": "vless",
-            "server": "all85-vip.f-sub.com",
-            "server_port": 2434,
-            "uuid": "2aff3c47-ccdc-4c17-b726-73539e2103b2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.chess.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
             "type": "vless",
             "server": "fast7.hvitrin.ir",
@@ -1905,29 +1803,6 @@
                     "enabled": true,
                     "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
                     "short_id": "d3b13f31"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @v2rayopen [2]",
-            "type": "vless",
-            "server": "de.xn--mes34jx0kfx3c.com",
-            "server_port": 11013,
-            "uuid": "6029dca1-09ab-4579-8857-8988870e28a3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "download-installer.cdn.mozilla.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AEd1CwrR3K18EcukiSZqBtFjh5OV9U8LsGZy45MD1V4",
-                    "short_id": "f2a496f4"
                 }
             }
         },
