@@ -103,6 +103,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
+                "🚩 CF | 🔓 VMESS | @hope_net [20]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -124,9 +125,9 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇭🇰 HK | 🔓 VMESS | @mowjproxy [5]",
-                "🇺🇸 US | 🔓 VMESS | @mowjproxy [6]",
-                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [7]",
+                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [6]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [7]",
+                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [8]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇫🇷 FR | 🔓 VMESS | @netfreedom0 [19]",
@@ -211,6 +212,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
+                "🚩 CF | 🔓 VMESS | @hope_net [20]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -232,9 +234,9 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇭🇰 HK | 🔓 VMESS | @mowjproxy [5]",
-                "🇺🇸 US | 🔓 VMESS | @mowjproxy [6]",
-                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [7]",
+                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [6]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [7]",
+                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [8]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇫🇷 FR | 🔓 VMESS | @netfreedom0 [19]",
@@ -755,6 +757,31 @@
             "alter_id": 0
         },
         {
+            "tag": "🚩 CF | 🔓 VMESS | @hope_net [20]",
+            "type": "vmess",
+            "server": "162.159.1.94",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linde06.indiavideo.sbs/linkws",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
             "type": "vmess",
             "server": "142.4.125.84",
@@ -1067,39 +1094,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @mowjproxy [5]",
-            "type": "vmess",
-            "server": "47.238.252.154",
-            "server_port": 20521,
-            "uuid": "87bb9d49-6345-42d4-9ee4-91dd8a6ca544",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @mowjproxy [6]",
-            "type": "vmess",
-            "server": "192.3.233.216",
-            "server_port": 16556,
-            "uuid": "600f0d3e-a25d-468b-c789-0b5baa2f52c1",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VMESS | @mowjproxy [7]",
+            "tag": "🇫🇷 FR | 🔒 VMESS | @mowjproxy [6]",
             "type": "vmess",
             "server": "91.134.8.102",
             "server_port": 443,
@@ -1120,6 +1115,56 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "serkat.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [7]",
+            "type": "vmess",
+            "server": "104.17.148.22",
+            "server_port": 2083,
+            "uuid": "8ae65664-84e8-40e1-9708-9236f0808dfd",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "api3.waltonweb.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/panel?ed=2560",
+                "headers": {
+                    "Host": "api3.waltonweb.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @mowjproxy [8]",
+            "type": "vmess",
+            "server": "57.129.64.157",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
