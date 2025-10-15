@@ -80,6 +80,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [74]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
@@ -98,7 +99,6 @@
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [147]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -116,6 +116,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [74]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
@@ -134,7 +135,6 @@
                 "🚩 CF | 🔒 VLESS | @proxie [18]",
                 "🚩 CF | 🔒 VLESS | @proxie [19]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇺🇸 US | 🔓 VLESS | @prrofile_purple [147]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇩🇪 DE | 🔓 VLESS | @v222ray [9]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
@@ -228,6 +228,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [74]",
+            "type": "vless",
+            "server": "V2ngnet.huqpmfood.ir",
+            "server_port": 4455,
+            "uuid": "414541f1-d7d7-4e12-aa9d-2b340dfd71dd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
                 }
             }
         },
@@ -498,15 +521,6 @@
                     "short_id": "4c"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @prrofile_purple [147]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "f12df97a-2cc8-41d4-9718-7a0a48670ec8",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
