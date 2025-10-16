@@ -82,6 +82,8 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [41]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -218,6 +220,8 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [41]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -474,6 +478,52 @@
                     "enabled": true,
                     "public_key": "HQdpA2sAkxUHghPtT8EUA1zPqkq_tz8ncwQM2zNkCS4",
                     "short_id": "b359bc5c70c21d55"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [41]",
+            "type": "vless",
+            "server": "193.46.81.151",
+            "server_port": 49330,
+            "uuid": "7f5c3ff3-c113-4379-812b-c5733f47d4e1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Dee9YE139lZpb4V3QytB8DvHY3nTCnEXzk2IjvMLHi8",
+                    "short_id": "b3r♡ya"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "162.55.166.132",
+            "server_port": 443,
+            "uuid": "a49839fc-371c-419a-bd85-6a8f4bbb08a8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_Ce0Pqxbv8Xj_kkkclEeHbIjQy8mbOfLBLd96b3vz1M",
+                    "short_id": "747a"
                 }
             }
         },

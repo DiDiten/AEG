@@ -94,9 +94,9 @@
                 "KingRezaPahlavi",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [15]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [6]",
-                "🇧🇬 BG | 🔒 TROJAN | @hope_net [9]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [10]",
+                "🇧🇬 BG | 🔒 TROJAN | @hope_net [7]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [8]",
+                "❔ XX | 🔒 TROJAN | @hope_net [20]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -156,9 +156,9 @@
                 "KingRezaPahlavi",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [15]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [6]",
-                "🇧🇬 BG | 🔒 TROJAN | @hope_net [9]",
-                "🚩 CF | 🔓 TROJAN | @hope_net [10]",
+                "🇧🇬 BG | 🔒 TROJAN | @hope_net [7]",
+                "🚩 CF | 🔓 TROJAN | @hope_net [8]",
+                "❔ XX | 🔒 TROJAN | @hope_net [20]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -315,30 +315,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [6]",
-            "type": "trojan",
-            "server": "172.64.146.66",
-            "server_port": 443,
-            "password": "auto",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojanfree-76s.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/trojanfree-76s.pages.dev/?ed=2560",
-                "headers": {
-                    "Host": "trojanfree-76s.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇧🇬 BG | 🔒 TROJAN | @hope_net [9]",
+            "tag": "🇧🇬 BG | 🔒 TROJAN | @hope_net [7]",
             "type": "trojan",
             "server": "45.142.120.4",
             "server_port": 2096,
@@ -361,7 +338,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [10]",
+            "tag": "🚩 CF | 🔓 TROJAN | @hope_net [8]",
             "type": "trojan",
             "server": "104.19.143.99",
             "server_port": 443,
@@ -369,6 +346,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "ta.promote.icu",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "127.0.0.1",
+            "server_port": 1080,
+            "password": "ababcca-abac-caba-bdca-bcabaccbabca",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
