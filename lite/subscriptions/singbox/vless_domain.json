@@ -102,10 +102,11 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [72]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
-                "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
-                "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
+                "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
+                "🚩 CF | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [14]",
                 "🚩 CF | 🔓 VLESS | @connectshu [15]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -122,7 +123,8 @@
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [7]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [9]",
+                "🇹🇷 TR | 🔒 VLESS | @falcunargo [10]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
                 "❔ XX | 🔒 VLESS | @freev2raym [11]",
@@ -277,6 +279,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🚩 CF | 🔓 VLESS | @vmesc [20]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [3]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [4]",
@@ -311,10 +314,11 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [72]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
-                "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
-                "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
+                "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
+                "🚩 CF | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [14]",
                 "🚩 CF | 🔓 VLESS | @connectshu [15]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
@@ -331,7 +335,8 @@
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [7]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [9]",
+                "🇹🇷 TR | 🔒 VLESS | @falcunargo [10]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
                 "❔ XX | 🔒 VLESS | @freev2raym [11]",
@@ -486,6 +491,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🚩 CF | 🔓 VLESS | @vmesc [20]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [3]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [4]",
@@ -761,6 +767,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [72]",
+            "type": "vless",
+            "server": "realdom-sub.panelfreedom.com",
+            "server_port": 20809,
+            "uuid": "ce2ab1e8-0a77-4316-90fc-7911b1609b26",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -800,7 +829,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
+            "tag": "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
             "type": "vless",
             "server": "ipe3.alighan.ir",
             "server_port": 8443,
@@ -825,7 +854,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
+            "tag": "🚩 CF | 🔒 VLESS | @configv2rayforfree [4]",
             "type": "vless",
             "server": "ipe3.alighan.ir",
             "server_port": 8443,
@@ -1112,25 +1141,38 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [7]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [9]",
             "type": "vless",
-            "server": "V2ngFast.huqpmfood.ir",
-            "server_port": 1146,
-            "uuid": "1d9c14fb-5c81-4f59-ad87-3da5d6e2603b",
-            "flow": "xtls-rprx-vision",
+            "server": "dl-01.chapjavan.ir",
+            "server_port": 45555,
+            "uuid": "ce095ae6-74ee-6097-5acb-5bd6d3268fe3",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "stackoverflow.com",
+                "server_name": "dl-01.chapjavan.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔒 VLESS | @falcunargo [10]",
+            "type": "vless",
+            "server": "dl-02.easyrain.ir",
+            "server_port": 45555,
+            "uuid": "ce095ae6-74ee-6097-5acb-5bd6d3268fe3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "dl-02.easyrain.ir",
+                "insecure": true,
+                "utls": {
                     "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -3815,6 +3857,22 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "okala.com"
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "422af888-aaec-469e-8e4e-59a9429e7dd0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "tgju.org"
+                }
             }
         },
         {
