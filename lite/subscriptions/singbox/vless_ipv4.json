@@ -97,6 +97,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [55]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [57]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -118,9 +120,6 @@
                 "🚩 CF | 🔒 VLESS | @flyv2ray [16]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [9]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [10]",
-                "🇫🇮 FI | 🔒 VLESS | @free4allvpn [18]",
-                "🇱🇻 LV | 🔒 VLESS | @free4allvpn [19]",
-                "🇸🇪 SE | 🔒 VLESS | @free4allvpn [20]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [5]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [6]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [7]",
@@ -284,6 +283,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [55]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [57]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -305,9 +306,6 @@
                 "🚩 CF | 🔒 VLESS | @flyv2ray [16]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [9]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [10]",
-                "🇫🇮 FI | 🔒 VLESS | @free4allvpn [18]",
-                "🇱🇻 LV | 🔒 VLESS | @free4allvpn [19]",
-                "🇸🇪 SE | 🔒 VLESS | @free4allvpn [20]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [5]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [6]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [7]",
@@ -642,6 +640,31 @@
                     "Host": "SpEedteST.NET"
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "172.66.40.99",
+            "server_port": 8080,
+            "uuid": "b61d30be-c2a9-424e-95ef-100939462cac",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048",
+                "headers": {
+                    "Host": "172.66.40.99"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "193.24.209.127",
+            "server_port": 52289,
+            "uuid": "a7fc5384-cff7-4e71-af32-93734dac864f",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -1009,75 +1032,6 @@
                 "path": "/@VPNLime",
                 "headers": {
                     "Host": "49.13.74.174"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @free4allvpn [18]",
-            "type": "vless",
-            "server": "92.60.78.221",
-            "server_port": 443,
-            "uuid": "6897c181-24b1-4880-8660-e6c5c7ee13c7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.tradingview.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "pkIWxbuPAasjatPaHnAaTnCxVj1RkDFsJEWpLUTOcWY",
-                    "short_id": "9917d2350096"
-                }
-            }
-        },
-        {
-            "tag": "🇱🇻 LV | 🔒 VLESS | @free4allvpn [19]",
-            "type": "vless",
-            "server": "77.73.238.211",
-            "server_port": 16109,
-            "uuid": "6bb90b5a-db5b-401d-afa9-49667e75de1e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SaMw05aDLQh_Bb55XStVfvcBinGmCmCrZGqg5yI6s2s",
-                    "short_id": "46ef6b9bc8"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @free4allvpn [20]",
-            "type": "vless",
-            "server": "78.40.117.185",
-            "server_port": 443,
-            "uuid": "8377aac9-f3b3-42df-a5ea-9254f37e7b34",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sto.eu-ffast.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-                    "short_id": "50"
                 }
             }
         },

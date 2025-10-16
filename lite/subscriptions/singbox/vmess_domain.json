@@ -115,7 +115,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "❔ XX | 🔓 VMESS | @hope_net [20]",
+                "❔ XX | 🔓 VMESS | @hope_net [18]",
+                "❔ XX | 🔓 VMESS | @hope_net [19]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -137,9 +138,9 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇵🇭 PH | 🔓 VMESS | @mowjproxy [3]",
+                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [3]",
                 "🇩🇪 DE | 🔓 VMESS | @mowjproxy [4]",
-                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [5]",
+                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [5]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇫🇷 FR | 🔓 VMESS | @netfreedom0 [18]",
@@ -221,7 +222,8 @@
                 "🇩🇪 DE | 🔓 VMESS | @game_file2020 [4]",
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
-                "❔ XX | 🔓 VMESS | @hope_net [20]",
+                "❔ XX | 🔓 VMESS | @hope_net [18]",
+                "❔ XX | 🔓 VMESS | @hope_net [19]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -243,9 +245,9 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇵🇭 PH | 🔓 VMESS | @mowjproxy [3]",
+                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [3]",
                 "🇩🇪 DE | 🔓 VMESS | @mowjproxy [4]",
-                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [5]",
+                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [5]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇫🇷 FR | 🔓 VMESS | @netfreedom0 [18]",
@@ -759,7 +761,7 @@
             "alter_id": 0
         },
         {
-            "tag": "❔ XX | 🔓 VMESS | @hope_net [20]",
+            "tag": "❔ XX | 🔓 VMESS | @hope_net [18]",
             "type": "vmess",
             "server": "b.tampay.info",
             "server_port": 443,
@@ -780,6 +782,31 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VMESS | @hope_net [19]",
+            "type": "vmess",
+            "server": "e.ritchier.info",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "tls": {
+                "enabled": true,
+                "server_name": "e.ritchier.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "e.ritchier.info"
                 }
             }
         },
@@ -1096,32 +1123,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇵🇭 PH | 🔓 VMESS | @mowjproxy [3]",
-            "type": "vmess",
-            "server": "8.220.188.238",
-            "server_port": 33248,
-            "uuid": "81b57c84-698f-4944-9268-db6a06a4a63a",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/arki?ed=2048",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @mowjproxy [4]",
-            "type": "vmess",
-            "server": "cpanel.erade52.ir",
-            "server_port": 100,
-            "uuid": "366d0d7e-df02-48d0-8985-ca62aec03e02",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @mowjproxy [5]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @mowjproxy [3]",
             "type": "vmess",
             "server": "57.129.59.193",
             "server_port": 443,
@@ -1142,6 +1144,40 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "serkat.org"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @mowjproxy [4]",
+            "type": "vmess",
+            "server": "91.98.72.199",
+            "server_port": 80,
+            "uuid": "39ac19f8-1dbc-4408-915c-e730351cdb6e",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VMESS | @mowjproxy [5]",
+            "type": "vmess",
+            "server": "141.94.155.228",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "kampong.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "kampong.org"
                 }
             }
         },

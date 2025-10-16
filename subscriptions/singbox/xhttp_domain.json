@@ -94,6 +94,7 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [5]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [48]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -103,7 +104,7 @@
                 "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [4]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [11]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [7]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [7]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
@@ -120,6 +121,7 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [5]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [48]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -129,7 +131,7 @@
                 "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [4]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [11]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [7]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [7]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
@@ -238,6 +240,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [48]",
+            "type": "vless",
+            "server": "test.barayekhudam.ir",
+            "server_port": 59697,
+            "uuid": "d378d3d0-c521-4874-a6f3-21794398cf9c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "bimeh.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HDE3ZT4rZPr6RIpgLK6dn6FGvolXLJtwJEeDEC4N1Eg",
+                    "short_id": "c5a5b0"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
             "type": "vless",
             "server": "holkanas.atroart.ir",
@@ -319,7 +344,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [11]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [7]",
             "type": "vless",
             "server": "live.989bull.com",
             "server_port": 80,
