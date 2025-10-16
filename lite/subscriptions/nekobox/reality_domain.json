@@ -95,6 +95,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇵🇱 PL | 🔒 VLESS | @orange_vpns [17]",
+                "🇳🇱 NL | 🔒 VLESS | @outline_ir [13]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
@@ -109,7 +110,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [12]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [13]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇰🇿 KZ | 🔒 VLESS | @vmesc [18]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
@@ -137,6 +137,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇵🇱 PL | 🔒 VLESS | @orange_vpns [17]",
+                "🇳🇱 NL | 🔒 VLESS | @outline_ir [13]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
@@ -151,7 +152,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [12]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [13]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇰🇿 KZ | 🔒 VLESS | @vmesc [18]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
@@ -617,6 +617,29 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @outline_ir [13]",
+            "type": "vless",
+            "server": "yt.ducks.tel",
+            "server_port": 443,
+            "uuid": "30dd2eea-fe78-4660-a04f-096a7dac41e3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mirror.yandex.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IarU4xicX8qiVO5nqzeHc6MK9A_Vw9YaAtnPHB4DswU",
+                    "short_id": "916a"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
             "type": "vless",
             "server": "iran.nikirani.sfree.persianmemberiranmember.shop",
@@ -943,29 +966,6 @@
                     "enabled": true,
                     "public_key": "COh8PaOebru8HlshEfNEN3_6pXREyUPQvyLWfX0zT3Y",
                     "short_id": "5e"
-                }
-            }
-        },
-        {
-            "tag": "🇰🇿 KZ | 🔒 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "kz01-vlr01.tcp-reset-club.net",
-            "server_port": 443,
-            "uuid": "c80bbc09-837d-495f-bebc-3e8ac5dede41",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "d3b13f31"
                 }
             }
         },

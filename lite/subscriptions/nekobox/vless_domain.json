@@ -91,7 +91,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🇩🇪 DE | 🔓 VLESS | @bored_vpn [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -195,6 +194,8 @@
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
                 "🇵🇱 PL | 🔒 VLESS | @orange_vpns [17]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [18]",
+                "🇳🇱 NL | 🔒 VLESS | @outline_ir [13]",
+                "🚩 CF | 🔒 VLESS | @outline_ir [14]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -266,8 +267,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇰🇿 KZ | 🔒 VLESS | @vmesc [18]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [3]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [4]",
@@ -304,7 +304,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🇩🇪 DE | 🔓 VLESS | @bored_vpn [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -408,6 +407,8 @@
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
                 "🇵🇱 PL | 🔒 VLESS | @orange_vpns [17]",
                 "🚩 CF | 🔒 VLESS | @orange_vpns [18]",
+                "🇳🇱 NL | 🔒 VLESS | @outline_ir [13]",
+                "🚩 CF | 🔒 VLESS | @outline_ir [14]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -479,8 +480,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇰🇿 KZ | 🔒 VLESS | @vmesc [18]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
+                "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [3]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [4]",
@@ -775,15 +775,6 @@
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "aaacd8b4-fcee-4033-ad48-d33533bdb69b",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -2559,6 +2550,54 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @outline_ir [13]",
+            "type": "vless",
+            "server": "yt.ducks.tel",
+            "server_port": 443,
+            "uuid": "30dd2eea-fe78-4660-a04f-096a7dac41e3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "mirror.yandex.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IarU4xicX8qiVO5nqzeHc6MK9A_Vw9YaAtnPHB4DswU",
+                    "short_id": "916a"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @outline_ir [14]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "d7d6745c-7264-44a4-a62f-97b4ce83a951",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "totoo.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "totoo.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
             "type": "vless",
             "server": "iran.nikirani.sfree.persianmemberiranmember.shop",
@@ -3813,30 +3852,7 @@
             }
         },
         {
-            "tag": "🇰🇿 KZ | 🔒 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "kz01-vlr01.tcp-reset-club.net",
-            "server_port": 443,
-            "uuid": "c80bbc09-837d-495f-bebc-3e8ac5dede41",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "d3b13f31"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [20]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [19]",
             "type": "vless",
             "server": "m63a.vip784.com",
             "server_port": 33801,
