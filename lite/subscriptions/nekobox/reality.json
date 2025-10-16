@@ -109,7 +109,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [12]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [13]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇷🇺 RU | 🔒 VLESS | @vmesc [20]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
+                "🇰🇿 KZ | 🔒 VLESS | @vmesc [20]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -145,8 +146,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇭🇰 HK | 🔒 VLESS | @vpnplusee_free [13]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [14]",
+                "🇭🇰 HK | 🔒 VLESS | @vpnplusee_free [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [13]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]"
             ],
@@ -188,7 +189,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [12]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [13]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇷🇺 RU | 🔒 VLESS | @vmesc [20]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
+                "🇰🇿 KZ | 🔒 VLESS | @vmesc [20]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -224,8 +226,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇭🇰 HK | 🔒 VLESS | @vpnplusee_free [13]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [14]",
+                "🇭🇰 HK | 🔒 VLESS | @vpnplusee_free [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [13]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]"
             ],
@@ -1021,7 +1023,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [20]",
+            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
             "type": "vless",
             "server": "rus-0001-xr.packet-drop-society.net",
             "server_port": 443,
@@ -1040,6 +1042,29 @@
                     "enabled": true,
                     "public_key": "llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws",
                     "short_id": "e499f276e7bd6420"
+                }
+            }
+        },
+        {
+            "tag": "🇰🇿 KZ | 🔒 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "kz01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "c80bbc09-837d-495f-bebc-3e8ac5dede41",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "d3b13f31"
                 }
             }
         },
@@ -1869,7 +1894,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @vpnplusee_free [13]",
+            "tag": "🇭🇰 HK | 🔒 VLESS | @vpnplusee_free [12]",
             "type": "vless",
             "server": "45.38.42.42",
             "server_port": 39250,
@@ -1892,7 +1917,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [14]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [13]",
             "type": "vless",
             "server": "162.19.175.55",
             "server_port": 9954,
