@@ -96,7 +96,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇷 IR | 🔒 VLESS | @config_proxy [58]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -120,7 +120,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
-                "🇮🇷 IR | 🔒 VLESS | @mowjproxy [4]",
+                "🇮🇷 IR | 🔒 VLESS | @mowjproxy [2]",
                 "🇹🇷 TR | 🔒 VLESS | @netmellianti [8]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [9]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
@@ -128,7 +128,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [3]",
                 "❔ XX | 🔒 VLESS | @nofiltering2 [11]",
                 "🇵🇱 PL | 🔒 VLESS | @orange_vpns [16]",
-                "🇳🇱 NL | 🔒 VLESS | @outline_ir [11]",
+                "🇦🇱 AL | 🔒 VLESS | @outline_ir [11]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -204,7 +204,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇮🇷 IR | 🔒 VLESS | @config_proxy [58]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [57]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇸🇪 SE | 🔒 VLESS | @configv2rayforfree [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
@@ -228,7 +228,7 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
                 "🇩🇪 DE | 🔒 VLESS | @megavpn_link [6]",
-                "🇮🇷 IR | 🔒 VLESS | @mowjproxy [4]",
+                "🇮🇷 IR | 🔒 VLESS | @mowjproxy [2]",
                 "🇹🇷 TR | 🔒 VLESS | @netmellianti [8]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [9]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
@@ -236,7 +236,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @nofiltering2 [3]",
                 "❔ XX | 🔒 VLESS | @nofiltering2 [11]",
                 "🇵🇱 PL | 🔒 VLESS | @orange_vpns [16]",
-                "🇳🇱 NL | 🔒 VLESS | @outline_ir [11]",
+                "🇦🇱 AL | 🔒 VLESS | @outline_ir [11]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [1]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -484,16 +484,16 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @config_proxy [58]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [57]",
             "type": "vless",
-            "server": "sv5.maxhostco2.top",
-            "server_port": 59443,
-            "uuid": "04ba58f8-5c8b-4a41-a88d-560abf36f064",
+            "server": "yofree.top",
+            "server_port": 443,
+            "uuid": "d50c661c-aa8b-11f0-a6ec-52540015e6ea",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.speedtest.net",
+                "server_name": "yofree.top",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -501,13 +501,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "eNl9igWK4DQud2xfrMVpJy6VHI8JzvTN6dwckwko-HM",
-                    "short_id": "502a76d3e038"
+                    "public_key": "AWyicEDYi7KB3qzo8OEvEd1HK0gZhCHAENBd_buyhQk",
+                    "short_id": "fa2f"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "9513vless"
             }
         },
         {
@@ -1099,7 +1095,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @mowjproxy [4]",
+            "tag": "🇮🇷 IR | 🔒 VLESS | @mowjproxy [2]",
             "type": "vless",
             "server": "sv5.maxhostco2.top",
             "server_port": 59443,
@@ -1307,7 +1303,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @outline_ir [11]",
+            "tag": "🇦🇱 AL | 🔒 VLESS | @outline_ir [11]",
             "type": "vless",
             "server": "yt.ducks.tel",
             "server_port": 443,

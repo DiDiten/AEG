@@ -92,7 +92,6 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇮🇷 IR | 🔒 VLESS | @mowjproxy [4]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇵🇱 PL | 🔒 VLESS | @orange_vpns [16]",
@@ -112,9 +111,9 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇫🇮 FI | 🔒 VLESS | @vmesc [17]",
                 "🇦🇹 AT | 🔒 VLESS | @vmesc [19]",
+                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [13]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [70]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [15]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -126,6 +125,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [4]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
@@ -172,7 +172,6 @@
                 "❔ XX | 🔒 VLESS | @itv2ray [29]",
                 "❔ XX | 🔒 VLESS | @itv2ray [30]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [3]",
-                "🇮🇷 IR | 🔒 VLESS | @mowjproxy [4]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇵🇱 PL | 🔒 VLESS | @orange_vpns [16]",
@@ -192,9 +191,9 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇫🇮 FI | 🔒 VLESS | @vmesc [17]",
                 "🇦🇹 AT | 🔒 VLESS | @vmesc [19]",
+                "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [13]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [70]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [15]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -206,6 +205,7 @@
                 "🇬🇧 GB | 🔒 VLESS | @jokerv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @jokerv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @kesslervpn [1]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [4]",
                 "🇩🇪 DE | 🔒 VLESS | @mastervpnshop1 [16]",
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
@@ -613,33 +613,6 @@
                     "public_key": "UgwRcGmt9yqVzDac4KryRxQKvaVDi0eueJPPpmx7pW8",
                     "short_id": "f23d09"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @mowjproxy [4]",
-            "type": "vless",
-            "server": "sv5.maxhostco2.top",
-            "server_port": 59443,
-            "uuid": "04ba58f8-5c8b-4a41-a88d-560abf36f064",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eNl9igWK4DQud2xfrMVpJy6VHI8JzvTN6dwckwko-HM",
-                    "short_id": "502a76d3e038"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "9513vless"
             }
         },
         {
@@ -1096,6 +1069,33 @@
             }
         },
         {
+            "tag": "🇮🇷 IR | 🔒 VLESS | @vpnplusee_free [13]",
+            "type": "vless",
+            "server": "sv5.maxhostco2.top",
+            "server_port": 59443,
+            "uuid": "04ba58f8-5c8b-4a41-a88d-560abf36f064",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "eNl9igWK4DQud2xfrMVpJy6VHI8JzvTN6dwckwko-HM",
+                    "short_id": "502a76d3e038"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "9513vless"
+            }
+        },
+        {
             "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
             "type": "vless",
             "server": "icloud.wlftest.xyz",
@@ -1138,29 +1138,6 @@
                     "enabled": true,
                     "public_key": "277HDYaNIvLYS9CMSr1CbkcTaahPEUCymW_0Ad17p2M",
                     "short_id": "f2"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [70]",
-            "type": "vless",
-            "server": "91.99.179.233",
-            "server_port": 443,
-            "uuid": "Parsashonam-316",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "LOi-3brURXBaOe83KFpaKZ5A4exl3J9qjeZIIWa8GCQ",
-                    "short_id": "0a8b4a1ad485¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---"
                 }
             }
         },
@@ -1423,6 +1400,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "."
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @lranonline_new [4]",
+            "type": "vless",
+            "server": "193.46.81.151",
+            "server_port": 49330,
+            "uuid": "7f5c3ff3-c113-4379-812b-c5733f47d4e1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Dee9YE139lZpb4V3QytB8DvHY3nTCnEXzk2IjvMLHi8",
+                    "short_id": "b3"
+                }
             }
         },
         {
