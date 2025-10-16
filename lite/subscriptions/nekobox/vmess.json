@@ -86,6 +86,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
+                "🇺🇸 US | 🔓 VMESS | @config_proxy [67]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -124,9 +125,9 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇩🇪 DE | 🔓 VMESS | @mowjproxy [4]",
-                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [5]",
-                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [6]",
+                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [5]",
+                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [6]",
+                "🇩🇪 DE | 🔓 VMESS | @mowjproxy [7]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇫🇷 FR | 🔓 VMESS | @netfreedom0 [18]",
@@ -152,7 +153,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇲🇾 MY | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇵🇱 PL | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
@@ -191,6 +192,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
+                "🇺🇸 US | 🔓 VMESS | @config_proxy [67]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -229,9 +231,9 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇩🇪 DE | 🔓 VMESS | @mowjproxy [4]",
-                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [5]",
-                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [6]",
+                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [5]",
+                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [6]",
+                "🇩🇪 DE | 🔓 VMESS | @mowjproxy [7]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇫🇷 FR | 🔓 VMESS | @netfreedom0 [18]",
@@ -257,7 +259,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇲🇾 MY | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇵🇱 PL | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [18]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [19]",
@@ -468,6 +470,15 @@
                     "Host": "ad80f8ec-4861-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @config_proxy [67]",
+            "type": "vmess",
+            "server": "198.2.234.99",
+            "server_port": 39771,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64
         },
         {
             "tag": "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -1061,16 +1072,32 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @mowjproxy [4]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @mowjproxy [5]",
             "type": "vmess",
-            "server": "91.98.72.199",
-            "server_port": 80,
-            "uuid": "39ac19f8-1dbc-4408-915c-e730351cdb6e",
+            "server": "57.129.64.157",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VMESS | @mowjproxy [5]",
+            "tag": "🇫🇷 FR | 🔒 VMESS | @mowjproxy [6]",
             "type": "vmess",
             "server": "141.94.155.228",
             "server_port": 443,
@@ -1095,29 +1122,13 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @mowjproxy [6]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @mowjproxy [7]",
             "type": "vmess",
-            "server": "57.129.64.157",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "91.98.72.199",
+            "server_port": 80,
+            "uuid": "39ac19f8-1dbc-4408-915c-e730351cdb6e",
             "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
@@ -1504,7 +1515,7 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
             "server": "pelang.org",
             "server_port": 443,
