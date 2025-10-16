@@ -102,6 +102,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -296,8 +297,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [54]",
-                "❔ XX | 🔒 VLESS | @config_proxy [55]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [57]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [58]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -314,9 +315,9 @@
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [26]",
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [28]",
                 "🚩 CF | 🔒 VLESS | @filtershekan_channel [11]",
-                "🚩 CF | 🔓 VLESS | @flyv2ray [14]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [16]",
+                "🚩 CF | 🔒 VLESS | @flyv2ray [17]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [9]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [10]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [5]",
@@ -495,6 +496,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [16]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -689,8 +691,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [54]",
-                "❔ XX | 🔒 VLESS | @config_proxy [55]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [57]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [58]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -707,9 +709,9 @@
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [26]",
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [28]",
                 "🚩 CF | 🔒 VLESS | @filtershekan_channel [11]",
-                "🚩 CF | 🔓 VLESS | @flyv2ray [14]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [15]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [16]",
+                "🚩 CF | 🔒 VLESS | @flyv2ray [17]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [9]",
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [10]",
                 "🇸🇪 SE | 🔓 VLESS | @free_vip3 [5]",
@@ -1127,6 +1129,15 @@
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
+            "type": "vless",
+            "server": "pscresearch.faculty.ucdavis.edu",
+            "server_port": 80,
+            "uuid": "20a91d5e-0005-4b3f-9e2a-1b96934f8a88",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -4491,47 +4502,29 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [54]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [57]",
             "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 2053,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "server": "104.17.147.22",
+            "server_port": 80,
+            "uuid": "37e953ed-8a77-49c0-b2d0-9273c790d109",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mAHDIserVeR-bOM.paGEs.DEv",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/DcijbGfSbK93gk4Z?ed=2560",
+                "path": "/?ed=2056",
                 "headers": {
-                    "Host": "mAHDIserVeR-bOM.paGEs.DEv"
+                    "Host": "104.17.147.22"
                 }
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [55]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [58]",
             "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "babacac-caba-caba-bdca-cbcbbabacaca",
+            "server": "91.99.179.41",
+            "server_port": 24199,
+            "uuid": "ca46f1db-8cac-4c60-aa56-67b795dd9379",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -4807,22 +4800,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @flyv2ray [14]",
-            "type": "vless",
-            "server": "104.20.43.81",
-            "server_port": 80,
-            "uuid": "64d6d0d4-3706-4837-b154-cda2816adcc5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "104.20.43.81"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @flyv2ray [15]",
             "type": "vless",
             "server": "46.8.229.85",
@@ -4867,6 +4844,31 @@
                 "path": "/",
                 "headers": {
                     "Host": "edc32e3b.bpb-panel-en-87s.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @flyv2ray [17]",
+            "type": "vless",
+            "server": "188.114.97.202",
+            "server_port": 8443,
+            "uuid": "c2e177d4-e610-4abd-85cd-1a869d158751",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "teslakit1.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "teslakit1.pages.dev"
                 }
             }
         },

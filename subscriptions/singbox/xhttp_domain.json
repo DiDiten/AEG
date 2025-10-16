@@ -94,11 +94,12 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [5]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [47]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [1]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [7]",
                 "🚩 CF | 🔓 VLESS | @kafing_2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [4]",
@@ -119,11 +120,12 @@
                 "KingRezaPahlavi",
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [5]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [47]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [1]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [7]",
                 "🚩 CF | 🔓 VLESS | @kafing_2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [4]",
@@ -236,27 +238,13 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [47]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
             "type": "vless",
-            "server": "V2ngFast.huqpmfood.ir",
-            "server_port": 1146,
-            "uuid": "1d9c14fb-5c81-4f59-ad87-3da5d6e2603b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
-                }
-            }
+            "server": "pscresearch.faculty.ucdavis.edu",
+            "server_port": 80,
+            "uuid": "20a91d5e-0005-4b3f-9e2a-1b96934f8a88",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
@@ -293,6 +281,29 @@
             "uuid": "f829af7a-eaac-4f1f-b02a-38bbc0346868",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [7]",
+            "type": "vless",
+            "server": "V2ngFast.huqpmfood.ir",
+            "server_port": 1146,
+            "uuid": "1d9c14fb-5c81-4f59-ad87-3da5d6e2603b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @kafing_2 [6]",
