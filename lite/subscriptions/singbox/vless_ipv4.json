@@ -97,7 +97,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [56]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [54]",
+                "❔ XX | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -140,7 +141,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "❔ XX | 🔒 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -283,7 +283,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇫🇮 FI | 🔒 VLESS | @config_proxy [56]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [54]",
+                "❔ XX | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -326,7 +327,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "❔ XX | 🔒 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -642,25 +642,45 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [56]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [54]",
             "type": "vless",
-            "server": "178.20.215.2",
-            "server_port": 443,
-            "uuid": "192ea2c7-d7d0-6676-2929-b04a072b387d",
-            "flow": "xtls-rprx-vision",
+            "server": "104.17.148.22",
+            "server_port": 2053,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "speed.cloudflare.com",
+                "server_name": "mAHDIserVeR-bOM.paGEs.DEv",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/DcijbGfSbK93gk4Z?ed=2560",
+                "headers": {
+                    "Host": "mAHDIserVeR-bOM.paGEs.DEv"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "babacac-caba-caba-bdca-cbcbbabacaca",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
                     "enabled": true,
-                    "public_key": "GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA",
-                    "short_id": ""
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -1404,24 +1424,6 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @hope_net [19]",
-            "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "caaabcb-caab-abca-acdb-bcabcbacabac",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },

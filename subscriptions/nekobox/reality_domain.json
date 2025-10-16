@@ -84,6 +84,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -92,7 +93,6 @@
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [7]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -185,6 +185,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -193,7 +194,6 @@
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [7]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -462,6 +462,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [47]",
+            "type": "vless",
+            "server": "V2ngFast.huqpmfood.ir",
+            "server_port": 1146,
+            "uuid": "1d9c14fb-5c81-4f59-ad87-3da5d6e2603b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
+                    "short_id": "077dc29a23d311f2"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -662,29 +685,6 @@
                     "enabled": true,
                     "public_key": "dNkjYxE5YiKram-ccPm9s8bGwYVakt0M-Y3I8EQKLQ4",
                     "short_id": "e9797abf0202a439"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [7]",
-            "type": "vless",
-            "server": "V2ngFast.huqpmfood.ir",
-            "server_port": 1146,
-            "uuid": "1d9c14fb-5c81-4f59-ad87-3da5d6e2603b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
                 }
             }
         },
