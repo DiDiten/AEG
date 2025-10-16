@@ -97,7 +97,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇫🇮 FI | 🔓 VLESS | @config_proxy [53]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [58]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [60]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -282,7 +284,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇫🇮 FI | 🔓 VLESS | @config_proxy [53]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [58]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [60]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -640,13 +644,61 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @config_proxy [53]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [58]",
             "type": "vless",
-            "server": "65.109.189.20",
-            "server_port": 22995,
-            "uuid": "ca0ad815-c77a-4572-875c-1bc45494e9e9",
+            "server": "45.15.127.196",
+            "server_port": 443,
+            "uuid": "6d2e2298-7bef-476f-b06d-6062980d75db",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jSx3_X_tBAcNgp7SrKSfZnr5WN0cTN2ShEJv4rHceQU",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [59]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "5770b9e6-d3c6-422b-861b-c1e630d89200",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "172.66.40.99",
+            "server_port": 443,
+            "uuid": "e7663c6a-31a6-4ad8-9500-807d48f91249",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "2free2.aparatir.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/admin",
+                "headers": {
+                    "Host": "2free2.aparatir.xyz"
+                }
+            }
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
