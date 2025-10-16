@@ -192,8 +192,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
-                "🇵🇱 PL | 🔒 VLESS | @orange_vpns [17]",
-                "🚩 CF | 🔒 VLESS | @orange_vpns [18]",
+                "🇵🇱 PL | 🔒 VLESS | @orange_vpns [16]",
+                "🚩 CF | 🔒 VLESS | @orange_vpns [17]",
                 "🇳🇱 NL | 🔒 VLESS | @outline_ir [13]",
                 "🚩 CF | 🔒 VLESS | @outline_ir [14]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -267,8 +267,8 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
-                "🇮🇷 IR | 🔓 VLESS | @vmesc [20]",
+                "🇮🇷 IR | 🔓 VLESS | @vmesc [19]",
+                "🇫🇮 FI | 🔒 VLESS | @vmesc [20]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [3]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [4]",
@@ -406,8 +406,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
-                "🇵🇱 PL | 🔒 VLESS | @orange_vpns [17]",
-                "🚩 CF | 🔒 VLESS | @orange_vpns [18]",
+                "🇵🇱 PL | 🔒 VLESS | @orange_vpns [16]",
+                "🚩 CF | 🔒 VLESS | @orange_vpns [17]",
                 "🇳🇱 NL | 🔒 VLESS | @outline_ir [13]",
                 "🚩 CF | 🔒 VLESS | @outline_ir [14]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
@@ -481,8 +481,8 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
-                "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
-                "🇮🇷 IR | 🔓 VLESS | @vmesc [20]",
+                "🇮🇷 IR | 🔓 VLESS | @vmesc [19]",
+                "🇫🇮 FI | 🔒 VLESS | @vmesc [20]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [3]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [4]",
@@ -2504,7 +2504,7 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VLESS | @orange_vpns [17]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @orange_vpns [16]",
             "type": "vless",
             "server": "tiktok.ducks.tel",
             "server_port": 443,
@@ -2527,7 +2527,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @orange_vpns [18]",
+            "tag": "🚩 CF | 🔒 VLESS | @orange_vpns [17]",
             "type": "vless",
             "server": "gur.gov.ua",
             "server_port": 443,
@@ -3854,22 +3854,36 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "m63a.vip784.com",
-            "server_port": 33801,
-            "uuid": "115e0e05-2820-4ae9-bf62-4142ce058574",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @vmesc [20]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @vmesc [19]",
             "type": "vless",
             "server": "god.pesfifa.monster",
             "server_port": 1010,
             "uuid": "3daf76ce-dfbf-4b55-b1a7-5f4f00a20b8a",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "fin-0001-xr.packet-drop-society.net",
+            "server_port": 443,
+            "uuid": "562c71d0-f18b-402c-b1ad-5c2bbfcd6e02",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws",
+                    "short_id": "d3b13f31"
+                }
+            }
         },
         {
             "tag": "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",

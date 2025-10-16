@@ -98,8 +98,7 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
-                "🇩🇪 DE | 🔒 TROJAN | @free4allvpn [18]",
-                "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [19]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
@@ -127,8 +126,7 @@
                 "❔ XX | 🔒 TROJAN | @maradona_vpn [9]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
-                "🇩🇪 DE | 🔒 TROJAN | @free4allvpn [18]",
-                "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [19]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [16]",
@@ -345,34 +343,25 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @free4allvpn [18]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
             "type": "trojan",
-            "server": "213.108.198.158",
-            "server_port": 8441,
-            "password": "tunnel-astrovpn_official103",
+            "server": "172.64.146.66",
+            "server_port": 443,
+            "password": "auto",
             "tls": {
                 "enabled": true,
-                "server_name": "zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.monster.AstroVPN_OfficialJoinTelegram-------------AstroVPN_Official----------Join.ir",
+                "server_name": "trojanfree-76s.pages.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [19]",
-            "type": "trojan",
-            "server": "160.16.138.24",
-            "server_port": 5041,
-            "password": "c53647f3153f784b3c695ffbe5fb43c0",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.baidu.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trojanfree-76s.pages.dev/?ed=2560",
+                "headers": {
+                    "Host": "trojanfree-76s.pages.dev"
                 }
             }
         },
