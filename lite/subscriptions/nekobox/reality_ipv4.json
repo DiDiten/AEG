@@ -80,7 +80,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [71]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [15]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -114,9 +113,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [13]",
-                "🇭🇰 HK | 🔒 VLESS | @vpnplusee_free [14]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]"
+                "🇭🇰 HK | 🔒 VLESS | @vpnplusee_free [13]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -127,7 +125,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [71]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [15]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -161,9 +158,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [13]",
-                "🇭🇰 HK | 🔒 VLESS | @vpnplusee_free [14]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]"
+                "🇭🇰 HK | 🔒 VLESS | @vpnplusee_free [13]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [14]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -250,29 +246,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [71]",
-            "type": "vless",
-            "server": "46.17.103.204",
-            "server_port": 443,
-            "uuid": "f7312d02-d520-4e15-8266-fb2ec831ac66",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.microsoft.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "CRsbpFGd_TrUqw6knw03PGXOAPByyMIeNOar9ncY-2g",
-                    "short_id": "e849c8958a546357"
                 }
             }
         },
@@ -1056,30 +1029,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [13]",
-            "type": "vless",
-            "server": "193.46.81.151",
-            "server_port": 49330,
-            "uuid": "a27ff611-7c01-4df3-9471-4fd5cd4bb8e1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "miro.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Dee9YE139lZpb4V3QytB8DvHY3nTCnEXzk2IjvMLHi8",
-                    "short_id": "b3"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @vpnplusee_free [14]",
+            "tag": "🇭🇰 HK | 🔒 VLESS | @vpnplusee_free [13]",
             "type": "vless",
             "server": "45.38.42.42",
             "server_port": 39250,
@@ -1102,7 +1052,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [15]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [14]",
             "type": "vless",
             "server": "162.19.175.55",
             "server_port": 9954,
