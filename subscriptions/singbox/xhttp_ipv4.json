@@ -92,8 +92,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [67]",
+                "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [60]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [65]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -152,7 +153,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [56]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [5]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [1]"
             ],
             "tag": "proxy",
@@ -164,8 +164,9 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [67]",
+                "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [60]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [65]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -224,7 +225,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [56]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [5]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [1]"
             ],
             "tag": "auto",
@@ -312,7 +312,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -321,13 +321,36 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [67]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [60]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "7619bae4-4256-440a-a599-0814ad47b8c9",
+            "uuid": "a4ad558a-a435-46e2-a43c-cff6e51ceced",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [65]",
+            "type": "vless",
+            "server": "91.99.179.233",
+            "server_port": 443,
+            "uuid": "Parsashonam-316",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LOi-3brURXBaOe83KFpaKZ5A4exl3J9qjeZIIWa8GCQ",
+                    "short_id": "0a8b4a1ad485¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
@@ -1347,29 +1370,6 @@
                     "enabled": true,
                     "public_key": "sa5RHNjAAD3hYv4OU_YYU08gRUsmPs5JdZES5Xy3pn8",
                     "short_id": "61e683d41fdb"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [5]",
-            "type": "vless",
-            "server": "91.98.88.131",
-            "server_port": 443,
-            "uuid": "56dc390e-bfac-4642-9300-b3deb4c4644a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "87I7aEBv0W9xl5LoEkJpd_wi6zBbVDUNDA-zZruC53g",
-                    "short_id": ""
                 }
             }
         },

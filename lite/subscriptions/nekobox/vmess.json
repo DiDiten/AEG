@@ -124,8 +124,8 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇩🇪 DE | 🔓 VMESS | @mowjproxy [5]",
-                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [7]",
+                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [5]",
+                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [6]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇫🇷 FR | 🔓 VMESS | @netfreedom0 [18]",
@@ -227,8 +227,8 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇩🇪 DE | 🔓 VMESS | @mowjproxy [5]",
-                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [7]",
+                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [5]",
+                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [6]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇫🇷 FR | 🔓 VMESS | @netfreedom0 [18]",
@@ -1057,16 +1057,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @mowjproxy [5]",
-            "type": "vmess",
-            "server": "91.98.72.199",
-            "server_port": 80,
-            "uuid": "39ac19f8-1dbc-4408-915c-e730351cdb6e",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VMESS | @mowjproxy [7]",
+            "tag": "🇫🇷 FR | 🔒 VMESS | @mowjproxy [5]",
             "type": "vmess",
             "server": "141.94.155.228",
             "server_port": 443,
@@ -1087,6 +1078,31 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "kampong.org"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @mowjproxy [6]",
+            "type": "vmess",
+            "server": "57.129.59.200",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "serkat.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "serkat.org"
                 }
             }
         },
