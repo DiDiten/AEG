@@ -84,8 +84,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [63]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [68]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -136,7 +134,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇬🇧 GB | 🔒 VLESS | @v2raych [10]",
+                "🇨🇭 CH | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
@@ -194,8 +192,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [63]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [68]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -246,7 +242,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇬🇧 GB | 🔒 VLESS | @v2raych [10]",
+                "🇨🇭 CH | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
@@ -477,52 +473,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇰🇿 KZ | 🔒 VLESS | @config_proxy [63]",
-            "type": "vless",
-            "server": "kz.accesspoints.cloakify.app",
-            "server_port": 38339,
-            "uuid": "481c5606-b586-44d7-bc2e-d8ef30d67f62",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "dl.google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "o0MFuznHh_Wztg0FTAMhFXm3hjAqOJAJIIVNn-_A9WA",
-                    "short_id": "e16883e511"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [68]",
-            "type": "vless",
-            "server": "mmm.miliran.online",
-            "server_port": 8443,
-            "uuid": "7f7df48c-7868-4257-b55a-8380ce73e66c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7dWEUpwvK1rlH26l32ZN5FdGoeorCb6lE2Us6cm9xwI",
-                    "short_id": "e427a8"
-                }
             }
         },
         {
@@ -1767,16 +1717,16 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @v2raych [10]",
+            "tag": "🇨🇭 CH | 🔒 VLESS | @v2raych [20]",
             "type": "vless",
-            "server": "mxmskje.kh87.sslqlkdlqmnx.kwkndlsnbxqpkenfnx.irangmail.com",
-            "server_port": 443,
-            "uuid": "c77af948-3e74-435f-b5bf-2469cf60cfff",
+            "server": "switzerland.marzxo.biz",
+            "server_port": 8088,
+            "uuid": "4c3cc608-2cbc-62b7-5f94-3a23ddcd73fb",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "pcmag.com",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1784,8 +1734,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "b-eNFWwd6a1LTKon3gGfRugiGC2CpIRdjn8Y557QWSY",
-                    "short_id": "fd"
+                    "public_key": "Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU",
+                    "short_id": "828348fc6d8e49cf"
                 }
             }
         },

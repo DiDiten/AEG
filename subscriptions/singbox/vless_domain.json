@@ -119,10 +119,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🇩🇪 DE | 🔓 VLESS | @bored_vpn [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [60]",
-                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [63]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [68]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [69]",
+                "❔ XX | 🔓 VLESS | @config_proxy [45]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -561,8 +559,8 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇬🇧 GB | 🔒 VLESS | @v2raych [10]",
-                "🚩 CF | 🔒 VLESS | @v2raych [14]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [3]",
+                "🇨🇭 CH | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
@@ -722,10 +720,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🇩🇪 DE | 🔓 VLESS | @bored_vpn [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [60]",
-                "🇰🇿 KZ | 🔒 VLESS | @config_proxy [63]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [68]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [69]",
+                "❔ XX | 🔓 VLESS | @config_proxy [45]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @configforvpn01 [4]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [7]",
@@ -1164,8 +1160,8 @@
                 "🚩 CF | 🔒 VLESS | @v2raybe [1]",
                 "🚩 CF | 🔒 VLESS | @v2raybe [3]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
-                "🇬🇧 GB | 🔒 VLESS | @v2raych [10]",
-                "🚩 CF | 🔒 VLESS | @v2raych [14]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [3]",
+                "🇨🇭 CH | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [10]",
@@ -1892,7 +1888,23 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [60]",
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "creativE-coMPUter.Oneeat.Co",
+            "server_port": 80,
+            "uuid": "f1fe4963-66f7-4f71-a038-9e07ea6cf20f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "creativE-coMPUter.Oneeat.Co"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [47]",
             "type": "vless",
             "server": "gur.gov.ua",
             "server_port": 4,
@@ -1913,77 +1925,6 @@
                 "path": "/?ed",
                 "headers": {
                     "Host": "azadnet3-9do.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇰🇿 KZ | 🔒 VLESS | @config_proxy [63]",
-            "type": "vless",
-            "server": "kz.accesspoints.cloakify.app",
-            "server_port": 38339,
-            "uuid": "481c5606-b586-44d7-bc2e-d8ef30d67f62",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "dl.google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "o0MFuznHh_Wztg0FTAMhFXm3hjAqOJAJIIVNn-_A9WA",
-                    "short_id": "e16883e511"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [68]",
-            "type": "vless",
-            "server": "mmm.miliran.online",
-            "server_port": 8443,
-            "uuid": "7f7df48c-7868-4257-b55a-8380ce73e66c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7dWEUpwvK1rlH26l32ZN5FdGoeorCb6lE2Us6cm9xwI",
-                    "short_id": "e427a8"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [69]",
-            "type": "vless",
-            "server": "ula347.tiri-viri.com",
-            "server_port": 21275,
-            "uuid": "678a8311-6184-4a1f-a651-84be3cc82e37",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ula347.tiri-viri.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "ula347.tiri-viri.com"
                 }
             }
         },
@@ -9570,16 +9511,25 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @v2raych [10]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [3]",
             "type": "vless",
-            "server": "mxmskje.kh87.sslqlkdlqmnx.kwkndlsnbxqpkenfnx.irangmail.com",
-            "server_port": 443,
-            "uuid": "c77af948-3e74-435f-b5bf-2469cf60cfff",
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "c1071491-ebcf-4507-a6d5-486b54637c06",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇨🇭 CH | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "switzerland.marzxo.biz",
+            "server_port": 8088,
+            "uuid": "4c3cc608-2cbc-62b7-5f94-3a23ddcd73fb",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "pcmag.com",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -9587,33 +9537,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "b-eNFWwd6a1LTKon3gGfRugiGC2CpIRdjn8Y557QWSY",
-                    "short_id": "fd"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @v2raych [14]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "d7d6745c-7264-44a4-a62f-97b4ce83a951",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "totoo.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "totoo.pages.dev"
+                    "public_key": "Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU",
+                    "short_id": "828348fc6d8e49cf"
                 }
             }
         },

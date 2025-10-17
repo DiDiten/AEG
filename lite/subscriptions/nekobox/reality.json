@@ -111,6 +111,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [51]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [15]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -131,7 +132,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇬🇧 GB | 🔒 VLESS | @prrofile_purple [149]",
                 "🇬🇧 GB | 🔒 VLESS | @prrofile_purple [150]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
@@ -192,6 +192,7 @@
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [51]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇳🇱 NL | 🔒 VLESS | @flyv2ray [15]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -212,7 +213,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇬🇧 GB | 🔒 VLESS | @prrofile_purple [149]",
                 "🇬🇧 GB | 🔒 VLESS | @prrofile_purple [150]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [6]",
                 "🇳🇱 NL | 🔒 VLESS | @tehranfreevpn [7]",
@@ -1071,6 +1071,29 @@
             }
         },
         {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "212.134.84.111",
+            "server_port": 443,
+            "uuid": "c77af948-3e74-435f-b5bf-2469cf60cfff",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "pcmag.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "b-eNFWwd6a1LTKon3gGfRugiGC2CpIRdjn8Y557QWSY",
+                    "short_id": "fd"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
             "type": "vless",
             "server": "172.232.33.18",
@@ -1543,29 +1566,6 @@
                     "enabled": true,
                     "public_key": "z--KbBlQtkBgTcrtdBJeGeCymIrLdaUDwkb44pAp6nY",
                     "short_id": "4c"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @prrofile_purple [149]",
-            "type": "vless",
-            "server": "212.134.84.111",
-            "server_port": 443,
-            "uuid": "c77af948-3e74-435f-b5bf-2469cf60cfff",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "pcmag.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "b-eNFWwd6a1LTKon3gGfRugiGC2CpIRdjn8Y557QWSY",
-                    "short_id": "fd"
                 }
             }
         },
