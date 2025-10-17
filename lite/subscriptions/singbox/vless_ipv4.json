@@ -97,9 +97,9 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [62]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [63]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [64]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [50]",
+                "🇹🇷 TR | 🔓 VLESS | @config_proxy [51]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [52]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -177,7 +177,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @minovpnch [13]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [5]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [2]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [12]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [13]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
@@ -291,9 +291,9 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [62]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [63]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [64]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [50]",
+                "🇹🇷 TR | 🔓 VLESS | @config_proxy [51]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [52]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -371,7 +371,7 @@
                 "🇮🇷 IR | 🔓 VLESS | @minovpnch [13]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [5]",
+                "🇩🇪 DE | 🔒 VLESS | @mowjproxy [2]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [12]",
                 "🇮🇷 IR | 🔓 VLESS | @mpproxy [13]",
                 "🇺🇸 US | 🔓 VLESS | @mpproxy [14]",
@@ -647,63 +647,35 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [62]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [50]",
             "type": "vless",
-            "server": "172.67.146.171",
-            "server_port": 2095,
-            "uuid": "afe84c72-1b4c-442c-915a-a80f43c45e3b",
+            "server": "172.66.156.81",
+            "server_port": 80,
+            "uuid": "2e48cc0c-284d-49b0-b7ad-b2f47be3650e",
             "flow": "",
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [63]",
+            "tag": "🇹🇷 TR | 🔓 VLESS | @config_proxy [51]",
             "type": "vless",
-            "server": "199.34.228.41",
-            "server_port": 443,
-            "uuid": "fca01448-d84a-436e-9aec-3be1ebdfb350",
+            "server": "95.134.130.138",
+            "server_port": 5437,
+            "uuid": "3f0789a9-df63-4520-beed-4e29bf4fd0b3",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sB-1u6.Pages.DEV",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "/if1pdmbi6sinplj2/mtu4ljewms4ymdmumti3?ed=2560",
-                "headers": {
-                    "Host": "sB-1u6.Pages.DEV"
-                }
+                "type": "grpc",
+                "service_name": "EVAY_VPN----EVAY_VPN----EVAY_VPN-—-EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN----EVAY_VPN-"
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [64]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [52]",
             "type": "vless",
-            "server": "108.162.195.207",
-            "server_port": 443,
-            "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
+            "server": "172.66.156.81",
+            "server_port": 80,
+            "uuid": "2e48cc0c-284d-49b0-b7ad-b2f47be3650e",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ay.ylks.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2048",
-                "headers": {
-                    "Host": "ay.ylks.xyz"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -2039,7 +2011,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [5]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @mowjproxy [2]",
             "type": "vless",
             "server": "5.75.206.114",
             "server_port": 443,
