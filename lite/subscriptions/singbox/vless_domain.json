@@ -104,6 +104,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🇩🇪 DE | 🔓 VLESS | @bored_vpn [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [79]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [80]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -124,7 +126,7 @@
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [17]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [15]",
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [14]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [15]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
@@ -189,7 +191,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
-                "🇮🇷 IR | 🔓 VLESS | @mowjproxy [4]",
+                "🇮🇷 IR | 🔓 VLESS | @mowjproxy [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -321,6 +323,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🇩🇪 DE | 🔓 VLESS | @bored_vpn [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [79]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [80]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -341,7 +345,7 @@
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "❔ XX | 🔓 VLESS | @eliteproxyv2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [17]",
+                "🇩🇪 DE | 🔒 VLESS | @falcunargo [15]",
                 "🇩🇪 DE | 🔓 VLESS | @flyv2ray [14]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [15]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
@@ -406,7 +410,7 @@
                 "❔ XX | 🔓 VLESS | @miov2ray [11]",
                 "❔ XX | 🔓 VLESS | @miov2ray [12]",
                 "❔ XX | 🔓 VLESS | @miyanbor_vpn [1]",
-                "🇮🇷 IR | 🔓 VLESS | @mowjproxy [4]",
+                "🇮🇷 IR | 🔓 VLESS | @mowjproxy [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [3]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [4]",
                 "❔ XX | 🔒 VLESS | @mrvpn1403 [5]",
@@ -818,6 +822,33 @@
             }
         },
         {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [79]",
+            "type": "vless",
+            "server": "ftp4.tehran-park.com",
+            "server_port": 2053,
+            "uuid": "8004761d-c291-437c-9c0d-a2819a2576f0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp4.tehran-park.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [80]",
+            "type": "vless",
+            "server": "ftp5.tehran-park.com",
+            "server_port": 80,
+            "uuid": "8004761d-c291-437c-9c0d-a2819a2576f0",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -1169,7 +1200,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [17]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [15]",
             "type": "vless",
             "server": "services.dissertationhelpspecialist.com",
             "server_port": 443,
@@ -2259,7 +2290,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @mowjproxy [4]",
+            "tag": "🇮🇷 IR | 🔓 VLESS | @mowjproxy [3]",
             "type": "vless",
             "server": "1conf.top",
             "server_port": 8880,
