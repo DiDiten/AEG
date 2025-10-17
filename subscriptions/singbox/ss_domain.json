@@ -115,7 +115,8 @@
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
                 "🇬🇧 GB | 🔒 SS | @v2ray_free_conf [16]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
-                "🇬🇧 GB | 🔒 SS | @vpnowl [17]"
+                "🇬🇧 GB | 🔒 SS | @vpnowl [17]",
+                "🇵🇱 PL | 🔒 SS | @zerobaipiao [39]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -149,7 +150,8 @@
                 "🇬🇧 GB | 🔒 SS | @torang_vpn [4]",
                 "🇬🇧 GB | 🔒 SS | @v2ray_free_conf [16]",
                 "🇬🇧 GB | 🔒 SS | @v2rayngalpha [2]",
-                "🇬🇧 GB | 🔒 SS | @vpnowl [17]"
+                "🇬🇧 GB | 🔒 SS | @vpnowl [17]",
+                "🇵🇱 PL | 🔒 SS | @zerobaipiao [39]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -426,6 +428,14 @@
             "server_port": 2053,
             "method": "2022-blake3-aes-256-gcm",
             "password": "5CX5dFRzQ29X1CTxHC/vsB35i7lLe82HeloZ3LBBbRw=:lVWD5jwK0Z2r7SodPX41giubPaDi4IrgkTfQ+ejUaFw="
+        },
+        {
+            "tag": "🇵🇱 PL | 🔒 SS | @zerobaipiao [39]",
+            "type": "shadowsocks",
+            "server": "pl.vpnsparta.pro",
+            "server_port": 57456,
+            "method": "chacha20-ietf-poly1305",
+            "password": "360e21d21977dc11"
         }
     ],
     "route": {
