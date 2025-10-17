@@ -104,7 +104,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🇩🇪 DE | 🔓 VLESS | @bored_vpn [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [63]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -201,7 +200,7 @@
                 "❔ XX | 🔓 VLESS | @nepo_v2ray [23]",
                 "🚩 CF | 🔒 VLESS | @nepo_v2ray [24]",
                 "❔ XX | 🔒 VLESS | @netazadchannel [4]",
-                "🇦🇪 AE | 🔓 VLESS | @netmellianti [16]",
+                "🇦🇪 AE | 🔓 VLESS | @netmellianti [15]",
                 "❔ XX | 🔓 VLESS | @next_serverpanel [3]",
                 "❔ XX | 🔓 VLESS | @next_serverpanel [4]",
                 "❔ XX | 🔓 VLESS | @next_serverpanel [5]",
@@ -282,6 +281,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [3]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [4]",
@@ -318,7 +318,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🇩🇪 DE | 🔓 VLESS | @bored_vpn [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [63]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -415,7 +414,7 @@
                 "❔ XX | 🔓 VLESS | @nepo_v2ray [23]",
                 "🚩 CF | 🔒 VLESS | @nepo_v2ray [24]",
                 "❔ XX | 🔒 VLESS | @netazadchannel [4]",
-                "🇦🇪 AE | 🔓 VLESS | @netmellianti [16]",
+                "🇦🇪 AE | 🔓 VLESS | @netmellianti [15]",
                 "❔ XX | 🔓 VLESS | @next_serverpanel [3]",
                 "❔ XX | 🔓 VLESS | @next_serverpanel [4]",
                 "❔ XX | 🔓 VLESS | @next_serverpanel [5]",
@@ -496,6 +495,7 @@
                 "🚩 CF | 🔒 VLESS | @vboxpanel [7]",
                 "❔ XX | 🔓 VLESS | @vip_vpn_2022 [6]",
                 "❔ XX | 🔒 VLESS | @vipnetmeli [1]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
                 "🇹🇷 TR | 🔓 VLESS | @vmesskhodam [13]",
                 "🇦🇺 AU | 🔓 VLESS | @vmessorg [3]",
                 "🇫🇷 FR | 🔓 VLESS | @vmessorg [4]",
@@ -809,31 +809,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [63]",
-            "type": "vless",
-            "server": "best.cdniran.info",
-            "server_port": 443,
-            "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "smart.trevanda.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "smart.trevanda.info"
-                }
             }
         },
         {
@@ -2476,7 +2451,7 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🔓 VLESS | @netmellianti [16]",
+            "tag": "🇦🇪 AE | 🔓 VLESS | @netmellianti [15]",
             "type": "vless",
             "server": "uaegaming.gojustore.site",
             "server_port": 7035,
@@ -3934,6 +3909,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "okala.com"
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "ru-nl01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "c80bbc09-837d-495f-bebc-3e8ac5dede41",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "31"
+                }
             }
         },
         {

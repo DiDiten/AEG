@@ -121,6 +121,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [12]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [13]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
@@ -162,6 +163,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [12]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [13]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]"
             ],
@@ -949,6 +951,29 @@
                     "enabled": true,
                     "public_key": "COh8PaOebru8HlshEfNEN3_6pXREyUPQvyLWfX0zT3Y",
                     "short_id": "5e"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "ru-nl01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "c80bbc09-837d-495f-bebc-3e8ac5dede41",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "31"
                 }
             }
         },

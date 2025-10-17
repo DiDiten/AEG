@@ -121,6 +121,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [12]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [13]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -138,7 +139,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [11]",
-                "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
+                "🇫🇷 FR | 🔒 VLESS | @netmellianti [13]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -155,7 +156,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇬🇷 GR | 🔒 VLESS | @vmesc [19]",
+                "🇬🇷 GR | 🔒 VLESS | @vmesc [18]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇨🇭 CH | 🔒 VLESS | @vpnplusee_free [16]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
@@ -199,6 +200,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [12]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [13]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
+                "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -216,7 +218,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @merdesert [4]",
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [11]",
-                "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
+                "🇫🇷 FR | 🔒 VLESS | @netmellianti [13]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
@@ -233,7 +235,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇬🇷 GR | 🔒 VLESS | @vmesc [19]",
+                "🇬🇷 GR | 🔒 VLESS | @vmesc [18]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇨🇭 CH | 🔒 VLESS | @vpnplusee_free [16]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
@@ -1027,6 +1029,29 @@
             }
         },
         {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "ru-nl01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "c80bbc09-837d-495f-bebc-3e8ac5dede41",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "31"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
             "type": "vless",
             "server": "icloud.wlftest.xyz",
@@ -1430,7 +1455,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @netmellianti [13]",
             "type": "vless",
             "server": "95.182.97.162",
             "server_port": 7033,
@@ -1825,7 +1850,7 @@
             }
         },
         {
-            "tag": "🇬🇷 GR | 🔒 VLESS | @vmesc [19]",
+            "tag": "🇬🇷 GR | 🔒 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "85.90.197.100",
             "server_port": 9956,
