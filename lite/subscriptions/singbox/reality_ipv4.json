@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [62]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇮🇸 IS | 🔒 VLESS | @free4allvpn [19]",
                 "🇨🇭 CH | 🔒 VLESS | @free4allvpn [20]",
@@ -123,7 +124,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇬🇧 GB | 🔒 VLESS | @vmesc [18]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [13]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [14]"
@@ -137,6 +137,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [62]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇮🇸 IS | 🔒 VLESS | @free4allvpn [19]",
                 "🇨🇭 CH | 🔒 VLESS | @free4allvpn [20]",
@@ -168,7 +169,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇬🇧 GB | 🔒 VLESS | @vmesc [18]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [13]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [14]"
@@ -255,6 +255,33 @@
                 "headers": {
                     "Host": "127.0.0.1"
                 }
+            }
+        },
+        {
+            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [62]",
+            "type": "vless",
+            "server": "103.241.67.209",
+            "server_port": 2053,
+            "uuid": "46c13f51-af3a-47de-a2a3-b6cae11ba178",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "103.241.67.209",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wpWNNMGQM6c9P2-anqdjUPtC4XPPrfkh_HGo0a5aFgk",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Tel:@VPN_KING_V2RAY@VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY%2"
             }
         },
         {
@@ -983,29 +1010,6 @@
                     "enabled": true,
                     "public_key": "Qdg7LVP5VmLr7xzv556ry5RNc3QaeAj4TwOUxndA23M",
                     "short_id": "e3f89b63"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "212.134.84.108",
-            "server_port": 443,
-            "uuid": "c77af948-3e74-435f-b5bf-2469cf60cfff",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "pcmag.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "b-eNFWwd6a1LTKon3gGfRugiGC2CpIRdjn8Y557QWSY",
-                    "short_id": "fd"
                 }
             }
         },
