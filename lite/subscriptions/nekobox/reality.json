@@ -82,6 +82,8 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [72]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [73]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -105,7 +107,7 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @server_nekobox [6]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [12]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [13]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
@@ -141,9 +143,9 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [15]",
+                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [12]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]"
             ],
@@ -158,6 +160,8 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [72]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [73]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -181,7 +185,7 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇩🇪 DE | 🔒 VLESS | @server_nekobox [6]",
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
-                "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [12]",
+                "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [13]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
                 "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
@@ -217,9 +221,9 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
-                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [15]",
+                "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [12]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]"
             ],
@@ -359,6 +363,52 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [72]",
+            "type": "vless",
+            "server": "rege.blackkwolff.com",
+            "server_port": 5600,
+            "uuid": "f95fe87a-975c-4f3c-9d17-40de7301ce25",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.hanigalery.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uWFwB_kBPUYJE2EW7DMufzdPlL9bYzY73UdoWBjRzUM",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭 CH | 🔒 VLESS | @config_proxy [73]",
+            "type": "vless",
+            "server": "resw.blackkwolff.com",
+            "server_port": 5600,
+            "uuid": "f95fe87a-975c-4f3c-9d17-40de7301ce25",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.hanigalery.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uWFwB_kBPUYJE2EW7DMufzdPlL9bYzY73UdoWBjRzUM",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -923,7 +973,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [12]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [11]",
             "type": "vless",
             "server": "vfast7.hvitrin.ir",
             "server_port": 49330,
@@ -1767,7 +1817,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [18]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "91.98.86.54",
             "server_port": 9954,
@@ -1813,7 +1863,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [15]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @vpnplusee_free [12]",
             "type": "vless",
             "server": "5.181.171.2",
             "server_port": 443,
