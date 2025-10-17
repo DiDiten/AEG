@@ -81,7 +81,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
@@ -91,7 +90,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇳🇱 NL | 🔒 VLESS | @mowjproxy [4]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
@@ -106,7 +104,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [12]"
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [13]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -118,7 +116,6 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
-                "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
@@ -128,7 +125,6 @@
                 "🇩🇪 DE | 🔓 VLESS | @manstervpn [65]",
                 "🇳🇱 NL | 🔓 VLESS | @minovpnch [14]",
                 "🇨🇭 CH | 🔓 VLESS | @minovpnch [15]",
-                "🇳🇱 NL | 🔒 VLESS | @mowjproxy [4]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
@@ -143,7 +139,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [13]",
-                "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [12]"
+                "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [13]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -239,15 +235,6 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "7619bae4-4256-440a-a599-0814ad47b8c9",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "fd314a22-2bbd-49c0-bc39-5b923b02b4bd",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -382,29 +369,6 @@
             "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @mowjproxy [4]",
-            "type": "vless",
-            "server": "45.252.182.100",
-            "server_port": 8880,
-            "uuid": "4c8562e6-c566-4a22-81c5-2fd97d3ce468",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "snappfood.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "kK5ZAWY5fX_nKRrVYVcEnEO0yMUfv8sxvqqW2qGOITc",
-                    "short_id": "8a7228c6d7963898"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
@@ -667,13 +631,27 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [12]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vpnplusee_free [13]",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "16ce01ab-6087-4f63-9439-c56277c3083d",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "45.252.182.100",
+            "server_port": 8880,
+            "uuid": "4c8562e6-c566-4a22-81c5-2fd97d3ce468",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "snappfood.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "kK5ZAWY5fX_nKRrVYVcEnEO0yMUfv8sxvqqW2qGOITc",
+                    "short_id": "8a7228c6d7963898"
+                }
+            }
         }
     ],
     "route": {
