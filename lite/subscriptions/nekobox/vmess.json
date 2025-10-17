@@ -94,7 +94,7 @@
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
                 "🇺🇸 US | 🔓 VMESS | @diamondproxytm [3]",
                 "🇨🇿 CZ | 🔓 VMESS | @drvpn_net [1]",
-                "🇵🇱 PL | 🔒 VMESS | @free1_vpn [7]",
+                "🇩🇪 DE | 🔒 VMESS | @free1_vpn [7]",
                 "🇨🇭 CH | 🔓 VMESS | @freeshadowsock [3]",
                 "🇳🇱 NL | 🔓 VMESS | @freeshadowsock [4]",
                 "🇫🇮 FI | 🔓 VMESS | @freeshadowsock [5]",
@@ -125,7 +125,8 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [5]",
+                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [4]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [6]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇫🇷 FR | 🔓 VMESS | @netfreedom0 [18]",
@@ -196,7 +197,7 @@
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
                 "🇺🇸 US | 🔓 VMESS | @diamondproxytm [3]",
                 "🇨🇿 CZ | 🔓 VMESS | @drvpn_net [1]",
-                "🇵🇱 PL | 🔒 VMESS | @free1_vpn [7]",
+                "🇩🇪 DE | 🔒 VMESS | @free1_vpn [7]",
                 "🇨🇭 CH | 🔓 VMESS | @freeshadowsock [3]",
                 "🇳🇱 NL | 🔓 VMESS | @freeshadowsock [4]",
                 "🇫🇮 FI | 🔓 VMESS | @freeshadowsock [5]",
@@ -227,7 +228,8 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [5]",
+                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [4]",
+                "🚩 CF | 🔒 VMESS | @mowjproxy [6]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇫🇷 FR | 🔓 VMESS | @netfreedom0 [18]",
@@ -593,7 +595,7 @@
             }
         },
         {
-            "tag": "🇵🇱 PL | 🔒 VMESS | @free1_vpn [7]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @free1_vpn [7]",
             "type": "vmess",
             "server": "jamekk.org",
             "server_port": 443,
@@ -1080,7 +1082,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @mowjproxy [5]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @mowjproxy [4]",
             "type": "vmess",
             "server": "57.129.24.132",
             "server_port": 443,
@@ -1101,6 +1103,31 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "serkat.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [6]",
+            "type": "vmess",
+            "server": "104.17.148.22",
+            "server_port": 2083,
+            "uuid": "8ae65664-84e8-40e1-9708-9236f0808dfd",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "api3.waltonweb.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/panel?ed=2560",
+                "headers": {
+                    "Host": "api3.waltonweb.ir"
                 }
             }
         },

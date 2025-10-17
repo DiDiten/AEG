@@ -104,9 +104,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇸🇬 SG | 🔓 VLESS | @config_proxy [75]",
-                "🇸🇬 SG | 🔒 VLESS | @config_proxy [76]",
-                "🇸🇬 SG | 🔒 VLESS | @config_proxy [77]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -168,7 +165,7 @@
                 "❔ XX | 🔓 VLESS | @lakvpn1 [6]",
                 "❔ XX | 🔓 VLESS | @lakvpn1 [8]",
                 "🇮🇷 IR | 🔒 VLESS | @lax_vpn [1]",
-                "🇨🇦 CA | 🔒 VLESS | @lemonshopvpn [7]",
+                "❔ XX | 🔒 VLESS | @lemonshopvpn [7]",
                 "🚩 CF | 🔓 VLESS | @lemonshopvpn [8]",
                 "❔ XX | 🔓 VLESS | @lemonshopvpn [9]",
                 "❔ XX | 🔓 VLESS | @loatvpn [5]",
@@ -217,7 +214,7 @@
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
                 "🇨🇦 CA | 🔒 VLESS | @proxy_confiingir [3]",
-                "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
+                "🇨🇦 CA | 🔒 VLESS | @proxy_confiingir [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [2]",
                 "🚩 CF | 🔒 VLESS | @proxy_iranv2 [3]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -322,9 +319,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇸🇬 SG | 🔓 VLESS | @config_proxy [75]",
-                "🇸🇬 SG | 🔒 VLESS | @config_proxy [76]",
-                "🇸🇬 SG | 🔒 VLESS | @config_proxy [77]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -386,7 +380,7 @@
                 "❔ XX | 🔓 VLESS | @lakvpn1 [6]",
                 "❔ XX | 🔓 VLESS | @lakvpn1 [8]",
                 "🇮🇷 IR | 🔒 VLESS | @lax_vpn [1]",
-                "🇨🇦 CA | 🔒 VLESS | @lemonshopvpn [7]",
+                "❔ XX | 🔒 VLESS | @lemonshopvpn [7]",
                 "🚩 CF | 🔓 VLESS | @lemonshopvpn [8]",
                 "❔ XX | 🔓 VLESS | @lemonshopvpn [9]",
                 "❔ XX | 🔓 VLESS | @loatvpn [5]",
@@ -435,7 +429,7 @@
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
                 "🇨🇦 CA | 🔒 VLESS | @proxy_confiingir [3]",
-                "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
+                "🇨🇦 CA | 🔒 VLESS | @proxy_confiingir [4]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [2]",
                 "🚩 CF | 🔒 VLESS | @proxy_iranv2 [3]",
                 "❔ XX | 🔒 VLESS | @proxy_iranv2 [4]",
@@ -817,72 +811,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🔓 VLESS | @config_proxy [75]",
-            "type": "vless",
-            "server": "opx.onhit.xyz",
-            "server_port": 8443,
-            "uuid": "29bb5536-d14f-48c6-b9d0-1b3f977b850d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/shalana",
-                "headers": {
-                    "Host": "opx.onhit.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [76]",
-            "type": "vless",
-            "server": "opx.onhit.xyz",
-            "server_port": 443,
-            "uuid": "aefa56ac-1fa3-4979-b5a0-5a24bff3a88a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zoom.us",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/shalana",
-                "headers": {
-                    "Host": "zoom.us"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🔒 VLESS | @config_proxy [77]",
-            "type": "vless",
-            "server": "opx.onhit.xyz",
-            "server_port": 443,
-            "uuid": "aefa56ac-1fa3-4979-b5a0-5a24bff3a88a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "web.whatsapp.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/shalana",
-                "headers": {
-                    "Host": "web.whatsapp.net"
-                }
             }
         },
         {
@@ -1956,7 +1884,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VLESS | @lemonshopvpn [7]",
+            "tag": "❔ XX | 🔒 VLESS | @lemonshopvpn [7]",
             "type": "vless",
             "server": "cxc--join.outline-vpn.cloud",
             "server_port": 443,
@@ -2780,7 +2708,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @proxy_confiingir [4]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @proxy_confiingir [4]",
             "type": "vless",
             "server": "bia2.outline-vpn.cloud",
             "server_port": 443,
