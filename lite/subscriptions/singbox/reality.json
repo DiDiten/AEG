@@ -120,8 +120,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [11]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [67]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇮🇸 IS | 🔒 VLESS | @free4allvpn [19]",
                 "🇨🇭 CH | 🔒 VLESS | @free4allvpn [20]",
@@ -153,7 +154,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇬🇧 GB | 🔒 VLESS | @vmesc [18]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [11]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
@@ -196,8 +196,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raying [11]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "❔ XX | 🔒 VLESS | @xsv2ray [7]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [67]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇮🇸 IS | 🔒 VLESS | @free4allvpn [19]",
                 "🇨🇭 CH | 🔒 VLESS | @free4allvpn [20]",
@@ -229,7 +230,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇬🇧 GB | 🔒 VLESS | @vmesc [18]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [11]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
@@ -1000,7 +1000,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
             "type": "vless",
             "server": "icloud.wlftest.xyz",
             "server_port": 443,
@@ -1042,6 +1042,29 @@
                     "enabled": true,
                     "public_key": "277HDYaNIvLYS9CMSr1CbkcTaahPEUCymW_0Ad17p2M",
                     "short_id": "f2"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [67]",
+            "type": "vless",
+            "server": "212.95.41.20",
+            "server_port": 800,
+            "uuid": "04979a1c-300b-4eb6-9f85-235730566d54",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8sbYQLutiRgWxqzbPmYI0hIT2Gf5oH54C9F7H2DWKQ4",
+                    "short_id": "f7fea54424"
                 }
             }
         },
@@ -1771,29 +1794,6 @@
                     "enabled": true,
                     "public_key": "Qdg7LVP5VmLr7xzv556ry5RNc3QaeAj4TwOUxndA23M",
                     "short_id": "e3f89b63"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @vmesc [18]",
-            "type": "vless",
-            "server": "212.134.84.111",
-            "server_port": 443,
-            "uuid": "c77af948-3e74-435f-b5bf-2469cf60cfff",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "pcmag.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "b-eNFWwd6a1LTKon3gGfRugiGC2CpIRdjn8Y557QWSY",
-                    "short_id": "fd"
                 }
             }
         },
