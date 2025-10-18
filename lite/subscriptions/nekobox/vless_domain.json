@@ -92,7 +92,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [8]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [112]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [68]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [69]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -161,8 +162,8 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
-                "🇺🇸 US | 🔓 VLESS | @lranonline_new [2]",
                 "🚩 CF | 🔓 VLESS | @lranonline_new [3]",
+                "🚩 CF | 🔓 VLESS | @lranonline_new [5]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -232,7 +233,6 @@
                 "❔ XX | 🔓 VLESS | @shopingv2ray [1]",
                 "❔ XX | 🔓 VLESS | @sobi_vpn [9]",
                 "🚩 CF | 🔓 VLESS | @spikevpn [25]",
-                "🚩 CF | 🔓 VLESS | @spikevpn [26]",
                 "🚩 CF | 🔓 VLESS | @spikevpn [27]",
                 "❔ XX | 🔓 VLESS | @teamvpnpro [5]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [16]",
@@ -305,7 +305,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [8]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [112]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [68]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [69]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [1]",
@@ -374,8 +375,8 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
-                "🇺🇸 US | 🔓 VLESS | @lranonline_new [2]",
                 "🚩 CF | 🔓 VLESS | @lranonline_new [3]",
+                "🚩 CF | 🔓 VLESS | @lranonline_new [5]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -445,7 +446,6 @@
                 "❔ XX | 🔓 VLESS | @shopingv2ray [1]",
                 "❔ XX | 🔓 VLESS | @sobi_vpn [9]",
                 "🚩 CF | 🔓 VLESS | @spikevpn [25]",
-                "🚩 CF | 🔓 VLESS | @spikevpn [26]",
                 "🚩 CF | 🔓 VLESS | @spikevpn [27]",
                 "❔ XX | 🔓 VLESS | @teamvpnpro [5]",
                 "🇮🇷 IR | 🔓 VLESS | @tobevasl [16]",
@@ -802,13 +802,52 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [112]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [68]",
             "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-bia",
+            "server": "DEADSEECtelegram.slimyoutaavers.ir",
+            "server_port": 443,
+            "uuid": "099a60f0-644a-4bdc-ac5e-d228ebc81a36",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "U593zOEZ2sAAD_NXXxAwj9Ez-eIzfXbZPZglX1K6PzM",
+                    "short_id": "8be6aa26@V2rayNGVPN <= کانفیگ رایگان"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [69]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "d7d6745c-7264-44a4-a62f-97b4ce83a951",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "totoo.pages.dev@V2rayNGVPN <= کانفیگ رایگان",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?TELEGRAMV2rayBaaz?ed=512",
+                "headers": {
+                    "Host": "totoo.pages.dev@V2rayNGVPN <= کانفیگ رایگان"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -1999,15 +2038,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [2]",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-bia",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🚩 CF | 🔓 VLESS | @lranonline_new [3]",
             "type": "vless",
             "server": "test2.amin8263.ir",
@@ -2022,6 +2052,15 @@
                     "Host": "test2.amin8263.ir"
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @lranonline_new [5]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2086,
+            "uuid": "0a4a8b6f-0c3a-4240-82a9-e3faa4df407d",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
@@ -3214,15 +3253,6 @@
                     "Host": "www.speedtest.net"
                 }
             }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @spikevpn [26]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2086,
-            "uuid": "0a4a8b6f-0c3a-4240-82a9-e3faa4df407d",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🚩 CF | 🔓 VLESS | @spikevpn [27]",
