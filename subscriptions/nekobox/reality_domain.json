@@ -84,6 +84,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [79]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -132,6 +133,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇮🇹 IT | 🔒 VLESS | @v2raych [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
@@ -186,6 +188,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [79]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -234,6 +237,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇮🇹 IT | 🔒 VLESS | @v2raych [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
@@ -461,6 +465,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [79]",
+            "type": "vless",
+            "server": "deadseectelegram.slimyoutaavers.ir",
+            "server_port": 443,
+            "uuid": "099a60f0-644a-4bdc-ac5e-d228ebc81a36",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "U593zOEZ2sAAD_NXXxAwj9Ez-eIzfXbZPZglX1K6PzM",
+                    "short_id": "8be6aa26"
+                }
             }
         },
         {
@@ -1655,6 +1682,29 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇹 IT | 🔒 VLESS | @v2raych [10]",
+            "type": "vless",
+            "server": "italy.marzxo.biz",
+            "server_port": 8092,
+            "uuid": "dad1d6d1-e7b2-f2e1-6962-a59487058c2f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU",
+                    "short_id": "828348fc6d8e49cf"
                 }
             }
         },
