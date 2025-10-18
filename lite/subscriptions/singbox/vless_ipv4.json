@@ -97,7 +97,8 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [59]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [54]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -142,6 +143,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "🚩 CF | 🔒 VLESS | @hope_net [18]",
+                "🇩🇪 DE | 🔒 VLESS | @hope_net [19]",
+                "🇧🇪 BE | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -288,7 +292,8 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [59]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [54]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [55]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -333,6 +338,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
+                "🚩 CF | 🔒 VLESS | @hope_net [18]",
+                "🇩🇪 DE | 🔒 VLESS | @hope_net [19]",
+                "🇧🇪 BE | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -641,16 +649,53 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [59]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [54]",
             "type": "vless",
-            "server": "157.90.9.198",
-            "server_port": 4488,
-            "uuid": "1c4f8d84-2a66-4c8a-8ac3-898bbb2bf690",
+            "server": "190.93.247.54",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ly.kpcloud.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet"
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "ly.kpcloud.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "199.34.228.46",
+            "server_port": 443,
+            "uuid": "fca01448-d84a-436e-9aec-3be1ebdfb350",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sB-1u6.Pages.DEV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/if1pdmbi6sinplj2/mtu4ljewms4ymdmumti3?ed=2560",
+                "headers": {
+                    "Host": "sB-1u6.Pages.DEV"
+                }
             }
         },
         {
@@ -1422,6 +1467,81 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @hope_net [18]",
+            "type": "vless",
+            "server": "198.41.222.225",
+            "server_port": 443,
+            "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ay.ylks.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "ay.ylks.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "194.35.119.193",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ly.ylks01.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/blue",
+                "headers": {
+                    "Host": "ly.ylks01.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇧🇪 BE | 🔒 VLESS | @hope_net [20]",
+            "type": "vless",
+            "server": "34.22.142.117",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ly.ylks01.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/blue",
+                "headers": {
+                    "Host": "ly.ylks01.eu.org"
                 }
             }
         },
