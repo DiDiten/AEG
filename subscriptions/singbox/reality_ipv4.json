@@ -94,6 +94,8 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
+                "🇱🇻 LV | 🔒 VLESS | @config_proxy [55]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -103,7 +105,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [5]",
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [6]",
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [7]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
                 "🇩🇪 DE | 🔒 VLESS | @filterk0sh [13]",
                 "🇩🇪 DE | 🔒 VLESS | @filterk0sh [14]",
                 "🇰🇿 KZ | 🔒 VLESS | @filterk0sh [15]",
@@ -221,6 +222,8 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
+                "🇱🇻 LV | 🔒 VLESS | @config_proxy [55]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -230,7 +233,6 @@
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [5]",
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [6]",
                 "🇩🇪 DE | 🔒 VLESS | @connectshu [7]",
-                "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
                 "🇩🇪 DE | 🔒 VLESS | @filterk0sh [13]",
                 "🇩🇪 DE | 🔒 VLESS | @filterk0sh [14]",
                 "🇰🇿 KZ | 🔒 VLESS | @filterk0sh [15]",
@@ -464,6 +466,52 @@
                     "enabled": true,
                     "public_key": "HQdpA2sAkxUHghPtT8EUA1zPqkq_tz8ncwQM2zNkCS4",
                     "short_id": "b359bc5c70c21d55"
+                }
+            }
+        },
+        {
+            "tag": "🇱🇻 LV | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "195.135.252.28",
+            "server_port": 443,
+            "uuid": "099dbf2d-a8e0-406e-a85f-eba0ac9a68aa",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hGGVm0PiHJwNL34pBG6NLtbFGYVdcWhDu5zHYDoct08",
+                    "short_id": "4360e536"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [62]",
+            "type": "vless",
+            "server": "5.75.206.114",
+            "server_port": 443,
+            "uuid": "d725c933-1043-4924-8451-78c35bd5177a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "O1mmPNBiL4Kmx-lEReau8WJUrjgZE5ew2lnC4T4mGg8",
+                    "short_id": "af7022c5"
                 }
             }
         },
@@ -704,29 +752,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "telegram-ipV2Ry-telegram-ipV2Ry-telegram-ipV2Ry"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @falcunargo [5]",
-            "type": "vless",
-            "server": "5.75.206.114",
-            "server_port": 443,
-            "uuid": "d725c933-1043-4924-8451-78c35bd5177a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "O1mmPNBiL4Kmx-lEReau8WJUrjgZE5ew2lnC4T4mGg8",
-                    "short_id": "af7022c5"
-                }
             }
         },
         {

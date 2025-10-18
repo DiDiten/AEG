@@ -110,12 +110,13 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
+                "🇭🇰 HK | 🔓 TROJAN | @config_proxy [61]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [11]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
                 "🚩 CF | 🔒 TROJAN | @hope_net [7]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [9]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [12]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [13]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [10]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [11]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -202,12 +203,13 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [1]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [2]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
+                "🇭🇰 HK | 🔓 TROJAN | @config_proxy [61]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [11]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
                 "🚩 CF | 🔒 TROJAN | @hope_net [7]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [9]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [12]",
-                "🚩 CF | 🔒 TROJAN | @hope_net [13]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [10]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [11]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -903,6 +905,22 @@
             }
         },
         {
+            "tag": "🇭🇰 HK | 🔓 TROJAN | @config_proxy [61]",
+            "type": "trojan",
+            "server": "58.152.30.92",
+            "server_port": 443,
+            "password": "c53647f3153f784b3c695ffbe5fb43c0",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.nintendogames.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [11]",
             "type": "trojan",
             "server": "160.16.138.24",
@@ -928,29 +946,6 @@
         {
             "tag": "🚩 CF | 🔒 TROJAN | @hope_net [7]",
             "type": "trojan",
-            "server": "104.18.218.118",
-            "server_port": 443,
-            "password": "a94edb46-0734-4593-a8b5-9cd11ddc57f6",
-            "tls": {
-                "enabled": true,
-                "server_name": "5c53ca21.vpn-aryoo.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram@Linkvws?ed=2560",
-                "headers": {
-                    "Host": "5c53ca21.vpn-aryoo.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [9]",
-            "type": "trojan",
             "server": "172.66.47.100",
             "server_port": 443,
             "password": "4045e84e-5e3c-4f70-8ff5-c1097882a55a",
@@ -972,7 +967,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [12]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [10]",
             "type": "trojan",
             "server": "162.159.153.3",
             "server_port": 443,
@@ -995,7 +990,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [13]",
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [11]",
             "type": "trojan",
             "server": "162.159.153.38",
             "server_port": 443,
@@ -1014,6 +1009,29 @@
                 "path": "/?ed=2560",
                 "headers": {
                     "Host": "vip.putata.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "104.17.147.5",
+            "server_port": 443,
+            "password": "2e3562a819634de686ade78e434c0963",
+            "tls": {
+                "enabled": true,
+                "server_name": "jobscareertoday.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/6b777a91",
+                "headers": {
+                    "Host": "jobscareertoday.com"
                 }
             }
         },
