@@ -106,7 +106,6 @@
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
                 "🇺🇸 US | 🔓 VMESS | @diamondproxytm [3]",
                 "🇨🇿 CZ | 🔓 VMESS | @drvpn_net [1]",
-                "🇩🇪 DE | 🔒 VMESS | @free1_vpn [6]",
                 "🇨🇭 CH | 🔓 VMESS | @freeshadowsock [3]",
                 "🇳🇱 NL | 🔓 VMESS | @freeshadowsock [4]",
                 "🇫🇮 FI | 🔓 VMESS | @freeshadowsock [5]",
@@ -137,8 +136,8 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
                 "🇸🇬 SG | 🔓 VMESS | @mowjproxy [2]",
+                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇺🇸 US | 🔓 VMESS | @netfreedom0 [19]",
@@ -209,7 +208,6 @@
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
                 "🇺🇸 US | 🔓 VMESS | @diamondproxytm [3]",
                 "🇨🇿 CZ | 🔓 VMESS | @drvpn_net [1]",
-                "🇩🇪 DE | 🔒 VMESS | @free1_vpn [6]",
                 "🇨🇭 CH | 🔓 VMESS | @freeshadowsock [3]",
                 "🇳🇱 NL | 🔓 VMESS | @freeshadowsock [4]",
                 "🇫🇮 FI | 🔓 VMESS | @freeshadowsock [5]",
@@ -240,8 +238,8 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
                 "🇸🇬 SG | 🔓 VMESS | @mowjproxy [2]",
+                "🇩🇪 DE | 🔒 VMESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇺🇸 US | 🔓 VMESS | @netfreedom0 [19]",
@@ -599,31 +597,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @free1_vpn [6]",
-            "type": "vmess",
-            "server": "jamekk.org",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "jamekk.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "jamekk.org"
                 }
             }
         },
@@ -1090,16 +1063,25 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
+            "tag": "🇸🇬 SG | 🔓 VMESS | @mowjproxy [2]",
             "type": "vmess",
-            "server": "104.17.148.22",
-            "server_port": 2083,
-            "uuid": "8ae65664-84e8-40e1-9708-9236f0808dfd",
+            "server": "62.146.235.13",
+            "server_port": 550,
+            "uuid": "aad228b6-3aa8-44c4-94d6-6094040f496a",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @mowjproxy [4]",
+            "type": "vmess",
+            "server": "57.129.24.132",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "api3.waltonweb.ir",
+                "server_name": "serkat.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1108,20 +1090,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/panel?ed=2560",
+                "path": "/linkvws",
                 "headers": {
-                    "Host": "api3.waltonweb.ir"
+                    "Host": "serkat.org"
                 }
             }
-        },
-        {
-            "tag": "🇸🇬 SG | 🔓 VMESS | @mowjproxy [2]",
-            "type": "vmess",
-            "server": "62.146.235.13",
-            "server_port": 550,
-            "uuid": "aad228b6-3aa8-44c4-94d6-6094040f496a",
-            "security": "auto",
-            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",

@@ -85,8 +85,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [76]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [77]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [78]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -99,6 +98,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [21]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [22]",
                 "🇺🇸 US | 🔒 VLESS | @f_nirevil [1]",
+                "🚩 CF | 🔒 VLESS | @falcunargo [20]",
                 "🇮🇷 IR | 🔓 VLESS | @farstar_vpn [1]",
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [26]",
@@ -180,6 +180,7 @@
                 "🚩 CF | 🔒 VLESS | @novinology [15]",
                 "🇨🇭 CH | 🔓 VLESS | @oonfig [2]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [15]",
+                "🇩🇪 DE | 🔒 VLESS | @outline_ir [19]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🚩 CF | 🔒 VLESS | @pro_chaneel [1]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
@@ -270,8 +271,7 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇳🇱 NL | 🔒 VLESS | @config_proxy [76]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [77]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [78]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -284,6 +284,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [21]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [22]",
                 "🇺🇸 US | 🔒 VLESS | @f_nirevil [1]",
+                "🚩 CF | 🔒 VLESS | @falcunargo [20]",
                 "🇮🇷 IR | 🔓 VLESS | @farstar_vpn [1]",
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [26]",
@@ -365,6 +366,7 @@
                 "🚩 CF | 🔒 VLESS | @novinology [15]",
                 "🇨🇭 CH | 🔓 VLESS | @oonfig [2]",
                 "🇩🇪 DE | 🔓 VLESS | @orange_vpns [15]",
+                "🇩🇪 DE | 🔒 VLESS | @outline_ir [19]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🚩 CF | 🔒 VLESS | @pro_chaneel [1]",
                 "🚩 CF | 🔒 VLESS | @proxie [17]",
@@ -628,54 +630,13 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [76]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [78]",
             "type": "vless",
-            "server": "45.131.5.189",
-            "server_port": 2053,
-            "uuid": "08cb0591-5193-4a0c-9105-ceb09fba67fe",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "032b093d-3d8c-4386-ad6b-90b80d16dd04",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "AeEye-52235.zephorium.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "AeEye-52235.zephorium.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [77]",
-            "type": "vless",
-            "server": "185.174.138.47",
-            "server_port": 2053,
-            "uuid": "08cb0591-5193-4a0c-9105-ceb09fba67fe",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "AeEye-52235.zephorium.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "AeEye-52235.zephorium.uk"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -885,6 +846,31 @@
                 "path": "/FreedomToDream?ed=2560",
                 "headers": {
                     "Host": "cloudflare.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @falcunargo [20]",
+            "type": "vless",
+            "server": "188.114.96.0",
+            "server_port": 443,
+            "uuid": "d5307798-39b1-4296-805e-a07840036e2c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ir.mosidev.top",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws",
+                "headers": {
+                    "Host": "ir.mosidev.top"
                 }
             }
         },
@@ -2271,6 +2257,29 @@
                 "path": "/linkws?ed",
                 "headers": {
                     "Host": "138.199.159.218"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @outline_ir [19]",
+            "type": "vless",
+            "server": "193.46.81.151",
+            "server_port": 49330,
+            "uuid": "7f5c3ff3-c113-4379-812b-c5733f47d4e1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Dee9YE139lZpb4V3QytB8DvHY3nTCnEXzk2IjvMLHi8",
+                    "short_id": "b3"
                 }
             }
         },
