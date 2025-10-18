@@ -82,6 +82,8 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [72]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [73]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -122,6 +124,8 @@
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇬🇧 GB | 🔒 VLESS | @config_proxy [72]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [73]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @custom_14 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [9]",
@@ -287,6 +291,52 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @config_proxy [72]",
+            "type": "vless",
+            "server": "uk111m-lomin.mongral.ir",
+            "server_port": 4444,
+            "uuid": "71fe993e-0b00-4a03-9064-9aa38a107f6a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5if9NWaLaNEfwV9GuafHuas8q3wrxtsgf_-eInEOaSA",
+                    "short_id": "a3"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [73]",
+            "type": "vless",
+            "server": "lomia1lopmaliz1.mongral.ir",
+            "server_port": 4444,
+            "uuid": "71fe993e-0b00-4a03-9064-9aa38a107f6a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5if9NWaLaNEfwV9GuafHuas8q3wrxtsgf_-eInEOaSA",
+                    "short_id": "a3"
+                }
             }
         },
         {
