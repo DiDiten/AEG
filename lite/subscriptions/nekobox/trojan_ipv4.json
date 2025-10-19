@@ -81,6 +81,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
+                "🚩 CF | 🔒 TROJAN | @outline_ir [19]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
@@ -102,6 +103,7 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇩🇪 DE | 🔒 TROJAN | @mt_proxy [7]",
+                "🚩 CF | 🔒 TROJAN | @outline_ir [19]",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [12]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [14]",
@@ -214,6 +216,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @outline_ir [19]",
+            "type": "trojan",
+            "server": "104.21.33.216",
+            "server_port": 443,
+            "password": "bebffc49-b2d0-4c56-a8df-62d1603446a4",
+            "tls": {
+                "enabled": true,
+                "server_name": "joss.krikkrik.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Free-VPN-CF-Geo-Project/AE2",
+                "headers": {
+                    "Host": "joss.krikkrik.xyz"
                 }
             }
         },
