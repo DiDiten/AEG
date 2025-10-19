@@ -101,13 +101,12 @@
                 "🚩 CF | 🔓 VLESS | @kafing_2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [9]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [6]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [10]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [7]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [61]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [14]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -188,13 +187,12 @@
                 "🚩 CF | 🔓 VLESS | @kafing_2 [6]",
                 "🇺🇸 US | 🔓 VLESS | @megavpn_link [1]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [9]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [6]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [10]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [7]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [61]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [14]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -423,15 +421,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [9]",
-            "type": "vless",
-            "server": "pscresearch.faculty.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "e19ea416-a077-4793-b4e4-d17fc629c903",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
             "type": "vless",
             "server": "sss46544.tas-bazi.com",
@@ -504,13 +493,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [61]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "5a794c39-7d02-471b-b4f4-df91c7dd6a9f",
+            "server": "207.246.67.33",
+            "server_port": 443,
+            "uuid": "9379bbd7-96a6-4ea5-8c88-a1a9af932ec0",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "207.246.67.33",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",

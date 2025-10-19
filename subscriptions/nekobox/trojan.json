@@ -98,7 +98,8 @@
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🚩 CF | 🔒 TROJAN | @v2ray_sub [42]",
-                "🇺🇸 US | 🔓 TROJAN | @v2raych [15]",
+                "🇺🇸 US | 🔓 TROJAN | @v2raych [6]",
+                "🇭🇰 HK | 🔒 TROJAN | @v2raych [12]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -113,8 +114,7 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [7]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "❔ XX | 🔒 TROJAN | @hope_net [6]",
-                "🇩🇪 DE | 🔒 TROJAN | @hope_net [14]",
+                "🇩🇪 DE | 🔒 TROJAN | @hope_net [12]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -141,6 +141,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🇺🇸 US | 🔓 TROJAN | @v2raych [14]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -190,7 +191,8 @@
                 "🚩 CF | 🔒 TROJAN | @teamvpnpro [4]",
                 "🇩🇪 DE | 🔓 TROJAN | @teamvpnpro [7]",
                 "🚩 CF | 🔒 TROJAN | @v2ray_sub [42]",
-                "🇺🇸 US | 🔓 TROJAN | @v2raych [15]",
+                "🇺🇸 US | 🔓 TROJAN | @v2raych [6]",
+                "🇭🇰 HK | 🔒 TROJAN | @v2raych [12]",
                 "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [33]",
                 "❔ XX | 🔒 TROJAN | @v2rayngconfig [35]",
@@ -205,8 +207,7 @@
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [7]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "❔ XX | 🔒 TROJAN | @hope_net [6]",
-                "🇩🇪 DE | 🔒 TROJAN | @hope_net [14]",
+                "🇩🇪 DE | 🔒 TROJAN | @hope_net [12]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [5]",
@@ -233,6 +234,7 @@
                 "🇫🇷 FR | 🔒 TROJAN | @proxyfn [19]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🇺🇸 US | 🔓 TROJAN | @v2raych [14]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [43]",
                 "🇨🇦 CA | 🔒 TROJAN | @v2rayngconfig [44]",
@@ -696,11 +698,34 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 TROJAN | @v2raych [15]",
+            "tag": "🇺🇸 US | 🔓 TROJAN | @v2raych [6]",
             "type": "trojan",
             "server": "us003.421421.xyz",
             "server_port": 20230,
             "password": "ac590e89-ba43-49a1-a8b2-38ec70dc7907"
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 TROJAN | @v2raych [12]",
+            "type": "trojan",
+            "server": "claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma",
+            "server_port": 443,
+            "password": "a3ca0380-8a17-403a-a5b3-a9f6e59be193",
+            "tls": {
+                "enabled": true,
+                "server_name": "claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/a3ca0380-8a17-403a-a5b3-a9f6e59be193",
+                "headers": {
+                    "Host": "claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔒 TROJAN | @v2rayngconfig [32]",
@@ -933,23 +958,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "❔ XX | 🔒 TROJAN | @hope_net [6]",
-            "type": "trojan",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "password": "cbcabaa-abca-acba-abcd-bbcaabaccbca",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @hope_net [14]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @hope_net [12]",
             "type": "trojan",
             "server": "18.153.249.160",
             "server_port": 22222,
@@ -1390,6 +1399,13 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 TROJAN | @v2raych [14]",
+            "type": "trojan",
+            "server": "18.220.22.172",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn"
         },
         {
             "tag": "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [34]",
