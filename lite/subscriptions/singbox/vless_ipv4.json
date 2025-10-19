@@ -97,8 +97,8 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [71]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [72]",
+                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=138.199.159.218&type=ws#🇩🇪 DE | 🔓 VLESS | @config_proxy [63]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [64]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -111,7 +111,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [21]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [22]",
                 "🇺🇸 US | 🔒 VLESS | @f_nirevil [1]",
-                "🚩 CF | 🔒 VLESS | @falcunargo [20]",
+                "🚩 CF | 🔒 VLESS | @falcunargo [16]",
                 "🇮🇷 IR | 🔓 VLESS | @farstar_vpn [1]",
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [26]",
@@ -281,8 +281,8 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [71]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [72]",
+                "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=138.199.159.218&type=ws#🇩🇪 DE | 🔓 VLESS | @config_proxy [63]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [64]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -295,7 +295,7 @@
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [21]",
                 "🇩🇪 DE | 🔓 VLESS | @evay_vpn [22]",
                 "🇺🇸 US | 🔒 VLESS | @f_nirevil [1]",
-                "🚩 CF | 🔒 VLESS | @falcunargo [20]",
+                "🚩 CF | 🔒 VLESS | @falcunargo [16]",
                 "🇮🇷 IR | 🔓 VLESS | @farstar_vpn [1]",
                 "🚩 CF | 🔓 VLESS | @father_vpn [2]",
                 "🇦🇪 AE | 🔓 VLESS | @filterk0sh [26]",
@@ -634,20 +634,29 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [71]",
+            "tag": "TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=none&encryption=none&host=138.199.159.218&type=ws#🇩🇪 DE | 🔓 VLESS | @config_proxy [63]",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "ecaf8cdf-a9c5-4289-af1a-dfe128d8df85",
+            "server": "138.199.159.218",
+            "server_port": 443,
+            "uuid": "47134234-9a13-4a90-a75a-826f922497f6",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "138.199.159.218",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [72]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [64]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "cc1b6c6a-2471-41a8-c723-bebeff660fc5",
+            "uuid": "82b155ff-789c-4b11-b3ca-a1220e5f531d",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -863,7 +872,7 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @falcunargo [20]",
+            "tag": "🚩 CF | 🔒 VLESS | @falcunargo [16]",
             "type": "vless",
             "server": "188.114.96.0",
             "server_port": 443,
