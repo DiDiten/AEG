@@ -95,6 +95,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [4]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -106,7 +107,6 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [10]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [7]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [14]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -181,6 +181,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [4]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -192,7 +193,6 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [10]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [7]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
                 "🇺🇸 US | 🔓 VLESS | @falcunargo [14]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
@@ -367,6 +367,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "sw.modernstore3.ir",
+            "server_port": 80,
+            "uuid": "a40e2c15-6c4d-b5e6-3e9c-d2adad0ee1e6",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
             "type": "vless",
             "server": "holkanas.atroart.ir",
@@ -491,24 +500,6 @@
             "uuid": "7619bae4-4256-440a-a599-0814ad47b8c9",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [63]",
-            "type": "vless",
-            "server": "207.246.67.33",
-            "server_port": 443,
-            "uuid": "9379bbd7-96a6-4ea5-8c88-a1a9af932ec0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "207.246.67.33",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @falcunargo [12]",
