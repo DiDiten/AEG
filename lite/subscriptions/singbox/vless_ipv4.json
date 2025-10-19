@@ -97,7 +97,6 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [62]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -255,9 +254,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇺🇸 US | 🔒 VLESS | @vipv2rey [38]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇫🇷 FR | 🔒 VLESS | @vlessconfig [14]",
-                "🇫🇷 FR | 🔒 VLESS | @vlessconfig [15]",
-                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
+                "🇫🇷 FR | 🔒 VLESS | @vlessconfig [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [13]",
+                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [14]",
+                "🇫🇮 FI | 🔒 VLESS | @vmesc [20]",
                 "🚩 CF | 🔒 VLESS | @vmessorg [4]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
@@ -281,7 +281,6 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [10]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [62]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -439,9 +438,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🇺🇸 US | 🔒 VLESS | @vipv2rey [38]",
                 "🇩🇪 DE | 🔒 VLESS | @vipv2rey [40]",
-                "🇫🇷 FR | 🔒 VLESS | @vlessconfig [14]",
-                "🇫🇷 FR | 🔒 VLESS | @vlessconfig [15]",
-                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
+                "🇫🇷 FR | 🔒 VLESS | @vlessconfig [12]",
+                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [13]",
+                "🇩🇪 DE | 🔒 VLESS | @vlessconfig [14]",
+                "🇫🇮 FI | 🔒 VLESS | @vmesc [20]",
                 "🚩 CF | 🔒 VLESS | @vmessorg [4]",
                 "🇫🇮 FI | 🔒 VLESS | @vpn_ocean [1]",
                 "🚩 CF | 🔒 VLESS | @vpn_ocean [2]",
@@ -630,31 +630,6 @@
                 "path": "/veNbt06rF0tTFtp6/MTcyLjY0LjEzNC41OA==?ed=2560",
                 "headers": {
                     "Host": "SpEedteST.NET"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [62]",
-            "type": "vless",
-            "server": "198.41.208.69",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "lj.kpcloud.eu.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2048",
-                "headers": {
-                    "Host": "lj.kpcloud.eu.org"
                 }
             }
         },
@@ -3371,32 +3346,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vlessconfig [14]",
-            "type": "vless",
-            "server": "13.37.119.88",
-            "server_port": 22224,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-channel-vlessconfig",
-                "headers": {
-                    "Host": "trojan.burgerip.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vlessconfig [15]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vlessconfig [12]",
             "type": "vless",
             "server": "35.180.53.192",
             "server_port": 22224,
@@ -3421,7 +3371,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vlessconfig [16]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vlessconfig [13]",
             "type": "vless",
             "server": "3.71.198.171",
             "server_port": 22224,
@@ -3443,6 +3393,53 @@
                 "headers": {
                     "Host": "trojan.burgerip.co.uk"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vlessconfig [14]",
+            "type": "vless",
+            "server": "3.127.95.57",
+            "server_port": 22224,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-channel-vlessconfig",
+                "headers": {
+                    "Host": "trojan.burgerip.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @vmesc [20]",
+            "type": "vless",
+            "server": "46.62.220.103",
+            "server_port": 27802,
+            "uuid": "a42343e4-c498-42b7-8361-c03a36e7a5fb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "offged.sahandconfig.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Smxhabwh"
             }
         },
         {

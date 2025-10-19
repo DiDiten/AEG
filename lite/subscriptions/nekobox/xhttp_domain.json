@@ -81,6 +81,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [67]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [68]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -95,6 +97,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [67]",
+                "🇹🇷 TR | 🔒 VLESS | @config_proxy [68]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
@@ -195,6 +199,52 @@
             "uuid": "8186e182-d93f-4571-e634-60140ef60b8e",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [67]",
+            "type": "vless",
+            "server": "vip.hich-shop.ir",
+            "server_port": 443,
+            "uuid": "9f6e1427-deea-4773-9edb-4a3835c36c02",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4pcPgILldFkmCGeDdd0l-TZjXE6697Ma0uvhbB1H-iY",
+                    "short_id": "7e1fdc"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🔒 VLESS | @config_proxy [68]",
+            "type": "vless",
+            "server": "v2raybluecrystal2.3dfigures.ir",
+            "server_port": 80,
+            "uuid": "5e75197e-53ca-4256-bf1c-c356c7a378b3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rFRgOG1YES2qi6d1xyihs21ourOyv7xRi9MnLd-3x1U",
+                    "short_id": "d99c"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
