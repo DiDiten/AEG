@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [68]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇮🇹 IT | 🔒 VLESS | @free4allvpn [18]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -108,10 +109,11 @@
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [11]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
+                "🇩🇪 DE | 🔒 VLESS | @outline_ir [19]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇺🇸 US | 🔒 VLESS | @v2aryng_vpn [12]",
+                "🇺🇸 US | 🔒 VLESS | @v2aryng_vpn [11]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -132,6 +134,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [68]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇮🇹 IT | 🔒 VLESS | @free4allvpn [18]",
                 "🇷🇺 RU | 🔒 VLESS | @game_file2020 [5]",
@@ -148,10 +151,11 @@
                 "🇺🇸 US | 🔒 VLESS | @msv2flyng [14]",
                 "🇺🇸 US | 🔒 VLESS | @mtpv2ray [11]",
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [14]",
+                "🇩🇪 DE | 🔒 VLESS | @outline_ir [19]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
                 "🇷🇺 RU | 🔒 VLESS | @proxyfn [17]",
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
-                "🇺🇸 US | 🔒 VLESS | @v2aryng_vpn [12]",
+                "🇺🇸 US | 🔒 VLESS | @v2aryng_vpn [11]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -244,6 +248,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [68]",
+            "type": "vless",
+            "server": "144.31.0.136",
+            "server_port": 8443,
+            "uuid": "80db8cee-bd3d-4dde-a3b2-02b6cdb70d99",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg",
+                    "short_id": "44103f58"
                 }
             }
         },
@@ -632,6 +659,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @outline_ir [19]",
+            "type": "vless",
+            "server": "193.46.81.151",
+            "server_port": 49330,
+            "uuid": "7f5c3ff3-c113-4379-812b-c5733f47d4e1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Dee9YE139lZpb4V3QytB8DvHY3nTCnEXzk2IjvMLHi8",
+                    "short_id": "b3"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @parsashonam [7]",
             "type": "vless",
             "server": "91.99.179.233",
@@ -701,7 +751,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @v2aryng_vpn [12]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @v2aryng_vpn [11]",
             "type": "vless",
             "server": "5.181.171.2",
             "server_port": 443,
