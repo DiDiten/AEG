@@ -96,8 +96,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "❔ XX | 🔒 VLESS | @config_proxy [60]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [67]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [58]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [72]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -146,6 +147,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇪🇪 EE | 🔒 VLESS | @v2raych [16]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
@@ -202,8 +204,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "❔ XX | 🔒 VLESS | @config_proxy [60]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [67]",
+                "🇱🇹 LT | 🔒 VLESS | @config_proxy [58]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
+                "🇵🇱 PL | 🔒 VLESS | @config_proxy [72]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -252,6 +255,7 @@
                 "❔ XX | 🔒 VLESS | @torang_vpn [17]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇪🇪 EE | 🔒 VLESS | @v2raych [16]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [7]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [9]",
@@ -480,11 +484,34 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [60]",
+            "tag": "🇱🇹 LT | 🔒 VLESS | @config_proxy [58]",
             "type": "vless",
-            "server": "dp.roverlow.com",
-            "server_port": 7893,
-            "uuid": "97679fc2-deb6-4ab5-94bb-686622bc4d03",
+            "server": "hield.ru",
+            "server_port": 8443,
+            "uuid": "d9eb8f7e-16d3-416f-a56e-ae35dc6afbb6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "c7pmEcOmq_DP_i2LVMrBi85FQ-ueco4teFc2IJb8zVE",
+                    "short_id": "4ddc"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [61]",
+            "type": "vless",
+            "server": "germany.marzxo.biz",
+            "server_port": 8080,
+            "uuid": "406b56c8-deb1-e185-ebc8-d8b7f4f302ec",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
@@ -497,31 +524,31 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "4wQM_RBIjAR27D6Vou1QZfa1mF2gw8SDEDiwoEd3Cxo",
-                    "short_id": ""
+                    "public_key": "Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU",
+                    "short_id": "828348fc6d8e49cf"
                 }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [67]",
+            "tag": "🇵🇱 PL | 🔒 VLESS | @config_proxy [72]",
             "type": "vless",
-            "server": "vfast7.hvitrin.ir",
-            "server_port": 49330,
-            "uuid": "7f5c3ff3-c113-4379-812b-c5733f47d4e1",
+            "server": "poland.aliusvpn.ru",
+            "server_port": 8443,
+            "uuid": "80db8cee-bd3d-4dde-a3b2-02b6cdb70d99",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "miro.com",
+                "server_name": "google.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": null
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Dee9YE139lZpb4V3QytB8DvHY3nTCnEXzk2IjvMLHi8",
-                    "short_id": "b3"
+                    "public_key": "cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg",
+                    "short_id": "44103f58"
                 }
             }
         },
@@ -1717,6 +1744,29 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
+                }
+            }
+        },
+        {
+            "tag": "🇪🇪 EE | 🔒 VLESS | @v2raych [16]",
+            "type": "vless",
+            "server": "est-0001-xr.packet-drop-society.net",
+            "server_port": 443,
+            "uuid": "701c0432-aecc-4aa6-b461-20d3db19bdf3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws",
+                    "short_id": "86e999a2cdc2"
                 }
             }
         },
